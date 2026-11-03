@@ -51,6 +51,11 @@ function el(etiqueta, atributos, ...filhos) {
   return elemento;
 }
 
+// Troca o conteúdo do ecrã, ignorando as peças vazias: replaceChildren escreveria "null" como texto.
+function mostrar(...pecas) {
+  conteudo.replaceChildren(...pecas.filter(Boolean));
+}
+
 // Só deixa passar endereços http(s). Devolve null para o resto.
 function linkSeguro(endereco) {
   try {
@@ -293,7 +298,7 @@ function desenharListaBandas(bandas) {
 function desenharBandas() {
   const bandas = bandasFiltradas();
   const origem = dados.fontes && dados.fontes.bandas;
-  conteudo.replaceChildren(
+  mostrar(
     el('h1', null, 'Bandas'),
     desenharFiltros(),
     desenharLancamentos(bandas),
@@ -317,7 +322,7 @@ function desenharBanda(id) {
   }
   const spotify = linkSeguro(banda.spotify);
 
-  conteudo.replaceChildren(
+  mostrar(
     el('button', { type: 'button', class: 'botao-voltar', aoTocar: () => { location.hash = '#bandas'; } }, '‹ Bandas'),
     el('h1', null, banda.nome),
     el('p', { class: 'subtitulo' }, banda.categoria),

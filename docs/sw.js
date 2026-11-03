@@ -1,7 +1,7 @@
 // sw.js: "service worker". Guarda a app e os últimos dados no aparelho, para abrir sem internet.
 // Tenta sempre primeiro a versão mais recente; sem internet, usa a guardada.
 
-const NOME_CACHE = 'metal-v3';
+const NOME_CACHE = 'metal-v4';
 const FICHEIROS = ['./', 'index.html', 'style.css', 'app.js', 'manifest.json', 'icon.png'];
 
 self.addEventListener('install', (evento) => {
