@@ -1,0 +1,12 @@
+# Nunca publicar: notas locais e definições do Claude Code
+CLAUDE.md
+.claude/
+
+# Segredos locais, caso venham a existir
+.env
+*.secret
+
+# Python e macOS
+__pycache__/
+*.pyc
+.DS_Store

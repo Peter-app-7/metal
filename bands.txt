@@ -1,0 +1,19 @@
+# Plano B: esta lista só é usada se o Spotify não estiver ligado ou falhar.
+# Uma banda por linha. As linhas começadas por # são ignoradas.
+# ATENÇÃO: estas bandas são apenas um exemplo inicial. Troca-as pelas tuas.
+Metallica
+Slayer
+Kreator
+Death
+Cannibal Corpse
+Morbid Angel
+Mayhem
+Emperor
+Gaerea
+Moonspell
+Electric Wizard
+Eyehategod
+Slipknot
+Korn
+Architects
+Meshuggah

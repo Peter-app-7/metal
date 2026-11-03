@@ -1,0 +1,2318 @@
+{
+ "atualizado": "2026-11-03T11:34:00+00:00",
+ "fontes": {
+  "concertos": "sem_app_id",
+  "excluidas": [],
+  "bandas": "bands.txt",
+  "feeds": [
+   {
+    "nome": "Blabbermouth",
+    "ok": true,
+    "artigos": 30
+   },
+   {
+    "nome": "Metal Injection",
+    "ok": true,
+    "artigos": 25
+   },
+   {
+    "nome": "Metal Hammer",
+    "ok": true,
+    "artigos": 30
+   },
+   {
+    "nome": "MetalSucks",
+    "ok": true,
+    "artigos": 9
+   },
+   {
+    "nome": "Decibel",
+    "ok": true,
+    "artigos": 10
+   },
+   {
+    "nome": "BraveWords",
+    "ok": true,
+    "artigos": 30
+   },
+   {
+    "nome": "Metal Storm",
+    "ok": true,
+    "artigos": 15
+   },
+   {
+    "nome": "The Black Planet",
+    "ok": true,
+    "artigos": 10
+   }
+  ]
+ },
+ "avisos": [
+  "Spotify por ligar. Foi usada a lista bands.txt.",
+  "Concertos por ativar: falta o app_id da Bandsintown."
+ ],
+ "bandas": [
+  {
+   "id": "metallica",
+   "nome": "Metallica",
+   "categoria": "Thrash",
+   "spotify": "https://open.spotify.com/search/Metallica",
+   "lancamentos": [
+    {
+     "id": "a0b7b436-94db-4df6-8c5f-bc0e5932a90e",
+     "titulo": "72 Seasons",
+     "tipo": "Álbum",
+     "data": "2023-04-14",
+     "capa": "https://coverartarchive.org/release-group/a0b7b436-94db-4df6-8c5f-bc0e5932a90e/front-250",
+     "spotify": "https://open.spotify.com/search/Metallica%2072%20Seasons"
+    },
+    {
+     "id": "55d8ab42-990b-4c94-93c8-9ca7927b5fc0",
+     "titulo": "Hardwired… to Self‐Destruct",
+     "tipo": "Álbum",
+     "data": "2016-11-08",
+     "capa": "https://coverartarchive.org/release-group/55d8ab42-990b-4c94-93c8-9ca7927b5fc0/front-250",
+     "spotify": "https://open.spotify.com/search/Metallica%20Hardwired%E2%80%A6%20to%20Self%E2%80%90Destruct"
+    },
+    {
+     "id": "38d1077e-c270-49a8-92ca-87e7eb8d9fe4",
+     "titulo": "Lulu",
+     "tipo": "Álbum",
+     "data": "2011-10-31",
+     "capa": "https://coverartarchive.org/release-group/38d1077e-c270-49a8-92ca-87e7eb8d9fe4/front-250",
+     "spotify": "https://open.spotify.com/search/Metallica%20Lulu"
+    },
+    {
+     "id": "5c8a25bf-4764-3cce-8f37-30af79d3b101",
+     "titulo": "Death Magnetic",
+     "tipo": "Álbum",
+     "data": "2008-09-06",
+     "capa": "https://coverartarchive.org/release-group/5c8a25bf-4764-3cce-8f37-30af79d3b101/front-250",
+     "spotify": "https://open.spotify.com/search/Metallica%20Death%20Magnetic"
+    },
+    {
+     "id": "8f1cc89b-7e80-3e1c-b571-8cf2b98db347",
+     "titulo": "St. Anger",
+     "tipo": "Álbum",
+     "data": "2003-06-04",
+     "capa": "https://coverartarchive.org/release-group/8f1cc89b-7e80-3e1c-b571-8cf2b98db347/front-250",
+     "spotify": "https://open.spotify.com/search/Metallica%20St.%20Anger"
+    },
+    {
+     "id": "8fd32554-02a7-3788-a761-7012e0e75e55",
+     "titulo": "Reload",
+     "tipo": "Álbum",
+     "data": "1997-11-15",
+     "capa": "https://coverartarchive.org/release-group/8fd32554-02a7-3788-a761-7012e0e75e55/front-250",
+     "spotify": "https://open.spotify.com/search/Metallica%20Reload"
+    },
+    {
+     "id": "e389b7df-862d-3d91-a612-acca150f6e71",
+     "titulo": "Load",
+     "tipo": "Álbum",
+     "data": "1996-05-04",
+     "capa": "https://coverartarchive.org/release-group/e389b7df-862d-3d91-a612-acca150f6e71/front-250",
+     "spotify": "https://open.spotify.com/search/Metallica%20Load"
+    },
+    {
+     "id": "e8f70201-8899-3f0c-9e07-5d6495bc8046",
+     "titulo": "Metallica",
+     "tipo": "Álbum",
+     "data": "1991-08-12",
+     "capa": "https://coverartarchive.org/release-group/e8f70201-8899-3f0c-9e07-5d6495bc8046/front-250",
+     "spotify": "https://open.spotify.com/search/Metallica%20Metallica"
+    },
+    {
+     "id": "67553e23-8dad-3792-b6f2-8fedd5650ff3",
+     "titulo": "…And Justice for All",
+     "tipo": "Álbum",
+     "data": "1988-08-25",
+     "capa": "https://coverartarchive.org/release-group/67553e23-8dad-3792-b6f2-8fedd5650ff3/front-250",
+     "spotify": "https://open.spotify.com/search/Metallica%20%E2%80%A6And%20Justice%20for%20All"
+    },
+    {
+     "id": "3d00fb45-f8ab-3436-a8e1-b4bfc4d66913",
+     "titulo": "Master of Puppets",
+     "tipo": "Álbum",
+     "data": "1986-03-03",
+     "capa": "https://coverartarchive.org/release-group/3d00fb45-f8ab-3436-a8e1-b4bfc4d66913/front-250",
+     "spotify": "https://open.spotify.com/search/Metallica%20Master%20of%20Puppets"
+    }
+   ],
+   "concertos": []
+  },
+  {
+   "id": "slayer",
+   "nome": "Slayer",
+   "categoria": "Thrash",
+   "spotify": "https://open.spotify.com/search/Slayer",
+   "lancamentos": [
+    {
+     "id": "d1e3a8da-3188-41d8-877c-7b9f2c3cb127",
+     "titulo": "Repentless",
+     "tipo": "Álbum",
+     "data": "2015-09-10",
+     "capa": "https://coverartarchive.org/release-group/d1e3a8da-3188-41d8-877c-7b9f2c3cb127/front-250",
+     "spotify": "https://open.spotify.com/search/Slayer%20Repentless"
+    },
+    {
+     "id": "1722d206-eba4-426e-8977-599057ccdbc8",
+     "titulo": "World Painted Blood",
+     "tipo": "Álbum",
+     "data": "2009-10-28",
+     "capa": "https://coverartarchive.org/release-group/1722d206-eba4-426e-8977-599057ccdbc8/front-250",
+     "spotify": "https://open.spotify.com/search/Slayer%20World%20Painted%20Blood"
+    },
+    {
+     "id": "190e1d6e-f206-4e4a-8333-3b78d194fbce",
+     "titulo": "Dead Commander",
+     "tipo": "Álbum",
+     "data": "2008",
+     "capa": "https://coverartarchive.org/release-group/190e1d6e-f206-4e4a-8333-3b78d194fbce/front-250",
+     "spotify": "https://open.spotify.com/search/Slayer%20Dead%20Commander"
+    },
+    {
+     "id": "fad96cf2-38e1-3600-97f1-df3bab2ede0a",
+     "titulo": "Christ Illusion",
+     "tipo": "Álbum",
+     "data": "2006-08-04",
+     "capa": "https://coverartarchive.org/release-group/fad96cf2-38e1-3600-97f1-df3bab2ede0a/front-250",
+     "spotify": "https://open.spotify.com/search/Slayer%20Christ%20Illusion"
+    },
+    {
+     "id": "246bf50d-d1f4-4d3a-8839-1d62e7a1d67a",
+     "titulo": "3 Song Sampler",
+     "tipo": "EP",
+     "data": "2006-06-15",
+     "capa": "https://coverartarchive.org/release-group/246bf50d-d1f4-4d3a-8839-1d62e7a1d67a/front-250",
+     "spotify": "https://open.spotify.com/search/Slayer%203%20Song%20Sampler"
+    },
+    {
+     "id": "c2adf976-4a25-3838-9346-067d482e236c",
+     "titulo": "God Hates Us All",
+     "tipo": "Álbum",
+     "data": "2001-08-29",
+     "capa": "https://coverartarchive.org/release-group/c2adf976-4a25-3838-9346-067d482e236c/front-250",
+     "spotify": "https://open.spotify.com/search/Slayer%20God%20Hates%20Us%20All"
+    },
+    {
+     "id": "0a842bc2-9ad4-49e9-8fa6-49837bbd9bf5",
+     "titulo": "God Hates Us All",
+     "tipo": "EP",
+     "data": "2001",
+     "capa": "https://coverartarchive.org/release-group/0a842bc2-9ad4-49e9-8fa6-49837bbd9bf5/front-250",
+     "spotify": "https://open.spotify.com/search/Slayer%20God%20Hates%20Us%20All"
+    },
+    {
+     "id": "415f4fdc-8b9c-3a83-98bc-b69cd154663b",
+     "titulo": "Diabolus in Musica",
+     "tipo": "Álbum",
+     "data": "1998-06-09",
+     "capa": "https://coverartarchive.org/release-group/415f4fdc-8b9c-3a83-98bc-b69cd154663b/front-250",
+     "spotify": "https://open.spotify.com/search/Slayer%20Diabolus%20in%20Musica"
+    },
+    {
+     "id": "9e689c2b-46b3-3b53-b20b-7a4ff58cbd23",
+     "titulo": "Undisputed Attitude",
+     "tipo": "Álbum",
+     "data": "1996-05-18",
+     "capa": "https://coverartarchive.org/release-group/9e689c2b-46b3-3b53-b20b-7a4ff58cbd23/front-250",
+     "spotify": "https://open.spotify.com/search/Slayer%20Undisputed%20Attitude"
+    },
+    {
+     "id": "1ff864b6-0132-30ad-b653-13d28a931c17",
+     "titulo": "Divine Intervention",
+     "tipo": "Álbum",
+     "data": "1994-09-27",
+     "capa": "https://coverartarchive.org/release-group/1ff864b6-0132-30ad-b653-13d28a931c17/front-250",
+     "spotify": "https://open.spotify.com/search/Slayer%20Divine%20Intervention"
+    }
+   ],
+   "concertos": []
+  },
+  {
+   "id": "kreator",
+   "nome": "Kreator",
+   "categoria": "Thrash",
+   "spotify": "https://open.spotify.com/search/Kreator",
+   "lancamentos": [
+    {
+     "id": "21250117-a80a-4468-96ea-3a9342906c51",
+     "titulo": "Krushers of the World",
+     "tipo": "Álbum",
+     "data": "2026-01-16",
+     "capa": "https://coverartarchive.org/release-group/21250117-a80a-4468-96ea-3a9342906c51/front-250",
+     "spotify": "https://open.spotify.com/search/Kreator%20Krushers%20of%20the%20World"
+    },
+    {
+     "id": "4e54edd8-256e-4870-9bc7-4abda4695fce",
+     "titulo": "Hate über alles",
+     "tipo": "Álbum",
+     "data": "2022-06-10",
+     "capa": "https://coverartarchive.org/release-group/4e54edd8-256e-4870-9bc7-4abda4695fce/front-250",
+     "spotify": "https://open.spotify.com/search/Kreator%20Hate%20%C3%BCber%20alles"
+    },
+    {
+     "id": "858debbf-65a2-4592-9402-ae74e9d72d53",
+     "titulo": "For the Hordes EP",
+     "tipo": "EP",
+     "data": "2019-12-28",
+     "capa": "https://coverartarchive.org/release-group/858debbf-65a2-4592-9402-ae74e9d72d53/front-250",
+     "spotify": "https://open.spotify.com/search/Kreator%20For%20the%20Hordes%20EP"
+    },
+    {
+     "id": "074dcb38-9064-4e05-aead-c8487c12b5fe",
+     "titulo": "Gods of Violence",
+     "tipo": "Álbum",
+     "data": "2017-01-27",
+     "capa": "https://coverartarchive.org/release-group/074dcb38-9064-4e05-aead-c8487c12b5fe/front-250",
+     "spotify": "https://open.spotify.com/search/Kreator%20Gods%20of%20Violence"
+    },
+    {
+     "id": "d1bd9222-e0c4-4c99-a8eb-c911d31469cd",
+     "titulo": "Violence Unleashed",
+     "tipo": "EP",
+     "data": "2016-12-23",
+     "capa": "https://coverartarchive.org/release-group/d1bd9222-e0c4-4c99-a8eb-c911d31469cd/front-250",
+     "spotify": "https://open.spotify.com/search/Kreator%20Violence%20Unleashed"
+    },
+    {
+     "id": "1e6e78c0-56bd-4732-8ed7-d3b185be3c1d",
+     "titulo": "The Big Teutonic 4 – Part II",
+     "tipo": "EP",
+     "data": "2015-02-25",
+     "capa": "https://coverartarchive.org/release-group/1e6e78c0-56bd-4732-8ed7-d3b185be3c1d/front-250",
+     "spotify": "https://open.spotify.com/search/Kreator%20The%20Big%20Teutonic%204%20%E2%80%93%20Part%20II"
+    },
+    {
+     "id": "c4fd6721-61b1-4ff2-8a98-f7279edc8094",
+     "titulo": "The Big Teutonic 4",
+     "tipo": "EP",
+     "data": "2012-12-22",
+     "capa": "https://coverartarchive.org/release-group/c4fd6721-61b1-4ff2-8a98-f7279edc8094/front-250",
+     "spotify": "https://open.spotify.com/search/Kreator%20The%20Big%20Teutonic%204"
+    },
+    {
+     "id": "bd5be3ae-4a70-4bb6-8704-614170761457",
+     "titulo": "Phantom Antichrist",
+     "tipo": "Álbum",
+     "data": "2012-05-30",
+     "capa": "https://coverartarchive.org/release-group/bd5be3ae-4a70-4bb6-8704-614170761457/front-250",
+     "spotify": "https://open.spotify.com/search/Kreator%20Phantom%20Antichrist"
+    },
+    {
+     "id": "c59506a5-e829-36ac-a926-fa215ccc8d5a",
+     "titulo": "Hordes of Chaos",
+     "tipo": "Álbum",
+     "data": "2009-01-13",
+     "capa": "https://coverartarchive.org/release-group/c59506a5-e829-36ac-a926-fa215ccc8d5a/front-250",
+     "spotify": "https://open.spotify.com/search/Kreator%20Hordes%20of%20Chaos"
+    },
+    {
+     "id": "36c13350-7643-3373-8aa0-b025bf6e7e0e",
+     "titulo": "Enemy of God",
+     "tipo": "Álbum",
+     "data": "2005-01-10",
+     "capa": "https://coverartarchive.org/release-group/36c13350-7643-3373-8aa0-b025bf6e7e0e/front-250",
+     "spotify": "https://open.spotify.com/search/Kreator%20Enemy%20of%20God"
+    }
+   ],
+   "concertos": []
+  },
+  {
+   "id": "death",
+   "nome": "Death",
+   "categoria": "Death",
+   "spotify": "https://open.spotify.com/search/Death",
+   "lancamentos": [
+    {
+     "id": "0cd38da9-90a9-3e0b-bef6-e70036c8a619",
+     "titulo": "The Sound of Perseverance",
+     "tipo": "Álbum",
+     "data": "1998-09-15",
+     "capa": "https://coverartarchive.org/release-group/0cd38da9-90a9-3e0b-bef6-e70036c8a619/front-250",
+     "spotify": "https://open.spotify.com/search/Death%20The%20Sound%20of%20Perseverance"
+    },
+    {
+     "id": "bd675025-abcb-3536-9e19-ba3204c0183d",
+     "titulo": "Symbolic",
+     "tipo": "Álbum",
+     "data": "1995-03-21",
+     "capa": "https://coverartarchive.org/release-group/bd675025-abcb-3536-9e19-ba3204c0183d/front-250",
+     "spotify": "https://open.spotify.com/search/Death%20Symbolic"
+    },
+    {
+     "id": "94554b6c-2d9e-3174-89f0-94aec0b285e9",
+     "titulo": "Individual Thought Patterns",
+     "tipo": "Álbum",
+     "data": "1993-06-22",
+     "capa": "https://coverartarchive.org/release-group/94554b6c-2d9e-3174-89f0-94aec0b285e9/front-250",
+     "spotify": "https://open.spotify.com/search/Death%20Individual%20Thought%20Patterns"
+    },
+    {
+     "id": "6346903b-4480-3b0f-adef-90fe0b338509",
+     "titulo": "Human",
+     "tipo": "Álbum",
+     "data": "1991-10-22",
+     "capa": "https://coverartarchive.org/release-group/6346903b-4480-3b0f-adef-90fe0b338509/front-250",
+     "spotify": "https://open.spotify.com/search/Death%20Human"
+    },
+    {
+     "id": "ecc036f3-d7c6-3594-a19f-e6ca76c15f29",
+     "titulo": "Spiritual Healing",
+     "tipo": "Álbum",
+     "data": "1990-02-16",
+     "capa": "https://coverartarchive.org/release-group/ecc036f3-d7c6-3594-a19f-e6ca76c15f29/front-250",
+     "spotify": "https://open.spotify.com/search/Death%20Spiritual%20Healing"
+    },
+    {
+     "id": "e4f11dc7-ed0c-4fb2-bdf7-b1a6240bd167",
+     "titulo": "Leprosy",
+     "tipo": "Álbum",
+     "data": "1988-11-16",
+     "capa": "https://coverartarchive.org/release-group/e4f11dc7-ed0c-4fb2-bdf7-b1a6240bd167/front-250",
+     "spotify": "https://open.spotify.com/search/Death%20Leprosy"
+    },
+    {
+     "id": "4b2378ca-9617-3b4a-bac3-dcc23a0467bf",
+     "titulo": "Scream Bloody Gore",
+     "tipo": "Álbum",
+     "data": "1987-05-25",
+     "capa": "https://coverartarchive.org/release-group/4b2378ca-9617-3b4a-bac3-dcc23a0467bf/front-250",
+     "spotify": "https://open.spotify.com/search/Death%20Scream%20Bloody%20Gore"
+    }
+   ],
+   "concertos": []
+  },
+  {
+   "id": "cannibal corpse",
+   "nome": "Cannibal Corpse",
+   "categoria": "Death",
+   "spotify": "https://open.spotify.com/search/Cannibal%20Corpse",
+   "lancamentos": [
+    {
+     "id": "ad3ab04c-923a-42c1-b2f9-30eb9f8cde43",
+     "titulo": "Chaos Horrific",
+     "tipo": "Álbum",
+     "data": "2023-09-22",
+     "capa": "https://coverartarchive.org/release-group/ad3ab04c-923a-42c1-b2f9-30eb9f8cde43/front-250",
+     "spotify": "https://open.spotify.com/search/Cannibal%20Corpse%20Chaos%20Horrific"
+    },
+    {
+     "id": "130ef8f7-04e9-4555-94f0-3f9a87071740",
+     "titulo": "Violence Unimagined",
+     "tipo": "Álbum",
+     "data": "2021-04-16",
+     "capa": "https://coverartarchive.org/release-group/130ef8f7-04e9-4555-94f0-3f9a87071740/front-250",
+     "spotify": "https://open.spotify.com/search/Cannibal%20Corpse%20Violence%20Unimagined"
+    },
+    {
+     "id": "4a107622-eda0-40f0-81c8-f31ffdbec591",
+     "titulo": "Red Before Black",
+     "tipo": "Álbum",
+     "data": "2017-11-03",
+     "capa": "https://coverartarchive.org/release-group/4a107622-eda0-40f0-81c8-f31ffdbec591/front-250",
+     "spotify": "https://open.spotify.com/search/Cannibal%20Corpse%20Red%20Before%20Black"
+    },
+    {
+     "id": "2cc0391b-82bd-49a8-847d-ba3f227f4bf4",
+     "titulo": "A Skeletal Domain",
+     "tipo": "Álbum",
+     "data": "2014-09-10",
+     "capa": "https://coverartarchive.org/release-group/2cc0391b-82bd-49a8-847d-ba3f227f4bf4/front-250",
+     "spotify": "https://open.spotify.com/search/Cannibal%20Corpse%20A%20Skeletal%20Domain"
+    },
+    {
+     "id": "6e5e828a-2d3e-4042-9dd1-928cb657e587",
+     "titulo": "Torture",
+     "tipo": "Álbum",
+     "data": "2012-03-09",
+     "capa": "https://coverartarchive.org/release-group/6e5e828a-2d3e-4042-9dd1-928cb657e587/front-250",
+     "spotify": "https://open.spotify.com/search/Cannibal%20Corpse%20Torture"
+    },
+    {
+     "id": "21c87fb0-af42-3f50-986f-3b0fcee01176",
+     "titulo": "Evisceration Plague",
+     "tipo": "Álbum",
+     "data": "2009-01-30",
+     "capa": "https://coverartarchive.org/release-group/21c87fb0-af42-3f50-986f-3b0fcee01176/front-250",
+     "spotify": "https://open.spotify.com/search/Cannibal%20Corpse%20Evisceration%20Plague"
+    },
+    {
+     "id": "0ec40692-3e74-375a-abd4-e4ad8d6eb3f9",
+     "titulo": "Kill",
+     "tipo": "Álbum",
+     "data": "2006-03-21",
+     "capa": "https://coverartarchive.org/release-group/0ec40692-3e74-375a-abd4-e4ad8d6eb3f9/front-250",
+     "spotify": "https://open.spotify.com/search/Cannibal%20Corpse%20Kill"
+    },
+    {
+     "id": "f5a11491-df7b-4ef4-a724-836d2488fd79",
+     "titulo": "Kill (3 Song Sampler)",
+     "tipo": "EP",
+     "data": "2006",
+     "capa": "https://coverartarchive.org/release-group/f5a11491-df7b-4ef4-a724-836d2488fd79/front-250",
+     "spotify": "https://open.spotify.com/search/Cannibal%20Corpse%20Kill%20%283%20Song%20Sampler%29"
+    },
+    {
+     "id": "1ff09aa6-3257-3c75-aca6-1217eb9cd730",
+     "titulo": "The Wretched Spawn",
+     "tipo": "Álbum",
+     "data": "2004-02-24",
+     "capa": "https://coverartarchive.org/release-group/1ff09aa6-3257-3c75-aca6-1217eb9cd730/front-250",
+     "spotify": "https://open.spotify.com/search/Cannibal%20Corpse%20The%20Wretched%20Spawn"
+    },
+    {
+     "id": "a0f9c96e-d696-3d79-bae5-b8217ef6835a",
+     "titulo": "Worm Infested",
+     "tipo": "EP",
+     "data": "2002-10-29",
+     "capa": "https://coverartarchive.org/release-group/a0f9c96e-d696-3d79-bae5-b8217ef6835a/front-250",
+     "spotify": "https://open.spotify.com/search/Cannibal%20Corpse%20Worm%20Infested"
+    }
+   ],
+   "concertos": []
+  },
+  {
+   "id": "morbid angel",
+   "nome": "Morbid Angel",
+   "categoria": "Death",
+   "spotify": "https://open.spotify.com/search/Morbid%20Angel",
+   "lancamentos": [
+    {
+     "id": "a782c277-caad-4a09-afbd-312599275d32",
+     "titulo": "Kingdoms Disdained",
+     "tipo": "Álbum",
+     "data": "2017-12-01",
+     "capa": "https://coverartarchive.org/release-group/a782c277-caad-4a09-afbd-312599275d32/front-250",
+     "spotify": "https://open.spotify.com/search/Morbid%20Angel%20Kingdoms%20Disdained"
+    },
+    {
+     "id": "b9960671-6c1f-4966-b2d2-ff4f68a0bf1c",
+     "titulo": "Complete Acid Terror",
+     "tipo": "EP",
+     "data": "2017-12-01",
+     "capa": "https://coverartarchive.org/release-group/b9960671-6c1f-4966-b2d2-ff4f68a0bf1c/front-250",
+     "spotify": "https://open.spotify.com/search/Morbid%20Angel%20Complete%20Acid%20Terror"
+    },
+    {
+     "id": "4e771d1b-b8cd-48d9-9f7d-fb643d4a7f9c",
+     "titulo": "Illud Divinum Insanus",
+     "tipo": "Álbum",
+     "data": "2011-06-06",
+     "capa": "https://coverartarchive.org/release-group/4e771d1b-b8cd-48d9-9f7d-fb643d4a7f9c/front-250",
+     "spotify": "https://open.spotify.com/search/Morbid%20Angel%20Illud%20Divinum%20Insanus"
+    },
+    {
+     "id": "706e5ae0-86ed-3856-9052-b6a165d6eb69",
+     "titulo": "Heretic",
+     "tipo": "Álbum",
+     "data": "2003-09-22",
+     "capa": "https://coverartarchive.org/release-group/706e5ae0-86ed-3856-9052-b6a165d6eb69/front-250",
+     "spotify": "https://open.spotify.com/search/Morbid%20Angel%20Heretic"
+    },
+    {
+     "id": "6d8ec570-22fc-4e47-b8a3-e4483b3651bf",
+     "titulo": "Winter Sampler ’03",
+     "tipo": "Álbum",
+     "data": "2003",
+     "capa": "https://coverartarchive.org/release-group/6d8ec570-22fc-4e47-b8a3-e4483b3651bf/front-250",
+     "spotify": "https://open.spotify.com/search/Morbid%20Angel%20Winter%20Sampler%20%E2%80%9903"
+    },
+    {
+     "id": "3b1320f1-fbe9-3302-bc66-d740c5f5008d",
+     "titulo": "Gateways to Annihilation",
+     "tipo": "Álbum",
+     "data": "2000-09-21",
+     "capa": "https://coverartarchive.org/release-group/3b1320f1-fbe9-3302-bc66-d740c5f5008d/front-250",
+     "spotify": "https://open.spotify.com/search/Morbid%20Angel%20Gateways%20to%20Annihilation"
+    },
+    {
+     "id": "24de0f7f-5861-4c51-9e8e-e9ce013eb88e",
+     "titulo": "Gateways to Annihilation Radio Sampler",
+     "tipo": "EP",
+     "data": "2000",
+     "capa": "https://coverartarchive.org/release-group/24de0f7f-5861-4c51-9e8e-e9ce013eb88e/front-250",
+     "spotify": "https://open.spotify.com/search/Morbid%20Angel%20Gateways%20to%20Annihilation%20Radio%20Sampler"
+    },
+    {
+     "id": "b516ba09-1797-311c-a2ea-99d4351cc359",
+     "titulo": "Formulas Fatal to the Flesh",
+     "tipo": "Álbum",
+     "data": "1998-02-04",
+     "capa": "https://coverartarchive.org/release-group/b516ba09-1797-311c-a2ea-99d4351cc359/front-250",
+     "spotify": "https://open.spotify.com/search/Morbid%20Angel%20Formulas%20Fatal%20to%20the%20Flesh"
+    },
+    {
+     "id": "16b66d60-50ee-3abf-aaac-05abb4237059",
+     "titulo": "Domination",
+     "tipo": "Álbum",
+     "data": "1995-05-09",
+     "capa": "https://coverartarchive.org/release-group/16b66d60-50ee-3abf-aaac-05abb4237059/front-250",
+     "spotify": "https://open.spotify.com/search/Morbid%20Angel%20Domination"
+    },
+    {
+     "id": "e272d320-80a7-4844-b218-be687ac57da4",
+     "titulo": "Dawn of the Angry / Where the Slime Live",
+     "tipo": "EP",
+     "data": "1995",
+     "capa": "https://coverartarchive.org/release-group/e272d320-80a7-4844-b218-be687ac57da4/front-250",
+     "spotify": "https://open.spotify.com/search/Morbid%20Angel%20Dawn%20of%20the%20Angry%20/%20Where%20the%20Slime%20Live"
+    }
+   ],
+   "concertos": []
+  },
+  {
+   "id": "mayhem",
+   "nome": "Mayhem",
+   "categoria": "Black",
+   "spotify": "https://open.spotify.com/search/Mayhem",
+   "lancamentos": [
+    {
+     "id": "76dcd617-995c-4abb-a4bd-916dfc8cfc63",
+     "titulo": "Liturgy of Death",
+     "tipo": "Álbum",
+     "data": "2026-02-06",
+     "capa": "https://coverartarchive.org/release-group/76dcd617-995c-4abb-a4bd-916dfc8cfc63/front-250",
+     "spotify": "https://open.spotify.com/search/Mayhem%20Liturgy%20of%20Death"
+    },
+    {
+     "id": "080a7545-3ac1-43fe-89ce-a7070082e2dd",
+     "titulo": "Atavistic Black Disorder / Kommando",
+     "tipo": "EP",
+     "data": "2021-07-09",
+     "capa": "https://coverartarchive.org/release-group/080a7545-3ac1-43fe-89ce-a7070082e2dd/front-250",
+     "spotify": "https://open.spotify.com/search/Mayhem%20Atavistic%20Black%20Disorder%20/%20Kommando"
+    },
+    {
+     "id": "35bad3dc-c7dd-4d65-8078-ebef4d994517",
+     "titulo": "Daemon",
+     "tipo": "Álbum",
+     "data": "2019-10-25",
+     "capa": "https://coverartarchive.org/release-group/35bad3dc-c7dd-4d65-8078-ebef4d994517/front-250",
+     "spotify": "https://open.spotify.com/search/Mayhem%20Daemon"
+    },
+    {
+     "id": "a167f816-ab18-4021-a1e0-6cd975646762",
+     "titulo": "Sathanas / Luciferi Tour EP",
+     "tipo": "EP",
+     "data": "2016-12-13",
+     "capa": "https://coverartarchive.org/release-group/a167f816-ab18-4021-a1e0-6cd975646762/front-250",
+     "spotify": "https://open.spotify.com/search/Mayhem%20Sathanas%20/%20Luciferi%20Tour%20EP"
+    },
+    {
+     "id": "1c21799e-5137-4b35-8abf-b7a438eff745",
+     "titulo": "Esoteric Warfare",
+     "tipo": "Álbum",
+     "data": "2014-06-06",
+     "capa": "https://coverartarchive.org/release-group/1c21799e-5137-4b35-8abf-b7a438eff745/front-250",
+     "spotify": "https://open.spotify.com/search/Mayhem%20Esoteric%20Warfare"
+    },
+    {
+     "id": "460aa72a-7ccd-3a5f-b5cd-c0fc56e4ec05",
+     "titulo": "Life Eternal",
+     "tipo": "EP",
+     "data": "2008-10-20",
+     "capa": "https://coverartarchive.org/release-group/460aa72a-7ccd-3a5f-b5cd-c0fc56e4ec05/front-250",
+     "spotify": "https://open.spotify.com/search/Mayhem%20Life%20Eternal"
+    },
+    {
+     "id": "18d1bbfb-0dbd-48c0-af6a-a17bdf914aa4",
+     "titulo": "Vomit From Helvete",
+     "tipo": "EP",
+     "data": "2008-06-03",
+     "capa": "https://coverartarchive.org/release-group/18d1bbfb-0dbd-48c0-af6a-a17bdf914aa4/front-250",
+     "spotify": "https://open.spotify.com/search/Mayhem%20Vomit%20From%20Helvete"
+    },
+    {
+     "id": "c19d30bb-f8e9-36d8-988b-32f13f8a3ed3",
+     "titulo": "Ordo Ad Chao",
+     "tipo": "Álbum",
+     "data": "2007-04-23",
+     "capa": "https://coverartarchive.org/release-group/c19d30bb-f8e9-36d8-988b-32f13f8a3ed3/front-250",
+     "spotify": "https://open.spotify.com/search/Mayhem%20Ordo%20Ad%20Chao"
+    },
+    {
+     "id": "4a2a727d-2803-3575-b644-7bb242a3dd89",
+     "titulo": "Chimera",
+     "tipo": "Álbum",
+     "data": "2004-03-29",
+     "capa": "https://coverartarchive.org/release-group/4a2a727d-2803-3575-b644-7bb242a3dd89/front-250",
+     "spotify": "https://open.spotify.com/search/Mayhem%20Chimera"
+    },
+    {
+     "id": "042cec20-08d9-3b2b-ad2f-d5981c494ded",
+     "titulo": "Jihad / Freezing Moon",
+     "tipo": "EP",
+     "data": "2002",
+     "capa": "https://coverartarchive.org/release-group/042cec20-08d9-3b2b-ad2f-d5981c494ded/front-250",
+     "spotify": "https://open.spotify.com/search/Mayhem%20Jihad%20/%20Freezing%20Moon"
+    }
+   ],
+   "concertos": []
+  },
+  {
+   "id": "emperor",
+   "nome": "Emperor",
+   "categoria": "Black",
+   "spotify": "https://open.spotify.com/search/Emperor",
+   "lancamentos": [
+    {
+     "id": "aa881868-5718-3879-b198-df04ee1b3ef8",
+     "titulo": "Prometheus: The Discipline of Fire & Demise",
+     "tipo": "Álbum",
+     "data": "2001-10-22",
+     "capa": "https://coverartarchive.org/release-group/aa881868-5718-3879-b198-df04ee1b3ef8/front-250",
+     "spotify": "https://open.spotify.com/search/Emperor%20Prometheus%3A%20The%20Discipline%20of%20Fire%20%26%20Demise"
+    },
+    {
+     "id": "bd07c66a-5f79-3124-b9f3-74713f78566f",
+     "titulo": "IX Equilibrium",
+     "tipo": "Álbum",
+     "data": "1999-02-22",
+     "capa": "https://coverartarchive.org/release-group/bd07c66a-5f79-3124-b9f3-74713f78566f/front-250",
+     "spotify": "https://open.spotify.com/search/Emperor%20IX%20Equilibrium"
+    },
+    {
+     "id": "5e6b93e1-a29b-3b61-9344-13b99fb4b22b",
+     "titulo": "Thorns vs. Emperor",
+     "tipo": "Álbum",
+     "data": "1999",
+     "capa": "https://coverartarchive.org/release-group/5e6b93e1-a29b-3b61-9344-13b99fb4b22b/front-250",
+     "spotify": "https://open.spotify.com/search/Emperor%20Thorns%20vs.%20Emperor"
+    },
+    {
+     "id": "f55aa89a-d660-3a93-a586-e6455a2f7226",
+     "titulo": "Anthems to the Welkin at Dusk",
+     "tipo": "Álbum",
+     "data": "1997-05-19",
+     "capa": "https://coverartarchive.org/release-group/f55aa89a-d660-3a93-a586-e6455a2f7226/front-250",
+     "spotify": "https://open.spotify.com/search/Emperor%20Anthems%20to%20the%20Welkin%20at%20Dusk"
+    },
+    {
+     "id": "77cae850-9b87-39d1-991e-0b8f1b53dd02",
+     "titulo": "Reverence",
+     "tipo": "EP",
+     "data": "1997-03-12",
+     "capa": "https://coverartarchive.org/release-group/77cae850-9b87-39d1-991e-0b8f1b53dd02/front-250",
+     "spotify": "https://open.spotify.com/search/Emperor%20Reverence"
+    },
+    {
+     "id": "e8170089-f81a-3103-bb22-e6f43c4fcaf9",
+     "titulo": "In the Nightside Eclipse",
+     "tipo": "Álbum",
+     "data": "1994-02-21",
+     "capa": "https://coverartarchive.org/release-group/e8170089-f81a-3103-bb22-e6f43c4fcaf9/front-250",
+     "spotify": "https://open.spotify.com/search/Emperor%20In%20the%20Nightside%20Eclipse"
+    },
+    {
+     "id": "f0230acb-e591-35c9-a571-3e71aecd9fa7",
+     "titulo": "As the Shadows Rise",
+     "tipo": "EP",
+     "data": "1994",
+     "capa": "https://coverartarchive.org/release-group/f0230acb-e591-35c9-a571-3e71aecd9fa7/front-250",
+     "spotify": "https://open.spotify.com/search/Emperor%20As%20the%20Shadows%20Rise"
+    },
+    {
+     "id": "91bf603d-cf03-3cc1-bea0-f67fce3b536c",
+     "titulo": "Emperor / Hordanes Land",
+     "tipo": "EP",
+     "data": "1993-10-12",
+     "capa": "https://coverartarchive.org/release-group/91bf603d-cf03-3cc1-bea0-f67fce3b536c/front-250",
+     "spotify": "https://open.spotify.com/search/Emperor%20Emperor%20/%20Hordanes%20Land"
+    },
+    {
+     "id": "d09af259-26d8-3186-95fc-6f9973d758bf",
+     "titulo": "Emperor",
+     "tipo": "EP",
+     "data": "1993",
+     "capa": "https://coverartarchive.org/release-group/d09af259-26d8-3186-95fc-6f9973d758bf/front-250",
+     "spotify": "https://open.spotify.com/search/Emperor%20Emperor"
+    }
+   ],
+   "concertos": []
+  },
+  {
+   "id": "gaerea",
+   "nome": "Gaerea",
+   "categoria": "Black",
+   "spotify": "https://open.spotify.com/search/Gaerea",
+   "lancamentos": [
+    {
+     "id": "a49dab85-50c6-4316-8239-767af81d9bda",
+     "titulo": "Loss",
+     "tipo": "Álbum",
+     "data": "2026-03-20",
+     "capa": "https://coverartarchive.org/release-group/a49dab85-50c6-4316-8239-767af81d9bda/front-250",
+     "spotify": "https://open.spotify.com/search/Gaerea%20Loss"
+    },
+    {
+     "id": "da882243-bc54-4f10-a5e9-0bcaa7bc5fda",
+     "titulo": "Coma",
+     "tipo": "Álbum",
+     "data": "2024-10-25",
+     "capa": "https://coverartarchive.org/release-group/da882243-bc54-4f10-a5e9-0bcaa7bc5fda/front-250",
+     "spotify": "https://open.spotify.com/search/Gaerea%20Coma"
+    },
+    {
+     "id": "a8d1011f-519d-4a7c-b433-6ac3c0c6c7c9",
+     "titulo": "Mirage",
+     "tipo": "Álbum",
+     "data": "2022-09-23",
+     "capa": "https://coverartarchive.org/release-group/a8d1011f-519d-4a7c-b433-6ac3c0c6c7c9/front-250",
+     "spotify": "https://open.spotify.com/search/Gaerea%20Mirage"
+    },
+    {
+     "id": "044e1e94-b576-4cbe-8776-d05cff588895",
+     "titulo": "Limbo",
+     "tipo": "Álbum",
+     "data": "2020-07-24",
+     "capa": "https://coverartarchive.org/release-group/044e1e94-b576-4cbe-8776-d05cff588895/front-250",
+     "spotify": "https://open.spotify.com/search/Gaerea%20Limbo"
+    },
+    {
+     "id": "4f61842e-0798-49cc-a019-7960367455d8",
+     "titulo": "Unsettling Whispers",
+     "tipo": "Álbum",
+     "data": "2018-06-22",
+     "capa": "https://coverartarchive.org/release-group/4f61842e-0798-49cc-a019-7960367455d8/front-250",
+     "spotify": "https://open.spotify.com/search/Gaerea%20Unsettling%20Whispers"
+    },
+    {
+     "id": "87a0f664-983e-4d5d-a246-77e17aee3f12",
+     "titulo": "Gaerea",
+     "tipo": "EP",
+     "data": "2016-11-11",
+     "capa": "https://coverartarchive.org/release-group/87a0f664-983e-4d5d-a246-77e17aee3f12/front-250",
+     "spotify": "https://open.spotify.com/search/Gaerea%20Gaerea"
+    }
+   ],
+   "concertos": []
+  },
+  {
+   "id": "moonspell",
+   "nome": "Moonspell",
+   "categoria": "Black",
+   "spotify": "https://open.spotify.com/search/Moonspell",
+   "lancamentos": [
+    {
+     "id": "aebc070b-e3a1-4042-8f93-da01fc26fda8",
+     "titulo": "Far From God",
+     "tipo": "Álbum",
+     "data": "2026-07-03",
+     "capa": "https://coverartarchive.org/release-group/aebc070b-e3a1-4042-8f93-da01fc26fda8/front-250",
+     "spotify": "https://open.spotify.com/search/Moonspell%20Far%20From%20God"
+    },
+    {
+     "id": "d69f053a-1954-4d91-93c5-837857f1bdd6",
+     "titulo": "The Great Wolf in the Sky",
+     "tipo": "EP",
+     "data": "2026-06-30",
+     "capa": "https://coverartarchive.org/release-group/d69f053a-1954-4d91-93c5-837857f1bdd6/front-250",
+     "spotify": "https://open.spotify.com/search/Moonspell%20The%20Great%20Wolf%20in%20the%20Sky"
+    },
+    {
+     "id": "62882f57-c631-4752-814f-e907c0f0ad93",
+     "titulo": "Far From God and Other Spells",
+     "tipo": "EP",
+     "data": "2026-04-30",
+     "capa": "https://coverartarchive.org/release-group/62882f57-c631-4752-814f-e907c0f0ad93/front-250",
+     "spotify": "https://open.spotify.com/search/Moonspell%20Far%20From%20God%20and%20Other%20Spells"
+    },
+    {
+     "id": "2dee396d-53ea-4be1-8062-f9c4b5d31e99",
+     "titulo": "Fullmöön Maḋnëṡṡ",
+     "tipo": "EP",
+     "data": "2021-10-29",
+     "capa": "https://coverartarchive.org/release-group/2dee396d-53ea-4be1-8062-f9c4b5d31e99/front-250",
+     "spotify": "https://open.spotify.com/search/Moonspell%20Fullm%C3%B6%C3%B6n%20Ma%E1%B8%8Bn%C3%AB%E1%B9%A1%E1%B9%A1"
+    },
+    {
+     "id": "197994e4-d859-4ef6-9a82-babaf5120874",
+     "titulo": "Hermitage",
+     "tipo": "Álbum",
+     "data": "2021-02-26",
+     "capa": "https://coverartarchive.org/release-group/197994e4-d859-4ef6-9a82-babaf5120874/front-250",
+     "spotify": "https://open.spotify.com/search/Moonspell%20Hermitage"
+    },
+    {
+     "id": "c629faf0-c8d8-48ad-b294-2b03ba18376b",
+     "titulo": "Before the Lights Go Out",
+     "tipo": "EP",
+     "data": "2021-02-26",
+     "capa": "https://coverartarchive.org/release-group/c629faf0-c8d8-48ad-b294-2b03ba18376b/front-250",
+     "spotify": "https://open.spotify.com/search/Moonspell%20Before%20the%20Lights%20Go%20Out"
+    },
+    {
+     "id": "243de948-53f7-466d-add6-0fb5b142149f",
+     "titulo": "I’ll See You in My Dreams",
+     "tipo": "EP",
+     "data": "2018-10-31",
+     "capa": "https://coverartarchive.org/release-group/243de948-53f7-466d-add6-0fb5b142149f/front-250",
+     "spotify": "https://open.spotify.com/search/Moonspell%20I%E2%80%99ll%20See%20You%20in%20My%20Dreams"
+    },
+    {
+     "id": "96a35fba-d7cd-4f5e-9871-d8f7116bc18f",
+     "titulo": "1755",
+     "tipo": "Álbum",
+     "data": "2017-11-03",
+     "capa": "https://coverartarchive.org/release-group/96a35fba-d7cd-4f5e-9871-d8f7116bc18f/front-250",
+     "spotify": "https://open.spotify.com/search/Moonspell%201755"
+    },
+    {
+     "id": "67c2c6b4-ebe3-4fad-92cf-fcd5361137b2",
+     "titulo": "Extinct",
+     "tipo": "Álbum",
+     "data": "2015-03-06",
+     "capa": "https://coverartarchive.org/release-group/67c2c6b4-ebe3-4fad-92cf-fcd5361137b2/front-250",
+     "spotify": "https://open.spotify.com/search/Moonspell%20Extinct"
+    },
+    {
+     "id": "f3621384-7cc1-4e5e-83a9-6e06195eb000",
+     "titulo": "Alpha Noir",
+     "tipo": "Álbum",
+     "data": "2012-04-27",
+     "capa": "https://coverartarchive.org/release-group/f3621384-7cc1-4e5e-83a9-6e06195eb000/front-250",
+     "spotify": "https://open.spotify.com/search/Moonspell%20Alpha%20Noir"
+    }
+   ],
+   "concertos": []
+  },
+  {
+   "id": "electric wizard",
+   "nome": "Electric Wizard",
+   "categoria": "Doom/Sludge",
+   "spotify": "https://open.spotify.com/search/Electric%20Wizard",
+   "lancamentos": [
+    {
+     "id": "76be11b8-d88e-43ab-bc7a-50c22c99ea22",
+     "titulo": "Wizard Bloody Wizard",
+     "tipo": "Álbum",
+     "data": "2017-11-17",
+     "capa": "https://coverartarchive.org/release-group/76be11b8-d88e-43ab-bc7a-50c22c99ea22/front-250",
+     "spotify": "https://open.spotify.com/search/Electric%20Wizard%20Wizard%20Bloody%20Wizard"
+    },
+    {
+     "id": "61b8b2bb-5887-4c64-9d95-139efad7e85a",
+     "titulo": "Time to Die",
+     "tipo": "Álbum",
+     "data": "2014-09-29",
+     "capa": "https://coverartarchive.org/release-group/61b8b2bb-5887-4c64-9d95-139efad7e85a/front-250",
+     "spotify": "https://open.spotify.com/search/Electric%20Wizard%20Time%20to%20Die"
+    },
+    {
+     "id": "b81b2468-aa3e-4092-b623-f0006c0a5930",
+     "titulo": "Legalise Drugs and Murder",
+     "tipo": "EP",
+     "data": "2012-10",
+     "capa": "https://coverartarchive.org/release-group/b81b2468-aa3e-4092-b623-f0006c0a5930/front-250",
+     "spotify": "https://open.spotify.com/search/Electric%20Wizard%20Legalise%20Drugs%20and%20Murder"
+    },
+    {
+     "id": "b4d0e711-50e1-4876-b141-8cf5bfa8cb65",
+     "titulo": "Black Masses",
+     "tipo": "Álbum",
+     "data": "2010-11-01",
+     "capa": "https://coverartarchive.org/release-group/b4d0e711-50e1-4876-b141-8cf5bfa8cb65/front-250",
+     "spotify": "https://open.spotify.com/search/Electric%20Wizard%20Black%20Masses"
+    },
+    {
+     "id": "0cda3000-47ce-3abb-80bc-0af4a7d00ec5",
+     "titulo": "The Processean (Procession)",
+     "tipo": "EP",
+     "data": "2008-12-13",
+     "capa": "https://coverartarchive.org/release-group/0cda3000-47ce-3abb-80bc-0af4a7d00ec5/front-250",
+     "spotify": "https://open.spotify.com/search/Electric%20Wizard%20The%20Processean%20%28Procession%29"
+    },
+    {
+     "id": "70405678-4dcc-393c-b1f1-1507fb6a8160",
+     "titulo": "Electric Wizard / Reverend Bizarre",
+     "tipo": "EP",
+     "data": "2008-07",
+     "capa": "https://coverartarchive.org/release-group/70405678-4dcc-393c-b1f1-1507fb6a8160/front-250",
+     "spotify": "https://open.spotify.com/search/Electric%20Wizard%20Electric%20Wizard%20/%20Reverend%20Bizarre"
+    },
+    {
+     "id": "20a30ada-8b1e-3490-9b7f-c4ee3694a530",
+     "titulo": "Witchcult Today",
+     "tipo": "Álbum",
+     "data": "2007-11-12",
+     "capa": "https://coverartarchive.org/release-group/20a30ada-8b1e-3490-9b7f-c4ee3694a530/front-250",
+     "spotify": "https://open.spotify.com/search/Electric%20Wizard%20Witchcult%20Today"
+    },
+    {
+     "id": "2d8adb27-e929-3363-99d3-acf17c263849",
+     "titulo": "We Live",
+     "tipo": "Álbum",
+     "data": "2004",
+     "capa": "https://coverartarchive.org/release-group/2d8adb27-e929-3363-99d3-acf17c263849/front-250",
+     "spotify": "https://open.spotify.com/search/Electric%20Wizard%20We%20Live"
+    },
+    {
+     "id": "9d538fa9-846b-37dc-9f6a-9b2dbac3effa",
+     "titulo": "Let Us Prey",
+     "tipo": "Álbum",
+     "data": "2002",
+     "capa": "https://coverartarchive.org/release-group/9d538fa9-846b-37dc-9f6a-9b2dbac3effa/front-250",
+     "spotify": "https://open.spotify.com/search/Electric%20Wizard%20Let%20Us%20Prey"
+    },
+    {
+     "id": "5ebf4f0a-61ba-3829-9d0c-0a0e5ad8897e",
+     "titulo": "Dopethrone",
+     "tipo": "Álbum",
+     "data": "2000-09-25",
+     "capa": "https://coverartarchive.org/release-group/5ebf4f0a-61ba-3829-9d0c-0a0e5ad8897e/front-250",
+     "spotify": "https://open.spotify.com/search/Electric%20Wizard%20Dopethrone"
+    }
+   ],
+   "concertos": []
+  },
+  {
+   "id": "eyehategod",
+   "nome": "Eyehategod",
+   "categoria": "Doom/Sludge",
+   "spotify": "https://open.spotify.com/search/Eyehategod",
+   "lancamentos": [
+    {
+     "id": "5b9c100f-b8fe-43a0-9120-6d861fff441c",
+     "titulo": "A History of Nomadic Behavior",
+     "tipo": "Álbum",
+     "data": "2021-03-12",
+     "capa": "https://coverartarchive.org/release-group/5b9c100f-b8fe-43a0-9120-6d861fff441c/front-250",
+     "spotify": "https://open.spotify.com/search/Eyehategod%20A%20History%20of%20Nomadic%20Behavior"
+    },
+    {
+     "id": "50d488a1-635d-4cad-bd6f-b9d5c399b9f1",
+     "titulo": "Eyehategod",
+     "tipo": "Álbum",
+     "data": "2014-05-21",
+     "capa": "https://coverartarchive.org/release-group/50d488a1-635d-4cad-bd6f-b9d5c399b9f1/front-250",
+     "spotify": "https://open.spotify.com/search/Eyehategod%20Eyehategod"
+    },
+    {
+     "id": "a220c7ca-8271-4194-9798-185a25e31384",
+     "titulo": "99 Miles of Bad Road",
+     "tipo": "EP",
+     "data": "2004",
+     "capa": "https://coverartarchive.org/release-group/a220c7ca-8271-4194-9798-185a25e31384/front-250",
+     "spotify": "https://open.spotify.com/search/Eyehategod%2099%20Miles%20of%20Bad%20Road"
+    },
+    {
+     "id": "79877792-cb12-379a-9633-e571252b97d1",
+     "titulo": "Confederacy of Ruined Lives",
+     "tipo": "Álbum",
+     "data": "2000-09-19",
+     "capa": "https://coverartarchive.org/release-group/79877792-cb12-379a-9633-e571252b97d1/front-250",
+     "spotify": "https://open.spotify.com/search/Eyehategod%20Confederacy%20of%20Ruined%20Lives"
+    },
+    {
+     "id": "2bf18909-b75c-4a0d-a22b-dc34f90f0f64",
+     "titulo": "Shattering the Barriers",
+     "tipo": "EP",
+     "data": "2000",
+     "capa": "https://coverartarchive.org/release-group/2bf18909-b75c-4a0d-a22b-dc34f90f0f64/front-250",
+     "spotify": "https://open.spotify.com/search/Eyehategod%20Shattering%20the%20Barriers"
+    },
+    {
+     "id": "dc119025-5365-3999-a60b-88f551ab6b94",
+     "titulo": "Dopesick",
+     "tipo": "Álbum",
+     "data": "1996",
+     "capa": "https://coverartarchive.org/release-group/dc119025-5365-3999-a60b-88f551ab6b94/front-250",
+     "spotify": "https://open.spotify.com/search/Eyehategod%20Dopesick"
+    },
+    {
+     "id": "824e48f8-da42-43ec-bad6-f6b4b98ece48",
+     "titulo": "Whore / Eyehategod",
+     "tipo": "EP",
+     "data": "1994-11",
+     "capa": "https://coverartarchive.org/release-group/824e48f8-da42-43ec-bad6-f6b4b98ece48/front-250",
+     "spotify": "https://open.spotify.com/search/Eyehategod%20Whore%20/%20Eyehategod"
+    },
+    {
+     "id": "737c01a7-1a33-4067-b296-52731c978390",
+     "titulo": "Ruptured Heart Theory",
+     "tipo": "EP",
+     "data": "1994",
+     "capa": "https://coverartarchive.org/release-group/737c01a7-1a33-4067-b296-52731c978390/front-250",
+     "spotify": "https://open.spotify.com/search/Eyehategod%20Ruptured%20Heart%20Theory"
+    },
+    {
+     "id": "2b3b9d3a-af4d-3c29-a46f-3179cccf0f7f",
+     "titulo": "Take as Needed for Pain",
+     "tipo": "Álbum",
+     "data": "1993-09-09",
+     "capa": "https://coverartarchive.org/release-group/2b3b9d3a-af4d-3c29-a46f-3179cccf0f7f/front-250",
+     "spotify": "https://open.spotify.com/search/Eyehategod%20Take%20as%20Needed%20for%20Pain"
+    },
+    {
+     "id": "5d54a95e-3557-34d2-9bbe-eaf552e2f96a",
+     "titulo": "In the Name of Suffering",
+     "tipo": "Álbum",
+     "data": "1990",
+     "capa": "https://coverartarchive.org/release-group/5d54a95e-3557-34d2-9bbe-eaf552e2f96a/front-250",
+     "spotify": "https://open.spotify.com/search/Eyehategod%20In%20the%20Name%20of%20Suffering"
+    }
+   ],
+   "concertos": []
+  },
+  {
+   "id": "slipknot",
+   "nome": "Slipknot",
+   "categoria": "Nu/Metalcore",
+   "spotify": "https://open.spotify.com/search/Slipknot",
+   "lancamentos": [
+    {
+     "id": "95d380c4-26f3-4aec-8391-564c3e130f34",
+     "titulo": "Adderall",
+     "tipo": "EP",
+     "data": "2023-06-09",
+     "capa": "https://coverartarchive.org/release-group/95d380c4-26f3-4aec-8391-564c3e130f34/front-250",
+     "spotify": "https://open.spotify.com/search/Slipknot%20Adderall"
+    },
+    {
+     "id": "3a2b2278-3e35-44c5-a1c2-f71bc59226a1",
+     "titulo": "The End, So Far",
+     "tipo": "Álbum",
+     "data": "2022-09-30",
+     "capa": "https://coverartarchive.org/release-group/3a2b2278-3e35-44c5-a1c2-f71bc59226a1/front-250",
+     "spotify": "https://open.spotify.com/search/Slipknot%20The%20End%2C%20So%20Far"
+    },
+    {
+     "id": "89bfb6c8-f612-43c4-a7f3-d245102557e3",
+     "titulo": "We Are Not Your Kind",
+     "tipo": "Álbum",
+     "data": "2019-08-09",
+     "capa": "https://coverartarchive.org/release-group/89bfb6c8-f612-43c4-a7f3-d245102557e3/front-250",
+     "spotify": "https://open.spotify.com/search/Slipknot%20We%20Are%20Not%20Your%20Kind"
+    },
+    {
+     "id": "7ae66014-0153-4f48-ad22-973b0582261c",
+     "titulo": ".5: The Gray Chapter",
+     "tipo": "Álbum",
+     "data": "2014-10-15",
+     "capa": "https://coverartarchive.org/release-group/7ae66014-0153-4f48-ad22-973b0582261c/front-250",
+     "spotify": "https://open.spotify.com/search/Slipknot%20.5%3A%20The%20Gray%20Chapter"
+    },
+    {
+     "id": "6a75b970-84c9-3794-bafd-261f82f1343c",
+     "titulo": "All Hope Is Gone",
+     "tipo": "Álbum",
+     "data": "2008-08-20",
+     "capa": "https://coverartarchive.org/release-group/6a75b970-84c9-3794-bafd-261f82f1343c/front-250",
+     "spotify": "https://open.spotify.com/search/Slipknot%20All%20Hope%20Is%20Gone"
+    },
+    {
+     "id": "aa38e6f0-e748-35c8-a8d4-04ff660e9354",
+     "titulo": "Vol. 3: (The Subliminal Verses)",
+     "tipo": "Álbum",
+     "data": "2004-05-21",
+     "capa": "https://coverartarchive.org/release-group/aa38e6f0-e748-35c8-a8d4-04ff660e9354/front-250",
+     "spotify": "https://open.spotify.com/search/Slipknot%20Vol.%203%3A%20%28The%20Subliminal%20Verses%29"
+    },
+    {
+     "id": "082c68eb-d993-36cf-9b32-6663cba2d052",
+     "titulo": "Iowa",
+     "tipo": "Álbum",
+     "data": "2001-08-21",
+     "capa": "https://coverartarchive.org/release-group/082c68eb-d993-36cf-9b32-6663cba2d052/front-250",
+     "spotify": "https://open.spotify.com/search/Slipknot%20Iowa"
+    },
+    {
+     "id": "5140eef4-5b5d-309c-a3aa-5c5da107b1da",
+     "titulo": "Slipknot",
+     "tipo": "Álbum",
+     "data": "1999-06-29",
+     "capa": "https://coverartarchive.org/release-group/5140eef4-5b5d-309c-a3aa-5c5da107b1da/front-250",
+     "spotify": "https://open.spotify.com/search/Slipknot%20Slipknot"
+    },
+    {
+     "id": "69aaa457-69eb-35d1-a1e0-d941244adc65",
+     "titulo": "Clean Radio Sampler",
+     "tipo": "EP",
+     "data": "1999",
+     "capa": "https://coverartarchive.org/release-group/69aaa457-69eb-35d1-a1e0-d941244adc65/front-250",
+     "spotify": "https://open.spotify.com/search/Slipknot%20Clean%20Radio%20Sampler"
+    },
+    {
+     "id": "e5415a24-7bde-3bfc-a854-6cad9e71c1ec",
+     "titulo": "Exclusive Metal Radio Sampler",
+     "tipo": "EP",
+     "data": "1999",
+     "capa": "https://coverartarchive.org/release-group/e5415a24-7bde-3bfc-a854-6cad9e71c1ec/front-250",
+     "spotify": "https://open.spotify.com/search/Slipknot%20Exclusive%20Metal%20Radio%20Sampler"
+    }
+   ],
+   "concertos": []
+  },
+  {
+   "id": "korn",
+   "nome": "Korn",
+   "categoria": "Nu/Metalcore",
+   "spotify": "https://open.spotify.com/search/Korn",
+   "lancamentos": [
+    {
+     "id": "d8bb23aa-1955-43bc-a60c-c767f65d3f54",
+     "titulo": "Requiem",
+     "tipo": "Álbum",
+     "data": "2022-02-04",
+     "capa": "https://coverartarchive.org/release-group/d8bb23aa-1955-43bc-a60c-c767f65d3f54/front-250",
+     "spotify": "https://open.spotify.com/search/Korn%20Requiem"
+    },
+    {
+     "id": "aea64c24-26b8-4035-af8b-d0ccac6fd3ab",
+     "titulo": "The Nothing",
+     "tipo": "Álbum",
+     "data": "2019-09-13",
+     "capa": "https://coverartarchive.org/release-group/aea64c24-26b8-4035-af8b-d0ccac6fd3ab/front-250",
+     "spotify": "https://open.spotify.com/search/Korn%20The%20Nothing"
+    },
+    {
+     "id": "06781e27-b69a-4433-ac84-937d66b42e8a",
+     "titulo": "The Serenity of Suffering",
+     "tipo": "Álbum",
+     "data": "2016-10-21",
+     "capa": "https://coverartarchive.org/release-group/06781e27-b69a-4433-ac84-937d66b42e8a/front-250",
+     "spotify": "https://open.spotify.com/search/Korn%20The%20Serenity%20of%20Suffering"
+    },
+    {
+     "id": "4ec3458d-09bf-4fe9-bdcd-ecac918a625e",
+     "titulo": "The Paradigm Shift",
+     "tipo": "Álbum",
+     "data": "2013-10-04",
+     "capa": "https://coverartarchive.org/release-group/4ec3458d-09bf-4fe9-bdcd-ecac918a625e/front-250",
+     "spotify": "https://open.spotify.com/search/Korn%20The%20Paradigm%20Shift"
+    },
+    {
+     "id": "cf8b5296-fcc4-4ddd-9a47-05246395448b",
+     "titulo": "The Path of Totality",
+     "tipo": "Álbum",
+     "data": "2011-02-05",
+     "capa": "https://coverartarchive.org/release-group/cf8b5296-fcc4-4ddd-9a47-05246395448b/front-250",
+     "spotify": "https://open.spotify.com/search/Korn%20The%20Path%20of%20Totality"
+    },
+    {
+     "id": "c892528a-3b16-48b1-8118-f61689ecaf64",
+     "titulo": "Digital EP #3",
+     "tipo": "EP",
+     "data": "2010-12-13",
+     "capa": "https://coverartarchive.org/release-group/c892528a-3b16-48b1-8118-f61689ecaf64/front-250",
+     "spotify": "https://open.spotify.com/search/Korn%20Digital%20EP%20%233"
+    },
+    {
+     "id": "c419e40f-7f16-4f25-aba9-1fb5bcbef06e",
+     "titulo": "Digital EP #2",
+     "tipo": "EP",
+     "data": "2010-07-26",
+     "capa": "https://coverartarchive.org/release-group/c419e40f-7f16-4f25-aba9-1fb5bcbef06e/front-250",
+     "spotify": "https://open.spotify.com/search/Korn%20Digital%20EP%20%232"
+    },
+    {
+     "id": "8edd5f42-7849-4ba1-b26a-80565565c126",
+     "titulo": "Korn III: Remember Who You Are",
+     "tipo": "Álbum",
+     "data": "2010-07-07",
+     "capa": "https://coverartarchive.org/release-group/8edd5f42-7849-4ba1-b26a-80565565c126/front-250",
+     "spotify": "https://open.spotify.com/search/Korn%20Korn%20III%3A%20Remember%20Who%20You%20Are"
+    },
+    {
+     "id": "b81618f0-6d42-4387-93c9-0302d4cf5c83",
+     "titulo": "Digital EP #1",
+     "tipo": "EP",
+     "data": "2009-09-28",
+     "capa": "https://coverartarchive.org/release-group/b81618f0-6d42-4387-93c9-0302d4cf5c83/front-250",
+     "spotify": "https://open.spotify.com/search/Korn%20Digital%20EP%20%231"
+    },
+    {
+     "id": "4ee42fb0-056a-38bf-8a89-e4cf8e4a57ed",
+     "titulo": "[untitled]",
+     "tipo": "Álbum",
+     "data": "2007-07-30",
+     "capa": "https://coverartarchive.org/release-group/4ee42fb0-056a-38bf-8a89-e4cf8e4a57ed/front-250",
+     "spotify": "https://open.spotify.com/search/Korn%20%5Buntitled%5D"
+    }
+   ],
+   "concertos": []
+  },
+  {
+   "id": "architects",
+   "nome": "Architects",
+   "categoria": "Nu/Metalcore",
+   "spotify": "https://open.spotify.com/search/Architects",
+   "lancamentos": [
+    {
+     "id": "4b40ab66-fbbe-4434-8514-287b3408f15d",
+     "titulo": "The Sky, the Earth & All Between",
+     "tipo": "Álbum",
+     "data": "2025-02-28",
+     "capa": "https://coverartarchive.org/release-group/4b40ab66-fbbe-4434-8514-287b3408f15d/front-250",
+     "spotify": "https://open.spotify.com/search/Architects%20The%20Sky%2C%20the%20Earth%20%26%20All%20Between"
+    },
+    {
+     "id": "b71b865c-08ae-45db-994e-1fa580b1ea35",
+     "titulo": "the classic symptoms of a broken spirit",
+     "tipo": "Álbum",
+     "data": "2022-10-21",
+     "capa": "https://coverartarchive.org/release-group/b71b865c-08ae-45db-994e-1fa580b1ea35/front-250",
+     "spotify": "https://open.spotify.com/search/Architects%20the%20classic%20symptoms%20of%20a%20broken%20spirit"
+    },
+    {
+     "id": "4a0f80ce-b194-4cb1-b601-5c09041b7643",
+     "titulo": "For Those That Wish to Exist",
+     "tipo": "Álbum",
+     "data": "2021-02-26",
+     "capa": "https://coverartarchive.org/release-group/4a0f80ce-b194-4cb1-b601-5c09041b7643/front-250",
+     "spotify": "https://open.spotify.com/search/Architects%20For%20Those%20That%20Wish%20to%20Exist"
+    },
+    {
+     "id": "0810452a-10ba-4069-b6c0-f0fb30814aae",
+     "titulo": "Holy Hell",
+     "tipo": "Álbum",
+     "data": "2018-11-09",
+     "capa": "https://coverartarchive.org/release-group/0810452a-10ba-4069-b6c0-f0fb30814aae/front-250",
+     "spotify": "https://open.spotify.com/search/Architects%20Holy%20Hell"
+    },
+    {
+     "id": "aaf1877b-1c16-404e-991d-096b75ee9807",
+     "titulo": "All Our Gods Have Abandoned Us",
+     "tipo": "Álbum",
+     "data": "2016-05-27",
+     "capa": "https://coverartarchive.org/release-group/aaf1877b-1c16-404e-991d-096b75ee9807/front-250",
+     "spotify": "https://open.spotify.com/search/Architects%20All%20Our%20Gods%20Have%20Abandoned%20Us"
+    },
+    {
+     "id": "b07d09d3-d8f9-44a2-9c14-5fc1897cf9dd",
+     "titulo": "Lost Forever // Lost Together",
+     "tipo": "Álbum",
+     "data": "2014-03-07",
+     "capa": "https://coverartarchive.org/release-group/b07d09d3-d8f9-44a2-9c14-5fc1897cf9dd/front-250",
+     "spotify": "https://open.spotify.com/search/Architects%20Lost%20Forever%20//%20Lost%20Together"
+    },
+    {
+     "id": "d91eade8-ba60-4d5f-98f1-28d73204b617",
+     "titulo": "Daybreaker",
+     "tipo": "Álbum",
+     "data": "2012-05-28",
+     "capa": "https://coverartarchive.org/release-group/d91eade8-ba60-4d5f-98f1-28d73204b617/front-250",
+     "spotify": "https://open.spotify.com/search/Architects%20Daybreaker"
+    },
+    {
+     "id": "18ef0cf0-c361-4653-8ced-71fb95f1c498",
+     "titulo": "The Here and Now",
+     "tipo": "Álbum",
+     "data": "2011-01-21",
+     "capa": "https://coverartarchive.org/release-group/18ef0cf0-c361-4653-8ced-71fb95f1c498/front-250",
+     "spotify": "https://open.spotify.com/search/Architects%20The%20Here%20and%20Now"
+    },
+    {
+     "id": "acf67728-ad4c-34dd-838f-79c7e02c68d3",
+     "titulo": "Hollow Crown",
+     "tipo": "Álbum",
+     "data": "2009-01-01",
+     "capa": "https://coverartarchive.org/release-group/acf67728-ad4c-34dd-838f-79c7e02c68d3/front-250",
+     "spotify": "https://open.spotify.com/search/Architects%20Hollow%20Crown"
+    },
+    {
+     "id": "c1dbf7a9-274f-45fc-a190-9651c3f5444a",
+     "titulo": "Ruin",
+     "tipo": "Álbum",
+     "data": "2008-06-02",
+     "capa": "https://coverartarchive.org/release-group/c1dbf7a9-274f-45fc-a190-9651c3f5444a/front-250",
+     "spotify": "https://open.spotify.com/search/Architects%20Ruin"
+    }
+   ],
+   "concertos": []
+  },
+  {
+   "id": "meshuggah",
+   "nome": "Meshuggah",
+   "categoria": "Death",
+   "spotify": "https://open.spotify.com/search/Meshuggah",
+   "lancamentos": [
+    {
+     "id": "15e177a5-1c4b-405e-926a-d4f8a334a54c",
+     "titulo": "Immutable",
+     "tipo": "Álbum",
+     "data": "2022-03-31",
+     "capa": "https://coverartarchive.org/release-group/15e177a5-1c4b-405e-926a-d4f8a334a54c/front-250",
+     "spotify": "https://open.spotify.com/search/Meshuggah%20Immutable"
+    },
+    {
+     "id": "1517a44c-9984-42b0-b3e2-e86fd9a76972",
+     "titulo": "The Violent Sleep of Reason",
+     "tipo": "Álbum",
+     "data": "2016-10-05",
+     "capa": "https://coverartarchive.org/release-group/1517a44c-9984-42b0-b3e2-e86fd9a76972/front-250",
+     "spotify": "https://open.spotify.com/search/Meshuggah%20The%20Violent%20Sleep%20of%20Reason"
+    },
+    {
+     "id": "ba239bb9-287e-4de8-9f19-71c18cf70cbb",
+     "titulo": "Pitch Black",
+     "tipo": "EP",
+     "data": "2013-02-04",
+     "capa": "https://coverartarchive.org/release-group/ba239bb9-287e-4de8-9f19-71c18cf70cbb/front-250",
+     "spotify": "https://open.spotify.com/search/Meshuggah%20Pitch%20Black"
+    },
+    {
+     "id": "f89aba8a-b5a0-47b8-a224-99f9b559c835",
+     "titulo": "Koloss",
+     "tipo": "Álbum",
+     "data": "2012-02-09",
+     "capa": "https://coverartarchive.org/release-group/f89aba8a-b5a0-47b8-a224-99f9b559c835/front-250",
+     "spotify": "https://open.spotify.com/search/Meshuggah%20Koloss"
+    },
+    {
+     "id": "bc3c02ea-5837-32ab-9c65-f60125458187",
+     "titulo": "obZen",
+     "tipo": "Álbum",
+     "data": "2008-02-27",
+     "capa": "https://coverartarchive.org/release-group/bc3c02ea-5837-32ab-9c65-f60125458187/front-250",
+     "spotify": "https://open.spotify.com/search/Meshuggah%20obZen"
+    },
+    {
+     "id": "a5e1057c-f35f-396a-8b2d-5d31c1ecdf05",
+     "titulo": "Catch Thirtythree",
+     "tipo": "Álbum",
+     "data": "2005-04-21",
+     "capa": "https://coverartarchive.org/release-group/a5e1057c-f35f-396a-8b2d-5d31c1ecdf05/front-250",
+     "spotify": "https://open.spotify.com/search/Meshuggah%20Catch%20Thirtythree"
+    },
+    {
+     "id": "1dfe3683-90f0-3959-aa4c-22e3f9a449c8",
+     "titulo": "I",
+     "tipo": "EP",
+     "data": "2004-07-13",
+     "capa": "https://coverartarchive.org/release-group/1dfe3683-90f0-3959-aa4c-22e3f9a449c8/front-250",
+     "spotify": "https://open.spotify.com/search/Meshuggah%20I"
+    },
+    {
+     "id": "aca3fcb9-8522-47ce-a9f0-d7f3c731d5cb",
+     "titulo": "Soilwork – Figure Number Five – CD Sampler",
+     "tipo": "EP",
+     "data": "2003",
+     "capa": "https://coverartarchive.org/release-group/aca3fcb9-8522-47ce-a9f0-d7f3c731d5cb/front-250",
+     "spotify": "https://open.spotify.com/search/Meshuggah%20Soilwork%20%E2%80%93%20Figure%20Number%20Five%20%E2%80%93%20CD%20Sampler"
+    },
+    {
+     "id": "aaf90df0-eec3-3d55-83fd-67b9cf034eb4",
+     "titulo": "Nothing",
+     "tipo": "Álbum",
+     "data": "2002-08-06",
+     "capa": "https://coverartarchive.org/release-group/aaf90df0-eec3-3d55-83fd-67b9cf034eb4/front-250",
+     "spotify": "https://open.spotify.com/search/Meshuggah%20Nothing"
+    },
+    {
+     "id": "abb6e03d-f9a0-433a-a84e-57504d4461a8",
+     "titulo": "Nothing / Reroute to Remain",
+     "tipo": "EP",
+     "data": "2002",
+     "capa": "https://coverartarchive.org/release-group/abb6e03d-f9a0-433a-a84e-57504d4461a8/front-250",
+     "spotify": "https://open.spotify.com/search/Meshuggah%20Nothing%20/%20Reroute%20to%20Remain"
+    }
+   ],
+   "concertos": []
+  }
+ ],
+ "noticias": [
+  {
+   "titulo": "Meshuggah announce Lisbon concert for 40th anniversary tour",
+   "link": "https://www.theblackplanet.org/meshuggah-lisbon-concert/",
+   "fonte": "The Black Planet",
+   "data": "2026-11-03T11:24:12+00:00"
+  },
+  {
+   "titulo": "Meshuggah mark 40th anniversary with huge 2027 European tour",
+   "link": "https://www.loudersound.com/bands-artists/meshuggah-40th-anniversary-tour-2027",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-03T11:00:00+00:00"
+  },
+  {
+   "titulo": "Crystal Head Vodka Presents Today In Metal History 🤘 November 3rd, 2026 🤘 SLAYER, DEEP PURPLE, TRIUMPH, ROB HALFORD, WHITESNAKE",
+   "link": "https://bravewords.com/today-in-metal/crystal-head-vodka-presents-today-in-metal-history-%f0%9f%a4%98-november-3rd-2026-%f0%9f%a4%98-slayer-deep-purple-triumph-rob-halford-whitesnake/",
+   "fonte": "BraveWords",
+   "data": "2026-11-03T10:31:48+00:00"
+  },
+  {
+   "titulo": "“They said, ‘We feel shafted. You didn’t let us know’”: What Avenged Sevenfold learned from The Stage",
+   "link": "https://www.loudersound.com/music/albums/avenged-sevenfold-the-stage-lessons-learned-m-shadows",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-03T10:00:00+00:00"
+  },
+  {
+   "titulo": "MOONSPELL Announce Inaugural Moonfest For October 2027 In Lisbon; AMORPHIS, ZEAL & ARDOR, TOWARDS THE SINISTER And HEAVENWOOD Confirmed",
+   "link": "https://bravewords.com/news/moonspell-announce-inaugural-moonfest-for-october-2027-in-lisbon-amorphis-zeal-ardor-towards-the-sinister-and-heavenwood-confirmed/",
+   "fonte": "BraveWords",
+   "data": "2026-11-03T09:45:44+00:00"
+  },
+  {
+   "titulo": "SINGLE BULLET THEORY Frontman MATT DIFABIO Shares Vocal Cover Of TEMPLE OF THE DOG’s “Wooden Jesus”",
+   "link": "https://bravewords.com/news/single-bullet-theory-frontman-matt-difabio-shares-vocal-cover-of-temple-of-the-dogs-wooden-jesus/",
+   "fonte": "BraveWords",
+   "data": "2026-11-03T09:40:44+00:00"
+  },
+  {
+   "titulo": "BENEDICTION Confirmed For 70000 Tons Of Metal 2027",
+   "link": "https://bravewords.com/news/benediction-confirmed-for-70000-tons-of-metal-2027/",
+   "fonte": "BraveWords",
+   "data": "2026-11-03T09:25:37+00:00"
+  },
+  {
+   "titulo": "Former BURNING WITCHES Vocalist SERAINA TELLI Releases New Single / Video “Chameleon”",
+   "link": "https://bravewords.com/news/former-burning-witches-vocalist-seraina-telli-releases-new-single-video-chameleon/",
+   "fonte": "BraveWords",
+   "data": "2026-11-03T09:21:31+00:00"
+  },
+  {
+   "titulo": "Imelda May: The nine songs that changed my life",
+   "link": "https://www.loudersound.com/bands-artists/imelda-may-nine-songs-that-changed-my-life",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-03T05:58:52+00:00"
+  },
+  {
+   "titulo": "Scorpions announce mammoth Love, Peace, & Rock'N'Roll European tour",
+   "link": "https://www.loudersound.com/bands-artists/concerts-shows/scorpions-love-peace-and-rocknroll-european-tour",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-03T04:05:00+00:00"
+  },
+  {
+   "titulo": "California Dream On: Ten things we learned at Aerosmith & Friends (Night Two) at the Hollywood Bowl",
+   "link": "https://www.loudersound.com/bands-artists/live-performances/aerosmith-and-friends-night-two-at-the-hollywood-bowl",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-03T00:10:45+00:00"
+  },
+  {
+   "titulo": "Neal Schon issues cryptic statement about Journey's future",
+   "link": "https://www.loudersound.com/bands-artists/neil-schon-cryptic-statement-journey-future",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-02T23:10:37+00:00"
+  },
+  {
+   "titulo": "ANTHRAX's SCOTT IAN: Why BON SCOTT-Era AC/DC Is 'My Favorite Band Of All Time'",
+   "link": "https://blabbermouth.net/news/anthraxs-scott-ian-why-bon-scott-era-ac-dc-is-my-favorite-band-of-all-time",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-02T21:47:52+00:00"
+  },
+  {
+   "titulo": "Gavin Harrison on juggling King Crimson, Porcupine Tree and The Pineapple Thief, and the hardest songs to play",
+   "link": "https://www.loudersound.com/bands-artists/interviews/your-arms-really-start-aching-theyre-really-tired-by-the-time-you-get-to-the-heavy-section-where-you-really-need-them-gavin-harrison-on-juggling-king-crimson-porcupine-tree-and-the-pineapple-thief-and-the-hardest-steven-wilson-song-to-play",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-02T21:00:00+00:00"
+  },
+  {
+   "titulo": "Queens Of The Stone Age - European Shows Confirmed",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64448",
+   "fonte": "Metal Storm",
+   "data": "2026-11-02T20:45:35+00:00"
+  },
+  {
+   "titulo": "Iron Mask - Releasing Next LP In January",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64443",
+   "fonte": "Metal Storm",
+   "data": "2026-11-02T20:38:38+00:00"
+  },
+  {
+   "titulo": "CHRIS JERICHO On Singing FOZZY Songs That He Didn't Write: 'I Have To Figure Out What They Mean To Me To Really Deliver Them With Authority'",
+   "link": "https://blabbermouth.net/news/chris-jericho-on-singing-fozzy-songs-that-he-didnt-write-i-have-to-figure-out-what-they-mean-to-me-to-really-deliver-them-with-authority",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-02T20:32:50+00:00"
+  },
+  {
+   "titulo": "Gormoth - Debut 'Everything Is So Quiet, Silent...' Song",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64447",
+   "fonte": "Metal Storm",
+   "data": "2026-11-02T20:32:43+00:00"
+  },
+  {
+   "titulo": "More Than Misery",
+   "link": "https://blabbermouth.net/reviews/more-than-misery",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-02T20:26:21+00:00"
+  },
+  {
+   "titulo": "Track Premiere: Hirax – “Vigilante”",
+   "link": "https://www.decibelmagazine.com/2026/11/02/track-premiere-hirax-vigilante/",
+   "fonte": "Decibel",
+   "data": "2026-11-02T20:00:19+00:00"
+  },
+  {
+   "titulo": "JARED JAMES NICHOLS Performs “Skin ’N Bone” Live At Blackbird Studios; Official Video",
+   "link": "https://bravewords.com/news/jared-james-nichols-performs-skin-n-bone-live-at-blackbird-studios-official-video/",
+   "fonte": "BraveWords",
+   "data": "2026-11-02T19:51:38+00:00"
+  },
+  {
+   "titulo": "Lake Of Tears - To Return Next Year For Live Shows",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64441",
+   "fonte": "Metal Storm",
+   "data": "2026-11-02T19:51:10+00:00"
+  },
+  {
+   "titulo": "Floating - New Track Launched",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64446",
+   "fonte": "Metal Storm",
+   "data": "2026-11-02T19:35:11+00:00"
+  },
+  {
+   "titulo": "Deep Purple Cancel Remaining 2026 Tour Dates Following Ian Gillan’s Medical Emergency",
+   "link": "https://metalinjection.net/news/deep-purple-cancel-remaining-2026-tour-dates-following-ian-gillans-medical-emergency",
+   "fonte": "Metal Injection",
+   "data": "2026-11-02T19:34:54+00:00"
+  },
+  {
+   "titulo": "IAN GILLAN’s “Medical Problem” Forces DEEP PURPLE To Postpone Remaining Dates Of European/UK Tour “Until Further Notice”",
+   "link": "https://bravewords.com/news/ian-gillans-medical-problem-forces-deep-purple-to-postpone-remaining-dates-of-european-uk-tour-until-further-notice/",
+   "fonte": "BraveWords",
+   "data": "2026-11-02T19:27:20+00:00"
+  },
+  {
+   "titulo": "Scorpions - Announce 2027 European Tour Dates",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64442",
+   "fonte": "Metal Storm",
+   "data": "2026-11-02T19:22:48+00:00"
+  },
+  {
+   "titulo": "Ferndal - Detail Upcoming Full Length Effort",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64445",
+   "fonte": "Metal Storm",
+   "data": "2026-11-02T19:17:38+00:00"
+  },
+  {
+   "titulo": "Pyogenesis - Unveil Video For 'Sing As If' Single",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64444",
+   "fonte": "Metal Storm",
+   "data": "2026-11-02T19:17:17+00:00"
+  },
+  {
+   "titulo": "AVENGED SEVENFOLD's M. SHADOWS Believes 'The Stage' Has Become 'The Crown Jewel' In The Band's Catalog A Decade After Its Surprise Release",
+   "link": "https://blabbermouth.net/news/avenged-sevenfolds-m-shadows-believes-the-stage-has-become-the-crown-jewel-in-the-bands-catalog-a-decade-after-its-surprise-release",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-02T19:17:11+00:00"
+  },
+  {
+   "titulo": "Billy Howerdel Auctioning Off Insane Collection of A Perfect Circle Memorabilia Including Guitars Used in 'Thirteenth Step' and From First Tour",
+   "link": "https://metalinjection.net/news/billy-howerdel-auctioning-off-insane-collection-of-a-perfect-circle-memorabilia-including-guitars-used-in-thirteenth-step-and-from-first-tour",
+   "fonte": "Metal Injection",
+   "data": "2026-11-02T19:08:13+00:00"
+  },
+  {
+   "titulo": "PYOGENESIS Release New Single And Music Video “Sing As If”",
+   "link": "https://bravewords.com/news/pyogenesis-release-new-single-and-music-video-sing-as-if/",
+   "fonte": "BraveWords",
+   "data": "2026-11-02T18:55:29+00:00"
+  },
+  {
+   "titulo": "Watch: TRIVIUM Performs “Fugue” Live At The Hangar; Official Video",
+   "link": "https://bravewords.com/news/watch-trivium-performs-fugue-live-at-the-hangar-official-video/",
+   "fonte": "BraveWords",
+   "data": "2026-11-02T18:36:16+00:00"
+  },
+  {
+   "titulo": "LAMB OF GOD’s Headbangers Boat Returns In 2028; SHADOWS FALL, BLEED FROM WITHIN, HERIOT Among Confirmed Acts",
+   "link": "https://bravewords.com/news/lamb-of-gods-headbangers-boat-returns-in-2028-shadows-fall-bleed-from-within-heriot-among-confirmed-acts/",
+   "fonte": "BraveWords",
+   "data": "2026-11-02T18:23:29+00:00"
+  },
+  {
+   "titulo": "SCORPIONS Announce Spring/Summer 2027 European Tour",
+   "link": "https://blabbermouth.net/news/scorpions-announce-spring-summer-2027-european-tour",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-02T18:21:17+00:00"
+  },
+  {
+   "titulo": "IRON MASK Feat. MARK BOALS To Release Crimson Prophecy Album In January; “No Greener Lands” Lyric Video Streaming",
+   "link": "https://bravewords.com/news/iron-mask-feat-mark-boals-to-release-crimson-prophecy-album-in-january-no-greener-lands-lyric-video-streaming/",
+   "fonte": "BraveWords",
+   "data": "2026-11-02T17:54:19+00:00"
+  },
+  {
+   "titulo": "A PERFECT CIRCLE’s BILLY HOWERDEL Auctions Rarities And Instruments Used On Mer De Noms, Thirteenth Step And More; Video",
+   "link": "https://bravewords.com/news/a-perfect-circles-billy-howerdel-auctions-rarities-and-instruments-used-on-mer-de-noms-thirteenth-step-and-more-video/",
+   "fonte": "BraveWords",
+   "data": "2026-11-02T17:39:12+00:00"
+  },
+  {
+   "titulo": "DEEP PURPLE Cancels Remainder Of Fall 2026 European Tour On Advice Of IAN GILLAN's Medical Team",
+   "link": "https://blabbermouth.net/news/deep-purple-cancels-remainder-of-fall-2026-european-tour-on-advice-of-ian-gillans-medical-team",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-02T17:35:23+00:00"
+  },
+  {
+   "titulo": "Deep Purple postpone remainder of their 2026 tour dates until further notice",
+   "link": "https://www.loudersound.com/bands-artists/deep-purple-postpone-2026-tour-ian-gillan-medical-emergency",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-02T17:35:10+00:00"
+  },
+  {
+   "titulo": "SCORPIONS Announce 2027 “Love, Peace & Rock ‘N’ Roll Tour”",
+   "link": "https://bravewords.com/news/scorpions-announce-2027-love-peace-rock-n-roll-tour/",
+   "fonte": "BraveWords",
+   "data": "2026-11-02T17:30:11+00:00"
+  },
+  {
+   "titulo": "STEVE VAI On Debut SATCHVAI Album 'The Sea Of Emotion': 'It Was My Favorite Collaboration'",
+   "link": "https://blabbermouth.net/news/steve-vai-on-debut-satchvai-album-the-sea-of-emotion-it-was-my-favorite-collaboration",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-02T17:17:32+00:00"
+  },
+  {
+   "titulo": "Silly Goose Will Play a Free Pop-Up Show Inside a Georgia Denny’s This Saturday",
+   "link": "https://metalinjection.net/tour-dates/silly-goose-are-playing-a-dennys-this-saturday",
+   "fonte": "Metal Injection",
+   "data": "2026-11-02T17:06:44+00:00"
+  },
+  {
+   "titulo": "Enter The MANOWAR Vaults: The Kings Of Metal Album 1988; Video",
+   "link": "https://bravewords.com/news/enter-the-manowar-vaults-the-kings-of-metal-album-1988-video/",
+   "fonte": "BraveWords",
+   "data": "2026-11-02T17:04:46+00:00"
+  },
+  {
+   "titulo": "Tales of Rock: Night is Calling – A Blood Moon Rises!",
+   "link": "https://bravewords.com/kommander/tales-of-rock-night-is-calling-a-blood-moon-rises/",
+   "fonte": "BraveWords",
+   "data": "2026-11-02T17:00:11+00:00"
+  },
+  {
+   "titulo": "Track Premiere: Eternal Armageddon – ‘Constellations of the Night’",
+   "link": "https://www.decibelmagazine.com/2026/11/02/track-premiere-eternal-armageddon-constellations-of-the-night/",
+   "fonte": "Decibel",
+   "data": "2026-11-02T17:00:05+00:00"
+  },
+  {
+   "titulo": "LEE AARON To Release Re-Vamp Album In January; First Details Revealed",
+   "link": "https://bravewords.com/news/lee-aaron-to-release-re-vamp-album-in-january-first-details-revealed/",
+   "fonte": "BraveWords",
+   "data": "2026-11-02T16:54:12+00:00"
+  },
+  {
+   "titulo": "Zack de la Rocha wants Turnstile's younger fans to explore band's punk and hardcore roots",
+   "link": "https://www.loudersound.com/bands-artists/zack-de-la-rocha-turnstile",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-02T16:30:00+00:00"
+  },
+  {
+   "titulo": "A PERFECT CIRCLE's BILLY HOWERDEL Partners With ANALOGr For Auction Featuring Instruments And Recording Equipment",
+   "link": "https://blabbermouth.net/news/a-perfect-circles-billy-howerdel-partners-with-analogr-for-auction-featuring-instruments-and-recording-equipment",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-02T16:29:28+00:00"
+  },
+  {
+   "titulo": "PAUL RODGERS, GEEZER BUTLER, MATT SORUM – Adopt The Arts Presents Sound & Vision Concert Film Screenings And Record Release Celebration Rescheduled To November 22",
+   "link": "https://bravewords.com/news/paul-rodgers-geezer-butler-matt-sorum-adopt-the-arts-presents-sound-vision-concert-film-screenings-and-record-release-celebration-rescheduled-to-november-22/",
+   "fonte": "BraveWords",
+   "data": "2026-11-02T16:26:46+00:00"
+  },
+  {
+   "titulo": "DRIVE, SHE SAID Release New Single And Official Music Video “Catch The Wind”",
+   "link": "https://bravewords.com/news/drive-she-said-release-new-single-and-official-music-video-catch-the-wind/",
+   "fonte": "BraveWords",
+   "data": "2026-11-02T16:07:15+00:00"
+  },
+  {
+   "titulo": "The November Progressive Injection: Seventh Wonder, Devin Townsend, Stoned Jesus and More",
+   "link": "https://metalinjection.net/upcoming-releases/progressive-injection/the-november-progressive-injection-seventh-wonder-devin-townsend-stoned-jesus-and-more",
+   "fonte": "Metal Injection",
+   "data": "2026-11-02T16:01:20+00:00"
+  },
+  {
+   "titulo": "LEE AARON Announces 'Re-Vamp' Album",
+   "link": "https://blabbermouth.net/news/lee-aaron-announces-re-vamp-album",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-02T16:00:12+00:00"
+  },
+  {
+   "titulo": "EXIT Festival Officially Announces Its Return To Serbia",
+   "link": "https://bravewords.com/news/exit-festival-officially-announces-its-return-to-serbia/",
+   "fonte": "BraveWords",
+   "data": "2026-11-02T15:58:59+00:00"
+  },
+  {
+   "titulo": "Author GREG PRATO Discusses His New Book “The Great American Nightmare: An Oral History Of The Howard Stern Show” With DAVID ELLEFSON; Video",
+   "link": "https://bravewords.com/news/author-greg-prato-discusses-his-new-book-the-great-american-nightmare-an-oral-history-of-the-howard-stern-show-with-david-ellefson-video/",
+   "fonte": "BraveWords",
+   "data": "2026-11-02T15:49:39+00:00"
+  },
+  {
+   "titulo": "Black Rose (UK) - Former Guitarist Died",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64440",
+   "fonte": "Metal Storm",
+   "data": "2026-11-02T15:40:33+00:00"
+  },
+  {
+   "titulo": "STORM FORCE, SCAR CHAMBER, ILIUM, CRIMSON GLORY And More – BraveWords Records Bandcamp Reveals Top 10 Streams & Sales For October 2026",
+   "link": "https://bravewords.com/news/storm-force-scar-chamber-ilium-crimson-glory-and-more-bravewords-records-bandcamp-reveals-top-10-streams-sales-for-october-2026/",
+   "fonte": "BraveWords",
+   "data": "2026-11-02T15:30:13+00:00"
+  },
+  {
+   "titulo": "Watch: Paleface Swiss Won Halloween With Slipknot Cover Set",
+   "link": "https://metalinjection.net/news/watch-paleface-swiss-won-halloween-with-slipknot-cover-set",
+   "fonte": "Metal Injection",
+   "data": "2026-11-02T15:20:13+00:00"
+  },
+  {
+   "titulo": "STONE TEMPLE PILOTS' JEFF GUTT Is Completing Debut Album From WE ARE NOT MACHINES Project Featuring EVANESCENCE's WILL HUNT",
+   "link": "https://blabbermouth.net/news/stone-temple-pilots-jeff-gutt-is-completing-debut-album-from-we-are-not-machines-project-featuring-evanescences-will-hunt",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-02T15:17:04+00:00"
+  },
+  {
+   "titulo": "DEEP PURPLE, ALICE COOPER And EUROPE Confirmed For One-Of-A-Kind Show In Poland",
+   "link": "https://bravewords.com/news/deep-purple-alice-cooper-and-europe-confirmed-for-one-of-a-kind-show-in-poland/",
+   "fonte": "BraveWords",
+   "data": "2026-11-02T15:13:22+00:00"
+  },
+  {
+   "titulo": "Randy Holden – Population II",
+   "link": "https://www.decibelmagazine.com/2026/11/02/randy-holden-population-ii/",
+   "fonte": "Decibel",
+   "data": "2026-11-02T14:38:39+00:00"
+  },
+  {
+   "titulo": "GREAT WHITE's MARK KENDALL Remembers His 'Best Friend' JACK RUSSELL: 'We Were Connected At The Hip Our Entire Career'",
+   "link": "https://blabbermouth.net/news/great-whites-mark-kendall-remembers-his-best-friend-jack-russell-we-were-connected-at-the-hip-our-entire-career",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-02T14:31:18+00:00"
+  },
+  {
+   "titulo": "Evanescence's Amy Lee believes that an AI backlash is just around the corner",
+   "link": "https://www.loudersound.com/bands-artists/evanescence-amy-lee-on-ai-generated-art",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-02T14:13:09+00:00"
+  },
+  {
+   "titulo": "Watch: AEROSMITH Joined By RUN-DMC For 'Walk This Way' Performance At Second Hollywood Bowl Concert",
+   "link": "https://blabbermouth.net/news/watch-aerosmith-joined-by-run-dmc-for-walk-this-way-performance-at-second-hollywood-bowl-concert",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-02T13:08:11+00:00"
+  },
+  {
+   "titulo": "IRON MAIDEN Frontman BRUCE DICKINSON Gearing Up For New Solo Single / Video Release – “If You Thought That You’re Gonna Have Problems With The Catholic Church, They Might Have A Problem With This Video…”",
+   "link": "https://bravewords.com/news/iron-maiden-frontman-bruce-dickinson-gearing-up-for-new-solo-single-video-release-if-you-thought-that-youre-gonna-have-problems-with-the-catholic-church-they-might-have-a-problem-with-this-vi/",
+   "fonte": "BraveWords",
+   "data": "2026-11-02T12:45:30+00:00"
+  },
+  {
+   "titulo": "My Chemical Romance confirm they'll begin work on a new album in 2027",
+   "link": "https://www.loudersound.com/bands-artists/my-chemical-romance-to-work-on-album-2027",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-02T12:04:02+00:00"
+  },
+  {
+   "titulo": "Top 10 Online Casinos For Real Money In The USA 2026 (New List)",
+   "link": "https://bravewords.com/news/top-10-online-casinos-for-real-money-in-the-usa-2026-new-list/",
+   "fonte": "BraveWords",
+   "data": "2026-11-02T12:00:01+00:00"
+  },
+  {
+   "titulo": "Teardrinker - Premiere New Songs",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64437",
+   "fonte": "Metal Storm",
+   "data": "2026-11-02T11:47:12+00:00"
+  },
+  {
+   "titulo": "Kadavar - Will Embark On European Headline Tour",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64436",
+   "fonte": "Metal Storm",
+   "data": "2026-11-02T11:32:39+00:00"
+  },
+  {
+   "titulo": "The Dillinger Escape Plan - Announces 10th Anniversary Edition Of Final Album",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64435",
+   "fonte": "Metal Storm",
+   "data": "2026-11-02T11:25:05+00:00"
+  },
+  {
+   "titulo": "“I wanted a new band to take it to another level”: Keith Emerson’s road to Emerson, Lake and Palmer",
+   "link": "https://www.loudersound.com/bands-artists/biographies/how-keith-emerson-began",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-02T11:00:00+00:00"
+  },
+  {
+   "titulo": "Winterfylleth - Announce 20th Anniversary Re-Issue Of 2007 Demo",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64434",
+   "fonte": "Metal Storm",
+   "data": "2026-11-02T10:53:18+00:00"
+  },
+  {
+   "titulo": "Leviathan - Announces New Album; Share First Track",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64432",
+   "fonte": "Metal Storm",
+   "data": "2026-11-02T10:35:21+00:00"
+  },
+  {
+   "titulo": "Robert Plant and Saving Grace announce Summer 2027 dates",
+   "link": "https://www.loudersound.com/bands-artists/concerts-shows/robert-plant-saving-grace-summer-2027-dates",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-02T10:30:01+00:00"
+  },
+  {
+   "titulo": "Queens Of The Stone Age announce European leg of Perfecth world tour",
+   "link": "https://www.loudersound.com/bands-artists/live-performances/queens-of-the-stone-age-announce-european-leg-of-perfecth-world-tour",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-02T10:01:07+00:00"
+  },
+  {
+   "titulo": "German Death Metallers SPLINTER FLESH Unleash New Single “The Punisher”",
+   "link": "https://bravewords.com/news/german-death-metallers-splinter-flesh-unleash-new-single-the-punisher/",
+   "fonte": "BraveWords",
+   "data": "2026-11-02T09:17:57+00:00"
+  },
+  {
+   "titulo": "QUEENSRŸCHE Vocalist TODD LA TORRE Sings IRON MAIDEN’s “Powerslave” (Video)",
+   "link": "https://bravewords.com/news/queensryche-vocalist-todd-la-torre-sings-iron-maidens-powerslave-video/",
+   "fonte": "BraveWords",
+   "data": "2026-11-02T08:49:45+00:00"
+  },
+  {
+   "titulo": "The full setlist from Aerosmith's second night in Hollywood",
+   "link": "https://www.loudersound.com/bands-artists/aerosmith-dream-on-hollywood-bowl-night-two",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-02T08:46:24+00:00"
+  },
+  {
+   "titulo": "Watch BODY COUNT’s Entire Alcatraz Open Air 2026 Live Show; Pro-Shot Video",
+   "link": "https://bravewords.com/news/watch-body-counts-entire-alcatraz-open-air-2026-live-show-pro-shot-video/",
+   "fonte": "BraveWords",
+   "data": "2026-11-02T08:04:38+00:00"
+  },
+  {
+   "titulo": "AD INFINITUM Vocalist MELISSA BONNY Shares Live From The Apocalypse Concert Film; Pro-Shot Video",
+   "link": "https://bravewords.com/news/ad-infinitum-vocalist-melissa-bonny-shares-live-from-the-apocalypse-concert-film-pro-shot-video/",
+   "fonte": "BraveWords",
+   "data": "2026-11-02T07:47:59+00:00"
+  },
+  {
+   "titulo": "Crystal Head Vodka Presents Today In Metal History 🤘 November 2nd, 2026 🤘 DOKKEN, POISON, CREAM, DECAPITATED, FLOTSAM AND JETSAM, BRUCE DICKINSON",
+   "link": "https://bravewords.com/today-in-metal/crystal-head-vodka-presents-today-in-metal-history-%f0%9f%a4%98-november-2nd-2026-%f0%9f%a4%98-dokken-poison-cream-decapitated-flotsam-and-jetsam-bruce-dickinson/",
+   "fonte": "BraveWords",
+   "data": "2026-11-02T07:36:47+00:00"
+  },
+  {
+   "titulo": "The Gaslight Anthem's Brian Fallon shares the life lessons of an eternal underdog",
+   "link": "https://www.loudersound.com/bands-artists/brian-fallon-gospel-according-to-gaslight-anthem",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-02T06:58:33+00:00"
+  },
+  {
+   "titulo": "4 Signs Your Loved One is Experiencing Abuse in a Nursing Home",
+   "link": "https://bravewords.com/partners/4-signs-your-loved-one-is-experiencing-abuse-in-a-nursing-home/",
+   "fonte": "BraveWords",
+   "data": "2026-11-02T06:50:38+00:00"
+  },
+  {
+   "titulo": "Album Of The Week Club review: Tony Iommi lives up to the Riff Lord branding on From The Dark",
+   "link": "https://www.loudersound.com/music/albums/tony-iommi-from-the-dark-album-of-the-week-club",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-02T02:38:11+00:00"
+  },
+  {
+   "titulo": "Classic Rock Tracks Of The Week: November 2, 2026",
+   "link": "https://www.loudersound.com/music/tracks-singles/classic-rock-tracks-of-the-week-november-2-2026",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-01T23:36:54+00:00"
+  },
+  {
+   "titulo": "BRUCE DICKINSON To Release First Single From His Upcoming Solo Album Within Next Two Weeks",
+   "link": "https://blabbermouth.net/news/bruce-dickinson-to-release-first-single-from-his-upcoming-solo-album-within-next-two-weeks",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-01T20:53:14+00:00"
+  },
+  {
+   "titulo": "JUSTIN SARGENT On Becoming SKID ROW's New Singer: It's 'Surreal' And 'A Dream Come True'",
+   "link": "https://blabbermouth.net/news/justin-sargent-on-becoming-skid-rows-new-singer-its-surreal-and-a-dream-come-true",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-01T20:05:23+00:00"
+  },
+  {
+   "titulo": "EVANESCENCE's AMY LEE: 'It's A Beautiful Thing To Be Able To Bring Big Groups Of People Together To Feel Something Real'",
+   "link": "https://blabbermouth.net/news/evanescences-amy-lee-its-a-beautiful-thing-to-be-able-to-bring-big-groups-of-people-together-to-feel-something-real",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-01T18:06:19+00:00"
+  },
+  {
+   "titulo": "Test your Rush knowledge with this incredibly tough quiz",
+   "link": "https://www.loudersound.com/culture/quiz/rush-trivia-quiz",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-01T18:00:00+00:00"
+  },
+  {
+   "titulo": "“We looked like the hippies they wanted to kill!”: How Opeth survived their early days in a scene they didn’t quite fit",
+   "link": "https://www.loudersound.com/bands-artists/mikael-akerfelft-opeth-nowrwegian-black-metal-era",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-01T17:00:00+00:00"
+  },
+  {
+   "titulo": "DAVE LOMBARDO Reflects On SLAYER's 'Reign In Blood': 'The Reviews Weren't All Great At The Time'",
+   "link": "https://blabbermouth.net/news/dave-lombardo-reflects-on-slayers-reign-in-blood-the-reviews-werent-all-great-at-the-time",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-01T16:41:53+00:00"
+  },
+  {
+   "titulo": "Alestorm - Begin Recording New Material",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64431",
+   "fonte": "Metal Storm",
+   "data": "2026-11-01T16:27:40+00:00"
+  },
+  {
+   "titulo": "How Saint Agnes overcame tragedy and industry interference",
+   "link": "https://www.loudersound.com/bands-artists/interviews/saint-agnes-new-noise",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-01T16:00:00+00:00"
+  },
+  {
+   "titulo": "Moonspell celebrate 35 years at MEO Arena with Amorphis and Zeal & Ardor",
+   "link": "https://www.theblackplanet.org/moonspell-35th-anniversary/",
+   "fonte": "The Black Planet",
+   "data": "2026-11-01T15:56:53+00:00"
+  },
+  {
+   "titulo": "SCOTT HOLIDAY On How RIVAL SONS Treat Royalty Income: 'We Don't Split Everything Equally, But We Split Things Very Amicably'",
+   "link": "https://blabbermouth.net/news/scott-holiday-on-how-rival-sons-treat-royalty-income-we-dont-split-everything-equally-but-we-split-things-very-amicably",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-01T15:56:14+00:00"
+  },
+  {
+   "titulo": "QUEEN's BRIAN MAY On Being Vegan: 'Why Do We Think We're More Important Than All The Other Animals? There's No Basis For That'",
+   "link": "https://blabbermouth.net/news/queens-brian-may-on-being-vegan-why-do-we-think-were-more-important-than-all-the-other-animals-theres-no-basis-for-that",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-01T15:11:29+00:00"
+  },
+  {
+   "titulo": "Watch: Nene Royal Covers Slipknot's \"Psychosocial\" For Halloween",
+   "link": "https://metalinjection.net/news/watch-nene-royal-covers-slipknots-psychosocial-for-halloween",
+   "fonte": "Metal Injection",
+   "data": "2026-11-01T14:58:34+00:00"
+  },
+  {
+   "titulo": "MEGADETH Guitarist TEEMU MÄNTYSAARI Performs 'Symphony Of Destruction' On Finnish TV show 'Elämäni Biisi'",
+   "link": "https://blabbermouth.net/news/megadeth-guitarist-teemu-mantysaari-performs-symphony-of-destruction-on-finnish-tv-show-elamani-biisi",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-01T14:25:23+00:00"
+  },
+  {
+   "titulo": "The 10 Metal Drummers That Are Almost Impossible To Replicate",
+   "link": "https://metalinjection.net/news/the-10-metal-drummers-that-are-almost-impossible-to-replicate",
+   "fonte": "Metal Injection",
+   "data": "2026-11-01T14:00:46+00:00"
+  },
+  {
+   "titulo": "The 50 best thrash metal albums ever, from Metallica to Power Trip",
+   "link": "https://www.loudersound.com/music/albums/the-50-greatest-thrash-metal-albums-ever-made",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-01T13:30:00+00:00"
+  },
+  {
+   "titulo": "TOMMY THAYER And DORO PESCH Perform With KISS Tribute Band At '50 Years Of Kiss In Germany' Official KISS Fan Celebration",
+   "link": "https://blabbermouth.net/news/tommy-thayer-and-doro-pesch-perform-with-kiss-tribute-band-at-50-years-of-kiss-in-germany-official-kiss-fan-celebration",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-01T13:24:35+00:00"
+  },
+  {
+   "titulo": "Watch: WINGER/WHITESNAKE Guitarist REB BEACH Performs RAINBOW And BLACK SABBATH Classics With DIO RULES",
+   "link": "https://blabbermouth.net/news/watch-winger-whitesnake-guitarist-reb-beach-performs-rainbow-and-black-sabbath-classics-with-dio-rules",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-01T13:07:38+00:00"
+  },
+  {
+   "titulo": "Watch: TESLA's FRANK HANNON Performs Two Songs With Y&T In Rocklin, California",
+   "link": "https://blabbermouth.net/news/watch-teslas-frank-hannon-performs-two-songs-with-yt-in-rocklin-california",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-01T12:32:06+00:00"
+  },
+  {
+   "titulo": "Watch: QUEENSRŸCHE's TODD LA TORRE Sings IRON MAIDEN's 'Powerslave' At His Home Studio",
+   "link": "https://blabbermouth.net/news/watch-queensryches-todd-la-torre-sings-iron-maidens-powerslave-at-his-home-studio",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-01T11:56:14+00:00"
+  },
+  {
+   "titulo": "Watch Paleface Swiss blast through three Slipknot songs while dressed as Slipknot at their Halloween gig",
+   "link": "https://www.loudersound.com/bands-artists/paleface-swiss-perform-as-slipknot-at-halloween-gig",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-01T11:20:50+00:00"
+  },
+  {
+   "titulo": "James Hetfield says Turnstile turned down the chance to open for Metallica",
+   "link": "https://www.loudersound.com/bands-artists/we-wanted-to-get-them-on-tour-and-they-said-no-james-hetfield-says-turnstile-turned-the-chance-to-open-for-metallica",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-01T09:03:57+00:00"
+  },
+  {
+   "titulo": "Brace yourselves, haters. Nickelback are going nowhere",
+   "link": "https://www.loudersound.com/bands-artists/i-believe-one-of-the-leading-causes-of-death-is-retirement-brace-yourselves-haters-nickelback-are-going-nowhere",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-01T04:00:00+00:00"
+  },
+  {
+   "titulo": "How Venom made their unholy masterpiece Black Metal and changed the course of metal",
+   "link": "https://www.loudersound.com/music/albums/venom-black-metal-story-behind-the-album",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-01T01:00:00+00:00"
+  },
+  {
+   "titulo": "Steve Hackett recalls messing with Genesis at their Rock Hall induction",
+   "link": "https://www.loudersound.com/music-industry/hall-of-fame/steve-hackett-genesis-rock-hall-induction-yes",
+   "fonte": "Metal Hammer",
+   "data": "2026-10-31T22:00:00+00:00"
+  },
+  {
+   "titulo": "BIOHAZARD's EVAN SEINFELD On His New Project SHED MY SKIN: 'There Are Elements In It That I Would Call Trap Metal'",
+   "link": "https://blabbermouth.net/news/biohazards-evan-seinfeld-on-his-new-project-shed-my-skin-there-are-elements-in-it-that-i-would-call-trap-metal",
+   "fonte": "Blabbermouth",
+   "data": "2026-10-31T21:37:50+00:00"
+  },
+  {
+   "titulo": "Test your knowledge with this Slayer trivia quiz",
+   "link": "https://www.loudersound.com/culture/quiz/slayer-trivia-quiz",
+   "fonte": "Metal Hammer",
+   "data": "2026-10-31T21:00:00+00:00"
+  },
+  {
+   "titulo": "CRO-MAGS Are 'Almost Done' With New Album: We Have 'Nine Songs Tracked And Six More Songs' Written",
+   "link": "https://blabbermouth.net/news/cro-mags-are-almost-done-with-new-album-we-have-nine-songs-tracked-and-six-more-songs-written",
+   "fonte": "Blabbermouth",
+   "data": "2026-10-31T20:18:46+00:00"
+  },
+  {
+   "titulo": "Deep Purple postpone two German shows with Ian Gillan in hospital following \"medical emergency\"",
+   "link": "https://www.loudersound.com/bands-artists/deep-purple-cancel-two-german-shows-with-ian-gillan-in-hospital-following-medical-emergency",
+   "fonte": "Metal Hammer",
+   "data": "2026-10-31T19:58:52+00:00"
+  },
+  {
+   "titulo": "Night Ranger look back on 40 years of Floyd Rose flicking, big hits and avoiding retirement",
+   "link": "https://www.loudersound.com/bands-artists/night-ranger-look-back-on-40-years",
+   "fonte": "Metal Hammer",
+   "data": "2026-10-31T18:05:00+00:00"
+  },
+  {
+   "titulo": "Watch: VINNY APPICE's SABBATH KNIGHTS Performs BLACK SABBATH And DIO Classics In Roseville, California",
+   "link": "https://blabbermouth.net/news/watch-vinny-appices-sabbath-knights-performs-black-sabbath-and-dio-classics-in-roseville-california",
+   "fonte": "Blabbermouth",
+   "data": "2026-10-31T17:20:42+00:00"
+  },
+  {
+   "titulo": "Ashes Reborn headlines Pão Por Deus Halloween Metal Night at Route 206 Bar",
+   "link": "https://www.theblackplanet.org/ashes-reborn-pao-por-deus/",
+   "fonte": "The Black Planet",
+   "data": "2026-10-31T16:57:11+00:00"
+  },
+  {
+   "titulo": "James Hetfield: Turnstile Turned Down Touring With Metallica",
+   "link": "https://metalinjection.net/news/james-hetfield-turnstile-turned-down-touring-with-metallica",
+   "fonte": "Metal Injection",
+   "data": "2026-10-31T16:13:07+00:00"
+  },
+  {
+   "titulo": "NONPOINT's ELIAS SORIANO Says 'The Last Word' Album Was In The Works 'For About Two Years'",
+   "link": "https://blabbermouth.net/news/nonpoints-elias-soriano-says-the-last-word-album-was-in-the-works-for-about-two-years",
+   "fonte": "Blabbermouth",
+   "data": "2026-10-31T16:03:40+00:00"
+  },
+  {
+   "titulo": "See Pro-Shot Video Of FORBIDDEN's Entire Chicago Concert During Fall 2026 'Chaos By Design' U.S. Tour",
+   "link": "https://blabbermouth.net/news/see-pro-shot-video-of-forbiddens-entire-chicago-concert-during-fall-2026-chaos-by-design-u-s-tour",
+   "fonte": "Blabbermouth",
+   "data": "2026-10-31T15:31:59+00:00"
+  },
+  {
+   "titulo": "When Ozzy Osbourne Played an Anti-Heavy Metal Preacher in 'Trick or Treat'",
+   "link": "https://metalinjection.net/news/when-ozzy-osbourne-played-an-anti-heavy-metal-preacher-in-trick-or-treat",
+   "fonte": "Metal Injection",
+   "data": "2026-10-31T15:11:39+00:00"
+  },
+  {
+   "titulo": "REPENTANCE Shares Third Single 'Among The Wolves' From Upcoming 'Retaliate' Album",
+   "link": "https://blabbermouth.net/news/repentance-shares-third-single-among-the-wolves-from-upcoming-retaliate-album",
+   "fonte": "Blabbermouth",
+   "data": "2026-10-31T14:58:28+00:00"
+  },
+  {
+   "titulo": "Watch: Smash Mouth Covers Slipknot's \"Duality\"",
+   "link": "https://metalinjection.net/news/watch-smash-mouth-covers-slipknots-duality",
+   "fonte": "Metal Injection",
+   "data": "2026-10-31T14:26:03+00:00"
+  },
+  {
+   "titulo": "DEEP PURPLE Cancels German Shows Due To 'Medical Emergency' Involving IAN GILLAN",
+   "link": "https://blabbermouth.net/news/deep-purple-cancels-german-shows-due-to-medical-emergency-involving-ian-gillan",
+   "fonte": "Blabbermouth",
+   "data": "2026-10-31T14:11:30+00:00"
+  },
+  {
+   "titulo": "Meshuggah Announce 40th Anniversary Tour, Band Claiming Sleep Token Ties Drops Debut Song + More Top Stories of the Week",
+   "link": "https://metalinjection.net/injection-reflection/meshuggah-announce-40th-anniversary-tour-band-claiming-sleep-token-ties-drops-debut-song-more-top-stories-of-the-week",
+   "fonte": "Metal Injection",
+   "data": "2026-10-31T13:39:19+00:00"
+  },
+  {
+   "titulo": "Lebanon Hanover return to Portugal in November",
+   "link": "https://www.theblackplanet.org/lebanon-hanover-return-to-portugal-next-month/",
+   "fonte": "The Black Planet",
+   "data": "2026-10-31T00:15:46+00:00"
+  },
+  {
+   "titulo": "Currents Drop \"Retributioner,\" Announce New Record 'Our Fates Lie In Tandem'",
+   "link": "https://metalinjection.net/new-music/currents-drop-retributioner-announce-new-record-our-fates-lie-in-tandem",
+   "fonte": "Metal Injection",
+   "data": "2026-10-30T18:41:31+00:00"
+  },
+  {
+   "titulo": "Wardruna Give “Helvegen” New Life 14 Years Later With “Helvegen II”",
+   "link": "https://metalinjection.net/news/wardruna-give-helvegen-new-life-14-years-later-with-helvegen-ii",
+   "fonte": "Metal Injection",
+   "data": "2026-10-30T17:07:35+00:00"
+  },
+  {
+   "titulo": "200 Stab Wounds, Rev3rent, Darkest Hour & More Added to Metal Injection's Top Tracks of the Week",
+   "link": "https://metalinjection.net/playlist/top-tracks-of-the-week-playlist/200-stab-wounds-rev3rent-darkest-hour-more-added-to-metal-injections-top-tracks-of-the-week",
+   "fonte": "Metal Injection",
+   "data": "2026-10-30T16:15:42+00:00"
+  },
+  {
+   "titulo": "Sonic Rites 2027 announces YOB, Inter Arma among others",
+   "link": "https://www.theblackplanet.org/sonic-rites-2027/",
+   "fonte": "The Black Planet",
+   "data": "2026-10-30T16:04:07+00:00"
+  },
+  {
+   "titulo": "Five For Friday: October 30, 2026",
+   "link": "https://www.decibelmagazine.com/2026/10/30/five-for-friday-october-30-2026/",
+   "fonte": "Decibel",
+   "data": "2026-10-30T16:00:16+00:00"
+  },
+  {
+   "titulo": "Black Bombaim join Isaiah Mitchell for two Portugal shows before performing at Le Guess Who? 2026 in the Netherlands",
+   "link": "https://www.theblackplanet.org/black-bombaim-portugal-netherlands-concerts/",
+   "fonte": "The Black Planet",
+   "data": "2026-10-30T15:54:55+00:00"
+  },
+  {
+   "titulo": "Chaosaddiction to play Kintsugi in full",
+   "link": "https://www.theblackplanet.org/chaosaddiction-kintsugi/",
+   "fonte": "The Black Planet",
+   "data": "2026-10-30T15:29:59+00:00"
+  },
+  {
+   "titulo": "Happy Halloween: Watch Rob Zombie's New Video For \"Sir Lord Acid Wolfman\"",
+   "link": "https://metalinjection.net/news/happy-halloween-watch-rob-zombies-new-video-for-sir-acid-wolfman",
+   "fonte": "Metal Injection",
+   "data": "2026-10-30T14:46:26+00:00"
+  },
+  {
+   "titulo": "Watch: Enslaved Release Visualizer For 'Mið' Standout Song \"I Am Ice\" Featuring Johan Sara Jr.",
+   "link": "https://metalinjection.net/new-music/watch-enslaved-release-visualizer-for-mid-standout-song-i-am-ice-featuring-johan-sara-jr",
+   "fonte": "Metal Injection",
+   "data": "2026-10-30T14:25:50+00:00"
+  },
+  {
+   "titulo": "Watch: Rev3rent Drops New Album, Video For \"Eyes Wide Shut\"",
+   "link": "https://metalinjection.net/new-music/watch-rev3rent-drops-new-album-video-for-eyes-wide-shut",
+   "fonte": "Metal Injection",
+   "data": "2026-10-30T14:04:02+00:00"
+  },
+  {
+   "titulo": "The Weekly Injection: New Releases From Ministry, Enslaved, and More Out This Week – 10.30",
+   "link": "https://metalinjection.net/upcoming-releases/heavy-new-releases/the-weekly-injection-new-releases-from-ministry-enslaved-and-more-out-this-week-10-30",
+   "fonte": "Metal Injection",
+   "data": "2026-10-30T13:10:11+00:00"
+  },
+  {
+   "titulo": "Watch: Knights Battle For Victory In Imminence's New Music Video for “Crestfallen”",
+   "link": "https://metalinjection.net/news/watch-knights-battle-for-victory-in-imminences-new-music-video-for-crestfallen",
+   "fonte": "Metal Injection",
+   "data": "2026-10-29T21:06:25+00:00"
+  },
+  {
+   "titulo": "Avenged Sevenfold’s Zacky Vengeance Defends AI Art, Calls Majority of Designers He’s Worked With \"Lazy\"",
+   "link": "https://metalinjection.net/news/avenged-sevenfolds-zacky-vengeance-defends-ai-art-calls-majority-of-designers-hes-worked-with-lazy",
+   "fonte": "Metal Injection",
+   "data": "2026-10-29T19:16:30+00:00"
+  },
+  {
+   "titulo": "Rotting Christ announce Two Portugal shows for March 2027",
+   "link": "https://www.theblackplanet.org/rotting-christ-portugal-2027/",
+   "fonte": "The Black Planet",
+   "data": "2026-10-29T19:08:23+00:00"
+  },
+  {
+   "titulo": "Album Premiere: Laser Dracul – Hin Håle Blues",
+   "link": "https://www.decibelmagazine.com/2026/10/29/album-premiere-laser-dracul-hin-hale-blues/",
+   "fonte": "Decibel",
+   "data": "2026-10-29T19:00:23+00:00"
+  },
+  {
+   "titulo": "Video Premiere: Teardrinker’s “Hereditary”",
+   "link": "https://www.decibelmagazine.com/2026/10/29/video-premiere-teardrinkers-hereditary/",
+   "fonte": "Decibel",
+   "data": "2026-10-29T19:00:12+00:00"
+  },
+  {
+   "titulo": "Arcanxo Festival announces dates for 2027 Edition",
+   "link": "https://www.theblackplanet.org/arcanxo-festival-2027/",
+   "fonte": "The Black Planet",
+   "data": "2026-10-29T18:04:51+00:00"
+  },
+  {
+   "titulo": "Menhir Fest 2026 full line-up",
+   "link": "https://www.theblackplanet.org/menhir-fest-2026/",
+   "fonte": "The Black Planet",
+   "data": "2026-10-29T17:52:58+00:00"
+  },
+  {
+   "titulo": "Listen: 200 Stab Wounds Debuts Grimey New Single, “Sweet Suicide”",
+   "link": "https://metalinjection.net/new-music/listen-200-stab-wounds-debuts-grimey-new-single-sweet-suicide",
+   "fonte": "Metal Injection",
+   "data": "2026-10-29T17:31:23+00:00"
+  },
+  {
+   "titulo": "Welcome to Rockville Reveals 2027 Lineup Featuring Bad Omens, Korn, Pierce the Veil and More",
+   "link": "https://metalinjection.net/tour-dates/festivals/welcome-to-rockville-reveals-2027-korn-bad-omens-pierce-the-veil",
+   "fonte": "Metal Injection",
+   "data": "2026-10-29T16:37:22+00:00"
+  },
+  {
+   "titulo": "Month-Long Massacre, Final Kill: 92 Vinyl Records, All $31 or Less",
+   "link": "https://metalinjection.net/announcements/month-long-massacre-final-kill-92-vinyl-records-all-31-or-less",
+   "fonte": "Metal Injection",
+   "data": "2026-10-29T16:31:23+00:00"
+  },
+  {
+   "titulo": "Track Premiere: McGuyer – “KHAST”",
+   "link": "https://www.decibelmagazine.com/2026/10/29/track-premiere-mcguyer-khast/",
+   "fonte": "Decibel",
+   "data": "2026-10-29T16:00:15+00:00"
+  },
+  {
+   "titulo": "Skid Row Reveals New Singer, Drops Cover of The Who's \"Won't Get Fooled Again\"",
+   "link": "https://metalinjection.net/news/skid-row-reveals-new-singer-drops-cover-of-the-whos-wont-get-fooled-again",
+   "fonte": "Metal Injection",
+   "data": "2026-10-29T15:06:34+00:00"
+  },
+  {
+   "titulo": "Full Album Stream: Hope Collapse – Age of Heathens",
+   "link": "https://www.decibelmagazine.com/2026/10/29/full-album-stream-hope-collapse-age-of-heathens/",
+   "fonte": "Decibel",
+   "data": "2026-10-29T15:00:25+00:00"
+  },
+  {
+   "titulo": "Watch: August Burns Red Unleash New Live Video for \"Behemoth\"",
+   "link": "https://metalinjection.net/news/watch-august-burns-red-unleash-new-live-video-for-behemoth",
+   "fonte": "Metal Injection",
+   "data": "2026-10-29T14:55:39+00:00"
+  },
+  {
+   "titulo": "Full Album Stream: Italian Death Metal Crew Obbrobrius Offer Up Usurped",
+   "link": "https://www.decibelmagazine.com/2026/10/29/full-album-stream-italian-death-metal-crew-obbrobrius-offer-up-usurped/",
+   "fonte": "Decibel",
+   "data": "2026-10-29T13:30:58+00:00"
+  },
+  {
+   "titulo": "Full EP Stream: Ocean of Illusions –Nexus",
+   "link": "https://www.decibelmagazine.com/2026/10/28/full-ep-stream-ocean-of-illusions-nexus/",
+   "fonte": "Decibel",
+   "data": "2026-10-28T19:00:21+00:00"
+  }
+ ]
+}

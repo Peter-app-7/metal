@@ -1,0 +1,199 @@
+{
+ "architects": {
+  "etiquetas": {
+   "alternative metal": 2,
+   "djent": 1,
+   "mathcore": 1,
+   "metal": 6,
+   "metalcore": 12,
+   "post-hardcore": 1,
+   "progressive metal": 1,
+   "progressive metalcore": 1,
+   "rock and indie": 1
+  },
+  "mbid": "05dffdbe-dc6e-4c8d-a075-50a09c4cb45c",
+  "nome": "Architects",
+  "verificado": "2026-11-03"
+ },
+ "cannibal corpse": {
+  "etiquetas": {
+   "death metal": 18
+  },
+  "mbid": "af8e4cc5-ef54-458d-a194-7b210acf638f",
+  "nome": "Cannibal Corpse",
+  "verificado": "2026-11-03"
+ },
+ "death": {
+  "etiquetas": {
+   "death metal": 26,
+   "extreme progressive metal": 1,
+   "metal": 5,
+   "progressive death metal": 9,
+   "progressive metal": 8,
+   "technical death metal": 13
+  },
+  "mbid": "dbb3b771-ae77-4381-b61c-758b5b7898ec",
+  "nome": "Death",
+  "verificado": "2026-11-03"
+ },
+ "electric wizard": {
+  "etiquetas": {
+   "doom metal": 10,
+   "drone": 1,
+   "heavy psych": 3,
+   "metal": 2,
+   "stoner metal": 8,
+   "stoner rock": 2,
+   "traditional doom metal": 1
+  },
+  "mbid": "da7d57e6-0619-4f0f-8d15-d0b4195c3f55",
+  "nome": "Electric Wizard",
+  "verificado": "2026-11-03"
+ },
+ "emperor": {
+  "etiquetas": {
+   "black metal": 13,
+   "metal": 5,
+   "norwegian": 1,
+   "symphonic black metal": 8,
+   "symphonic metal": 2
+  },
+  "mbid": "d9951785-7906-4daf-9a60-21753bf64aa9",
+  "nome": "Emperor",
+  "verificado": "2026-11-03"
+ },
+ "eyehategod": {
+  "etiquetas": {
+   "metal": 4,
+   "sludge metal": 5
+  },
+  "mbid": "742e54f5-debd-4fc1-a7c1-00edf9b673a5",
+  "nome": "Eyehategod",
+  "verificado": "2026-11-03"
+ },
+ "gaerea": {
+  "etiquetas": {
+   "black metal": 8,
+   "post-black metal": 4
+  },
+  "mbid": "cc220a20-9cd4-4dc2-9164-dadd2bb85467",
+  "nome": "Gaerea",
+  "verificado": "2026-11-03"
+ },
+ "korn": {
+  "etiquetas": {
+   "alternative metal": 14,
+   "alternative rock": 5,
+   "american": 1,
+   "hard rock": 1,
+   "heavy metal": 1,
+   "metal": 9,
+   "nu metal": 26,
+   "rock": 4
+  },
+  "mbid": "ac865b2e-bba8-4f5a-8756-dd40d5e39f46",
+  "nome": "Korn",
+  "verificado": "2026-11-03"
+ },
+ "kreator": {
+  "etiquetas": {
+   "death metal": 1,
+   "hard rock": 1,
+   "heavy metal": 1,
+   "metal": 5,
+   "rock": 1,
+   "rock groups": 1,
+   "speed metal": 1,
+   "thrash": 1,
+   "thrash metal": 17
+  },
+  "mbid": "39822e8d-f24e-4f07-b51b-28b22e59fbdb",
+  "nome": "Kreator",
+  "verificado": "2026-11-03"
+ },
+ "mayhem": {
+  "etiquetas": {
+   "black metal": 22,
+   "metal": 6,
+   "norwegian": 7
+  },
+  "mbid": "c5f9e699-7b0d-4030-86dd-7acc8250d147",
+  "nome": "Mayhem",
+  "verificado": "2026-11-03"
+ },
+ "meshuggah": {
+  "etiquetas": {
+   "death metal": 3,
+   "djent": 9,
+   "groove metal": 1,
+   "math metal": 2,
+   "metal": 5,
+   "progressive metal": 4,
+   "technical metal": 2,
+   "technical thrash metal": 1
+  },
+  "mbid": "cf8b3b8c-118e-4136-8d1d-c37091173413",
+  "nome": "Meshuggah",
+  "verificado": "2026-11-03"
+ },
+ "metallica": {
+  "etiquetas": {
+   "american": 7,
+   "hard rock": 21,
+   "heavy metal": 41,
+   "metal": 34,
+   "rock": 1,
+   "rockgruppe": 1,
+   "thrash metal": 67
+  },
+  "mbid": "65f4f0c5-ef9e-490c-aee3-909e7ae6b2ab",
+  "nome": "Metallica",
+  "verificado": "2026-11-03"
+ },
+ "moonspell": {
+  "etiquetas": {
+   "black metal": 3,
+   "gothic metal": 8,
+   "metal": 1
+  },
+  "mbid": "386b19c6-a3d2-414a-bef2-c178572b1cbe",
+  "nome": "Moonspell",
+  "verificado": "2026-11-03"
+ },
+ "morbid angel": {
+  "etiquetas": {
+   "death metal": 11,
+   "metal": 3
+  },
+  "mbid": "4355a36d-805e-478d-8589-64f0292724b2",
+  "nome": "Morbid Angel",
+  "verificado": "2026-11-03"
+ },
+ "slayer": {
+  "etiquetas": {
+   "crossover thrash": 2,
+   "heavy metal": 3,
+   "metal": 4,
+   "nu metal": 2,
+   "speed metal": 4,
+   "thrash metal": 30
+  },
+  "mbid": "bdacc37b-8633-4bf8-9dd5-4662ee651aec",
+  "nome": "Slayer",
+  "verificado": "2026-11-03"
+ },
+ "slipknot": {
+  "etiquetas": {
+   "alternative metal": 11,
+   "alternative rock": 2,
+   "heavy metal": 3,
+   "metal": 4,
+   "metalcore": 1,
+   "nu metal": 20,
+   "rock": 1
+  },
+  "mbid": "a466c2a2-6517-42fb-a160-1087c3bafd9f",
+  "nome": "Slipknot",
+  "verificado": "2026-11-03"
+ }
+}

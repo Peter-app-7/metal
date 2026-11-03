@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover">
+  <!-- Os títulos e links vêm de sites externos: esta regra impede que corram código na página. -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src https: data:; base-uri 'none'; form-action 'none'">
+  <meta name="referrer" content="no-referrer">
+  <title>Metal</title>
+
+  <!-- Estas linhas fazem a página abrir como uma app quando está no ecrã principal do iPhone. -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Metal">
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#212529">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topo">
+    <p id="atualizado" class="topo-data" role="status">A carregar…</p>
+  </header>
+
+  <main id="conteudo"></main>
+
+  <nav class="navegacao" aria-label="Separadores">
+    <button type="button" data-separador="bandas">🎸<span>Bandas</span></button>
+    <button type="button" data-separador="noticias">📰<span>Notícias</span></button>
+  </nav>
+
+  <script src="app.js"></script>
+</body>
+</html>

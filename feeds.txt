@@ -1,0 +1,13 @@
+# Feeds RSS de notícias de metal. Formato: Nome | Endereço
+# As linhas começadas por # são ignoradas. Para desligar um feed, põe # no início.
+Blabbermouth | https://blabbermouth.net/feed
+Metal Injection | https://metalinjection.net/feed
+Metal Hammer | https://www.loudersound.com/metal-hammer/feed
+MetalSucks | https://www.metalsucks.net/feed/
+Decibel | https://www.decibelmagazine.com/feed/
+BraveWords | https://bravewords.com/feed/
+Metal Storm | https://www.metalstorm.net/rss/news.xml
+# Portugal
+The Black Planet | https://www.theblackplanet.org/feed/
+# Em português, mas cobre música em geral e não só metal. Tira o # para o ligar.
+# Arte Sonora | https://artesonora.pt/feed/

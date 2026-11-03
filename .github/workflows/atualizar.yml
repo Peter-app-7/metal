@@ -1,0 +1,43 @@
+name: Atualizar dados
+
+on:
+  schedule:
+    - cron: '23 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: atualizar-dados
+  cancel-in-progress: false
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Gerar data.json
+        env:
+          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
+          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
+          SPOTIFY_REFRESH_TOKEN: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
+          BANDSINTOWN_APP_ID: ${{ secrets.BANDSINTOWN_APP_ID }}
+        run: python3 scripts/atualizar.py
+
+      # Corre mesmo depois de uma falha, para não se perder a cache do MusicBrainz.
+      - name: Guardar no repositório
+        if: always()
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add docs/data.json cache/
+          if git diff --cached --quiet; then
+            echo "Sem alterações."
+            exit 0
+          fi
+          git commit -m "Atualizar dados"
+          git pull --rebase origin main
+          git push origin HEAD:main

@@ -1,0 +1,178 @@
+/* Mesmo estilo do Organizador. Cores em variáveis: o modo escuro só tem de as trocar. */
+:root {
+  color-scheme: light dark;
+  --fundo: #f4f5f7;
+  --cartao: #ffffff;
+  --texto: #1c2024;
+  --texto-suave: #5f6872;
+  --linha: #dde1e6;
+  --destaque: #0b6e6e;
+  --destaque-texto: #ffffff;
+  --alerta: #a4500f;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --fundo: #15181b;
+    --cartao: #212529;
+    --texto: #eef0f2;
+    --texto-suave: #a3acb5;
+    --linha: #363c42;
+    --destaque: #3fb8b0;
+    --destaque-texto: #0c1a1a;
+    --alerta: #eda566;
+  }
+}
+
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+
+html { overflow-x: hidden; }
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  background: var(--fundo);
+  color: var(--texto);
+  font: 16px/1.4 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  overflow-wrap: anywhere; /* nomes compridos quebram em vez de alargar a página */
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  /* Espaço para a barra de baixo não tapar o fim da página. */
+  padding-bottom: calc(76px + env(safe-area-inset-bottom));
+}
+
+main { max-width: 600px; margin: 0 auto; padding: 8px 16px; }
+
+h1 { font-size: 1.6rem; margin: 8px 0 12px; }
+h2 { font-size: 1.05rem; margin: 22px 0 8px; }
+h3 { font-size: .9rem; margin: 18px 0 6px; color: var(--texto-suave); }
+
+button { font: inherit; color: inherit; cursor: pointer; }
+a { color: inherit; }
+
+/* --- Topo: quando os dados foram atualizados --- */
+.topo {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  padding: calc(8px + env(safe-area-inset-top)) 16px 8px;
+  background: var(--cartao);
+  border-bottom: 1px solid var(--linha);
+}
+.topo-data { max-width: 568px; margin: 0 auto; font-size: .85rem; color: var(--texto-suave); }
+.topo-data[data-antigo="true"] { color: var(--alerta); font-weight: 600; }
+
+/* --- Filtro por categoria: quebra de linha em vez de scroll para o lado --- */
+.filtros { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 4px; }
+.filtro {
+  min-height: 44px;
+  padding: 6px 12px;
+  font-size: .9rem;
+  background: var(--cartao);
+  border: 1px solid var(--linha);
+  border-radius: 8px;
+}
+.filtro[aria-pressed="true"] { font-weight: 700; color: var(--destaque-texto); background: var(--destaque); border-color: var(--destaque); }
+
+/* --- Listas --- */
+.lista { list-style: none; margin: 0; padding: 0; }
+.linha {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  min-height: 48px;
+  margin: 0 0 6px;
+  padding: 8px 12px;
+  color: inherit;
+  text-align: left;
+  text-decoration: none;
+  background: var(--cartao);
+  border: 1px solid var(--linha);
+  border-radius: 8px;
+}
+.linha-texto { flex: 1; min-width: 0; }
+.linha-titulo { display: block; font-weight: 600; }
+.linha-detalhe { display: block; margin-top: 2px; font-size: .85rem; color: var(--texto-suave); }
+.seta { flex: none; font-size: 1.2rem; color: var(--texto-suave); }
+
+/* Capa do lançamento. Sem imagem, vê-se a nota musical por baixo. */
+.capa {
+  position: relative;
+  flex: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  overflow: hidden;
+  font-size: 1.5rem;
+  color: var(--texto-suave);
+  background: var(--fundo);
+  border: 1px solid var(--linha);
+  border-radius: 6px;
+}
+.capa img { position: absolute; inset: 0; display: block; width: 100%; height: 100%; object-fit: cover; }
+
+/* Dia do concerto, em quadrado como os dias do Organizador. */
+.dia {
+  flex: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  min-height: 60px;
+  color: var(--destaque-texto);
+  background: var(--destaque);
+  border-radius: 8px;
+}
+.dia-numero { font-size: 1.25rem; font-weight: 700; line-height: 1.1; }
+.dia-mes { font-size: .75rem; }
+.etiqueta-bilhetes { flex: none; font-size: .85rem; font-weight: 600; color: var(--destaque); }
+
+.contador { flex: none; font-size: .8rem; font-weight: 600; color: var(--destaque); white-space: nowrap; }
+
+.subtitulo { color: var(--texto-suave); margin: 0 0 8px; }
+.vazio { color: var(--texto-suave); padding: 8px 0; margin: 0; }
+.nota { font-size: .8rem; color: var(--texto-suave); margin: 24px 0 8px; }
+.nota-alerta { margin: 8px 0; font-size: .85rem; color: var(--alerta); }
+
+.botao-secundario {
+  display: block;
+  width: 100%;
+  min-height: 44px;
+  margin-top: 4px;
+  padding: 10px;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  background: var(--cartao);
+  border: 1px solid var(--linha);
+  border-radius: 8px;
+}
+.botao-voltar {
+  min-height: 44px;
+  margin: 0 0 0 -8px;
+  padding: 8px;
+  font-weight: 600;
+  color: var(--destaque);
+  background: none;
+  border: 0;
+}
+
+/* --- Barra de baixo --- */
+.navegacao {
+  position: fixed;
+  left: 0; right: 0; bottom: 0;
+  z-index: 10;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-bottom: env(safe-area-inset-bottom);
+  background: var(--cartao);
+  border-top: 1px solid var(--linha);
+}
+.navegacao button { min-height: 60px; background: none; border: 0; font-size: 1.2rem; color: var(--texto-suave); }
+.navegacao span { display: block; font-size: .75rem; }
+.navegacao button[aria-current="page"] { color: var(--destaque); font-weight: 700; }
