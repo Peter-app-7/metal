@@ -1,10 +1,32 @@
 {
- "atualizado": "2026-11-03T13:39:06+00:00",
+ "atualizado": "2026-11-03T14:00:11+00:00",
  "fontes": {
   "concertos": "sem_app_id",
   "excluidas": [
    "Richard Dawkins"
   ],
+  "agenda": {
+   "estado": "ok",
+   "linhas": 69,
+   "futuras": 42,
+   "rejeitadas": [],
+   "quase": [
+    {
+     "agenda": "Above The Ocean",
+     "banda": "The Ocean"
+    },
+    {
+     "agenda": "Heavy Ocean",
+     "banda": "The Ocean"
+    },
+    {
+     "agenda": "Viseu Death Fest",
+     "banda": "Death"
+    }
+   ],
+   "atualizada": "2026-10-22",
+   "minhas": 2
+  },
   "bandas": "spotify",
   "feeds": [
    {
@@ -51,7 +73,7 @@
  },
  "avisos": [
   "Concertos por ativar: falta o app_id da Bandsintown.",
-  "Algumas capas e links do Spotify ficaram por obter (api.spotify.com pediu para esperar 82226 s)."
+  "Algumas capas e links do Spotify ficaram por obter (api.spotify.com pediu para esperar 81051 s)."
  ],
  "bandas": [
   {
@@ -318,8 +340,8 @@
      "titulo": "Normal Isn’t",
      "tipo": "Álbum",
      "data": "2026-02-06",
-     "capa": "https://i.scdn.co/image/ab67616d00001e0222f842a98ff914754b11c853",
-     "spotify": "https://open.spotify.com/album/4iFytIyjG6Irorn84cgsKa"
+     "capa": "https://coverartarchive.org/release-group/80a45886-7bfc-4d52-824b-02d7fa94e0e1/front-250",
+     "spotify": "https://open.spotify.com/search/Puscifer%20Normal%20Isn%E2%80%99t"
     },
     {
      "id": "efd89972-036c-422c-9909-e414f8dd152a",
@@ -456,8 +478,8 @@
      "titulo": "Vol.II",
      "tipo": "Álbum",
      "data": "2026-04-03",
-     "capa": "https://i.scdn.co/image/ab67616d00001e024821b77fd92093513d7634b5",
-     "spotify": "https://open.spotify.com/album/3FqqIeynZXFBcyLS9FlWMo"
+     "capa": "https://coverartarchive.org/release-group/e94228ce-5394-45f9-b535-7469a6e57d02/front-250",
+     "spotify": "https://open.spotify.com/search/Angine%20de%20Poitrine%20Vol.II"
     },
     {
      "id": "19f43783-f613-44bf-a332-fa0487923894",
@@ -514,8 +536,8 @@
      "titulo": "Marrow Deep",
      "tipo": "Álbum",
      "data": "2026-08-28",
-     "capa": "https://i.scdn.co/image/ab67616d00001e02a90be43a44bddd383672b345",
-     "spotify": "https://open.spotify.com/album/0vg1J7pmgC1X7ZeGllEQGz"
+     "capa": "https://coverartarchive.org/release-group/2c35c7fd-6447-4225-938c-051b4fbb728d/front-250",
+     "spotify": "https://open.spotify.com/search/Mastodon%20Marrow%20Deep"
     },
     {
      "id": "aa4960fb-3b27-4d68-b68a-0143fa5f84f0",
@@ -1069,16 +1091,16 @@
      "titulo": "Hum of Hurt",
      "tipo": "Álbum",
      "data": "2026-06-05",
-     "capa": "https://i.scdn.co/image/ab67616d00001e024996580bad8a0f3b77c2da9e",
-     "spotify": "https://open.spotify.com/album/26mI8fRaaNWASMbfS98L43"
+     "capa": "https://coverartarchive.org/release-group/632777f5-9374-4232-b4a6-8a175d075056/front-250",
+     "spotify": "https://open.spotify.com/search/Converge%20Hum%20of%20Hurt"
     },
     {
      "id": "21465b8f-cf0a-479e-a1f2-e17f41f138bf",
      "titulo": "Love Is Not Enough",
      "tipo": "Álbum",
      "data": "2026-02-13",
-     "capa": "https://i.scdn.co/image/ab67616d00001e024576b3c0d15b1200011f1dea",
-     "spotify": "https://open.spotify.com/album/1ZiHuZUECf9saUhmv8vYxm"
+     "capa": "https://coverartarchive.org/release-group/21465b8f-cf0a-479e-a1f2-e17f41f138bf/front-250",
+     "spotify": "https://open.spotify.com/search/Converge%20Love%20Is%20Not%20Enough"
     },
     {
      "id": "94a4b34d-6160-47f7-a869-56c149507493",
@@ -1370,8 +1392,8 @@
      "titulo": "Tempelschlaf",
      "tipo": "Álbum",
      "data": "2026-01-09",
-     "capa": "https://i.scdn.co/image/ab67616d00001e02127c0397090cfb2b28f3dbef",
-     "spotify": "https://open.spotify.com/album/74Dzu5BG67boWHHpxr1dxt"
+     "capa": "https://coverartarchive.org/release-group/8bd2f6e4-c3fc-4bce-9200-628401891eac/front-250",
+     "spotify": "https://open.spotify.com/search/The%20Ruins%20Of%20Beverast%20Tempelschlaf"
     },
     {
      "id": "9f0e4294-750d-4909-be1a-5f8a5ff567e3",
@@ -1760,8 +1782,8 @@
      "titulo": "At Work in the Fields of the Bomb",
      "tipo": "EP",
      "data": "2026-10-02",
-     "capa": "https://i.scdn.co/image/ab67616d00001e021858782b86f5bad9c042d239",
-     "spotify": "https://open.spotify.com/album/7tIVbLtTqWrlTnoPiLLA1R"
+     "capa": "https://coverartarchive.org/release-group/67d9fff1-498d-4805-8215-afe32dd1d9f0/front-250",
+     "spotify": "https://open.spotify.com/search/Deafheaven%20At%20Work%20in%20the%20Fields%20of%20the%20Bomb"
     },
     {
      "id": "f88055a1-f78c-4344-8765-e4ec22eb8bf8",
@@ -2362,8 +2384,8 @@
      "titulo": "Ethereal Horizons",
      "tipo": "Álbum",
      "data": "2025-11-28",
-     "capa": "https://i.scdn.co/image/ab67616d00001e02c6c57d988a53e09791aa9a70",
-     "spotify": "https://open.spotify.com/album/4cyRxj0LY8DevLLfVEg0pX"
+     "capa": "https://coverartarchive.org/release-group/2870bdaa-d7a4-4e77-bd75-5af0dd77c4a1/front-250",
+     "spotify": "https://open.spotify.com/search/Blut%20Aus%20Nord%20Ethereal%20Horizons"
     },
     {
      "id": "87cdffa8-b239-47dc-a4fe-1f17ab3eba97",
@@ -2697,12 +2719,12 @@
      "spotify": "https://open.spotify.com/search/Led%20Zeppelin%20How%20the%20West%20Was%20Won%20%28sampler%29"
     },
     {
-     "id": "61de0438-6c34-363f-904e-b4d6267c79b9",
-     "titulo": "Coda",
+     "id": "1afb8e4e-e0e3-4beb-a26d-e6597eb97535",
+     "titulo": "Complete Performance In Minnesota",
      "tipo": "Álbum",
-     "data": "1982-11-19",
-     "capa": "https://coverartarchive.org/release-group/61de0438-6c34-363f-904e-b4d6267c79b9/front-250",
-     "spotify": "https://open.spotify.com/search/Led%20Zeppelin%20Coda"
+     "data": "1997",
+     "capa": "https://coverartarchive.org/release-group/1afb8e4e-e0e3-4beb-a26d-e6597eb97535/front-250",
+     "spotify": "https://open.spotify.com/search/Led%20Zeppelin%20Complete%20Performance%20In%20Minnesota"
     }
    ],
    "concertos": []
@@ -2904,8 +2926,8 @@
      "titulo": "Solaris",
      "tipo": "Álbum",
      "data": "2026-09-25",
-     "capa": "https://i.scdn.co/image/ab67616d00001e0275e70bf7a315cae3baeeaf9f",
-     "spotify": "https://open.spotify.com/album/3uqhJyHsSPmCpm8dw9HbTL"
+     "capa": "https://coverartarchive.org/release-group/5e5bf604-4285-4ff7-93c1-a0ed4edc7a1b/front-250",
+     "spotify": "https://open.spotify.com/search/The%20Ocean%20Solaris"
     },
     {
      "id": "7ca72cc3-6a32-4fad-98f7-d3eb8fefca19",
@@ -3482,8 +3504,8 @@
      "titulo": "Nordic Embryogenesis",
      "tipo": "Álbum",
      "data": "2026-09-09",
-     "capa": "https://i.scdn.co/image/ab67616d00001e020fea470f6dca6be606d50ae9",
-     "spotify": "https://open.spotify.com/album/5mOU3EK3r3IIPvVxxC1EFG"
+     "capa": "https://coverartarchive.org/release-group/b9902b3d-4c35-4847-8ae6-2e352ea5c66f/front-250",
+     "spotify": "https://open.spotify.com/search/Avulsed%20Nordic%20Embryogenesis"
     },
     {
      "id": "b541d235-4354-4e79-929f-a82d9a44b2d0",
@@ -4435,8 +4457,8 @@
      "titulo": "Neverland",
      "tipo": "Álbum",
      "data": "2025-12-31",
-     "capa": "https://i.scdn.co/image/ab67616d00001e02d2b1d40653f0b121cae75b0c",
-     "spotify": "https://open.spotify.com/album/1vOLtrJxMEZi9vkCX3O0Yw"
+     "capa": "https://coverartarchive.org/release-group/16a5c4e6-6ac8-4432-9e0f-0d8efcad3ea2/front-250",
+     "spotify": "https://open.spotify.com/search/Ulver%20Neverland"
     },
     {
      "id": "99c3d2cf-7adf-43f3-b93a-edc16ce9498f",
@@ -16763,7 +16785,81 @@
    "concertos": []
   }
  ],
+ "concertos": [
+  {
+   "id": "cm-2026-11-15-lisboa-amon amarth",
+   "data": "2026-11-15",
+   "bandas": [
+    {
+     "nome": "Amon Amarth",
+     "minha": false
+    },
+    {
+     "nome": "Orbit Culture",
+     "minha": true
+    },
+    {
+     "nome": "Soilwork",
+     "minha": false
+    }
+   ],
+   "categorias": [
+    "Death"
+   ],
+   "sala": "Sala Tejo",
+   "cidade": "Lisboa",
+   "evento": "",
+   "fontes": [
+    "Caminhos Metálicos"
+   ],
+   "link": "https://www.caminhosmetalicos.com/agenda/",
+   "tem_bilhetes": false
+  },
+  {
+   "id": "cm-2026-12-19-lisboa-corpus christii",
+   "data": "2026-12-19",
+   "bandas": [
+    {
+     "nome": "Corpus Christii",
+     "minha": false
+    },
+    {
+     "nome": "Irae",
+     "minha": true
+    }
+   ],
+   "categorias": [
+    "Black"
+   ],
+   "sala": "República da Música",
+   "cidade": "Lisboa",
+   "evento": "",
+   "fontes": [
+    "Caminhos Metálicos"
+   ],
+   "link": "https://www.caminhosmetalicos.com/agenda/",
+   "tem_bilhetes": false
+  }
+ ],
  "noticias": [
+  {
+   "titulo": "ANTHRAX's JOEY BELLADONNA Slammed By NFL Fans For 'Awful' National Anthem Performance At SEATTLE SEAHAWKS Vs. CHICAGO BEARS Game",
+   "link": "https://blabbermouth.net/news/anthraxs-joey-belladonna-slammed-by-nfl-fans-for-awful-national-anthem-performance-at-seattle-seahawks-vs-chicago-bears-game",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-03T13:32:38+00:00"
+  },
+  {
+   "titulo": "AS I LAY DYING Shares New Single 'The Cost To Stay' From Upcoming Self-Titled Album",
+   "link": "https://blabbermouth.net/news/as-i-lay-dying-shares-new-single-the-cost-to-stay-from-upcoming-self-titled-album",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-03T12:59:08+00:00"
+  },
+  {
+   "titulo": "As I Lay Dying - Reveal 'The Cost To Stay' Track And Video",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64450",
+   "fonte": "Metal Storm",
+   "data": "2026-11-03T12:56:06+00:00"
+  },
   {
    "titulo": "FIVE FINGER DEATH PUNCH's ZOLTAN BATHORY Doubles Down On Judo Commitment",
    "link": "https://blabbermouth.net/news/five-finger-death-punchs-zoltan-bathory-doubles-down-on-judo-commitment",
@@ -17209,12 +17305,6 @@
    "data": "2026-11-02T11:00:00+00:00"
   },
   {
-   "titulo": "Winterfylleth - Announce 20th Anniversary Re-Issue Of 2007 Demo",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64434",
-   "fonte": "Metal Storm",
-   "data": "2026-11-02T10:53:18+00:00"
-  },
-  {
    "titulo": "Robert Plant and Saving Grace announce Summer 2027 dates",
    "link": "https://www.loudersound.com/bands-artists/concerts-shows/robert-plant-saving-grace-summer-2027-dates",
    "fonte": "Metal Hammer",
@@ -17465,18 +17555,6 @@
    "link": "https://metalinjection.net/news/james-hetfield-turnstile-turned-down-touring-with-metallica",
    "fonte": "Metal Injection",
    "data": "2026-10-31T16:13:07+00:00"
-  },
-  {
-   "titulo": "NONPOINT's ELIAS SORIANO Says 'The Last Word' Album Was In The Works 'For About Two Years'",
-   "link": "https://blabbermouth.net/news/nonpoints-elias-soriano-says-the-last-word-album-was-in-the-works-for-about-two-years",
-   "fonte": "Blabbermouth",
-   "data": "2026-10-31T16:03:40+00:00"
-  },
-  {
-   "titulo": "See Pro-Shot Video Of FORBIDDEN's Entire Chicago Concert During Fall 2026 'Chaos By Design' U.S. Tour",
-   "link": "https://blabbermouth.net/news/see-pro-shot-video-of-forbiddens-entire-chicago-concert-during-fall-2026-chaos-by-design-u-s-tour",
-   "fonte": "Blabbermouth",
-   "data": "2026-10-31T15:31:59+00:00"
   },
   {
    "titulo": "When Ozzy Osbourne Played an Anti-Heavy Metal Preacher in 'Trick or Treat'",
