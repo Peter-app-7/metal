@@ -8,13 +8,17 @@ const DIAS_RECENTES = 365;
 const LANCAMENTOS_POR_PAGINA = 30;
 const HORAS_ANTIGO = 24;
 const MILISSEGUNDOS_HORA = 60 * 60 * 1000;
+const FICHEIROS_DA_APP = ['index.html', 'app.js', 'style.css'];
+const INTERVALO_VERIFICACOES = 2000;
 
 const conteudo = document.getElementById('conteudo');
 const atualizado = document.getElementById('atualizado');
 
 let dados = null;
 let erroCarregar = false;
-let carregadoEm = 0;
+let textoDados = null;
+let ficheirosCarregados = null;
+let ultimaVerificacao = Date.now();
 let filtro = lerFiltro();
 let lancamentosVisiveis = LANCAMENTOS_POR_PAGINA;
 let scrollDaLista = 0;
@@ -425,15 +429,12 @@ function desenharFestivais() {
 
 function desenharConcertos() {
   const agenda = (dados.fontes && dados.fontes.agenda) || {};
-  const todos = (dados.concertos || []).filter(eConcertoFuturo);
-  const visiveis = filtro === 'Todas' ? todos : todos.filter((c) => c.categorias.includes(filtro));
+  const concertos = (dados.concertos || []).filter(eConcertoFuturo);
   const lista = el('ul', { class: 'lista' });
-  for (const concerto of visiveis) lista.append(el('li', null, linhaConcerto(concerto)));
+  for (const concerto of concertos) lista.append(el('li', null, linhaConcerto(concerto)));
 
-  const semConcertos = !visiveis.length;
-  const mensagem = todos.length
-    ? 'Nenhum concerto das tuas bandas nesta categoria.'
-    : 'Nenhum concerto das tuas bandas na agenda neste momento';
+  const semConcertos = !concertos.length;
+  const mensagem = 'Nenhum concerto das tuas bandas na agenda neste momento';
   const nota = semConcertos ? notaBandsintown() : null;
   const dataAgenda = lerDataConcerto(agenda.atualizada);
   const site = el('a', {
@@ -445,11 +446,10 @@ function desenharConcertos() {
 
   mostrar(
     el('h1', null, 'Concertos'),
-    desenharFiltros(),
     el('h2', null, 'Os meus concertos'),
     agenda.estado === 'indisponivel' ? el('p', { class: 'aviso-agenda' }, 'Agenda temporariamente indisponível') : null,
     // Com a agenda em baixo e nada guardado, não se sabe se há concertos: fica só o aviso.
-    !semConcertos ? lista : (agenda.estado === 'indisponivel' && !todos.length ? null : el('p', { class: 'vazio' }, mensagem)),
+    !semConcertos ? lista : (agenda.estado === 'indisponivel' ? null : el('p', { class: 'vazio' }, mensagem)),
     nota ? el('p', { class: 'nota nota-junta' }, nota) : null,
     desenharFestivais(),
     site,
@@ -540,11 +540,17 @@ async function carregar() {
   try {
     const resposta = await fetch('data.json', { cache: 'no-cache' });
     if (!resposta.ok) throw new Error(`HTTP ${resposta.status}`);
-    const json = await resposta.json();
+    const texto = await resposta.text();
+    // Sem mudanças, só acerta o "há X min": assim o ecrã não pisca ao voltar à app.
+    if (texto === textoDados && !erroCarregar) {
+      desenharAtualizado();
+      return;
+    }
+    const json = JSON.parse(texto);
     if (!dadosValidos(json)) throw new Error('data.json inválido');
     dados = json;
+    textoDados = texto;
     erroCarregar = false;
-    carregadoEm = Date.now();
   } catch (erro) {
     erroCarregar = true;
   }
@@ -553,16 +559,53 @@ async function carregar() {
   window.scrollTo(0, scroll);
 }
 
-// A app fica aberta em segundo plano no iPhone: ao voltar, procura dados novos.
+// --- Apanhar versões novas -------------------------------------------------------
+// A app do ecrã principal fica congelada em memória e, ao voltar, continua com o código antigo.
+// Por isso compara os ficheiros da app com os que carregou e recarrega se algum tiver mudado.
+// Não há número de versão para manter à mão: qualquer publicação é detetada.
+
+async function lerFicheirosDaApp() {
+  const textos = await Promise.all(FICHEIROS_DA_APP.map(async (ficheiro) => {
+    const resposta = await fetch(ficheiro, { cache: 'no-cache' });
+    if (!resposta.ok) throw new Error(`HTTP ${resposta.status}`);
+    return resposta.text();
+  }));
+  return textos.join('\n');
+}
+
+async function procurarVersaoNova() {
+  try {
+    const atual = await lerFicheirosDaApp();
+    if (ficheirosCarregados === null) ficheirosCarregados = atual;
+    else if (atual !== ficheirosCarregados) location.reload();
+  } catch (erro) {
+    // Sem ligação: tenta na próxima vez que voltar à app.
+  }
+}
+
+function aoVoltarParaAApp() {
+  if (Date.now() - ultimaVerificacao < INTERVALO_VERIFICACOES) return;
+  ultimaVerificacao = Date.now();
+  desenharAtualizado();
+  carregar();
+  procurarVersaoNova();
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.getRegistration().then((registo) => registo && registo.update()).catch(() => {});
+  }
+}
+
 document.addEventListener('visibilitychange', () => {
-  if (document.visibilityState !== 'visible') return;
-  if (Date.now() - carregadoEm > MILISSEGUNDOS_HORA) carregar();
-  else desenharAtualizado();
+  if (document.visibilityState === 'visible') aoVoltarParaAApp();
 });
+window.addEventListener('pageshow', (evento) => {
+  if (evento.persisted) aoVoltarParaAApp();
+});
+window.addEventListener('online', aoVoltarParaAApp);
 
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('sw.js').catch(() => {});
+  navigator.serviceWorker.register('sw.js', { updateViaCache: 'none' }).catch(() => {});
 }
 
 desenhar();
 carregar();
+procurarVersaoNova();
