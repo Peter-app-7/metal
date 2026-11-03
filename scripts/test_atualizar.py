@@ -563,8 +563,42 @@ class Festivais(unittest.TestCase):
         self.assertEqual((agenda, avisos), ([], []))
 
     def test_exemplo_nao_aparece_como_festival(self):
-        self.ficheiro.write_text(a.FICHEIRO_FESTIVAIS_REAL.read_text(encoding="utf-8"), encoding="utf-8")
+        real = json.loads(a.FICHEIRO_FESTIVAIS_REAL.read_text(encoding="utf-8"))
+        self.ficheiro.write_text(json.dumps({"_instrucoes": real["_instrucoes"], "_exemplo": real["_exemplo"], "festivais": []}), encoding="utf-8")
         self.assertEqual(self.obter(), ([], [], []))
+
+    def real(self):
+        self.ficheiro.write_text(a.FICHEIRO_FESTIVAIS_REAL.read_text(encoding="utf-8"), encoding="utf-8")
+
+    def test_ficheiro_real_e_valido_e_sem_exemplo(self):
+        self.real()
+        festivais, _, avisos = self.obter()
+        self.assertEqual(avisos, [])
+        self.assertNotIn("Nome do Festival", [f["nome"] for f in festivais])
+        self.assertEqual(len(festivais), 4)
+        for festival in festivais:
+            self.assertTrue(festival["local"] and festival["cidade"] and festival["bandas"], festival["nome"])
+
+    def test_quatro_manuais_nao_repetem_se_a_agenda_os_incluir(self):
+        self.real()
+        # As mesmas datas, como festivais da agenda, com variações reais de escrita.
+        pagina = """<p>07/11/2026 – Rock da Velha Fest – Mães Solteiras + Avesso + Klatter – Musica Velha (Pernes)</p>
+        <p>18/12/2026 – Thrashin' The Hills Festival – Speedemon + Ural – UDCA (Á dos Loucos – VFX)</p>
+        <p>19/12/2026 – Terapia Natalícia Fest – Serrabulho + Jarda – Woodstock 69 (Porto)</p>
+        <p>26/12/2026 – Ultimate Mosh Of The Year Weekend – Holocausto Canibal + Crucivore – Ferro Bar (Porto)</p>"""
+        festivais = self.obter(self.lidos(pagina))[0]
+        self.assertEqual([f["nome"] for f in festivais],
+                         ["Rock da Velha", "Thrashin the Hills", "Terapia Natalicia", "Ultimate Mosh Of The Year"])
+        for festival in festivais:
+            self.assertEqual(festival["fontes"], ["Manual", "Caminhos Metálicos"], festival["nome"])
+
+    def test_quatro_manuais_com_agenda_real_e_indisponivel(self):
+        self.real()
+        guardados = self.obter(self.lidos())[1]
+        for festivais in (self.obter(self.lidos())[0], self.obter(ok=False, guardados=guardados)[0]):
+            nomes = [a.chave_comparacao(f["nome"]) for f in festivais]
+            self.assertEqual(len(nomes), len(set(nomes)))
+            self.assertEqual(len(nomes), 9)  # 5 da agenda de teste + 4 manuais
 
     def test_festival_repetido_nas_duas_fontes(self):
         self.manual({"nome": "Invicta Requiem Mass", "data_inicio": "2026-12-03", "data_fim": "2026-12-06", "local": "Pavilhão",

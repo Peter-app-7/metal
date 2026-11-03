@@ -17805,6 +17805,33 @@
    ]
   },
   {
+   "id": "fest-2026-11-07-rock da velha",
+   "nome": "Rock da Velha",
+   "data_inicio": "2026-11-07",
+   "data_fim": "2026-11-07",
+   "local": "Musica Velha",
+   "cidade": "Pernes",
+   "link": "https://www.caminhosmetalicos.com/agenda/",
+   "bandas": [
+    {
+     "nome": "Mães Solteiras",
+     "minha": false
+    },
+    {
+     "nome": "Avesso",
+     "minha": false
+    },
+    {
+     "nome": "Klatter",
+     "minha": false
+    }
+   ],
+   "tem_minhas": false,
+   "fontes": [
+    "Manual"
+   ]
+  },
+  {
    "id": "fest-2026-11-14-uv almost fest iv",
    "nome": "UV Almost Fest IV",
    "data_inicio": "2026-11-14",
@@ -17861,6 +17888,37 @@
    ]
   },
   {
+   "id": "fest-2026-12-18-thrashin the hills",
+   "nome": "Thrashin the Hills",
+   "data_inicio": "2026-12-18",
+   "data_fim": "2026-12-18",
+   "local": "UDCA",
+   "cidade": "Á dos Loucos – VFX",
+   "link": "https://www.caminhosmetalicos.com/agenda/",
+   "bandas": [
+    {
+     "nome": "Speedemon",
+     "minha": false
+    },
+    {
+     "nome": "Ural",
+     "minha": false
+    },
+    {
+     "nome": "Capela Mortuária",
+     "minha": false
+    },
+    {
+     "nome": "Legacy Of Payne",
+     "minha": false
+    }
+   ],
+   "tem_minhas": false,
+   "fontes": [
+    "Manual"
+   ]
+  },
+  {
    "id": "fest-2026-12-19-laurus nobilis xmas gathering",
    "nome": "Laurus Nobilis Xmas Gathering",
    "data_inicio": "2026-12-19",
@@ -17875,6 +17933,33 @@
    ]
   },
   {
+   "id": "fest-2026-12-19-terapia natalicia",
+   "nome": "Terapia Natalicia",
+   "data_inicio": "2026-12-19",
+   "data_fim": "2026-12-19",
+   "local": "Woodstock 69",
+   "cidade": "Porto",
+   "link": "https://www.caminhosmetalicos.com/agenda/",
+   "bandas": [
+    {
+     "nome": "Serrabulho",
+     "minha": false
+    },
+    {
+     "nome": "Jarda",
+     "minha": false
+    },
+    {
+     "nome": "Yaatana",
+     "minha": false
+    }
+   ],
+   "tem_minhas": false,
+   "fontes": [
+    "Manual"
+   ]
+  },
+  {
    "id": "fest-2026-12-26-assembleia do metal",
    "nome": "Assembleia do Metal",
    "data_inicio": "2026-12-26",
@@ -17886,6 +17971,33 @@
    "tem_minhas": false,
    "fontes": [
     "Caminhos Metálicos"
+   ]
+  },
+  {
+   "id": "fest-2026-12-26-ultimate mosh of the year",
+   "nome": "Ultimate Mosh Of The Year",
+   "data_inicio": "2026-12-26",
+   "data_fim": "2026-12-26",
+   "local": "Ferro Bar",
+   "cidade": "Porto",
+   "link": "https://www.caminhosmetalicos.com/agenda/",
+   "bandas": [
+    {
+     "nome": "Holocausto Canibal",
+     "minha": false
+    },
+    {
+     "nome": "Crucivore",
+     "minha": false
+    },
+    {
+     "nome": "Mangualde",
+     "minha": false
+    }
+   ],
+   "tem_minhas": false,
+   "fontes": [
+    "Manual"
    ]
   }
  ],

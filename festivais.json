@@ -12,5 +12,59 @@
       "Banda Dois"
     ]
   },
-  "festivais": []
+  "festivais": [
+    {
+      "nome": "Rock da Velha",
+      "data_inicio": "2026-11-07",
+      "data_fim": "2026-11-07",
+      "local": "Musica Velha",
+      "cidade": "Pernes",
+      "link": "https://www.caminhosmetalicos.com/agenda/",
+      "bandas": [
+        "Mães Solteiras",
+        "Avesso",
+        "Klatter"
+      ]
+    },
+    {
+      "nome": "Thrashin the Hills",
+      "data_inicio": "2026-12-18",
+      "data_fim": "2026-12-18",
+      "local": "UDCA",
+      "cidade": "Á dos Loucos – VFX",
+      "link": "https://www.caminhosmetalicos.com/agenda/",
+      "bandas": [
+        "Speedemon",
+        "Ural",
+        "Capela Mortuária",
+        "Legacy Of Payne"
+      ]
+    },
+    {
+      "nome": "Terapia Natalicia",
+      "data_inicio": "2026-12-19",
+      "data_fim": "2026-12-19",
+      "local": "Woodstock 69",
+      "cidade": "Porto",
+      "link": "https://www.caminhosmetalicos.com/agenda/",
+      "bandas": [
+        "Serrabulho",
+        "Jarda",
+        "Yaatana"
+      ]
+    },
+    {
+      "nome": "Ultimate Mosh Of The Year",
+      "data_inicio": "2026-12-26",
+      "data_fim": "2026-12-26",
+      "local": "Ferro Bar",
+      "cidade": "Porto",
+      "link": "https://www.caminhosmetalicos.com/agenda/",
+      "bandas": [
+        "Holocausto Canibal",
+        "Crucivore",
+        "Mangualde"
+      ]
+    }
+  ]
 }
