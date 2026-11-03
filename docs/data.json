@@ -1,10 +1,9 @@
 {
- "atualizado": "2026-11-03T12:47:37+00:00",
+ "atualizado": "2026-11-03T13:00:14+00:00",
  "fontes": {
   "concertos": "sem_app_id",
   "excluidas": [
-   "Richard Dawkins",
-   "Saor"
+   "Richard Dawkins"
   ],
   "bandas": "spotify",
   "feeds": [
@@ -2807,7 +2806,7 @@
   {
    "id": "tool",
    "nome": "TOOL",
-   "categoria": "Doom/Sludge",
+   "categoria": "Outros",
    "spotify": "https://open.spotify.com/artist/2yEwvVSSSUkcLeSTNyHKh8",
    "lancamentos": [
     {
@@ -6160,7 +6159,7 @@
   {
    "id": "ne obliviscaris",
    "nome": "Ne Obliviscaris",
-   "categoria": "Death",
+   "categoria": "Outros",
    "spotify": "https://open.spotify.com/artist/5kbidtcpyRRMdAQUnI1BG4",
    "lancamentos": [
     {
@@ -7369,6 +7368,71 @@
      "data": "2001",
      "capa": "https://coverartarchive.org/release-group/189846ca-c084-3f96-aef6-be108cc1d47f/front-250",
      "spotify": "https://open.spotify.com/search/StarGazer%20Arghoslent%20/%20StarGazer"
+    }
+   ],
+   "concertos": []
+  },
+  {
+   "id": "saor",
+   "nome": "Saor",
+   "categoria": "Black",
+   "spotify": "https://open.spotify.com/artist/4rHMzJ1RKUMtid1K2QEYbr",
+   "lancamentos": [
+    {
+     "id": "fecb83b5-97ee-4181-b015-c827da915eb0",
+     "titulo": "Caledonia",
+     "tipo": "Álbum",
+     "data": "2026-11-06",
+     "capa": "https://coverartarchive.org/release-group/fecb83b5-97ee-4181-b015-c827da915eb0/front-250",
+     "spotify": "https://open.spotify.com/search/Saor%20Caledonia"
+    },
+    {
+     "id": "83a86d74-f7e3-45ee-9511-13292714fae6",
+     "titulo": "Amidst the Ruins",
+     "tipo": "Álbum",
+     "data": "2025-02-07",
+     "capa": "https://coverartarchive.org/release-group/83a86d74-f7e3-45ee-9511-13292714fae6/front-250",
+     "spotify": "https://open.spotify.com/search/Saor%20Amidst%20the%20Ruins"
+    },
+    {
+     "id": "1dbb6325-5bed-4120-9af2-95e8c633a820",
+     "titulo": "Origins",
+     "tipo": "Álbum",
+     "data": "2022-06-24",
+     "capa": "https://coverartarchive.org/release-group/1dbb6325-5bed-4120-9af2-95e8c633a820/front-250",
+     "spotify": "https://open.spotify.com/search/Saor%20Origins"
+    },
+    {
+     "id": "8b09df55-b397-4875-9067-9d53fd0652bf",
+     "titulo": "Forgotten Paths",
+     "tipo": "Álbum",
+     "data": "2019-02-15",
+     "capa": "https://coverartarchive.org/release-group/8b09df55-b397-4875-9067-9d53fd0652bf/front-250",
+     "spotify": "https://open.spotify.com/search/Saor%20Forgotten%20Paths"
+    },
+    {
+     "id": "bcb98e9c-1f53-4d4d-bc34-9a5cca13c6d8",
+     "titulo": "Guardians",
+     "tipo": "Álbum",
+     "data": "2016-11-11",
+     "capa": "https://coverartarchive.org/release-group/bcb98e9c-1f53-4d4d-bc34-9a5cca13c6d8/front-250",
+     "spotify": "https://open.spotify.com/search/Saor%20Guardians"
+    },
+    {
+     "id": "c1041807-6509-41cf-a132-1fa9b66fd938",
+     "titulo": "Aura",
+     "tipo": "Álbum",
+     "data": "2014-06-02",
+     "capa": "https://coverartarchive.org/release-group/c1041807-6509-41cf-a132-1fa9b66fd938/front-250",
+     "spotify": "https://open.spotify.com/search/Saor%20Aura"
+    },
+    {
+     "id": "7296fc7e-51ea-4fc9-a725-a89f263d8bea",
+     "titulo": "Roots",
+     "tipo": "Álbum",
+     "data": "2013-05-16",
+     "capa": "https://coverartarchive.org/release-group/7296fc7e-51ea-4fc9-a725-a89f263d8bea/front-250",
+     "spotify": "https://open.spotify.com/search/Saor%20Roots"
     }
    ],
    "concertos": []
@@ -9561,7 +9625,7 @@
   {
    "id": "nirvana",
    "nome": "Nirvana",
-   "categoria": "Doom/Sludge",
+   "categoria": "Outros",
    "spotify": "https://open.spotify.com/artist/6olE6TJLqED3rqDCT0FyPh",
    "lancamentos": [
     {
@@ -10487,7 +10551,88 @@
    "nome": "Marilyn Manson",
    "categoria": "Outros",
    "spotify": "https://open.spotify.com/artist/2VYQTNDsvvKN9wmU5W7xpj",
-   "lancamentos": [],
+   "lancamentos": [
+    {
+     "id": "4778537a-8823-4d24-ac19-ed41768edd69",
+     "titulo": "One Assassination Under God, Chapter 2",
+     "tipo": "Álbum",
+     "data": "2026-08-14",
+     "capa": "https://coverartarchive.org/release-group/4778537a-8823-4d24-ac19-ed41768edd69/front-250",
+     "spotify": "https://open.spotify.com/search/Marilyn%20Manson%20One%20Assassination%20Under%20God%2C%20Chapter%202"
+    },
+    {
+     "id": "0c2fc27f-e9c1-4cfc-9151-e09fda34ae85",
+     "titulo": "One Assassination Under God, Chapter 1",
+     "tipo": "Álbum",
+     "data": "2024-11-22",
+     "capa": "https://coverartarchive.org/release-group/0c2fc27f-e9c1-4cfc-9151-e09fda34ae85/front-250",
+     "spotify": "https://open.spotify.com/search/Marilyn%20Manson%20One%20Assassination%20Under%20God%2C%20Chapter%201"
+    },
+    {
+     "id": "1ae55e74-3712-4089-994e-67a107e4c544",
+     "titulo": "We Are Chaos",
+     "tipo": "Álbum",
+     "data": "2020-09-11",
+     "capa": "https://coverartarchive.org/release-group/1ae55e74-3712-4089-994e-67a107e4c544/front-250",
+     "spotify": "https://open.spotify.com/search/Marilyn%20Manson%20We%20Are%20Chaos"
+    },
+    {
+     "id": "7000fa0a-81eb-4238-af55-916e774b03a2",
+     "titulo": "Heaven Upside Down",
+     "tipo": "Álbum",
+     "data": "2017-10-06",
+     "capa": "https://coverartarchive.org/release-group/7000fa0a-81eb-4238-af55-916e774b03a2/front-250",
+     "spotify": "https://open.spotify.com/search/Marilyn%20Manson%20Heaven%20Upside%20Down"
+    },
+    {
+     "id": "07192b2b-a27f-4fe4-b03c-5597400a1b0c",
+     "titulo": "The Pale Emperor",
+     "tipo": "Álbum",
+     "data": "2014-01-20",
+     "capa": "https://coverartarchive.org/release-group/07192b2b-a27f-4fe4-b03c-5597400a1b0c/front-250",
+     "spotify": "https://open.spotify.com/search/Marilyn%20Manson%20The%20Pale%20Emperor"
+    },
+    {
+     "id": "f645671e-e21f-49a6-9152-5fc57c5b6bb1",
+     "titulo": "Born Villain",
+     "tipo": "Álbum",
+     "data": "2012-04-25",
+     "capa": "https://coverartarchive.org/release-group/f645671e-e21f-49a6-9152-5fc57c5b6bb1/front-250",
+     "spotify": "https://open.spotify.com/search/Marilyn%20Manson%20Born%20Villain"
+    },
+    {
+     "id": "927958cc-74c8-445e-93bc-f6499b70dbdc",
+     "titulo": "Birth of the Antichrist",
+     "tipo": "EP",
+     "data": "2012",
+     "capa": "https://coverartarchive.org/release-group/927958cc-74c8-445e-93bc-f6499b70dbdc/front-250",
+     "spotify": "https://open.spotify.com/search/Marilyn%20Manson%20Birth%20of%20the%20Antichrist"
+    },
+    {
+     "id": "d2e604bf-e981-3c15-9ebc-8ebd673d45aa",
+     "titulo": "The High End of Low",
+     "tipo": "Álbum",
+     "data": "2009-05-19",
+     "capa": "https://coverartarchive.org/release-group/d2e604bf-e981-3c15-9ebc-8ebd673d45aa/front-250",
+     "spotify": "https://open.spotify.com/search/Marilyn%20Manson%20The%20High%20End%20of%20Low"
+    },
+    {
+     "id": "5cd377df-140b-3f46-8089-e6ab31e73ed4",
+     "titulo": "Eat Me, Drink Me",
+     "tipo": "Álbum",
+     "data": "2007-06-01",
+     "capa": "https://coverartarchive.org/release-group/5cd377df-140b-3f46-8089-e6ab31e73ed4/front-250",
+     "spotify": "https://open.spotify.com/search/Marilyn%20Manson%20Eat%20Me%2C%20Drink%20Me"
+    },
+    {
+     "id": "650e64b0-3fff-39eb-891f-050b1a4a41b0",
+     "titulo": "The Golden Age of Grotesque",
+     "tipo": "Álbum",
+     "data": "2003-05-07",
+     "capa": "https://coverartarchive.org/release-group/650e64b0-3fff-39eb-891f-050b1a4a41b0/front-250",
+     "spotify": "https://open.spotify.com/search/Marilyn%20Manson%20The%20Golden%20Age%20of%20Grotesque"
+    }
+   ],
    "concertos": []
   },
   {

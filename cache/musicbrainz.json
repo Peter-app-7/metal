@@ -1576,6 +1576,22 @@
   "nome": "Mare",
   "verificado": "2026-11-03"
  },
+ "marilyn manson": {
+  "etiquetas": {
+   "alternative metal": 10,
+   "alternative rock": 5,
+   "heavy metal": 1,
+   "industrial": 4,
+   "industrial metal": 10,
+   "industrial rock": 11,
+   "metal": 2,
+   "nu metal": 1,
+   "rock": 2
+  },
+  "mbid": "5dfdca28-9ddc-4853-933c-8bc97d87beec",
+  "nome": "Marilyn Manson",
+  "verificado": "2026-11-03"
+ },
  "marthyrium": {
   "etiquetas": {
    "black metal": 1
