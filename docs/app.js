@@ -18,6 +18,8 @@ let carregadoEm = 0;
 let filtro = lerFiltro();
 let lancamentosVisiveis = LANCAMENTOS_POR_PAGINA;
 let scrollDaLista = 0;
+// Só em memória: a lista de bandas começa sempre fechada quando a app abre.
+let listaBandasAberta = false;
 
 function lerFiltro() {
   try {
@@ -242,17 +244,14 @@ function contagemDaBanda(banda) {
 }
 
 function desenharListaBandas(bandas) {
-  const seccao = el('section', null, el('h2', null, `Todas as bandas (${bandas.length})`));
-  if (!bandas.length) {
-    seccao.append(el('p', { class: 'vazio' }, 'Sem bandas nesta categoria.'));
-    return seccao;
-  }
+  const interior = el('div', { class: 'recolhivel-interior' });
+  if (!bandas.length) interior.append(el('p', { class: 'vazio' }, 'Sem bandas nesta categoria.'));
   for (const categoria of CATEGORIAS) {
     const grupo = bandas
       .filter((banda) => banda.categoria === categoria)
       .sort((a, b) => a.nome.localeCompare(b.nome, 'pt-PT', { sensitivity: 'base' }));
     if (!grupo.length) continue;
-    seccao.append(el('h3', null, `${categoria} (${grupo.length})`));
+    interior.append(el('h3', null, `${categoria} (${grupo.length})`));
     const lista = el('ul', { class: 'lista' });
     for (const banda of grupo) {
       const contagem = contagemDaBanda(banda);
@@ -268,9 +267,27 @@ function desenharListaBandas(bandas) {
       contagem ? el('span', { class: 'contador' }, contagem) : null,
       el('span', { class: 'seta', 'aria-hidden': 'true' }, '›'))));
     }
-    seccao.append(lista);
+    interior.append(lista);
   }
-  return seccao;
+
+  const conteudoLista = el('div', { id: 'lista-bandas', class: 'recolhivel' }, interior);
+  const botao = el('button', {
+    type: 'button',
+    class: 'linha titulo-recolhivel',
+    'aria-controls': 'lista-bandas',
+    aoTocar: () => {
+      // Muda só os atributos, sem redesenhar, para a animação poder correr.
+      listaBandasAberta = !listaBandasAberta;
+      botao.setAttribute('aria-expanded', String(listaBandasAberta));
+      conteudoLista.dataset.aberto = String(listaBandasAberta);
+    },
+  },
+  el('span', { class: 'linha-texto' }, `Todas as bandas (${bandas.length})`),
+  el('span', { class: 'seta seta-recolhivel', 'aria-hidden': 'true' }, '›'));
+  botao.setAttribute('aria-expanded', String(listaBandasAberta));
+  conteudoLista.dataset.aberto = String(listaBandasAberta);
+
+  return el('section', null, el('h2', { class: 'titulo-com-botao' }, botao), conteudoLista);
 }
 
 function desenharBandas() {

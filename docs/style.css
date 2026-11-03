@@ -161,6 +161,28 @@ a { color: inherit; }
   border: 0;
 }
 
+/* --- Lista de bandas que abre e fecha --- */
+.titulo-com-botao { margin: 22px 0 8px; font-size: 1.05rem; }
+.titulo-recolhivel { margin: 0; font: inherit; font-weight: inherit; }
+.seta-recolhivel { transition: transform .25s ease; }
+.titulo-recolhivel[aria-expanded="true"] .seta-recolhivel { transform: rotate(90deg); }
+/* Passar a altura da linha de 0fr a 1fr anima o abrir e fechar sem saber a altura da lista. */
+.recolhivel {
+  display: grid;
+  grid-template-rows: 0fr;
+  visibility: hidden; /* fechada, as bandas não recebem toques nem foco */
+  transition: grid-template-rows .25s ease, visibility 0s linear .25s;
+}
+.recolhivel[data-aberto="true"] {
+  grid-template-rows: 1fr;
+  visibility: visible;
+  transition: grid-template-rows .25s ease, visibility 0s;
+}
+.recolhivel-interior { min-height: 0; overflow: hidden; }
+@media (prefers-reduced-motion: reduce) {
+  .recolhivel, .recolhivel[data-aberto="true"], .seta-recolhivel { transition: none; }
+}
+
 /* --- Barra de baixo --- */
 .navegacao {
   position: fixed;
