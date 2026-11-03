@@ -29,6 +29,7 @@ FICHEIRO_BANDAS = RAIZ / "bands.txt"
 FICHEIRO_CATEGORIAS = RAIZ / "categorias.json"
 FICHEIRO_FEEDS = RAIZ / "feeds.txt"
 FICHEIRO_MBID_MANUAL = RAIZ / "mbid_manual.json"
+FICHEIRO_FESTIVAIS = RAIZ / "festivais.json"
 
 FONTE_AGENDA = "Caminhos Metálicos"
 URL_AGENDA = "https://www.caminhosmetalicos.com/agenda/"
@@ -745,8 +746,11 @@ def quase_correspondencias(lidos, minhas):
     return [{"agenda": a, "banda": b} for a, b in sorted(pares)]
 
 
-def obter_agenda(minhas, anteriores, hoje, avisos):
-    """Lê a agenda uma vez. Se falhar, mantém os concertos guardados e nunca rebenta."""
+def obter_agenda(minhas, anteriores, hoje, avisos, lidos_saida=None):
+    """Lê a agenda uma vez. Se falhar, mantém os concertos guardados e nunca rebenta.
+
+    Em lidos_saida ficam as linhas acabadas de ler, que também servem para os festivais.
+    """
     estado = {"estado": "ok", "linhas": 0, "futuras": 0, "rejeitadas": [], "quase": [], "atualizada": None}
     erro = None
     lidos = []
@@ -770,6 +774,8 @@ def obter_agenda(minhas, anteriores, hoje, avisos):
         lidos = [{"data": c["data"][:10], "bandas": [b["nome"] for b in c["bandas"]], "sala": c.get("sala", ""),
                   "cidade": c.get("cidade", ""), "evento": c.get("evento", "")} for c in guardados]
     else:
+        if lidos_saida is not None:
+            lidos_saida.extend(lidos)
         estado["linhas"] = len(lidos)
         estado["quase"] = quase_correspondencias(lidos, minhas)
         if estado["rejeitadas"]:
@@ -836,6 +842,174 @@ def juntar_concertos(*listas):
                 indice.setdefault(chave, existente)
     resultado.sort(key=lambda c: (c["data"][:10], c["data"]))
     return resultado
+
+
+# --- Festivais -------------------------------------------------------------------
+
+# "fest" conta como palavra ou no fim de uma palavra (Moonfest), mas não em nomes de bandas comuns.
+PALAVRAS_FESTIVAL = re.compile(r"\b(?:\w*fest|festival|open air|gathering|weekend|assembleia)\b")
+FALSOS_FESTIVAIS = {"manifest", "infest"}
+
+
+def e_nome_de_festival(nome):
+    return any(m.group() not in FALSOS_FESTIVAIS for m in PALAVRAS_FESTIVAL.finditer(normalizar(nome)))
+
+
+def marcar_bandas(nomes, minhas):
+    """Lista de bandas sem repetidas, com as seguidas marcadas. Compara por nome completo."""
+    vistas, bandas = set(), []
+    for nome in nomes:
+        chave = chave_comparacao(nome)
+        if chave not in vistas:
+            vistas.add(chave)
+            bandas.append({"nome": nome, "minha": chave in minhas})
+    return bandas
+
+
+def novo_festival(nome, inicio, fim, local, cidade, link, nomes_bandas, fonte, minhas):
+    bandas = marcar_bandas(nomes_bandas, minhas)
+    return {
+        "id": "fest-%s-%s" % (inicio, chave_comparacao(nome)),
+        "nome": nome,
+        "data_inicio": inicio,
+        "data_fim": fim,
+        "local": local,
+        "cidade": cidade,
+        "link": link,
+        "bandas": bandas,
+        "tem_minhas": any(b["minha"] for b in bandas),
+        "fontes": [fonte],
+    }
+
+
+def festivais_da_agenda(lidos, minhas):
+    """Procura festivais nas linhas da agenda. Os dias seguidos juntam-se num só festival.
+
+    Critérios: palavra de festival no nome do evento ou numa "banda" que não seja seguida,
+    ou um nome sozinho repetido em dias seguidos na mesma sala (o formato não distingue
+    uma banda sozinha de um festival sem cartaz, por isso um só dia não chega).
+    """
+    def um_dia_depois(a, b):
+        return (date.fromisoformat(b) - date.fromisoformat(a)).days == 1
+
+    dias_por_nome = {}
+    for lido in lidos:
+        if not lido.get("evento") and len(lido["bandas"]) == 1:
+            chave = (chave_comparacao(lido["bandas"][0]), normalizar(lido["sala"]), chave_cidade(lido["cidade"]))
+            dias_por_nome.setdefault(chave, set()).add(lido["data"])
+
+    def repetido_em_dias_seguidos(lido):
+        chave = (chave_comparacao(lido["bandas"][0]), normalizar(lido["sala"]), chave_cidade(lido["cidade"]))
+        dias = dias_por_nome.get(chave, set())
+        return any(um_dia_depois(lido["data"], d) or um_dia_depois(d, lido["data"]) for d in dias)
+
+    linhas = []
+    for lido in lidos:
+        evento = lido.get("evento") or ""
+        nome, cartaz = None, lido["bandas"]
+        if evento and e_nome_de_festival(evento):
+            nome = evento
+        else:
+            for banda in lido["bandas"]:
+                if chave_comparacao(banda) not in minhas and e_nome_de_festival(banda):
+                    nome, cartaz = banda, [b for b in lido["bandas"] if b != banda]
+                    break
+        if (not nome and not evento and len(lido["bandas"]) == 1
+                and chave_comparacao(lido["bandas"][0]) not in minhas and repetido_em_dias_seguidos(lido)):
+            nome, cartaz = lido["bandas"][0], []
+        if nome:
+            linhas.append((chave_comparacao(nome), chave_cidade(lido["cidade"]), lido["data"], nome, cartaz, lido))
+
+    festivais = []
+    grupo_atual = {}
+    for chave, cidade, data, nome, cartaz, lido in sorted(linhas, key=lambda l: (l[0], l[1], l[2])):
+        anterior = grupo_atual.get((chave, cidade))
+        if anterior and (data == anterior["data_fim"] or um_dia_depois(anterior["data_fim"], data)):
+            anterior["data_fim"] = data
+            nomes = [b["nome"] for b in anterior["bandas"]] + cartaz
+            anterior["bandas"] = marcar_bandas(nomes, minhas)
+            anterior["tem_minhas"] = any(b["minha"] for b in anterior["bandas"])
+        else:
+            novo = novo_festival(nome, data, data, lido["sala"], lido["cidade"], URL_AGENDA, cartaz, FONTE_AGENDA, minhas)
+            grupo_atual[(chave, cidade)] = novo
+            festivais.append(novo)
+    return festivais
+
+
+def festivais_manuais(minhas, avisos):
+    """Lê festivais.json. Um erro numa entrada só tira essa entrada, com um aviso."""
+    try:
+        dados = json.loads(FICHEIRO_FESTIVAIS.read_text(encoding="utf-8"))
+    except OSError:
+        return []
+    except ValueError:
+        avisos.append("O ficheiro festivais.json tem um erro e foi ignorado.")
+        return []
+    entradas = dados.get("festivais", []) if isinstance(dados, dict) else dados
+    festivais = []
+    for entrada in entradas if isinstance(entradas, list) else []:
+        try:
+            nome = entrada["nome"].strip()
+            inicio = date.fromisoformat(entrada["data_inicio"]).isoformat()
+            fim = date.fromisoformat(entrada.get("data_fim") or inicio).isoformat()
+            bandas = [b.strip() for b in entrada.get("bandas") or [] if b.strip()]
+            if not nome or fim < inicio:
+                raise ValueError
+        except (KeyError, TypeError, ValueError, AttributeError):
+            rotulo = entrada.get("nome") if isinstance(entrada, dict) else entrada
+            avisos.append("Entrada inválida em festivais.json: %s." % rotulo)
+            continue
+        link = str(entrada.get("link") or "").strip()
+        if link and not link.startswith(("https://", "http://")):
+            avisos.append("Link inválido em festivais.json: %s." % nome)
+            link = ""
+        festivais.append(novo_festival(nome, inicio, fim, str(entrada.get("local") or "").strip(),
+                                       str(entrada.get("cidade") or "").strip(), link, bandas, "Manual", minhas))
+    return festivais
+
+
+def mesmo_festival(a, b):
+    """Datas que se tocam e o mesmo nome, ou um nome contido no outro em palavras inteiras."""
+    if a["data_inicio"] > b["data_fim"] or b["data_inicio"] > a["data_fim"]:
+        return False
+    x, y = sorted((chave_comparacao(a["nome"]), chave_comparacao(b["nome"])), key=len)
+    return x == y or (len(x) >= 5 and " %s " % x in " %s " % y)
+
+
+def juntar_festivais(manuais, da_agenda, hoje, minhas):
+    """Junta as duas fontes sem repetidos. O que foi escrito à mão tem prioridade."""
+    resultado = []
+    for festival in list(manuais) + list(da_agenda):
+        igual = next((f for f in resultado if mesmo_festival(f, festival)), None)
+        if igual is None:
+            resultado.append(dict(festival, fontes=list(festival["fontes"])))
+            continue
+        for campo in ("local", "cidade", "link"):
+            igual[campo] = igual[campo] or festival[campo]
+        igual["data_inicio"] = min(igual["data_inicio"], festival["data_inicio"])
+        igual["data_fim"] = max(igual["data_fim"], festival["data_fim"])
+        igual["bandas"] = marcar_bandas([b["nome"] for b in igual["bandas"] + festival["bandas"]], minhas)
+        igual["tem_minhas"] = any(b["minha"] for b in igual["bandas"])
+        igual["fontes"] += [f for f in festival["fontes"] if f not in igual["fontes"]]
+    futuros = [f for f in resultado if f["data_fim"] >= hoje.isoformat()]
+    futuros.sort(key=lambda f: (f["data_inicio"], f["data_fim"], normalizar(f["nome"])))
+    return futuros
+
+
+def obter_festivais(lidos, agenda_ok, guardados, minhas, hoje, avisos):
+    """Devolve (festivais a mostrar, festivais da agenda a guardar).
+
+    Com a agenda em baixo, usa os últimos festivais guardados da agenda e o festivais.json.
+    """
+    if agenda_ok:
+        da_agenda = festivais_da_agenda(lidos, minhas)
+    else:
+        da_agenda = []
+        for festival in guardados or []:
+            bandas = marcar_bandas([b["nome"] for b in festival.get("bandas", [])], minhas)
+            da_agenda.append(dict(festival, bandas=bandas, tem_minhas=any(b["minha"] for b in bandas)))
+    da_agenda = [f for f in da_agenda if f["data_fim"] >= hoje.isoformat()]
+    return juntar_festivais(festivais_manuais(minhas, avisos), da_agenda, hoje, minhas), da_agenda
 
 
 # --- Notícias -------------------------------------------------------------------
@@ -1085,8 +1259,12 @@ def main():
 
     registos, fontes = processar_bandas(bandas, spotify, avisos)
     dados_anteriores = carregar_dados_anteriores()
+    minhas = mapa_das_minhas_bandas(registos)
+    lidos = []
     concertos_agenda, fontes["agenda"] = obter_agenda(
-        mapa_das_minhas_bandas(registos), dados_anteriores.get("concertos", []), agora().date(), avisos)
+        minhas, dados_anteriores.get("concertos", []), agora().date(), avisos, lidos)
+    festivais, festivais_agenda = obter_festivais(
+        lidos, fontes["agenda"]["estado"] == "ok", dados_anteriores.get("festivais_agenda"), minhas, agora().date(), avisos)
     concertos = juntar_concertos(concertos_agenda, concertos_bandsintown(registos))
     anteriores = dados_anteriores.get("noticias", [])
     noticias, estado_feeds = obter_noticias(anteriores, avisos)
@@ -1098,10 +1276,13 @@ def main():
         "avisos": avisos,
         "bandas": registos,
         "concertos": concertos,
+        "festivais": festivais,
+        "festivais_agenda": festivais_agenda,
         "noticias": noticias,
     }
     FICHEIRO_DADOS.write_text(json.dumps(dados, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
-    print("Feito: %d bandas, %d concertos, %d notícias, %d avisos." % (len(registos), len(concertos), len(noticias), len(avisos)))
+    print("Feito: %d bandas, %d concertos, %d festivais, %d notícias, %d avisos." % (
+        len(registos), len(concertos), len(festivais), len(noticias), len(avisos)))
     agenda = fontes["agenda"]
     print("Agenda: %s, %d linhas lidas, %d futuras, %d com bandas seguidas, %d quase correspondências, atualizada a %s." % (
         agenda["estado"], agenda["linhas"], agenda["futuras"], agenda.get("minhas", 0), len(agenda["quase"]), agenda["atualizada"]))

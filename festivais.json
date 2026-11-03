@@ -1,0 +1,16 @@
+{
+  "_instrucoes": "Festivais acrescentados à mão, além dos que a app encontra na agenda do Caminhos Metálicos. Cada festival vai para a lista 'festivais', no formato de '_exemplo'. Datas em AAAA-MM-DD. Obrigatórios: nome e data_inicio. Sem data_fim, é um só dia. 'bandas' é opcional e mostra a etiqueta 'tens bandas aqui' se tiver uma banda que segues. O '_exemplo' é ignorado. Só aparece depois da próxima atualização automática (de 6 em 6 horas).",
+  "_exemplo": {
+    "nome": "Nome do Festival",
+    "data_inicio": "2027-08-06",
+    "data_fim": "2027-08-08",
+    "local": "Recinto",
+    "cidade": "Cidade",
+    "link": "https://exemplo.pt",
+    "bandas": [
+      "Banda Um",
+      "Banda Dois"
+    ]
+  },
+  "festivais": []
+}

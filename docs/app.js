@@ -167,11 +167,15 @@ function lerDataConcerto(texto) {
   };
 }
 
-function eConcertoFuturo(concerto) {
+function hojeTexto() {
   const hoje = new Date();
   const mes = String(hoje.getMonth() + 1).padStart(2, '0');
   const dia = String(hoje.getDate()).padStart(2, '0');
-  return String(concerto.data).slice(0, 10) >= `${hoje.getFullYear()}-${mes}-${dia}`;
+  return `${hoje.getFullYear()}-${mes}-${dia}`;
+}
+
+function eConcertoFuturo(concerto) {
+  return String(concerto.data).slice(0, 10) >= hojeTexto();
 }
 
 function linhaConcerto(concerto) {
@@ -358,6 +362,67 @@ function desenharBanda(id) {
 
 // --- Ecrã Concertos -------------------------------------------------------------
 
+// "sáb, 14 nov 2026" para um dia, "6 a 7 nov 2026" ou "28 nov a 2 dez 2026" para um intervalo.
+function datasFestival(festival) {
+  const inicio = lerDataConcerto(festival.data_inicio);
+  const fim = lerDataConcerto(festival.data_fim) || inicio;
+  if (!inicio) return { numero: '?', mes: '', semana: '', texto: '' };
+  const a = inicio.data;
+  const b = fim.data;
+  const mesmoDia = a.getTime() === b.getTime();
+  const mesmoMes = a.getMonth() === b.getMonth() && a.getFullYear() === b.getFullYear();
+  const anoFim = b.getFullYear();
+  const anoA = a.getFullYear() !== anoFim ? ` ${a.getFullYear()}` : '';
+  if (mesmoDia) {
+    return { numero: String(a.getDate()), mes: MESES[a.getMonth()], semana: DIAS_SEMANA[a.getDay()], texto: `${DIAS_SEMANA[a.getDay()]}, ${diaMes(a)} ${anoFim}` };
+  }
+  return {
+    numero: mesmoMes ? `${a.getDate()}–${b.getDate()}` : String(a.getDate()),
+    mes: MESES[a.getMonth()],
+    semana: '',
+    texto: mesmoMes ? `${a.getDate()} a ${diaMes(b)} ${anoFim}` : `${diaMes(a)}${anoA} a ${diaMes(b)} ${anoFim}`,
+  };
+}
+
+function linhaFestival(festival) {
+  const datas = datasFestival(festival);
+  const local = [festival.local, festival.cidade].filter(Boolean).join(' · ');
+  const cartaz = el('span', { class: 'linha-detalhe concerto-bandas' });
+  festival.bandas.forEach((banda, indice) => {
+    if (indice) cartaz.append(' + ');
+    cartaz.append(el('span', { class: banda.minha ? 'banda-minha' : 'banda-outra' }, banda.nome));
+  });
+  const soAgenda = festival.fontes.length === 1 && festival.fontes[0] === 'Caminhos Metálicos';
+  return linhaLink(
+    festival.link,
+    el('span', { class: 'dia' },
+      datas.semana ? el('span', { class: 'dia-semana' }, datas.semana) : null,
+      el('span', { class: datas.numero.length > 2 ? 'dia-numero dia-numero-intervalo' : 'dia-numero' }, datas.numero),
+      el('span', { class: 'dia-mes' }, datas.mes)),
+    el('span', { class: 'linha-texto' },
+      el('span', { class: 'linha-titulo' }, festival.nome),
+      festival.tem_minhas ? el('span', { class: 'etiqueta-minhas' }, 'tens bandas aqui') : null,
+      el('span', { class: 'linha-detalhe' }, datas.texto),
+      local ? el('span', { class: 'linha-detalhe' }, local) : null,
+      festival.bandas.length ? cartaz : null),
+    linkSeguro(festival.link) ? el('span', { class: 'etiqueta-bilhetes' }, soAgenda ? 'Agenda ↗' : 'Ver ↗') : null,
+  );
+}
+
+function desenharFestivais() {
+  const hoje = hojeTexto();
+  const futuros = (dados.festivais || []).filter((f) => String(f.data_fim) >= hoje);
+  const seccao = el('section', null, el('h2', null, 'Festivais em Portugal'));
+  if (!futuros.length) {
+    seccao.append(el('p', { class: 'vazio' }, 'Sem festivais anunciados'));
+    return seccao;
+  }
+  const lista = el('ul', { class: 'lista' });
+  for (const festival of futuros) lista.append(el('li', null, linhaFestival(festival)));
+  seccao.append(lista);
+  return seccao;
+}
+
 function desenharConcertos() {
   const agenda = (dados.fontes && dados.fontes.agenda) || {};
   const todos = (dados.concertos || []).filter(eConcertoFuturo);
@@ -381,11 +446,12 @@ function desenharConcertos() {
   mostrar(
     el('h1', null, 'Concertos'),
     desenharFiltros(),
-    el('h2', null, 'Próximos concertos em Portugal'),
+    el('h2', null, 'Os meus concertos'),
     agenda.estado === 'indisponivel' ? el('p', { class: 'aviso-agenda' }, 'Agenda temporariamente indisponível') : null,
     // Com a agenda em baixo e nada guardado, não se sabe se há concertos: fica só o aviso.
     !semConcertos ? lista : (agenda.estado === 'indisponivel' && !todos.length ? null : el('p', { class: 'vazio' }, mensagem)),
     nota ? el('p', { class: 'nota nota-junta' }, nota) : null,
+    desenharFestivais(),
     site,
     dataAgenda ? el('p', { class: 'nota nota-junta' }, `Agenda atualizada pelo site a ${diaMes(dataAgenda.data)} ${dataAgenda.data.getFullYear()}.`) : null,
   );

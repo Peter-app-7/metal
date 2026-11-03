@@ -17743,5 +17743,295 @@
    "fonte": "Decibel",
    "data": "2026-10-29T13:30:58+00:00"
   }
+ ],
+ "festivais": [
+  {
+   "id": "fest-2026-11-06-portalegre core fest",
+   "nome": "Portalegre Core Fest",
+   "data_inicio": "2026-11-06",
+   "data_fim": "2026-11-06",
+   "local": "CAE",
+   "cidade": "Portalegre",
+   "link": "https://www.caminhosmetalicos.com/agenda/",
+   "bandas": [],
+   "tem_minhas": false,
+   "fontes": [
+    "Caminhos Metálicos"
+   ]
+  },
+  {
+   "id": "fest-2026-11-06-viseu death fest",
+   "nome": "Viseu Death Fest",
+   "data_inicio": "2026-11-06",
+   "data_fim": "2026-11-07",
+   "local": "Orfeão",
+   "cidade": "Viseu",
+   "link": "https://www.caminhosmetalicos.com/agenda/",
+   "bandas": [],
+   "tem_minhas": false,
+   "fontes": [
+    "Caminhos Metálicos"
+   ]
+  },
+  {
+   "id": "fest-2026-11-07-banana bong fest",
+   "nome": "Banana Bong Fest",
+   "data_inicio": "2026-11-07",
+   "data_fim": "2026-11-07",
+   "local": "CAAA Black Box",
+   "cidade": "Guimarães",
+   "link": "https://www.caminhosmetalicos.com/agenda/",
+   "bandas": [
+    {
+     "nome": "Idle Hand",
+     "minha": false
+    },
+    {
+     "nome": "Lord Of Confusion",
+     "minha": false
+    },
+    {
+     "nome": "Trasgo",
+     "minha": false
+    },
+    {
+     "nome": "Spitgod",
+     "minha": false
+    }
+   ],
+   "tem_minhas": false,
+   "fontes": [
+    "Caminhos Metálicos"
+   ]
+  },
+  {
+   "id": "fest-2026-11-14-uv almost fest iv",
+   "nome": "UV Almost Fest IV",
+   "data_inicio": "2026-11-14",
+   "data_fim": "2026-11-14",
+   "local": "GD Corveirense",
+   "cidade": "Grijó",
+   "link": "https://www.caminhosmetalicos.com/agenda/",
+   "bandas": [],
+   "tem_minhas": false,
+   "fontes": [
+    "Caminhos Metálicos"
+   ]
+  },
+  {
+   "id": "fest-2026-12-03-invicta requiem mass ix",
+   "nome": "Invicta Requiem Mass IX",
+   "data_inicio": "2026-12-03",
+   "data_fim": "2026-12-05",
+   "local": "Válega",
+   "cidade": "Válega – Ovar",
+   "link": "https://www.caminhosmetalicos.com/agenda/",
+   "bandas": [],
+   "tem_minhas": false,
+   "fontes": [
+    "Caminhos Metálicos"
+   ]
+  },
+  {
+   "id": "fest-2026-12-04-butchery at christmas time",
+   "nome": "Butchery At Christmas Time",
+   "data_inicio": "2026-12-04",
+   "data_fim": "2026-12-05",
+   "local": "Neverlate",
+   "cidade": "Covilhã",
+   "link": "https://www.caminhosmetalicos.com/agenda/",
+   "bandas": [],
+   "tem_minhas": false,
+   "fontes": [
+    "Caminhos Metálicos"
+   ]
+  },
+  {
+   "id": "fest-2026-12-12-heavy duty fest",
+   "nome": "Heavy Duty Fest",
+   "data_inicio": "2026-12-12",
+   "data_fim": "2026-12-12",
+   "local": "RCA Club",
+   "cidade": "Lisboa",
+   "link": "https://www.caminhosmetalicos.com/agenda/",
+   "bandas": [],
+   "tem_minhas": false,
+   "fontes": [
+    "Caminhos Metálicos"
+   ]
+  },
+  {
+   "id": "fest-2026-12-19-laurus nobilis xmas gathering",
+   "nome": "Laurus Nobilis Xmas Gathering",
+   "data_inicio": "2026-12-19",
+   "data_fim": "2026-12-19",
+   "local": "Casa Artista Amador",
+   "cidade": "Famalicão",
+   "link": "https://www.caminhosmetalicos.com/agenda/",
+   "bandas": [],
+   "tem_minhas": false,
+   "fontes": [
+    "Caminhos Metálicos"
+   ]
+  },
+  {
+   "id": "fest-2026-12-26-assembleia do metal",
+   "nome": "Assembleia do Metal",
+   "data_inicio": "2026-12-26",
+   "data_fim": "2026-12-26",
+   "local": "",
+   "cidade": "Pindelo dos Milagres",
+   "link": "https://www.caminhosmetalicos.com/agenda/",
+   "bandas": [],
+   "tem_minhas": false,
+   "fontes": [
+    "Caminhos Metálicos"
+   ]
+  }
+ ],
+ "festivais_agenda": [
+  {
+   "id": "fest-2026-12-26-assembleia do metal",
+   "nome": "Assembleia do Metal",
+   "data_inicio": "2026-12-26",
+   "data_fim": "2026-12-26",
+   "local": "",
+   "cidade": "Pindelo dos Milagres",
+   "link": "https://www.caminhosmetalicos.com/agenda/",
+   "bandas": [],
+   "tem_minhas": false,
+   "fontes": [
+    "Caminhos Metálicos"
+   ]
+  },
+  {
+   "id": "fest-2026-11-07-banana bong fest",
+   "nome": "Banana Bong Fest",
+   "data_inicio": "2026-11-07",
+   "data_fim": "2026-11-07",
+   "local": "CAAA Black Box",
+   "cidade": "Guimarães",
+   "link": "https://www.caminhosmetalicos.com/agenda/",
+   "bandas": [
+    {
+     "nome": "Idle Hand",
+     "minha": false
+    },
+    {
+     "nome": "Lord Of Confusion",
+     "minha": false
+    },
+    {
+     "nome": "Trasgo",
+     "minha": false
+    },
+    {
+     "nome": "Spitgod",
+     "minha": false
+    }
+   ],
+   "tem_minhas": false,
+   "fontes": [
+    "Caminhos Metálicos"
+   ]
+  },
+  {
+   "id": "fest-2026-12-04-butchery at christmas time",
+   "nome": "Butchery At Christmas Time",
+   "data_inicio": "2026-12-04",
+   "data_fim": "2026-12-05",
+   "local": "Neverlate",
+   "cidade": "Covilhã",
+   "link": "https://www.caminhosmetalicos.com/agenda/",
+   "bandas": [],
+   "tem_minhas": false,
+   "fontes": [
+    "Caminhos Metálicos"
+   ]
+  },
+  {
+   "id": "fest-2026-12-12-heavy duty fest",
+   "nome": "Heavy Duty Fest",
+   "data_inicio": "2026-12-12",
+   "data_fim": "2026-12-12",
+   "local": "RCA Club",
+   "cidade": "Lisboa",
+   "link": "https://www.caminhosmetalicos.com/agenda/",
+   "bandas": [],
+   "tem_minhas": false,
+   "fontes": [
+    "Caminhos Metálicos"
+   ]
+  },
+  {
+   "id": "fest-2026-12-03-invicta requiem mass ix",
+   "nome": "Invicta Requiem Mass IX",
+   "data_inicio": "2026-12-03",
+   "data_fim": "2026-12-05",
+   "local": "Válega",
+   "cidade": "Válega – Ovar",
+   "link": "https://www.caminhosmetalicos.com/agenda/",
+   "bandas": [],
+   "tem_minhas": false,
+   "fontes": [
+    "Caminhos Metálicos"
+   ]
+  },
+  {
+   "id": "fest-2026-12-19-laurus nobilis xmas gathering",
+   "nome": "Laurus Nobilis Xmas Gathering",
+   "data_inicio": "2026-12-19",
+   "data_fim": "2026-12-19",
+   "local": "Casa Artista Amador",
+   "cidade": "Famalicão",
+   "link": "https://www.caminhosmetalicos.com/agenda/",
+   "bandas": [],
+   "tem_minhas": false,
+   "fontes": [
+    "Caminhos Metálicos"
+   ]
+  },
+  {
+   "id": "fest-2026-11-06-portalegre core fest",
+   "nome": "Portalegre Core Fest",
+   "data_inicio": "2026-11-06",
+   "data_fim": "2026-11-06",
+   "local": "CAE",
+   "cidade": "Portalegre",
+   "link": "https://www.caminhosmetalicos.com/agenda/",
+   "bandas": [],
+   "tem_minhas": false,
+   "fontes": [
+    "Caminhos Metálicos"
+   ]
+  },
+  {
+   "id": "fest-2026-11-14-uv almost fest iv",
+   "nome": "UV Almost Fest IV",
+   "data_inicio": "2026-11-14",
+   "data_fim": "2026-11-14",
+   "local": "GD Corveirense",
+   "cidade": "Grijó",
+   "link": "https://www.caminhosmetalicos.com/agenda/",
+   "bandas": [],
+   "tem_minhas": false,
+   "fontes": [
+    "Caminhos Metálicos"
+   ]
+  },
+  {
+   "id": "fest-2026-11-06-viseu death fest",
+   "nome": "Viseu Death Fest",
+   "data_inicio": "2026-11-06",
+   "data_fim": "2026-11-07",
+   "local": "Orfeão",
+   "cidade": "Viseu",
+   "link": "https://www.caminhosmetalicos.com/agenda/",
+   "bandas": [],
+   "tem_minhas": false,
+   "fontes": [
+    "Caminhos Metálicos"
+   ]
+  }
  ]
 }

@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Testes das regras, sem rede: python3 scripts/test_atualizar.py"""
+import io
 import json
 import sys
 import tempfile
@@ -10,6 +11,8 @@ from unittest import mock
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import atualizar as a  # noqa: E402
+
+a.FICHEIRO_FESTIVAIS_REAL = a.FICHEIRO_FESTIVAIS
 
 HOJE = date(2026, 11, 3)
 
@@ -174,7 +177,9 @@ class Spotify(unittest.TestCase):
     def test_falha_usa_bands_txt(self):
         ambiente = {"SPOTIFY_CLIENT_ID": "i", "SPOTIFY_CLIENT_SECRET": "s", "SPOTIFY_REFRESH_TOKEN": "r"}
         avisos = []
+        # Sem dados guardados: o teste não pode depender do data.json real nem da espera lá registada.
         with mock.patch.dict(a.os.environ, ambiente), \
+                mock.patch.object(a, "carregar_dados_anteriores", return_value={}), \
                 mock.patch.object(a, "pedir", return_value=(400, b"{}")):
             bandas, origem, spotify = a.obter_bandas(avisos)
         self.assertEqual(origem, "bands.txt")
@@ -434,6 +439,188 @@ class Agenda(unittest.TestCase):
         self.assertEqual([c["data"][:10] for c in r], ["2026-12-02", "2026-12-09"])
         self.assertEqual([b["nome"] for b in r[1]["bandas"]], ["A", "B"])
         self.assertEqual(r[1]["categorias"], ["Black", "Death"])
+
+
+class Festivais(unittest.TestCase):
+    AGENDA = """<p>Atualizado a 22.10.2026</p>
+    <p>07/11/2026 – Banana Bong Fest – Idle Hand + Irae + Trasgo – CAAA Black Box (Guimarães)</p>
+    <p>06/11/2026 – Viseu Death Fest – Orfeão (Viseu)</p><p>07/11/2026 – Viseu Death Fest – Orfeão (Viseu)</p>
+    <p>03/12/2026 – Invicta Requiem Mass IX – Válega (Válega – Ovar)</p><p>04/12/2026 – Invicta Requiem Mass IX – Válega (Válega – Ovar)</p>
+    <p>05/12/2026 – Invicta Requiem Mass IX – Válega (Válega – Ovar)</p>
+    <p>26/12/2026 – Assembleia do Metal – (Pindelo dos Milagres)</p>
+    <p>19/12/2026 – Laurus Nobilis Xmas Gathering – Casa Artista Amador (Famalicão)</p>
+    <p>28/11/2026 – Erudica – Okkulto Bar (Braga)</p><p>30/11/2026 – Erudica + Viledog – Buraco (Ovar)</p>
+    <p>19/11/2026 – Flotsam and Jetsam – RCA Club (Lisboa)</p>
+    <p>01/12/2026 – Manifest – Sala (Porto)</p><p>02/12/2026 – Infest + Festa Brava – Sala (Porto)</p>
+    <p>18/12/2026 – Thrashin the Hills – Speedemon + Ural – UDCA (Vila Franca)</p>
+    <p>30/10/2026 – Patrimónios de Peso – Expocoa (Foz Côa)</p><p>31/10/2026 – Patrimónios de Peso – Expocoa (Foz Côa)</p>
+    <p>01/11/2026 – Fest Passado – Sala (Porto)</p>"""
+
+    def setUp(self):
+        self.pasta = tempfile.TemporaryDirectory()
+        self.addCleanup(self.pasta.cleanup)
+        self.ficheiro = Path(self.pasta.name) / "festivais.json"
+        registo = mock.patch.object(a, "FICHEIRO_FESTIVAIS", self.ficheiro)
+        registo.start()
+        self.addCleanup(registo.stop)
+
+    def lidos(self, pagina=None):
+        return a.analisar_agenda(pagina or self.AGENDA)[0]
+
+    def obter(self, lidos=(), ok=True, guardados=None):
+        avisos = []
+        festivais, agenda = a.obter_festivais(list(lidos), ok, guardados, MINHAS, HOJE, avisos)
+        return festivais, agenda, avisos
+
+    def manual(self, *entradas):
+        self.ficheiro.write_text(json.dumps({"_instrucoes": "x", "_exemplo": {"nome": "Não"}, "festivais": list(entradas)}), encoding="utf-8")
+
+    def test_palavras_de_festival(self):
+        for nome in ["Viseu Death Fest", "UV Almost Fest IV", "Moonfest", "Festival de Metal", "Portugal Open Air", "Open-Air X",
+                     "Xmas Gathering", "Metal Weekend", "Assembleia do Metal", "HEAVY FEST"]:
+            self.assertTrue(a.e_nome_de_festival(nome), nome)
+        for nome in ["Manifest", "Infest", "Festa Brava", "Erudica", "Fester", "Festering Wounds", "Weekender"]:
+            self.assertFalse(a.e_nome_de_festival(nome), nome)
+
+    def test_agenda_com_festivais(self):
+        festivais, agenda, avisos = self.obter(self.lidos())
+        self.assertEqual([(f["nome"], f["data_inicio"], f["data_fim"]) for f in festivais], [
+            ("Viseu Death Fest", "2026-11-06", "2026-11-07"),
+            ("Banana Bong Fest", "2026-11-07", "2026-11-07"),
+            ("Invicta Requiem Mass IX", "2026-12-03", "2026-12-05"),
+            ("Laurus Nobilis Xmas Gathering", "2026-12-19", "2026-12-19"),
+            ("Assembleia do Metal", "2026-12-26", "2026-12-26"),
+        ])
+        self.assertEqual(avisos, [])
+        self.assertEqual(festivais[2]["cidade"], "Válega – Ovar")
+        self.assertEqual(festivais[4]["local"], "")
+        self.assertEqual(festivais[0]["link"], a.URL_AGENDA)
+        self.assertEqual(festivais[0]["fontes"], ["Caminhos Metálicos"])
+
+    def test_banda_sozinha_e_passados_nao_entram(self):
+        nomes = [f["nome"] for f in self.obter(self.lidos())[0]]
+        for nome in ["Erudica", "Flotsam and Jetsam", "Manifest", "Infest", "Thrashin the Hills", "Patrimónios de Peso", "Fest Passado"]:
+            self.assertNotIn(nome, nomes)
+
+    def test_banda_seguida_em_dias_seguidos_nao_e_festival(self):
+        lidos = self.lidos("<p>01/12/2026 – Irae – Sala (Porto)</p><p>02/12/2026 – Irae – Sala (Porto)</p>")
+        self.assertEqual(self.obter(lidos)[0], [])
+
+    def test_etiqueta_tens_bandas(self):
+        festivais = self.obter(self.lidos())[0]
+        banana = next(f for f in festivais if f["nome"] == "Banana Bong Fest")
+        self.assertTrue(banana["tem_minhas"])
+        self.assertEqual([b["nome"] for b in banana["bandas"] if b["minha"]], ["Irae"])
+        viseu = next(f for f in festivais if f["nome"] == "Viseu Death Fest")
+        self.assertFalse(viseu["tem_minhas"])
+        self.assertEqual(viseu["bandas"], [])
+
+    def test_nome_curto_no_cartaz_sem_falso_positivo(self):
+        self.manual({"nome": "F", "data_inicio": "2026-12-01", "bandas": ["Absurd", "Liking", "Orthodoxy"]})
+        self.assertFalse(self.obter()[0][0]["tem_minhas"])
+
+    def test_agenda_sem_festivais(self):
+        lidos = self.lidos("<p>28/11/2026 – Erudica – Okkulto Bar (Braga)</p>")
+        festivais, agenda, _ = self.obter(lidos)
+        self.assertEqual((festivais, agenda), ([], []))
+
+    def test_agenda_indisponivel_usa_guardados_e_manual(self):
+        guardados = self.obter(self.lidos())[1]
+        self.manual({"nome": "Manual Fest", "data_inicio": "2026-11-20", "cidade": "Faro"})
+        festivais, agenda, _ = self.obter(ok=False, guardados=guardados)
+        self.assertIn("Manual Fest", [f["nome"] for f in festivais])
+        self.assertIn("Viseu Death Fest", [f["nome"] for f in festivais])
+        self.assertEqual(len(agenda), len(guardados))
+        self.assertEqual(len(festivais), len(guardados) + 1)
+
+    def test_agenda_indisponivel_sem_guardados(self):
+        self.manual({"nome": "Manual Fest", "data_inicio": "2026-11-20"})
+        self.assertEqual([f["nome"] for f in self.obter(ok=False)[0]], ["Manual Fest"])
+        self.manual()
+        self.assertEqual(self.obter(ok=False)[0], [])
+
+    def test_guardado_que_ja_passou_sai(self):
+        guardado = [a.novo_festival("Velho Fest", "2026-01-01", "2026-01-02", "", "", "", [], a.FONTE_AGENDA, MINHAS)]
+        self.assertEqual(self.obter(ok=False, guardados=guardado)[:2], ([], []))
+
+    def test_manual_vazio_ou_em_falta(self):
+        self.assertEqual(self.obter()[0], [])
+        self.manual()
+        self.assertEqual(self.obter()[0], [])
+        self.ficheiro.write_text("[]", encoding="utf-8")
+        self.assertEqual(self.obter()[0], [])
+
+    def test_manual_com_entradas(self):
+        self.manual({"nome": "SWR Fest", "data_inicio": "2027-04-23", "data_fim": "2027-04-25", "local": "Barroselas", "cidade": "Viana",
+                     "link": "https://exemplo.pt/swr", "bandas": ["Irae", "Outra"]},
+                    {"nome": "Um Dia", "data_inicio": "2026-12-01"})
+        festivais, agenda, avisos = self.obter()
+        self.assertEqual([f["nome"] for f in festivais], ["Um Dia", "SWR Fest"])
+        self.assertEqual(festivais[0]["data_fim"], "2026-12-01")
+        self.assertEqual(festivais[1]["bandas"], [{"nome": "Irae", "minha": True}, {"nome": "Outra", "minha": False}])
+        self.assertTrue(festivais[1]["tem_minhas"])
+        self.assertEqual(festivais[1]["fontes"], ["Manual"])
+        self.assertEqual((agenda, avisos), ([], []))
+
+    def test_exemplo_nao_aparece_como_festival(self):
+        self.ficheiro.write_text(a.FICHEIRO_FESTIVAIS_REAL.read_text(encoding="utf-8"), encoding="utf-8")
+        self.assertEqual(self.obter(), ([], [], []))
+
+    def test_festival_repetido_nas_duas_fontes(self):
+        self.manual({"nome": "Invicta Requiem Mass", "data_inicio": "2026-12-03", "data_fim": "2026-12-06", "local": "Pavilhão",
+                     "cidade": "Ovar", "link": "https://exemplo.pt/irm", "bandas": ["Irae"]},
+                    {"nome": "viseu death fest", "data_inicio": "2026-11-06", "data_fim": "2026-11-07"})
+        festivais = self.obter(self.lidos())[0]
+        nomes = [f["nome"] for f in festivais]
+        self.assertEqual(len(festivais), 5)
+        self.assertEqual(nomes.count("Invicta Requiem Mass IX"), 0)
+        invicta = next(f for f in festivais if f["nome"] == "Invicta Requiem Mass")
+        self.assertEqual((invicta["local"], invicta["cidade"], invicta["link"]), ("Pavilhão", "Ovar", "https://exemplo.pt/irm"))
+        self.assertEqual((invicta["data_inicio"], invicta["data_fim"]), ("2026-12-03", "2026-12-06"))
+        self.assertEqual(invicta["fontes"], ["Manual", "Caminhos Metálicos"])
+        self.assertTrue(invicta["tem_minhas"])
+        viseu = next(f for f in festivais if a.chave_comparacao(f["nome"]) == "viseu death fest")
+        self.assertEqual((viseu["local"], viseu["cidade"], viseu["link"]), ("Orfeão", "Viseu", a.URL_AGENDA))
+
+    def test_mesmo_nome_noutra_data_nao_junta(self):
+        self.manual({"nome": "Viseu Death Fest", "data_inicio": "2027-11-05"})
+        self.assertEqual(sum(f["nome"] == "Viseu Death Fest" for f in self.obter(self.lidos())[0]), 2)
+
+    def test_entradas_invalidas_nao_rebentam(self):
+        self.manual({"nome": "Sem Data"}, {"nome": "Má", "data_inicio": "31/12/2026"}, {"data_inicio": "2026-12-01"},
+                    {"nome": "Fim Antes", "data_inicio": "2026-12-02", "data_fim": "2026-12-01"}, "texto",
+                    {"nome": "Link Mau", "data_inicio": "2026-12-01", "link": "javascript:alert(1)"})
+        festivais, _, avisos = self.obter()
+        self.assertEqual([(f["nome"], f["link"]) for f in festivais], [("Link Mau", "")])
+        self.assertEqual(len(avisos), 6)
+        self.ficheiro.write_text("{ erro", encoding="utf-8")
+        self.assertEqual(len(self.obter()[2]), 1)
+
+    def test_corrida_completa_escreve_e_mantem_na_falha(self):
+        with tempfile.TemporaryDirectory() as pasta:
+            dados = Path(pasta) / "data.json"
+            registos = [{"id": "irae", "nome": "Irae", "categoria": "Black", "spotify": "https://x", "lancamentos": [], "concertos": []}]
+            def correr(resposta):
+                def pedir(url, *x, **y):
+                    if url == a.URL_AGENDA:
+                        return resposta
+                    raise a.ErroFonte("sem rede")
+                avisos_saida = io.StringIO()
+                with mock.patch.object(a, "obter_bandas", return_value=([{"nome": "Irae"}], "spotify_guardado", None)), \
+                        mock.patch.object(a, "processar_bandas", return_value=(registos, {"concertos": "sem_app_id"})), \
+                        mock.patch.object(a, "FICHEIRO_DADOS", dados), mock.patch.object(a, "pedir", side_effect=pedir), \
+                        mock.patch("sys.stdout", avisos_saida):
+                    self.assertEqual(a.main(), 0)
+                return json.loads(dados.read_text(encoding="utf-8"))
+            pagina = "<p>01/12/2099 – Grande Fest – Irae + Outra – Sala (Porto)</p>".encode()
+            r = correr((200, pagina))
+            self.assertEqual([f["nome"] for f in r["festivais"]], ["Grande Fest"])
+            self.assertEqual(r["festivais"], r["festivais_agenda"])
+            self.assertTrue(r["festivais"][0]["tem_minhas"])
+            r = correr((403, b""))
+            self.assertEqual(r["fontes"]["agenda"]["estado"], "indisponivel")
+            self.assertEqual([f["nome"] for f in r["festivais"]], ["Grande Fest"])
+            self.assertEqual(len(r["concertos"]), 1)
 
 
 class FluxoCompleto(unittest.TestCase):
