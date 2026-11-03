@@ -35,6 +35,9 @@ MAX_LANCAMENTOS_POR_BANDA = 10
 MAX_NOTICIAS_POR_FEED = 30
 MAX_NOTICIAS = 150
 DIAS_NOTICIAS = 30
+# Uma categoria só vale se tiver pelo menos esta fração dos votos da etiqueta mais votada.
+# Evita, por exemplo, pôr em Doom/Sludge uma banda de grunge com um voto em "sludge".
+FRACAO_MINIMA_CATEGORIA = 0.2
 MAX_TAMANHO_FEED = 5 * 1024 * 1024
 
 OUTROS = "Outros"
@@ -271,10 +274,10 @@ class MusicBrainz:
         for relacao in (dados or {}).get("relations") or []:
             artista = relacao.get("artist")
             if artista and artista.get("id"):
-                return artista["id"]
-        return None
+                return artista["id"], artista.get("type")
+        return None, None
 
-    def id_por_nome(self, nome):
+    def id_por_nome(self, nome, so_grupos=False):
         """Só aceita nome exato. Entre homónimos, prefere quem tem etiquetas de metal."""
         protegido = re.sub(r'([+\-&|!(){}\[\]^"~*?:\\/])', r"\\\1", nome)
         dados = self.get("artist", {"query": 'artist:"%s"' % protegido, "limit": 10}) or {}
@@ -284,6 +287,8 @@ class MusicBrainz:
             nomes = [artista.get("name", ""), artista.get("sort-name", "")]
             nomes += [a.get("name", "") for a in artista.get("aliases") or []]
             if alvo not in {chave_banda(n) for n in nomes if n}:
+                continue
+            if so_grupos and artista.get("type") != "Group":
                 continue
             etiquetas = artista.get("tags") or []
             metal = sum(max(t.get("count", 1), 1) for t in etiquetas if "metal" in t.get("name", ""))
@@ -383,7 +388,12 @@ def entrada_mb(mb, cache, banda, hoje):
         return entrada
     mbid = entrada.get("mbid")
     if not mbid and banda.get("spotify_id"):
-        mbid = mb.id_por_spotify(banda["spotify_id"])
+        mbid, tipo = mb.id_por_spotify(banda["spotify_id"])
+        # A ligação às vezes aponta para a pessoa e não para a banda com o mesmo nome
+        # (Marilyn Manson). Só troca se a pessoa não tiver álbuns: os artistas a solo ficam.
+        if mbid and tipo == "Person" and not converter_lancamentos(
+                banda["nome"], mb.grupos_de_lancamentos(mbid)):
+            mbid = mb.id_por_nome(banda["nome"], so_grupos=True) or mbid
     if not mbid:
         mbid = mb.id_por_nome(banda["nome"])
     entrada.update({
@@ -437,7 +447,10 @@ def categoria_por_regras(etiquetas_mb, generos_spotify):
             pontos[categoria] = pontos.get(categoria, 0) + 1
     if not pontos:
         return OUTROS
-    return max(CATEGORIAS, key=lambda c: (pontos.get(c, 0), -CATEGORIAS.index(c)))
+    melhor = max(CATEGORIAS, key=lambda c: (pontos.get(c, 0), -CATEGORIAS.index(c)))
+    if etiquetas_mb and pontos[melhor] < FRACAO_MINIMA_CATEGORIA * max(etiquetas_mb.values()):
+        return OUTROS
+    return melhor
 
 
 def nao_e_musica(generos):
@@ -661,7 +674,10 @@ def processar_bandas(bandas, spotify, avisos):
                 falhas_mb += 1
                 mb_falhou = True
 
-            if not forcada and (nao_e_musica(etiquetas) or so_nao_musica(grupos or [])):
+            # As etiquetas do MusicBrainz são livres (o Saor tem "poetry"): sozinhas não chegam,
+            # é preciso também não haver álbuns nem EPs de música.
+            sem_discos = grupos is not None and not converter_lancamentos(nome, grupos)
+            if not forcada and (so_nao_musica(grupos or []) or (nao_e_musica(etiquetas) and sem_discos)):
                 excluidas.append(nome)
                 continue
 

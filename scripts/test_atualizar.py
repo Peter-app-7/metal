@@ -31,6 +31,10 @@ class Categorias(unittest.TestCase):
         self.assertEqual(a.categoria_por_regras({"death metal": 2}, ["thrash metal"]), "Death")
         self.assertEqual(a.categoria_por_regras({}, ["doom metal"]), "Doom/Sludge")
 
+    def test_etiqueta_com_poucos_votos_nao_decide(self):
+        self.assertEqual(a.categoria_por_regras({"grunge": 68, "sludge metal": 3}, []), "Outros")
+        self.assertEqual(a.categoria_por_regras({"djent": 9, "death metal": 3}, []), "Death")
+
     def test_sem_correspondencia_fica_em_outros(self):
         self.assertEqual(a.categoria_por_regras({"heavy metal": 5}, ["rock"]), "Outros")
 
@@ -162,7 +166,7 @@ class FluxoCompleto(unittest.TestCase):
             (pasta / "categorias.json").write_text(forcadas, encoding="utf-8")
             recente = (a.agora().date() - timedelta(days=5)).isoformat()
             mb = mock.Mock()
-            mb.id_por_spotify.side_effect = lambda i: None if i == "sem" else "mb-" + i
+            mb.id_por_spotify.side_effect = lambda i: (None, None) if i == "sem" else ("mb-" + i, "Group")
             mb.id_por_nome.return_value = None
             mb.etiquetas.side_effect = lambda m: {"thrash metal": 3} if m == "mb-t" else {}
             mb.grupos_de_lancamentos.side_effect = lambda m: {
@@ -203,6 +207,47 @@ class FluxoCompleto(unittest.TestCase):
         ])
         self.assertEqual([r["nome"] for r in registos], ["Thrasher"])
         self.assertEqual(fontes["excluidas"], ["Autor", "Livro", "Sem Nada"])
+
+    def test_etiqueta_tematica_nao_exclui_banda_com_discos(self):
+        mb = mock.Mock()
+        mb.id_por_spotify.return_value = ("mb-saor", "Group")
+        mb.etiquetas.return_value = {"black metal": 5, "poetry": 2}
+        mb.grupos_de_lancamentos.return_value = [
+            {"id": "g", "title": "Roots", "primary-type": "Album", "first-release-date": "2013-05-16"}]
+        spotify = mock.Mock()
+        spotify.albuns.side_effect = lambda *x, **y: iter([])
+        with tempfile.TemporaryDirectory() as pasta:
+            pasta = Path(pasta)
+            (pasta / "categorias.json").write_text("{}", encoding="utf-8")
+            with mock.patch.object(a, "MusicBrainz", return_value=mb), \
+                    mock.patch.object(a, "FICHEIRO_CACHE", pasta / "c.json"), \
+                    mock.patch.object(a, "FICHEIRO_DADOS", pasta / "d.json"), \
+                    mock.patch.object(a, "FICHEIRO_CATEGORIAS", pasta / "categorias.json"), \
+                    mock.patch.dict(a.os.environ, {"BANDSINTOWN_APP_ID": ""}):
+                registos, fontes = a.processar_bandas([self.banda("Saor", "s")], spotify, [])
+        self.assertEqual([r["nome"] for r in registos], ["Saor"])
+        self.assertEqual(fontes["excluidas"], [])
+
+    def test_pessoa_sem_discos_troca_pela_banda(self):
+        mb = mock.Mock()
+        mb.id_por_spotify.return_value = ("pessoa", "Person")
+        mb.id_por_nome.return_value = "banda"
+        mb.grupos_de_lancamentos.return_value = [
+            {"id": "x", "title": "Ao vivo", "primary-type": "Album", "secondary-types": ["Live"], "first-release-date": "1997"}]
+        mb.etiquetas.return_value = {}
+        r = a.entrada_mb(mb, {}, self.banda("Marilyn Manson", "m"), HOJE)
+        self.assertEqual(r["mbid"], "banda")
+        mb.id_por_nome.assert_called_once_with("Marilyn Manson", so_grupos=True)
+
+    def test_artista_a_solo_com_discos_fica(self):
+        mb = mock.Mock()
+        mb.id_por_spotify.return_value = ("ozzy", "Person")
+        mb.grupos_de_lancamentos.return_value = [
+            {"id": "x", "title": "Ordinary Man", "primary-type": "Album", "first-release-date": "2020-02-21"}]
+        mb.etiquetas.return_value = {}
+        r = a.entrada_mb(mb, {}, self.banda("Ozzy Osbourne", "o"), HOJE)
+        self.assertEqual(r["mbid"], "ozzy")
+        mb.id_por_nome.assert_not_called()
 
     def test_categoria_forcada_tem_prioridade(self):
         registos, fontes, _ = self.correr(
