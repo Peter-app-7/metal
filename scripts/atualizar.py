@@ -593,13 +593,13 @@ def obter_noticias(anteriores, avisos):
 
 # --- Juntar tudo -----------------------------------------------------------------
 
-def juntar_spotify(spotify, banda, hoje):
+def juntar_spotify(spotify, spotify_id, banda, hoje):
     """Nos lançamentos recentes, troca a procura pelo link e pela capa do próprio álbum."""
     recentes = [l for l in banda["lancamentos"] if e_recente(l["data"], hoje)]
     if not recentes:
         return
     por_titulo = {normalizar(l["titulo"]): l for l in recentes}
-    for album in spotify.albuns(banda["spotify_id"]):
+    for album in spotify.albuns(spotify_id):
         lancamento = por_titulo.pop(normalizar(album.get("name", "")), None)
         if lancamento:
             imagens = album.get("images") or []
@@ -637,80 +637,83 @@ def processar_bandas(bandas, spotify, avisos):
     spotify_ativo = spotify is not None
     bandas = [b for b in bandas if forcadas.get(chave_banda(b["nome"])) != IGNORAR]
 
-    for indice, banda in enumerate(bandas, 1):
-        nome = banda["nome"]
-        chave = chave_banda(nome)
-        antes = anteriores.get(chave, {})
-        forcada = forcadas.get(chave)
-        print("[%d/%d] %s" % (indice, len(bandas), nome), flush=True)
+    try:
+        for indice, banda in enumerate(bandas, 1):
+            nome = banda["nome"]
+            chave = chave_banda(nome)
+            antes = anteriores.get(chave, {})
+            forcada = forcadas.get(chave)
+            print("[%d/%d] %s" % (indice, len(bandas), nome), flush=True)
 
-        if not forcada and nao_e_musica(banda["generos_spotify"]):
-            excluidas.append(nome)
-            continue
+            if not forcada and nao_e_musica(banda["generos_spotify"]):
+                excluidas.append(nome)
+                continue
 
-        etiquetas, mbid, grupos = {}, None, None
-        mb_falhou = False
-        try:
-            entrada = entrada_mb(mb, cache, banda, hoje)
-            etiquetas, mbid = entrada.get("etiquetas") or {}, entrada.get("mbid")
-            if mbid:
-                grupos = mb.grupos_de_lancamentos(mbid)
-        except ErroFonte as erro:
-            print("  MusicBrainz: %s" % erro)
-            falhas_mb += 1
-            mb_falhou = True
-
-        if not forcada and (nao_e_musica(etiquetas) or so_nao_musica(grupos or [])):
-            excluidas.append(nome)
-            continue
-
-        # Sem correspondência em lado nenhum: confirma se há música no Spotify.
-        if (not forcada and not mbid and not mb_falhou and spotify_ativo
-                and banda.get("spotify_id") and not banda["generos_spotify"]):
+            etiquetas, mbid, grupos = {}, None, None
+            mb_falhou = False
             try:
-                if next(spotify.albuns(banda["spotify_id"], paginas=1), None) is None:
-                    excluidas.append(nome)
-                    continue
+                entrada = entrada_mb(mb, cache, banda, hoje)
+                etiquetas, mbid = entrada.get("etiquetas") or {}, entrada.get("mbid")
+                if mbid:
+                    grupos = mb.grupos_de_lancamentos(mbid)
             except ErroFonte as erro:
-                print("  Spotify: %s" % erro)
+                print("  MusicBrainz: %s" % erro)
+                falhas_mb += 1
+                mb_falhou = True
 
-        lancamentos = (converter_lancamentos(nome, grupos) if grupos is not None
-                       else antes.get("lancamentos", []))
-        registo = {
-            "id": chave,
-            "nome": nome,
-            "categoria": forcada or categoria_por_regras(etiquetas, banda["generos_spotify"]),
-            "spotify": banda.get("spotify_url") or "https://open.spotify.com/search/" + urllib.parse.quote(nome),
-            "lancamentos": lancamentos,
-            "concertos": [],
-        }
+            if not forcada and (nao_e_musica(etiquetas) or so_nao_musica(grupos or [])):
+                excluidas.append(nome)
+                continue
 
-        if spotify_ativo and banda.get("spotify_id"):
-            try:
-                juntar_spotify(spotify, registo, hoje)
-            except ErroFonte as erro:
-                print("  Spotify: %s" % erro)
-                avisos.append("Algumas capas e links do Spotify ficaram por obter (%s)." % erro)
-                spotify_ativo = False
+            # Sem correspondência em lado nenhum: confirma se há música no Spotify.
+            if (not forcada and not mbid and not mb_falhou and spotify_ativo
+                    and banda.get("spotify_id") and not banda["generos_spotify"]):
+                try:
+                    if next(spotify.albuns(banda["spotify_id"], paginas=1), None) is None:
+                        excluidas.append(nome)
+                        continue
+                except ErroFonte as erro:
+                    print("  Spotify: %s" % erro)
 
-        if bit:
-            try:
-                registo["concertos"] = bit.concertos(nome, hoje)
-            except PermissionError as erro:
-                print("  %s" % erro)
-                avisos.append("Concertos indisponíveis: a Bandsintown recusou o app_id.")
-                estado_concertos, bit = "recusado", None
-            except ErroFonte as erro:
-                print("  Bandsintown: %s" % erro)
-                falhas_bit += 1
-                registo["concertos"] = [c for c in antes.get("concertos", [])
-                                        if c.get("data", "")[:10] >= hoje.isoformat()]
+            lancamentos = (converter_lancamentos(nome, grupos) if grupos is not None
+                           else antes.get("lancamentos", []))
+            registo = {
+                "id": chave,
+                "nome": nome,
+                "categoria": forcada or categoria_por_regras(etiquetas, banda["generos_spotify"]),
+                "spotify": banda.get("spotify_url") or "https://open.spotify.com/search/" + urllib.parse.quote(nome),
+                "lancamentos": lancamentos,
+                "concertos": [],
+            }
 
-        resultado.append(registo)
-        if indice % 25 == 0:
-            guardar_cache(cache)
+            if spotify_ativo and banda.get("spotify_id"):
+                try:
+                    juntar_spotify(spotify, banda["spotify_id"], registo, hoje)
+                except ErroFonte as erro:
+                    print("  Spotify: %s" % erro)
+                    avisos.append("Algumas capas e links do Spotify ficaram por obter (%s)." % erro)
+                    spotify_ativo = False
 
-    guardar_cache(cache)
+            if bit:
+                try:
+                    registo["concertos"] = bit.concertos(nome, hoje)
+                except PermissionError as erro:
+                    print("  %s" % erro)
+                    avisos.append("Concertos indisponíveis: a Bandsintown recusou o app_id.")
+                    estado_concertos, bit = "recusado", None
+                except ErroFonte as erro:
+                    print("  Bandsintown: %s" % erro)
+                    falhas_bit += 1
+                    registo["concertos"] = [c for c in antes.get("concertos", [])
+                                            if c.get("data", "")[:10] >= hoje.isoformat()]
+
+            resultado.append(registo)
+            if indice % 25 == 0:
+                guardar_cache(cache)
+    finally:
+        # Mesmo com um erro inesperado, não se perdem as pesquisas já feitas.
+        guardar_cache(cache)
+
     if falhas_mb:
         avisos.append("MusicBrainz falhou em %d bandas; ficaram os dados anteriores." % falhas_mb)
     if falhas_bit:

@@ -2,8 +2,9 @@
 """Testes das regras, sem rede: python3 scripts/test_atualizar.py"""
 import json
 import sys
+import tempfile
 import unittest
-from datetime import date, timezone
+from datetime import date, timedelta, timezone
 from pathlib import Path
 from unittest import mock
 
@@ -145,11 +146,70 @@ class Spotify(unittest.TestCase):
         s = mock.Mock()
         s.albuns.return_value = iter([{"name": "Título!", "images": [{"url": "g"}, {"url": "m"}],
                                        "external_urls": {"spotify": "https://s/a"}}])
-        banda = {"spotify_id": "x", "lancamentos": [
+        banda = {"lancamentos": [
             {"titulo": "titulo", "data": "2026-10-01", "capa": "c", "spotify": "p"}]}
-        a.juntar_spotify(s, banda, HOJE)
+        a.juntar_spotify(s, "x", banda, HOJE)
         self.assertEqual(banda["lancamentos"][0]["capa"], "m")
         self.assertEqual(banda["lancamentos"][0]["spotify"], "https://s/a")
+
+
+class FluxoCompleto(unittest.TestCase):
+    """Percorre processar_bandas com fontes falsas, como numa corrida com o Spotify ligado."""
+
+    def correr(self, bandas, forcadas="{}"):
+        with tempfile.TemporaryDirectory() as pasta:
+            pasta = Path(pasta)
+            (pasta / "categorias.json").write_text(forcadas, encoding="utf-8")
+            recente = (a.agora().date() - timedelta(days=5)).isoformat()
+            mb = mock.Mock()
+            mb.id_por_spotify.side_effect = lambda i: None if i == "sem" else "mb-" + i
+            mb.id_por_nome.return_value = None
+            mb.etiquetas.side_effect = lambda m: {"thrash metal": 3} if m == "mb-t" else {}
+            mb.grupos_de_lancamentos.side_effect = lambda m: {
+                "mb-t": [{"id": "g", "title": "Novo", "primary-type": "Album", "first-release-date": recente}],
+                "mb-livro": [{"id": "l", "title": "Livro", "primary-type": "Other", "secondary-types": ["Audiobook"], "first-release-date": "2020"}],
+            }.get(m, [])
+            spotify = mock.Mock()
+            spotify.albuns.side_effect = lambda i, paginas=3: iter(
+                [{"name": "Novo", "images": [{"url": "https://c"}], "external_urls": {"spotify": "https://s/album/1"}}]
+                if i == "t" else [])
+            with mock.patch.object(a, "MusicBrainz", return_value=mb), \
+                    mock.patch.object(a, "FICHEIRO_CACHE", pasta / "cache.json"), \
+                    mock.patch.object(a, "FICHEIRO_DADOS", pasta / "data.json"), \
+                    mock.patch.object(a, "FICHEIRO_CATEGORIAS", pasta / "categorias.json"), \
+                    mock.patch.dict(a.os.environ, {"BANDSINTOWN_APP_ID": ""}):
+                registos, fontes = a.processar_bandas(bandas, spotify, [])
+            cache = json.loads((pasta / "cache.json").read_text(encoding="utf-8"))
+        return registos, fontes, cache
+
+    @staticmethod
+    def banda(nome, spotify_id, generos=None):
+        return {"nome": nome, "spotify_id": spotify_id, "generos_spotify": generos or [],
+                "spotify_url": "https://open.spotify.com/artist/" + spotify_id}
+
+    def test_banda_com_lancamento_recente(self):
+        registos, _, cache = self.correr([self.banda("Thrasher", "t")])
+        self.assertEqual(registos[0]["categoria"], "Thrash")
+        self.assertEqual(registos[0]["lancamentos"][0]["spotify"], "https://s/album/1")
+        self.assertEqual(registos[0]["lancamentos"][0]["capa"], "https://c")
+        self.assertEqual(cache["thrasher"]["mbid"], "mb-t")
+
+    def test_exclui_o_que_nao_e_musica(self):
+        registos, fontes, _ = self.correr([
+            self.banda("Autor", "a", ["audiobook"]),
+            self.banda("Livro", "livro"),
+            self.banda("Sem Nada", "sem"),
+            self.banda("Thrasher", "t"),
+        ])
+        self.assertEqual([r["nome"] for r in registos], ["Thrasher"])
+        self.assertEqual(fontes["excluidas"], ["Autor", "Livro", "Sem Nada"])
+
+    def test_categoria_forcada_tem_prioridade(self):
+        registos, fontes, _ = self.correr(
+            [self.banda("Thrasher", "t"), self.banda("Autor", "a", ["audiobook"]), self.banda("Fora", "t")],
+            '{"thrasher": "Black", "AUTOR": "Outros", "Fora": "Ignorar"}')
+        self.assertEqual({r["nome"]: r["categoria"] for r in registos}, {"Thrasher": "Black", "Autor": "Outros"})
+        self.assertEqual(fontes["excluidas"], [])
 
 
 if __name__ == "__main__":
