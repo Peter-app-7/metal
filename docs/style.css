@@ -137,7 +137,6 @@ a { color: inherit; }
 .subtitulo { color: var(--texto-suave); margin: 0 0 8px; }
 .vazio { color: var(--texto-suave); padding: 8px 0; margin: 0; }
 .nota { font-size: .8rem; color: var(--texto-suave); margin: 24px 0 8px; }
-.nota-alerta { margin: 8px 0; font-size: .85rem; color: var(--alerta); }
 
 .botao-secundario {
   display: block;
@@ -168,7 +167,7 @@ a { color: inherit; }
   left: 0; right: 0; bottom: 0;
   z-index: 10;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   padding-bottom: env(safe-area-inset-bottom);
   background: var(--cartao);
   border-top: 1px solid var(--linha);

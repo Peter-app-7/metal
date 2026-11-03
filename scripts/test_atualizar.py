@@ -35,6 +35,21 @@ class Categorias(unittest.TestCase):
         self.assertEqual(a.categoria_por_regras({"grunge": 68, "sludge metal": 3}, []), "Outros")
         self.assertEqual(a.categoria_por_regras({"djent": 9, "death metal": 3}, []), "Death")
 
+    def test_grunge_e_progressivo_nao_tem_regras(self):
+        self.assertEqual(a.categoria_por_regras({"grunge": 50}, []), "Outros")
+        self.assertEqual(a.categoria_por_regras({"progressive metal": 50}, []), "Outros")
+        self.assertIsNone(a.categoria_da_etiqueta("grunge"))
+        self.assertIsNone(a.categoria_da_etiqueta("progressive metal"))
+
+    def test_categorias_forcadas_do_ficheiro(self):
+        avisos = []
+        forcadas = a.carregar_categorias(avisos)
+        self.assertEqual(avisos, [])
+        self.assertEqual(forcadas, {
+            "alice in chains": "Grunge", "nirvana": "Grunge", "tool": "Progressivo",
+            "a perfect circle": "Progressivo", "ne obliviscaris": "Progressivo",
+        })
+
     def test_sem_correspondencia_fica_em_outros(self):
         self.assertEqual(a.categoria_por_regras({"heavy metal": 5}, ["rock"]), "Outros")
 
@@ -59,11 +74,32 @@ class Lancamentos(unittest.TestCase):
         self.assertEqual([l["tipo"] for l in r], ["EP", "Álbum", "Álbum"])
 
     def test_recente(self):
+        self.assertEqual(a.DIAS_RECENTES, 365)
         self.assertTrue(a.e_recente("2026-09-01", HOJE))
         self.assertTrue(a.e_recente("2026-10", HOJE))
+        self.assertTrue(a.e_recente("2026-02-01", HOJE))
+        self.assertTrue(a.e_recente("2025-11-03", HOJE))
+        self.assertFalse(a.e_recente("2025-11-02", HOJE))
         self.assertFalse(a.e_recente("2026", HOJE))
-        self.assertFalse(a.e_recente("2026-07-01", HOJE))
         self.assertFalse(a.e_recente("2026-12-01", HOJE))
+
+    def test_guarda_todos_os_do_ultimo_ano(self):
+        hoje = a.agora().date()
+        grupos = [{"id": str(i), "title": "T%d" % i, "primary-type": "Album",
+                   "first-release-date": (hoje - timedelta(days=i + 1)).isoformat()} for i in range(14)]
+        grupos += [{"id": "v%d" % i, "title": "V%d" % i, "primary-type": "Album",
+                    "first-release-date": "19%02d-01-01" % (80 + i)} for i in range(5)]
+        r = a.converter_lancamentos("B", grupos)
+        self.assertEqual(len(r), 14)
+        self.assertTrue(all(l["titulo"].startswith("T") for l in r))
+        self.assertEqual(len(a.converter_lancamentos("B", grupos[14:])), 5)
+
+    def test_le_todos_os_grupos_de_bandas_grandes(self):
+        mb = a.MusicBrainz()
+        paginas = [{"release-groups": [{"id": str(j)} for j in range(100)], "release-group-count": 1012}
+                   for _ in range(10)] + [{"release-groups": [{"id": "x"}] * 12, "release-group-count": 1012}]
+        with mock.patch.object(mb, "get", side_effect=paginas):
+            self.assertEqual(len(mb.grupos_de_lancamentos("m")), 1012)
 
     def test_so_audiolivros(self):
         self.assertTrue(a.so_nao_musica([{"secondary-types": ["Audiobook"]}]))
@@ -227,6 +263,41 @@ class FluxoCompleto(unittest.TestCase):
                 registos, fontes = a.processar_bandas([self.banda("Saor", "s")], spotify, [])
         self.assertEqual([r["nome"] for r in registos], ["Saor"])
         self.assertEqual(fontes["excluidas"], [])
+
+    def test_id_manual_tem_prioridade(self):
+        mb = mock.Mock()
+        mb.etiquetas.return_value = {"black metal": 1}
+        manual = "AAAAAAAA-1111-2222-3333-444444444444".lower()
+        cache = {"banda": {"mbid": "errado", "nome": "Banda", "etiquetas": {}, "verificado": HOJE.isoformat()}}
+        r = a.entrada_mb(mb, cache, self.banda("Banda", "b"), HOJE, {"banda": manual})
+        self.assertEqual(r["mbid"], manual)
+        self.assertTrue(r["manual"])
+        mb.id_por_spotify.assert_not_called()
+        mb.id_por_nome.assert_not_called()
+        # Já na cache: não volta a pedir as etiquetas.
+        mb.etiquetas.reset_mock()
+        a.entrada_mb(mb, cache, self.banda("Banda", "b"), HOJE, {"banda": manual})
+        mb.etiquetas.assert_not_called()
+
+    def test_id_manual_retirado_volta_a_pesquisar(self):
+        mb = mock.Mock()
+        mb.id_por_spotify.return_value = ("auto", "Group")
+        mb.etiquetas.return_value = {}
+        cache = {"banda": {"mbid": "m", "manual": True, "nome": "Banda", "etiquetas": {}, "verificado": HOJE.isoformat()}}
+        r = a.entrada_mb(mb, cache, self.banda("Banda", "b"), HOJE, {})
+        self.assertEqual(r["mbid"], "auto")
+        self.assertNotIn("manual", r)
+
+    def test_ficheiro_de_ids_manuais(self):
+        with tempfile.TemporaryDirectory() as pasta:
+            f = Path(pasta) / "m.json"
+            f.write_text(json.dumps({"_nota": "x", "Mötley Crüe": "AAAAAAAA-1111-2222-3333-444444444444", "Má": "nao-e-id"}), encoding="utf-8")
+            avisos = []
+            with mock.patch.object(a, "FICHEIRO_MBID_MANUAL", f):
+                r = a.carregar_mbid_manual(avisos)
+        self.assertEqual(r, {"motley crue": "aaaaaaaa-1111-2222-3333-444444444444"})
+        self.assertEqual(len(avisos), 1)
+        self.assertEqual(a.carregar_mbid_manual([]), {})
 
     def test_pessoa_sem_discos_troca_pela_banda(self):
         mb = mock.Mock()

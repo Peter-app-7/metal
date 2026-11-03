@@ -1,3 +1,8 @@
 {
-  "_instrucoes": "Força aqui a categoria de uma banda: \"Nome da Banda\": \"Categoria\". Tem prioridade sobre as regras. Categorias válidas: Thrash, Death, Black, Doom/Sludge, Nu/Metalcore, Outros. Usa Ignorar para tirar um artista da app (por exemplo, o autor de um audiolivro). Maiúsculas e acentos não contam."
+  "_instrucoes": "Força aqui a categoria de uma banda: \"Nome da Banda\": \"Categoria\". Tem prioridade sobre as regras. Categorias válidas: Thrash, Death, Black, Doom/Sludge, Nu/Metalcore, Progressivo, Grunge, Outros. Progressivo e Grunge só existem aqui: não têm regras automáticas. Usa Ignorar para tirar um artista da app (por exemplo, o autor de um audiolivro). Maiúsculas e acentos não contam.",
+  "Alice In Chains": "Grunge",
+  "Nirvana": "Grunge",
+  "TOOL": "Progressivo",
+  "A Perfect Circle": "Progressivo",
+  "Ne Obliviscaris": "Progressivo"
 }

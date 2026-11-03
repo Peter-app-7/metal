@@ -1,0 +1,4 @@
+{
+  "_instrucoes": "Indica aqui o ID do MusicBrainz de uma banda quando a pesquisa automática falha ou escolhe a errada: \"Nome da Banda\": \"ID\". Tem prioridade sobre a pesquisa. O nome é o do Spotify; maiúsculas e acentos não contam. O ID está no endereço da página da banda em musicbrainz.org/artist/. As linhas começadas por _ são ignoradas.",
+  "_exemplo: Nome da Banda": "00000000-0000-0000-0000-000000000000"
+}

@@ -27,11 +27,14 @@ FICHEIRO_CACHE = RAIZ / "cache" / "musicbrainz.json"
 FICHEIRO_BANDAS = RAIZ / "bands.txt"
 FICHEIRO_CATEGORIAS = RAIZ / "categorias.json"
 FICHEIRO_FEEDS = RAIZ / "feeds.txt"
+FICHEIRO_MBID_MANUAL = RAIZ / "mbid_manual.json"
 
 USER_AGENT = "metal-app/1.0 (+https://github.com/Peter-app-7/metal)"
-DIAS_RECENTES = 90
+DIAS_RECENTES = 365
 DIAS_CACHE = 30
-MAX_LANCAMENTOS_POR_BANDA = 10
+MAX_LANCAMENTOS_POR_BANDA = 10  # além destes, ficam sempre todos os do último ano
+# O MusicBrainz não ordena por data, por isso é preciso ler tudo. O Metallica tem mais de 1000 grupos.
+MAX_GRUPOS_POR_BANDA = 3000
 MAX_NOTICIAS_POR_FEED = 30
 MAX_NOTICIAS = 150
 DIAS_NOTICIAS = 30
@@ -43,6 +46,8 @@ MAX_TAMANHO_FEED = 5 * 1024 * 1024
 OUTROS = "Outros"
 IGNORAR = "Ignorar"
 CATEGORIAS = ["Thrash", "Death", "Black", "Doom/Sludge", "Nu/Metalcore"]
+# Estas só existem por escolha em categorias.json: não têm regras por etiqueta.
+CATEGORIAS_SO_MANUAIS = ["Progressivo", "Grunge"]
 
 # Para cada etiqueta, ganha a primeira regra que encaixa. A ordem importa:
 # "death doom" tem de vir antes de "doom" e "deathcore" não é "death metal".
@@ -315,7 +320,7 @@ class MusicBrainz:
             pagina = dados.get("release-groups") or []
             grupos += pagina
             deslocamento += len(pagina)
-            if not pagina or deslocamento >= dados.get("release-group-count", 0) or deslocamento >= 500:
+            if not pagina or deslocamento >= dados.get("release-group-count", 0) or deslocamento >= MAX_GRUPOS_POR_BANDA:
                 return grupos
 
 
@@ -355,7 +360,9 @@ def converter_lancamentos(nome_banda, grupos):
             "spotify": link_procura_spotify(nome_banda, grupo.get("title", "")),
         })
     lancamentos.sort(key=lambda l: l["data"], reverse=True)
-    return lancamentos[:MAX_LANCAMENTOS_POR_BANDA]
+    hoje = agora().date()
+    return [l for indice, l in enumerate(lancamentos)
+            if indice < MAX_LANCAMENTOS_POR_BANDA or e_recente(l["data"], hoje)]
 
 
 def so_nao_musica(grupos):
@@ -378,15 +385,39 @@ def guardar_cache(cache):
     )
 
 
-def entrada_mb(mb, cache, banda, hoje):
+def carregar_mbid_manual(avisos):
+    """IDs indicados à mão em mbid_manual.json: têm prioridade sobre a pesquisa automática."""
+    try:
+        dados = json.loads(FICHEIRO_MBID_MANUAL.read_text(encoding="utf-8"))
+    except OSError:
+        return {}
+    except ValueError:
+        avisos.append("O ficheiro mbid_manual.json tem um erro e foi ignorado.")
+        return {}
+    manuais = {}
+    for nome, mbid in dados.items():
+        if nome.startswith("_"):
+            continue
+        if isinstance(mbid, str) and re.fullmatch(r"[0-9a-fA-F]{8}(-[0-9a-fA-F]{4}){3}-[0-9a-fA-F]{12}", mbid.strip()):
+            manuais[chave_banda(nome)] = mbid.strip().lower()
+        else:
+            avisos.append('ID inválido em mbid_manual.json: "%s" (%s).' % (mbid, nome))
+    return manuais
+
+
+def entrada_mb(mb, cache, banda, hoje, manuais=None):
     """Devolve a entrada da cache da banda. O ID encontrado não volta a ser procurado."""
     chave = chave_banda(banda["nome"])
     entrada = cache.get(chave) or {}
+    manual = (manuais or {}).get(chave)
+    # Um ID manual novo, alterado ou retirado obriga a refazer a entrada.
+    if (manual and entrada.get("mbid") != manual) or bool(manual) != bool(entrada.get("manual")):
+        entrada = {}
     verificado = data_valida(entrada.get("verificado", ""))
     fresca = verificado and (hoje - verificado).days < DIAS_CACHE
     if fresca and "etiquetas" in entrada:
         return entrada
-    mbid = entrada.get("mbid")
+    mbid = manual or entrada.get("mbid")
     if not mbid and banda.get("spotify_id"):
         mbid, tipo = mb.id_por_spotify(banda["spotify_id"])
         # A ligação às vezes aponta para a pessoa e não para a banda com o mesmo nome
@@ -402,6 +433,8 @@ def entrada_mb(mb, cache, banda, hoje):
         "etiquetas": mb.etiquetas(mbid) if mbid else {},
         "verificado": hoje.isoformat(),
     })
+    if manual:
+        entrada["manual"] = True
     cache[chave] = entrada
     return entrada
 
@@ -414,7 +447,7 @@ def carregar_categorias(avisos):
     except (OSError, ValueError):
         avisos.append("O ficheiro categorias.json tem um erro e foi ignorado.")
         return {}
-    validas = set(CATEGORIAS) | {OUTROS, IGNORAR}
+    validas = set(CATEGORIAS) | set(CATEGORIAS_SO_MANUAIS) | {OUTROS, IGNORAR}
     forcadas = {}
     for nome, categoria in dados.items():
         if nome.startswith("_"):
@@ -638,6 +671,7 @@ def processar_bandas(bandas, spotify, avisos):
     anteriores = {b["id"]: b for b in carregar_dados_anteriores().get("bandas", [])}
     cache = carregar_cache()
     forcadas = carregar_categorias(avisos)
+    manuais = carregar_mbid_manual(avisos)
     mb = MusicBrainz()
     app_id = os.environ.get("BANDSINTOWN_APP_ID")
     bit = Bandsintown(app_id) if app_id else None
@@ -665,7 +699,7 @@ def processar_bandas(bandas, spotify, avisos):
             etiquetas, mbid, grupos = {}, None, None
             mb_falhou = False
             try:
-                entrada = entrada_mb(mb, cache, banda, hoje)
+                entrada = entrada_mb(mb, cache, banda, hoje, manuais)
                 etiquetas, mbid = entrada.get("etiquetas") or {}, entrada.get("mbid")
                 if mbid:
                     grupos = mb.grupos_de_lancamentos(mbid)

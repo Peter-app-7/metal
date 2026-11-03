@@ -2,10 +2,10 @@
 // Tudo o que vem de fora entra como texto (nunca como HTML) e os links são verificados.
 'use strict';
 
-const CATEGORIAS = ['Thrash', 'Death', 'Black', 'Doom/Sludge', 'Nu/Metalcore', 'Outros'];
-const FILTROS = ['Todas', 'Thrash', 'Death', 'Black', 'Doom/Sludge', 'Nu/Metalcore'];
-const DIAS_RECENTES = 90;
-const LANCAMENTOS_INICIAIS = 20;
+const CATEGORIAS = ['Thrash', 'Death', 'Black', 'Doom/Sludge', 'Nu/Metalcore', 'Progressivo', 'Grunge', 'Outros'];
+const FILTROS = ['Todas', ...CATEGORIAS];
+const DIAS_RECENTES = 365;
+const LANCAMENTOS_POR_PAGINA = 30;
 const HORAS_ANTIGO = 24;
 const MILISSEGUNDOS_HORA = 60 * 60 * 1000;
 
@@ -16,7 +16,7 @@ let dados = null;
 let erroCarregar = false;
 let carregadoEm = 0;
 let filtro = lerFiltro();
-let verTodosLancamentos = false;
+let lancamentosVisiveis = LANCAMENTOS_POR_PAGINA;
 let scrollDaLista = 0;
 
 function lerFiltro() {
@@ -168,11 +168,13 @@ function linhaConcerto(concerto, nomesBandas) {
   );
 }
 
-function notaConcertos() {
+function mensagemSemConcertos() {
   const estado = dados.fontes && dados.fontes.concertos;
-  if (estado === 'sem_app_id') return 'Os concertos ficam ativos quando a chave da Bandsintown estiver ligada.';
-  if (estado === 'recusado') return 'A Bandsintown recusou a chave. Os concertos estão indisponíveis.';
-  return null;
+  if (estado === 'sem_app_id') {
+    return 'Ainda não há concertos para mostrar: falta a chave (app_id) da Bandsintown. Quando estiver ligada, os próximos concertos em Portugal aparecem aqui.';
+  }
+  if (estado === 'recusado') return 'Não há concertos para mostrar: a Bandsintown recusou a chave (app_id).';
+  return filtro === 'Todas' ? 'Não há concertos marcados em Portugal.' : 'Sem concertos marcados em Portugal nesta categoria.';
 }
 
 // --- Ecrã Bandas ----------------------------------------------------------------
@@ -190,7 +192,7 @@ function desenharFiltros() {
       'aria-pressed': String(nome === filtro),
       aoTocar: () => {
         filtro = nome;
-        verTodosLancamentos = false;
+        lancamentosVisiveis = LANCAMENTOS_POR_PAGINA;
         guardarFiltro();
         desenhar();
       },
@@ -208,12 +210,12 @@ function desenharLancamentos(bandas) {
   }
   recentes.sort((a, b) => (a.lancamento.data < b.lancamento.data ? 1 : -1));
 
-  const seccao = el('section', null, el('h2', null, `Novos lançamentos (${DIAS_RECENTES} dias)`));
+  const seccao = el('section', null, el('h2', null, 'Novos lançamentos (último ano)'));
   if (!recentes.length) {
-    seccao.append(el('p', { class: 'vazio' }, 'Sem lançamentos novos nesta categoria.'));
+    seccao.append(el('p', { class: 'vazio' }, 'Sem lançamentos do último ano nesta categoria.'));
     return seccao;
   }
-  const visiveis = verTodosLancamentos ? recentes : recentes.slice(0, LANCAMENTOS_INICIAIS);
+  const visiveis = recentes.slice(0, lancamentosVisiveis);
   const lista = el('ul', { class: 'lista' });
   for (const { lancamento, banda } of visiveis) {
     lista.append(el('li', null, linhaLancamento(lancamento, banda.nome)));
@@ -224,35 +226,10 @@ function desenharLancamentos(bandas) {
       type: 'button',
       class: 'botao-secundario',
       aoTocar: () => {
-        verTodosLancamentos = true;
+        lancamentosVisiveis += LANCAMENTOS_POR_PAGINA;
         desenhar();
       },
-    }, `Ver os ${recentes.length} lançamentos`));
-  }
-  return seccao;
-}
-
-function desenharConcertos(bandas) {
-  // Um festival aparece em várias bandas: junta-as num só concerto.
-  const unicos = new Map();
-  for (const banda of bandas) {
-    for (const concerto of banda.concertos) {
-      if (!unicos.has(concerto.id)) unicos.set(concerto.id, { concerto, nomes: [] });
-      unicos.get(concerto.id).nomes.push(banda.nome);
-    }
-  }
-  const ordenados = [...unicos.values()].sort((a, b) => (a.concerto.data > b.concerto.data ? 1 : -1));
-
-  const seccao = el('section', null, el('h2', null, 'Próximos concertos em Portugal'));
-  const nota = notaConcertos();
-  if (nota) seccao.append(el('p', { class: 'nota-alerta' }, nota));
-  else if (!ordenados.length) seccao.append(el('p', { class: 'vazio' }, 'Sem concertos marcados nesta categoria.'));
-  if (ordenados.length) {
-    const lista = el('ul', { class: 'lista' });
-    for (const { concerto, nomes } of ordenados) {
-      lista.append(el('li', null, linhaConcerto(concerto, nomes.join(', '))));
-    }
-    seccao.append(lista);
+    }, 'Mostrar mais'));
   }
   return seccao;
 }
@@ -261,7 +238,6 @@ function contagemDaBanda(banda) {
   const novos = banda.lancamentos.filter(eRecente).length;
   const partes = [];
   if (novos) partes.push(novos === 1 ? '1 novo' : `${novos} novos`);
-  if (banda.concertos.length) partes.push(`${banda.concertos.length} 🎫`);
   return partes.join(' · ');
 }
 
@@ -304,10 +280,9 @@ function desenharBandas() {
     el('h1', null, 'Bandas'),
     desenharFiltros(),
     desenharLancamentos(bandas),
-    desenharConcertos(bandas),
     desenharListaBandas(bandas),
     origem === 'bands.txt' ? el('p', { class: 'nota' }, 'Lista de bandas: ficheiro bands.txt (Spotify por ligar).') : null,
-    el('p', { class: 'nota' }, 'Lançamentos: MusicBrainz e Spotify. Concertos: Bandsintown.'),
+    el('p', { class: 'nota' }, 'Lançamentos: MusicBrainz e Spotify.'),
   );
 }
 
@@ -323,11 +298,6 @@ function desenharBanda(id) {
   for (const lancamento of banda.lancamentos) {
     lancamentos.append(el('li', null, linhaLancamento(lancamento, null)));
   }
-  const concertos = el('ul', { class: 'lista' });
-  for (const concerto of banda.concertos) {
-    concertos.append(el('li', null, linhaConcerto(concerto, banda.nome)));
-  }
-  const nota = notaConcertos();
   const spotify = linkSeguro(banda.spotify);
 
   conteudo.replaceChildren(
@@ -335,11 +305,33 @@ function desenharBanda(id) {
     el('h1', null, banda.nome),
     el('p', { class: 'subtitulo' }, banda.categoria),
     spotify ? el('a', { class: 'botao-secundario', href: spotify, target: '_blank', rel: 'noopener noreferrer' }, 'Abrir no Spotify ↗') : null,
-    el('h2', null, 'Concertos em Portugal'),
-    nota ? el('p', { class: 'nota-alerta' }, nota)
-      : (banda.concertos.length ? concertos : el('p', { class: 'vazio' }, 'Sem concertos marcados em Portugal.')),
     el('h2', null, 'Lançamentos'),
     banda.lancamentos.length ? lancamentos : el('p', { class: 'vazio' }, 'Sem lançamentos encontrados.'),
+  );
+}
+
+// --- Ecrã Concertos -------------------------------------------------------------
+
+function desenharConcertos() {
+  // Um festival aparece em várias bandas: junta-as num só concerto.
+  const unicos = new Map();
+  for (const banda of bandasFiltradas()) {
+    for (const concerto of banda.concertos) {
+      if (!unicos.has(concerto.id)) unicos.set(concerto.id, { concerto, nomes: [] });
+      unicos.get(concerto.id).nomes.push(banda.nome);
+    }
+  }
+  const ordenados = [...unicos.values()].sort((a, b) => (a.concerto.data > b.concerto.data ? 1 : -1));
+  const lista = el('ul', { class: 'lista' });
+  for (const { concerto, nomes } of ordenados) {
+    lista.append(el('li', null, linhaConcerto(concerto, nomes.join(', '))));
+  }
+  conteudo.replaceChildren(
+    el('h1', null, 'Concertos'),
+    desenharFiltros(),
+    el('h2', null, 'Próximos concertos em Portugal'),
+    ordenados.length ? lista : el('p', { class: 'vazio' }, mensagemSemConcertos()),
+    el('p', { class: 'nota' }, 'Concertos: Bandsintown.'),
   );
 }
 
@@ -369,6 +361,7 @@ function desenharNoticias() {
 function rotaAtual() {
   const hash = location.hash.slice(1);
   if (hash === 'noticias') return { separador: 'noticias' };
+  if (hash === 'concertos') return { separador: 'concertos' };
   if (hash.startsWith('banda/')) {
     try {
       return { separador: 'bandas', banda: decodeURIComponent(hash.slice(6)) };
@@ -393,6 +386,7 @@ function desenhar() {
     return;
   }
   if (rota.separador === 'noticias') desenharNoticias();
+  else if (rota.separador === 'concertos') desenharConcertos();
   else if (rota.banda) desenharBanda(rota.banda);
   else desenharBandas();
 }
