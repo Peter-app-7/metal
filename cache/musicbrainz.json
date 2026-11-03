@@ -1,4 +1,190 @@
 {
+ "1349": {
+  "etiquetas": {
+   "black metal": 6,
+   "metal": 1,
+   "norwegian black metal": 1,
+   "true norwegian black metal": 1
+  },
+  "mbid": "2aa07e57-bd8a-4fa0-ba5a-72e8f7c3e63e",
+  "nome": "1349",
+  "verificado": "2026-11-03"
+ },
+ "1914": {
+  "etiquetas": {
+   "black metal": 7,
+   "blackened death metal": 1,
+   "death metal": 3,
+   "doom metal": 5
+  },
+  "mbid": "eda0c0a6-c3ce-426d-8f84-e3200bc02693",
+  "nome": "1914",
+  "verificado": "2026-11-03"
+ },
+ "a perfect circle": {
+  "etiquetas": {
+   "alternative rock": 11,
+   "art rock": 4,
+   "progressive rock": 10
+  },
+  "mbid": "078a9376-3c04-4280-b7d7-b20e158f345d",
+  "nome": "A Perfect Circle",
+  "verificado": "2026-11-03"
+ },
+ "absu": {
+  "etiquetas": {
+   "american": 1,
+   "black metal": 3,
+   "death metal": 2,
+   "thrash metal": 3
+  },
+  "mbid": "e4d0504d-a0cc-486e-9f8f-32da470698a5",
+  "nome": "Absu",
+  "verificado": "2026-11-03"
+ },
+ "acherontas": {
+  "etiquetas": {
+   "black metal": 4,
+   "feelings": 1,
+   "magick": 1,
+   "mysticism": 1,
+   "occultism": 1,
+   "spirituality": 1
+  },
+  "mbid": "9c1341c0-739e-4a0a-a1d2-45c8b201fb4d",
+  "nome": "Acherontas",
+  "verificado": "2026-11-03"
+ },
+ "ad nihilum": {
+  "etiquetas": {},
+  "mbid": "aefb3ec8-c724-4206-9d2c-88d0452e6d81",
+  "nome": "Ad Nihilum",
+  "verificado": "2026-11-03"
+ },
+ "afsky": {
+  "etiquetas": {
+   "atmospheric black metal": 3,
+   "black metal": 1
+  },
+  "mbid": "5f601c8d-24af-4eb6-a2bb-f7e04ad40ed8",
+  "nome": "Afsky",
+  "verificado": "2026-11-03"
+ },
+ "afterdeath": {
+  "etiquetas": {},
+  "mbid": "42cf2699-76e9-4426-aabd-b4739fdd9ff2",
+  "nome": "Afterdeath",
+  "verificado": "2026-11-03"
+ },
+ "alice in chains": {
+  "etiquetas": {
+   "acoustic rock": 8,
+   "alternative metal": 13,
+   "alternative rock": 18,
+   "doom metal": 2,
+   "glam metal": 1,
+   "grunge": 30,
+   "hard rock": 4,
+   "heavy metal": 6,
+   "rock": 3,
+   "sludge metal": 5,
+   "stoner metal": 2
+  },
+  "mbid": "4bd95eea-b9f6-4d70-a36c-cfea77431553",
+  "nome": "Alice In Chains",
+  "verificado": "2026-11-03"
+ },
+ "all against": {
+  "etiquetas": {},
+  "mbid": "c5891d1e-0044-46c4-be6b-c4655b9f2eec",
+  "nome": "All Against",
+  "verificado": "2026-11-03"
+ },
+ "anaal nathrakh": {
+  "etiquetas": {
+   "black metal": 8,
+   "grindcore": 6
+  },
+  "mbid": "9bf82496-9d7b-43ac-b3ee-076c90ada9d7",
+  "nome": "Anaal Nathrakh",
+  "verificado": "2026-11-03"
+ },
+ "analepsy": {
+  "etiquetas": {
+   "brutal death metal": 1,
+   "slam": 1
+  },
+  "mbid": "64917b78-4f53-4447-8d01-15bd8c031a5e",
+  "nome": "Analepsy",
+  "verificado": "2026-11-03"
+ },
+ "angine de poitrine": {
+  "etiquetas": {
+   "alternative": 1,
+   "alternative/indie rock": 2,
+   "art punk": 2,
+   "art rock": 5,
+   "avant-prog": 2,
+   "canada": 1,
+   "canadian": 1,
+   "experimental": 1,
+   "experimental rock": 11,
+   "instrumental composition": 2,
+   "mantra rock": 1,
+   "math rock": 15,
+   "microtonal": 6,
+   "microtonal music": 3,
+   "post-punk": 2,
+   "post-rock": 5,
+   "progressive rock": 6,
+   "psychedelic rock": 4,
+   "quebec": 1,
+   "québec": 1,
+   "rock": 3
+  },
+  "mbid": "5fd29907-c3c5-4b1d-a799-7cf9bbd288fc",
+  "nome": "Angine de Poitrine",
+  "verificado": "2026-11-03"
+ },
+ "anima hereticae": {
+  "etiquetas": {
+   "blackened death metal": 1,
+   "melodic death metal": 2
+  },
+  "mbid": "e4e47551-8c70-4963-97da-d8b1a09cc159",
+  "nome": "Anima Hereticae",
+  "verificado": "2026-11-03"
+ },
+ "annihilator": {
+  "etiquetas": {
+   "heavy metal": 4,
+   "metal": 2,
+   "speed metal": 4,
+   "technical thrash metal": 2,
+   "thrash metal": 8
+  },
+  "mbid": "c30ebe30-514f-4e6d-823a-19adf0225a56",
+  "nome": "Annihilator",
+  "verificado": "2026-11-03"
+ },
+ "anzv": {
+  "etiquetas": {
+   "black metal": 1
+  },
+  "mbid": "ec41afe8-7551-4929-9a7e-58b1a0a62777",
+  "nome": "Anzv",
+  "verificado": "2026-11-03"
+ },
+ "arch enemy": {
+  "etiquetas": {
+   "death metal": 8,
+   "melodic death metal": 13,
+   "metal": 7
+  },
+  "mbid": "e631bb92-3e2b-43e3-a2cb-b605e2fb53bd",
+  "nome": "Arch Enemy",
+  "verificado": "2026-11-03"
+ },
  "architects": {
   "etiquetas": {
    "alternative metal": 2,
@@ -15,12 +201,568 @@
   "nome": "Architects",
   "verificado": "2026-11-03"
  },
+ "arcturus": {
+  "etiquetas": {
+   "avant-garde metal": 11,
+   "black metal": 2,
+   "metal": 2,
+   "progressive black metal": 2,
+   "progressive metal": 6,
+   "symphonic black metal": 2,
+   "symphonic metal": 1,
+   "technical prog metal": 1
+  },
+  "mbid": "20953548-6d06-4428-99a9-c284bfaa5514",
+  "nome": "Arcturus",
+  "verificado": "2026-11-03"
+ },
+ "arkhaeth": {
+  "etiquetas": {},
+  "mbid": "ba8dc435-edd4-4b31-9beb-3cdd6c5ae3b8",
+  "nome": "Arkhaeth",
+  "verificado": "2026-11-03"
+ },
+ "arkhon infaustus": {
+  "etiquetas": {
+   "black metal": 1,
+   "blackened death metal": 2,
+   "death metal": 1
+  },
+  "mbid": "ecdeeb61-dc63-4631-8a6a-c5f54a0ac040",
+  "nome": "Arkhon Infaustus",
+  "verificado": "2026-11-03"
+ },
+ "asphyx": {
+  "etiquetas": {
+   "death doom metal": 1,
+   "death metal": 6,
+   "death-doom metal": 3,
+   "death/doom-metal": 1,
+   "doom metal": 1,
+   "metal": 1
+  },
+  "mbid": "e1644bfd-a21f-427c-93ee-c8cec73bab82",
+  "nome": "Asphyx",
+  "verificado": "2026-11-03"
+ },
+ "at the gates": {
+  "etiquetas": {
+   "death metal": 7,
+   "gothenburg metal": 1,
+   "gothenburg sound": 1,
+   "melodic death metal": 17,
+   "metal": 3
+  },
+  "mbid": "35f92c4a-69d0-4ed1-ab9e-05259db89d14",
+  "nome": "At The Gates",
+  "verificado": "2026-11-03"
+ },
+ "atrocity": {
+  "etiquetas": {
+   "death metal": 3,
+   "gothic metal": 3,
+   "melodic death metal": 1,
+   "metal": 1
+  },
+  "mbid": "1e1ebd69-65e9-45aa-8a8f-0930a53cc7ee",
+  "nome": "Atrocity",
+  "verificado": "2026-11-03"
+ },
+ "audioslave": {
+  "etiquetas": {
+   "alternative rock": 11,
+   "hard rock": 6,
+   "post-grunge": 6,
+   "rock": 5,
+   "supergroup": 1
+  },
+  "mbid": "020bfbb4-05c3-4c86-b372-17825c262094",
+  "nome": "Audioslave",
+  "verificado": "2026-11-03"
+ },
+ "aura noir": {
+  "etiquetas": {
+   "black metal": 3,
+   "black thrash": 1,
+   "norwegian black metal": 1,
+   "norwegian metal": 1,
+   "progressive metal": 1,
+   "thrash metal": 3
+  },
+  "mbid": "3cfa1f83-4ef9-42d8-8ad9-0377a2c8fcbb",
+  "nome": "Aura Noir",
+  "verificado": "2026-11-03"
+ },
+ "avulsed": {
+  "etiquetas": {
+   "death metal": 3
+  },
+  "mbid": "a273a331-9490-4508-9816-f540ea538711",
+  "nome": "Avulsed",
+  "verificado": "2026-11-03"
+ },
+ "baest": {
+  "etiquetas": {
+   "death metal": 1
+  },
+  "mbid": "44d6f863-3838-403b-800e-672707ca374f",
+  "nome": "BAEST",
+  "verificado": "2026-11-03"
+ },
+ "balmog": {
+  "etiquetas": {
+   "black metal": 2,
+   "darkness": 1,
+   "death": 1,
+   "hate": 1,
+   "occultism": 1,
+   "satanism": 1
+  },
+  "mbid": "17ea78bf-ad40-4042-83f6-21121d4e6aca",
+  "nome": "Balmog",
+  "verificado": "2026-11-03"
+ },
+ "bathory": {
+  "etiquetas": {
+   "black metal": 14,
+   "metal": 2,
+   "scandinavian metal": 1,
+   "swedish": 1,
+   "thrash metal": 8,
+   "viking metal": 14
+  },
+  "mbid": "d292b4cd-37bd-4a88-a823-8710f273cc31",
+  "nome": "Bathory",
+  "verificado": "2026-11-03"
+ },
+ "bedsore": {
+  "etiquetas": {
+   "death metal": 5,
+   "doom metal": 1,
+   "metal": 1,
+   "progressive death metal": 2,
+   "progressive metal": 2
+  },
+  "mbid": "0fe0a2ed-b891-4d73-ad87-05f4efbdddcd",
+  "nome": "Bedsore",
+  "verificado": "2026-11-03"
+ },
+ "behemoth": {
+  "etiquetas": {
+   "black metal": 11,
+   "blackened death metal": 9,
+   "death metal": 8,
+   "metal": 4
+  },
+  "mbid": "69632f9c-31eb-43d5-a864-e73ac72efc66",
+  "nome": "Behemoth",
+  "verificado": "2026-11-03"
+ },
+ "beherit": {
+  "etiquetas": {
+   "black metal": 4,
+   "blasphemy": 1,
+   "dark ambient": 2,
+   "darkness": 1,
+   "mysticism": 1,
+   "occult": 1,
+   "satanism": 1
+  },
+  "mbid": "65a8ee1c-20ef-4e2d-bf55-33a35bd7e644",
+  "nome": "Beherit",
+  "verificado": "2026-11-03"
+ },
+ "belphegor": {
+  "etiquetas": {
+   "black metal": 3,
+   "blackened death metal": 4,
+   "death metal": 4,
+   "metal": 1,
+   "rock and indie": 1
+  },
+  "mbid": "a41cc6b0-ff0c-4331-9add-907025607e95",
+  "nome": "Belphegor",
+  "verificado": "2026-11-03"
+ },
+ "benediction": {
+  "etiquetas": {
+   "death metal": 1
+  },
+  "mbid": "ae400a56-6d51-405b-af47-26a68713ccb3",
+  "nome": "Benediction",
+  "verificado": "2026-11-03"
+ },
+ "beyond creation": {
+  "etiquetas": {
+   "death metal": 3,
+   "metal": 1,
+   "technical death metal": 4
+  },
+  "mbid": "27a11ee4-9fcd-4834-978e-10f60faae646",
+  "nome": "Beyond Creation",
+  "verificado": "2026-11-03"
+ },
+ "black curse": {
+  "etiquetas": {
+   "black metal": 2,
+   "death metal": 2
+  },
+  "mbid": "da81fc2b-5881-4833-bcae-a17a11fec3d4",
+  "nome": "Black Curse",
+  "verificado": "2026-11-03"
+ },
+ "blood incantation": {
+  "etiquetas": {
+   "ambient": 1,
+   "atmospheric death metal": 1,
+   "berlin school": 1,
+   "colorado": 1,
+   "cosmic death metal": 1,
+   "dark ambient": 3,
+   "death metal": 11,
+   "electronic": 1,
+   "english": 1,
+   "metal": 3,
+   "mysticism": 1,
+   "old school death metal": 1,
+   "osdm": 1,
+   "progressive death metal": 5,
+   "progressive electronic": 1,
+   "progressive metal": 2,
+   "sci-fi": 1,
+   "space": 1,
+   "space ambient": 4,
+   "technical death metal": 3,
+   "united states": 1,
+   "usa": 1
+  },
+  "mbid": "a5f0f298-776a-4909-bc09-4fd56a680542",
+  "nome": "Blood Incantation",
+  "verificado": "2026-11-03"
+ },
+ "blut aus nord": {
+  "etiquetas": {
+   "ambient black metal": 1,
+   "atmospheric black metal": 3,
+   "avant-garde metal": 1,
+   "black metal": 8,
+   "dark ambient": 1,
+   "dissonant black metal": 1,
+   "industrial metal": 3,
+   "industrial/black-metal / avantgarde": 1
+  },
+  "mbid": "c21db200-1f7c-4c23-b518-cf7fac6b8e85",
+  "nome": "Blut Aus Nord",
+  "verificado": "2026-11-03"
+ },
+ "bolt thrower": {
+  "etiquetas": {
+   "death metal": 14,
+   "grindcore": 1,
+   "old school death metal": 2
+  },
+  "mbid": "68bd8072-0412-44b1-81dd-807aa6c1918c",
+  "nome": "Bolt Thrower",
+  "verificado": "2026-11-03"
+ },
+ "born of osiris": {
+  "etiquetas": {
+   "death metal": 2,
+   "deathcore": 5,
+   "djent": 1,
+   "metalcore": 5,
+   "progressive metal": 3,
+   "progressive metalcore": 1
+  },
+  "mbid": "132ca1ea-0891-420f-b129-50247bb144b5",
+  "nome": "Born Of Osiris",
+  "verificado": "2026-11-03"
+ },
+ "candlemass": {
+  "etiquetas": {
+   "doom metal": 19,
+   "epic doom metal": 7,
+   "epic/doom-metal": 1,
+   "heavy metal": 5,
+   "metal": 3,
+   "traditional doom metal": 5
+  },
+  "mbid": "7dba6614-d0bd-4950-8b7b-841b31c413c2",
+  "nome": "Candlemass",
+  "verificado": "2026-11-03"
+ },
  "cannibal corpse": {
   "etiquetas": {
    "death metal": 18
   },
   "mbid": "af8e4cc5-ef54-458d-a194-7b210acf638f",
   "nome": "Cannibal Corpse",
+  "verificado": "2026-11-03"
+ },
+ "carach angren": {
+  "etiquetas": {
+   "black metal": 1,
+   "symphonic black metal": 3
+  },
+  "mbid": "e7273fcd-7530-48ba-bd11-1879f4a8920f",
+  "nome": "Carach Angren",
+  "verificado": "2026-11-03"
+ },
+ "carcass": {
+  "etiquetas": {
+   "death 'n' roll": 5,
+   "death metal": 11,
+   "goregrind": 6,
+   "grindcore": 13,
+   "melodic death metal": 11,
+   "metal": 5
+  },
+  "mbid": "d50a4b89-ff1f-4659-9fde-f76f8d5b3c89",
+  "nome": "Carcass",
+  "verificado": "2026-11-03"
+ },
+ "carpathian forest": {
+  "etiquetas": {
+   "black metal": 5,
+   "metal": 1,
+   "norwegian": 1
+  },
+  "mbid": "69fa5c49-12ec-4c86-a238-4e07cc6d1a7d",
+  "nome": "Carpathian Forest",
+  "verificado": "2026-11-03"
+ },
+ "celtic frost": {
+  "etiquetas": {
+   "avant-garde metal": 2,
+   "black metal": 5,
+   "death metal": 3,
+   "doom metal": 1,
+   "glam metal": 1,
+   "heavy metal": 1,
+   "industrial metal": 1,
+   "metal": 1,
+   "suiça": 1,
+   "swiss": 1,
+   "thrash metal": 8
+  },
+  "mbid": "d91b3683-4622-4d72-8a03-80f1ff59e639",
+  "nome": "Celtic Frost",
+  "verificado": "2026-11-03"
+ },
+ "chimaira": {
+  "etiquetas": {
+   "groove metal": 4,
+   "metal": 2,
+   "metalcore": 3,
+   "thrash metal": 2
+  },
+  "mbid": "d624df22-b03d-4746-ac28-a4bd72aeec26",
+  "nome": "Chimaira",
+  "verificado": "2026-11-03"
+ },
+ "chronologist": {
+  "etiquetas": {},
+  "mbid": "d37422ea-2e26-45d2-8f47-8c41fb813988",
+  "nome": "Chronologist",
+  "verificado": "2026-11-03"
+ },
+ "church of disgust": {
+  "etiquetas": {
+   "death metal": 2,
+   "death-doom metal": 1,
+   "doom metal": 1,
+   "metal": 1
+  },
+  "mbid": "0febb0d2-5e62-4978-9990-af02ad7a789b",
+  "nome": "Church Of Disgust",
+  "verificado": "2026-11-03"
+ },
+ "civerous": {
+  "etiquetas": {
+   "death metal": 2
+  },
+  "mbid": "f7579430-af4b-42e6-86c7-4c24a8411b58",
+  "nome": "Civerous",
+  "verificado": "2026-11-03"
+ },
+ "coal chamber": {
+  "etiquetas": {
+   "alternative metal": 2,
+   "industrial metal": 1,
+   "nu metal": 3
+  },
+  "mbid": "f3430779-bbec-437b-944d-1fbf45d2e786",
+  "nome": "Coal Chamber",
+  "verificado": "2026-11-03"
+ },
+ "cobalt": {
+  "etiquetas": {
+   "american": 1,
+   "black metal": 2
+  },
+  "mbid": "4f6c7a73-372c-4610-b2c5-be7e372b30b0",
+  "nome": "Cobalt",
+  "verificado": "2026-11-03"
+ },
+ "concrete winds": {
+  "etiquetas": {
+   "black metal": 1,
+   "death metal": 4,
+   "deathgrind": 1,
+   "metal": 1
+  },
+  "mbid": "b0f8f945-96df-4b18-84fd-f8dae0aa3eea",
+  "nome": "Concrete Winds",
+  "verificado": "2026-11-03"
+ },
+ "converge": {
+  "etiquetas": {
+   "atmospheric sludge metal": 1,
+   "chaotic hardcore": 1,
+   "experimental": 1,
+   "hardcore": 5,
+   "hardcore punk": 6,
+   "math": 2,
+   "mathcore": 9,
+   "metalcore": 9,
+   "noisecore": 1,
+   "post-hardcore": 5
+  },
+  "mbid": "fa31e7d4-a03a-4110-98fc-f8826e95ec25",
+  "nome": "Converge",
+  "verificado": "2026-11-03"
+ },
+ "coroner": {
+  "etiquetas": {
+   "alternative metal": 1,
+   "avant-garde metal": 1,
+   "groove metal": 4,
+   "progressive metal": 2,
+   "progressive thrash metal": 4,
+   "technical thrash metal": 5,
+   "thrash metal": 11
+  },
+  "mbid": "509dc5b1-f264-43f3-9035-473e7020e77f",
+  "nome": "Coroner",
+  "verificado": "2026-11-03"
+ },
+ "corpus offal": {
+  "etiquetas": {
+   "death metal": 2
+  },
+  "mbid": "0111eeff-3a7e-4738-ac81-156d98d6afe5",
+  "nome": "Corpus Offal",
+  "verificado": "2026-11-03"
+ },
+ "cradle of filth": {
+  "etiquetas": {
+   "black metal": 8,
+   "extreme gothic metal": 4,
+   "gothic metal": 6,
+   "metal": 3,
+   "symphonic black metal": 9
+  },
+  "mbid": "7e26cbe1-b8f5-4215-af82-e43d5f8ff308",
+  "nome": "Cradle Of Filth",
+  "verificado": "2026-11-03"
+ },
+ "crypta": {
+  "etiquetas": {
+   "death metal": 3,
+   "metal": 1
+  },
+  "mbid": "3b5bc4eb-d60e-406c-a5e4-f08197d4c9de",
+  "nome": "Crypta",
+  "verificado": "2026-11-03"
+ },
+ "cryptopsy": {
+  "etiquetas": {
+   "brutal death metal": 6,
+   "death metal": 2,
+   "deathcore": 1,
+   "metal": 1,
+   "technical brutal death metal": 2,
+   "technical death metal": 8
+  },
+  "mbid": "756af95c-8793-4546-a93f-f3581b5b1c8d",
+  "nome": "Cryptopsy",
+  "verificado": "2026-11-03"
+ },
+ "cynic": {
+  "etiquetas": {
+   "death metal": 1,
+   "jazz metal": 2,
+   "progressive death metal": 1,
+   "progressive metal": 4,
+   "progressive rock": 2
+  },
+  "mbid": "d7381ee3-d8ac-4622-ae9a-7e659143eacb",
+  "nome": "Cynic",
+  "verificado": "2026-11-03"
+ },
+ "dark fortress": {
+  "etiquetas": {
+   "german": 2,
+   "melodic black metal": 4,
+   "progressive metal": 1
+  },
+  "mbid": "5074ddf4-3d57-49d9-a0b8-c36afe60a475",
+  "nome": "Dark Fortress",
+  "verificado": "2026-11-03"
+ },
+ "dark funeral": {
+  "etiquetas": {
+   "black metal": 9,
+   "melodic black metal": 3
+  },
+  "mbid": "7561ff6c-2ab7-4776-9a9a-662f23b2effc",
+  "nome": "Dark Funeral",
+  "verificado": "2026-11-03"
+ },
+ "darkthrone": {
+  "etiquetas": {
+   "black 'n' roll": 1,
+   "black metal": 20,
+   "crust punk": 1,
+   "death metal": 4,
+   "heavy metal": 2,
+   "norwegian": 2,
+   "norwegian black metal": 2,
+   "speed metal": 2
+  },
+  "mbid": "af8fd97c-db72-4e30-b2aa-30ebd0c4f1a0",
+  "nome": "Darkthrone",
+  "verificado": "2026-11-03"
+ },
+ "dead alone": {
+  "etiquetas": {
+   "black/death-metal": 1
+  },
+  "mbid": "b26538fc-14a3-416d-bdc3-cf262b12ee83",
+  "nome": "Dead Alone",
+  "verificado": "2026-11-03"
+ },
+ "dead chasm": {
+  "etiquetas": {
+   "death metal": 1
+  },
+  "mbid": "2bab3f98-2ae3-4a91-b6e7-cfbe08364cee",
+  "nome": "Dead Chasm",
+  "verificado": "2026-11-03"
+ },
+ "deafheaven": {
+  "etiquetas": {
+   "atmospheric black metal": 2,
+   "black metal": 1,
+   "blackgaze": 9,
+   "dream pop": 1,
+   "hipster black metal": 1,
+   "post-black metal": 1,
+   "post-metal": 3,
+   "shoegaze": 3
+  },
+  "mbid": "f4ccf6c5-ad41-4f8f-bb9e-6e2c6ad23302",
+  "nome": "Deafheaven",
   "verificado": "2026-11-03"
  },
  "death": {
@@ -34,6 +776,180 @@
   },
   "mbid": "dbb3b771-ae77-4381-b61c-758b5b7898ec",
   "nome": "Death",
+  "verificado": "2026-11-03"
+ },
+ "decapitated": {
+  "etiquetas": {
+   "brutal death metal": 1,
+   "death metal": 7,
+   "metal": 2,
+   "poland": 1,
+   "technical death metal": 5
+  },
+  "mbid": "bfef61c6-53c0-4a12-9a42-1411111e7402",
+  "nome": "Decapitated",
+  "verificado": "2026-11-03"
+ },
+ "deicide": {
+  "etiquetas": {
+   "death metal": 8
+  },
+  "mbid": "0bd96fa4-9835-49b0-a1f2-7421e6a79dfa",
+  "nome": "Deicide",
+  "verificado": "2026-11-03"
+ },
+ "destroyer 666": {
+  "etiquetas": {
+   "black metal": 5,
+   "thrash metal": 5
+  },
+  "mbid": "18b25143-dd86-4170-afed-7a7970310d1c",
+  "nome": "Deströyer 666",
+  "verificado": "2026-11-03"
+ },
+ "destroyers of all": {
+  "etiquetas": {
+   "death metal": 2,
+   "progressive death metal": 2,
+   "progressive metal": 2,
+   "thrash metal": 2
+  },
+  "mbid": "0f695a9e-cbb2-4cd9-bb11-82aa78e206c1",
+  "nome": "Destroyers Of All",
+  "verificado": "2026-11-03"
+ },
+ "destruction": {
+  "etiquetas": {
+   "alemanha": 1,
+   "metal": 1,
+   "teutonic thrash metal": 1,
+   "thrash metal": 7
+  },
+  "mbid": "371f152d-1643-4b54-b32b-dd13d4c23442",
+  "nome": "Destruction",
+  "verificado": "2026-11-03"
+ },
+ "devildriver": {
+  "etiquetas": {
+   "groove metal": 8,
+   "heavy metal": 2,
+   "metal": 2,
+   "metalcore": 1,
+   "thrash metal": 1
+  },
+  "mbid": "1aded574-9e16-4648-861a-24fd6f1c309e",
+  "nome": "DevilDriver",
+  "verificado": "2026-11-03"
+ },
+ "dimmu borgir": {
+  "etiquetas": {
+   "bent": 1,
+   "black metal": 7,
+   "melodic black metal": 5,
+   "metal": 4,
+   "norwegian": 4,
+   "symphonic black metal": 11,
+   "vyrzukhisuc-artiest": 1
+  },
+  "mbid": "17167af8-c1da-45cc-bba2-9d23f068b7a3",
+  "nome": "Dimmu Borgir",
+  "verificado": "2026-11-03"
+ },
+ "dissection": {
+  "etiquetas": {
+   "black metal": 4,
+   "blackened death metal": 1,
+   "melodic black metal": 10,
+   "melodic death metal": 7,
+   "metal": 2
+  },
+  "mbid": "92d48f3d-a9cb-4011-a002-2e9ac3a6843d",
+  "nome": "Dissection",
+  "verificado": "2026-11-03"
+ },
+ "divine heresy": {
+  "etiquetas": {
+   "metal": 1
+  },
+  "mbid": "66e6aaeb-2d1c-403f-9b28-f0fb99a00616",
+  "nome": "Divine Heresy",
+  "verificado": "2026-11-03"
+ },
+ "downfall of nur": {
+  "etiquetas": {
+   "atmospheric black metal": 2,
+   "black metal": 1,
+   "folk metal": 1,
+   "folklore": 1,
+   "nature": 1,
+   "paganism": 1
+  },
+  "mbid": "9e6ddada-b280-482a-818d-2a2e336caa04",
+  "nome": "Downfall of Nur",
+  "verificado": "2026-11-03"
+ },
+ "dragged into sunlight": {
+  "etiquetas": {
+   "atmospheric sludge metal": 1,
+   "dark ambient": 1,
+   "death metal": 3,
+   "death-doom metal": 2,
+   "metal": 1
+  },
+  "mbid": "a9748b2c-4bb5-47ec-a113-ae7316fbce17",
+  "nome": "Dragged Into Sunlight",
+  "verificado": "2026-11-03"
+ },
+ "drowning pool": {
+  "etiquetas": {
+   "alternative metal": 5,
+   "hard rock": 2,
+   "metal": 1,
+   "nu metal": 7,
+   "post-grunge": 1,
+   "rock": 1
+  },
+  "mbid": "87a73cf0-ebdf-483d-8b5a-3db1e5e72122",
+  "nome": "Drowning Pool",
+  "verificado": "2026-11-03"
+ },
+ "dyscarnate": {
+  "etiquetas": {
+   "brutal death metal": 1,
+   "death metal": 2,
+   "deathcore": 1,
+   "metal": 1,
+   "technical death metal": 1
+  },
+  "mbid": "f0d05c64-9959-4ae1-899b-acf51b97638c",
+  "nome": "Dyscarnate",
+  "verificado": "2026-11-03"
+ },
+ "dødheimsgard": {
+  "etiquetas": {
+   "avant-garde metal": 2,
+   "black metal": 5,
+   "darkness": 1,
+   "evil": 1,
+   "industrial metal": 3,
+   "metal": 1,
+   "philosophy": 1,
+   "progressive metal": 1,
+   "satan": 1
+  },
+  "mbid": "fa6b8030-067f-4f80-8ba3-8585b9cb9cfd",
+  "nome": "Dødheimsgard",
+  "verificado": "2026-11-03"
+ },
+ "earthside": {
+  "etiquetas": {
+   "instrumental": 1,
+   "post-rock": 1,
+   "progressive metal": 1,
+   "progressive rock": 1
+  },
+  "mbid": "cbb8ad1d-ea3f-46cb-8796-20fb6a206fd4",
+  "nome": "Earthside",
   "verificado": "2026-11-03"
  },
  "electric wizard": {
@@ -62,6 +978,77 @@
   "nome": "Emperor",
   "verificado": "2026-11-03"
  },
+ "enslaved": {
+  "etiquetas": {
+   "black metal": 9,
+   "progressive black metal": 5,
+   "progressive metal": 4,
+   "viking metal": 4
+  },
+  "mbid": "29bb04d6-5602-464c-8577-f55a27511b27",
+  "nome": "Enslaved",
+  "verificado": "2026-11-03"
+ },
+ "entombed a d": {
+  "etiquetas": {
+   "death metal": 1
+  },
+  "mbid": "8bd0f4a3-e141-44a5-8ab4-32383e5accdc",
+  "nome": "Entombed A.D.",
+  "verificado": "2026-11-03"
+ },
+ "equaleft": {
+  "etiquetas": {
+   "groove metal": 1,
+   "male vocals": 1,
+   "metal": 2,
+   "progressive metal": 1,
+   "thrash metal": 1
+  },
+  "mbid": "ecd78a59-f112-4d30-ae68-6230c6b611cd",
+  "nome": "Equaleft",
+  "verificado": "2026-11-03"
+ },
+ "ethereal": {
+  "etiquetas": {
+   "symphonic black metal": 1
+  },
+  "mbid": "a7076cde-8537-455b-a91d-34b39f8b63b6",
+  "nome": "ETHEREAL",
+  "verificado": "2026-11-03"
+ },
+ "exodus": {
+  "etiquetas": {
+   "00s": 1,
+   "10s": 1,
+   "80s": 1,
+   "80s thrash metal": 1,
+   "90s": 1,
+   "american": 2,
+   "american metal": 1,
+   "american thrash metal": 1,
+   "bay area": 1,
+   "bay area thrash metal": 1,
+   "classic metal": 1,
+   "classic thrash metal": 1,
+   "estados unidos": 1,
+   "groove metal": 2,
+   "metal": 3,
+   "thrash metal": 11
+  },
+  "mbid": "18e9bfd5-db23-4bc1-be0f-5710e5d656e4",
+  "nome": "Exodus",
+  "verificado": "2026-11-03"
+ },
+ "exumer": {
+  "etiquetas": {
+   "metal": 1,
+   "thrash metal": 5
+  },
+  "mbid": "ba4b6e1e-30bd-4f9c-a140-21ee1db6d710",
+  "nome": "Exumer",
+  "verificado": "2026-11-03"
+ },
  "eyehategod": {
   "etiquetas": {
    "metal": 4,
@@ -71,6 +1058,46 @@
   "nome": "Eyehategod",
   "verificado": "2026-11-03"
  },
+ "fathomage": {
+  "etiquetas": {
+   "atmospheric black metal": 1,
+   "black metal": 1
+  },
+  "mbid": "b84a243c-c9d0-429b-9e3e-39aa0d6c7f79",
+  "nome": "Fathomage",
+  "verificado": "2026-11-03"
+ },
+ "fear factory": {
+  "etiquetas": {
+   "alternative metal": 8,
+   "american": 1,
+   "death metal": 10,
+   "groove metal": 4,
+   "industrial": 1,
+   "industrial groove metal": 1,
+   "industrial metal": 21,
+   "metal": 9
+  },
+  "mbid": "c17f08f4-2542-46fb-97f3-3202d60c225a",
+  "nome": "Fear Factory",
+  "verificado": "2026-11-03"
+ },
+ "fecundation": {
+  "etiquetas": {
+   "brutal death metal": 1,
+   "death metal": 1,
+   "technical death metal": 1
+  },
+  "mbid": "442e2591-a3db-47bb-bc71-2d1098f85941",
+  "nome": "Fecundation",
+  "verificado": "2026-11-03"
+ },
+ "for the pyres": {
+  "etiquetas": {},
+  "mbid": "846bc170-aff8-4629-84ee-39f1e321bf89",
+  "nome": "For The Pyres",
+  "verificado": "2026-11-03"
+ },
  "gaerea": {
   "etiquetas": {
    "black metal": 8,
@@ -78,6 +1105,276 @@
   },
   "mbid": "cc220a20-9cd4-4dc2-9164-dadd2bb85467",
   "nome": "Gaerea",
+  "verificado": "2026-11-03"
+ },
+ "goatwhore": {
+  "etiquetas": {
+   "black metal": 1,
+   "blackened death metal": 1,
+   "death metal": 4,
+   "metal": 1
+  },
+  "mbid": "eb7c29b4-6951-4ac6-8516-4374fb51e6bc",
+  "nome": "Goatwhore",
+  "verificado": "2026-11-03"
+ },
+ "god dethroned": {
+  "etiquetas": {
+   "blackened death metal": 3,
+   "death metal": 5,
+   "melodic death metal": 3
+  },
+  "mbid": "2b72f17f-3449-4ce9-9805-9f6839bd909e",
+  "nome": "God Dethroned",
+  "verificado": "2026-11-03"
+ },
+ "gravekvlt": {
+  "etiquetas": {},
+  "mbid": "7e872d9d-3910-4b3e-a1ea-13b0d24aca3b",
+  "nome": "Gravekvlt",
+  "verificado": "2026-11-03"
+ },
+ "gravethorn": {
+  "etiquetas": {},
+  "mbid": null,
+  "nome": "Gravethorn",
+  "verificado": "2026-11-03"
+ },
+ "graveworm": {
+  "etiquetas": {
+   "gothic metal": 1,
+   "melodic black metal": 2,
+   "symphonic black metal": 2
+  },
+  "mbid": "ad3eb8ea-f541-4e3a-b550-7900bdc4992b",
+  "nome": "Graveworm",
+  "verificado": "2026-11-03"
+ },
+ "groza": {
+  "etiquetas": {
+   "black metal": 3,
+   "melodic black metal": 1
+  },
+  "mbid": "da23cd1c-e0bd-442b-bcbc-811285cd4fe6",
+  "nome": "Groza",
+  "verificado": "2026-11-03"
+ },
+ "gruesome": {
+  "etiquetas": {
+   "death metal": 3
+  },
+  "mbid": "7b615550-e44c-45dc-86bc-b0d3554460d7",
+  "nome": "Gruesome",
+  "verificado": "2026-11-03"
+ },
+ "hate": {
+  "etiquetas": {
+   "black metal": 2,
+   "blackened death metal": 3,
+   "death metal": 3
+  },
+  "mbid": "37c5b173-9a5c-4dc5-b636-4c4844a53a95",
+  "nome": "Hate",
+  "verificado": "2026-11-03"
+ },
+ "homselvareg": {
+  "etiquetas": {
+   "antihumanism": 1,
+   "black metal": 3,
+   "nature": 1,
+   "philosophy": 1,
+   "suffering": 1,
+   "wilderness": 1
+  },
+  "mbid": "6600fd76-1c3f-47e7-a7ce-cc6e36567098",
+  "nome": "Homselvareg",
+  "verificado": "2026-11-03"
+ },
+ "horna": {
+  "etiquetas": {
+   "black metal": 6,
+   "darkness": 1,
+   "evil": 1,
+   "occultism": 1,
+   "paganism": 1,
+   "satanism": 2
+  },
+  "mbid": "4fa62d5a-89aa-4a5e-b383-b29396eb5c94",
+  "nome": "Horna",
+  "verificado": "2026-11-03"
+ },
+ "hyperdontia": {
+  "etiquetas": {
+   "death metal": 3
+  },
+  "mbid": "7bfc9a9a-ee6a-4a0a-8643-9d790c8d956f",
+  "nome": "Hyperdontia",
+  "verificado": "2026-11-03"
+ },
+ "hypocrisy": {
+  "etiquetas": {
+   "death metal": 10,
+   "melodic death metal": 8,
+   "metal": 2,
+   "swedish": 2,
+   "swedish death metal": 3,
+   "vyrzukhisuc-artiest": 1
+  },
+  "mbid": "b1e23ada-a7eb-42d7-91ec-67a43bead43a",
+  "nome": "Hypocrisy",
+  "verificado": "2026-11-03"
+ },
+ "immolation": {
+  "etiquetas": {
+   "american": 1,
+   "death metal": 7
+  },
+  "mbid": "c373c7f0-fddf-4c04-a327-19dd83590753",
+  "nome": "Immolation",
+  "verificado": "2026-11-03"
+ },
+ "immortal": {
+  "etiquetas": {
+   "black metal": 19,
+   "metal": 1
+  },
+  "mbid": "b863cf80-19c6-4a87-8e42-6cff7ac8f18f",
+  "nome": "Immortal",
+  "verificado": "2026-11-03"
+ },
+ "impaled nazarene": {
+  "etiquetas": {
+   "black metal": 5,
+   "death": 1,
+   "finnish patriotism": 1,
+   "goats": 1,
+   "metal": 1,
+   "nuclear war": 1,
+   "politics": 1,
+   "satanism": 1,
+   "sex": 1,
+   "violence": 1
+  },
+  "mbid": "2228019e-67b4-4d2e-a101-f2d5dcaf892f",
+  "nome": "Impaled Nazarene",
+  "verificado": "2026-11-03"
+ },
+ "in flames": {
+  "etiquetas": {
+   "gothenburg metal": 4,
+   "gothenburg sound": 1,
+   "melodic death metal": 25,
+   "melodic metalcore": 1,
+   "metal": 4,
+   "swedish": 4
+  },
+  "mbid": "31745282-b1ea-4d62-939f-226b14d68e7c",
+  "nome": "In Flames",
+  "verificado": "2026-11-03"
+ },
+ "incantation": {
+  "etiquetas": {
+   "american": 1,
+   "death metal": 4,
+   "metal": 1
+  },
+  "mbid": "c29973c6-1a7c-401d-bce6-67b7240de677",
+  "nome": "Incantation",
+  "verificado": "2026-11-03"
+ },
+ "inception of fall": {
+  "etiquetas": {},
+  "mbid": "5fac8485-1031-4421-94c8-bde2e19ce717",
+  "nome": "Inception of Fall",
+  "verificado": "2026-11-03"
+ },
+ "iotunn": {
+  "etiquetas": {
+   "death metal": 1,
+   "melodic death metal": 3,
+   "power metal": 2,
+   "progressive death metal": 2,
+   "progressive metal": 2
+  },
+  "mbid": "221026b4-4dbb-4ec9-8105-db847ecc97da",
+  "nome": "IOTUNN",
+  "verificado": "2026-11-03"
+ },
+ "irae": {
+  "etiquetas": {
+   "black metal": 3
+  },
+  "mbid": "4f392c5c-b88e-47bf-94e5-ab1bb5c6e19a",
+  "nome": "Irae",
+  "verificado": "2026-11-03"
+ },
+ "jade": {
+  "etiquetas": {
+   "death metal": 3
+  },
+  "mbid": "ba420e6d-10bb-4dc5-a974-735244e061d0",
+  "nome": "Jade",
+  "verificado": "2026-11-03"
+ },
+ "jorge palma": {
+  "etiquetas": {
+   "piano rock": 1,
+   "rock": 1
+  },
+  "mbid": "386c9f8f-31d8-4815-b4c5-7c875f96c2b0",
+  "nome": "Jorge Palma",
+  "verificado": "2026-11-03"
+ },
+ "kataklysm": {
+  "etiquetas": {
+   "death metal": 6,
+   "melodic death metal": 4,
+   "metal": 1
+  },
+  "mbid": "91d51bc3-bfcc-49f2-b6c4-d6d205d6291b",
+  "nome": "Kataklysm",
+  "verificado": "2026-11-03"
+ },
+ "katatonia": {
+  "etiquetas": {
+   "alternative metal": 8,
+   "alternative rock": 1,
+   "avant-garde": 1,
+   "death doom metal": 4,
+   "death-doom metal": 6,
+   "depressive rock": 1,
+   "doom metal": 9,
+   "gothic metal": 9,
+   "hard rock": 1,
+   "metal": 4,
+   "progressive metal": 8,
+   "progressive rock": 1
+  },
+  "mbid": "61ed9c9c-79eb-4e8f-8015-bd599ac0ab49",
+  "nome": "Katatonia",
+  "verificado": "2026-11-03"
+ },
+ "killer be killed": {
+  "etiquetas": {
+   "groove metal": 1,
+   "hardcore": 1,
+   "metal": 1,
+   "metalcore": 1,
+   "thrash metal": 1
+  },
+  "mbid": "ace678cd-7e04-4844-9971-8e71bb3fc5e3",
+  "nome": "Killer Be Killed",
+  "verificado": "2026-11-03"
+ },
+ "konvent": {
+  "etiquetas": {
+   "death metal": 1,
+   "doom death": 1,
+   "doom death metal": 1,
+   "doom metal": 2
+  },
+  "mbid": "fd909c71-b54f-4e9d-bbf7-b2f53abf6142",
+  "nome": "Konvent",
   "verificado": "2026-11-03"
  },
  "korn": {
@@ -111,6 +1408,215 @@
   "nome": "Kreator",
   "verificado": "2026-11-03"
  },
+ "kristailer": {
+  "etiquetas": {
+   "black metal": 1
+  },
+  "mbid": "be5d7f74-4a5a-4b7d-b4b3-cbd14bf00ed5",
+  "nome": "Kristailer",
+  "verificado": "2026-11-03"
+ },
+ "kyuss": {
+  "etiquetas": {
+   "desert rock": 3,
+   "palm desert scene": 1,
+   "rock": 1,
+   "stoner metal": 5,
+   "stoner rock": 13
+  },
+  "mbid": "ea0f2a37-7007-4217-a812-396227f5013a",
+  "nome": "Kyuss",
+  "verificado": "2026-11-03"
+ },
+ "lamb of god": {
+  "etiquetas": {
+   "american": 1,
+   "groove metal": 3,
+   "metal": 2,
+   "metalcore": 7
+  },
+  "mbid": "298909e4-ebcb-47b8-95e9-cc53b087fc65",
+  "nome": "Lamb of God",
+  "verificado": "2026-11-03"
+ },
+ "led zeppelin": {
+  "etiquetas": {
+   "album rock": 1,
+   "arena rock": 3,
+   "blues": 1,
+   "blues rock": 20,
+   "blues-rock": 1,
+   "british": 5,
+   "british metal": 1,
+   "classic rock": 10,
+   "folk rock": 5,
+   "hard rock": 37,
+   "heavy metal": 6,
+   "pop": 1,
+   "progressive rock": 2,
+   "regional blues": 1,
+   "rock": 25,
+   "rock and roll": 1
+  },
+  "mbid": "678d88b2-87b0-403b-b63d-5da7465aecc3",
+  "nome": "Led Zeppelin",
+  "verificado": "2026-11-03"
+ },
+ "left to die": {
+  "etiquetas": {
+   "death metal": 2
+  },
+  "mbid": "c4251b56-da4c-43a4-8760-4f2aca520a02",
+  "nome": "Left to Die",
+  "verificado": "2026-11-03"
+ },
+ "legion of the damned": {
+  "etiquetas": {
+   "death metal": 4,
+   "metal": 1,
+   "netherlands": 1,
+   "thrash metal": 4
+  },
+  "mbid": "ee07606a-f44a-4050-bc9b-b89bc098c01a",
+  "nome": "Legion Of The Damned",
+  "verificado": "2026-11-03"
+ },
+ "lik": {
+  "etiquetas": {
+   "death metal": 7,
+   "metal": 1
+  },
+  "mbid": "4136d2e9-71be-4723-816a-8ced5e30ef6a",
+  "nome": "LIK",
+  "verificado": "2026-11-03"
+ },
+ "limp bizkit": {
+  "etiquetas": {
+   "2008 universal fire victim": 1,
+   "alternative metal": 5,
+   "alternative rock": 3,
+   "american": 1,
+   "crossover": 1,
+   "hard alternative": 1,
+   "hip hop": 1,
+   "metal": 3,
+   "nu metal": 20,
+   "nu-metal": 2,
+   "pop and chart": 1,
+   "pop rock": 1,
+   "rap metal": 9,
+   "rap rock": 7,
+   "rapcore": 9,
+   "rock": 4,
+   "seen live": 1
+  },
+  "mbid": "8f9d6bb2-dba4-4cca-9967-cc02b9f4820c",
+  "nome": "Limp Bizkit",
+  "verificado": "2026-11-03"
+ },
+ "litosth": {
+  "etiquetas": {
+   "death metal": 1,
+   "existence": 1,
+   "melodic black metal": 1
+  },
+  "mbid": "6b4260c7-5ec3-4498-841a-5900d49a5d42",
+  "nome": "Litosth",
+  "verificado": "2026-11-03"
+ },
+ "lomsk": {
+  "etiquetas": {
+   "folk rock": 1,
+   "folkemusikk": 1,
+   "norsk": 1,
+   "norwegian": 1,
+   "nynorsk": 1
+  },
+  "mbid": "1c3f401f-2bcd-43af-876f-9a15c416edb8",
+  "nome": "Lömsk",
+  "verificado": "2026-11-03"
+ },
+ "machine head": {
+  "etiquetas": {
+   "groove metal": 10,
+   "heavy metal": 8,
+   "metal": 8,
+   "nu metal": 6,
+   "progressive metal": 1,
+   "thrash metal": 11
+  },
+  "mbid": "22a1f4d7-81ff-4216-ac06-3387da6bc118",
+  "nome": "Machine Head",
+  "verificado": "2026-11-03"
+ },
+ "manbryne": {
+  "etiquetas": {
+   "black metal": 3
+  },
+  "mbid": "43eac388-75bd-4bbd-9156-fbfcf4cea9e3",
+  "nome": "Mānbryne",
+  "verificado": "2026-11-03"
+ },
+ "marduk": {
+  "etiquetas": {
+   "black metal": 10
+  },
+  "mbid": "b7dc7c76-53f1-49ac-8dc2-d469ed7f8e65",
+  "nome": "Marduk",
+  "verificado": "2026-11-03"
+ },
+ "mare": {
+  "etiquetas": {
+   "black metal": 2,
+   "darkness": 1,
+   "occultism": 1,
+   "satanism": 1
+  },
+  "mbid": "848f9526-f93f-4e86-b108-afccf83dbf6a",
+  "nome": "Mare",
+  "verificado": "2026-11-03"
+ },
+ "marilyn manson": {
+  "etiquetas": {
+   "rock": 1
+  },
+  "mbid": "80cadd99-f560-41e3-babd-16292bbd248a",
+  "nome": "Marilyn Manson",
+  "verificado": "2026-11-03"
+ },
+ "marthyrium": {
+  "etiquetas": {
+   "black metal": 1
+  },
+  "mbid": "fae4b536-48f7-44c9-98e1-31675316d581",
+  "nome": "Marthyrium",
+  "verificado": "2026-11-03"
+ },
+ "massacre": {
+  "etiquetas": {
+   "death metal": 4,
+   "groove metal": 1
+  },
+  "mbid": "e22e4f7f-0973-4e45-a245-6bb59edbb07a",
+  "nome": "Massacre",
+  "verificado": "2026-11-03"
+ },
+ "mastodon": {
+  "etiquetas": {
+   "alternative metal": 3,
+   "hard rock": 1,
+   "heavy metal": 6,
+   "heavy rock": 1,
+   "metal": 6,
+   "metalcore": 1,
+   "progressive metal": 13,
+   "sludge metal": 8,
+   "stoner metal": 1
+  },
+  "mbid": "bc5e2ad6-0a4a-4d90-b911-e9a7e6861727",
+  "nome": "Mastodon",
+  "verificado": "2026-11-03"
+ },
  "mayhem": {
   "etiquetas": {
    "black metal": 22,
@@ -119,6 +1625,41 @@
   },
   "mbid": "c5f9e699-7b0d-4030-86dd-7acc8250d147",
   "nome": "Mayhem",
+  "verificado": "2026-11-03"
+ },
+ "medico peste": {
+  "etiquetas": {
+   "black metal": 1
+  },
+  "mbid": "08ce398b-f73f-42d7-ae96-2050d34cc869",
+  "nome": "Medico Peste",
+  "verificado": "2026-11-03"
+ },
+ "megadeth": {
+  "etiquetas": {
+   "american": 2,
+   "hard rock": 1,
+   "heavy metal": 19,
+   "metal": 9,
+   "old school thrash": 2,
+   "rock": 2,
+   "speed metal": 10,
+   "thrash metal": 42
+  },
+  "mbid": "a9044915-8be3-4c7e-b11f-9e2d2ea0a91e",
+  "nome": "Megadeth",
+  "verificado": "2026-11-03"
+ },
+ "mercenary": {
+  "etiquetas": {
+   "death metal": 1,
+   "melodic death metal": 2,
+   "metal": 1,
+   "power metal": 2,
+   "thrash metal": 1
+  },
+  "mbid": "c8be81ab-b536-4499-9d16-da997125e942",
+  "nome": "Mercenary",
   "verificado": "2026-11-03"
  },
  "meshuggah": {
@@ -136,6 +1677,18 @@
   "nome": "Meshuggah",
   "verificado": "2026-11-03"
  },
+ "mestis": {
+  "etiquetas": {
+   "fusion": 1,
+   "jazz": 1,
+   "progressive": 1,
+   "progressive metal": 1,
+   "progressive rock": 1
+  },
+  "mbid": "b8949d90-2537-48b3-8cec-b17e41d8e1f0",
+  "nome": "Mestís",
+  "verificado": "2026-11-03"
+ },
  "metallica": {
   "etiquetas": {
    "american": 7,
@@ -148,6 +1701,49 @@
   },
   "mbid": "65f4f0c5-ef9e-490c-aee3-909e7ae6b2ab",
   "nome": "Metallica",
+  "verificado": "2026-11-03"
+ },
+ "mgła": {
+  "etiquetas": {
+   "black metal": 18,
+   "darkness": 2,
+   "depressive black metal": 2,
+   "metal": 3,
+   "misanthropy": 2,
+   "nihilism": 2
+  },
+  "mbid": "e7b4c928-8c45-4ecf-9f08-da64fe5c2ddd",
+  "nome": "Mgła",
+  "verificado": "2026-11-03"
+ },
+ "midnight": {
+  "etiquetas": {
+   "black 'n' roll": 2,
+   "black metal": 6,
+   "black speed metal": 1,
+   "heavy metal": 1,
+   "new wave of speed metal": 1,
+   "punk": 1,
+   "speed metal": 8
+  },
+  "mbid": "9b6f11f4-bef1-4265-987b-816bbbb67be1",
+  "nome": "Midnight",
+  "verificado": "2026-11-03"
+ },
+ "mind conflict": {
+  "etiquetas": {},
+  "mbid": "91321ffd-c318-4e2e-881d-641a0bb9d773",
+  "nome": "Mind Conflict",
+  "verificado": "2026-11-03"
+ },
+ "misery index": {
+  "etiquetas": {
+   "death metal": 4,
+   "grindcore": 3,
+   "metal": 3
+  },
+  "mbid": "f9b57146-c5ce-41ad-adfb-ee904a4f7b19",
+  "nome": "Misery Index",
   "verificado": "2026-11-03"
  },
  "moonspell": {
@@ -167,6 +1763,683 @@
   },
   "mbid": "4355a36d-805e-478d-8589-64f0292724b2",
   "nome": "Morbid Angel",
+  "verificado": "2026-11-03"
+ },
+ "more than a thousand": {
+  "etiquetas": {
+   "metalcore": 2,
+   "post-hardcore": 1
+  },
+  "mbid": "06c1bbff-8e9f-42d1-82c3-36ed0e0771eb",
+  "nome": "More Than a Thousand",
+  "verificado": "2026-11-03"
+ },
+ "mors principium est": {
+  "etiquetas": {
+   "death metal": 2,
+   "melodic death metal": 5,
+   "technical death metal": 1
+  },
+  "mbid": "8d08484c-c532-457a-a04c-2510da38744e",
+  "nome": "Mors Principium Est",
+  "verificado": "2026-11-03"
+ },
+ "mortician": {
+  "etiquetas": {
+   "american": 1,
+   "brutal death metal": 3,
+   "death metal": 1,
+   "deathgrind": 2
+  },
+  "mbid": "e79731e0-4af1-4104-825e-e070b9592bf0",
+  "nome": "Mortician",
+  "verificado": "2026-11-03"
+ },
+ "mudvayne": {
+  "etiquetas": {
+   "alternative metal": 2,
+   "nu metal": 6
+  },
+  "mbid": "f1c8da15-b408-4149-b863-f1cbe9971f19",
+  "nome": "Mudvayne",
+  "verificado": "2026-11-03"
+ },
+ "mushroomhead": {
+  "etiquetas": {
+   "alternative metal": 2,
+   "industrial": 1,
+   "industrial metal": 3,
+   "metal": 1,
+   "nu metal": 6
+  },
+  "mbid": "6e755d2d-0b47-449d-b03f-fcacec33aab2",
+  "nome": "Mushroomhead",
+  "verificado": "2026-11-03"
+ },
+ "music in low frequencies": {
+  "etiquetas": {
+   "death metal": 1,
+   "sludge metal": 1
+  },
+  "mbid": "0f13d4ab-2c84-4933-88ae-72513dccc5df",
+  "nome": "Music In Low Frequencies",
+  "verificado": "2026-11-03"
+ },
+ "ne obliviscaris": {
+  "etiquetas": {
+   "melodic death metal": 1,
+   "progressive metal": 10
+  },
+  "mbid": "75359245-49cf-4991-932f-e078408481f2",
+  "nome": "Ne Obliviscaris",
+  "verificado": "2026-11-03"
+ },
+ "necrofier": {
+  "etiquetas": {
+   "black metal": 2,
+   "melodic black metal": 3
+  },
+  "mbid": "4b44508c-b889-43b9-a9d8-3754d1b0b78b",
+  "nome": "Necrofier",
+  "verificado": "2026-11-03"
+ },
+ "necrophobic": {
+  "etiquetas": {
+   "black metal": 2,
+   "death metal": 5,
+   "melodic black metal": 1,
+   "melodic death metal": 1,
+   "metal": 1
+  },
+  "mbid": "76bea740-9961-400e-845c-33c189ad9eda",
+  "nome": "Necrophobic",
+  "verificado": "2026-11-03"
+ },
+ "nel buio": {
+  "etiquetas": {},
+  "mbid": "266e58e0-a2f7-40e6-b459-9f36de4d847f",
+  "nome": "Nel Buio",
+  "verificado": "2026-11-03"
+ },
+ "nervosa": {
+  "etiquetas": {
+   "all female thrash metal band": 2,
+   "all-female": 2,
+   "brasil": 1,
+   "brazil": 2,
+   "female": 2,
+   "female fronted": 1,
+   "fernanda lira": 1,
+   "fernanda terra": 1,
+   "nervosa": 1,
+   "nervosa thrash": 1,
+   "prika amaral": 1,
+   "thrash metal": 7
+  },
+  "mbid": "ea01b409-1ffc-4cd2-94a6-50c9a8a08a26",
+  "nome": "Nervosa",
+  "verificado": "2026-11-03"
+ },
+ "nevermore": {
+  "etiquetas": {
+   "groove metal": 1,
+   "heavy metal": 1,
+   "metal": 4,
+   "progressive metal": 2,
+   "thrash metal": 1
+  },
+  "mbid": "7d093650-89be-4108-842b-ba7f5367504b",
+  "nome": "Nevermore",
+  "verificado": "2026-11-03"
+ },
+ "night verses": {
+  "etiquetas": {
+   "alternative rock": 1,
+   "post-hardcore": 1,
+   "post-rock": 3,
+   "progressive metal": 1,
+   "progressive rock": 1
+  },
+  "mbid": "a61d862c-2714-47a7-b68b-2870a753f4a8",
+  "nome": "Night Verses",
+  "verificado": "2026-11-03"
+ },
+ "ninkharsag": {
+  "etiquetas": {
+   "black metal": 1,
+   "melodic black metal": 1
+  },
+  "mbid": "174d015e-234b-4313-afc3-4cd4a937c1b6",
+  "nome": "Ninkharsag",
+  "verificado": "2026-11-03"
+ },
+ "nirvana": {
+  "etiquetas": {
+   "90s": 4,
+   "acoustic rock": 8,
+   "alternative": 1,
+   "alternative metal": 1,
+   "alternative pop": 1,
+   "alternative rock": 30,
+   "alternative/indie rock": 1,
+   "ambient": 1,
+   "american": 8,
+   "conscious hip hop": 1,
+   "diy": 1,
+   "electronic": 1,
+   "estados unidos": 1,
+   "ethereal": 1,
+   "ethnic": 1,
+   "experimental": 1,
+   "grunge": 68,
+   "grunge rock": 1,
+   "hard rock": 1,
+   "hip hop": 1,
+   "instrumental beats": 1,
+   "instrumental hip hop": 1,
+   "meditative": 1,
+   "new age": 1,
+   "noise rock": 12,
+   "pigfuck": 1,
+   "pop": 1,
+   "post-hardcore": 1,
+   "psychedelic pop": 1,
+   "psytrance": 1,
+   "punk": 2,
+   "punk rock": 1,
+   "rock": 26,
+   "seattle": 6,
+   "sludge metal": 3,
+   "underground hip hop": 1,
+   "united states": 1,
+   "usa": 2
+  },
+  "mbid": "5b11f4ce-a62d-471e-81fc-a69a8278c7da",
+  "nome": "Nirvana",
+  "verificado": "2026-11-03"
+ },
+ "noctem": {
+  "etiquetas": {
+   "black metal": 1
+  },
+  "mbid": "096f4a0c-d7e4-4bbe-8617-92c938566e2b",
+  "nome": "Noctem",
+  "verificado": "2026-11-03"
+ },
+ "nox terror": {
+  "etiquetas": {},
+  "mbid": "e73012e9-d8f6-499d-bd09-921dcc01d166",
+  "nome": "Nox Terror",
+  "verificado": "2026-11-03"
+ },
+ "obituary": {
+  "etiquetas": {
+   "death metal": 13,
+   "metal": 2,
+   "old school death metal": 2
+  },
+  "mbid": "2e8ac3ed-2a89-4377-ba80-790106aba554",
+  "nome": "Obituary",
+  "verificado": "2026-11-03"
+ },
+ "obscura": {
+  "etiquetas": {
+   "death metal": 3,
+   "german": 1,
+   "jazz metal": 2,
+   "progressive death metal": 2,
+   "progressive metal": 3,
+   "technical death metal": 6
+  },
+  "mbid": "f002e30d-401c-44b1-82e0-d6796870594d",
+  "nome": "Obscura",
+  "verificado": "2026-11-03"
+ },
+ "odium humani generis": {
+  "etiquetas": {
+   "black metal": 1,
+   "depressive black metal": 1
+  },
+  "mbid": "4b3008d2-408e-4866-820a-9ba450152445",
+  "nome": "Odium Humani Generis",
+  "verificado": "2026-11-03"
+ },
+ "okkultist": {
+  "etiquetas": {
+   "death metal": 2,
+   "female vocals": 1
+  },
+  "mbid": "157483c7-19cf-41c8-bec9-7a0c6ad70ecd",
+  "nome": "Okkultist",
+  "verificado": "2026-11-03"
+ },
+ "olly steele": {
+  "etiquetas": {},
+  "mbid": "6c1dca73-f7ef-4902-bfd7-66e0c12aa10d",
+  "nome": "Olly Steele",
+  "verificado": "2026-11-03"
+ },
+ "omnivide": {
+  "etiquetas": {
+   "death metal": 1,
+   "melodic death metal": 1
+  },
+  "mbid": "870a1a09-4944-42ad-b23c-fc2fdffabb40",
+  "nome": "Omnivide",
+  "verificado": "2026-11-03"
+ },
+ "onslaught": {
+  "etiquetas": {
+   "bristol": 1,
+   "england": 1,
+   "englisch": 1,
+   "english": 1,
+   "hardcore punk": 1,
+   "metal": 2,
+   "punk": 2,
+   "punk rock": 1,
+   "thrash metal": 4,
+   "uk": 1
+  },
+  "mbid": "faa76524-c57c-4303-843e-925f5aa02f87",
+  "nome": "Onslaught",
+  "verificado": "2026-11-03"
+ },
+ "opeth": {
+  "etiquetas": {
+   "acoustic rock": 3,
+   "art rock": 2,
+   "black doom metal": 2,
+   "blackened melodic death metal": 2,
+   "death metal": 8,
+   "extreme prog": 2,
+   "extreme progressive metal": 2,
+   "melodic black metal": 1,
+   "melodic death metal": 1,
+   "metal": 6,
+   "progressive death metal": 19,
+   "progressive metal": 24,
+   "progressive rock": 14,
+   "swedish": 2,
+   "vyrzukhisuc-artiest": 1
+  },
+  "mbid": "c14b4180-dc87-481e-b17a-64e4150f90f6",
+  "nome": "Opeth",
+  "verificado": "2026-11-03"
+ },
+ "orbit culture": {
+  "etiquetas": {
+   "death metal": 7,
+   "groove metal": 8,
+   "melodic death metal": 11
+  },
+  "mbid": "c4f8b170-36cf-4774-bbe9-8d93d204a681",
+  "nome": "Orbit Culture",
+  "verificado": "2026-11-03"
+ },
+ "orthodox": {
+  "etiquetas": {
+   "hardcore punk": 1,
+   "metal": 1,
+   "metalcore": 1,
+   "straight edge": 1
+  },
+  "mbid": "a7629008-f140-4880-9b4b-ced9a730b2c1",
+  "nome": "Orthodox",
+  "verificado": "2026-11-03"
+ },
+ "overkill": {
+  "etiquetas": {
+   "groove metal": 2,
+   "metal": 1,
+   "speed metal": 1,
+   "thrash metal": 11
+  },
+  "mbid": "97fa7dd1-4706-4fad-b6ff-e099a37837fc",
+  "nome": "Overkill",
+  "verificado": "2026-11-03"
+ },
+ "ozzy osbourne": {
+  "etiquetas": {
+   "british": 5,
+   "glam metal": 4,
+   "hard rock": 13,
+   "heavy metal": 23,
+   "metal": 2,
+   "pop rock": 3,
+   "rock music": 1,
+   "rock musicians": 1,
+   "singers": 1,
+   "symphonic rock": 3
+  },
+  "mbid": "8aa5b65a-5b3c-4029-92bf-47a544356934",
+  "nome": "Ozzy Osbourne",
+  "verificado": "2026-11-03"
+ },
+ "panzerfaust": {
+  "etiquetas": {
+   "black metal": 6
+  },
+  "mbid": "152f4837-ef8e-4cf2-8367-90d9117c5f87",
+  "nome": "Panzerfaust",
+  "verificado": "2026-11-03"
+ },
+ "papa roach": {
+  "etiquetas": {
+   "alternative metal": 4,
+   "alternative rock": 5,
+   "hard rock": 6,
+   "heavy metal": 1,
+   "nu metal": 9,
+   "pop rock": 2,
+   "rap rock": 3,
+   "rapcore": 1
+  },
+  "mbid": "c5eb9407-caeb-4303-b383-6929aa94021c",
+  "nome": "Papa Roach",
+  "verificado": "2026-11-03"
+ },
+ "patristic": {
+  "etiquetas": {
+   "atmospheric black metal": 1,
+   "black metal": 2,
+   "blackened death metal": 2,
+   "death metal": 3,
+   "dissonant black metal": 2
+  },
+  "mbid": "f130f05f-3afa-4bf5-b22d-334fa7534378",
+  "nome": "Patristic",
+  "verificado": "2026-11-03"
+ },
+ "pentacle": {
+  "etiquetas": {
+   "death metal": 1
+  },
+  "mbid": "d9d39caa-68bb-4b14-b3d4-4107daaf8877",
+  "nome": "Pentacle",
+  "verificado": "2026-11-03"
+ },
+ "perennial isolation": {
+  "etiquetas": {
+   "atmospheric black metal": 1
+  },
+  "mbid": "901c9af3-617a-46f2-9b25-c1bc21633271",
+  "nome": "Perennial Isolation",
+  "verificado": "2026-11-03"
+ },
+ "possessed": {
+  "etiquetas": {
+   "anti-christianity": 1,
+   "death": 1,
+   "death metal": 6,
+   "murder": 1,
+   "occultism": 1,
+   "satanism": 1,
+   "thrash metal": 3
+  },
+  "mbid": "709e937c-496d-4b7f-9219-d5eb9d8b2e2f",
+  "nome": "Possessed",
+  "verificado": "2026-11-03"
+ },
+ "primordial": {
+  "etiquetas": {
+   "black metal": 6,
+   "celtic metal": 4,
+   "doom metal": 1,
+   "folk metal": 5,
+   "metal": 1,
+   "pagan black metal": 2
+  },
+  "mbid": "eacf66a8-8ea0-41e4-879e-fcc61bcb03f0",
+  "nome": "Primordial",
+  "verificado": "2026-11-03"
+ },
+ "progenie terrestre pura": {
+  "etiquetas": {
+   "atmospheric black metal": 1,
+   "black metal": 1,
+   "cosmic black metal": 1,
+   "idm": 1,
+   "metal": 1,
+   "post black metal": 1,
+   "psybient": 2,
+   "space ambient": 1,
+   "space black metal": 1
+  },
+  "mbid": "0db0f02e-31fe-4251-82a6-d519648e7ef8",
+  "nome": "Progenie Terrestre Pura",
+  "verificado": "2026-11-03"
+ },
+ "puscifer": {
+  "etiquetas": {
+   "alternative rock": 2,
+   "ambient": 2,
+   "experimental": 2,
+   "experimental rock": 2,
+   "industrial": 1,
+   "industrial rock": 1,
+   "post-industrial": 3,
+   "progressive rock": 1,
+   "rock": 1,
+   "trip hop": 2
+  },
+  "mbid": "6e4277d8-7b64-44a3-b823-13bd15114e22",
+  "nome": "Puscifer",
+  "verificado": "2026-11-03"
+ },
+ "quantum to infinity": {
+  "etiquetas": {},
+  "mbid": null,
+  "nome": "Quantum To Infinity",
+  "verificado": "2026-11-03"
+ },
+ "rage against the machine": {
+  "etiquetas": {
+   "alternative metal": 13,
+   "alternative rock": 2,
+   "funk metal": 5,
+   "heavy metal": 1,
+   "metal": 1,
+   "nu metal": 2,
+   "rap metal": 10,
+   "rap rock": 5
+  },
+  "mbid": "3798b104-01cb-484c-a3b0-56adc6399b80",
+  "nome": "Rage Against The Machine",
+  "verificado": "2026-11-03"
+ },
+ "revocation": {
+  "etiquetas": {
+   "death metal": 4,
+   "melodic death metal": 3,
+   "metal": 2,
+   "progressive metal": 1,
+   "technical death metal": 4,
+   "technical thrash metal": 4,
+   "thrash metal": 3
+  },
+  "mbid": "2441c9e6-7e05-44f1-8da9-62025df367ab",
+  "nome": "Revocation",
+  "verificado": "2026-11-03"
+ },
+ "richard dawkins": {
+  "etiquetas": {
+   "british": 1,
+   "english": 1,
+   "has german audiobooks": 1,
+   "uk": 2
+  },
+  "mbid": "e6747806-0dcf-4688-91a0-a5ffb4143286",
+  "nome": "Richard Dawkins",
+  "verificado": "2026-11-03"
+ },
+ "rivers of nihil": {
+  "etiquetas": {
+   "death metal": 4,
+   "progressive death metal": 1,
+   "progressive metal": 3,
+   "technical death metal": 2
+  },
+  "mbid": "a802fee7-86d5-4043-94a3-a5cc5b121cc9",
+  "nome": "Rivers of Nihil",
+  "verificado": "2026-11-03"
+ },
+ "rotting christ": {
+  "etiquetas": {
+   "black metal": 8,
+   "gothic metal": 6,
+   "greek": 3,
+   "melodic black metal": 12,
+   "metal": 2
+  },
+  "mbid": "2d576cfe-7669-4af0-a66a-86c8362f47c5",
+  "nome": "Rotting Christ",
+  "verificado": "2026-11-03"
+ },
+ "sacred reich": {
+  "etiquetas": {
+   "metal": 1,
+   "speed metal": 2,
+   "thrash metal": 3
+  },
+  "mbid": "05ada461-fa66-4c15-a1c1-206fda754d18",
+  "nome": "Sacred Reich",
+  "verificado": "2026-11-03"
+ },
+ "sadus": {
+  "etiquetas": {
+   "metal": 1,
+   "progressive metal": 1,
+   "technical thrash metal": 2,
+   "thrash metal": 4
+  },
+  "mbid": "235f642f-a66f-40fb-a585-13d05ecaee47",
+  "nome": "Sadus",
+  "verificado": "2026-11-03"
+ },
+ "samael": {
+  "etiquetas": {
+   "black metal": 3,
+   "dark metal": 1,
+   "ebm": 1,
+   "industrial metal": 4,
+   "swiss": 1
+  },
+  "mbid": "6a2ca1ac-408d-49b0-a7f6-cd608f2f684f",
+  "nome": "Samael",
+  "verificado": "2026-11-03"
+ },
+ "saor": {
+  "etiquetas": {
+   "atmospheric black metal": 8,
+   "black metal": 5,
+   "folk metal": 5,
+   "folk rock": 2,
+   "nature/landscapes": 1,
+   "poetry": 2,
+   "post-metal": 1,
+   "sorrow": 1
+  },
+  "mbid": "cf55e880-3750-4e4f-a772-0482801a7d3a",
+  "nome": "Saor",
+  "verificado": "2026-11-03"
+ },
+ "satyricon": {
+  "etiquetas": {
+   "black 'n' roll": 2,
+   "black metal": 9,
+   "metal": 2
+  },
+  "mbid": "8eed05a5-e9a1-4dda-8b33-e354c4ecc8b6",
+  "nome": "Satyricon",
+  "verificado": "2026-11-03"
+ },
+ "scorching tomb": {
+  "etiquetas": {
+   "death metal": 1
+  },
+  "mbid": "87bee4d2-6d97-4293-92bf-c5bc8c6d8c81",
+  "nome": "Scorching Tomb",
+  "verificado": "2026-11-03"
+ },
+ "sear": {
+  "etiquetas": {
+   "anti-christianity": 1,
+   "black metal": 2,
+   "death metal": 1,
+   "finnish": 1,
+   "satanism": 1
+  },
+  "mbid": "c735a017-5dd9-4595-9d9a-eac151b2fd84",
+  "nome": "Sear",
+  "verificado": "2026-11-03"
+ },
+ "septicflesh": {
+  "etiquetas": {
+   "atmospheric death metal": 3,
+   "atmospheric/symphonic/death-metal": 1,
+   "death metal": 10,
+   "gothic metal": 2,
+   "melodic death metal": 3,
+   "symphonic death metal": 8,
+   "symphonic metal": 4
+  },
+  "mbid": "f23d00be-5619-43aa-a9b0-b32b73e5ba4f",
+  "nome": "Septicflesh",
+  "verificado": "2026-11-03"
+ },
+ "sepulchral curse": {
+  "etiquetas": {
+   "death metal": 1
+  },
+  "mbid": "7c39b452-f549-4e91-b640-8f598d3af601",
+  "nome": "Sepulchral Curse",
+  "verificado": "2026-11-03"
+ },
+ "setentia": {
+  "etiquetas": {
+   "atmospheric black metal": 1,
+   "black metal": 1,
+   "dissonant death metal": 1,
+   "metal": 1,
+   "technical death metal": 1
+  },
+  "mbid": "34722ae7-2813-44a4-9ef3-14a5a0d9a080",
+  "nome": "Setentia",
+  "verificado": "2026-11-03"
+ },
+ "seth": {
+  "etiquetas": {
+   "black metal": 4
+  },
+  "mbid": "58a0859f-fddd-47f7-93f0-3a941a33d3a8",
+  "nome": "Seth",
+  "verificado": "2026-11-03"
+ },
+ "sijjin": {
+  "etiquetas": {
+   "death metal": 3,
+   "thrash metal": 2
+  },
+  "mbid": "e81b5cac-043d-44ba-ab74-c84ba341b3d7",
+  "nome": "Sijjin",
+  "verificado": "2026-11-03"
+ },
+ "sirius": {
+  "etiquetas": {},
+  "mbid": "b5fe15b8-478c-4142-bc1f-4e078024f1b0",
+  "nome": "SiriuS",
+  "verificado": "2026-11-03"
+ },
+ "skeletonwitch": {
+  "etiquetas": {
+   "black metal": 2,
+   "blackened thrash metal": 3,
+   "death metal": 2,
+   "thrash metal": 5
+  },
+  "mbid": "99b3468f-ade6-45b9-b3b8-edbcfd9d553a",
+  "nome": "Skeletonwitch",
   "verificado": "2026-11-03"
  },
  "slayer": {
@@ -194,6 +2467,532 @@
   },
   "mbid": "a466c2a2-6517-42fb-a160-1087c3bafd9f",
   "nome": "Slipknot",
+  "verificado": "2026-11-03"
+ },
+ "slugdge": {
+  "etiquetas": {
+   "black metal": 1,
+   "blackened death metal": 2,
+   "death metal": 4,
+   "progressive metal": 3,
+   "sludge metal": 1,
+   "technical death metal": 1
+  },
+  "mbid": "ff22863c-7d23-4c47-b41c-29c0d2ad999d",
+  "nome": "Slugdge",
+  "verificado": "2026-11-03"
+ },
+ "snet": {
+  "etiquetas": {
+   "death metal": 1
+  },
+  "mbid": "e9be48df-ab41-42b2-a239-5e7b1d4062c4",
+  "nome": "Sněť",
+  "verificado": "2026-11-03"
+ },
+ "sodom": {
+  "etiquetas": {
+   "black metal": 5,
+   "german": 1,
+   "metal": 2,
+   "speed metal": 3,
+   "thrash metal": 12
+  },
+  "mbid": "2251718f-7b5c-4a92-9267-895125c594d3",
+  "nome": "Sodom",
+  "verificado": "2026-11-03"
+ },
+ "soulfly": {
+  "etiquetas": {
+   "alternative metal": 1,
+   "groove metal": 8,
+   "heavy metal": 1,
+   "nu metal": 5,
+   "thrash metal": 4,
+   "tribal metal": 1,
+   "vyrzukhisuc-artiest": 1
+  },
+  "mbid": "832a43c7-aa7d-439b-a6b4-4f1afa671c24",
+  "nome": "Soulfly",
+  "verificado": "2026-11-03"
+ },
+ "spectral wound": {
+  "etiquetas": {
+   "black metal": 6
+  },
+  "mbid": "48346ead-4802-41ec-84e6-c2cf191b5ab2",
+  "nome": "Spectral Wound",
+  "verificado": "2026-11-03"
+ },
+ "stargazer": {
+  "etiquetas": {
+   "australia": 2,
+   "black metal": 2,
+   "death metal": 5,
+   "dissonant death metal": 1,
+   "progressive metal": 1,
+   "technical death metal": 1
+  },
+  "mbid": "f9ae2a17-e76d-40e3-9ebf-315655ae08ab",
+  "nome": "StarGazer",
+  "verificado": "2026-11-03"
+ },
+ "stone sour": {
+  "etiquetas": {
+   "alternative metal": 6,
+   "alternative rock": 3,
+   "hard rock": 5,
+   "heavy metal": 3,
+   "nu metal": 2,
+   "post-grunge": 5
+  },
+  "mbid": "4ca783b7-5bf7-4348-b494-46680660050f",
+  "nome": "Stone Sour",
+  "verificado": "2026-11-03"
+ },
+ "storm of darkness": {
+  "etiquetas": {
+   "anti-religion": 1,
+   "black metal": 1,
+   "nihilism": 1,
+   "war": 1
+  },
+  "mbid": "8bf35b49-2f42-4184-a713-0105a0d8f58c",
+  "nome": "Storm of Darkness",
+  "verificado": "2026-11-03"
+ },
+ "strapping young lad": {
+  "etiquetas": {
+   "death metal": 2,
+   "industrial metal": 4,
+   "progressive metal": 3
+  },
+  "mbid": "584b72a4-45f7-46ce-b440-e9ee579d71c4",
+  "nome": "Strapping Young Lad",
+  "verificado": "2026-11-03"
+ },
+ "suffocation": {
+  "etiquetas": {
+   "brutal death metal": 6,
+   "death metal": 8,
+   "metal": 2,
+   "technical brutal death metal": 4,
+   "technical death metal": 4
+  },
+  "mbid": "5db9f569-cadd-4f8b-b460-d4031b0b3716",
+  "nome": "Suffocation",
+  "verificado": "2026-11-03"
+ },
+ "suicidal angels": {
+  "etiquetas": {
+   "thrash metal": 2
+  },
+  "mbid": "b7aca0d1-d56d-4066-b204-58ecaafc88e6",
+  "nome": "Suicidal Angels",
+  "verificado": "2026-11-03"
+ },
+ "system of a down": {
+  "etiquetas": {
+   "alternative metal": 21,
+   "alternative rock": 7,
+   "hard rock": 2,
+   "heavy metal": 3,
+   "nu metal": 6
+  },
+  "mbid": "cc0b7089-c08d-4c10-b6b0-873582c17fd6",
+  "nome": "System Of A Down",
+  "verificado": "2026-11-03"
+ },
+ "testament": {
+  "etiquetas": {
+   "heavy metal": 1,
+   "metal": 4,
+   "thrash metal": 15
+  },
+  "mbid": "05106775-5d45-4131-aecc-1177f813ba11",
+  "nome": "Testament",
+  "verificado": "2026-11-03"
+ },
+ "the crown": {
+  "etiquetas": {
+   "anti-religion": 1,
+   "death": 1,
+   "death metal": 3,
+   "melodic death metal": 3,
+   "melodic/death/thrash-metal": 1,
+   "satan": 1,
+   "thrash metal": 3
+  },
+  "mbid": "19710493-0b3e-42de-bbff-eaf7b11b5c75",
+  "nome": "The Crown",
+  "verificado": "2026-11-03"
+ },
+ "the day of the beast": {
+  "etiquetas": {},
+  "mbid": "369ce384-ac60-449c-991d-aa0d9ed39aa9",
+  "nome": "The Day Of The Beast",
+  "verificado": "2026-11-03"
+ },
+ "the halo effect": {
+  "etiquetas": {
+   "death metal": 5,
+   "melodic death metal": 7,
+   "metal": 4
+  },
+  "mbid": "4e6e78c6-160f-4e2b-8b25-3227a4ec677f",
+  "nome": "The Halo Effect",
+  "verificado": "2026-11-03"
+ },
+ "the ocean": {
+  "etiquetas": {
+   "atmospheric sludge metal": 2,
+   "experimental": 1,
+   "post-metal": 9,
+   "post-rock": 2,
+   "progressive metal": 9,
+   "sludge": 1,
+   "sludge metal": 4
+  },
+  "mbid": "8d0acf0e-c099-49ac-b4b3-d57ca9eb2561",
+  "nome": "The Ocean",
+  "verificado": "2026-11-03"
+ },
+ "the offspring": {
+  "etiquetas": {
+   "alternative rock": 2,
+   "american": 1,
+   "comedy rock": 1,
+   "grunge": 1,
+   "melodic hardcore": 1,
+   "pop punk": 8,
+   "punk": 4,
+   "punk rock": 25,
+   "rock": 3,
+   "ska punk": 2,
+   "skate punk": 4
+  },
+  "mbid": "23a03e33-a603-404e-bcbf-2c00159d7067",
+  "nome": "The Offspring",
+  "verificado": "2026-11-03"
+ },
+ "the ruins of beverast": {
+  "etiquetas": {
+   "anti-christianity": 1,
+   "atmospheric black metal": 6,
+   "black metal": 4,
+   "death": 1,
+   "doom metal": 3,
+   "esotericism": 1,
+   "history": 1,
+   "psychosis": 1,
+   "war": 1
+  },
+  "mbid": "e4ff2368-1744-4048-a338-5a5782499644",
+  "nome": "The Ruins Of Beverast",
+  "verificado": "2026-11-03"
+ },
+ "thou": {
+  "etiquetas": {
+   "doom metal": 3,
+   "sludge": 2,
+   "sludge metal": 3
+  },
+  "mbid": "f8ba33be-c51b-4507-9de4-ea1e9f154e6c",
+  "nome": "Thou",
+  "verificado": "2026-11-03"
+ },
+ "throwdown": {
+  "etiquetas": {
+   "beatdown hardcore": 1,
+   "groove metal": 1,
+   "hardcore": 1,
+   "metal": 1,
+   "metalcore": 5
+  },
+  "mbid": "af7c56d2-8584-424a-97f9-f365f50e8868",
+  "nome": "Throwdown",
+  "verificado": "2026-11-03"
+ },
+ "thy throne": {
+  "etiquetas": {},
+  "mbid": null,
+  "nome": "Thy Throne",
+  "verificado": "2026-11-03"
+ },
+ "thyrfing": {
+  "etiquetas": {
+   "black metal": 3,
+   "folk metal": 2,
+   "metal": 1,
+   "swedish": 1,
+   "viking metal": 6
+  },
+  "mbid": "f2906f32-a018-4104-addc-8fe943d7e859",
+  "nome": "Thyrfing",
+  "verificado": "2026-11-03"
+ },
+ "tiamat": {
+  "etiquetas": {
+   "death metal": 2,
+   "doom metal": 3,
+   "gothic metal": 7,
+   "gothic rock": 2,
+   "metal": 1,
+   "progressive metal": 1
+  },
+  "mbid": "8930ec4e-51c7-4905-ac40-684459878085",
+  "nome": "Tiamat",
+  "verificado": "2026-11-03"
+ },
+ "tool": {
+  "etiquetas": {
+   "alternative metal": 20,
+   "alternative rock": 4,
+   "american": 1,
+   "art rock": 1,
+   "electronic": 1,
+   "heavy metal": 1,
+   "metal": 5,
+   "post-metal": 1,
+   "progressive metal": 41,
+   "progressive rock": 20,
+   "rock": 6
+  },
+  "mbid": "66fc5bf8-daa4-4241-b378-9bc9077939d2",
+  "nome": "TOOL",
+  "verificado": "2026-11-03"
+ },
+ "torchia": {
+  "etiquetas": {
+   "melodic death metal": 1
+  },
+  "mbid": "2e841c91-6d23-42d2-b483-44fcd2b04605",
+  "nome": "Torchia",
+  "verificado": "2026-11-03"
+ },
+ "triptykon": {
+  "etiquetas": {
+   "avant-garde metal": 2,
+   "darkness": 2,
+   "death": 1,
+   "death metal": 2,
+   "depression": 2,
+   "despair": 2,
+   "doom": 1,
+   "doom metal": 7,
+   "gothic metal": 1,
+   "occultism": 2,
+   "pain": 2
+  },
+  "mbid": "a939eab5-3d20-40e8-8edb-7207bc99cfc4",
+  "nome": "Triptykon",
+  "verificado": "2026-11-03"
+ },
+ "tsatthoggua": {
+  "etiquetas": {
+   "black metal": 1,
+   "thrash metal": 1
+  },
+  "mbid": "82af4331-5447-4d1f-a519-eb4cd078b9c3",
+  "nome": "Tsatthoggua",
+  "verificado": "2026-11-03"
+ },
+ "tvmvlo": {
+  "etiquetas": {},
+  "mbid": null,
+  "nome": "Tvmvlo",
+  "verificado": "2026-11-03"
+ },
+ "uada": {
+  "etiquetas": {
+   "black metal": 3,
+   "darkness": 2,
+   "melodic black metal": 3,
+   "misanthropy": 2,
+   "mysticism": 2,
+   "nature": 2,
+   "paganism": 2
+  },
+  "mbid": "65332881-b3fa-45a9-ae8a-9fc921d42b6f",
+  "nome": "Uada",
+  "verificado": "2026-11-03"
+ },
+ "ulcerate": {
+  "etiquetas": {
+   "atmospheric sludge metal": 3,
+   "brutal death metal": 2,
+   "death metal": 3,
+   "dissonant death metal": 3,
+   "technical brutal death metal": 2,
+   "technical death metal": 4,
+   "technical prog metal": 1
+  },
+  "mbid": "bfe00ef8-f6f2-4810-999e-65e46b5970ab",
+  "nome": "Ulcerate",
+  "verificado": "2026-11-03"
+ },
+ "ulver": {
+  "etiquetas": {
+   "ambient": 6,
+   "art rock": 2,
+   "atmospheric black metal": 3,
+   "avant-garde": 3,
+   "avant-garde metal": 1,
+   "black metal": 9,
+   "dark ambient": 1,
+   "drone metal": 1,
+   "electronic": 6,
+   "experimental": 2,
+   "experimental rock": 1,
+   "film score": 1,
+   "folk": 1,
+   "folk metal": 2,
+   "hard rock": 1,
+   "heavy metal": 1,
+   "industrial metal": 1,
+   "neofolk": 1,
+   "norwegian": 2,
+   "pagan black metal": 1,
+   "pop": 1,
+   "post black": 2,
+   "post-industrial": 1,
+   "progressive metal": 1,
+   "trip hop": 2
+  },
+  "mbid": "7d209631-ccb8-4a87-8516-64abe4c22dba",
+  "nome": "Ulver",
+  "verificado": "2026-11-03"
+ },
+ "unleashed": {
+  "etiquetas": {
+   "death metal": 7,
+   "metal": 1
+  },
+  "mbid": "4dffdaf8-8fb8-4b3d-8088-427b1e9d1af3",
+  "nome": "Unleashed",
+  "verificado": "2026-11-03"
+ },
+ "urne": {
+  "etiquetas": {
+   "metalcore": 1,
+   "progressive metal": 1,
+   "sludge metal": 1
+  },
+  "mbid": "4409b3f3-a6f3-46c5-8339-dff67e7aaadb",
+  "nome": "URNE",
+  "verificado": "2026-11-03"
+ },
+ "vacuous": {
+  "etiquetas": {
+   "death metal": 1
+  },
+  "mbid": "8331d770-f379-420c-aabc-d8c1ebdc12f3",
+  "nome": "Vacuous",
+  "verificado": "2026-11-03"
+ },
+ "vader": {
+  "etiquetas": {
+   "death metal": 10,
+   "death/thrash-metal": 2,
+   "polish": 2,
+   "thrash metal": 3,
+   "vyrzukhisuc-artiest": 1
+  },
+  "mbid": "db859a53-b7ca-4892-bcda-5ef78d2c891f",
+  "nome": "Vader",
+  "verificado": "2026-11-03"
+ },
+ "vastum": {
+  "etiquetas": {
+   "death metal": 5,
+   "death-doom metal": 1
+  },
+  "mbid": "5b4e98d6-0b54-4728-92ff-cd34afe0fb98",
+  "nome": "Vastum",
+  "verificado": "2026-11-03"
+ },
+ "vision divine": {
+  "etiquetas": {
+   "power metal": 1,
+   "progressive metal": 1
+  },
+  "mbid": "c8be19e8-b7fa-481e-b453-ee4214335824",
+  "nome": "Vision Divine",
+  "verificado": "2026-11-03"
+ },
+ "vital remains": {
+  "etiquetas": {
+   "death metal": 1
+  },
+  "mbid": "39977a2d-659a-43e6-b2ad-0c33687624f7",
+  "nome": "Vital Remains",
+  "verificado": "2026-11-03"
+ },
+ "vltimas": {
+  "etiquetas": {
+   "death metal": 2
+  },
+  "mbid": "d5c31f7c-f0c2-4703-b93c-893ba78716ae",
+  "nome": "VLTIMAS",
+  "verificado": "2026-11-03"
+ },
+ "warbringer": {
+  "etiquetas": {
+   "metal": 2,
+   "thrash metal": 7
+  },
+  "mbid": "089708ec-2c4a-4159-a3da-2fbb8119736e",
+  "nome": "Warbringer",
+  "verificado": "2026-11-03"
+ },
+ "warfect": {
+  "etiquetas": {
+   "thrash metal": 1
+  },
+  "mbid": "c57bc70c-ddcc-48f9-b5d5-cd5776e5a25c",
+  "nome": "Warfect",
+  "verificado": "2026-11-03"
+ },
+ "watain": {
+  "etiquetas": {
+   "black metal": 6,
+   "swedish": 2
+  },
+  "mbid": "8c51b06d-b678-4bbf-aeac-7295dfb69d13",
+  "nome": "Watain",
+  "verificado": "2026-11-03"
+ },
+ "whitechapel": {
+  "etiquetas": {
+   "alternative metal": 2,
+   "deathcore": 8,
+   "metal": 3
+  },
+  "mbid": "56ba013c-610e-4d9b-98ed-c2ccff977a9e",
+  "nome": "Whitechapel",
+  "verificado": "2026-11-03"
+ },
+ "wrath of logarius": {
+  "etiquetas": {},
+  "mbid": "348eeb1f-dba5-4e05-8f06-fb046d438692",
+  "nome": "Wrath of Logarius",
+  "verificado": "2026-11-03"
+ },
+ "xenoblight": {
+  "etiquetas": {},
+  "mbid": "2efc6802-8eb2-4eaa-aa49-35f2c585ed22",
+  "nome": "Xenoblight",
+  "verificado": "2026-11-03"
+ },
+ "yyrkoon": {
+  "etiquetas": {
+   "french": 3,
+   "french metal": 1,
+   "melodic death metal": 1,
+   "metal": 1
+  },
+  "mbid": "84f8fb72-77ff-4de7-8537-4a0581fe3cd7",
+  "nome": "Yyrkoon",
   "verificado": "2026-11-03"
  }
 }
