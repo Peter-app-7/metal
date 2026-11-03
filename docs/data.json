@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-03T13:20:57+00:00",
+ "atualizado": "2026-11-03T13:39:06+00:00",
  "fontes": {
   "concertos": "sem_app_id",
   "excluidas": [
@@ -50,7 +50,8 @@
   ]
  },
  "avisos": [
-  "Concertos por ativar: falta o app_id da Bandsintown."
+  "Concertos por ativar: falta o app_id da Bandsintown.",
+  "Algumas capas e links do Spotify ficaram por obter (api.spotify.com pediu para esperar 82226 s)."
  ],
  "bandas": [
   {
@@ -5173,8 +5174,8 @@
      "titulo": "In the Key of Twilight",
      "tipo": "Álbum",
      "data": "2025-11-28",
-     "capa": "https://i.scdn.co/image/ab67616d00001e027d1da991cb44a301fbbad4be",
-     "spotify": "https://open.spotify.com/album/1vkRvIAyNacxXy7ClHNnbM"
+     "capa": "https://coverartarchive.org/release-group/1d5a1628-526b-475b-a2ad-594d89753b64/front-250",
+     "spotify": "https://open.spotify.com/search/Irae%20In%20the%20Key%20of%20Twilight"
     },
     {
      "id": "676d13f7-7c41-4363-8bb6-9bd12d7ccd8e",
@@ -5743,8 +5744,8 @@
      "titulo": "We Are Shadows",
      "tipo": "EP",
      "data": "2025-11-21",
-     "capa": "https://i.scdn.co/image/ab67616d00001e02f9dd90f5eb7949335828fbfb",
-     "spotify": "https://open.spotify.com/album/5szZPN7qrKaey9QqZCzdH3"
+     "capa": "https://coverartarchive.org/release-group/c4d3bafe-7a9e-455d-a8cc-0147519e9b91/front-250",
+     "spotify": "https://open.spotify.com/search/The%20Halo%20Effect%20We%20Are%20Shadows"
     },
     {
      "id": "c3415301-1d34-4ee9-b73f-e722bb0a84d6",
@@ -5865,8 +5866,8 @@
      "titulo": "Nightspawn Descendants",
      "tipo": "Álbum",
      "data": "2026-02-13",
-     "capa": "https://i.scdn.co/image/ab67616d00001e0226440992719205d93a6083f9",
-     "spotify": "https://open.spotify.com/album/0ULurDVL1qDzIX0XW5aQiH"
+     "capa": "https://coverartarchive.org/release-group/16231355-04ab-4f08-9b1e-f544d4d96547/front-250",
+     "spotify": "https://open.spotify.com/search/The%20Day%20Of%20The%20Beast%20Nightspawn%20Descendants"
     },
     {
      "id": "9a027682-a412-4b2b-ba7d-075c8f68282e",
@@ -5906,8 +5907,8 @@
      "titulo": "Transcend Into Oblivion",
      "tipo": "Álbum",
      "data": "2026-02-27",
-     "capa": "https://i.scdn.co/image/ab67616d00001e022d2726c0ba9f61c1d542d04b",
-     "spotify": "https://open.spotify.com/album/4RGYvE7s1d22jkvS8EsbZe"
+     "capa": "https://coverartarchive.org/release-group/8e1a7419-c807-4114-ac0e-24e34947406e/front-250",
+     "spotify": "https://open.spotify.com/search/Necrofier%20Transcend%20Into%20Oblivion"
     },
     {
      "id": "c1b3cde0-29d9-4bab-9f4d-3492eb0bc3b7",
@@ -6037,8 +6038,8 @@
      "titulo": "And the Firmament will Burn to Quench the Pain of this Earth",
      "tipo": "Álbum",
      "data": "2026-05-22",
-     "capa": "https://i.scdn.co/image/ab67616d00001e02711c12e16dc832d81badf477",
-     "spotify": "https://open.spotify.com/album/2FuePHQEUTAb5lmcPoVIZX"
+     "capa": "https://coverartarchive.org/release-group/e307d960-b1dc-4b4e-9712-c8e4e21102dc/front-250",
+     "spotify": "https://open.spotify.com/search/Downfall%20of%20Nur%20And%20the%20Firmament%20will%20Burn%20to%20Quench%20the%20Pain%20of%20this%20Earth"
     },
     {
      "id": "dbc4ef8e-e938-49cb-8818-eff1a3e617da",
@@ -6273,16 +6274,16 @@
      "titulo": "Viribus Unitis",
      "tipo": "Álbum",
      "data": "2025-11-14",
-     "capa": "https://i.scdn.co/image/ab67616d00001e025e2c1191d1420c0e6e32967b",
-     "spotify": "https://open.spotify.com/album/7qzCmpi5YBUt8Wcug8Kiz7"
+     "capa": "https://coverartarchive.org/release-group/ba262958-5dd9-4cc9-ae3b-f07b038b98df/front-250",
+     "spotify": "https://open.spotify.com/search/1914%20Viribus%20Unitis"
     },
     {
      "id": "770dd2f0-09cf-4b80-bc63-4fc378fb2830",
      "titulo": "1918 Pt 3: ADE (A Duty to Escape)",
      "tipo": "EP",
      "data": "2025-11-13",
-     "capa": "https://i.scdn.co/image/ab67616d00001e027ce8bf1e16ac8e973c4eee15",
-     "spotify": "https://open.spotify.com/album/4ibJ0sQzbHeWfcPpS6gXbQ"
+     "capa": "https://coverartarchive.org/release-group/770dd2f0-09cf-4b80-bc63-4fc378fb2830/front-250",
+     "spotify": "https://open.spotify.com/search/1914%201918%20Pt%203%3A%20ADE%20%28A%20Duty%20to%20Escape%29"
     },
     {
      "id": "6e813cfe-ee56-480a-9278-dc357e0ea7da",
@@ -6453,8 +6454,8 @@
      "titulo": "They Are Born Under Rules of the Darkness",
      "tipo": "Álbum",
      "data": "2026-05-08",
-     "capa": "https://i.scdn.co/image/ab67616d00001e02ba1a90e981228dea17034612",
-     "spotify": "https://open.spotify.com/album/2qZOrnhfPHFA9QNIk208B6"
+     "capa": "https://coverartarchive.org/release-group/baf802be-45e4-44e8-8fa0-f8f5d0befeeb/front-250",
+     "spotify": "https://open.spotify.com/search/Torchia%20They%20Are%20Born%20Under%20Rules%20of%20the%20Darkness"
     },
     {
      "id": "221db0db-ebfc-4f0c-a53f-ba15a8be9c0e",
@@ -6876,8 +6877,8 @@
      "titulo": "Nel Buio",
      "tipo": "Álbum",
      "data": "2025-12-05",
-     "capa": "https://i.scdn.co/image/ab67616d00001e0279e7d1166d93361f88017550",
-     "spotify": "https://open.spotify.com/album/7Ld4D0k9wOMk99BmFrlph8"
+     "capa": "https://coverartarchive.org/release-group/19a12007-68e8-4e07-9ae6-bc420024ad44/front-250",
+     "spotify": "https://open.spotify.com/search/Nel%20Buio%20Nel%20Buio"
     },
     {
      "id": "63b3c2fe-cd06-44c4-9a83-d61f6cf61b16",
@@ -7058,8 +7059,8 @@
      "titulo": "V bažinách vědomí",
      "tipo": "Álbum",
      "data": "2026-09-10",
-     "capa": "https://i.scdn.co/image/ab67616d00001e02699cff60000837b0d4d69fc2",
-     "spotify": "https://open.spotify.com/album/3cZC4RnGuobOG2fpPdWWy5"
+     "capa": "https://coverartarchive.org/release-group/bf5a8668-b8db-4af3-9794-4c886248ca4f/front-250",
+     "spotify": "https://open.spotify.com/search/Sn%C4%9B%C5%A5%20V%20ba%C5%BEin%C3%A1ch%20v%C4%9Bdom%C3%AD"
     },
     {
      "id": "b58287e9-4c64-4bfd-a924-5454b3738fa2",
@@ -7621,8 +7622,8 @@
      "titulo": "Dreaming",
      "tipo": "Álbum",
      "data": "2026-07-24",
-     "capa": "https://i.scdn.co/image/ab67616d00001e029eae36433bcd7eb92064d214",
-     "spotify": "https://open.spotify.com/album/3zhisneX02yi7mBu3KTny9"
+     "capa": "https://coverartarchive.org/release-group/8bd18a94-fe9f-4865-965a-f896ae9d1a20/front-250",
+     "spotify": "https://open.spotify.com/search/Litosth%20Dreaming"
     },
     {
      "id": "43e0c5ce-6e7e-4e60-b60f-c9ed4cc3a22e",
@@ -8118,8 +8119,8 @@
      "titulo": "A Clockwork Reverie",
      "tipo": "EP",
      "data": "2026-05-22",
-     "capa": "https://i.scdn.co/image/ab67616d00001e02442383d97c4c6bf9be5feec0",
-     "spotify": "https://open.spotify.com/album/4B0EVHcmDX5xNLIEeGQLft"
+     "capa": "https://coverartarchive.org/release-group/e1b05542-2546-45bd-87a2-d16a9064b930/front-250",
+     "spotify": "https://open.spotify.com/search/Vision%20Divine%20A%20Clockwork%20Reverie"
     },
     {
      "id": "7d6eeb0c-1a1e-433b-9d7d-052949823e79",
@@ -9066,8 +9067,8 @@
      "titulo": "Megadeth",
      "tipo": "Álbum",
      "data": "2026-01-23",
-     "capa": "https://i.scdn.co/image/ab67616d00001e029259659bd5b7332b9bfa8860",
-     "spotify": "https://open.spotify.com/album/6ouAFvDtaYWB7PdGaRtJGq"
+     "capa": "https://coverartarchive.org/release-group/cd6f4a73-a18f-405e-8067-0f3bcdf6cac2/front-250",
+     "spotify": "https://open.spotify.com/search/Megadeth%20Megadeth"
     },
     {
      "id": "70b5b83b-8817-4cf3-8248-ec9ced2213e2",
@@ -9155,8 +9156,8 @@
      "titulo": "Into Oblivion",
      "tipo": "Álbum",
      "data": "2026-03-13",
-     "capa": "https://i.scdn.co/image/ab67616d00001e02e84cfd892001ad9695e4b9d0",
-     "spotify": "https://open.spotify.com/album/5aI0bwD4XS3UGMP4Kx4wNl"
+     "capa": "https://coverartarchive.org/release-group/e5ad51e7-e747-4ecd-92b9-c51ba9bc9bd7/front-250",
+     "spotify": "https://open.spotify.com/search/Lamb%20of%20God%20Into%20Oblivion"
     },
     {
      "id": "b20ac400-041a-4025-aa33-bab8479cc545",
@@ -9836,8 +9837,8 @@
      "titulo": "Strike and Kill",
      "tipo": "Álbum",
      "data": "2026-07-10",
-     "capa": "https://i.scdn.co/image/ab67616d00001e02e1cd4433998d8fe6345c6d28",
-     "spotify": "https://open.spotify.com/album/4edSFAqCClUwSmgeAouR12"
+     "capa": "https://coverartarchive.org/release-group/cc42ec33-6000-4a13-990b-7b9443d3dae4/front-250",
+     "spotify": "https://open.spotify.com/search/DevilDriver%20Strike%20and%20Kill"
     },
     {
      "id": "d23d64ca-5471-411f-bc1c-010edf1aec09",
@@ -10800,8 +10801,8 @@
      "titulo": "Loss",
      "tipo": "Álbum",
      "data": "2026-03-20",
-     "capa": "https://i.scdn.co/image/ab67616d00001e0293799e33656a9542b330de10",
-     "spotify": "https://open.spotify.com/album/5ovAepTJKbHCMupKixglTQ"
+     "capa": "https://coverartarchive.org/release-group/a49dab85-50c6-4316-8239-767af81d9bda/front-250",
+     "spotify": "https://open.spotify.com/search/Gaerea%20Loss"
     },
     {
      "id": "da882243-bc54-4f10-a5e9-0bcaa7bc5fda",
@@ -11894,8 +11895,8 @@
      "titulo": "The Ghost of a Future Dead",
      "tipo": "Álbum",
      "data": "2026-04-24",
-     "capa": "https://i.scdn.co/image/ab67616d00001e028ccab8ad0277b58fa67b6357",
-     "spotify": "https://open.spotify.com/album/2A2hiumM2pI9nyq0vTRG0C"
+     "capa": "https://coverartarchive.org/release-group/717ffd39-881e-41d8-a8cc-1aa6dfec62ed/front-250",
+     "spotify": "https://open.spotify.com/search/At%20The%20Gates%20The%20Ghost%20of%20a%20Future%20Dead"
     },
     {
      "id": "970aa5a8-c733-40ee-865e-f0b60efb7c04",
@@ -12178,8 +12179,8 @@
      "titulo": "Mið",
      "tipo": "Álbum",
      "data": "2026-10-30",
-     "capa": "https://i.scdn.co/image/ab67616d00001e024b434f041d19b8049d4b165a",
-     "spotify": "https://open.spotify.com/album/4YMrTpx1I30qGlSsRzzwMm"
+     "capa": "https://coverartarchive.org/release-group/312e09a9-d793-4c7f-acf3-51e7498925be/front-250",
+     "spotify": "https://open.spotify.com/search/Enslaved%20Mi%C3%B0"
     },
     {
      "id": "a29b50a8-3d33-4096-ad58-daa9c6e7117d",
@@ -12267,8 +12268,8 @@
      "titulo": "Aealo",
      "tipo": "Álbum",
      "data": "2026-01-23",
-     "capa": "https://i.scdn.co/image/ab67616d00001e028b8ea3cd1d5cc71f7f014d52",
-     "spotify": "https://open.spotify.com/album/16ywSYjE1gvCU1GtlYVXgV"
+     "capa": "https://coverartarchive.org/release-group/7654e1da-948f-450b-916e-271ece2efbd7/front-250",
+     "spotify": "https://open.spotify.com/search/Rotting%20Christ%20Aealo"
     },
     {
      "id": "e901ca26-0ca6-43ff-a64a-e48cdd7874bd",
@@ -12712,8 +12713,8 @@
      "titulo": "I, Scvlptor",
      "tipo": "EP",
      "data": "2026-09-04",
-     "capa": "https://i.scdn.co/image/ab67616d00001e02d2d5de61d139fd65fb04eb44",
-     "spotify": "https://open.spotify.com/album/698LuxIW93WIjcIT3W21Zm"
+     "capa": "https://coverartarchive.org/release-group/f164e1c2-a01d-4ce1-9750-dc9bb525f33d/front-250",
+     "spotify": "https://open.spotify.com/search/Behemoth%20I%2C%20Scvlptor"
     },
     {
      "id": "0c9c59ee-8a81-4fb3-931f-ed5d0ae3eb28",
@@ -12801,8 +12802,8 @@
      "titulo": "Grand Serpent Rising",
      "tipo": "Álbum",
      "data": "2026-05-22",
-     "capa": "https://i.scdn.co/image/ab67616d00001e028fff9b0ba826af775cabefec",
-     "spotify": "https://open.spotify.com/album/5vO7AYAWlgTAKVMoHs0Bpt"
+     "capa": "https://coverartarchive.org/release-group/6a9fe192-69e4-411d-bf1d-cc933c4f54f1/front-250",
+     "spotify": "https://open.spotify.com/search/Dimmu%20Borgir%20Grand%20Serpent%20Rising"
     },
     {
      "id": "d7445d4b-d91e-41ba-b4b3-fef5a469d4b3",
@@ -12890,8 +12891,8 @@
      "titulo": "Interwoven",
      "tipo": "Álbum",
      "data": "2026-04-10",
-     "capa": "https://i.scdn.co/image/ab67616d00001e02fcb9dca05e03ff35a08460c6",
-     "spotify": "https://open.spotify.com/album/24FT0acs1FSGU0mmpI0rE0"
+     "capa": "https://coverartarchive.org/release-group/3588f64c-f05b-41dc-891b-37b136bc08b5/front-250",
+     "spotify": "https://open.spotify.com/search/Uada%20Interwoven"
     },
     {
      "id": "95e1b6d7-2194-42bb-af16-721aa87c6e06",
@@ -13685,8 +13686,8 @@
      "titulo": "Slave Machine",
      "tipo": "Álbum",
      "data": "2026-04-01",
-     "capa": "https://i.scdn.co/image/ab67616d00001e02ea6fd59472357d2af892e095",
-     "spotify": "https://open.spotify.com/album/7qcPn8Xol83gBeBD2U3Td4"
+     "capa": "https://coverartarchive.org/release-group/cb3f8de5-56fc-46b8-af00-bc323ddc80ad/front-250",
+     "spotify": "https://open.spotify.com/search/Nervosa%20Slave%20Machine"
     },
     {
      "id": "d4683537-a5ef-44d4-9185-f854b2e904c4",
@@ -14577,8 +14578,8 @@
      "titulo": "Krushers of the World",
      "tipo": "Álbum",
      "data": "2026-01-16",
-     "capa": "https://i.scdn.co/image/ab67616d00001e02735e63aeccd082e2a1afde06",
-     "spotify": "https://open.spotify.com/album/654l01PNNorXhMXu0vj8Jv"
+     "capa": "https://coverartarchive.org/release-group/21250117-a80a-4468-96ea-3a9342906c51/front-250",
+     "spotify": "https://open.spotify.com/search/Kreator%20Krushers%20of%20the%20World"
     },
     {
      "id": "4e54edd8-256e-4870-9bc7-4abda4695fce",
@@ -14755,8 +14756,8 @@
      "titulo": "Goliath",
      "tipo": "Álbum",
      "data": "2026-03-20",
-     "capa": "https://i.scdn.co/image/ab67616d00001e024a37a6dc22f6fbbb56e23824",
-     "spotify": "https://open.spotify.com/album/2jQzIrMq57RXUdN5krdfnw"
+     "capa": "https://coverartarchive.org/release-group/2f1c1e4c-6850-43a5-b818-634f996445b8/front-250",
+     "spotify": "https://open.spotify.com/search/Exodus%20Goliath"
     },
     {
      "id": "88a3f988-dc40-4dab-b63b-27b9ff067834",
@@ -14844,8 +14845,8 @@
      "titulo": "Liturgy of Death",
      "tipo": "Álbum",
      "data": "2026-02-06",
-     "capa": "https://i.scdn.co/image/ab67616d00001e02941b7f8fd4ed12212f8dea6a",
-     "spotify": "https://open.spotify.com/album/2C8tHSlAS7hGeHCJhvpuGW"
+     "capa": "https://coverartarchive.org/release-group/76dcd617-995c-4abb-a4bd-916dfc8cfc63/front-250",
+     "spotify": "https://open.spotify.com/search/Mayhem%20Liturgy%20of%20Death"
     },
     {
      "id": "080a7545-3ac1-43fe-89ce-a7070082e2dd",
@@ -14998,8 +14999,8 @@
      "titulo": "Descent",
      "tipo": "Álbum",
      "data": "2026-04-10",
-     "capa": "https://i.scdn.co/image/ab67616d00001e02443e3927c9f4c0eaf9d3f1ee",
-     "spotify": "https://open.spotify.com/album/1mDaT2RNgf04P88aTEjTeL"
+     "capa": "https://coverartarchive.org/release-group/83c18486-cd12-4be3-a55b-4c19ee008c1a/front-250",
+     "spotify": "https://open.spotify.com/search/Immolation%20Descent"
     },
     {
      "id": "eef17053-5182-4f57-8bd3-8cd4d9bb5b81",
@@ -15322,8 +15323,8 @@
      "titulo": "Ex Nucleo (The Remastered Extraction)",
      "tipo": "EP",
      "data": "2026-09-18",
-     "capa": "https://i.scdn.co/image/ab67616d00001e0221e3cf2eea322f37d3dbcec7",
-     "spotify": "https://open.spotify.com/album/3Oc9WJIm81tkjRUZNfXRRE"
+     "capa": "https://coverartarchive.org/release-group/78ae9bcb-2c52-41a6-80af-ad8ef0ff56fd/front-250",
+     "spotify": "https://open.spotify.com/search/Coroner%20Ex%20Nucleo%20%28The%20Remastered%20Extraction%29"
     },
     {
      "id": "3ab65cf3-c9ec-40ac-9ff3-90eb56c44814",
@@ -15581,8 +15582,8 @@
      "titulo": "Death Mask Messiah",
      "tipo": "Álbum",
      "data": "2026-08-28",
-     "capa": "https://i.scdn.co/image/ab67616d00001e028db7acf885eb7189519a56de",
-     "spotify": "https://open.spotify.com/album/2USLJr20WEbduwtrQX6apY"
+     "capa": "https://coverartarchive.org/release-group/4c3a7079-2092-47f7-8daa-d25e75fb12fb/front-250",
+     "spotify": "https://open.spotify.com/search/Exumer%20Death%20Mask%20Messiah"
     },
     {
      "id": "b86325a6-6078-4e04-a667-ddabd5319828",
@@ -16383,8 +16384,8 @@
      "titulo": "Pre‐Historic Metal",
      "tipo": "Álbum",
      "data": "2026-05-08",
-     "capa": "https://i.scdn.co/image/ab67616d00001e021bb90bae67ab687245f6edcc",
-     "spotify": "https://open.spotify.com/album/2yJYLyYqZUnfnpv58WuZdO"
+     "capa": "https://coverartarchive.org/release-group/597bcce2-5e06-4753-9f8b-822d058a174c/front-250",
+     "spotify": "https://open.spotify.com/search/Darkthrone%20Pre%E2%80%90Historic%20Metal"
     },
     {
      "id": "fe629a38-a88e-4e15-b426-ef858419a0b4",
@@ -16764,16 +16765,22 @@
  ],
  "noticias": [
   {
-   "titulo": "AS I LAY DYING Shares New Single 'The Cost To Stay' From Upcoming Self-Titled Album",
-   "link": "https://blabbermouth.net/news/as-i-lay-dying-shares-new-single-the-cost-to-stay-from-upcoming-self-titled-album",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-03T12:59:08+00:00"
-  },
-  {
    "titulo": "FIVE FINGER DEATH PUNCH's ZOLTAN BATHORY Doubles Down On Judo Commitment",
    "link": "https://blabbermouth.net/news/five-finger-death-punchs-zoltan-bathory-doubles-down-on-judo-commitment",
    "fonte": "Blabbermouth",
    "data": "2026-11-03T12:44:15+00:00"
+  },
+  {
+   "titulo": "Oxidised Razor - Founding Member Passed Away",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64433",
+   "fonte": "Metal Storm",
+   "data": "2026-11-03T12:33:38+00:00"
+  },
+  {
+   "titulo": "Mnemocide - Post New Single",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64449",
+   "fonte": "Metal Storm",
+   "data": "2026-11-03T12:33:32+00:00"
   },
   {
    "titulo": "MESHUGGAH Announces European Leg Of 2027 'The Forty-Year Anomaly' Tour",
@@ -17208,12 +17215,6 @@
    "data": "2026-11-02T10:53:18+00:00"
   },
   {
-   "titulo": "Leviathan - Announces New Album; Share First Track",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64432",
-   "fonte": "Metal Storm",
-   "data": "2026-11-02T10:35:21+00:00"
-  },
-  {
    "titulo": "Robert Plant and Saving Grace announce Summer 2027 dates",
    "link": "https://www.loudersound.com/bands-artists/concerts-shows/robert-plant-saving-grace-summer-2027-dates",
    "fonte": "Metal Hammer",
@@ -17320,12 +17321,6 @@
    "link": "https://blabbermouth.net/news/dave-lombardo-reflects-on-slayers-reign-in-blood-the-reviews-werent-all-great-at-the-time",
    "fonte": "Blabbermouth",
    "data": "2026-11-01T16:41:53+00:00"
-  },
-  {
-   "titulo": "Alestorm - Begin Recording New Material",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64431",
-   "fonte": "Metal Storm",
-   "data": "2026-11-01T16:27:40+00:00"
   },
   {
    "titulo": "How Saint Agnes overcame tragedy and industry interference",
@@ -17476,6 +17471,12 @@
    "link": "https://blabbermouth.net/news/nonpoints-elias-soriano-says-the-last-word-album-was-in-the-works-for-about-two-years",
    "fonte": "Blabbermouth",
    "data": "2026-10-31T16:03:40+00:00"
+  },
+  {
+   "titulo": "See Pro-Shot Video Of FORBIDDEN's Entire Chicago Concert During Fall 2026 'Chaos By Design' U.S. Tour",
+   "link": "https://blabbermouth.net/news/see-pro-shot-video-of-forbiddens-entire-chicago-concert-during-fall-2026-chaos-by-design-u-s-tour",
+   "fonte": "Blabbermouth",
+   "data": "2026-10-31T15:31:59+00:00"
   },
   {
    "titulo": "When Ozzy Osbourne Played an Anti-Heavy Metal Preacher in 'Trick or Treat'",
