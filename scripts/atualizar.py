@@ -87,6 +87,11 @@ TIPOS_NAO_MUSICA = {"Audiobook", "Audio drama", "Spoken word", "Interview"}
 class ErroFonte(Exception):
     """Falha de uma fonte. A mensagem vai para os avisos, por isso nunca leva endereços nem chaves."""
 
+    def __init__(self, mensagem, temporario=True, espera=None):
+        super().__init__(mensagem)
+        self.temporario = temporario  # falso quando a fonte recusa mesmo o acesso
+        self.espera = espera  # segundos que a fonte pediu para esperar
+
 
 def agora():
     return datetime.now(timezone.utc)
@@ -124,7 +129,7 @@ def pedir(url, cabecalhos=None, corpo=None, tentativas=3, espera_maxima=120):
             if valor.isdigit():
                 espera = int(valor)
             if espera > espera_maxima:
-                raise ErroFonte("%s pediu para esperar %d s" % (host, espera))
+                raise ErroFonte("%s pediu para esperar %d s" % (host, espera), espera=espera)
         except (urllib.error.URLError, OSError) as erro:
             ultimo = type(erro).__name__
         if tentativa < tentativas - 1:
@@ -166,7 +171,7 @@ class Spotify:
             corpo,
         )
         if estado != 200 or not dados or "access_token" not in dados:
-            raise ErroFonte("Spotify recusou o refresh token (HTTP %d)" % estado)
+            raise ErroFonte("Spotify recusou o refresh token (HTTP %d)" % estado, temporario=False)
         self.acesso = dados["access_token"]
 
     def get(self, url):
@@ -177,7 +182,7 @@ class Spotify:
             self.renovar()
             estado, dados = pedir_json(url, {"Authorization": "Bearer " + self.acesso})
         if estado != 200 or dados is None:
-            raise ErroFonte("Spotify devolveu HTTP %d" % estado)
+            raise ErroFonte("Spotify devolveu HTTP %d" % estado, temporario=False)
         return dados
 
     def artistas_seguidos(self):
@@ -220,27 +225,72 @@ def ler_lista(ficheiro):
     return linhas
 
 
+# Até quando o Spotify pediu para não lhe fazerem pedidos. Fica guardado em data.json.
+ESPERA_SPOTIFY = {"ate": None}
+
+
+def anotar_espera_spotify(erro):
+    if erro.espera:
+        ESPERA_SPOTIFY["ate"] = (agora() + timedelta(seconds=erro.espera)).isoformat(timespec="seconds")
+
+
+def lista_guardada(anteriores):
+    """A última lista vinda do Spotify, para uma falha temporária não trocar as bandas pelo plano B."""
+    if (anteriores.get("fontes") or {}).get("bandas") not in ("spotify", "spotify_guardado"):
+        return []
+    bandas = []
+    for registo in anteriores.get("bandas") or []:
+        url = registo.get("spotify") or ""
+        encontrado = re.search(r"/artist/(\w+)", url)
+        bandas.append({
+            "nome": registo["nome"],
+            "spotify_id": encontrado.group(1) if encontrado else None,
+            "spotify_url": url if encontrado else None,
+            "generos_spotify": [],
+        })
+    return bandas
+
+
 def obter_bandas(avisos):
-    """Devolve (bandas, origem, spotify). Plano B: bands.txt."""
+    """Devolve (bandas, origem, spotify).
+
+    Falha temporária (limite de pedidos, rede): usa a última lista do Spotify.
+    Recusa de acesso, ou sem lista guardada: plano B, o ficheiro bands.txt.
+    """
     client_id = os.environ.get("SPOTIFY_CLIENT_ID")
     segredo = os.environ.get("SPOTIFY_CLIENT_SECRET")
     refresh = os.environ.get("SPOTIFY_REFRESH_TOKEN")
-    spotify = None
     if client_id and segredo and refresh:
-        spotify = Spotify(client_id, segredo, refresh)
-        try:
-            artistas = spotify.artistas_seguidos()
-            if artistas:
-                return sem_repetidas(artistas), "spotify", spotify
-            avisos.append("O Spotify não devolveu artistas seguidos. Foi usada a lista bands.txt.")
-        except (ErroFonte, KeyError, TypeError) as erro:
-            avisos.append("Spotify indisponível (%s). Foi usada a lista bands.txt." % erro)
-        spotify = None
+        anteriores = carregar_dados_anteriores()
+        guardadas = lista_guardada(anteriores)
+        espera_ate = ler_data((anteriores.get("fontes") or {}).get("spotify_espera_ate"))
+        if espera_ate and espera_ate > agora():
+            # Respeita o pedido do Spotify: durante a espera, não lhe faz nenhum pedido.
+            ESPERA_SPOTIFY["ate"] = espera_ate.isoformat(timespec="seconds")
+            if guardadas:
+                avisos.append("O Spotify pediu para esperar. Foi usada a última lista de bandas.")
+                return sem_repetidas(guardadas), "spotify_guardado", None
+            avisos.append("O Spotify pediu para esperar. Foi usada a lista bands.txt.")
+        else:
+            spotify = Spotify(client_id, segredo, refresh)
+            try:
+                artistas = spotify.artistas_seguidos()
+                if artistas:
+                    return sem_repetidas(artistas), "spotify", spotify
+                avisos.append("O Spotify não devolveu artistas seguidos. Foi usada a lista bands.txt.")
+            except ErroFonte as erro:
+                anotar_espera_spotify(erro)
+                if erro.temporario and guardadas:
+                    avisos.append("Spotify indisponível (%s). Foi usada a última lista de bandas." % erro)
+                    return sem_repetidas(guardadas), "spotify_guardado", None
+                avisos.append("Spotify indisponível (%s). Foi usada a lista bands.txt." % erro)
+            except (KeyError, TypeError) as erro:
+                avisos.append("Spotify indisponível (%s). Foi usada a lista bands.txt." % type(erro).__name__)
     else:
         avisos.append("Spotify por ligar. Foi usada a lista bands.txt.")
     bandas = [{"nome": nome, "spotify_id": None, "spotify_url": None, "generos_spotify": []}
               for nome in ler_lista(FICHEIRO_BANDAS)]
-    return sem_repetidas(bandas), "bands.txt", spotify
+    return sem_repetidas(bandas), "bands.txt", None
 
 
 def sem_repetidas(bandas):
@@ -885,7 +935,8 @@ def obter_noticias(anteriores, avisos):
 
 def juntar_spotify(spotify, spotify_id, banda, hoje):
     """Nos lançamentos recentes, troca a procura pelo link e pela capa do próprio álbum."""
-    recentes = [l for l in banda["lancamentos"] if e_recente(l["data"], hoje)]
+    # Os que já têm o link do próprio álbum não precisam de novo pedido.
+    recentes = [l for l in banda["lancamentos"] if e_recente(l["data"], hoje) and "/album/" not in l["spotify"]]
     if not recentes:
         return
     por_titulo = {normalizar(l["titulo"]): l for l in recentes}
@@ -971,6 +1022,13 @@ def processar_bandas(bandas, spotify, avisos):
 
             lancamentos = (converter_lancamentos(nome, grupos) if grupos is not None
                            else antes.get("lancamentos", []))
+            # A capa e o link de um disco já encontrado no Spotify não mudam: reaproveitam-se.
+            ja_encontrados = {l.get("id"): l for l in antes.get("lancamentos", [])
+                              if "/album/" in l.get("spotify", "")}
+            for lancamento in lancamentos:
+                anterior = ja_encontrados.get(lancamento["id"])
+                if anterior:
+                    lancamento["capa"], lancamento["spotify"] = anterior["capa"], anterior["spotify"]
             registo = {
                 "id": chave,
                 "nome": nome,
@@ -985,6 +1043,7 @@ def processar_bandas(bandas, spotify, avisos):
                     juntar_spotify(spotify, banda["spotify_id"], registo, hoje)
                 except ErroFonte as erro:
                     print("  Spotify: %s" % erro)
+                    anotar_espera_spotify(erro)
                     avisos.append("Algumas capas e links do Spotify ficaram por obter (%s)." % erro)
                     spotify_ativo = False
 
@@ -1031,7 +1090,7 @@ def main():
     concertos = juntar_concertos(concertos_agenda, concertos_bandsintown(registos))
     anteriores = dados_anteriores.get("noticias", [])
     noticias, estado_feeds = obter_noticias(anteriores, avisos)
-    fontes.update({"bandas": origem, "feeds": estado_feeds})
+    fontes.update({"bandas": origem, "feeds": estado_feeds, "spotify_espera_ate": ESPERA_SPOTIFY["ate"]})
 
     dados = {
         "atualizado": agora().isoformat(timespec="seconds"),

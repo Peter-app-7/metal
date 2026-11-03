@@ -182,6 +182,71 @@ class Spotify(unittest.TestCase):
         self.assertTrue(bandas)
         self.assertIn("bands.txt", avisos[0])
 
+    AMBIENTE = {"SPOTIFY_CLIENT_ID": "i", "SPOTIFY_CLIENT_SECRET": "s", "SPOTIFY_REFRESH_TOKEN": "r"}
+    GUARDADOS = {"fontes": {"bandas": "spotify"}, "bandas": [
+        {"id": "a", "nome": "A", "spotify": "https://open.spotify.com/artist/abc1"},
+        {"id": "b", "nome": "B", "spotify": "https://open.spotify.com/search/B"},
+    ]}
+
+    def bandas_com(self, anteriores, **pedir):
+        avisos = []
+        a.ESPERA_SPOTIFY["ate"] = None
+        with mock.patch.dict(a.os.environ, self.AMBIENTE), \
+                mock.patch.object(a, "carregar_dados_anteriores", return_value=anteriores), \
+                mock.patch.object(a, "pedir", **pedir) as chamada:
+            bandas, origem, spotify = a.obter_bandas(avisos)
+        return bandas, origem, spotify, avisos, chamada
+
+    def test_limite_de_pedidos_usa_a_lista_guardada(self):
+        bandas, origem, spotify, avisos, _ = self.bandas_com(
+            self.GUARDADOS, side_effect=a.ErroFonte("api.spotify.com pediu para esperar 81051 s", espera=81051))
+        self.assertEqual(origem, "spotify_guardado")
+        self.assertEqual([b["nome"] for b in bandas], ["A", "B"])
+        self.assertEqual(bandas[0]["spotify_id"], "abc1")
+        self.assertEqual(bandas[0]["spotify_url"], "https://open.spotify.com/artist/abc1")
+        self.assertIsNone(bandas[1]["spotify_id"])
+        self.assertIsNone(spotify)
+        self.assertIn("última lista", avisos[0])
+        self.assertGreater(a.ler_data(a.ESPERA_SPOTIFY["ate"]), a.agora())
+
+    def test_sem_rede_usa_a_lista_guardada(self):
+        _, origem, _, _, _ = self.bandas_com(self.GUARDADOS, side_effect=a.ErroFonte("sem resposta"))
+        self.assertEqual(origem, "spotify_guardado")
+
+    def test_durante_a_espera_nao_faz_pedidos(self):
+        futuro = (a.agora() + timedelta(hours=5)).isoformat(timespec="seconds")
+        anteriores = {"fontes": {"bandas": "spotify_guardado", "spotify_espera_ate": futuro}, "bandas": self.GUARDADOS["bandas"]}
+        _, origem, _, _, chamada = self.bandas_com(anteriores, return_value=(200, b"{}"))
+        self.assertEqual(origem, "spotify_guardado")
+        chamada.assert_not_called()
+        self.assertEqual(a.ler_data(a.ESPERA_SPOTIFY["ate"]), a.ler_data(futuro))
+
+    def test_depois_da_espera_volta_a_pedir(self):
+        passado = (a.agora() - timedelta(hours=1)).isoformat()
+        anteriores = {"fontes": {"bandas": "spotify_guardado", "spotify_espera_ate": passado}, "bandas": self.GUARDADOS["bandas"]}
+        token = (200, json.dumps({"access_token": "t"}).encode())
+        pagina = (200, json.dumps({"artists": {"items": [{"id": "1", "name": "Nova"}], "next": None}}).encode())
+        bandas, origem, spotify, _, _ = self.bandas_com(anteriores, side_effect=[token, pagina])
+        self.assertEqual((origem, [b["nome"] for b in bandas]), ("spotify", ["Nova"]))
+        self.assertIsNotNone(spotify)
+        self.assertIsNone(a.ESPERA_SPOTIFY["ate"])
+
+    def test_recusa_de_acesso_usa_o_plano_b(self):
+        _, origem, _, avisos, _ = self.bandas_com(self.GUARDADOS, return_value=(400, b"{}"))
+        self.assertEqual(origem, "bands.txt")
+        self.assertIn("bands.txt", avisos[0])
+
+    def test_lista_que_veio_do_plano_b_nao_e_guardada(self):
+        anteriores = {"fontes": {"bandas": "bands.txt"}, "bandas": self.GUARDADOS["bandas"]}
+        _, origem, _, _, _ = self.bandas_com(anteriores, side_effect=a.ErroFonte("sem resposta"))
+        self.assertEqual(origem, "bands.txt")
+
+    def test_nao_pede_o_que_ja_tem_link_de_album(self):
+        s = mock.Mock()
+        banda = {"lancamentos": [{"titulo": "T", "data": "2026-10-01", "capa": "c", "spotify": "https://open.spotify.com/album/1"}]}
+        a.juntar_spotify(s, "x", banda, HOJE)
+        s.albuns.assert_not_called()
+
     def test_junta_link_e_capa(self):
         s = mock.Mock()
         s.albuns.return_value = iter([{"name": "Título!", "images": [{"url": "g"}, {"url": "m"}],
@@ -411,6 +476,15 @@ class FluxoCompleto(unittest.TestCase):
         self.assertEqual(registos[0]["lancamentos"][0]["spotify"], "https://s/album/1")
         self.assertEqual(registos[0]["lancamentos"][0]["capa"], "https://c")
         self.assertEqual(cache["thrasher"]["mbid"], "mb-t")
+
+    def test_reaproveita_capa_e_link_sem_pedir_ao_spotify(self):
+        recente = (a.agora().date() - timedelta(days=5)).isoformat()
+        anterior = {"bandas": [{"id": "thrasher", "lancamentos": [
+            {"id": "g", "titulo": "Novo", "data": recente, "capa": "https://guardada", "spotify": "https://open.spotify.com/album/9"}]}]}
+        with mock.patch.object(a, "carregar_dados_anteriores", return_value=anterior):
+            registos, _, _ = self.correr([self.banda("Thrasher", "t")])
+        l = registos[0]["lancamentos"][0]
+        self.assertEqual((l["capa"], l["spotify"]), ("https://guardada", "https://open.spotify.com/album/9"))
 
     def test_exclui_o_que_nao_e_musica(self):
         registos, fontes, _ = self.correr([
