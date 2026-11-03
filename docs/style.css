@@ -130,6 +130,20 @@ a { color: inherit; }
 }
 .dia-numero { font-size: 1.25rem; font-weight: 700; line-height: 1.1; }
 .dia-mes { font-size: .75rem; }
+.dia-semana { font-size: .7rem; }
+.concerto-bandas { font-weight: 400; }
+.banda-minha { font-weight: 700; color: var(--destaque); }
+.concerto-fonte { font-size: .75rem; }
+.aviso-agenda { margin: 8px 0; font-size: .9rem; font-weight: 600; color: var(--alerta); }
+.ligacao-fonte {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  margin-top: 12px;
+  font-size: .85rem;
+  color: var(--texto-suave);
+}
+.nota.nota-junta { margin: 0 0 4px; }
 .etiqueta-bilhetes { flex: none; font-size: .85rem; font-weight: 600; color: var(--destaque); }
 
 .contador { flex: none; font-size: .8rem; font-weight: 600; color: var(--destaque); white-space: nowrap; }

@@ -193,6 +193,184 @@ class Spotify(unittest.TestCase):
         self.assertEqual(banda["lancamentos"][0]["spotify"], "https://s/a")
 
 
+MINHAS = {a.chave_comparacao(n): {"nome": n, "categoria": c} for n, c in [
+    ("Moonspell", "Black"), ("Absu", "Thrash"), ("LIK", "Death"), ("1914", "Black"), ("Orthodox", "Nu/Metalcore"),
+    ("Primordial", "Black"), ("Slugdge", "Death"), ("Mgła", "Black"), ("The Vintage Caravan", "Outros"),
+    ("Dødheimsgard", "Black"), ("Irae", "Black"), ("Orbit Culture", "Death"), ("Soilwork", "Death"), ("Nu:n", "Outros"),
+]}
+
+
+class Agenda(unittest.TestCase):
+    def linha(self, texto):
+        return a.ler_linha_agenda(texto)
+
+    def test_linha_simples_e_campos(self):
+        r = self.linha("31/10/2026 – Moonspell + Nu:n – Hard Club (Porto)")
+        self.assertEqual(r, {"data": "2026-10-31", "bandas": ["Moonspell", "Nu:n"], "sala": "Hard Club",
+                             "cidade": "Porto", "evento": ""})
+
+    def test_tracos_e_espacos_diferentes(self):
+        for texto in ["31/10/2026 — Moonspell — Hard Club (Porto)", "31/10/2026 - Moonspell - Hard Club (Porto)",
+                      "31/10/2026  –   Moonspell   –  Hard Club   ( Porto )  ", "31/10/2026–Moonspell–Hard Club (Porto)"]:
+            r = self.linha(texto.strip())
+            self.assertEqual((r["bandas"], r["sala"], r["cidade"]), (["Moonspell"], "Hard Club", "Porto"), texto)
+
+    def test_hifen_dentro_de_nomes_nao_separa(self):
+        r = self.linha("24/10/2026 – Cult Of Alcaeus – X-Treme Bar (Castelo Branco)")
+        self.assertEqual((r["bandas"], r["sala"]), (["Cult Of Alcaeus"], "X-Treme Bar"))
+
+    def test_separadores_de_bandas(self):
+        self.assertEqual(self.linha("05/12/2026 – Moonspell w/ Orquestra Sinfonietta Lisboa – Multiusos (Alcobaça)")["bandas"],
+                         ["Moonspell", "Orquestra Sinfonietta Lisboa"])
+        self.assertEqual(self.linha("05/12/2026 – Um & Dois + Três – Sala (Porto)")["bandas"], ["Um", "Dois", "Três"])
+        self.assertEqual(self.linha("19/11/2026 – Flotsam and Jetsam – RCA Club (Lisboa)")["bandas"], ["Flotsam and Jetsam"])
+
+    def test_e_comercial_de_banda_seguida_fica(self):
+        minhas = frozenset({a.chave_comparacao("Nick Cave & The Bad Seeds")})
+        r = a.ler_linha_agenda("05/12/2026 – Nick Cave & The Bad Seeds + Outra – Sala (Porto)", minhas)
+        self.assertEqual(r["bandas"], ["Nick Cave & The Bad Seeds", "Outra"])
+
+    def test_evento_cidade_com_traco_e_sem_sala(self):
+        r = self.linha("07/11/2026 – Banana Bong Fest – Idle Hand + Trasgo – CAAA Black Box (Guimarães)")
+        self.assertEqual((r["evento"], r["bandas"], r["sala"], r["cidade"]),
+                         ("Banana Bong Fest", ["Idle Hand", "Trasgo"], "CAAA Black Box", "Guimarães"))
+        r = self.linha("21/11/2026 – Namek + Morto – Fashion Club (Santa Cruz – Madeira)")
+        self.assertEqual((r["evento"], r["sala"], r["cidade"]), ("", "Fashion Club", "Santa Cruz – Madeira"))
+        r = self.linha("31/10/2026 – Flavius Horrendus – (Chaves)")
+        self.assertEqual((r["bandas"], r["sala"], r["cidade"]), (["Flavius Horrendus"], "", "Chaves"))
+
+    def test_acentos(self):
+        self.assertEqual(self.linha("11/12/2026 – Pé Roto + Mães Solteiras – Válega (Grijó)")["bandas"], ["Pé Roto", "Mães Solteiras"])
+
+    def test_formato_diferente(self):
+        for texto in ["2026-10-31 – Moonspell – Hard Club (Porto)", "31/10/2026 Moonspell no Hard Club",
+                      "31/02/2026 – Moonspell – Hard Club (Porto)", "Outubro 2026", ""]:
+            self.assertIsNone(self.linha(texto), texto)
+
+    def test_pagina_html_real(self):
+        pagina = """<html><head><style>p{}</style><script>var x="31/10/2026 – Falso – Falso (Falso)";</script></head>
+        <body><p style="x">Atualizado a 22.10.2026</p><h2>Outubro 2026</h2>
+        <p>31/10/2026 &#8211; Moonspell + <strong>Nu:n</strong> &#8211; Hard&nbsp;Club (Porto)<br />
+        01/11/2026 – Eden´s Apple – Mouco (Porto)</p><p>31/10/2026 sem formato</p></body></html>"""
+        lidos, rejeitadas, atualizada = a.analisar_agenda(pagina)
+        self.assertEqual(atualizada, "2026-10-22")
+        self.assertEqual([l["bandas"] for l in lidos], [["Moonspell", "Nu:n"], ["Eden´s Apple"]])
+        self.assertEqual(lidos[0]["sala"], "Hard Club")
+        self.assertEqual(rejeitadas, ["31/10/2026 sem formato"])
+
+    def test_chave_de_comparacao(self):
+        self.assertEqual(a.chave_comparacao("The Vintage Caravan"), "vintage caravan")
+        self.assertEqual(a.chave_comparacao("Vintage Caravan"), "vintage caravan")
+        self.assertEqual(a.chave_comparacao("Mgła"), "mgla")
+        self.assertEqual(a.chave_comparacao("Dødheimsgard"), "dodheimsgard")
+        self.assertEqual(a.chave_comparacao("Sněť"), "snet")
+        self.assertEqual(a.chave_comparacao("The"), "the")
+        self.assertEqual(a.chave_comparacao("Nu:n"), a.chave_comparacao("nu n"))
+
+    def lido(self, *bandas):
+        return {"data": "2026-12-01", "bandas": list(bandas), "sala": "S", "cidade": "Porto", "evento": ""}
+
+    def test_correspondencia_por_nome_completo(self):
+        for nome in ["Absurd", "Absu Tribute", "Liking", "Lik Lik", "1914 Tribute", "19141", "Orthodoxy", "Primordial Abyss",
+                     "Slugdge Band", "Unorthodox", "Moonspells", "Vintage", "Caravan"]:
+            self.assertIsNone(a.concerto_da_agenda(self.lido(nome), MINHAS), nome)
+        for nome in ["Absu", "LIK", "lik", "1914", "ORTHODOX", "Primordial", "Slugdge", "Mgla", "Vintage Caravan",
+                     "The Vintage Caravan", "Dodheimsgard", "Moonspell"]:
+            self.assertIsNotNone(a.concerto_da_agenda(self.lido(nome), MINHAS), nome)
+
+    def test_destaca_as_minhas_e_junta_categorias(self):
+        r = a.concerto_da_agenda(self.lido("Amon Amarth", "Orbit Culture", "Irae"), MINHAS)
+        self.assertEqual(r["bandas"], [{"nome": "Amon Amarth", "minha": False}, {"nome": "Orbit Culture", "minha": True},
+                                       {"nome": "Irae", "minha": True}])
+        self.assertEqual(r["categorias"], ["Death", "Black"])
+        self.assertEqual(r["fontes"], ["Caminhos Metálicos"])
+        self.assertEqual(r["link"], a.URL_AGENDA)
+        self.assertFalse(r["tem_bilhetes"])
+
+    def test_quase_correspondencias_nao_sao_aceites(self):
+        lidos = [self.lido("Moonspel"), self.lido("Moonspell Orchestra"), self.lido("Slugde"), self.lido("Besta"), self.lido("Absu")]
+        pares = {(p["agenda"], p["banda"]) for p in a.quase_correspondencias(lidos, MINHAS)}
+        self.assertEqual(pares, {("Moonspel", "Moonspell"), ("Moonspell Orchestra", "Moonspell"), ("Slugde", "Slugdge")})
+        self.assertIsNone(a.concerto_da_agenda(self.lido("Moonspel"), MINHAS))
+
+    PAGINA = "<p>Atualizado a 22.10.2026</p><p>01/01/2020 – Moonspell – Velha (Porto)</p><p>01/12/2099 – Moonspell + Outra – Nova (Porto)</p><p>02/12/2099 – Outra – Nova (Porto)</p>"
+
+    def agenda(self, resposta=None, erro=None, anteriores=()):
+        avisos = []
+        efeito = {"side_effect": erro} if erro else {"return_value": resposta}
+        with mock.patch.object(a, "pedir", **efeito) as pedir:
+            concertos, estado = a.obter_agenda(MINHAS, list(anteriores), HOJE, avisos)
+        return concertos, estado, avisos, pedir
+
+    def test_datas_passadas_ignoradas_e_uma_so_leitura(self):
+        concertos, estado, avisos, pedir = self.agenda((200, self.PAGINA.encode()))
+        self.assertEqual([c["data"] for c in concertos], ["2099-12-01"])
+        self.assertEqual((estado["estado"], estado["linhas"], estado["futuras"], estado["minhas"], estado["atualizada"]),
+                         ("ok", 3, 2, 1, "2026-10-22"))
+        self.assertEqual(avisos, [])
+        pedir.assert_called_once()
+        self.assertEqual(pedir.call_args[1]["tentativas"], 1)
+
+    ANTERIOR = [
+        {"id": "x", "data": "2099-12-01", "bandas": [{"nome": "Moonspell", "minha": True}, {"nome": "Outra", "minha": False}],
+         "categorias": ["Black"], "sala": "S", "cidade": "Porto", "evento": "", "fontes": ["Caminhos Metálicos"], "link": a.URL_AGENDA},
+        {"id": "y", "data": "2020-01-01", "bandas": [{"nome": "Moonspell", "minha": True}], "categorias": ["Black"],
+         "sala": "S", "cidade": "Porto", "evento": "", "fontes": ["Caminhos Metálicos"], "link": a.URL_AGENDA},
+        {"id": "z", "data": "2099-12-02", "bandas": [{"nome": "Absu", "minha": True}], "categorias": ["Thrash"],
+         "sala": "S", "cidade": "Porto", "evento": "", "fontes": ["Bandsintown"], "link": "https://b"},
+    ]
+
+    def test_falhas_mantem_os_guardados(self):
+        casos = {
+            "403": {"resposta": (403, b"")},
+            "formato mudou": {"resposta": (200, b"<p>Nova pagina sem concertos</p>")},
+            "pagina em falta": {"resposta": (404, b"")},
+            "sem rede": {"erro": a.ErroFonte("sem resposta")},
+            "erro inesperado": {"erro": RuntimeError("x")},
+        }
+        for nome, caso in casos.items():
+            concertos, estado, avisos, _ = self.agenda(anteriores=self.ANTERIOR, **caso)
+            self.assertEqual(estado["estado"], "indisponivel", nome)
+            self.assertEqual([c["data"] for c in concertos], ["2099-12-01"], nome)
+            self.assertEqual(concertos[0]["bandas"][1], {"nome": "Outra", "minha": False}, nome)
+            self.assertEqual(len(avisos), 1, nome)
+
+    def test_erros_nao_mostram_enderecos(self):
+        _, estado, avisos, _ = self.agenda(erro=a.ErroFonte("x"))
+        self.assertNotIn("http", avisos[0])
+
+    def bit(self, data, cidade, banda, bilhetes=True, ident="b"):
+        return {"id": ident, "data": data, "bandas": [{"nome": banda, "minha": True}], "categorias": ["Black"], "sala": "SB",
+                "cidade": cidade, "evento": "", "fontes": ["Bandsintown"], "link": "https://bilhetes", "tem_bilhetes": bilhetes}
+
+    def test_duplicados_entre_fontes(self):
+        cm = a.concerto_da_agenda(dict(self.lido("Moonspell", "Outra"), cidade="Lisboa"), MINHAS)
+        r = a.juntar_concertos([cm], [self.bit("2026-12-01T21:00:00", "Lisbon", "Moonspell")])
+        self.assertEqual(len(r), 1)
+        self.assertEqual(r[0]["fontes"], ["Caminhos Metálicos", "Bandsintown"])
+        self.assertEqual(r[0]["link"], "https://bilhetes")
+        self.assertTrue(r[0]["tem_bilhetes"])
+        self.assertEqual(r[0]["data"], "2026-12-01T21:00:00")
+        self.assertEqual(len(r[0]["bandas"]), 2)
+
+    def test_nao_junta_o_que_e_diferente(self):
+        cm = a.concerto_da_agenda(dict(self.lido("Moonspell"), cidade="Porto"), MINHAS)
+        for outro in [self.bit("2026-12-02T21:00:00", "Porto", "Moonspell"), self.bit("2026-12-01T21:00:00", "Faro", "Moonspell"),
+                      self.bit("2026-12-01T21:00:00", "Porto", "Irae")]:
+            self.assertEqual(len(a.juntar_concertos([cm], [outro])), 2)
+
+    def test_bandsintown_sem_agenda_e_ordem(self):
+        registos = [
+            {"nome": "A", "categoria": "Black", "concertos": [{"id": "1", "data": "2026-12-09T21:00:00", "cidade": "Porto", "sala": "S", "bilhetes": "https://b", "tem_bilhetes": True}]},
+            {"nome": "B", "categoria": "Death", "concertos": [{"id": "1", "data": "2026-12-09T21:00:00", "cidade": "Porto", "sala": "S", "bilhetes": "https://b", "tem_bilhetes": True},
+                                                               {"id": "2", "data": "2026-12-02T21:00:00", "cidade": "Faro", "sala": "T", "bilhetes": "https://c", "tem_bilhetes": False}]},
+        ]
+        r = a.juntar_concertos([], a.concertos_bandsintown(registos))
+        self.assertEqual([c["data"][:10] for c in r], ["2026-12-02", "2026-12-09"])
+        self.assertEqual([b["nome"] for b in r[1]["bandas"]], ["A", "B"])
+        self.assertEqual(r[1]["categorias"], ["Black", "Death"])
+
+
 class FluxoCompleto(unittest.TestCase):
     """Percorre processar_bandas com fontes falsas, como numa corrida com o Spotify ligado."""
 

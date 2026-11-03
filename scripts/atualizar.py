@@ -6,6 +6,7 @@ As chaves vêm de variáveis de ambiente (GitHub Secrets) e nunca são escritas 
 Sem chaves, corre na mesma: usa bands.txt e deixa os concertos por ativar.
 """
 import base64
+import difflib
 import html
 import json
 import os
@@ -28,6 +29,10 @@ FICHEIRO_BANDAS = RAIZ / "bands.txt"
 FICHEIRO_CATEGORIAS = RAIZ / "categorias.json"
 FICHEIRO_FEEDS = RAIZ / "feeds.txt"
 FICHEIRO_MBID_MANUAL = RAIZ / "mbid_manual.json"
+
+FONTE_AGENDA = "Caminhos Metálicos"
+URL_AGENDA = "https://www.caminhosmetalicos.com/agenda/"
+FONTE_BANDSINTOWN = "Bandsintown"
 
 USER_AGENT = "metal-app/1.0 (+https://github.com/Peter-app-7/metal)"
 DIAS_RECENTES = 365
@@ -544,6 +549,245 @@ class Bandsintown:
         return filtrar_concertos(dados, hoje)
 
 
+# --- Agenda do Caminhos Metálicos -----------------------------------------------
+
+# Letras que a normalização Unicode não separa do acento ("Mgła", "Dødheimsgard").
+LETRAS_ESPECIAIS = str.maketrans({"ł": "l", "ø": "o", "đ": "d", "ß": "ss", "æ": "ae", "œ": "oe", "þ": "th", "ð": "d"})
+# A Bandsintown usa os nomes ingleses das cidades.
+CIDADES_IGUAIS = {"lisbon": "lisboa", "oporto": "porto"}
+
+
+def chave_comparacao(nome):
+    """Nome para comparar bandas: minúsculas, sem acentos, pontuação nem "the" inicial."""
+    texto = normalizar(nome.lower().translate(LETRAS_ESPECIAIS))
+    sem_the = re.sub(r"^the\s+", "", texto)
+    return sem_the or texto
+
+
+def chave_cidade(cidade):
+    texto = normalizar(cidade)
+    return CIDADES_IGUAIS.get(texto, texto)
+
+
+def separar_bandas(texto, minhas=frozenset()):
+    """Separa por "+", "w/" ou "&". O "&" fica se fizer parte do nome de uma banda seguida."""
+    bandas = []
+    for parte in re.split(r"\s*\+\s*|\s+w/\s*", texto, flags=re.IGNORECASE):
+        parte = parte.strip()
+        if not parte:
+            continue
+        if chave_comparacao(parte) in minhas:
+            bandas.append(parte)
+        else:
+            bandas += [p.strip() for p in re.split(r"\s+&\s+", parte) if p.strip()]
+    return bandas
+
+
+def texto_da_pagina(pagina):
+    """Texto da página HTML, com uma linha por parágrafo."""
+    texto = re.sub(r"(?is)<(script|style)\b.*?</\1>", " ", pagina)
+    texto = re.sub(r"(?i)<br\s*/?>|</(p|li|h[1-6]|div|tr)>", "\n", texto)
+    texto = html.unescape(re.sub(r"<[^>]+>", "", texto)).replace("\xa0", " ")
+    return [re.sub(r"[ \t]+", " ", linha).strip() for linha in texto.splitlines()]
+
+
+def ler_linha_agenda(linha, minhas=frozenset()):
+    """Lê uma linha. Devolve None se não for um concerto no formato conhecido.
+
+    Formas reais: "Banda + Banda – Sala (Cidade)", "Evento – Banda + Banda – Sala (Cidade)",
+    "Banda – (Cidade)" e "Banda – Sala (Santa Cruz – Madeira)".
+    """
+    encontrado = re.match(r"^(\d{1,2})[/.-](\d{1,2})[/.-](\d{4})\s*[–—-]\s*(.+)$", linha)
+    if not encontrado:
+        return None
+    dia, mes, ano, resto = encontrado.groups()
+    try:
+        data = date(int(ano), int(mes), int(dia))
+    except ValueError:
+        return None
+    # A cidade sai primeiro, porque pode ter um traço lá dentro.
+    cidade = ""
+    parenteses = re.search(r"\(([^()]*)\)\s*$", resto)
+    if parenteses:
+        cidade = parenteses.group(1).strip()
+        resto = resto[:parenteses.start()]
+    partes = [p.strip() for p in re.split(r"\s*[–—]\s*|\s+-\s+|\s+-$", resto)]
+    tem_sala_ou_cidade = len(partes) >= 2 or bool(cidade)
+    if not tem_sala_ou_cidade or not partes[0]:
+        return None
+    evento, sala = "", ""
+    if len(partes) == 1:
+        bandas_texto = partes[0]
+    elif len(partes) == 2:
+        bandas_texto, sala = partes
+    else:
+        evento, sala = partes[0], partes[-1]
+        bandas_texto = " – ".join(partes[1:-1])
+    bandas = separar_bandas(bandas_texto, minhas)
+    if not bandas:
+        return None
+    return {"data": data.isoformat(), "bandas": bandas, "sala": sala, "cidade": cidade, "evento": evento}
+
+
+def analisar_agenda(pagina, minhas=frozenset()):
+    """Devolve (concertos lidos, linhas com data que não se perceberam, data de atualização)."""
+    concertos, rejeitadas, atualizada = [], [], None
+    for linha in texto_da_pagina(pagina):
+        marca = re.search(r"Atuali[sz]ado a\s*(\d{1,2})[./-](\d{1,2})[./-](\d{4})", linha)
+        if marca and not atualizada:
+            try:
+                atualizada = date(int(marca.group(3)), int(marca.group(2)), int(marca.group(1))).isoformat()
+            except ValueError:
+                pass
+        if not re.match(r"^\d{1,2}[/.-]\d{1,2}[/.-]\d{4}\b", linha):
+            continue
+        concerto = ler_linha_agenda(linha, minhas)
+        if concerto:
+            concertos.append(concerto)
+        else:
+            rejeitadas.append(linha[:150])
+    return concertos, rejeitadas, atualizada
+
+
+def mapa_das_minhas_bandas(registos):
+    return {chave_comparacao(r["nome"]): r for r in registos}
+
+
+def concerto_da_agenda(lido, minhas):
+    """Transforma uma linha lida num concerto, ou None se não tiver nenhuma banda seguida."""
+    bandas, categorias = [], []
+    for nome in lido["bandas"]:
+        registo = minhas.get(chave_comparacao(nome))
+        bandas.append({"nome": nome, "minha": bool(registo)})
+        if registo and registo["categoria"] not in categorias:
+            categorias.append(registo["categoria"])
+    if not categorias:
+        return None
+    return {
+        "id": "cm-%s-%s-%s" % (lido["data"], chave_cidade(lido["cidade"]), chave_comparacao(lido["bandas"][0])),
+        "data": lido["data"],
+        "bandas": bandas,
+        "categorias": categorias,
+        "sala": lido["sala"],
+        "cidade": lido["cidade"],
+        "evento": lido.get("evento", ""),
+        "fontes": [FONTE_AGENDA],
+        "link": URL_AGENDA,
+        "tem_bilhetes": False,
+    }
+
+
+def quase_correspondencias(lidos, minhas):
+    """Nomes da agenda parecidos com uma banda seguida, mas que não foram aceites."""
+    pares = {}
+    for nome in {n for lido in lidos for n in lido["bandas"]}:
+        chave = chave_comparacao(nome)
+        if chave in minhas or len(chave) < 3:
+            continue
+        palavras = " %s " % chave
+        for minha, registo in minhas.items():
+            pequena, grande = sorted((chave, minha), key=len)
+            palavra_inteira = len(pequena) >= 4 and " %s " % pequena in " %s " % grande
+            parecida = (min(len(chave), len(minha)) >= 4 and difflib.SequenceMatcher(
+                None, chave.replace(" ", ""), minha.replace(" ", "")).ratio() >= 0.84)
+            if palavra_inteira or parecida:
+                pares[(nome, registo["nome"])] = True
+    return [{"agenda": a, "banda": b} for a, b in sorted(pares)]
+
+
+def obter_agenda(minhas, anteriores, hoje, avisos):
+    """Lê a agenda uma vez. Se falhar, mantém os concertos guardados e nunca rebenta."""
+    estado = {"estado": "ok", "linhas": 0, "futuras": 0, "rejeitadas": [], "quase": [], "atualizada": None}
+    erro = None
+    lidos = []
+    try:
+        codigo, dados = pedir(URL_AGENDA, tentativas=1)
+        if codigo != 200:
+            erro = "HTTP %d" % codigo
+        else:
+            lidos, estado["rejeitadas"], estado["atualizada"] = analisar_agenda(
+                dados.decode("utf-8", "replace"), frozenset(minhas))
+            if not lidos:
+                erro = "nenhuma linha lida: o formato da página pode ter mudado"
+    except Exception as falha:  # uma falha desta fonte nunca pode parar a Action
+        erro = str(falha) if isinstance(falha, ErroFonte) else type(falha).__name__
+
+    if erro:
+        print("Agenda: %s" % erro)
+        avisos.append("Agenda do Caminhos Metálicos indisponível (%s). Ficaram os concertos guardados." % erro)
+        estado.update({"estado": "indisponivel", "erro": erro})
+        guardados = [c for c in anteriores if FONTE_AGENDA in c.get("fontes", [])]
+        lidos = [{"data": c["data"][:10], "bandas": [b["nome"] for b in c["bandas"]], "sala": c.get("sala", ""),
+                  "cidade": c.get("cidade", ""), "evento": c.get("evento", "")} for c in guardados]
+    else:
+        estado["linhas"] = len(lidos)
+        estado["quase"] = quase_correspondencias(lidos, minhas)
+        if estado["rejeitadas"]:
+            print("Agenda: %d linhas não percebidas" % len(estado["rejeitadas"]))
+            for linha in estado["rejeitadas"]:
+                print("  " + linha)
+
+    futuros = [l for l in lidos if l["data"] >= hoje.isoformat()]
+    if not erro:
+        estado["futuras"] = len(futuros)
+    concertos = [c for c in (concerto_da_agenda(l, minhas) for l in futuros) if c]
+    if not erro:
+        estado["minhas"] = len(concertos)
+    return concertos, estado
+
+
+def concertos_bandsintown(registos):
+    """Converte os concertos guardados em cada banda. Um festival fica um só concerto."""
+    por_id = {}
+    for registo in registos:
+        for concerto in registo.get("concertos") or []:
+            novo = por_id.setdefault(concerto["id"], {
+                "id": "bit-" + concerto["id"],
+                "data": concerto["data"],
+                "bandas": [],
+                "categorias": [],
+                "sala": concerto.get("sala", ""),
+                "cidade": concerto.get("cidade", ""),
+                "evento": "",
+                "fontes": [FONTE_BANDSINTOWN],
+                "link": concerto.get("bilhetes"),
+                "tem_bilhetes": bool(concerto.get("tem_bilhetes")),
+            })
+            novo["bandas"].append({"nome": registo["nome"], "minha": True})
+            if registo["categoria"] not in novo["categorias"]:
+                novo["categorias"].append(registo["categoria"])
+    return list(por_id.values())
+
+
+def juntar_concertos(*listas):
+    """Junta as fontes por ordem. Mesma data, mesma cidade e uma banda em comum é o mesmo concerto."""
+    resultado, indice = [], {}
+    for lista in listas:
+        for concerto in lista:
+            chaves = [(concerto["data"][:10], chave_cidade(concerto["cidade"]), chave_comparacao(b["nome"]))
+                      for b in concerto["bandas"]]
+            existente = next((indice[c] for c in chaves if c in indice), None)
+            if existente is None:
+                existente = dict(concerto, fontes=list(concerto["fontes"]))
+                resultado.append(existente)
+            else:
+                for fonte in concerto["fontes"]:
+                    if fonte not in existente["fontes"]:
+                        existente["fontes"].append(fonte)
+                for categoria in concerto["categorias"]:
+                    if categoria not in existente["categorias"]:
+                        existente["categorias"].append(categoria)
+                # A agenda não tem hora nem bilhetes: aproveita os da outra fonte.
+                if len(concerto["data"]) > len(existente["data"]):
+                    existente["data"] = concerto["data"]
+                if concerto.get("tem_bilhetes") and not existente.get("tem_bilhetes"):
+                    existente["link"], existente["tem_bilhetes"] = concerto["link"], True
+            for chave in chaves:
+                indice.setdefault(chave, existente)
+    resultado.sort(key=lambda c: (c["data"][:10], c["data"]))
+    return resultado
+
+
 # --- Notícias -------------------------------------------------------------------
 
 def nome_local(elemento):
@@ -781,7 +1025,11 @@ def main():
     print("Bandas: %d (origem: %s)" % (len(bandas), origem), flush=True)
 
     registos, fontes = processar_bandas(bandas, spotify, avisos)
-    anteriores = carregar_dados_anteriores().get("noticias", [])
+    dados_anteriores = carregar_dados_anteriores()
+    concertos_agenda, fontes["agenda"] = obter_agenda(
+        mapa_das_minhas_bandas(registos), dados_anteriores.get("concertos", []), agora().date(), avisos)
+    concertos = juntar_concertos(concertos_agenda, concertos_bandsintown(registos))
+    anteriores = dados_anteriores.get("noticias", [])
     noticias, estado_feeds = obter_noticias(anteriores, avisos)
     fontes.update({"bandas": origem, "feeds": estado_feeds})
 
@@ -790,10 +1038,14 @@ def main():
         "fontes": fontes,
         "avisos": avisos,
         "bandas": registos,
+        "concertos": concertos,
         "noticias": noticias,
     }
     FICHEIRO_DADOS.write_text(json.dumps(dados, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
-    print("Feito: %d bandas, %d notícias, %d avisos." % (len(registos), len(noticias), len(avisos)))
+    print("Feito: %d bandas, %d concertos, %d notícias, %d avisos." % (len(registos), len(concertos), len(noticias), len(avisos)))
+    agenda = fontes["agenda"]
+    print("Agenda: %s, %d linhas lidas, %d futuras, %d com bandas seguidas, %d quase correspondências, atualizada a %s." % (
+        agenda["estado"], agenda["linhas"], agenda["futuras"], agenda.get("minhas", 0), len(agenda["quase"]), agenda["atualizada"]))
     for aviso in avisos:
         print("Aviso: " + aviso)
     return 0

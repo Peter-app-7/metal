@@ -156,32 +156,56 @@ function linhaLancamento(lancamento, nomeBanda) {
   );
 }
 
-function linhaConcerto(concerto, nomesBandas) {
-  const data = new Date(concerto.data);
-  const valida = !Number.isNaN(data.getTime());
+// A data pode trazer só o dia (agenda) ou também a hora (Bandsintown), sem fuso: é a hora local.
+function lerDataConcerto(texto) {
+  const partes = /^(\d{4})-(\d{2})-(\d{2})(?:T(\d{2}):(\d{2}))?/.exec(String(texto || ''));
+  if (!partes) return null;
+  const [, ano, mes, dia, horas, minutos] = partes;
+  return {
+    data: new Date(Number(ano), Number(mes) - 1, Number(dia), Number(horas || 0), Number(minutos || 0)),
+    temHora: horas !== undefined,
+  };
+}
+
+function eConcertoFuturo(concerto) {
+  const hoje = new Date();
+  const mes = String(hoje.getMonth() + 1).padStart(2, '0');
+  const dia = String(hoje.getDate()).padStart(2, '0');
+  return String(concerto.data).slice(0, 10) >= `${hoje.getFullYear()}-${mes}-${dia}`;
+}
+
+function linhaConcerto(concerto) {
+  const lida = lerDataConcerto(concerto.data);
+  const data = lida && lida.data;
+  const ano = data && data.getFullYear() !== new Date().getFullYear() ? ` ${data.getFullYear()}` : '';
   const local = [concerto.sala, concerto.cidade].filter(Boolean).join(' · ');
-  const ano = valida && data.getFullYear() !== new Date().getFullYear() ? ` ${data.getFullYear()}` : '';
-  const quando = valida ? `${DIAS_SEMANA[data.getDay()]}${ano} · ${hora(data)}` : '';
+  const titulo = el('span', { class: 'linha-titulo concerto-bandas' });
+  concerto.bandas.forEach((banda, indice) => {
+    if (indice) titulo.append(' + ');
+    titulo.append(el('span', { class: banda.minha ? 'banda-minha' : 'banda-outra' }, banda.nome));
+  });
+  const etiqueta = concerto.tem_bilhetes ? 'Bilhetes ↗' : (concerto.fontes.includes('Caminhos Metálicos') ? 'Agenda ↗' : 'Ver ↗');
   return linhaLink(
-    concerto.bilhetes,
+    concerto.link,
     el('span', { class: 'dia' },
-      el('span', { class: 'dia-numero' }, valida ? String(data.getDate()) : '?'),
-      el('span', { class: 'dia-mes' }, valida ? MESES[data.getMonth()] : '')),
+      el('span', { class: 'dia-semana' }, data ? DIAS_SEMANA[data.getDay()] : ''),
+      el('span', { class: 'dia-numero' }, data ? String(data.getDate()) : '?'),
+      el('span', { class: 'dia-mes' }, data ? `${MESES[data.getMonth()]}${ano}` : '')),
     el('span', { class: 'linha-texto' },
-      el('span', { class: 'linha-titulo' }, nomesBandas),
+      titulo,
+      concerto.evento ? el('span', { class: 'linha-detalhe' }, concerto.evento) : null,
       el('span', { class: 'linha-detalhe' }, local),
-      el('span', { class: 'linha-detalhe' }, quando)),
-    el('span', { class: 'etiqueta-bilhetes' }, concerto.tem_bilhetes ? 'Bilhetes ↗' : 'Ver ↗'),
+      lida && lida.temHora ? el('span', { class: 'linha-detalhe' }, hora(data)) : null,
+      el('span', { class: 'linha-detalhe concerto-fonte' }, `Fonte: ${concerto.fontes.join(' · ')}`)),
+    el('span', { class: 'etiqueta-bilhetes' }, etiqueta),
   );
 }
 
-function mensagemSemConcertos() {
+function notaBandsintown() {
   const estado = dados.fontes && dados.fontes.concertos;
-  if (estado === 'sem_app_id') {
-    return 'Ainda não há concertos para mostrar: falta a chave (app_id) da Bandsintown. Quando estiver ligada, os próximos concertos em Portugal aparecem aqui.';
-  }
-  if (estado === 'recusado') return 'Não há concertos para mostrar: a Bandsintown recusou a chave (app_id).';
-  return filtro === 'Todas' ? 'Não há concertos marcados em Portugal.' : 'Sem concertos marcados em Portugal nesta categoria.';
+  if (estado === 'sem_app_id') return 'A Bandsintown está por ativar.';
+  if (estado === 'recusado') return 'A Bandsintown recusou a chave.';
+  return null;
 }
 
 // --- Ecrã Bandas ----------------------------------------------------------------
@@ -335,25 +359,35 @@ function desenharBanda(id) {
 // --- Ecrã Concertos -------------------------------------------------------------
 
 function desenharConcertos() {
-  // Um festival aparece em várias bandas: junta-as num só concerto.
-  const unicos = new Map();
-  for (const banda of bandasFiltradas()) {
-    for (const concerto of banda.concertos) {
-      if (!unicos.has(concerto.id)) unicos.set(concerto.id, { concerto, nomes: [] });
-      unicos.get(concerto.id).nomes.push(banda.nome);
-    }
-  }
-  const ordenados = [...unicos.values()].sort((a, b) => (a.concerto.data > b.concerto.data ? 1 : -1));
+  const agenda = (dados.fontes && dados.fontes.agenda) || {};
+  const todos = (dados.concertos || []).filter(eConcertoFuturo);
+  const visiveis = filtro === 'Todas' ? todos : todos.filter((c) => c.categorias.includes(filtro));
   const lista = el('ul', { class: 'lista' });
-  for (const { concerto, nomes } of ordenados) {
-    lista.append(el('li', null, linhaConcerto(concerto, nomes.join(', '))));
-  }
-  conteudo.replaceChildren(
+  for (const concerto of visiveis) lista.append(el('li', null, linhaConcerto(concerto)));
+
+  const semConcertos = !visiveis.length;
+  const mensagem = todos.length
+    ? 'Nenhum concerto das tuas bandas nesta categoria.'
+    : 'Nenhum concerto das tuas bandas na agenda neste momento';
+  const nota = semConcertos ? notaBandsintown() : null;
+  const dataAgenda = lerDataConcerto(agenda.atualizada);
+  const site = el('a', {
+    class: 'ligacao-fonte',
+    href: 'https://www.caminhosmetalicos.com/',
+    target: '_blank',
+    rel: 'noopener noreferrer',
+  }, 'Agenda: Caminhos Metálicos');
+
+  mostrar(
     el('h1', null, 'Concertos'),
     desenharFiltros(),
     el('h2', null, 'Próximos concertos em Portugal'),
-    ordenados.length ? lista : el('p', { class: 'vazio' }, mensagemSemConcertos()),
-    el('p', { class: 'nota' }, 'Concertos: Bandsintown.'),
+    agenda.estado === 'indisponivel' ? el('p', { class: 'aviso-agenda' }, 'Agenda temporariamente indisponível') : null,
+    // Com a agenda em baixo e nada guardado, não se sabe se há concertos: fica só o aviso.
+    !semConcertos ? lista : (agenda.estado === 'indisponivel' && !todos.length ? null : el('p', { class: 'vazio' }, mensagem)),
+    nota ? el('p', { class: 'nota nota-junta' }, nota) : null,
+    site,
+    dataAgenda ? el('p', { class: 'nota nota-junta' }, `Agenda atualizada pelo site a ${diaMes(dataAgenda.data)} ${dataAgenda.data.getFullYear()}.`) : null,
   );
 }
 
