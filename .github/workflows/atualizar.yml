@@ -24,7 +24,6 @@ jobs:
           SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
           SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
           SPOTIFY_REFRESH_TOKEN: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
-          BANDSINTOWN_APP_ID: ${{ secrets.BANDSINTOWN_APP_ID }}
         run: python3 scripts/atualizar.py
 
       # Corre mesmo depois de uma falha, para não se perder a cache do MusicBrainz.

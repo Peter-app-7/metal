@@ -3,7 +3,7 @@
 
 Só usa a biblioteca padrão do Python, por isso não é preciso instalar nada.
 As chaves vêm de variáveis de ambiente (GitHub Secrets) e nunca são escritas nos dados.
-Sem chaves, corre na mesma: usa bands.txt e deixa os concertos por ativar.
+Sem chaves, corre na mesma: usa bands.txt.
 """
 import base64
 import difflib
@@ -33,7 +33,6 @@ FICHEIRO_FESTIVAIS = RAIZ / "festivais.json"
 
 FONTE_AGENDA = "Caminhos Metálicos"
 URL_AGENDA = "https://www.caminhosmetalicos.com/agenda/"
-FONTE_BANDSINTOWN = "Bandsintown"
 
 USER_AGENT = "metal-app/1.0 (+https://github.com/Peter-app-7/metal)"
 DIAS_RECENTES = 365
@@ -546,66 +545,10 @@ def nao_e_musica(generos):
     return any(GENEROS_NAO_MUSICA.search(normalizar(g)) for g in generos)
 
 
-# --- Bandsintown ----------------------------------------------------------------
-
-PAIS_PORTUGAL = {"portugal", "pt", "prt"}
-
-
-def nome_para_bandsintown(nome):
-    """A documentação pede estes caracteres duplamente codificados."""
-    texto = urllib.parse.quote(nome, safe="")
-    return (texto.replace("%2F", "%252F").replace("%3F", "%253F")
-            .replace("%2A", "%252A").replace("%22", "%27C"))
-
-
-def filtrar_concertos(eventos, hoje):
-    concertos = []
-    for evento in eventos if isinstance(eventos, list) else []:
-        sala = evento.get("venue") or {}
-        quando = evento.get("datetime") or ""
-        if normalizar(sala.get("country") or "") not in PAIS_PORTUGAL or quando[:10] < hoje.isoformat():
-            continue
-        bilhetes = next((o.get("url") for o in evento.get("offers") or [] if o.get("url")), None)
-        concertos.append({
-            "id": str(evento.get("id") or quando + sala.get("name", "")),
-            "data": quando,
-            "cidade": sala.get("city") or "",
-            "sala": sala.get("name") or "",
-            "bilhetes": bilhetes or evento.get("url"),
-            "tem_bilhetes": bool(bilhetes),
-        })
-    concertos.sort(key=lambda c: c["data"])
-    return concertos
-
-
-class Bandsintown:
-    API = "https://rest.bandsintown.com"
-
-    def __init__(self, app_id):
-        self.app_id = app_id
-
-    def concertos(self, nome, hoje):
-        """Devolve os concertos em Portugal. Erro de autorização levanta PermissionError."""
-        url = "%s/artists/%s/events/?%s" % (
-            self.API, nome_para_bandsintown(nome),
-            urllib.parse.urlencode({"app_id": self.app_id, "date": "upcoming"}))
-        estado, dados = pedir_json(url)
-        time.sleep(0.2)
-        if estado in (401, 403):
-            raise PermissionError("Bandsintown recusou o app_id (HTTP %d)" % estado)
-        if estado == 404:
-            return []
-        if estado != 200:
-            raise ErroFonte("Bandsintown devolveu HTTP %d" % estado)
-        return filtrar_concertos(dados, hoje)
-
-
 # --- Agenda do Caminhos Metálicos -----------------------------------------------
 
 # Letras que a normalização Unicode não separa do acento ("Mgła", "Dødheimsgard").
 LETRAS_ESPECIAIS = str.maketrans({"ł": "l", "ø": "o", "đ": "d", "ß": "ss", "æ": "ae", "œ": "oe", "þ": "th", "ð": "d"})
-# A Bandsintown usa os nomes ingleses das cidades.
-CIDADES_IGUAIS = {"lisbon": "lisboa", "oporto": "porto"}
 
 
 def chave_comparacao(nome):
@@ -613,11 +556,6 @@ def chave_comparacao(nome):
     texto = normalizar(nome.lower().translate(LETRAS_ESPECIAIS))
     sem_the = re.sub(r"^the\s+", "", texto)
     return sem_the or texto
-
-
-def chave_cidade(cidade):
-    texto = normalizar(cidade)
-    return CIDADES_IGUAIS.get(texto, texto)
 
 
 def separar_bandas(texto, minhas=frozenset()):
@@ -715,7 +653,7 @@ def concerto_da_agenda(lido, minhas):
     if not categorias:
         return None
     return {
-        "id": "cm-%s-%s-%s" % (lido["data"], chave_cidade(lido["cidade"]), chave_comparacao(lido["bandas"][0])),
+        "id": "cm-%s-%s-%s" % (lido["data"], normalizar(lido["cidade"]), chave_comparacao(lido["bandas"][0])),
         "data": lido["data"],
         "bandas": bandas,
         "categorias": categorias,
@@ -724,7 +662,6 @@ def concerto_da_agenda(lido, minhas):
         "evento": lido.get("evento", ""),
         "fontes": [FONTE_AGENDA],
         "link": URL_AGENDA,
-        "tem_bilhetes": False,
     }
 
 
@@ -770,9 +707,8 @@ def obter_agenda(minhas, anteriores, hoje, avisos, lidos_saida=None):
         print("Agenda: %s" % erro)
         avisos.append("Agenda do Caminhos Metálicos indisponível (%s). Ficaram os concertos guardados." % erro)
         estado.update({"estado": "indisponivel", "erro": erro})
-        guardados = [c for c in anteriores if FONTE_AGENDA in c.get("fontes", [])]
         lidos = [{"data": c["data"][:10], "bandas": [b["nome"] for b in c["bandas"]], "sala": c.get("sala", ""),
-                  "cidade": c.get("cidade", ""), "evento": c.get("evento", "")} for c in guardados]
+                  "cidade": c.get("cidade", ""), "evento": c.get("evento", "")} for c in anteriores]
     else:
         if lidos_saida is not None:
             lidos_saida.extend(lidos)
@@ -792,55 +728,23 @@ def obter_agenda(minhas, anteriores, hoje, avisos, lidos_saida=None):
     return concertos, estado
 
 
-def concertos_bandsintown(registos):
-    """Converte os concertos guardados em cada banda. Um festival fica um só concerto."""
-    por_id = {}
-    for registo in registos:
-        for concerto in registo.get("concertos") or []:
-            novo = por_id.setdefault(concerto["id"], {
-                "id": "bit-" + concerto["id"],
-                "data": concerto["data"],
-                "bandas": [],
-                "categorias": [],
-                "sala": concerto.get("sala", ""),
-                "cidade": concerto.get("cidade", ""),
-                "evento": "",
-                "fontes": [FONTE_BANDSINTOWN],
-                "link": concerto.get("bilhetes"),
-                "tem_bilhetes": bool(concerto.get("tem_bilhetes")),
-            })
-            novo["bandas"].append({"nome": registo["nome"], "minha": True})
-            if registo["categoria"] not in novo["categorias"]:
-                novo["categorias"].append(registo["categoria"])
-    return list(por_id.values())
-
-
-def juntar_concertos(*listas):
-    """Junta as fontes por ordem. Mesma data, mesma cidade e uma banda em comum é o mesmo concerto."""
+def concertos_sem_repetidos(concertos):
+    """Mesma data, mesma cidade e uma banda em comum é o mesmo concerto. Ordena por data."""
     resultado, indice = [], {}
-    for lista in listas:
-        for concerto in lista:
-            chaves = [(concerto["data"][:10], chave_cidade(concerto["cidade"]), chave_comparacao(b["nome"]))
-                      for b in concerto["bandas"]]
-            existente = next((indice[c] for c in chaves if c in indice), None)
-            if existente is None:
-                existente = dict(concerto, fontes=list(concerto["fontes"]))
-                resultado.append(existente)
-            else:
-                for fonte in concerto["fontes"]:
-                    if fonte not in existente["fontes"]:
-                        existente["fontes"].append(fonte)
-                for categoria in concerto["categorias"]:
-                    if categoria not in existente["categorias"]:
-                        existente["categorias"].append(categoria)
-                # A agenda não tem hora nem bilhetes: aproveita os da outra fonte.
-                if len(concerto["data"]) > len(existente["data"]):
-                    existente["data"] = concerto["data"]
-                if concerto.get("tem_bilhetes") and not existente.get("tem_bilhetes"):
-                    existente["link"], existente["tem_bilhetes"] = concerto["link"], True
-            for chave in chaves:
-                indice.setdefault(chave, existente)
-    resultado.sort(key=lambda c: (c["data"][:10], c["data"]))
+    for concerto in concertos:
+        chaves = [(concerto["data"][:10], normalizar(concerto["cidade"]), chave_comparacao(b["nome"]))
+                  for b in concerto["bandas"]]
+        existente = next((indice[c] for c in chaves if c in indice), None)
+        if existente is None:
+            existente = dict(concerto, fontes=list(concerto["fontes"]))
+            resultado.append(existente)
+        else:
+            for categoria in concerto["categorias"]:
+                if categoria not in existente["categorias"]:
+                    existente["categorias"].append(categoria)
+        for chave in chaves:
+            indice.setdefault(chave, existente)
+    resultado.sort(key=lambda c: c["data"])
     return resultado
 
 
@@ -895,11 +799,11 @@ def festivais_da_agenda(lidos, minhas):
     dias_por_nome = {}
     for lido in lidos:
         if not lido.get("evento") and len(lido["bandas"]) == 1:
-            chave = (chave_comparacao(lido["bandas"][0]), normalizar(lido["sala"]), chave_cidade(lido["cidade"]))
+            chave = (chave_comparacao(lido["bandas"][0]), normalizar(lido["sala"]), normalizar(lido["cidade"]))
             dias_por_nome.setdefault(chave, set()).add(lido["data"])
 
     def repetido_em_dias_seguidos(lido):
-        chave = (chave_comparacao(lido["bandas"][0]), normalizar(lido["sala"]), chave_cidade(lido["cidade"]))
+        chave = (chave_comparacao(lido["bandas"][0]), normalizar(lido["sala"]), normalizar(lido["cidade"]))
         dias = dias_por_nome.get(chave, set())
         return any(um_dia_depois(lido["data"], d) or um_dia_depois(d, lido["data"]) for d in dias)
 
@@ -918,7 +822,7 @@ def festivais_da_agenda(lidos, minhas):
                 and chave_comparacao(lido["bandas"][0]) not in minhas and repetido_em_dias_seguidos(lido)):
             nome, cartaz = lido["bandas"][0], []
         if nome:
-            linhas.append((chave_comparacao(nome), chave_cidade(lido["cidade"]), lido["data"], nome, cartaz, lido))
+            linhas.append((chave_comparacao(nome), normalizar(lido["cidade"]), lido["data"], nome, cartaz, lido))
 
     festivais = []
     grupo_atual = {}
@@ -1142,14 +1046,9 @@ def processar_bandas(bandas, spotify, avisos):
     forcadas = carregar_categorias(avisos)
     manuais = carregar_mbid_manual(avisos)
     mb = MusicBrainz()
-    app_id = os.environ.get("BANDSINTOWN_APP_ID")
-    bit = Bandsintown(app_id) if app_id else None
-    estado_concertos = "ok" if bit else "sem_app_id"
-    if not bit:
-        avisos.append("Concertos por ativar: falta o app_id da Bandsintown.")
 
     resultado, excluidas = [], []
-    falhas_mb = falhas_bit = 0
+    falhas_mb = 0
     spotify_ativo = spotify is not None
     bandas = [b for b in bandas if forcadas.get(chave_banda(b["nome"])) != IGNORAR]
 
@@ -1209,7 +1108,6 @@ def processar_bandas(bandas, spotify, avisos):
                 "categoria": forcada or categoria_por_regras(etiquetas, banda["generos_spotify"]),
                 "spotify": banda.get("spotify_url") or "https://open.spotify.com/search/" + urllib.parse.quote(nome),
                 "lancamentos": lancamentos,
-                "concertos": [],
             }
 
             if spotify_ativo and banda.get("spotify_id"):
@@ -1221,19 +1119,6 @@ def processar_bandas(bandas, spotify, avisos):
                     avisos.append("Algumas capas e links do Spotify ficaram por obter (%s)." % erro)
                     spotify_ativo = False
 
-            if bit:
-                try:
-                    registo["concertos"] = bit.concertos(nome, hoje)
-                except PermissionError as erro:
-                    print("  %s" % erro)
-                    avisos.append("Concertos indisponíveis: a Bandsintown recusou o app_id.")
-                    estado_concertos, bit = "recusado", None
-                except ErroFonte as erro:
-                    print("  Bandsintown: %s" % erro)
-                    falhas_bit += 1
-                    registo["concertos"] = [c for c in antes.get("concertos", [])
-                                            if c.get("data", "")[:10] >= hoje.isoformat()]
-
             resultado.append(registo)
             if indice % 25 == 0:
                 guardar_cache(cache)
@@ -1243,9 +1128,7 @@ def processar_bandas(bandas, spotify, avisos):
 
     if falhas_mb:
         avisos.append("MusicBrainz falhou em %d bandas; ficaram os dados anteriores." % falhas_mb)
-    if falhas_bit:
-        avisos.append("Bandsintown falhou em %d bandas; ficaram os dados anteriores." % falhas_bit)
-    fontes = {"concertos": estado_concertos, "excluidas": sorted(excluidas)}
+    fontes = {"excluidas": sorted(excluidas)}
     return resultado, fontes
 
 
@@ -1265,7 +1148,7 @@ def main():
         minhas, dados_anteriores.get("concertos", []), agora().date(), avisos, lidos)
     festivais, festivais_agenda = obter_festivais(
         lidos, fontes["agenda"]["estado"] == "ok", dados_anteriores.get("festivais_agenda"), minhas, agora().date(), avisos)
-    concertos = juntar_concertos(concertos_agenda, concertos_bandsintown(registos))
+    concertos = concertos_sem_repetidos(concertos_agenda)
     anteriores = dados_anteriores.get("noticias", [])
     noticias, estado_feeds = obter_noticias(anteriores, avisos)
     fontes.update({"bandas": origem, "feeds": estado_feeds, "spotify_espera_ate": ESPERA_SPOTIFY["ate"]})

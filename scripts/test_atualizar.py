@@ -110,31 +110,6 @@ class Lancamentos(unittest.TestCase):
         self.assertFalse(a.so_nao_musica([]))
 
 
-class Concertos(unittest.TestCase):
-    def test_so_portugal_e_futuros(self):
-        def ev(i, pais, quando, ofertas=None):
-            return {"id": i, "datetime": quando, "url": "https://b/%s" % i, "offers": ofertas or [],
-                    "venue": {"country": pais, "city": "C", "name": "S"}}
-        r = a.filtrar_concertos([
-            ev(1, "Spain", "2026-12-01T20:00:00"),
-            ev(2, "Portugal", "2026-12-20T20:00:00"),
-            ev(3, "Portugal", "2026-11-10T20:00:00", [{"url": "https://bilhetes/3"}]),
-            ev(4, "Portugal", "2026-01-01T20:00:00"),
-            ev(5, "PT", "2026-11-15T20:00:00"),
-        ], HOJE)
-        self.assertEqual([c["id"] for c in r], ["3", "5", "2"])
-        self.assertEqual(r[0]["bilhetes"], "https://bilhetes/3")
-        self.assertTrue(r[0]["tem_bilhetes"])
-        self.assertEqual(r[1]["bilhetes"], "https://b/5")
-
-    def test_resposta_de_erro_nao_rebenta(self):
-        self.assertEqual(a.filtrar_concertos({"errorMessage": "x"}, HOJE), [])
-
-    def test_codificacao_do_nome(self):
-        self.assertEqual(a.nome_para_bandsintown("AC/DC"), "AC%252FDC")
-        self.assertEqual(a.nome_para_bandsintown("Mötley"), "M%C3%B6tley")
-
-
 class Feeds(unittest.TestCase):
     def test_rss(self):
         xml = b"""<rss><channel><title>Canal</title>
@@ -355,7 +330,6 @@ class Agenda(unittest.TestCase):
         self.assertEqual(r["categorias"], ["Death", "Black"])
         self.assertEqual(r["fontes"], ["Caminhos Metálicos"])
         self.assertEqual(r["link"], a.URL_AGENDA)
-        self.assertFalse(r["tem_bilhetes"])
 
     def test_quase_correspondencias_nao_sao_aceites(self):
         lidos = [self.lido("Moonspel"), self.lido("Moonspell Orchestra"), self.lido("Slugde"), self.lido("Besta"), self.lido("Absu")]
@@ -386,8 +360,6 @@ class Agenda(unittest.TestCase):
          "categorias": ["Black"], "sala": "S", "cidade": "Porto", "evento": "", "fontes": ["Caminhos Metálicos"], "link": a.URL_AGENDA},
         {"id": "y", "data": "2020-01-01", "bandas": [{"nome": "Moonspell", "minha": True}], "categorias": ["Black"],
          "sala": "S", "cidade": "Porto", "evento": "", "fontes": ["Caminhos Metálicos"], "link": a.URL_AGENDA},
-        {"id": "z", "data": "2099-12-02", "bandas": [{"nome": "Absu", "minha": True}], "categorias": ["Thrash"],
-         "sala": "S", "cidade": "Porto", "evento": "", "fontes": ["Bandsintown"], "link": "https://b"},
     ]
 
     def test_falhas_mantem_os_guardados(self):
@@ -409,36 +381,21 @@ class Agenda(unittest.TestCase):
         _, estado, avisos, _ = self.agenda(erro=a.ErroFonte("x"))
         self.assertNotIn("http", avisos[0])
 
-    def bit(self, data, cidade, banda, bilhetes=True, ident="b"):
-        return {"id": ident, "data": data, "bandas": [{"nome": banda, "minha": True}], "categorias": ["Black"], "sala": "SB",
-                "cidade": cidade, "evento": "", "fontes": ["Bandsintown"], "link": "https://bilhetes", "tem_bilhetes": bilhetes}
-
-    def test_duplicados_entre_fontes(self):
-        cm = a.concerto_da_agenda(dict(self.lido("Moonspell", "Outra"), cidade="Lisboa"), MINHAS)
-        r = a.juntar_concertos([cm], [self.bit("2026-12-01T21:00:00", "Lisbon", "Moonspell")])
-        self.assertEqual(len(r), 1)
-        self.assertEqual(r[0]["fontes"], ["Caminhos Metálicos", "Bandsintown"])
-        self.assertEqual(r[0]["link"], "https://bilhetes")
-        self.assertTrue(r[0]["tem_bilhetes"])
-        self.assertEqual(r[0]["data"], "2026-12-01T21:00:00")
-        self.assertEqual(len(r[0]["bandas"]), 2)
+    def test_concertos_repetidos_na_agenda(self):
+        um = a.concerto_da_agenda(dict(self.lido("Moonspell", "Outra"), cidade="Lisboa"), MINHAS)
+        dois = a.concerto_da_agenda(dict(self.lido("Moonspell", "Irae"), cidade="lisboa"), MINHAS)
+        antes = a.concerto_da_agenda(dict(self.lido("Absu"), data="2026-11-20"), MINHAS)
+        r = a.concertos_sem_repetidos([um, dois, antes])
+        self.assertEqual([c["data"] for c in r], ["2026-11-20", "2026-12-01"])
+        self.assertEqual([b["nome"] for b in r[1]["bandas"]], ["Moonspell", "Outra"])
+        self.assertEqual(r[1]["categorias"], ["Black"])
+        self.assertEqual(r[1]["fontes"], ["Caminhos Metálicos"])
 
     def test_nao_junta_o_que_e_diferente(self):
-        cm = a.concerto_da_agenda(dict(self.lido("Moonspell"), cidade="Porto"), MINHAS)
-        for outro in [self.bit("2026-12-02T21:00:00", "Porto", "Moonspell"), self.bit("2026-12-01T21:00:00", "Faro", "Moonspell"),
-                      self.bit("2026-12-01T21:00:00", "Porto", "Irae")]:
-            self.assertEqual(len(a.juntar_concertos([cm], [outro])), 2)
-
-    def test_bandsintown_sem_agenda_e_ordem(self):
-        registos = [
-            {"nome": "A", "categoria": "Black", "concertos": [{"id": "1", "data": "2026-12-09T21:00:00", "cidade": "Porto", "sala": "S", "bilhetes": "https://b", "tem_bilhetes": True}]},
-            {"nome": "B", "categoria": "Death", "concertos": [{"id": "1", "data": "2026-12-09T21:00:00", "cidade": "Porto", "sala": "S", "bilhetes": "https://b", "tem_bilhetes": True},
-                                                               {"id": "2", "data": "2026-12-02T21:00:00", "cidade": "Faro", "sala": "T", "bilhetes": "https://c", "tem_bilhetes": False}]},
-        ]
-        r = a.juntar_concertos([], a.concertos_bandsintown(registos))
-        self.assertEqual([c["data"][:10] for c in r], ["2026-12-02", "2026-12-09"])
-        self.assertEqual([b["nome"] for b in r[1]["bandas"]], ["A", "B"])
-        self.assertEqual(r[1]["categorias"], ["Black", "Death"])
+        base = a.concerto_da_agenda(dict(self.lido("Moonspell"), cidade="Porto"), MINHAS)
+        for outro in [dict(self.lido("Moonspell"), cidade="Porto", data="2026-12-02"), dict(self.lido("Moonspell"), cidade="Faro"),
+                      dict(self.lido("Irae"), cidade="Porto")]:
+            self.assertEqual(len(a.concertos_sem_repetidos([base, a.concerto_da_agenda(outro, MINHAS)])), 2)
 
 
 class Festivais(unittest.TestCase):
@@ -633,7 +590,7 @@ class Festivais(unittest.TestCase):
     def test_corrida_completa_escreve_e_mantem_na_falha(self):
         with tempfile.TemporaryDirectory() as pasta:
             dados = Path(pasta) / "data.json"
-            registos = [{"id": "irae", "nome": "Irae", "categoria": "Black", "spotify": "https://x", "lancamentos": [], "concertos": []}]
+            registos = [{"id": "irae", "nome": "Irae", "categoria": "Black", "spotify": "https://x", "lancamentos": []}]
             def correr(resposta):
                 def pedir(url, *x, **y):
                     if url == a.URL_AGENDA:
@@ -641,7 +598,7 @@ class Festivais(unittest.TestCase):
                     raise a.ErroFonte("sem rede")
                 avisos_saida = io.StringIO()
                 with mock.patch.object(a, "obter_bandas", return_value=([{"nome": "Irae"}], "spotify_guardado", None)), \
-                        mock.patch.object(a, "processar_bandas", return_value=(registos, {"concertos": "sem_app_id"})), \
+                        mock.patch.object(a, "processar_bandas", return_value=(registos, {"excluidas": []})), \
                         mock.patch.object(a, "FICHEIRO_DADOS", dados), mock.patch.object(a, "pedir", side_effect=pedir), \
                         mock.patch("sys.stdout", avisos_saida):
                     self.assertEqual(a.main(), 0)
@@ -680,8 +637,7 @@ class FluxoCompleto(unittest.TestCase):
             with mock.patch.object(a, "MusicBrainz", return_value=mb), \
                     mock.patch.object(a, "FICHEIRO_CACHE", pasta / "cache.json"), \
                     mock.patch.object(a, "FICHEIRO_DADOS", pasta / "data.json"), \
-                    mock.patch.object(a, "FICHEIRO_CATEGORIAS", pasta / "categorias.json"), \
-                    mock.patch.dict(a.os.environ, {"BANDSINTOWN_APP_ID": ""}):
+                    mock.patch.object(a, "FICHEIRO_CATEGORIAS", pasta / "categorias.json"):
                 registos, fontes = a.processar_bandas(bandas, spotify, [])
             cache = json.loads((pasta / "cache.json").read_text(encoding="utf-8"))
         return registos, fontes, cache
@@ -731,8 +687,7 @@ class FluxoCompleto(unittest.TestCase):
             with mock.patch.object(a, "MusicBrainz", return_value=mb), \
                     mock.patch.object(a, "FICHEIRO_CACHE", pasta / "c.json"), \
                     mock.patch.object(a, "FICHEIRO_DADOS", pasta / "d.json"), \
-                    mock.patch.object(a, "FICHEIRO_CATEGORIAS", pasta / "categorias.json"), \
-                    mock.patch.dict(a.os.environ, {"BANDSINTOWN_APP_ID": ""}):
+                    mock.patch.object(a, "FICHEIRO_CATEGORIAS", pasta / "categorias.json"):
                 registos, fontes = a.processar_bandas([self.banda("Saor", "s")], spotify, [])
         self.assertEqual([r["nome"] for r in registos], ["Saor"])
         self.assertEqual(fontes["excluidas"], [])

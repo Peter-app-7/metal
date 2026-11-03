@@ -160,15 +160,12 @@ function linhaLancamento(lancamento, nomeBanda) {
   );
 }
 
-// A data pode trazer só o dia (agenda) ou também a hora (Bandsintown), sem fuso: é a hora local.
+// A data vem só com o dia, sem fuso: é a hora local.
 function lerDataConcerto(texto) {
-  const partes = /^(\d{4})-(\d{2})-(\d{2})(?:T(\d{2}):(\d{2}))?/.exec(String(texto || ''));
+  const partes = /^(\d{4})-(\d{2})-(\d{2})/.exec(String(texto || ''));
   if (!partes) return null;
-  const [, ano, mes, dia, horas, minutos] = partes;
-  return {
-    data: new Date(Number(ano), Number(mes) - 1, Number(dia), Number(horas || 0), Number(minutos || 0)),
-    temHora: horas !== undefined,
-  };
+  const [, ano, mes, dia] = partes;
+  return { data: new Date(Number(ano), Number(mes) - 1, Number(dia)) };
 }
 
 function hojeTexto() {
@@ -192,7 +189,6 @@ function linhaConcerto(concerto) {
     if (indice) titulo.append(' + ');
     titulo.append(el('span', { class: banda.minha ? 'banda-minha' : 'banda-outra' }, banda.nome));
   });
-  const etiqueta = concerto.tem_bilhetes ? 'Bilhetes ↗' : (concerto.fontes.includes('Caminhos Metálicos') ? 'Agenda ↗' : 'Ver ↗');
   return linhaLink(
     concerto.link,
     el('span', { class: 'dia' },
@@ -203,17 +199,9 @@ function linhaConcerto(concerto) {
       titulo,
       concerto.evento ? el('span', { class: 'linha-detalhe' }, concerto.evento) : null,
       el('span', { class: 'linha-detalhe' }, local),
-      lida && lida.temHora ? el('span', { class: 'linha-detalhe' }, hora(data)) : null,
       el('span', { class: 'linha-detalhe concerto-fonte' }, `Fonte: ${concerto.fontes.join(' · ')}`)),
-    el('span', { class: 'etiqueta-bilhetes' }, etiqueta),
+    el('span', { class: 'etiqueta-bilhetes' }, 'Agenda ↗'),
   );
-}
-
-function notaBandsintown() {
-  const estado = dados.fontes && dados.fontes.concertos;
-  if (estado === 'sem_app_id') return 'A Bandsintown está por ativar.';
-  if (estado === 'recusado') return 'A Bandsintown recusou a chave.';
-  return null;
 }
 
 // --- Ecrã Bandas ----------------------------------------------------------------
@@ -435,7 +423,6 @@ function desenharConcertos() {
 
   const semConcertos = !concertos.length;
   const mensagem = 'Nenhum concerto das tuas bandas na agenda neste momento';
-  const nota = semConcertos ? notaBandsintown() : null;
   const dataAgenda = lerDataConcerto(agenda.atualizada);
   const site = el('a', {
     class: 'ligacao-fonte',
@@ -450,7 +437,6 @@ function desenharConcertos() {
     agenda.estado === 'indisponivel' ? el('p', { class: 'aviso-agenda' }, 'Agenda temporariamente indisponível') : null,
     // Com a agenda em baixo e nada guardado, não se sabe se há concertos: fica só o aviso.
     !semConcertos ? lista : (agenda.estado === 'indisponivel' ? null : el('p', { class: 'vazio' }, mensagem)),
-    nota ? el('p', { class: 'nota nota-junta' }, nota) : null,
     desenharFestivais(),
     site,
     dataAgenda ? el('p', { class: 'nota nota-junta' }, `Agenda atualizada pelo site a ${diaMes(dataAgenda.data)} ${dataAgenda.data.getFullYear()}.`) : null,
