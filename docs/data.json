@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-03T14:00:11+00:00",
+ "atualizado": "2026-11-03T14:12:20+00:00",
  "fontes": {
   "concertos": "sem_app_id",
   "excluidas": [
@@ -69,11 +69,12 @@
     "ok": true,
     "artigos": 10
    }
-  ]
+  ],
+  "spotify_espera_ate": "2026-11-04T12:23:17+00:00"
  },
  "avisos": [
   "Concertos por ativar: falta o app_id da Bandsintown.",
-  "Algumas capas e links do Spotify ficaram por obter (api.spotify.com pediu para esperar 81051 s)."
+  "Algumas capas e links do Spotify ficaram por obter (api.spotify.com pediu para esperar 80331 s)."
  ],
  "bandas": [
   {
@@ -16843,10 +16844,34 @@
  ],
  "noticias": [
   {
+   "titulo": "Q&A: Michael Pearson On Photographing Black Flag At Their Peak",
+   "link": "https://www.decibelmagazine.com/2026/11/03/qa-michael-pearson-on-photographing-black-flag-at-their-peak/",
+   "fonte": "Decibel",
+   "data": "2026-11-03T14:00:37+00:00"
+  },
+  {
    "titulo": "ANTHRAX's JOEY BELLADONNA Slammed By NFL Fans For 'Awful' National Anthem Performance At SEATTLE SEAHAWKS Vs. CHICAGO BEARS Game",
    "link": "https://blabbermouth.net/news/anthraxs-joey-belladonna-slammed-by-nfl-fans-for-awful-national-anthem-performance-at-seattle-seahawks-vs-chicago-bears-game",
    "fonte": "Blabbermouth",
-   "data": "2026-11-03T13:32:38+00:00"
+   "data": "2026-11-03T13:29:16+00:00"
+  },
+  {
+   "titulo": "Thy Art Is Murder - Deliver New Single",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64453",
+   "fonte": "Metal Storm",
+   "data": "2026-11-03T13:08:05+00:00"
+  },
+  {
+   "titulo": "Suicide Silence - Announce European Headline Tour",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64452",
+   "fonte": "Metal Storm",
+   "data": "2026-11-03T13:05:12+00:00"
+  },
+  {
+   "titulo": "Wyatt E. - To Release New Album With Nina Saeidi",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64451",
+   "fonte": "Metal Storm",
+   "data": "2026-11-03T13:00:54+00:00"
   },
   {
    "titulo": "AS I LAY DYING Shares New Single 'The Cost To Stay' From Upcoming Self-Titled Album",
@@ -17279,24 +17304,6 @@
    "link": "https://bravewords.com/news/top-10-online-casinos-for-real-money-in-the-usa-2026-new-list/",
    "fonte": "BraveWords",
    "data": "2026-11-02T12:00:01+00:00"
-  },
-  {
-   "titulo": "Teardrinker - Premiere New Songs",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64437",
-   "fonte": "Metal Storm",
-   "data": "2026-11-02T11:47:12+00:00"
-  },
-  {
-   "titulo": "Kadavar - Will Embark On European Headline Tour",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64436",
-   "fonte": "Metal Storm",
-   "data": "2026-11-02T11:32:39+00:00"
-  },
-  {
-   "titulo": "The Dillinger Escape Plan - Announces 10th Anniversary Edition Of Final Album",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64435",
-   "fonte": "Metal Storm",
-   "data": "2026-11-02T11:25:05+00:00"
   },
   {
    "titulo": "“I wanted a new band to take it to another level”: Keith Emerson’s road to Emerson, Lake and Palmer",
@@ -17735,12 +17742,6 @@
    "link": "https://www.decibelmagazine.com/2026/10/29/full-album-stream-italian-death-metal-crew-obbrobrius-offer-up-usurped/",
    "fonte": "Decibel",
    "data": "2026-10-29T13:30:58+00:00"
-  },
-  {
-   "titulo": "Full EP Stream: Ocean of Illusions –Nexus",
-   "link": "https://www.decibelmagazine.com/2026/10/28/full-ep-stream-ocean-of-illusions-nexus/",
-   "fonte": "Decibel",
-   "data": "2026-10-28T19:00:21+00:00"
   }
  ]
 }
