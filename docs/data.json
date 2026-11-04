@@ -1,17 +1,32 @@
 {
- "atualizado": "2026-11-04T07:48:43+00:00",
+ "atualizado": "2026-11-04T13:40:45+00:00",
  "fontes": {
-  "excluidas": [],
+  "excluidas": [
+   "Richard Dawkins"
+  ],
   "agenda": {
-   "estado": "indisponivel",
-   "linhas": 0,
-   "futuras": 0,
+   "estado": "ok",
+   "linhas": 69,
+   "futuras": 42,
    "rejeitadas": [],
-   "quase": [],
-   "atualizada": null,
-   "erro": "www.caminhosmetalicos.com não respondeu (URLError)"
+   "quase": [
+    {
+     "agenda": "Above The Ocean",
+     "banda": "The Ocean"
+    },
+    {
+     "agenda": "Heavy Ocean",
+     "banda": "The Ocean"
+    },
+    {
+     "agenda": "Viseu Death Fest",
+     "banda": "Death"
+    }
+   ],
+   "atualizada": "2026-10-22",
+   "minhas": 2
   },
-  "bandas": "spotify_guardado",
+  "bandas": "spotify",
   "feeds": [
    {
     "nome": "Blabbermouth",
@@ -54,12 +69,9 @@
     "artigos": 10
    }
   ],
-  "spotify_espera_ate": "2026-11-04T12:23:17+00:00"
+  "spotify_espera_ate": null
  },
- "avisos": [
-  "O Spotify pediu para esperar. Foi usada a última lista de bandas.",
-  "Agenda do Caminhos Metálicos indisponível (www.caminhosmetalicos.com não respondeu (URLError)). Ficaram os concertos guardados."
- ],
+ "avisos": [],
  "bandas": [
   {
    "id": "urne",
@@ -16970,6 +16982,126 @@
  ],
  "noticias": [
   {
+   "titulo": "MOTÖRHEAD Shares Mini-Documentary On Making Of 40th-Anniversary Edition Of 'Orgasmatron' Album",
+   "link": "https://blabbermouth.net/news/motorhead-shares-mini-documentary-on-making-of-40th-anniversary-edition-of-orgasmatron-album",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-04T12:43:14+00:00"
+  },
+  {
+   "titulo": "SLASH FEATURING MYLES KENNEDY & THE CONSPIRATORS Release Official Lyric Video For 'Flying Blind' Title Track",
+   "link": "https://blabbermouth.net/news/slash-featuring-myles-kennedy-the-conspirators-release-official-lyric-video-for-flying-blind-title-track",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-04T12:20:43+00:00"
+  },
+  {
+   "titulo": "Cult Of Luna - Present 'Sadness Will Reign' Track, Feat. Joe Duplantier",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64467",
+   "fonte": "Metal Storm",
+   "data": "2026-11-04T12:11:57+00:00"
+  },
+  {
+   "titulo": "KATATONIA Announces Spring 2027 European Tour",
+   "link": "https://blabbermouth.net/news/katatonia-announces-spring-2027-european-tour",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-04T12:04:40+00:00"
+  },
+  {
+   "titulo": "Katatonia announce Waking State Of Europe tour dates for March and April 2027",
+   "link": "https://www.loudersound.com/bands-artists/concerts-shows/katatonia-announce-waking-state-of-europe-tour-dates-for-march-and-april-2027",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-04T12:02:46+00:00"
+  },
+  {
+   "titulo": "Katatonia - Announce European Headlining Tour Dates",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64466",
+   "fonte": "Metal Storm",
+   "data": "2026-11-04T12:01:25+00:00"
+  },
+  {
+   "titulo": "In Vain (ESP) - New Song Streaming",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64465",
+   "fonte": "Metal Storm",
+   "data": "2026-11-04T11:58:30+00:00"
+  },
+  {
+   "titulo": "Vended - Enter The Studio",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64464",
+   "fonte": "Metal Storm",
+   "data": "2026-11-04T11:54:02+00:00"
+  },
+  {
+   "titulo": "Vananidr - Releasing 4-Track EP Later This Month",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64463",
+   "fonte": "Metal Storm",
+   "data": "2026-11-04T11:32:41+00:00"
+  },
+  {
+   "titulo": "Hear Gojira’s Joe Duplantier roar on new Cult Of Luna single Sadness Will Reign",
+   "link": "https://www.loudersound.com/news/gojira-joe-duplantier-guests-cult-of-luna-single-sadness-will-reign-2026",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-04T11:00:00+00:00"
+  },
+  {
+   "titulo": "Zetra - 'Adrena' Single Launched",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64462",
+   "fonte": "Metal Storm",
+   "data": "2026-11-04T10:34:30+00:00"
+  },
+  {
+   "titulo": "Ador Dorath - Confirm Shows In Czech Republic And Slovakia",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64438",
+   "fonte": "Metal Storm",
+   "data": "2026-11-04T10:28:29+00:00"
+  },
+  {
+   "titulo": "Night In Gales - Debut New Song & Video",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64461",
+   "fonte": "Metal Storm",
+   "data": "2026-11-04T10:20:24+00:00"
+  },
+  {
+   "titulo": "Band Of Spice - Unveil Details Of Upcoming Studio Record",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64460",
+   "fonte": "Metal Storm",
+   "data": "2026-11-04T10:14:16+00:00"
+  },
+  {
+   "titulo": "“My desire to push those buttons made them nervous”: Jordan Rudess had much to learn when he joined Dream Theater",
+   "link": "https://www.loudersound.com/bands-artists/interviews/when-jordan-rudess-joined-dream-theater",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-04T10:00:00+00:00"
+  },
+  {
+   "titulo": "Within The Fall - Drummer Leaves The Ranks",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64439",
+   "fonte": "Metal Storm",
+   "data": "2026-11-04T09:59:33+00:00"
+  },
+  {
+   "titulo": "Watch FLOOR JANSEN Perform NIGHTWISH, AFTER FOREVER And NORTHWARD Songs Live At Amsterdam Solo Show; Fan-Filmed Video",
+   "link": "https://bravewords.com/news/watch-floor-jansen-perform-nightwish-after-forever-and-northward-songs-live-at-amsterdam-solo-show-fan-filmed-video/",
+   "fonte": "BraveWords",
+   "data": "2026-11-04T09:54:39+00:00"
+  },
+  {
+   "titulo": "MYSTIC CIRCLE Shares Official Video For “Seven-Headed Dragon” Live In Mexico 2026",
+   "link": "https://bravewords.com/news/mystic-circle-shares-official-video-for-seven-headed-dragon-live-in-mexico-2026/",
+   "fonte": "BraveWords",
+   "data": "2026-11-04T09:41:17+00:00"
+  },
+  {
+   "titulo": "SEPULTURA Frontman DERRICK GREEN – “Top 5 Albums Of My Life”; Video",
+   "link": "https://bravewords.com/news/sepultura-frontman-derrick-green-top-5-albums-of-my-life-video/",
+   "fonte": "BraveWords",
+   "data": "2026-11-04T09:26:00+00:00"
+  },
+  {
+   "titulo": "DEVIN TOWNSEND Announces Intimate 360° Spatial Audio Listening Experience Of The Moth For London",
+   "link": "https://bravewords.com/heavy-metal/devin-townsend-announces-intimate-360-spatial-audio-listening-experience-of-the-moth-for-london/",
+   "fonte": "BraveWords",
+   "data": "2026-11-04T09:04:56+00:00"
+  },
+  {
    "titulo": "CURRENTS Announce February/March 2027 'Our Fates Lie In Tandem' North American Tour",
    "link": "https://blabbermouth.net/news/currents-announce-february-march-2027-our-fates-lie-in-tandem-north-american-tour",
    "fonte": "Blabbermouth",
@@ -17100,12 +17232,6 @@
    "link": "https://www.decibelmagazine.com/2026/11/03/full-album-stream-architect-of-seth-solitude-solaire/",
    "fonte": "Decibel",
    "data": "2026-11-03T20:00:19+00:00"
-  },
-  {
-   "titulo": "Warpath - Ink Deal With Testimony Records",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64454",
-   "fonte": "Metal Storm",
-   "data": "2026-11-03T19:59:24+00:00"
   },
   {
    "titulo": "JIM PETERIK & WORLD STAGE Release New Single “Treasure” Feat. KAITY HEART; Visualizer",
@@ -17330,46 +17456,10 @@
    "data": "2026-11-03T13:32:38+00:00"
   },
   {
-   "titulo": "Thy Art Is Murder - Deliver New Single",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64453",
-   "fonte": "Metal Storm",
-   "data": "2026-11-03T13:08:05+00:00"
-  },
-  {
-   "titulo": "Suicide Silence - Announce European Headline Tour",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64452",
-   "fonte": "Metal Storm",
-   "data": "2026-11-03T13:05:12+00:00"
-  },
-  {
-   "titulo": "Wyatt E. - To Release New Album With Nina Saeidi",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64451",
-   "fonte": "Metal Storm",
-   "data": "2026-11-03T13:00:54+00:00"
-  },
-  {
-   "titulo": "As I Lay Dying - Reveal 'The Cost To Stay' Track And Video",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64450",
-   "fonte": "Metal Storm",
-   "data": "2026-11-03T12:56:06+00:00"
-  },
-  {
    "titulo": "FIVE FINGER DEATH PUNCH's ZOLTAN BATHORY Doubles Down On Judo Commitment",
    "link": "https://blabbermouth.net/news/five-finger-death-punchs-zoltan-bathory-doubles-down-on-judo-commitment",
    "fonte": "Blabbermouth",
    "data": "2026-11-03T12:44:15+00:00"
-  },
-  {
-   "titulo": "Oxidised Razor - Founding Member Passed Away",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64433",
-   "fonte": "Metal Storm",
-   "data": "2026-11-03T12:33:38+00:00"
-  },
-  {
-   "titulo": "Mnemocide - Post New Single",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64449",
-   "fonte": "Metal Storm",
-   "data": "2026-11-03T12:33:32+00:00"
   },
   {
    "titulo": "MESHUGGAH Announces European Leg Of 2027 'The Forty-Year Anomaly' Tour",
@@ -17480,28 +17570,10 @@
    "data": "2026-11-02T21:00:00+00:00"
   },
   {
-   "titulo": "Queens Of The Stone Age - European Shows Confirmed",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64448",
-   "fonte": "Metal Storm",
-   "data": "2026-11-02T20:45:35+00:00"
-  },
-  {
-   "titulo": "Iron Mask - Releasing Next LP In January",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64443",
-   "fonte": "Metal Storm",
-   "data": "2026-11-02T20:38:38+00:00"
-  },
-  {
    "titulo": "CHRIS JERICHO On Singing FOZZY Songs That He Didn't Write: 'I Have To Figure Out What They Mean To Me To Really Deliver Them With Authority'",
    "link": "https://blabbermouth.net/news/chris-jericho-on-singing-fozzy-songs-that-he-didnt-write-i-have-to-figure-out-what-they-mean-to-me-to-really-deliver-them-with-authority",
    "fonte": "Blabbermouth",
    "data": "2026-11-02T20:32:50+00:00"
-  },
-  {
-   "titulo": "Gormoth - Debut 'Everything Is So Quiet, Silent...' Song",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64447",
-   "fonte": "Metal Storm",
-   "data": "2026-11-02T20:32:43+00:00"
   },
   {
    "titulo": "More Than Misery",
@@ -17552,34 +17624,10 @@
    "data": "2026-11-02T18:55:29+00:00"
   },
   {
-   "titulo": "Watch: TRIVIUM Performs “Fugue” Live At The Hangar; Official Video",
-   "link": "https://bravewords.com/news/watch-trivium-performs-fugue-live-at-the-hangar-official-video/",
-   "fonte": "BraveWords",
-   "data": "2026-11-02T18:36:16+00:00"
-  },
-  {
-   "titulo": "LAMB OF GOD’s Headbangers Boat Returns In 2028; SHADOWS FALL, BLEED FROM WITHIN, HERIOT Among Confirmed Acts",
-   "link": "https://bravewords.com/news/lamb-of-gods-headbangers-boat-returns-in-2028-shadows-fall-bleed-from-within-heriot-among-confirmed-acts/",
-   "fonte": "BraveWords",
-   "data": "2026-11-02T18:23:29+00:00"
-  },
-  {
    "titulo": "SCORPIONS Announce Spring/Summer 2027 European Tour",
    "link": "https://blabbermouth.net/news/scorpions-announce-spring-summer-2027-european-tour",
    "fonte": "Blabbermouth",
    "data": "2026-11-02T18:21:17+00:00"
-  },
-  {
-   "titulo": "IRON MASK Feat. MARK BOALS To Release Crimson Prophecy Album In January; “No Greener Lands” Lyric Video Streaming",
-   "link": "https://bravewords.com/news/iron-mask-feat-mark-boals-to-release-crimson-prophecy-album-in-january-no-greener-lands-lyric-video-streaming/",
-   "fonte": "BraveWords",
-   "data": "2026-11-02T17:54:19+00:00"
-  },
-  {
-   "titulo": "A PERFECT CIRCLE’s BILLY HOWERDEL Auctions Rarities And Instruments Used On Mer De Noms, Thirteenth Step And More; Video",
-   "link": "https://bravewords.com/news/a-perfect-circles-billy-howerdel-auctions-rarities-and-instruments-used-on-mer-de-noms-thirteenth-step-and-more-video/",
-   "fonte": "BraveWords",
-   "data": "2026-11-02T17:39:12+00:00"
   },
   {
    "titulo": "DEEP PURPLE Cancels Remainder Of Fall 2026 European Tour On Advice Of IAN GILLAN's Medical Team",
@@ -17642,34 +17690,16 @@
    "data": "2026-11-02T15:20:13+00:00"
   },
   {
-   "titulo": "STONE TEMPLE PILOTS' JEFF GUTT Is Completing Debut Album From WE ARE NOT MACHINES Project Featuring EVANESCENCE's WILL HUNT",
-   "link": "https://blabbermouth.net/news/stone-temple-pilots-jeff-gutt-is-completing-debut-album-from-we-are-not-machines-project-featuring-evanescences-will-hunt",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-02T15:17:04+00:00"
-  },
-  {
    "titulo": "Randy Holden – Population II",
    "link": "https://www.decibelmagazine.com/2026/11/02/randy-holden-population-ii/",
    "fonte": "Decibel",
    "data": "2026-11-02T14:38:39+00:00"
   },
   {
-   "titulo": "GREAT WHITE's MARK KENDALL Remembers His 'Best Friend' JACK RUSSELL: 'We Were Connected At The Hip Our Entire Career'",
-   "link": "https://blabbermouth.net/news/great-whites-mark-kendall-remembers-his-best-friend-jack-russell-we-were-connected-at-the-hip-our-entire-career",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-02T14:31:18+00:00"
-  },
-  {
    "titulo": "Evanescence's Amy Lee believes that an AI backlash is just around the corner",
    "link": "https://www.loudersound.com/bands-artists/evanescence-amy-lee-on-ai-generated-art",
    "fonte": "Metal Hammer",
    "data": "2026-11-02T14:13:09+00:00"
-  },
-  {
-   "titulo": "Watch: AEROSMITH Joined By RUN-DMC For 'Walk This Way' Performance At Second Hollywood Bowl Concert",
-   "link": "https://blabbermouth.net/news/watch-aerosmith-joined-by-run-dmc-for-walk-this-way-performance-at-second-hollywood-bowl-concert",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-02T13:08:11+00:00"
   },
   {
    "titulo": "My Chemical Romance confirm they'll begin work on a new album in 2027",
@@ -17726,18 +17756,6 @@
    "data": "2026-11-01T18:00:00+00:00"
   },
   {
-   "titulo": "“We looked like the hippies they wanted to kill!”: How Opeth survived their early days in a scene they didn’t quite fit",
-   "link": "https://www.loudersound.com/bands-artists/mikael-akerfelft-opeth-nowrwegian-black-metal-era",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-01T17:00:00+00:00"
-  },
-  {
-   "titulo": "How Saint Agnes overcame tragedy and industry interference",
-   "link": "https://www.loudersound.com/bands-artists/interviews/saint-agnes-new-noise",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-01T16:00:00+00:00"
-  },
-  {
    "titulo": "Moonspell celebrate 35 years at MEO Arena with Amorphis and Zeal & Ardor",
    "link": "https://www.theblackplanet.org/moonspell-35th-anniversary/",
    "fonte": "The Black Planet",
@@ -17754,12 +17772,6 @@
    "link": "https://metalinjection.net/news/the-10-metal-drummers-that-are-almost-impossible-to-replicate",
    "fonte": "Metal Injection",
    "data": "2026-11-01T14:00:46+00:00"
-  },
-  {
-   "titulo": "The 50 best thrash metal albums ever, from Metallica to Power Trip",
-   "link": "https://www.loudersound.com/music/albums/the-50-greatest-thrash-metal-albums-ever-made",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-01T13:30:00+00:00"
   },
   {
    "titulo": "Ashes Reborn headlines Pão Por Deus Halloween Metal Night at Route 206 Bar",
