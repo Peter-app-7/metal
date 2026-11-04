@@ -1,15 +1,28 @@
 {
- "atualizado": "2026-11-03T19:28:25+00:00",
+ "atualizado": "2026-11-04T01:40:25+00:00",
  "fontes": {
   "excluidas": [],
   "agenda": {
-   "estado": "indisponivel",
-   "linhas": 0,
-   "futuras": 0,
+   "estado": "ok",
+   "linhas": 69,
+   "futuras": 42,
    "rejeitadas": [],
-   "quase": [],
-   "atualizada": null,
-   "erro": "www.caminhosmetalicos.com não respondeu (URLError)"
+   "quase": [
+    {
+     "agenda": "Above The Ocean",
+     "banda": "The Ocean"
+    },
+    {
+     "agenda": "Heavy Ocean",
+     "banda": "The Ocean"
+    },
+    {
+     "agenda": "Viseu Death Fest",
+     "banda": "Death"
+    }
+   ],
+   "atualizada": "2026-10-22",
+   "minhas": 2
   },
   "bandas": "spotify_guardado",
   "feeds": [
@@ -57,8 +70,7 @@
   "spotify_espera_ate": "2026-11-04T12:23:17+00:00"
  },
  "avisos": [
-  "O Spotify pediu para esperar. Foi usada a última lista de bandas.",
-  "Agenda do Caminhos Metálicos indisponível (www.caminhosmetalicos.com não respondeu (URLError)). Ficaram os concertos guardados."
+  "O Spotify pediu para esperar. Foi usada a última lista de bandas."
  ],
  "bandas": [
   {
@@ -16970,16 +16982,148 @@
  ],
  "noticias": [
   {
+   "titulo": "CLOAK To Release Above, Below, & Through In February; First Single Streaming",
+   "link": "https://bravewords.com/black-death/cloak-to-release-above-below-first-single-streaming/",
+   "fonte": "BraveWords",
+   "data": "2026-11-03T22:31:55+00:00"
+  },
+  {
+   "titulo": "Mastodon Moves to Dismiss Key Claims in Brent Hinds Estate Lawsuit",
+   "link": "https://metalinjection.net/news/mastodon-moves-to-dismiss-key-claims-in-brent-hinds-estate-lawsuit",
+   "fonte": "Metal Injection",
+   "data": "2026-11-03T22:02:07+00:00"
+  },
+  {
+   "titulo": "TESTAMENT's CHUCK BILLY On His 1997 SEPULTURA Audition: 'I Turned In My Demo Too Late'",
+   "link": "https://blabbermouth.net/news/testaments-chuck-billy-on-his-1997-sepultura-audition-i-turned-in-my-demo-too-late",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-03T21:22:14+00:00"
+  },
+  {
+   "titulo": "CASTLE RAT / UNTO OTHERS – Gothic Wizardry In Montreal!",
+   "link": "https://bravewords.com/concert-reviews/castle-rat-unto-others-gothic-wizardry-in-montreal/",
+   "fonte": "BraveWords",
+   "data": "2026-11-03T21:17:59+00:00"
+  },
+  {
+   "titulo": "Rock For People Adds Evanescence, Parkway Drive, The Devil Wears Prada and More to Lineup",
+   "link": "https://metalinjection.net/tour-dates/festivals/rock-for-people-adds-evanescence-parkway-drive-the-devil-wears-prada-and-more-to-lineup",
+   "fonte": "Metal Injection",
+   "data": "2026-11-03T21:11:58+00:00"
+  },
+  {
+   "titulo": "Photos: Knocked Loose and Denzel Curry Turn Petco Park Into a Halloween Eve Riot",
+   "link": "https://metalinjection.net/photos/photos-knocked-loose-and-denzel-curry-turn-petco-park-into-a-halloween-eve-riot",
+   "fonte": "Metal Injection",
+   "data": "2026-11-03T21:09:54+00:00"
+  },
+  {
+   "titulo": "Alexisonfire and Poison the Well Announce 2027 Co-Headlining Tour",
+   "link": "https://metalinjection.net/tour-dates/alexisonfire-and-poison-the-well-announce-2027-co-headlining-tour",
+   "fonte": "Metal Injection",
+   "data": "2026-11-03T20:59:56+00:00"
+  },
+  {
+   "titulo": "Hirax - Drop 'Vigilante' Single",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64459",
+   "fonte": "Metal Storm",
+   "data": "2026-11-03T20:50:13+00:00"
+  },
+  {
+   "titulo": "Meshuggah - European 2027 Touring Plan Disclosed",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64458",
+   "fonte": "Metal Storm",
+   "data": "2026-11-03T20:43:17+00:00"
+  },
+  {
+   "titulo": "REVIEW: RIOT V’s Riot Fes: Live In Japan 2024 – “Nice Way To End The TODD HALL Years”",
+   "link": "https://bravewords.com/album-reviews/review-riot-vs-riot-fes-live-in-japan-2024-nice-way-to-end-the-todd-hall-years/",
+   "fonte": "BraveWords",
+   "data": "2026-11-03T20:37:27+00:00"
+  },
+  {
+   "titulo": "Is Ghost's Tobias Forge plotting a Repugnant reunion show?",
+   "link": "https://www.loudersound.com/bands-artists/ghost-tobias-forge-repugnant-reunion-show-poster-stockholm",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-03T20:37:02+00:00"
+  },
+  {
+   "titulo": "DAVE GROHL On Performing 'Highway To Hell' With AC/DC: 'I Walked Off Stage And I Broke Down In Tears'",
+   "link": "https://blabbermouth.net/news/dave-grohl-on-performing-highway-to-hell-with-ac-dc-i-walked-off-stage-and-i-broke-down-in-tears",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-03T20:32:03+00:00"
+  },
+  {
+   "titulo": "Cloak - Streaming New Track",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64457",
+   "fonte": "Metal Storm",
+   "data": "2026-11-03T20:30:32+00:00"
+  },
+  {
+   "titulo": "Atoll - Announce Full Length Release",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64456",
+   "fonte": "Metal Storm",
+   "data": "2026-11-03T20:24:26+00:00"
+  },
+  {
+   "titulo": "Prong - 'New Commission' Song Premieres",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64455",
+   "fonte": "Metal Storm",
+   "data": "2026-11-03T20:04:08+00:00"
+  },
+  {
+   "titulo": "Ozzfest Launches Countdown Timer",
+   "link": "https://metalinjection.net/news/ozzfest-launches-countdown-timer",
+   "fonte": "Metal Injection",
+   "data": "2026-11-03T20:00:41+00:00"
+  },
+  {
+   "titulo": "Full Album Stream: Architect of Seth – “Solitude Solaire”",
+   "link": "https://www.decibelmagazine.com/2026/11/03/full-album-stream-architect-of-seth-solitude-solaire/",
+   "fonte": "Decibel",
+   "data": "2026-11-03T20:00:19+00:00"
+  },
+  {
+   "titulo": "Warpath - Ink Deal With Testimony Records",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64454",
+   "fonte": "Metal Storm",
+   "data": "2026-11-03T19:59:24+00:00"
+  },
+  {
+   "titulo": "JIM PETERIK & WORLD STAGE Release New Single “Treasure” Feat. KAITY HEART; Visualizer",
+   "link": "https://bravewords.com/news/jim-peterik-visualizer-3/",
+   "fonte": "BraveWords",
+   "data": "2026-11-03T19:35:21+00:00"
+  },
+  {
+   "titulo": "Spike Lee Claims Credit For Red Yankees Fitted, “Limp Bizkit… Didn’t Have It Before Me!”",
+   "link": "https://metalinjection.net/news/spike-lee-claims-credit-for-red-yankees-fitted-limp-bizkit-didnt-have-it-before-me",
+   "fonte": "Metal Injection",
+   "data": "2026-11-03T19:27:04+00:00"
+  },
+  {
    "titulo": "HAWKWIND Legend ROBERT CALVERT’s Test Tube Conceived Album Celebrates 40 Years Of Prophecy; “On Line” 2026 Mix Streaming",
    "link": "https://bravewords.com/news/hawkwind-legend-robert-calverts-test-tube-conceived-album-celebrates-40-years-of-prophecy-on-line-2026-mix-streaming/",
    "fonte": "BraveWords",
    "data": "2026-11-03T19:26:09+00:00"
   },
   {
+   "titulo": "ENSLAVED Remains One Of Progressive Metal's Most Restless Bands: 'We're Still Looking For New Paths'",
+   "link": "https://blabbermouth.net/features/enslaved-remains-one-of-progressive-metals-most-restless-bands-were-still-looking-for-new-paths",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-03T19:17:37+00:00"
+  },
+  {
    "titulo": "Watch: METALLICA Performs “Battery” During “Life Burns Faster” Residency At Sphere, Las Vegas; Official Video",
    "link": "https://bravewords.com/news/watch-metallica-performs-battery-during-life-burns-faster-residency-at-sphere-las-vegas-official-video/",
    "fonte": "BraveWords",
    "data": "2026-11-03T19:16:08+00:00"
+  },
+  {
+   "titulo": "NITA STRAUSS And JOSH VILLALTA Rock LOS ANGELES RAMS Halftime Show For 'Salute To Service'",
+   "link": "https://blabbermouth.net/news/nita-strauss-and-josh-villalta-rock-los-angeles-rams-halftime-show-for-salute-to-service",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-03T19:01:25+00:00"
   },
   {
    "titulo": "Kenny Hickey of Silvertomb on The Meaning of Heavy, Comparisons to Type O & More",
@@ -17366,18 +17510,6 @@
    "data": "2026-11-02T19:51:38+00:00"
   },
   {
-   "titulo": "Lake Of Tears - To Return Next Year For Live Shows",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64441",
-   "fonte": "Metal Storm",
-   "data": "2026-11-02T19:51:10+00:00"
-  },
-  {
-   "titulo": "Floating - New Track Launched",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64446",
-   "fonte": "Metal Storm",
-   "data": "2026-11-02T19:35:11+00:00"
-  },
-  {
    "titulo": "Deep Purple Cancel Remaining 2026 Tour Dates Following Ian Gillan’s Medical Emergency",
    "link": "https://metalinjection.net/news/deep-purple-cancel-remaining-2026-tour-dates-following-ian-gillans-medical-emergency",
    "fonte": "Metal Injection",
@@ -17388,24 +17520,6 @@
    "link": "https://bravewords.com/news/ian-gillans-medical-problem-forces-deep-purple-to-postpone-remaining-dates-of-european-uk-tour-until-further-notice/",
    "fonte": "BraveWords",
    "data": "2026-11-02T19:27:20+00:00"
-  },
-  {
-   "titulo": "Scorpions - Announce 2027 European Tour Dates",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64442",
-   "fonte": "Metal Storm",
-   "data": "2026-11-02T19:22:48+00:00"
-  },
-  {
-   "titulo": "Ferndal - Detail Upcoming Full Length Effort",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64445",
-   "fonte": "Metal Storm",
-   "data": "2026-11-02T19:17:38+00:00"
-  },
-  {
-   "titulo": "Pyogenesis - Unveil Video For 'Sing As If' Single",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64444",
-   "fonte": "Metal Storm",
-   "data": "2026-11-02T19:17:17+00:00"
   },
   {
    "titulo": "AVENGED SEVENFOLD's M. SHADOWS Believes 'The Stage' Has Become 'The Crown Jewel' In The Band's Catalog A Decade After Its Surprise Release",
@@ -17468,12 +17582,6 @@
    "data": "2026-11-02T17:35:10+00:00"
   },
   {
-   "titulo": "SCORPIONS Announce 2027 “Love, Peace & Rock ‘N’ Roll Tour”",
-   "link": "https://bravewords.com/news/scorpions-announce-2027-love-peace-rock-n-roll-tour/",
-   "fonte": "BraveWords",
-   "data": "2026-11-02T17:30:11+00:00"
-  },
-  {
    "titulo": "STEVE VAI On Debut SATCHVAI Album 'The Sea Of Emotion': 'It Was My Favorite Collaboration'",
    "link": "https://blabbermouth.net/news/steve-vai-on-debut-satchvai-album-the-sea-of-emotion-it-was-my-favorite-collaboration",
    "fonte": "Blabbermouth",
@@ -17486,28 +17594,10 @@
    "data": "2026-11-02T17:06:44+00:00"
   },
   {
-   "titulo": "Enter The MANOWAR Vaults: The Kings Of Metal Album 1988; Video",
-   "link": "https://bravewords.com/news/enter-the-manowar-vaults-the-kings-of-metal-album-1988-video/",
-   "fonte": "BraveWords",
-   "data": "2026-11-02T17:04:46+00:00"
-  },
-  {
-   "titulo": "Tales of Rock: Night is Calling – A Blood Moon Rises!",
-   "link": "https://bravewords.com/kommander/tales-of-rock-night-is-calling-a-blood-moon-rises/",
-   "fonte": "BraveWords",
-   "data": "2026-11-02T17:00:11+00:00"
-  },
-  {
    "titulo": "Track Premiere: Eternal Armageddon – ‘Constellations of the Night’",
    "link": "https://www.decibelmagazine.com/2026/11/02/track-premiere-eternal-armageddon-constellations-of-the-night/",
    "fonte": "Decibel",
    "data": "2026-11-02T17:00:05+00:00"
-  },
-  {
-   "titulo": "LEE AARON To Release Re-Vamp Album In January; First Details Revealed",
-   "link": "https://bravewords.com/news/lee-aaron-to-release-re-vamp-album-in-january-first-details-revealed/",
-   "fonte": "BraveWords",
-   "data": "2026-11-02T16:54:12+00:00"
   },
   {
    "titulo": "Zack de la Rocha wants Turnstile's younger fans to explore band's punk and hardcore roots",
@@ -17532,12 +17622,6 @@
    "link": "https://blabbermouth.net/news/lee-aaron-announces-re-vamp-album",
    "fonte": "Blabbermouth",
    "data": "2026-11-02T16:00:12+00:00"
-  },
-  {
-   "titulo": "Black Rose (UK) - Former Guitarist Died",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64440",
-   "fonte": "Metal Storm",
-   "data": "2026-11-02T15:40:33+00:00"
   },
   {
    "titulo": "Watch: Paleface Swiss Won Halloween With Slipknot Cover Set",
@@ -17630,18 +17714,6 @@
    "data": "2026-11-01T20:53:14+00:00"
   },
   {
-   "titulo": "JUSTIN SARGENT On Becoming SKID ROW's New Singer: It's 'Surreal' And 'A Dream Come True'",
-   "link": "https://blabbermouth.net/news/justin-sargent-on-becoming-skid-rows-new-singer-its-surreal-and-a-dream-come-true",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-01T20:05:23+00:00"
-  },
-  {
-   "titulo": "EVANESCENCE's AMY LEE: 'It's A Beautiful Thing To Be Able To Bring Big Groups Of People Together To Feel Something Real'",
-   "link": "https://blabbermouth.net/news/evanescences-amy-lee-its-a-beautiful-thing-to-be-able-to-bring-big-groups-of-people-together-to-feel-something-real",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-01T18:06:19+00:00"
-  },
-  {
    "titulo": "Test your Rush knowledge with this incredibly tough quiz",
    "link": "https://www.loudersound.com/culture/quiz/rush-trivia-quiz",
    "fonte": "Metal Hammer",
@@ -17654,12 +17726,6 @@
    "data": "2026-11-01T17:00:00+00:00"
   },
   {
-   "titulo": "DAVE LOMBARDO Reflects On SLAYER's 'Reign In Blood': 'The Reviews Weren't All Great At The Time'",
-   "link": "https://blabbermouth.net/news/dave-lombardo-reflects-on-slayers-reign-in-blood-the-reviews-werent-all-great-at-the-time",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-01T16:41:53+00:00"
-  },
-  {
    "titulo": "How Saint Agnes overcame tragedy and industry interference",
    "link": "https://www.loudersound.com/bands-artists/interviews/saint-agnes-new-noise",
    "fonte": "Metal Hammer",
@@ -17670,12 +17736,6 @@
    "link": "https://www.theblackplanet.org/moonspell-35th-anniversary/",
    "fonte": "The Black Planet",
    "data": "2026-11-01T15:56:53+00:00"
-  },
-  {
-   "titulo": "SCOTT HOLIDAY On How RIVAL SONS Treat Royalty Income: 'We Don't Split Everything Equally, But We Split Things Very Amicably'",
-   "link": "https://blabbermouth.net/news/scott-holiday-on-how-rival-sons-treat-royalty-income-we-dont-split-everything-equally-but-we-split-things-very-amicably",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-01T15:56:14+00:00"
   },
   {
    "titulo": "Watch: Nene Royal Covers Slipknot's \"Psychosocial\" For Halloween",
@@ -17712,12 +17772,6 @@
    "link": "https://www.loudersound.com/bands-artists/i-believe-one-of-the-leading-causes-of-death-is-retirement-brace-yourselves-haters-nickelback-are-going-nowhere",
    "fonte": "Metal Hammer",
    "data": "2026-11-01T04:00:00+00:00"
-  },
-  {
-   "titulo": "How Venom made their unholy masterpiece Black Metal and changed the course of metal",
-   "link": "https://www.loudersound.com/music/albums/venom-black-metal-story-behind-the-album",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-01T01:00:00+00:00"
   },
   {
    "titulo": "Ashes Reborn headlines Pão Por Deus Halloween Metal Night at Route 206 Bar",
@@ -17798,42 +17852,6 @@
    "data": "2026-10-30T15:29:59+00:00"
   },
   {
-   "titulo": "Happy Halloween: Watch Rob Zombie's New Video For \"Sir Lord Acid Wolfman\"",
-   "link": "https://metalinjection.net/news/happy-halloween-watch-rob-zombies-new-video-for-sir-acid-wolfman",
-   "fonte": "Metal Injection",
-   "data": "2026-10-30T14:46:26+00:00"
-  },
-  {
-   "titulo": "Watch: Enslaved Release Visualizer For 'Mið' Standout Song \"I Am Ice\" Featuring Johan Sara Jr.",
-   "link": "https://metalinjection.net/new-music/watch-enslaved-release-visualizer-for-mid-standout-song-i-am-ice-featuring-johan-sara-jr",
-   "fonte": "Metal Injection",
-   "data": "2026-10-30T14:25:50+00:00"
-  },
-  {
-   "titulo": "Watch: Rev3rent Drops New Album, Video For \"Eyes Wide Shut\"",
-   "link": "https://metalinjection.net/new-music/watch-rev3rent-drops-new-album-video-for-eyes-wide-shut",
-   "fonte": "Metal Injection",
-   "data": "2026-10-30T14:04:02+00:00"
-  },
-  {
-   "titulo": "The Weekly Injection: New Releases From Ministry, Enslaved, and More Out This Week – 10.30",
-   "link": "https://metalinjection.net/upcoming-releases/heavy-new-releases/the-weekly-injection-new-releases-from-ministry-enslaved-and-more-out-this-week-10-30",
-   "fonte": "Metal Injection",
-   "data": "2026-10-30T13:10:11+00:00"
-  },
-  {
-   "titulo": "Watch: Knights Battle For Victory In Imminence's New Music Video for “Crestfallen”",
-   "link": "https://metalinjection.net/news/watch-knights-battle-for-victory-in-imminences-new-music-video-for-crestfallen",
-   "fonte": "Metal Injection",
-   "data": "2026-10-29T21:06:25+00:00"
-  },
-  {
-   "titulo": "Avenged Sevenfold’s Zacky Vengeance Defends AI Art, Calls Majority of Designers He’s Worked With \"Lazy\"",
-   "link": "https://metalinjection.net/news/avenged-sevenfolds-zacky-vengeance-defends-ai-art-calls-majority-of-designers-hes-worked-with-lazy",
-   "fonte": "Metal Injection",
-   "data": "2026-10-29T19:16:30+00:00"
-  },
-  {
    "titulo": "Rotting Christ announce Two Portugal shows for March 2027",
    "link": "https://www.theblackplanet.org/rotting-christ-portugal-2027/",
    "fonte": "The Black Planet",
@@ -17862,12 +17880,6 @@
    "link": "https://www.theblackplanet.org/menhir-fest-2026/",
    "fonte": "The Black Planet",
    "data": "2026-10-29T17:52:58+00:00"
-  },
-  {
-   "titulo": "Track Premiere: McGuyer – “KHAST”",
-   "link": "https://www.decibelmagazine.com/2026/10/29/track-premiere-mcguyer-khast/",
-   "fonte": "Decibel",
-   "data": "2026-10-29T16:00:15+00:00"
   }
  ]
 }
