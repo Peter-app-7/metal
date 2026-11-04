@@ -1,28 +1,15 @@
 {
- "atualizado": "2026-11-04T01:40:25+00:00",
+ "atualizado": "2026-11-04T07:48:43+00:00",
  "fontes": {
   "excluidas": [],
   "agenda": {
-   "estado": "ok",
-   "linhas": 69,
-   "futuras": 42,
+   "estado": "indisponivel",
+   "linhas": 0,
+   "futuras": 0,
    "rejeitadas": [],
-   "quase": [
-    {
-     "agenda": "Above The Ocean",
-     "banda": "The Ocean"
-    },
-    {
-     "agenda": "Heavy Ocean",
-     "banda": "The Ocean"
-    },
-    {
-     "agenda": "Viseu Death Fest",
-     "banda": "Death"
-    }
-   ],
-   "atualizada": "2026-10-22",
-   "minhas": 2
+   "quase": [],
+   "atualizada": null,
+   "erro": "www.caminhosmetalicos.com não respondeu (URLError)"
   },
   "bandas": "spotify_guardado",
   "feeds": [
@@ -70,7 +57,8 @@
   "spotify_espera_ate": "2026-11-04T12:23:17+00:00"
  },
  "avisos": [
-  "O Spotify pediu para esperar. Foi usada a última lista de bandas."
+  "O Spotify pediu para esperar. Foi usada a última lista de bandas.",
+  "Agenda do Caminhos Metálicos indisponível (www.caminhosmetalicos.com não respondeu (URLError)). Ficaram os concertos guardados."
  ],
  "bandas": [
   {
@@ -16982,6 +16970,36 @@
  ],
  "noticias": [
   {
+   "titulo": "CURRENTS Announce February/March 2027 'Our Fates Lie In Tandem' North American Tour",
+   "link": "https://blabbermouth.net/news/currents-announce-february-march-2027-our-fates-lie-in-tandem-north-american-tour",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-04T06:19:16+00:00"
+  },
+  {
+   "titulo": "20 years after the film that changed everything, Anvil frontman Steve 'Lips' Kudrow has no regrets",
+   "link": "https://www.loudersound.com/bands-artists/interviews/20-years-anvil-film-steve-lips-kudrow",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-04T05:55:00+00:00"
+  },
+  {
+   "titulo": "Dave Grohl says performing with AC/DC turned him into an emotional wreck",
+   "link": "https://www.loudersound.com/bands-artists/idave-grohl-performing-with-ac-dc-emotional-wreck",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-04T04:05:00+00:00"
+  },
+  {
+   "titulo": "Joe Walsh once joined a reggae band in New Zealand: The experience saved his life",
+   "link": "https://www.loudersound.com/bands-artists/joe-walsh-herbs-reggae-new-zealand",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-04T02:16:53+00:00"
+  },
+  {
+   "titulo": "Prong",
+   "link": "https://blabbermouth.net/reviews/prong",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-04T02:03:29+00:00"
+  },
+  {
    "titulo": "CLOAK To Release Above, Below, & Through In February; First Single Streaming",
    "link": "https://bravewords.com/black-death/cloak-to-release-above-below-first-single-streaming/",
    "fonte": "BraveWords",
@@ -17196,12 +17214,6 @@
    "link": "https://blabbermouth.net/news/opeth-to-take-a-long-break-after-completion-of-latin-american-tour",
    "fonte": "Blabbermouth",
    "data": "2026-11-03T17:47:43+00:00"
-  },
-  {
-   "titulo": "CURRENTS Announce February/March 2027 'Our Fates Lie In Tandem' North American Tour",
-   "link": "https://blabbermouth.net/news/currents-announce-february-march-2027-our-fates-lie-in-tandem-north-american-tour",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-03T17:20:13+00:00"
   },
   {
    "titulo": "Interview: Rebreather on ‘Chaos Patterns’",
@@ -17708,12 +17720,6 @@
    "data": "2026-11-01T23:36:54+00:00"
   },
   {
-   "titulo": "BRUCE DICKINSON To Release First Single From His Upcoming Solo Album Within Next Two Weeks",
-   "link": "https://blabbermouth.net/news/bruce-dickinson-to-release-first-single-from-his-upcoming-solo-album-within-next-two-weeks",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-01T20:53:14+00:00"
-  },
-  {
    "titulo": "Test your Rush knowledge with this incredibly tough quiz",
    "link": "https://www.loudersound.com/culture/quiz/rush-trivia-quiz",
    "fonte": "Metal Hammer",
@@ -17754,24 +17760,6 @@
    "link": "https://www.loudersound.com/music/albums/the-50-greatest-thrash-metal-albums-ever-made",
    "fonte": "Metal Hammer",
    "data": "2026-11-01T13:30:00+00:00"
-  },
-  {
-   "titulo": "Watch Paleface Swiss blast through three Slipknot songs while dressed as Slipknot at their Halloween gig",
-   "link": "https://www.loudersound.com/bands-artists/paleface-swiss-perform-as-slipknot-at-halloween-gig",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-01T11:20:50+00:00"
-  },
-  {
-   "titulo": "James Hetfield says Turnstile turned down the chance to open for Metallica",
-   "link": "https://www.loudersound.com/bands-artists/we-wanted-to-get-them-on-tour-and-they-said-no-james-hetfield-says-turnstile-turned-the-chance-to-open-for-metallica",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-01T09:03:57+00:00"
-  },
-  {
-   "titulo": "Brace yourselves, haters. Nickelback are going nowhere",
-   "link": "https://www.loudersound.com/bands-artists/i-believe-one-of-the-leading-causes-of-death-is-retirement-brace-yourselves-haters-nickelback-are-going-nowhere",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-01T04:00:00+00:00"
   },
   {
    "titulo": "Ashes Reborn headlines Pão Por Deus Halloween Metal Night at Route 206 Bar",
