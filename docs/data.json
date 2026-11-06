@@ -1,30 +1,30 @@
 {
- "atualizado": "2026-11-06T13:38:51+00:00",
+ "atualizado": "2026-11-06T19:27:04+00:00",
  "fontes": {
   "excluidas": [
    "Richard Dawkins"
   ],
   "agenda": {
    "estado": "ok",
-   "linhas": 69,
-   "futuras": 41,
+   "linhas": 79,
+   "futuras": 79,
    "rejeitadas": [],
    "quase": [
     {
-     "agenda": "Above The Ocean",
+     "agenda": "Ashes In The Ocean",
      "banda": "The Ocean"
     },
     {
-     "agenda": "Heavy Ocean",
-     "banda": "The Ocean"
+     "agenda": "Hate Disposal",
+     "banda": "Hate"
     },
     {
      "agenda": "Viseu Death Fest",
      "banda": "Death"
     }
    ],
-   "atualizada": "2026-10-22",
-   "minhas": 2
+   "atualizada": "2026-11-06",
+   "minhas": 6
   },
   "bandas": "spotify",
   "feeds": [
@@ -46,7 +46,7 @@
    {
     "nome": "MetalSucks",
     "ok": true,
-    "artigos": 7
+    "artigos": 6
    },
    {
     "nome": "Decibel",
@@ -425,11 +425,11 @@
     },
     {
      "id": "c988e827-3b9f-4c31-a67f-738af9e7ab92",
-     "titulo": "Three Sixty (Commentary)",
+     "titulo": "Three Sixty Commentary",
      "tipo": "Álbum",
      "data": "2013-11-19",
      "capa": "https://coverartarchive.org/release-group/c988e827-3b9f-4c31-a67f-738af9e7ab92/front-250",
-     "spotify": "https://open.spotify.com/search/A%20Perfect%20Circle%20Three%20Sixty%20%28Commentary%29"
+     "spotify": "https://open.spotify.com/search/A%20Perfect%20Circle%20Three%20Sixty%20Commentary"
     },
     {
      "id": "0f21095a-e629-389c-981a-d9569e9673c9",
@@ -16562,6 +16562,38 @@
    "link": "https://www.caminhosmetalicos.com/agenda/"
   },
   {
+   "id": "cm-2026-12-04-porto-chaosaddiction",
+   "data": "2026-12-04",
+   "bandas": [
+    {
+     "nome": "Chaosaddiction",
+     "minha": false
+    },
+    {
+     "nome": "Equaleft",
+     "minha": true
+    },
+    {
+     "nome": "Viledog",
+     "minha": false
+    },
+    {
+     "nome": "Sarronco",
+     "minha": false
+    }
+   ],
+   "categorias": [
+    "Thrash"
+   ],
+   "sala": "Casa do Salgueiros",
+   "cidade": "Porto",
+   "evento": "",
+   "fontes": [
+    "Caminhos Metálicos"
+   ],
+   "link": "https://www.caminhosmetalicos.com/agenda/"
+  },
+  {
    "id": "cm-2026-12-19-lisboa-corpus christii",
    "data": "2026-12-19",
    "bandas": [
@@ -16579,6 +16611,102 @@
    ],
    "sala": "República da Música",
    "cidade": "Lisboa",
+   "evento": "",
+   "fontes": [
+    "Caminhos Metálicos"
+   ],
+   "link": "https://www.caminhosmetalicos.com/agenda/"
+  },
+  {
+   "id": "cm-2027-02-08-lisboa-obscura",
+   "data": "2027-02-08",
+   "bandas": [
+    {
+     "nome": "Obscura",
+     "minha": true
+    },
+    {
+     "nome": "Pestilence",
+     "minha": false
+    },
+    {
+     "nome": "Cryptic Shigt",
+     "minha": false
+    },
+    {
+     "nome": "Thus",
+     "minha": false
+    },
+    {
+     "nome": "Dvrk",
+     "minha": false
+    }
+   ],
+   "categorias": [
+    "Death"
+   ],
+   "sala": "República da Música",
+   "cidade": "Lisboa",
+   "evento": "Shred Fest",
+   "fontes": [
+    "Caminhos Metálicos"
+   ],
+   "link": "https://www.caminhosmetalicos.com/agenda/"
+  },
+  {
+   "id": "cm-2027-02-09-porto-obscura",
+   "data": "2027-02-09",
+   "bandas": [
+    {
+     "nome": "Obscura",
+     "minha": true
+    },
+    {
+     "nome": "Pestilence",
+     "minha": false
+    },
+    {
+     "nome": "Cryptic Shigt",
+     "minha": false
+    },
+    {
+     "nome": "Thus",
+     "minha": false
+    },
+    {
+     "nome": "Dvrk",
+     "minha": false
+    }
+   ],
+   "categorias": [
+    "Death"
+   ],
+   "sala": "Mouco",
+   "cidade": "Porto",
+   "evento": "Shred Fest",
+   "fontes": [
+    "Caminhos Metálicos"
+   ],
+   "link": "https://www.caminhosmetalicos.com/agenda/"
+  },
+  {
+   "id": "cm-2027-03-19-porto-rotting christ",
+   "data": "2027-03-19",
+   "bandas": [
+    {
+     "nome": "Rotting Christ",
+     "minha": true
+    },
+    {
+     "nome": "ANZV",
+     "minha": true
+    }
+   ],
+   "categorias": [
+    "Black"
+   ],
+   "sala": "Hard Club",
+   "cidade": "Porto",
    "evento": "",
    "fontes": [
     "Caminhos Metálicos"
@@ -16688,6 +16816,45 @@
    ]
   },
   {
+   "id": "fest-2026-11-27-rockfest pm26",
+   "nome": "Rockfest PM26",
+   "data_inicio": "2026-11-27",
+   "data_fim": "2026-11-28",
+   "local": "Clube da Pedra Mourinha",
+   "cidade": "Portimão",
+   "link": "https://www.caminhosmetalicos.com/agenda/",
+   "bandas": [
+    {
+     "nome": "Bizarra Locomotiva",
+     "minha": false
+    },
+    {
+     "nome": "Mães Solteiras",
+     "minha": false
+    },
+    {
+     "nome": "Soulcrusher",
+     "minha": false
+    },
+    {
+     "nome": "Club Makumba",
+     "minha": false
+    },
+    {
+     "nome": "Dapunksportif",
+     "minha": false
+    },
+    {
+     "nome": "Madmess",
+     "minha": false
+    }
+   ],
+   "tem_minhas": false,
+   "fontes": [
+    "Caminhos Metálicos"
+   ]
+  },
+  {
    "id": "fest-2026-12-03-invicta requiem mass ix",
    "nome": "Invicta Requiem Mass IX",
    "data_inicio": "2026-12-03",
@@ -16710,6 +16877,33 @@
    "cidade": "Covilhã",
    "link": "https://www.caminhosmetalicos.com/agenda/",
    "bandas": [],
+   "tem_minhas": false,
+   "fontes": [
+    "Caminhos Metálicos"
+   ]
+  },
+  {
+   "id": "fest-2026-12-05-heavy duty fest warm up",
+   "nome": "Heavy Duty Fest Warm Up",
+   "data_inicio": "2026-12-05",
+   "data_fim": "2026-12-05",
+   "local": "Woodstock 69",
+   "cidade": "Porto",
+   "link": "https://www.caminhosmetalicos.com/agenda/",
+   "bandas": [
+    {
+     "nome": "Wanderer",
+     "minha": false
+    },
+    {
+     "nome": "Ladon Heads",
+     "minha": false
+    },
+    {
+     "nome": "Ashen Throne",
+     "minha": false
+    }
+   ],
    "tem_minhas": false,
    "fontes": [
     "Caminhos Metálicos"
@@ -16806,7 +17000,7 @@
    "nome": "Assembleia do Metal",
    "data_inicio": "2026-12-26",
    "data_fim": "2026-12-26",
-   "local": "",
+   "local": "Salão Bombeiros",
    "cidade": "Pindelo dos Milagres",
    "link": "https://www.caminhosmetalicos.com/agenda/",
    "bandas": [],
@@ -16841,6 +17035,104 @@
    "fontes": [
     "Manual"
    ]
+  },
+  {
+   "id": "fest-2027-01-09-mangualde hardmetal fest",
+   "nome": "Mangualde Hardmetal Fest",
+   "data_inicio": "2027-01-09",
+   "data_fim": "2027-01-09",
+   "local": "C.C. Santo André",
+   "cidade": "Mangualde",
+   "link": "https://www.caminhosmetalicos.com/agenda/",
+   "bandas": [],
+   "tem_minhas": false,
+   "fontes": [
+    "Caminhos Metálicos"
+   ]
+  },
+  {
+   "id": "fest-2027-02-08-shred fest",
+   "nome": "Shred Fest",
+   "data_inicio": "2027-02-08",
+   "data_fim": "2027-02-08",
+   "local": "República da Música",
+   "cidade": "Lisboa",
+   "link": "https://www.caminhosmetalicos.com/agenda/",
+   "bandas": [
+    {
+     "nome": "Obscura",
+     "minha": true
+    },
+    {
+     "nome": "Pestilence",
+     "minha": false
+    },
+    {
+     "nome": "Cryptic Shigt",
+     "minha": false
+    },
+    {
+     "nome": "Thus",
+     "minha": false
+    },
+    {
+     "nome": "Dvrk",
+     "minha": false
+    }
+   ],
+   "tem_minhas": true,
+   "fontes": [
+    "Caminhos Metálicos"
+   ]
+  },
+  {
+   "id": "fest-2027-02-09-shred fest",
+   "nome": "Shred Fest",
+   "data_inicio": "2027-02-09",
+   "data_fim": "2027-02-09",
+   "local": "Mouco",
+   "cidade": "Porto",
+   "link": "https://www.caminhosmetalicos.com/agenda/",
+   "bandas": [
+    {
+     "nome": "Obscura",
+     "minha": true
+    },
+    {
+     "nome": "Pestilence",
+     "minha": false
+    },
+    {
+     "nome": "Cryptic Shigt",
+     "minha": false
+    },
+    {
+     "nome": "Thus",
+     "minha": false
+    },
+    {
+     "nome": "Dvrk",
+     "minha": false
+    }
+   ],
+   "tem_minhas": true,
+   "fontes": [
+    "Caminhos Metálicos"
+   ]
+  },
+  {
+   "id": "fest-2027-02-13-brotherhood metal fest",
+   "nome": "Brotherhood Metal Fest",
+   "data_inicio": "2027-02-13",
+   "data_fim": "2027-02-13",
+   "local": "Casa Artista Amador",
+   "cidade": "Famalicão",
+   "link": "https://www.caminhosmetalicos.com/agenda/",
+   "bandas": [],
+   "tem_minhas": false,
+   "fontes": [
+    "Caminhos Metálicos"
+   ]
   }
  ],
  "festivais_agenda": [
@@ -16849,7 +17141,7 @@
    "nome": "Assembleia do Metal",
    "data_inicio": "2026-12-26",
    "data_fim": "2026-12-26",
-   "local": "",
+   "local": "Salão Bombeiros",
    "cidade": "Pindelo dos Milagres",
    "link": "https://www.caminhosmetalicos.com/agenda/",
    "bandas": [],
@@ -16890,6 +17182,20 @@
    ]
   },
   {
+   "id": "fest-2027-02-13-brotherhood metal fest",
+   "nome": "Brotherhood Metal Fest",
+   "data_inicio": "2027-02-13",
+   "data_fim": "2027-02-13",
+   "local": "Casa Artista Amador",
+   "cidade": "Famalicão",
+   "link": "https://www.caminhosmetalicos.com/agenda/",
+   "bandas": [],
+   "tem_minhas": false,
+   "fontes": [
+    "Caminhos Metálicos"
+   ]
+  },
+  {
    "id": "fest-2026-12-04-butchery at christmas time",
    "nome": "Butchery At Christmas Time",
    "data_inicio": "2026-12-04",
@@ -16912,6 +17218,33 @@
    "cidade": "Lisboa",
    "link": "https://www.caminhosmetalicos.com/agenda/",
    "bandas": [],
+   "tem_minhas": false,
+   "fontes": [
+    "Caminhos Metálicos"
+   ]
+  },
+  {
+   "id": "fest-2026-12-05-heavy duty fest warm up",
+   "nome": "Heavy Duty Fest Warm Up",
+   "data_inicio": "2026-12-05",
+   "data_fim": "2026-12-05",
+   "local": "Woodstock 69",
+   "cidade": "Porto",
+   "link": "https://www.caminhosmetalicos.com/agenda/",
+   "bandas": [
+    {
+     "nome": "Wanderer",
+     "minha": false
+    },
+    {
+     "nome": "Ladon Heads",
+     "minha": false
+    },
+    {
+     "nome": "Ashen Throne",
+     "minha": false
+    }
+   ],
    "tem_minhas": false,
    "fontes": [
     "Caminhos Metálicos"
@@ -16946,6 +17279,20 @@
    ]
   },
   {
+   "id": "fest-2027-01-09-mangualde hardmetal fest",
+   "nome": "Mangualde Hardmetal Fest",
+   "data_inicio": "2027-01-09",
+   "data_fim": "2027-01-09",
+   "local": "C.C. Santo André",
+   "cidade": "Mangualde",
+   "link": "https://www.caminhosmetalicos.com/agenda/",
+   "bandas": [],
+   "tem_minhas": false,
+   "fontes": [
+    "Caminhos Metálicos"
+   ]
+  },
+  {
    "id": "fest-2026-11-06-portalegre core fest",
    "nome": "Portalegre Core Fest",
    "data_inicio": "2026-11-06",
@@ -16955,6 +17302,115 @@
    "link": "https://www.caminhosmetalicos.com/agenda/",
    "bandas": [],
    "tem_minhas": false,
+   "fontes": [
+    "Caminhos Metálicos"
+   ]
+  },
+  {
+   "id": "fest-2026-11-27-rockfest pm26",
+   "nome": "Rockfest PM26",
+   "data_inicio": "2026-11-27",
+   "data_fim": "2026-11-28",
+   "local": "Clube da Pedra Mourinha",
+   "cidade": "Portimão",
+   "link": "https://www.caminhosmetalicos.com/agenda/",
+   "bandas": [
+    {
+     "nome": "Bizarra Locomotiva",
+     "minha": false
+    },
+    {
+     "nome": "Mães Solteiras",
+     "minha": false
+    },
+    {
+     "nome": "Soulcrusher",
+     "minha": false
+    },
+    {
+     "nome": "Club Makumba",
+     "minha": false
+    },
+    {
+     "nome": "Dapunksportif",
+     "minha": false
+    },
+    {
+     "nome": "Madmess",
+     "minha": false
+    }
+   ],
+   "tem_minhas": false,
+   "fontes": [
+    "Caminhos Metálicos"
+   ]
+  },
+  {
+   "id": "fest-2027-02-08-shred fest",
+   "nome": "Shred Fest",
+   "data_inicio": "2027-02-08",
+   "data_fim": "2027-02-08",
+   "local": "República da Música",
+   "cidade": "Lisboa",
+   "link": "https://www.caminhosmetalicos.com/agenda/",
+   "bandas": [
+    {
+     "nome": "Obscura",
+     "minha": true
+    },
+    {
+     "nome": "Pestilence",
+     "minha": false
+    },
+    {
+     "nome": "Cryptic Shigt",
+     "minha": false
+    },
+    {
+     "nome": "Thus",
+     "minha": false
+    },
+    {
+     "nome": "Dvrk",
+     "minha": false
+    }
+   ],
+   "tem_minhas": true,
+   "fontes": [
+    "Caminhos Metálicos"
+   ]
+  },
+  {
+   "id": "fest-2027-02-09-shred fest",
+   "nome": "Shred Fest",
+   "data_inicio": "2027-02-09",
+   "data_fim": "2027-02-09",
+   "local": "Mouco",
+   "cidade": "Porto",
+   "link": "https://www.caminhosmetalicos.com/agenda/",
+   "bandas": [
+    {
+     "nome": "Obscura",
+     "minha": true
+    },
+    {
+     "nome": "Pestilence",
+     "minha": false
+    },
+    {
+     "nome": "Cryptic Shigt",
+     "minha": false
+    },
+    {
+     "nome": "Thus",
+     "minha": false
+    },
+    {
+     "nome": "Dvrk",
+     "minha": false
+    }
+   ],
+   "tem_minhas": true,
    "fontes": [
     "Caminhos Metálicos"
    ]
@@ -16989,6 +17445,258 @@
   }
  ],
  "noticias": [
+  {
+   "titulo": "STEVE VAI Clarifies Crossroads Movie Sequel Rumours – “That Is A Very Funny Rumour”; Video",
+   "link": "https://bravewords.com/news/steve-vai-clarifies-crossroads-movie-sequel-rumours-that-is-a-very-funny-rumour-video/",
+   "fonte": "BraveWords",
+   "data": "2026-11-06T19:21:14+00:00"
+  },
+  {
+   "titulo": "SEVERED ANGEL Returns With Fourth Studio Album, The Cost Of Creation; “Mirage Of Love” Lyric Video Streaming",
+   "link": "https://bravewords.com/news/severed-angel-returns-with-fourth-studio-album-the-cost-of-creation-mirage-of-love-lyric-video-streaming/",
+   "fonte": "BraveWords",
+   "data": "2026-11-06T18:49:26+00:00"
+  },
+  {
+   "titulo": "SHARON OSBOURNE Explains Why UK Date For OZZFEST Won’t Take Place In Birmingham – “The Choice Was To Move Ozzfest Or Postpone It For Another Year”",
+   "link": "https://bravewords.com/news/sharon-osbourne-explains-why-uk-date-for-ozzfest-wont-take-place-in-birmingham-the-choice-was-to-move-ozzfest-or-postpone-it-for-another-year/",
+   "fonte": "BraveWords",
+   "data": "2026-11-06T18:33:00+00:00"
+  },
+  {
+   "titulo": "KING'S X Guitarist TY TABOR Opens Up About His Traumatic Brain Injury: 'It Has Taken Years To Get Back' To Being Creative",
+   "link": "https://blabbermouth.net/news/kings-x-guitarist-ty-tabor-opens-up-about-his-traumatic-brain-injury-it-has-taken-years-to-get-back-to-being-creative",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-06T18:29:28+00:00"
+  },
+  {
+   "titulo": "TROLLFEST Unleash “Troll Brigade” Music Video; Trollywood Album Out Now",
+   "link": "https://bravewords.com/news/trollfest-unleash-troll-brigade-music-video-trollywood-album-out-now/",
+   "fonte": "BraveWords",
+   "data": "2026-11-06T18:21:33+00:00"
+  },
+  {
+   "titulo": "Sharon Osbourne Says Ozzfest Is Mostly Booked",
+   "link": "https://metalinjection.net/news/sharon-osbourne-says-ozzfest-is-mostly-booked",
+   "fonte": "Metal Injection",
+   "data": "2026-11-06T18:14:25+00:00"
+  },
+  {
+   "titulo": "ANZV confirmed for Clash of Gods 2027",
+   "link": "https://www.theblackplanet.org/anzv-clash-of-gods-2027/",
+   "fonte": "The Black Planet",
+   "data": "2026-11-06T18:06:03+00:00"
+  },
+  {
+   "titulo": "ZEBRA Release New Single And Video “All Your Love”",
+   "link": "https://bravewords.com/news/zebra-release-new-single-and-video-all-your-love/",
+   "fonte": "BraveWords",
+   "data": "2026-11-06T18:01:12+00:00"
+  },
+  {
+   "titulo": "Asia’s new album brings completion to the last song Geoff Downes started with John Wetton",
+   "link": "https://www.loudersound.com/music/albums/asia-tattoo-indigo-geoff-downes-john-wetton",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-06T18:00:00+00:00"
+  },
+  {
+   "titulo": "MURDERDOLLS Announce First Concert In Nearly A Decade",
+   "link": "https://blabbermouth.net/news/murderdolls-announce-first-concert-in-nearly-a-decade",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-06T17:57:47+00:00"
+  },
+  {
+   "titulo": "RAMMSTEIN Share Official Video For “Engel” From Live In Mexico City Concert Film",
+   "link": "https://bravewords.com/news/rammstein-share-official-video-for-engel-from-live-in-mexico-city-concert-film/",
+   "fonte": "BraveWords",
+   "data": "2026-11-06T17:48:42+00:00"
+  },
+  {
+   "titulo": "Metal Hammer's tracks of the week: November 6 2026",
+   "link": "https://www.loudersound.com/music/tracks-singles/metal-hammer-tracks-of-the-week-november-6-2026",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-06T17:47:50+00:00"
+  },
+  {
+   "titulo": "Gaerea join Imminence and Dying Wish on North American Tour",
+   "link": "https://www.theblackplanet.org/gaerea-join-imminence-north-american-tour/",
+   "fonte": "The Black Planet",
+   "data": "2026-11-06T17:45:45+00:00"
+  },
+  {
+   "titulo": "METALLICA Perform “Harvester Of Sorrow” Live At Sphere, Las Vegas; Official Video Posted",
+   "link": "https://bravewords.com/news/metallica-perform-harvester-of-sorrow-live-at-sphere-las-vegas-official-video-posted/",
+   "fonte": "BraveWords",
+   "data": "2026-11-06T17:36:03+00:00"
+  },
+  {
+   "titulo": "Andkristni MMXXVI announces Agalloch for Reykjavík winter solstice gathering",
+   "link": "https://www.theblackplanet.org/andkristni-mmxxvi-2026/",
+   "fonte": "The Black Planet",
+   "data": "2026-11-06T17:23:33+00:00"
+  },
+  {
+   "titulo": "QUEEN Debut “We Will Rock You” (Live In Budapest) Video; Queen Budapest Multi-Format Release Out Now",
+   "link": "https://bravewords.com/news/queen-debut-we-will-rock-you-live-in-budapest-video-queen-budapest-multi-format-release-out-now/",
+   "fonte": "BraveWords",
+   "data": "2026-11-06T17:22:37+00:00"
+  },
+  {
+   "titulo": "CORROSION OF CONFORMITY Shares 'Baad Man' And 'Lose Yourself', Recorded Live At Sweetwater Studios",
+   "link": "https://blabbermouth.net/news/corrosion-of-conformity-shares-baad-man-and-lose-yourself-recorded-live-at-sweetwater-studios",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-06T17:22:05+00:00"
+  },
+  {
+   "titulo": "Watch: Carnifex Drops Video For \"The Process Of Pain\" Featuring Chaney Crabb of Entheos",
+   "link": "https://metalinjection.net/new-music/watch-carnifex-drops-video-for-the-process-of-pain-featuring-chaney-crabb-of-entheos",
+   "fonte": "Metal Injection",
+   "data": "2026-11-06T17:11:31+00:00"
+  },
+  {
+   "titulo": "Banana Bong Fest returns to Guimarães",
+   "link": "https://www.theblackplanet.org/banana-bong-fest-2026/",
+   "fonte": "The Black Planet",
+   "data": "2026-11-06T17:09:32+00:00"
+  },
+  {
+   "titulo": "HEART's ANN WILSON And TRIPSITTER Release Music Video For 'Me And Comanche' From 'Consecrated Ground' Album",
+   "link": "https://blabbermouth.net/news/hearts-ann-wilson-and-tripsitter-release-music-video-for-me-and-comanche-from-consecrated-ground-album",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-06T17:06:05+00:00"
+  },
+  {
+   "titulo": "FINGER ELEVEN Release “One Thing (Acoustic Live at B Town Sound)” Lyric Video; Deluxe Version Of Last Night On Earth Album Out Now",
+   "link": "https://bravewords.com/news/finger-eleven-release-one-thing-acoustic-live-at-b-town-sound-lyric-video-deluxe-version-of-last-night-on-earth-album-out-now/",
+   "fonte": "BraveWords",
+   "data": "2026-11-06T17:01:20+00:00"
+  },
+  {
+   "titulo": "Best Online Casinos Canada For Real Money – Latest Canadian Sites Reviewed",
+   "link": "https://bravewords.com/partners/best-online-casinos-canada-for-real-money-latest-canadian-sites-reviewed/",
+   "fonte": "BraveWords",
+   "data": "2026-11-06T17:00:18+00:00"
+  },
+  {
+   "titulo": "Hatebreed's 'Fatal Paradox' Is Out Now, Grab an Exclusive Vinyl From Metal Injection",
+   "link": "https://metalinjection.net/new-music/hatebreeds-fatal-paradox-is-out-now-grab-an-exclusive-vinyl-from-metal-injection",
+   "fonte": "Metal Injection",
+   "data": "2026-11-06T16:47:26+00:00"
+  },
+  {
+   "titulo": "Assembleia do Metal returns on December 26th",
+   "link": "https://www.theblackplanet.org/assembleia-do-metal-2026/",
+   "fonte": "The Black Planet",
+   "data": "2026-11-06T16:46:39+00:00"
+  },
+  {
+   "titulo": "CORROSION OF CONFORMITY – “Baad Man” And “Lose Yourself” Live At Sweetwater Studios Video Now Playing",
+   "link": "https://bravewords.com/news/corrosion-of-conformity-baad-man-and-lose-yourself-live-at-sweetwater-studios-video-now-playing/",
+   "fonte": "BraveWords",
+   "data": "2026-11-06T16:43:38+00:00"
+  },
+  {
+   "titulo": "De Mortem et Diabolum XII",
+   "link": "https://www.theblackplanet.org/de-mortem-et-diabolum-xii-2026/",
+   "fonte": "The Black Planet",
+   "data": "2026-11-06T16:28:48+00:00"
+  },
+  {
+   "titulo": "MARTY FRIEDMAN Releases New Single '2 Rebeldes (Spanish Vocal)'",
+   "link": "https://blabbermouth.net/news/marty-friedman-releases-new-single-2-rebeldes-spanish-vocal",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-06T16:21:23+00:00"
+  },
+  {
+   "titulo": "MARTY FRIEDMAN Shares New Single “2 Rebeldes” (Spanish Vocal); Visualizer Video Streaming; Tour Plans Revealed",
+   "link": "https://bravewords.com/news/marty-friedman-shares-new-single-2-rebeldes-spanish-vocal-visualizer-video-streaming-tour-plans-revealed/",
+   "fonte": "BraveWords",
+   "data": "2026-11-06T16:21:23+00:00"
+  },
+  {
+   "titulo": "Kall plays Lifelover with 5 shows in Spain this November",
+   "link": "https://www.theblackplanet.org/kall-plays-lifelover-spain/",
+   "fonte": "The Black Planet",
+   "data": "2026-11-06T16:04:05+00:00"
+  },
+  {
+   "titulo": "SLASH Featuring MYLES KENNEDY & THE CONSPIRATORS Confirmed For France’s Heavy Week-End 2027",
+   "link": "https://bravewords.com/news/slash-featuring-myles-kennedy-the-conspirators-confirmed-for-frances-heavy-week-end-2027/",
+   "fonte": "BraveWords",
+   "data": "2026-11-06T16:03:52+00:00"
+  },
+  {
+   "titulo": "Mike Batt pays tribute to the Womble who was too busy for TV, and Led Zeppelin",
+   "link": "https://www.loudersound.com/bands-artists/mike-batt-wombles-clem-cattini-tribute",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-06T16:00:00+00:00"
+  },
+  {
+   "titulo": "BRIGHTON ROCK Members To Perform Band Classics At Upcoming Show With STORM FORCE",
+   "link": "https://bravewords.com/news/brighton-rock-members-to-perform-band-classics-at-upcoming-show-with-storm-force/",
+   "fonte": "BraveWords",
+   "data": "2026-11-06T15:47:35+00:00"
+  },
+  {
+   "titulo": "FILTER's New Album 'The Antidote' Is 'Moments Away From Being Done': 'I'm Really Excited To Release It', Says RICHARD PATRICK",
+   "link": "https://blabbermouth.net/news/filters-new-album-the-antidote-is-moments-away-from-being-done-im-really-excited-to-release-it-says-richard-patrick",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-06T15:37:32+00:00"
+  },
+  {
+   "titulo": "Watch: WWE's Rhea Ripley Join Motionless in White On Stage",
+   "link": "https://metalinjection.net/news/watch-wwes-rhea-ripley-join-motionless-in-white-on-stage",
+   "fonte": "Metal Injection",
+   "data": "2026-11-06T15:34:31+00:00"
+  },
+  {
+   "titulo": "VINCE NEIL’s Girlfriend Arrested On Domestic Assault Charge For Allegedly Assaulting The MÖTLEY CRÜE Frontman",
+   "link": "https://bravewords.com/news/vince-neils-girlfriend-arrested-on-domestic-assault-charge-for-allegedly-assaulting-the-motley-crue-frontman/",
+   "fonte": "BraveWords",
+   "data": "2026-11-06T15:26:31+00:00"
+  },
+  {
+   "titulo": "SAXON Announce Exclusive In-Store Signing Sessions To Celebrate Release Of Gods Of Thunder",
+   "link": "https://bravewords.com/news/saxon-announce-exclusive-in-store-signing-sessions-to-celebrate-release-of-gods-of-thunder/",
+   "fonte": "BraveWords",
+   "data": "2026-11-06T15:13:48+00:00"
+  },
+  {
+   "titulo": "KINGSTON ROSSDALE, BUSH Frontman GAVIN ROSSDALE's Son, Releases Debut EP, 'Louise Street'",
+   "link": "https://blabbermouth.net/news/kingston-rossdale-bush-frontman-gavin-rossdales-son-releases-debut-ep-louise-street",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-06T15:08:13+00:00"
+  },
+  {
+   "titulo": "SLAYER Announces 'Reign In Blood' 40th-Anniversary Pop-Up Shop Ahead Of Sold-Out Los Angeles Shows",
+   "link": "https://blabbermouth.net/news/slayer-announces-reign-in-blood-40th-anniversary-pop-up-shop-ahead-of-sold-out-los-angeles-shows",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-06T14:46:06+00:00"
+  },
+  {
+   "titulo": "THE FUNERAL PORTRAIT Releases Lyric Video For New Song 'My Future Prediction'",
+   "link": "https://blabbermouth.net/news/the-funeral-portrait-releases-lyric-video-for-new-song-my-future-prediction",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-06T14:35:18+00:00"
+  },
+  {
+   "titulo": "FRANK FERRER Praises STEVEN ADLER And MATT SORUM, Explains His Drumming Approach During His Time With GUNS N' ROSES",
+   "link": "https://blabbermouth.net/news/frank-ferrer-praises-steven-adler-and-matt-sorum-explains-his-drumming-approach-during-his-time-with-guns-n-roses",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-06T14:03:07+00:00"
+  },
+  {
+   "titulo": "Crystal Head Vodka Presents Today In Metal History 🤘 November 6th, 2026 🤘 PAUL GILBERT, SCORPIONS, KREATOR, QUEEN, AEROSMITH",
+   "link": "https://bravewords.com/today-in-metal/crystal-head-vodka-presents-today-in-metal-history-%f0%9f%a4%98-november-6th-2026-%f0%9f%a4%98-paul-gilbert-scorpions-kreator-queen-aerosmith/",
+   "fonte": "BraveWords",
+   "data": "2026-11-06T14:00:39+00:00"
+  },
+  {
+   "titulo": "The Weekly Injection: New Releases From Hatebreed, Cult of Luna, and More Out This Week — 11.6",
+   "link": "https://metalinjection.net/upcoming-releases/heavy-new-releases/the-weekly-injection-new-releases-from-hatebreed-cult-of-luna-and-more-out-this-week-11-6",
+   "fonte": "Metal Injection",
+   "data": "2026-11-06T13:59:51+00:00"
+  },
   {
    "titulo": "LITTLE ANGELS Share Sneak Peek At Documentary On Making Of Legendary U.K. Hard Rock Band's First New Music In 32 Years",
    "link": "https://blabbermouth.net/news/little-angels-share-sneak-peek-at-documentary-on-making-of-legendary-u-k-hard-rock-bands-first-new-music-in-32-years",
@@ -17054,6 +17762,12 @@
    "link": "https://www.loudersound.com/news/sam-ryder-how-iron-maiden-changed-my-life-2026",
    "fonte": "Metal Hammer",
    "data": "2026-11-06T11:08:38+00:00"
+  },
+  {
+   "titulo": "Top 20 Online Casinos for Real Money USA – Best Sites Reviewed (2026)",
+   "link": "https://bravewords.com/partners/top-20-online-casinos-for-real-money-usa-best-sites-reviewed-2026/",
+   "fonte": "BraveWords",
+   "data": "2026-11-06T11:00:21+00:00"
   },
   {
    "titulo": "Tom Morello says the hard work is only just beginning following US midterms election victory for the Democrats",
@@ -17146,12 +17860,6 @@
    "data": "2026-11-05T23:08:55+00:00"
   },
   {
-   "titulo": "Best Slots Sites to Play Online for Real Money (2026)",
-   "link": "https://bravewords.com/partners/best-slots-sites-to-play-online-for-real-money-2026/",
-   "fonte": "BraveWords",
-   "data": "2026-11-05T23:00:23+00:00"
-  },
-  {
    "titulo": "HEART's ANN WILSON On How She Has Managed To Keep Her Singing Voice In Such Great Shape After Five Decades: 'I Take Care Of Myself Moderately'",
    "link": "https://blabbermouth.net/news/hearts-ann-wilson-on-how-she-has-managed-to-keep-her-singing-voice-in-such-great-shape-after-five-decades-i-take-care-of-myself-moderately",
    "fonte": "Blabbermouth",
@@ -17159,7 +17867,7 @@
   },
   {
    "titulo": "REVIEW: ILIUM’s Scythe Ballet – “Comparable To IMPELLITERI”",
-   "link": "https://bravewords.com/festivals/review-iliums-scythe-ballet-comparable-to-impelliteri/",
+   "link": "https://bravewords.com/news/review-iliums-scythe-ballet-comparable-to-impelliteri/",
    "fonte": "BraveWords",
    "data": "2026-11-05T21:35:03+00:00"
   },
@@ -17192,12 +17900,6 @@
    "link": "https://bravewords.com/news/watch-metallica-perform-for-whom-the-bell-tolls-live-at-sphere-las-vegas-official-video/",
    "fonte": "BraveWords",
    "data": "2026-11-05T20:00:51+00:00"
-  },
-  {
-   "titulo": "Best Online Pokies Australia for Real Money – Top 5 Aussie Pokies Sites (2026)",
-   "link": "https://bravewords.com/partners/best-online-pokies-australia-for-real-money-top-5-aussie-pokies-sites-2026/",
-   "fonte": "BraveWords",
-   "data": "2026-11-05T20:00:10+00:00"
   },
   {
    "titulo": "CHUCK BILLY Opens Up About His Cancer Battle – “It Was Just Something That I Had To Go Through To Get Me Back To TESTAMENT And Inspire Some Other Bands To Stick With It”; Video",
@@ -17296,34 +17998,10 @@
    "data": "2026-11-05T18:00:00+00:00"
   },
   {
-   "titulo": "Listen: ARTHUR BROWN, JOEL HOEKSTRA, ALAN DAVEY, CARMINE APPICE Perform DEEP PURPLE Classic “Hush”; Audio",
-   "link": "https://bravewords.com/news/listen-arthur-brown-joel-hoekstra-alan-davey-carmine-appice-perform-deep-purple-classic-hush-audio/",
-   "fonte": "BraveWords",
-   "data": "2026-11-05T17:51:11+00:00"
-  },
-  {
    "titulo": "BURN ETERNAL, Featuring KILLSWITCH ENGAGE Guitarist ADAM DUTKIEWICZ And Ex-Singer HOWARD JONES, Announces Debut Album",
    "link": "https://blabbermouth.net/news/burn-eternal-featuring-killswitch-engage-guitarist-adam-dutkiewicz-and-ex-singer-howard-jones-announces-debut-album",
    "fonte": "Blabbermouth",
    "data": "2026-11-05T17:44:06+00:00"
-  },
-  {
-   "titulo": "KORPIKLAANI’s JONNE JÄRVELÄ To Release Harjumaa Solo Album In December; Title Track Streaming",
-   "link": "https://bravewords.com/news/korpiklaanis-jonne-jarvela-to-release-harjumaa-solo-album-in-december-title-track-streaming/",
-   "fonte": "BraveWords",
-   "data": "2026-11-05T17:35:40+00:00"
-  },
-  {
-   "titulo": "DEF LEPPARD – Exclusive Limited Edition Prints Available",
-   "link": "https://bravewords.com/news/def-leppard-exclusive-limited-edition-prints-available/",
-   "fonte": "BraveWords",
-   "data": "2026-11-05T17:13:46+00:00"
-  },
-  {
-   "titulo": "Best Crypto Casinos To Play – Top Bitcoin Gambling Sites Reviewed (2026)",
-   "link": "https://bravewords.com/partners/best-crypto-casinos-to-play-top-bitcoin-gambling-sites-reviewed-2026/",
-   "fonte": "BraveWords",
-   "data": "2026-11-05T17:12:00+00:00"
   },
   {
    "titulo": "COHEED AND CAMBRIA Announces 'S.S. Neverender: Beyond The Black Rainbow' 2027 Cruise Festival",
@@ -17338,34 +18016,16 @@
    "data": "2026-11-05T17:00:26+00:00"
   },
   {
-   "titulo": "How Ozzfest reinvented metal for the 90s",
-   "link": "https://www.loudersound.com/how-ozzfest-reinvented-metal-for-the-90s",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-05T17:00:00+00:00"
-  },
-  {
    "titulo": "Ex-Killswitch Engage bandmates Howard Jones and Adam D’s Burn Eternal release first single Wounds I’ve Made, announce debut album",
    "link": "https://www.loudersound.com/news/killswitch-engage-burn-eternal-releases-first-song-wounds-ive-made-announces-debut-album-2026",
    "fonte": "Metal Hammer",
    "data": "2026-11-05T17:00:00+00:00"
   },
   {
-   "titulo": "RAINBOW’s Iconic Live Album Finyl Vinyl Celebrates Its 40th Anniversary Featuring RITCHIE BLACKMORE Alongside Rock Legends RONNIE JAMES DIO, JOE LYNN TURNER And GRAHAM BONNET",
-   "link": "https://bravewords.com/news/rainbows-iconic-live-album-finyl-vinyl-celebrates-its-40th-anniversary-featuring-ritchie-blackmore-alongside-rock-legends-ronnie-james-dio-joe-lynn-turner-and-graham-bonnet/",
-   "fonte": "BraveWords",
-   "data": "2026-11-05T16:51:06+00:00"
-  },
-  {
-   "titulo": "DARE FORCE Nominated For The Minnesota Music Hall Of Fame",
-   "link": "https://bravewords.com/news/dare-force-nominated-for-the-minnesota-music-hall-of-fame/",
-   "fonte": "BraveWords",
-   "data": "2026-11-05T16:39:51+00:00"
-  },
-  {
-   "titulo": "DEATH ANGEL Reveals New Single And Video “The Never Was” Ahead Of Europe / Australia Tours And Holiday Shows",
-   "link": "https://bravewords.com/news/death-angel-reveals-new-single-and-video-the-never-was-ahead-of-europe-australia-tours-and-holiday-shows/",
-   "fonte": "BraveWords",
-   "data": "2026-11-05T16:28:03+00:00"
+   "titulo": "How Ozzfest reinvented metal for the 90s",
+   "link": "https://www.loudersound.com/how-ozzfest-reinvented-metal-for-the-90s",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-05T17:00:00+00:00"
   },
   {
    "titulo": "Watch: We Came As Romans Drops New Video For \"Dead Silent\" Featuring Make Them Suffer",
@@ -17380,40 +18040,16 @@
    "data": "2026-11-05T16:15:23+00:00"
   },
   {
-   "titulo": "BON JOVI Adds New North American Stadium Shows To 2027 Forever Tour",
-   "link": "https://bravewords.com/news/bon-jovi-adds-new-north-american-stadium-shows-to-2027-forever-tour/",
-   "fonte": "BraveWords",
-   "data": "2026-11-05T16:02:41+00:00"
-  },
-  {
-   "titulo": "Author MARTIN POPOFF’s New Book “PUNK ’77” To Be Published In January",
-   "link": "https://bravewords.com/news/author-martin-popoffs-new-book-punk-77-to-be-published-in-january/",
-   "fonte": "BraveWords",
-   "data": "2026-11-05T15:49:27+00:00"
-  },
-  {
    "titulo": "BULLET FOR MY VALENTINE On 'Social Apocalypse' LP: 'With This Album, We've Tuned Down To The Lowest Tuning We've Ever Tuned To'",
    "link": "https://blabbermouth.net/news/bullet-for-my-valentine-on-social-apocalypse-lp-with-this-album-weve-tuned-down-to-the-lowest-tuning-weve-ever-tuned-to",
    "fonte": "Blabbermouth",
    "data": "2026-11-05T15:49:08+00:00"
   },
   {
-   "titulo": "OZZFEST Returns In 2027 With Three Shows In The UK, US And Mexico; Early Bat Tickets On Sale Friday",
-   "link": "https://bravewords.com/news/ozzfest-returns-in-2027-with-three-shows-in-the-uk-us-and-mexico-early-bat-tickets-on-sale-friday/",
-   "fonte": "BraveWords",
-   "data": "2026-11-05T15:31:55+00:00"
-  },
-  {
    "titulo": "RUSH Announces Five-Date 'Elevate From The Norm' Residency At Sphere In Las Vegas",
    "link": "https://blabbermouth.net/news/rush-announces-five-date-elevate-from-the-norm-residency-at-sphere-in-las-vegas",
    "fonte": "Blabbermouth",
    "data": "2026-11-05T15:27:18+00:00"
-  },
-  {
-   "titulo": "RUSH Announce Five-Date “Elevate From The Norm” Residency At Sphere, Las Vegas; Video Trailer",
-   "link": "https://bravewords.com/news/rush-announce-five-date-elevate-from-the-norm-residency-at-sphere-las-vegas-video-trailer/",
-   "fonte": "BraveWords",
-   "data": "2026-11-05T15:18:53+00:00"
   },
   {
    "titulo": "OZZFEST To Return In 2027 With Three Shows In U.K., U.S. And Mexico",
@@ -17426,12 +18062,6 @@
    "link": "https://metalinjection.net/tour-dates/festivals/ozzfest-announces-2027-return-to-california",
    "fonte": "Metal Injection",
    "data": "2026-11-05T15:13:12+00:00"
-  },
-  {
-   "titulo": "Best Sites Like Bovada 2026 – 5 Top Bovada Alternatives Compared",
-   "link": "https://bravewords.com/partners/best-sites-like-bovada-2026-5-top-bovada-alternatives-compared/",
-   "fonte": "BraveWords",
-   "data": "2026-11-05T15:06:33+00:00"
   },
   {
    "titulo": "Ozzfest confirms return with UK, US and Mexico editions in 2027",
@@ -17458,12 +18088,6 @@
    "data": "2026-11-05T14:01:38+00:00"
   },
   {
-   "titulo": "PHIL SOUSSAN Debuts Music Video For “The More You Take” From Upcoming Cosmo Fighter Part One Release",
-   "link": "https://bravewords.com/news/phil-soussan-debuts-music-video-for-the-more-you-take-from-upcoming-cosmo-fighter-part-one-release/",
-   "fonte": "BraveWords",
-   "data": "2026-11-05T14:00:38+00:00"
-  },
-  {
    "titulo": "CANDLEBOX's KEVIN MARTIN Has Changed His Mind About Making Another Full-Length Album: 'We're Doing It'",
    "link": "https://blabbermouth.net/news/candleboxs-kevin-martin-has-changed-his-mind-about-making-another-full-length-album-were-doing-it",
    "fonte": "Blabbermouth",
@@ -17476,12 +18100,6 @@
    "data": "2026-11-05T13:27:31+00:00"
   },
   {
-   "titulo": "Crystal Head Vodka Presents Today In Metal History 🤘 November 5th, 2026 🤘 ARCH ENEMY, NEVERMORE, TESLA, PINK FLOYD, OPETH",
-   "link": "https://bravewords.com/today-in-metal/crystal-head-vodka-presents-today-in-metal-history-%f0%9f%a4%98-november-5th-2026-%f0%9f%a4%98-arch-enemy-nevermore-tesla-pink-floyd-opeth/",
-   "fonte": "BraveWords",
-   "data": "2026-11-05T13:25:32+00:00"
-  },
-  {
    "titulo": "Ghost’s mega-hit Mary On A Cross has been streamed one billion times on Spotify",
    "link": "https://www.loudersound.com/news/ghost-mary-on-a-cross-streamed-one-billion-times-2026",
    "fonte": "Metal Hammer",
@@ -17492,24 +18110,6 @@
    "link": "https://blabbermouth.net/news/former-megadeth-guitarist-jeff-young-teams-up-with-singer-kayla-dixon-and-director-michael-sarna-for-mirror-in-the-sky-music-video",
    "fonte": "Blabbermouth",
    "data": "2026-11-05T12:50:32+00:00"
-  },
-  {
-   "titulo": "Watch WEDNESDAY 13 Perform “I Walked With A Zombie” Live At Bloodstock 2026; Pro-Shot Video",
-   "link": "https://bravewords.com/news/watch-wednesday-13-perform-i-walked-with-a-zombie-live-at-bloodstock-2026-pro-shot-video/",
-   "fonte": "BraveWords",
-   "data": "2026-11-05T12:26:00+00:00"
-  },
-  {
-   "titulo": "KORPIKLAANI's JONNE JÄRVELÄ To Release 'Harjumaa' Solo Album In December",
-   "link": "https://blabbermouth.net/news/korpiklaanis-jonne-jarvela-to-release-harjumaa-solo-album-in-december",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-05T12:16:37+00:00"
-  },
-  {
-   "titulo": "German Doom Metallers SARLIC BLISS Release New Single / Video “Beneath The Black Sun”",
-   "link": "https://bravewords.com/news/german-doom-metallers-sarlic-bliss-release-new-single-video-beneath-the-black-sun/",
-   "fonte": "BraveWords",
-   "data": "2026-11-05T12:13:12+00:00"
   },
   {
    "titulo": "Entrails - Ninth Full Length Set For January Release",
@@ -17578,22 +18178,10 @@
    "data": "2026-11-04T22:28:55+00:00"
   },
   {
-   "titulo": "GWAR's MIKE 'BLÖTHAR THE BERSERKER' BISHOP: 'People Don't Really Realize How Talented DAVE BROCKIE Was'",
-   "link": "https://blabbermouth.net/news/gwars-mike-blothar-the-berserker-bishop-people-dont-really-realize-how-talented-dave-brockie-was",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-04T20:45:44+00:00"
-  },
-  {
    "titulo": "Ghost’s \"Mary On A Cross\" Hits 1 Billion Spotify Streams; Director Revisits Animated Video",
    "link": "https://metalinjection.net/news/ghosts-mary-on-a-cross-hits-1-billion-spotify-streams-director-revisits-animated-video",
    "fonte": "Metal Injection",
    "data": "2026-11-04T20:10:00+00:00"
-  },
-  {
-   "titulo": "Drummer CHRIS KONTOS Exits FORBIDDEN: 'I Have Decided That I Can No Longer Continue As A Part Of The Band'",
-   "link": "https://blabbermouth.net/news/drummer-chris-kontos-exits-forbidden-i-have-decided-that-i-can-no-longer-continue-as-a-part-of-the-band",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-04T20:04:11+00:00"
   },
   {
    "titulo": "Track Premiere: The New Yorkers (pre-Megadeth) – “I Only Cry For You”",
@@ -17602,22 +18190,10 @@
    "data": "2026-11-04T20:00:26+00:00"
   },
   {
-   "titulo": "SCORPIONS Biopic 'Wind Of Change' To Receive North American Theatrical Release In March 2027",
-   "link": "https://blabbermouth.net/news/scorpions-biopic-wind-of-change-to-receive-north-american-theatrical-release-in-march-2027",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-04T19:44:45+00:00"
-  },
-  {
    "titulo": "Watch: Hatebreed Drops \"Decisions Become Destinies\" Video Ahead of New Album Out Friday",
    "link": "https://metalinjection.net/new-music/watch-hatebreed-drops-decisions-become-destinies-video-ahead-of-new-album-out-friday",
    "fonte": "Metal Injection",
    "data": "2026-11-04T19:33:36+00:00"
-  },
-  {
-   "titulo": "'Bowl For Ronnie' 2026 Annual Celebrity Bowling Party Sells Out In Advance",
-   "link": "https://blabbermouth.net/news/bowl-for-ronnie-2026-annual-celebrity-bowling-party-sells-out-in-advance",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-04T19:16:23+00:00"
   },
   {
    "titulo": "Watch: Will Smith Moshes to Animals As Leaders at Daughter Willow’s Birthday Party",
@@ -17626,34 +18202,10 @@
    "data": "2026-11-04T18:25:13+00:00"
   },
   {
-   "titulo": "CHILDREN OF BODOM: 'Hate Crew - A Visual History' To Be Released In April 2027",
-   "link": "https://blabbermouth.net/news/children-of-bodom-hate-crew-a-visual-history-to-be-released-in-april-2027",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-04T18:24:23+00:00"
-  },
-  {
-   "titulo": "METALLICA Shares Pro-Shot Video Of 'Sad But True' Performance From Fifth Show Of Las Vegas Sphere Residency",
-   "link": "https://blabbermouth.net/news/metallica-shares-pro-shot-video-of-sad-but-true-performance-from-fifth-show-of-las-vegas-sphere-residency",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-04T17:47:01+00:00"
-  },
-  {
    "titulo": "A Post-Hardcore Band Currently Has the Third Biggest Song on TikTok",
    "link": "https://metalinjection.net/news/a-post-hardcore-band-currently-has-the-third-biggest-song-on-tiktok",
    "fonte": "Metal Injection",
    "data": "2026-11-04T17:26:38+00:00"
-  },
-  {
-   "titulo": "NICKO MCBRAIN On Next IRON MAIDEN Album: 'I Would Love To' Play 'A Couple Of Songs On It. Why Not?'",
-   "link": "https://blabbermouth.net/news/nicko-mcbrain-on-next-iron-maiden-album-i-would-love-to-play-a-couple-of-songs-on-it-why-not",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-04T17:26:14+00:00"
-  },
-  {
-   "titulo": "RUSH Touring Drummer ANIKA NILLES Partners With EVANS x ProMark For Limited Artist Collection",
-   "link": "https://blabbermouth.net/news/rush-touring-drummer-anika-nilles-partners-with-evans-x-promark-for-limited-artist-collection",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-04T17:06:24+00:00"
   },
   {
    "titulo": "Watch Metallica unload Battery in latest pro-shot footage from Las Vegas Sphere residency",
@@ -17672,12 +18224,6 @@
    "link": "https://www.decibelmagazine.com/2026/11/04/metal-beer-fest-denver-2026-is-just-one-month-away-got-your-tickets/",
    "fonte": "Decibel",
    "data": "2026-11-04T16:48:34+00:00"
-  },
-  {
-   "titulo": "Trollywood",
-   "link": "https://blabbermouth.net/reviews/trollywood",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-04T16:41:52+00:00"
   },
   {
    "titulo": "Looks like Will Smith moshed to Animals As Leaders at his daughter Willow’s birthday party on Halloween",
@@ -17722,24 +18268,6 @@
    "data": "2026-11-04T11:00:00+00:00"
   },
   {
-   "titulo": "“My desire to push those buttons made them nervous”: Jordan Rudess had much to learn when he joined Dream Theater",
-   "link": "https://www.loudersound.com/bands-artists/interviews/when-jordan-rudess-joined-dream-theater",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-04T10:00:00+00:00"
-  },
-  {
-   "titulo": "20 years after the film that changed everything, Anvil frontman Steve 'Lips' Kudrow has no regrets",
-   "link": "https://www.loudersound.com/bands-artists/interviews/20-years-anvil-film-steve-lips-kudrow",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-04T05:55:00+00:00"
-  },
-  {
-   "titulo": "Dave Grohl says performing with AC/DC turned him into an emotional wreck",
-   "link": "https://www.loudersound.com/bands-artists/idave-grohl-performing-with-ac-dc-emotional-wreck",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-04T04:05:00+00:00"
-  },
-  {
    "titulo": "Mastodon Moves to Dismiss Key Claims in Brent Hinds Estate Lawsuit",
    "link": "https://metalinjection.net/news/mastodon-moves-to-dismiss-key-claims-in-brent-hinds-estate-lawsuit",
    "fonte": "Metal Injection",
@@ -17776,46 +18304,16 @@
    "data": "2026-11-03T20:00:19+00:00"
   },
   {
-   "titulo": "Spike Lee Claims Credit For Red Yankees Fitted, “Limp Bizkit… Didn’t Have It Before Me!”",
-   "link": "https://metalinjection.net/news/spike-lee-claims-credit-for-red-yankees-fitted-limp-bizkit-didnt-have-it-before-me",
-   "fonte": "Metal Injection",
-   "data": "2026-11-03T19:27:04+00:00"
-  },
-  {
-   "titulo": "Kenny Hickey of Silvertomb on The Meaning of Heavy, Comparisons to Type O & More",
-   "link": "https://metalinjection.net/video/kenny-hickey-of-silvertomb-on-the-meaning-of-heavy-comparisons-to-type-o-more",
-   "fonte": "Metal Injection",
-   "data": "2026-11-03T18:54:11+00:00"
-  },
-  {
-   "titulo": "Currents Announce 2027 Headlining Tour With Vanna, Vana and More",
-   "link": "https://metalinjection.net/tour-dates/currents-announce-2027-headlining-tour-with-vanna-vana-and-more",
-   "fonte": "Metal Injection",
-   "data": "2026-11-03T18:27:38+00:00"
-  },
-  {
    "titulo": "Blast Worship: Shunt",
    "link": "https://www.decibelmagazine.com/2026/11/03/blast-worship-shunt/",
    "fonte": "Decibel",
    "data": "2026-11-03T18:03:35+00:00"
   },
   {
-   "titulo": "Brad Pitt’s Cliff Booth Gets a Trent Reznor and Atticus Ross Soundtrack",
-   "link": "https://metalinjection.net/news/brad-pitts-cliff-booth-gets-a-trent-reznor-and-atticus-ross-soundtrack",
-   "fonte": "Metal Injection",
-   "data": "2026-11-03T17:58:19+00:00"
-  },
-  {
    "titulo": "Interview: Rebreather on ‘Chaos Patterns’",
    "link": "https://www.decibelmagazine.com/2026/11/03/interview-rebreather-on-chaos-patterns/",
    "fonte": "Decibel",
    "data": "2026-11-03T17:00:07+00:00"
-  },
-  {
-   "titulo": "Watch: Anthrax's Joey Belladonna Sings the National Anthem in Seahawks Versus Chicago Bears Game",
-   "link": "https://metalinjection.net/news/watch-anthraxs-joey-belladonna-sings-the-national-anthem-in-seahawks-versus-chicago-bears-game",
-   "fonte": "Metal Injection",
-   "data": "2026-11-03T15:27:34+00:00"
   },
   {
    "titulo": "Q&A: ‘My War On Wilshire’ Author Michael Pearson on Photographing Black Flag at Their Peak",
@@ -17846,48 +18344,6 @@
    "link": "https://www.decibelmagazine.com/2026/11/02/randy-holden-population-ii/",
    "fonte": "Decibel",
    "data": "2026-11-02T14:38:39+00:00"
-  },
-  {
-   "titulo": "Moonspell celebrate 35 years at MEO Arena with Amorphis and Zeal & Ardor",
-   "link": "https://www.theblackplanet.org/moonspell-35th-anniversary/",
-   "fonte": "The Black Planet",
-   "data": "2026-11-01T15:56:53+00:00"
-  },
-  {
-   "titulo": "Ashes Reborn headlines Pão Por Deus Halloween Metal Night at Route 206 Bar",
-   "link": "https://www.theblackplanet.org/ashes-reborn-pao-por-deus/",
-   "fonte": "The Black Planet",
-   "data": "2026-10-31T16:57:11+00:00"
-  },
-  {
-   "titulo": "Lebanon Hanover return to Portugal in November",
-   "link": "https://www.theblackplanet.org/lebanon-hanover-return-to-portugal-next-month/",
-   "fonte": "The Black Planet",
-   "data": "2026-10-31T00:15:46+00:00"
-  },
-  {
-   "titulo": "Sonic Rites 2027 announces YOB, Inter Arma among others",
-   "link": "https://www.theblackplanet.org/sonic-rites-2027/",
-   "fonte": "The Black Planet",
-   "data": "2026-10-30T16:04:07+00:00"
-  },
-  {
-   "titulo": "Black Bombaim join Isaiah Mitchell for two Portugal shows before performing at Le Guess Who? 2026 in the Netherlands",
-   "link": "https://www.theblackplanet.org/black-bombaim-portugal-netherlands-concerts/",
-   "fonte": "The Black Planet",
-   "data": "2026-10-30T15:54:55+00:00"
-  },
-  {
-   "titulo": "Chaosaddiction to play Kintsugi in full",
-   "link": "https://www.theblackplanet.org/chaosaddiction-kintsugi/",
-   "fonte": "The Black Planet",
-   "data": "2026-10-30T15:29:59+00:00"
-  },
-  {
-   "titulo": "Rotting Christ announce Two Portugal shows for March 2027",
-   "link": "https://www.theblackplanet.org/rotting-christ-portugal-2027/",
-   "fonte": "The Black Planet",
-   "data": "2026-10-29T19:08:23+00:00"
   }
  ]
 }
