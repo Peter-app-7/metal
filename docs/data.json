@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-06T19:27:04+00:00",
+ "atualizado": "2026-11-07T01:33:51+00:00",
  "fontes": {
   "excluidas": [
    "Richard Dawkins"
@@ -7,7 +7,7 @@
   "agenda": {
    "estado": "ok",
    "linhas": 79,
-   "futuras": 79,
+   "futuras": 76,
    "rejeitadas": [],
    "quase": [
     {
@@ -16716,20 +16716,6 @@
  ],
  "festivais": [
   {
-   "id": "fest-2026-11-06-portalegre core fest",
-   "nome": "Portalegre Core Fest",
-   "data_inicio": "2026-11-06",
-   "data_fim": "2026-11-06",
-   "local": "CAE",
-   "cidade": "Portalegre",
-   "link": "https://www.caminhosmetalicos.com/agenda/",
-   "bandas": [],
-   "tem_minhas": false,
-   "fontes": [
-    "Caminhos Metálicos"
-   ]
-  },
-  {
    "id": "fest-2026-11-06-viseu death fest",
    "nome": "Viseu Death Fest",
    "data_inicio": "2026-11-06",
@@ -17293,20 +17279,6 @@
    ]
   },
   {
-   "id": "fest-2026-11-06-portalegre core fest",
-   "nome": "Portalegre Core Fest",
-   "data_inicio": "2026-11-06",
-   "data_fim": "2026-11-06",
-   "local": "CAE",
-   "cidade": "Portalegre",
-   "link": "https://www.caminhosmetalicos.com/agenda/",
-   "bandas": [],
-   "tem_minhas": false,
-   "fontes": [
-    "Caminhos Metálicos"
-   ]
-  },
-  {
    "id": "fest-2026-11-27-rockfest pm26",
    "nome": "Rockfest PM26",
    "data_inicio": "2026-11-27",
@@ -17446,16 +17418,112 @@
  ],
  "noticias": [
   {
+   "titulo": "“I told him, ‘If the guitar’s out of tune, you can’t tune it”: Steven Wilson’s bid to avoid “vanilla prog”",
+   "link": "https://www.loudersound.com/music/albums/steven-wilson-requiem-village-rules",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-07T01:05:03+00:00"
+  },
+  {
+   "titulo": "Vancouver’s UNGOTHLY PLACES Releases “No Shadows” Single",
+   "link": "https://bravewords.com/hard-rock/vancouvers-ungothly-places-releases-no-shadows-single/",
+   "fonte": "BraveWords",
+   "data": "2026-11-06T23:44:47+00:00"
+  },
+  {
+   "titulo": "SIGNUM REGIS Releases New Single, Video “Tell Our Fears Goodbye” Feat. JOHNNY GIOELI",
+   "link": "https://bravewords.com/power-metal/signum-regis-releases-new-single-video-tell-our-fears-goodbye-feat-johnny-gioeli/",
+   "fonte": "BraveWords",
+   "data": "2026-11-06T22:58:42+00:00"
+  },
+  {
+   "titulo": "GENE HOGLAN Says New DARK ANGEL Music Will Arrive 'Before The End Of The Year': 'I'm Really Excited'",
+   "link": "https://blabbermouth.net/news/gene-hoglan-says-new-dark-angel-music-will-arrive-before-the-end-of-the-year-im-really-excited",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-06T21:51:36+00:00"
+  },
+  {
+   "titulo": "PERIPHERY / NE OBLIVISCARIS – A Pale White Dot Tour Comes To Montreal!",
+   "link": "https://bravewords.com/concert-reviews/periphery-ne-obliviscaris-a-pale-white-dot-tour-comes-to-montreal/",
+   "fonte": "BraveWords",
+   "data": "2026-11-06T21:21:56+00:00"
+  },
+  {
+   "titulo": "ARMORED SAINT's JOHN BUSH Has Made An Album With His ELECTRIC SPAGHETTI Project: 'At One Point It's Coming Out'",
+   "link": "https://blabbermouth.net/news/armored-saints-john-bush-has-made-an-album-with-his-electric-spaghetti-project-at-one-point-its-coming-out",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-06T21:13:40+00:00"
+  },
+  {
+   "titulo": "U2 frontman Bono says the idea of negotiating with Trump on humanitarian causes is \"too much\"",
+   "link": "https://www.loudersound.com/bands-artists/u2-bono-trump-humanitarian-causes",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-06T21:00:00+00:00"
+  },
+  {
+   "titulo": "JOHN 5: 'I Just Want To Be Able To Represent MICK MARS And MÖTLEY CRÜE As Best As I Can'",
+   "link": "https://blabbermouth.net/news/john-5-i-just-want-to-be-able-to-represent-mick-mars-and-motley-crue-as-best-as-i-can",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-06T20:03:49+00:00"
+  },
+  {
+   "titulo": "ULI JON ROTH Joins SCORPIONS For “We’ll Burn The Sky” Performance At Wacken Open Air 2006; Official Video",
+   "link": "https://bravewords.com/news/uli-jon-roth-joins-scorpions-for-well-burn-the-sky-performance-at-wacken-open-air-2006-official-video/",
+   "fonte": "BraveWords",
+   "data": "2026-11-06T19:56:15+00:00"
+  },
+  {
+   "titulo": "Marty Friedman - European Touring Plan Disclosed",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64500",
+   "fonte": "Metal Storm",
+   "data": "2026-11-06T19:47:04+00:00"
+  },
+  {
+   "titulo": "GENE SIMMONS And Others Read Letters From Jewish History To Raise £750k For Charity; Video",
+   "link": "https://bravewords.com/news/gene-simmons-and-others-read-letters-from-jewish-history-to-raise-750k-for-charity-video/",
+   "fonte": "BraveWords",
+   "data": "2026-11-06T19:36:38+00:00"
+  },
+  {
+   "titulo": "Watch: Celine Dion Plays Air Bass to Metallica at the Sphere",
+   "link": "https://metalinjection.net/news/watch-celine-dion-plays-air-bass-to-metallica-at-the-sphere",
+   "fonte": "Metal Injection",
+   "data": "2026-11-06T19:26:20+00:00"
+  },
+  {
    "titulo": "STEVE VAI Clarifies Crossroads Movie Sequel Rumours – “That Is A Very Funny Rumour”; Video",
    "link": "https://bravewords.com/news/steve-vai-clarifies-crossroads-movie-sequel-rumours-that-is-a-very-funny-rumour-video/",
    "fonte": "BraveWords",
    "data": "2026-11-06T19:21:14+00:00"
   },
   {
+   "titulo": "JOE SATRIANI On EDDIE VAN HALEN: 'He Did Things The Way Nobody Else Did Them, And To Him It Came Naturally'",
+   "link": "https://blabbermouth.net/news/joe-satriani-on-eddie-van-halen-he-did-things-the-way-nobody-else-did-them-and-to-him-it-came-naturally",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-06T19:20:33+00:00"
+  },
+  {
+   "titulo": "King Buffalo - Deliver New Single",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64499",
+   "fonte": "Metal Storm",
+   "data": "2026-11-06T19:10:25+00:00"
+  },
+  {
+   "titulo": "Forbidden - Split With Drummer Chris Kontos",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64496",
+   "fonte": "Metal Storm",
+   "data": "2026-11-06T19:02:06+00:00"
+  },
+  {
    "titulo": "SEVERED ANGEL Returns With Fourth Studio Album, The Cost Of Creation; “Mirage Of Love” Lyric Video Streaming",
    "link": "https://bravewords.com/news/severed-angel-returns-with-fourth-studio-album-the-cost-of-creation-mirage-of-love-lyric-video-streaming/",
    "fonte": "BraveWords",
    "data": "2026-11-06T18:49:26+00:00"
+  },
+  {
+   "titulo": "Everdawn - Third Long Player On The Way",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64498",
+   "fonte": "Metal Storm",
+   "data": "2026-11-06T18:47:23+00:00"
   },
   {
    "titulo": "SHARON OSBOURNE Explains Why UK Date For OZZFEST Won’t Take Place In Birmingham – “The Choice Was To Move Ozzfest Or Postpone It For Another Year”",
@@ -17902,12 +17970,6 @@
    "data": "2026-11-05T20:00:51+00:00"
   },
   {
-   "titulo": "CHUCK BILLY Opens Up About His Cancer Battle – “It Was Just Something That I Had To Go Through To Get Me Back To TESTAMENT And Inspire Some Other Bands To Stick With It”; Video",
-   "link": "https://bravewords.com/news/chuck-billy-opens-up-about-his-cancer-battle-it-was-just-something-that-i-had-to-go-through-to-get-me-back-to-testament-and-inspire-some-other-bands-to-stick-with-it-video/",
-   "fonte": "BraveWords",
-   "data": "2026-11-05T19:51:28+00:00"
-  },
-  {
    "titulo": "Grave Digger - Drop New Single",
    "link": "https://metalstorm.net/events/news_comments.php?news_id=64486",
    "fonte": "Metal Storm",
@@ -17920,40 +17982,16 @@
    "data": "2026-11-05T19:35:25+00:00"
   },
   {
-   "titulo": "PINK FLOYD – Animals 50th Anniversary Multi-Format Release Available In January; “Sheep” (Original Radio Edit) Visualizer Streaming",
-   "link": "https://bravewords.com/news/pink-floyd-animals-50th-anniversary-multi-format-release-available-in-january-sheep-original-radio-edit-visualizer-streaming/",
-   "fonte": "BraveWords",
-   "data": "2026-11-05T19:33:41+00:00"
-  },
-  {
    "titulo": "ELIZE RYD: AMARANTHE's Upcoming Album Will Feature 'Back-To-The-Roots Gothenburg Metal Sound'",
    "link": "https://blabbermouth.net/news/elize-ryd-amaranthes-upcoming-album-will-feature-back-to-the-roots-gothenburg-metal-sound",
    "fonte": "Blabbermouth",
    "data": "2026-11-05T19:18:39+00:00"
   },
   {
-   "titulo": "KING DIAMOND, AMON AMARTH, EMPEROR, CHILDREN OF BODOM, KK’S PRIEST, BLAZE BAYLEY, METAL CHURCH Among Acts Confirmed For Bangers Open Air 2027",
-   "link": "https://bravewords.com/news/king-diamond-amon-amarth-emperor-children-of-bodom-kks-priest-blaze-bayley-metal-church-among-acts-confirmed-for-bangers-open-air-2027/",
-   "fonte": "BraveWords",
-   "data": "2026-11-05T19:17:42+00:00"
-  },
-  {
    "titulo": "Listen: Comeback Kid Taps Courtney LaPlante For New Single, \"Shedding Season\"",
    "link": "https://metalinjection.net/new-music/listen-comeback-kid-taps-courtney-laplante-for-new-single-shedding-season",
    "fonte": "Metal Injection",
    "data": "2026-11-05T19:12:43+00:00"
-  },
-  {
-   "titulo": "Biohazard - To Tour Latin America In Early 2027",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64484",
-   "fonte": "Metal Storm",
-   "data": "2026-11-05T18:55:05+00:00"
-  },
-  {
-   "titulo": "Former MEGADETH Guitarist JEFF YOUNG Tearms Up With Singer KAYLA DIXON And Director MICHAEL SARNA For New Music Video “Mirror In The Sky”",
-   "link": "https://bravewords.com/news/former-megadeth-guitarist-jeff-young-tearms-up-with-singer-kayla-dixon-and-director-michael-sarna-for-new-music-video-mirror-in-the-sky/",
-   "fonte": "BraveWords",
-   "data": "2026-11-05T18:45:19+00:00"
   },
   {
    "titulo": "Chuck Billy of Testament on Reliving His Cancer Experience, Opening Up Publicly [Exclusive]",
@@ -17972,12 +18010,6 @@
    "link": "https://blabbermouth.net/news/metallica-shares-pro-shot-video-of-for-whom-the-bell-tolls-performance-from-sixth-show-of-las-vegas-sphere-residency",
    "fonte": "Blabbermouth",
    "data": "2026-11-05T18:20:40+00:00"
-  },
-  {
-   "titulo": "DORO Refuses To Retire – “I Want To Die On Stage!”; Video",
-   "link": "https://bravewords.com/news/doro-refuses-to-retire-i-want-to-die-on-stage-video/",
-   "fonte": "BraveWords",
-   "data": "2026-11-05T18:09:51+00:00"
   },
   {
    "titulo": "DORO Once Again Rules Out Retirement: 'I Wanna Die On Stage'",
@@ -18046,12 +18078,6 @@
    "data": "2026-11-05T15:49:08+00:00"
   },
   {
-   "titulo": "RUSH Announces Five-Date 'Elevate From The Norm' Residency At Sphere In Las Vegas",
-   "link": "https://blabbermouth.net/news/rush-announces-five-date-elevate-from-the-norm-residency-at-sphere-in-las-vegas",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-05T15:27:18+00:00"
-  },
-  {
    "titulo": "OZZFEST To Return In 2027 With Three Shows In U.K., U.S. And Mexico",
    "link": "https://blabbermouth.net/news/ozzfest-to-return-in-2027-with-three-shows-in-u-k-u-s-and-mexico",
    "fonte": "Blabbermouth",
@@ -18088,46 +18114,16 @@
    "data": "2026-11-05T14:01:38+00:00"
   },
   {
-   "titulo": "CANDLEBOX's KEVIN MARTIN Has Changed His Mind About Making Another Full-Length Album: 'We're Doing It'",
-   "link": "https://blabbermouth.net/news/candleboxs-kevin-martin-has-changed-his-mind-about-making-another-full-length-album-were-doing-it",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-05T13:48:15+00:00"
-  },
-  {
-   "titulo": "BON JOVI Adds New North American Stadium Shows To 2027 'Forever Tour'",
-   "link": "https://blabbermouth.net/news/bon-jovi-adds-new-north-american-stadium-shows-to-2027-forever-tour",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-05T13:27:31+00:00"
-  },
-  {
    "titulo": "Ghost’s mega-hit Mary On A Cross has been streamed one billion times on Spotify",
    "link": "https://www.loudersound.com/news/ghost-mary-on-a-cross-streamed-one-billion-times-2026",
    "fonte": "Metal Hammer",
    "data": "2026-11-05T13:00:00+00:00"
   },
   {
-   "titulo": "Former MEGADETH Guitarist JEFF YOUNG Teams Up With Singer KAYLA DIXON And Director MICHAEL SARNA For 'Mirror In The Sky' Music Video",
-   "link": "https://blabbermouth.net/news/former-megadeth-guitarist-jeff-young-teams-up-with-singer-kayla-dixon-and-director-michael-sarna-for-mirror-in-the-sky-music-video",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-05T12:50:32+00:00"
-  },
-  {
-   "titulo": "Entrails - Ninth Full Length Set For January Release",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64483",
-   "fonte": "Metal Storm",
-   "data": "2026-11-05T12:01:02+00:00"
-  },
-  {
    "titulo": "“From the darkest of origins, they’ve become one of the biggest bands”: Korn delight London at sold-out O2 spectacular",
    "link": "https://www.loudersound.com/reviews/korn-architects-london-o2-arena-november-2026-live-review",
    "fonte": "Metal Hammer",
    "data": "2026-11-05T12:00:00+00:00"
-  },
-  {
-   "titulo": "We Came As Romans - Debut New Song And Video",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64482",
-   "fonte": "Metal Storm",
-   "data": "2026-11-05T11:54:44+00:00"
   },
   {
    "titulo": "Resurrection Fest announces first 72 bands for 2027",
@@ -18146,12 +18142,6 @@
    "link": "https://www.loudersound.com/music/albums/enslaved-mid-ancient-saga",
    "fonte": "Metal Hammer",
    "data": "2026-11-05T10:00:00+00:00"
-  },
-  {
-   "titulo": "Thy Art Is Murder - European Tour Announced",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64481",
-   "fonte": "Metal Storm",
-   "data": "2026-11-05T08:47:40+00:00"
   },
   {
    "titulo": "How Joey Tempest survived the wild whirlwind of fame, fortune and global success entirely unscathed",
@@ -18256,18 +18246,6 @@
    "data": "2026-11-04T14:30:00+00:00"
   },
   {
-   "titulo": "Katatonia announce Waking State Of Europe tour dates for March and April 2027",
-   "link": "https://www.loudersound.com/bands-artists/concerts-shows/katatonia-announce-waking-state-of-europe-tour-dates-for-march-and-april-2027",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-04T12:02:46+00:00"
-  },
-  {
-   "titulo": "Hear Gojira’s Joe Duplantier roar on new Cult Of Luna single Sadness Will Reign",
-   "link": "https://www.loudersound.com/news/gojira-joe-duplantier-guests-cult-of-luna-single-sadness-will-reign-2026",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-04T11:00:00+00:00"
-  },
-  {
    "titulo": "Mastodon Moves to Dismiss Key Claims in Brent Hinds Estate Lawsuit",
    "link": "https://metalinjection.net/news/mastodon-moves-to-dismiss-key-claims-in-brent-hinds-estate-lawsuit",
    "fonte": "Metal Injection",
@@ -18290,12 +18268,6 @@
    "link": "https://metalinjection.net/tour-dates/alexisonfire-and-poison-the-well-announce-2027-co-headlining-tour",
    "fonte": "Metal Injection",
    "data": "2026-11-03T20:59:56+00:00"
-  },
-  {
-   "titulo": "Ozzfest Launches Countdown Timer",
-   "link": "https://metalinjection.net/news/ozzfest-launches-countdown-timer",
-   "fonte": "Metal Injection",
-   "data": "2026-11-03T20:00:41+00:00"
   },
   {
    "titulo": "Full Album Stream: Architect of Seth – “Solitude Solaire”",
