@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-07T19:17:01+00:00",
+ "atualizado": "2026-11-08T01:38:11+00:00",
  "fontes": {
   "excluidas": [
    "Richard Dawkins"
@@ -7,7 +7,7 @@
   "agenda": {
    "estado": "ok",
    "linhas": 79,
-   "futuras": 76,
+   "futuras": 69,
    "rejeitadas": [],
    "quase": [
     {
@@ -16716,78 +16716,6 @@
  ],
  "festivais": [
   {
-   "id": "fest-2026-11-06-viseu death fest",
-   "nome": "Viseu Death Fest",
-   "data_inicio": "2026-11-06",
-   "data_fim": "2026-11-07",
-   "local": "Orfeão",
-   "cidade": "Viseu",
-   "link": "https://www.caminhosmetalicos.com/agenda/",
-   "bandas": [],
-   "tem_minhas": false,
-   "fontes": [
-    "Caminhos Metálicos"
-   ]
-  },
-  {
-   "id": "fest-2026-11-07-banana bong fest",
-   "nome": "Banana Bong Fest",
-   "data_inicio": "2026-11-07",
-   "data_fim": "2026-11-07",
-   "local": "CAAA Black Box",
-   "cidade": "Guimarães",
-   "link": "https://www.caminhosmetalicos.com/agenda/",
-   "bandas": [
-    {
-     "nome": "Idle Hand",
-     "minha": false
-    },
-    {
-     "nome": "Lord Of Confusion",
-     "minha": false
-    },
-    {
-     "nome": "Trasgo",
-     "minha": false
-    },
-    {
-     "nome": "Spitgod",
-     "minha": false
-    }
-   ],
-   "tem_minhas": false,
-   "fontes": [
-    "Caminhos Metálicos"
-   ]
-  },
-  {
-   "id": "fest-2026-11-07-rock da velha",
-   "nome": "Rock da Velha",
-   "data_inicio": "2026-11-07",
-   "data_fim": "2026-11-07",
-   "local": "Musica Velha",
-   "cidade": "Pernes",
-   "link": "https://www.caminhosmetalicos.com/agenda/",
-   "bandas": [
-    {
-     "nome": "Mães Solteiras",
-     "minha": false
-    },
-    {
-     "nome": "Avesso",
-     "minha": false
-    },
-    {
-     "nome": "Klatter",
-     "minha": false
-    }
-   ],
-   "tem_minhas": false,
-   "fontes": [
-    "Manual"
-   ]
-  },
-  {
    "id": "fest-2026-11-14-uv almost fest iv",
    "nome": "UV Almost Fest IV",
    "data_inicio": "2026-11-14",
@@ -17137,37 +17065,6 @@
    ]
   },
   {
-   "id": "fest-2026-11-07-banana bong fest",
-   "nome": "Banana Bong Fest",
-   "data_inicio": "2026-11-07",
-   "data_fim": "2026-11-07",
-   "local": "CAAA Black Box",
-   "cidade": "Guimarães",
-   "link": "https://www.caminhosmetalicos.com/agenda/",
-   "bandas": [
-    {
-     "nome": "Idle Hand",
-     "minha": false
-    },
-    {
-     "nome": "Lord Of Confusion",
-     "minha": false
-    },
-    {
-     "nome": "Trasgo",
-     "minha": false
-    },
-    {
-     "nome": "Spitgod",
-     "minha": false
-    }
-   ],
-   "tem_minhas": false,
-   "fontes": [
-    "Caminhos Metálicos"
-   ]
-  },
-  {
    "id": "fest-2027-02-13-brotherhood metal fest",
    "nome": "Brotherhood Metal Fest",
    "data_inicio": "2027-02-13",
@@ -17400,23 +17297,87 @@
    "fontes": [
     "Caminhos Metálicos"
    ]
-  },
-  {
-   "id": "fest-2026-11-06-viseu death fest",
-   "nome": "Viseu Death Fest",
-   "data_inicio": "2026-11-06",
-   "data_fim": "2026-11-07",
-   "local": "Orfeão",
-   "cidade": "Viseu",
-   "link": "https://www.caminhosmetalicos.com/agenda/",
-   "bandas": [],
-   "tem_minhas": false,
-   "fontes": [
-    "Caminhos Metálicos"
-   ]
   }
  ],
  "noticias": [
+  {
+   "titulo": "Genesis pulled off one of the most controversial career changes ever. Some fans haven’t forgiven them",
+   "link": "https://www.loudersound.com/music/albums/it-was-always-on-the-bands-to-do-list-to-have-hit-singles-to-be-played-on-the-radio-genesis-pulled-off-one-of-the-most-controversial-career-changes-in-history-some-of-their-fans-still-havent-forgiven-them",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-08T00:05:00+00:00"
+  },
+  {
+   "titulo": "BECKY BALDWIN Says That TONY IOMMI Wanted GEEZER BUTLER On His Solo Album – “Any Fan Of BLACK SABBATH Would Want To See The Pairing Of Tony And Geezer”",
+   "link": "https://bravewords.com/news/becky-baldwin-says-that-tony-iommi-wanted-geezer-butler-on-his-solo-album-any-fan-of-black-sabbath-would-want-to-see-the-pairing-of-tony-and-geezer/",
+   "fonte": "BraveWords",
+   "data": "2026-11-07T23:16:59+00:00"
+  },
+  {
+   "titulo": "Ian Gillan recovering from \"successful procedure\" following medical emergency",
+   "link": "https://www.loudersound.com/bands-artists/ian-gillan-recovering-from-successful-procedure-following-medical-emergency-that-led-deep-purple-to-postpone-uk-and-european-tour-dates",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-07T23:00:00+00:00"
+  },
+  {
+   "titulo": "Motionless In White give WWE Superstar Rhea Ripley her flowers in gushing onstage shoutout",
+   "link": "https://www.loudersound.com/bands-artists/it-is-because-of-you-that-so-many-people-love-this-motionless-in-white-give-wwe-superstar-rhea-ripley-her-flowers-in-gushing-onstage-shoutout",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-07T22:00:00+00:00"
+  },
+  {
+   "titulo": "THE OBSESSED's SCOTT 'WINO' WEINRICH Explains Title Of Upcoming 'Live Fast - Love Hard - Die Free' Album",
+   "link": "https://blabbermouth.net/news/the-obsesseds-scott-wino-weinrich-explains-title-of-upcoming-live-fast-love-hard-die-free-album",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-07T21:17:13+00:00"
+  },
+  {
+   "titulo": "Arthur Brown reveals he was threatened by Charles Manson’s followers",
+   "link": "https://www.loudersound.com/bands-artists/charles-manson-warned-arthur-brown-about-fire-song",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-07T21:00:00+00:00"
+  },
+  {
+   "titulo": "Farsoth - Sign Contract With M-Theory Audio",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64511",
+   "fonte": "Metal Storm",
+   "data": "2026-11-07T20:35:02+00:00"
+  },
+  {
+   "titulo": "STAIND's AARON LEWIS On Upcoming 'The Space Between The Darkness And The Light' Album: 'It's A Pretty Heavy, Driving Record'",
+   "link": "https://blabbermouth.net/news/stainds-aaron-lewis-on-upcoming-the-space-between-the-darkness-and-the-light-album-its-a-pretty-heavy-driving-record",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-07T20:32:59+00:00"
+  },
+  {
+   "titulo": "JOHN TEMPESTA – “After 20 Years My Chapter With THE CULT Has Come To And End”",
+   "link": "https://bravewords.com/news/john-tempesta-after-20-years-my-chapter-with-the-cult-has-come-to-and-end/",
+   "fonte": "BraveWords",
+   "data": "2026-11-07T20:31:50+00:00"
+  },
+  {
+   "titulo": "Space Of Variations - UK 2027 Summer Tour Confirmed",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64510",
+   "fonte": "Metal Storm",
+   "data": "2026-11-07T20:27:42+00:00"
+  },
+  {
+   "titulo": "Maceration - Drop New Single",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64509",
+   "fonte": "Metal Storm",
+   "data": "2026-11-07T20:21:50+00:00"
+  },
+  {
+   "titulo": "ADAM DUTKIEWICZ Already Has Enough Material For Second BURN ETERNAL Album",
+   "link": "https://blabbermouth.net/news/adam-dutkiewicz-already-has-enough-material-for-second-burn-eternal-album",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-07T19:51:40+00:00"
+  },
+  {
+   "titulo": "Drummer JOHN TEMPESTA Exits THE CULT After 20-Year Run",
+   "link": "https://blabbermouth.net/news/drummer-john-tempesta-exits-the-cult-after-20-year-run",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-07T19:09:18+00:00"
+  },
   {
    "titulo": "ULI JON ROTH Joins SCORPIONS For “We’ll Burn The Sky” Performance At Wacken Open Air 2006; Official Video",
    "link": "https://bravewords.com/news/uli-jon-roth-joins-scorpions-for-well-burn-the-sky-performance-at-wacken-open-air-2006-official-video/",
@@ -17904,22 +17865,10 @@
    "data": "2026-11-06T17:01:20+00:00"
   },
   {
-   "titulo": "Best Online Casinos Canada For Real Money – Latest Canadian Sites Reviewed",
-   "link": "https://bravewords.com/partners/best-online-casinos-canada-for-real-money-latest-canadian-sites-reviewed/",
-   "fonte": "BraveWords",
-   "data": "2026-11-06T17:00:18+00:00"
-  },
-  {
    "titulo": "Hatebreed's 'Fatal Paradox' Is Out Now, Grab an Exclusive Vinyl From Metal Injection",
    "link": "https://metalinjection.net/new-music/hatebreeds-fatal-paradox-is-out-now-grab-an-exclusive-vinyl-from-metal-injection",
    "fonte": "Metal Injection",
    "data": "2026-11-06T16:47:26+00:00"
-  },
-  {
-   "titulo": "CORROSION OF CONFORMITY – “Baad Man” And “Lose Yourself” Live At Sweetwater Studios Video Now Playing",
-   "link": "https://bravewords.com/news/corrosion-of-conformity-baad-man-and-lose-yourself-live-at-sweetwater-studios-video-now-playing/",
-   "fonte": "BraveWords",
-   "data": "2026-11-06T16:43:38+00:00"
   },
   {
    "titulo": "MARTY FRIEDMAN Releases New Single '2 Rebeldes (Spanish Vocal)'",
@@ -18000,24 +17949,6 @@
    "data": "2026-11-06T12:33:27+00:00"
   },
   {
-   "titulo": "Converge - Announce Australian & New Zealand Tour",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64493",
-   "fonte": "Metal Storm",
-   "data": "2026-11-06T12:27:33+00:00"
-  },
-  {
-   "titulo": "Comeback Kid - Post New Single, Feat. Courtney LaPlante",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64492",
-   "fonte": "Metal Storm",
-   "data": "2026-11-06T12:21:17+00:00"
-  },
-  {
-   "titulo": "Quartz - Working On New Material",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64468",
-   "fonte": "Metal Storm",
-   "data": "2026-11-06T12:16:31+00:00"
-  },
-  {
    "titulo": "THROWN INTO EXILE Releases New Single 'Remorse' Featuring ARCH ENEMY's MICHAEL AMOTT",
    "link": "https://blabbermouth.net/news/thrown-into-exile-releases-new-single-remorse-featuring-arch-enemys-michael-amott",
    "fonte": "Blabbermouth",
@@ -18096,18 +18027,6 @@
    "data": "2026-11-05T20:43:48+00:00"
   },
   {
-   "titulo": "KENNY HICKEY: TYPE O NEGATIVE Was Offered 'A Lot Of Money' To Play One PETER STEELE Tribute Concert",
-   "link": "https://blabbermouth.net/news/kenny-hickey-type-o-negative-was-offered-a-lot-of-money-to-play-one-peter-steele-tribute-concert",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-05T20:04:14+00:00"
-  },
-  {
-   "titulo": "ELIZE RYD: AMARANTHE's Upcoming Album Will Feature 'Back-To-The-Roots Gothenburg Metal Sound'",
-   "link": "https://blabbermouth.net/news/elize-ryd-amaranthes-upcoming-album-will-feature-back-to-the-roots-gothenburg-metal-sound",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-05T19:18:39+00:00"
-  },
-  {
    "titulo": "Listen: Comeback Kid Taps Courtney LaPlante For New Single, \"Shedding Season\"",
    "link": "https://metalinjection.net/new-music/listen-comeback-kid-taps-courtney-laplante-for-new-single-shedding-season",
    "fonte": "Metal Injection",
@@ -18118,18 +18037,6 @@
    "link": "https://metalinjection.net/video/chuck-billy-of-testament-on-reliving-his-cancer-experience-opening-up-publicly-exclusive",
    "fonte": "Metal Injection",
    "data": "2026-11-05T18:45:17+00:00"
-  },
-  {
-   "titulo": "RAINBOW's Iconic Live Album 'Finyl Vinyl' Remastered And Repackaged For 40th-Anniversary Edition",
-   "link": "https://blabbermouth.net/news/rainbows-iconic-live-album-finyl-vinyl-remastered-and-repackaged-for-40th-anniversary-edition",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-05T18:40:45+00:00"
-  },
-  {
-   "titulo": "METALLICA Shares Pro-Shot Video Of 'For Whom The Bell Tolls' Performance From Sixth Show Of Las Vegas Sphere Residency",
-   "link": "https://blabbermouth.net/news/metallica-shares-pro-shot-video-of-for-whom-the-bell-tolls-performance-from-sixth-show-of-las-vegas-sphere-residency",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-05T18:20:40+00:00"
   },
   {
    "titulo": "Listen: Death Angel Release Snarky New Single, \"The Never Was\"",
@@ -18202,30 +18109,6 @@
    "link": "https://www.loudersound.com/news/ghost-mary-on-a-cross-streamed-one-billion-times-2026",
    "fonte": "Metal Hammer",
    "data": "2026-11-05T13:00:00+00:00"
-  },
-  {
-   "titulo": "“From the darkest of origins, they’ve become one of the biggest bands”: Korn delight London at sold-out O2 spectacular",
-   "link": "https://www.loudersound.com/reviews/korn-architects-london-o2-arena-november-2026-live-review",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-05T12:00:00+00:00"
-  },
-  {
-   "titulo": "Steven Wilson's ninth solo album Requiem For A Village welcomes the weird",
-   "link": "https://www.loudersound.com/music/albums/steven-wilson-requiem-for-a-village",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-05T11:05:00+00:00"
-  },
-  {
-   "titulo": "“They raised the axe. He started improvising a poem”: When Enslaved didn’t like their new songs, an old saga saved them",
-   "link": "https://www.loudersound.com/music/albums/enslaved-mid-ancient-saga",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-05T10:00:00+00:00"
-  },
-  {
-   "titulo": "How Joey Tempest survived the wild whirlwind of fame, fortune and global success entirely unscathed",
-   "link": "https://www.loudersound.com/bands-artists/interviews/joey-tempest-come-this-madness-interview",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-05T05:05:00+00:00"
   },
   {
    "titulo": "Ghost’s \"Mary On A Cross\" Hits 1 Billion Spotify Streams; Director Revisits Animated Video",
