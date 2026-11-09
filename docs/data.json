@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-09T01:42:49+00:00",
+ "atualizado": "2026-11-09T07:58:03+00:00",
  "fontes": {
   "excluidas": [
    "Richard Dawkins"
@@ -50,7 +50,7 @@
    },
    {
     "nome": "Decibel",
-    "ok": true,
+    "ok": false,
     "artigos": 10
    },
    {
@@ -71,7 +71,9 @@
   ],
   "spotify_espera_ate": null
  },
- "avisos": [],
+ "avisos": [
+  "Feeds sem resposta nesta atualização: Decibel."
+ ],
  "bandas": [
   {
    "id": "urne",
@@ -17301,6 +17303,36 @@
  ],
  "noticias": [
   {
+   "titulo": "King Gizzard & The Lizard Wizard and Jimmy Barnes hook up to record song for endangered coral reef",
+   "link": "https://www.loudersound.com/bands-artists/king-gizzard-and-the-lizard-wizard-jimmy-barnes-if-not-now",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-09T05:58:36+00:00"
+  },
+  {
+   "titulo": "SCORDALUS Presents “Call Me Psycho” Music Video",
+   "link": "https://bravewords.com/news/scordalus-presents-call-me-psycho-music-video/",
+   "fonte": "BraveWords",
+   "data": "2026-11-09T04:46:52+00:00"
+  },
+  {
+   "titulo": "DEE SNIDER And RIKI RACHTMAN Present Episode Two Of “The Ball”",
+   "link": "https://bravewords.com/news/dee-snider-and-riki-rachtman-present-episode-two-of-the-ball/",
+   "fonte": "BraveWords",
+   "data": "2026-11-09T03:57:26+00:00"
+  },
+  {
+   "titulo": "Album Of The Week Club review: Slayer set a land speed record on Reign In Blood",
+   "link": "https://www.loudersound.com/music/albums/slayer-reign-in-blood",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-09T03:18:01+00:00"
+  },
+  {
+   "titulo": "DIRTY HONEY Releases Performance Video For “American Lies” From Upcoming Album, Catch My Butterfly",
+   "link": "https://bravewords.com/news/dirty-honey-releases-performance-video-for-american-lies-from-upcoming-album-catch-my-butterfly/",
+   "fonte": "BraveWords",
+   "data": "2026-11-09T02:15:20+00:00"
+  },
+  {
    "titulo": "Classic Rock Tracks Of The Week: November 9, 2027",
    "link": "https://www.loudersound.com/music/tracks-singles/classic-rock-tracks-of-the-week-november-9-2027",
    "fonte": "Metal Hammer",
@@ -17865,24 +17897,6 @@
    "data": "2026-11-07T09:41:35+00:00"
   },
   {
-   "titulo": "DEVIN TOWNSEND Releases The Moth (The War – Live From Groningen); “Covered By Causes” Official Live Video Streaming",
-   "link": "https://bravewords.com/news/devin-townsend-releases-the-moth-the-war-live-from-groningen-covered-by-causes-official-live-video-streaming/",
-   "fonte": "BraveWords",
-   "data": "2026-11-07T09:15:51+00:00"
-  },
-  {
-   "titulo": "ERIK GRÖNWALL Shares New Single / Video “Save Me”",
-   "link": "https://bravewords.com/news/erik-gronwall-shares-new-single-video-save-me/",
-   "fonte": "BraveWords",
-   "data": "2026-11-07T09:04:56+00:00"
-  },
-  {
-   "titulo": "Best Sites Like Bovada 2026 – 5 Top Bovada Alternatives Compared",
-   "link": "https://bravewords.com/partners/best-sites-like-bovada-2026-5-top-bovada-alternatives-compared-2/",
-   "fonte": "BraveWords",
-   "data": "2026-11-07T09:00:06+00:00"
-  },
-  {
    "titulo": "How Aerosmith’s Dream On invented the power ballad",
    "link": "https://www.loudersound.com/music/tracks-singles/aerosmith-dream-on-story-behind-the-song",
    "fonte": "Metal Hammer",
@@ -18061,18 +18075,6 @@
    "link": "https://www.loudersound.com/music/albums/motorhead-orgasmatron-40th-anniversary-edition",
    "fonte": "Metal Hammer",
    "data": "2026-11-06T05:55:00+00:00"
-  },
-  {
-   "titulo": "Theory Of A Deadman's new record may be called Funeral Songs, but they're far from finished",
-   "link": "https://www.loudersound.com/bands-artists/theory-of-a-deadman-funeral-songs-interview",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-06T04:05:00+00:00"
-  },
-  {
-   "titulo": "Tennessee rockers Kings Of Leon's 10th album O My Beloved is their most personal yet",
-   "link": "https://www.loudersound.com/music/albums/kings-of-leon-o-my-beloved",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-06T01:55:00+00:00"
   },
   {
    "titulo": "Watch: Here’s That Haywire Video the NYPD Broke Up",
