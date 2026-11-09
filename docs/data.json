@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-08T19:16:36+00:00",
+ "atualizado": "2026-11-09T01:42:49+00:00",
  "fontes": {
   "excluidas": [
    "Richard Dawkins"
@@ -7,7 +7,7 @@
   "agenda": {
    "estado": "ok",
    "linhas": 79,
-   "futuras": 69,
+   "futuras": 68,
    "rejeitadas": [],
    "quase": [
     {
@@ -17301,6 +17301,24 @@
  ],
  "noticias": [
   {
+   "titulo": "Classic Rock Tracks Of The Week: November 9, 2027",
+   "link": "https://www.loudersound.com/music/tracks-singles/classic-rock-tracks-of-the-week-november-9-2027",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-09T01:14:26+00:00"
+  },
+  {
+   "titulo": "SEBASTIAN BACH On SKID ROW's 'I Remember You': 'That Song Has Transcended A Lot Of Places That We Never Thought It Would'",
+   "link": "https://blabbermouth.net/news/sebastian-bach-on-skid-rows-i-remember-you-that-song-has-transcended-a-lot-of-places-that-we-never-thought-it-would",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-08T21:19:02+00:00"
+  },
+  {
+   "titulo": "ZAK TELL On Why CLAWFINGER No Longer Performs One Of Its Biggest Songs Containing Anti-Racist Message: The Topic 'Deserves To Be Addressed Properly'",
+   "link": "https://blabbermouth.net/news/zak-tell-on-why-clawfinger-no-longer-performs-one-of-its-biggest-songs-containing-anti-racist-message-the-topic-deserves-to-be-addressed-properly",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-08T19:41:18+00:00"
+  },
+  {
    "titulo": "FREDDIE SALEM Says MOTÖRHEAD’s Ace Of Spades Album Cover Was Influenced By THE OUTLAWS – “They Loved Guns And The Whole Genre Of Southern Rock”",
    "link": "https://bravewords.com/news/freddie-salem-says-motorheads-ace-of-spades-album-cover-was-influenced-by-the-outlaws-they-loved-guns-and-the-whole-genre-of-southern-rock/",
    "fonte": "BraveWords",
@@ -17319,7 +17337,7 @@
    "data": "2026-11-08T17:36:05+00:00"
   },
   {
-   "titulo": "A Look Back A The Rise Of GHOST – “BLUE ÖYSTER CULT And MERCYFUL FATE Smashed Together With An ABBA Chorus” (Video)",
+   "titulo": "A Look Back At The Rise Of GHOST – “BLUE ÖYSTER CULT And MERCYFUL FATE Smashed Together With An ABBA Chorus” (Video)",
    "link": "https://bravewords.com/news/a-look-back-a-the-rise-of-ghost-blue-oyster-cult-and-mercyful-fate-smashed-together-with-an-abba-chorus-video/",
    "fonte": "BraveWords",
    "data": "2026-11-08T17:15:54+00:00"
@@ -17467,6 +17485,12 @@
    "link": "https://bravewords.com/news/the-new-yorkers-chris-poland-gar-samuelson-pre-megadeth-band-to-release-never-before-heard-studio-demos-and-live-tracks/",
    "fonte": "BraveWords",
    "data": "2026-11-08T12:41:25+00:00"
+  },
+  {
+   "titulo": "Top 9 AI Lyric Video Makers of 2026",
+   "link": "https://bravewords.com/partners/top-9-ai-lyric-video-makers-of-2026/",
+   "fonte": "BraveWords",
+   "data": "2026-11-08T11:00:57+00:00"
   },
   {
    "titulo": "Television guitarist Richard Lloyd dead at 75",
@@ -17877,12 +17901,6 @@
    "data": "2026-11-07T01:05:03+00:00"
   },
   {
-   "titulo": "Vancouver’s UNGOTHLY PLACES Releases “No Shadows” Single",
-   "link": "https://bravewords.com/hard-rock/vancouvers-ungothly-places-releases-no-shadows-single/",
-   "fonte": "BraveWords",
-   "data": "2026-11-06T23:44:47+00:00"
-  },
-  {
    "titulo": "GENE HOGLAN Says New DARK ANGEL Music Will Arrive 'Before The End Of The Year': 'I'm Really Excited'",
    "link": "https://blabbermouth.net/news/gene-hoglan-says-new-dark-angel-music-will-arrive-before-the-end-of-the-year-im-really-excited",
    "fonte": "Blabbermouth",
@@ -18009,18 +18027,6 @@
    "data": "2026-11-06T15:08:13+00:00"
   },
   {
-   "titulo": "SLAYER Announces 'Reign In Blood' 40th-Anniversary Pop-Up Shop Ahead Of Sold-Out Los Angeles Shows",
-   "link": "https://blabbermouth.net/news/slayer-announces-reign-in-blood-40th-anniversary-pop-up-shop-ahead-of-sold-out-los-angeles-shows",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-06T14:46:06+00:00"
-  },
-  {
-   "titulo": "THE FUNERAL PORTRAIT Releases Lyric Video For New Song 'My Future Prediction'",
-   "link": "https://blabbermouth.net/news/the-funeral-portrait-releases-lyric-video-for-new-song-my-future-prediction",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-06T14:35:18+00:00"
-  },
-  {
    "titulo": "The Weekly Injection: New Releases From Hatebreed, Cult of Luna, and More Out This Week — 11.6",
    "link": "https://metalinjection.net/upcoming-releases/heavy-new-releases/the-weekly-injection-new-releases-from-hatebreed-cult-of-luna-and-more-out-this-week-11-6",
    "fonte": "Metal Injection",
@@ -18067,12 +18073,6 @@
    "link": "https://www.loudersound.com/music/albums/kings-of-leon-o-my-beloved",
    "fonte": "Metal Hammer",
    "data": "2026-11-06T01:55:00+00:00"
-  },
-  {
-   "titulo": "Bryan Adams returns home and writes a love letter to his native Canada on How's It Goin'",
-   "link": "https://www.loudersound.com/music/albums/bryan-adams-hows-it-goin",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-06T00:47:03+00:00"
   },
   {
    "titulo": "Watch: Here’s That Haywire Video the NYPD Broke Up",
