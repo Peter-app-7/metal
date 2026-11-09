@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-09T07:58:03+00:00",
+ "atualizado": "2026-11-09T13:47:00+00:00",
  "fontes": {
   "excluidas": [
    "Richard Dawkins"
@@ -50,7 +50,7 @@
    },
    {
     "nome": "Decibel",
-    "ok": false,
+    "ok": true,
     "artigos": 10
    },
    {
@@ -71,9 +71,7 @@
   ],
   "spotify_espera_ate": null
  },
- "avisos": [
-  "Feeds sem resposta nesta atualização: Decibel."
- ],
+ "avisos": [],
  "bandas": [
   {
    "id": "urne",
@@ -17303,6 +17301,78 @@
  ],
  "noticias": [
   {
+   "titulo": "Crystal Head Vodka Presents Today In Metal History 🤘 November 9th, 2026 🤘 IRON MAIDEN, W.A.S.P., Y&T, TWISTED SISTER, HELIX, AEROSMITH",
+   "link": "https://bravewords.com/today-in-metal/crystal-head-vodka-presents-today-in-metal-history-%f0%9f%a4%98-november-9th-2026-%f0%9f%a4%98-iron-maiden-w-a-s-p-yt-twisted-sister-helix-aerosmith/",
+   "fonte": "BraveWords",
+   "data": "2026-11-09T13:24:58+00:00"
+  },
+  {
+   "titulo": "KJETIL NORDHUS Ponders GREEN CARNATION's Future After Masterful 'A Dark Poem' Trilogy: 'This Might Be The Last Thing People Hear From Us'",
+   "link": "https://blabbermouth.net/features/kjetil-nordhus-ponders-green-carnations-future-after-masterful-a-dark-poem-trilogy-this-might-be-the-last-thing-people-hear-from-us",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-09T12:49:39+00:00"
+  },
+  {
+   "titulo": "OPETH Cancels Bogota Concert After MIKAEL ÅKERFELDT Falls Ill",
+   "link": "https://blabbermouth.net/news/opeth-cancels-bogota-concert-after-mikael-akerfeldt-falls-ill",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-09T12:39:55+00:00"
+  },
+  {
+   "titulo": "POWERWOLF Announces 2027 European 'Moral & Madness' Tour",
+   "link": "https://blabbermouth.net/news/powerwolf-announces-2027-european-moral-madness-tour",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-09T12:05:31+00:00"
+  },
+  {
+   "titulo": "German power metallers Powerwolf have announced a huge 2027 arena tour across Europe",
+   "link": "https://www.loudersound.com/bands-artists/concerts-shows/weve-got-a-lot-of-mind-blowing-things-planned-german-power-metallers-powerwolf-have-announced-a-huge-2027-arena-tour-across-europe-and-the-uk",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-09T10:34:30+00:00"
+  },
+  {
+   "titulo": "“It’s obvious that ego and ambition played some part”: When Roxy Music and Brian Eno parted ways",
+   "link": "https://www.loudersound.com/bands-artists/roxy-music-brian-eno-split-for-your-pleasure",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-09T10:00:00+00:00"
+  },
+  {
+   "titulo": "Powerwolf - To Release New Album In 2027, Announce Tour Dates",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64516",
+   "fonte": "Metal Storm",
+   "data": "2026-11-09T09:52:45+00:00"
+  },
+  {
+   "titulo": "MANOWAR Guitarist MICHAEL ANGELO BATIO Talks Bringing Two Iconic Albums To The Stage In 2027 (Video)",
+   "link": "https://bravewords.com/news/manowar-guitarist-michael-angelo-batio-talks-bringing-two-iconic-albums-to-the-stage-in-2027-video/",
+   "fonte": "BraveWords",
+   "data": "2026-11-09T09:42:02+00:00"
+  },
+  {
+   "titulo": "TWISTED SISTER Guitarist JAY JAY FRENCH – “If You Ask 100 Fans ‘Who’s The Only Person That Could Replace DEE SNIDER?’ They Would All Say SEBASTIAN BACH” (Video)",
+   "link": "https://bravewords.com/news/twisted-sister-guitarist-jay-jay-french-if-you-ask-100-fans-whos-the-only-person-that-could-replace-dee-snider-they-would-all-say-sebastian-bach-video/",
+   "fonte": "BraveWords",
+   "data": "2026-11-09T09:32:11+00:00"
+  },
+  {
+   "titulo": "Former BURNING WITCHES Vocalist LAURA GULDEMOND Shares Cover Of ACCEPT Classic “Metal Heart” (Video)",
+   "link": "https://bravewords.com/news/former-burning-witches-vocalist-laura-guldemond-shares-cover-of-accept-classic-metal-heart-video/",
+   "fonte": "BraveWords",
+   "data": "2026-11-09T09:26:27+00:00"
+  },
+  {
+   "titulo": "TRIVIUM Frontman MATT HEAFY Shares Playthrough Video Of “Kirisute Gomen”",
+   "link": "https://bravewords.com/news/trivium-frontman-matt-heafy-shares-playthrough-video-of-kirisute-gomen/",
+   "fonte": "BraveWords",
+   "data": "2026-11-09T09:14:04+00:00"
+  },
+  {
+   "titulo": "Muse to headline BST Hyde Park and Roundhay Festival in Leeds",
+   "link": "https://www.loudersound.com/bands-artists/music-festivals/muse-bst-hyde-park-roundhay-festival",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-09T09:00:00+00:00"
+  },
+  {
    "titulo": "King Gizzard & The Lizard Wizard and Jimmy Barnes hook up to record song for endangered coral reef",
    "link": "https://www.loudersound.com/bands-artists/king-gizzard-and-the-lizard-wizard-jimmy-barnes-if-not-now",
    "fonte": "Metal Hammer",
@@ -17843,34 +17913,10 @@
    "data": "2026-11-07T13:02:09+00:00"
   },
   {
-   "titulo": "Watch THIN LIZZY Perform “Don’t Believe A Word” On British TV Show “Old Grey Whistle Test” In 1979; Video",
-   "link": "https://bravewords.com/news/watch-thin-lizzy-perform-dont-believe-a-word-on-british-tv-show-old-grey-whistle-test-in-1979-video/",
-   "fonte": "BraveWords",
-   "data": "2026-11-07T12:54:24+00:00"
-  },
-  {
    "titulo": "Frost Like Ashes - Will Put Out First LP In More Than 20 Years",
    "link": "https://metalstorm.net/events/news_comments.php?news_id=64502",
    "fonte": "Metal Storm",
    "data": "2026-11-07T12:51:35+00:00"
-  },
-  {
-   "titulo": "Fading Light - Debut 'Far Away From The Stars' Song",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64501",
-   "fonte": "Metal Storm",
-   "data": "2026-11-07T12:40:06+00:00"
-  },
-  {
-   "titulo": "ANNIHILATOR Guitarist / Founder JEFF WATERS Announces All Access Lounge Live Chat For This Sunday",
-   "link": "https://bravewords.com/news/annihilator-guitarist-founder-jeff-waters-announces-all-access-lounge-live-chat-for-this-sunday/",
-   "fonte": "BraveWords",
-   "data": "2026-11-07T12:14:00+00:00"
-  },
-  {
-   "titulo": "PROFESSOR OF ROCK Takes A Deep Dive Into Songs That Were Inspired By The Bible Featuring METALLICA, OZZY OSBOURNE, DEF LEPPARD, STING And More (Video)",
-   "link": "https://bravewords.com/news/professor-of-rock-takes-a-deep-dive-into-songs-that-were-inspired-by-the-bible-featuring-metallica-ozzy-osbourne-def-leppard-sting-and-more-video/",
-   "fonte": "BraveWords",
-   "data": "2026-11-07T12:05:27+00:00"
   },
   {
    "titulo": "Horror punk icons Murderdolls are reforming for their first show since Joey Jordison’s death",
@@ -17883,18 +17929,6 @@
    "link": "https://www.loudersound.com/bands-artists/cliff-burton-early-bands",
    "fonte": "Metal Hammer",
    "data": "2026-11-07T10:00:00+00:00"
-  },
-  {
-   "titulo": "MAJESTICA Frontman TOMMY JOHANSSON Shares Metal Cover Of BACKSTREET BOYS Hit “Everybody (Backstreet’s Back)” (Video)",
-   "link": "https://bravewords.com/news/majestica-frontman-tommy-johansson-shares-metal-cover-of-backstreet-boys-hit-everybody-backstreets-back-video/",
-   "fonte": "BraveWords",
-   "data": "2026-11-07T09:52:28+00:00"
-  },
-  {
-   "titulo": "Watch IN THIS MOMENT Perform “Crawl” Live On SiriusXM",
-   "link": "https://bravewords.com/news/watch-in-this-moment-perform-crawl-live-on-siriusxm/",
-   "fonte": "BraveWords",
-   "data": "2026-11-07T09:41:35+00:00"
   },
   {
    "titulo": "How Aerosmith’s Dream On invented the power ballad",
@@ -18011,34 +18045,16 @@
    "data": "2026-11-06T16:47:26+00:00"
   },
   {
-   "titulo": "MARTY FRIEDMAN Releases New Single '2 Rebeldes (Spanish Vocal)'",
-   "link": "https://blabbermouth.net/news/marty-friedman-releases-new-single-2-rebeldes-spanish-vocal",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-06T16:21:23+00:00"
-  },
-  {
    "titulo": "Mike Batt pays tribute to the Womble who was too busy for TV, and Led Zeppelin",
    "link": "https://www.loudersound.com/bands-artists/mike-batt-wombles-clem-cattini-tribute",
    "fonte": "Metal Hammer",
    "data": "2026-11-06T16:00:00+00:00"
   },
   {
-   "titulo": "FILTER's New Album 'The Antidote' Is 'Moments Away From Being Done': 'I'm Really Excited To Release It', Says RICHARD PATRICK",
-   "link": "https://blabbermouth.net/news/filters-new-album-the-antidote-is-moments-away-from-being-done-im-really-excited-to-release-it-says-richard-patrick",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-06T15:37:32+00:00"
-  },
-  {
    "titulo": "Watch: WWE's Rhea Ripley Join Motionless in White On Stage",
    "link": "https://metalinjection.net/news/watch-wwes-rhea-ripley-join-motionless-in-white-on-stage",
    "fonte": "Metal Injection",
    "data": "2026-11-06T15:34:31+00:00"
-  },
-  {
-   "titulo": "KINGSTON ROSSDALE, BUSH Frontman GAVIN ROSSDALE's Son, Releases Debut EP, 'Louise Street'",
-   "link": "https://blabbermouth.net/news/kingston-rossdale-bush-frontman-gavin-rossdales-son-releases-debut-ep-louise-street",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-06T15:08:13+00:00"
   },
   {
    "titulo": "The Weekly Injection: New Releases From Hatebreed, Cult of Luna, and More Out This Week — 11.6",
@@ -18057,24 +18073,6 @@
    "link": "https://www.loudersound.com/news/sam-ryder-how-iron-maiden-changed-my-life-2026",
    "fonte": "Metal Hammer",
    "data": "2026-11-06T11:08:38+00:00"
-  },
-  {
-   "titulo": "Tom Morello says the hard work is only just beginning following US midterms election victory for the Democrats",
-   "link": "https://www.loudersound.com/bands-artists/tom-morello-us-midterm-election-results-trump",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-06T11:00:00+00:00"
-  },
-  {
-   "titulo": "The real story of Ireland's greatest rock star, Rory Gallagher: Only in the new Classic Rock",
-   "link": "https://www.loudersound.com/music-industry/magazines/classic-rock-360-rory-gallagher",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-06T10:06:17+00:00"
-  },
-  {
-   "titulo": "Motörhead's Orgasmatron was neutered in New York - and now it's finally been fixed",
-   "link": "https://www.loudersound.com/music/albums/motorhead-orgasmatron-40th-anniversary-edition",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-06T05:55:00+00:00"
   },
   {
    "titulo": "Watch: Here’s That Haywire Video the NYPD Broke Up",
