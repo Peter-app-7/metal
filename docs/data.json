@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-09T19:27:17+00:00",
+ "atualizado": "2026-11-10T01:34:55+00:00",
  "fontes": {
   "excluidas": [
    "Richard Dawkins"
@@ -50,7 +50,7 @@
    },
    {
     "nome": "Decibel",
-    "ok": true,
+    "ok": false,
     "artigos": 10
    },
    {
@@ -71,7 +71,9 @@
   ],
   "spotify_espera_ate": null
  },
- "avisos": [],
+ "avisos": [
+  "Feeds sem resposta nesta atualização: Decibel."
+ ],
  "bandas": [
   {
    "id": "urne",
@@ -17301,6 +17303,84 @@
  ],
  "noticias": [
   {
+   "titulo": "RAIDING THE ROCK VAULT Featuring TODD KERNS, JIZZY PEARL, ROWAN ROBERTSON And More To Stream 14th Anniversary Show Live",
+   "link": "https://bravewords.com/news/raiding-the-rock-vault-featuring-todd-kerns-jizzy-pearl-rowan-robertson-and-more-to-stream-14th-anniversary-show-live/",
+   "fonte": "BraveWords",
+   "data": "2026-11-10T01:31:01+00:00"
+  },
+  {
+   "titulo": "Watch an unintentionally hilarious Paul Stanley screentest from the early 1980s",
+   "link": "https://www.loudersound.com/bands-artists/paul-stanley-screentest",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-10T01:19:02+00:00"
+  },
+  {
+   "titulo": "Age Of Quarrel: 40 Years Of Quarrel",
+   "link": "https://blabbermouth.net/reviews/age-of-quarrel-40-years-of-quarrel",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-09T22:49:19+00:00"
+  },
+  {
+   "titulo": "New date set for Steven Tyler sexual assault trial",
+   "link": "https://www.loudersound.com/bands-artists/new-date-set-for-steven-tyler-sexual-assault-trial",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-09T22:42:21+00:00"
+  },
+  {
+   "titulo": "KERRY KING Announces 'My War', First Single From Upcoming Second Solo Album",
+   "link": "https://blabbermouth.net/news/kerry-king-announces-my-war-first-single-from-upcoming-second-solo-album",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-09T22:22:14+00:00"
+  },
+  {
+   "titulo": "Watch: Sepultura Plays Final Show In Sāo Paulo, Brazil",
+   "link": "https://metalinjection.net/news/watch-sepultura-plays-final-show-in-sao-paulo-brazil",
+   "fonte": "Metal Injection",
+   "data": "2026-11-09T21:52:28+00:00"
+  },
+  {
+   "titulo": "Kerry King Teases “My War” From Upcoming Sophomore Solo Album",
+   "link": "https://metalinjection.net/new-music/kerry-king-teases-my-war-from-upcoming-sophomore-solo-album",
+   "fonte": "Metal Injection",
+   "data": "2026-11-09T21:09:14+00:00"
+  },
+  {
+   "titulo": "Gentle Giant influenced Dream Theater, Travis Scott and Angine De Poitrine – but endured a “dark time” to do it",
+   "link": "https://www.loudersound.com/music/albums/gentle-giant-in-a-glass-house",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-09T21:00:00+00:00"
+  },
+  {
+   "titulo": "UDO DIRKSCHNEIDER Denies He Was Invited By WOLF HOFFMANN To Appear On ACCEPT's 50th-Anniversary Album: 'He Never Asked Me'",
+   "link": "https://blabbermouth.net/news/udo-dirkschneider-denies-he-was-invited-by-wolf-hoffmann-to-appear-on-accepts-50th-anniversary-album-he-never-asked-me",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-09T20:34:05+00:00"
+  },
+  {
+   "titulo": "Fall Out Boy announce mammoth Twilight Of The Punks world stadium tour",
+   "link": "https://www.loudersound.com/bands-artists/fall-out-boy-announce-twilight-of-the-punks-world-tour",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-09T20:04:52+00:00"
+  },
+  {
+   "titulo": "TWISTED SISTER’s DEE SNIDER On Releasing The “Leader Of The Pack” Single After The Success Of Stay Hungry – “There Have Been Some Missteps And Unfortunately This Is One Of Them”",
+   "link": "https://bravewords.com/80s-metal/twisted-sisters-dee-snider-on-releasing-the-leader-of-the-pack-single-after-the-success-of-stay-hungry-there-have-been-some-missteps-and-unfortunately-this-is-one-of-them/",
+   "fonte": "BraveWords",
+   "data": "2026-11-09T19:55:05+00:00"
+  },
+  {
+   "titulo": "SAVAGE Share New Song “Rancorous Trails”; Official Audio Streaming",
+   "link": "https://bravewords.com/news/savage-share-new-song-rancorous-trails-official-audio-streaming/",
+   "fonte": "BraveWords",
+   "data": "2026-11-09T19:45:48+00:00"
+  },
+  {
+   "titulo": "JOHN GALLAGHER Says Working With His Brother MARK In RAVEN Is 'A Great Asset': 'We Don't Fight Like Those Other Idiot GALLAGHER Brothers' From OASIS",
+   "link": "https://blabbermouth.net/news/john-gallagher-says-working-with-his-brother-mark-in-raven-is-a-great-asset-we-dont-fight-like-those-other-idiot-gallagher-brothers-from-oasis",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-09T19:38:53+00:00"
+  },
+  {
    "titulo": "Montréal’s DEADWOOD Unleash Brutal New Single “Possession” Feat. DEATHSTROKE’s ADAM MERCER; Music Video",
    "link": "https://bravewords.com/news/montreals-deadwood-unleash-brutal-new-single-possession-feat-deathstrokes-adam-mercer-music-video/",
    "fonte": "BraveWords",
@@ -17353,12 +17433,6 @@
    "link": "https://blabbermouth.net/news/watch-charlie-benante-joins-fozzy-for-cover-of-judas-priests-living-after-midnight",
    "fonte": "Blabbermouth",
    "data": "2026-11-09T17:56:27+00:00"
-  },
-  {
-   "titulo": "KERRY KING Announces 'My War', First Single From Upcoming Second Solo Album 'The End Of All Gods'",
-   "link": "https://blabbermouth.net/news/kerry-king-announces-my-war-first-single-from-upcoming-second-solo-album",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-09T17:45:07+00:00"
   },
   {
    "titulo": "SLAYER’s KERRY KING Announces New Solo Single; Teaser Video Streaming",
@@ -17739,12 +17813,6 @@
    "data": "2026-11-08T16:12:28+00:00"
   },
   {
-   "titulo": "CRIMSON GLORY TO Headline Japan’s Keep It True",
-   "link": "https://bravewords.com/news/crimson-glory-to-headline-japans-keep-it-true/",
-   "fonte": "BraveWords",
-   "data": "2026-11-08T16:00:42+00:00"
-  },
-  {
    "titulo": "Vote Durst: Limp Bizkit's Fred Durst Announces a Campaign for… Something",
    "link": "https://metalinjection.net/news/vote-durst-limp-bizkits-fred-durst-announces-a-campaign-for-something",
    "fonte": "Metal Injection",
@@ -17763,22 +17831,10 @@
    "data": "2026-11-08T15:28:30+00:00"
   },
   {
-   "titulo": "Former DRAGONFORCE Vocalist ZP THEART Shares Cover Of NIGHTWISH Classic “Nemo”",
-   "link": "https://bravewords.com/news/former-dragonforce-vocalist-zp-theart-shares-cover-of-nightwish-classic-nemo/",
-   "fonte": "BraveWords",
-   "data": "2026-11-08T15:04:22+00:00"
-  },
-  {
    "titulo": "STEVE VAI Explains How His Definition Of 'Success' Has Changed Through The Years",
    "link": "https://blabbermouth.net/news/steve-vai-explains-how-his-definition-of-success-has-changed-through-the-years",
    "fonte": "Blabbermouth",
    "data": "2026-11-08T14:54:40+00:00"
-  },
-  {
-   "titulo": "Australia’s VANISHING POINT Share Official Lyric Video For New Single “The Faceless”",
-   "link": "https://bravewords.com/news/australias-vanishing-point-share-official-lyric-video-for-new-single-the-faceless/",
-   "fonte": "BraveWords",
-   "data": "2026-11-08T14:53:06+00:00"
   },
   {
    "titulo": "This is the epic setlist and all the surprise guests from Sepultura’s emotional final show",
@@ -17913,12 +17969,6 @@
    "data": "2026-11-07T18:00:00+00:00"
   },
   {
-   "titulo": "ANTON KABANEN On BEAST IN BLACK's Upcoming Fourth Album 'Fear The Beast': 'It's Near Completion'",
-   "link": "https://blabbermouth.net/news/anton-kabanen-on-beast-in-blacks-upcoming-fourth-album-fear-the-beast-its-near-completion",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-07T17:35:27+00:00"
-  },
-  {
    "titulo": "London Metal Fest 2027 announces Katatonia and Psychonaut among others",
    "link": "https://www.theblackplanet.org/london-metal-fest-2027/",
    "fonte": "The Black Planet",
@@ -17985,22 +18035,10 @@
    "data": "2026-11-07T15:22:52+00:00"
   },
   {
-   "titulo": "See RUSH's Second Concert At Mohegan Sun Arena During 'Fifty Something' Tour",
-   "link": "https://blabbermouth.net/news/see-rushs-second-concert-at-mohegan-sun-arena-during-fifty-something-tour",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-07T15:05:41+00:00"
-  },
-  {
    "titulo": "The 5 Best Derrick Green-Era Sepultura Songs",
    "link": "https://metalinjection.net/lists/the-5-best-derrick-green-era-sepultura-songs",
    "fonte": "Metal Injection",
    "data": "2026-11-07T15:04:54+00:00"
-  },
-  {
-   "titulo": "DEEP PURPLE's IAN GILLAN Undergoes 'Successful Procedure': 'I Have To Rest In Order To Make A Complete Recovery'",
-   "link": "https://blabbermouth.net/news/deep-purples-ian-gillan-undergoes-successful-procedure-i-have-to-rest-in-order-to-make-a-complete-recovery",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-07T14:34:12+00:00"
   },
   {
    "titulo": "Horror punk icons Murderdolls are reforming for their first show since Joey Jordison’s death",
@@ -18033,12 +18071,6 @@
    "data": "2026-11-07T01:05:03+00:00"
   },
   {
-   "titulo": "U2 frontman Bono says the idea of negotiating with Trump on humanitarian causes is \"too much\"",
-   "link": "https://www.loudersound.com/bands-artists/u2-bono-trump-humanitarian-causes",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-06T21:00:00+00:00"
-  },
-  {
    "titulo": "Burn Eternal, Carnifex, We Came As Romans & More Added To Metal Injection's Top Tracks of the Week",
    "link": "https://metalinjection.net/playlist/top-tracks-of-the-week-playlist/burn-eternal-carnifex-we-came-as-romans-more-added-to-metal-injections-top-tracks-of-the-week",
    "fonte": "Metal Injection",
@@ -18057,18 +18089,6 @@
    "data": "2026-11-06T18:14:25+00:00"
   },
   {
-   "titulo": "Asia’s new album brings completion to the last song Geoff Downes started with John Wetton",
-   "link": "https://www.loudersound.com/music/albums/asia-tattoo-indigo-geoff-downes-john-wetton",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-06T18:00:00+00:00"
-  },
-  {
-   "titulo": "Metal Hammer's tracks of the week: November 6 2026",
-   "link": "https://www.loudersound.com/music/tracks-singles/metal-hammer-tracks-of-the-week-november-6-2026",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-06T17:47:50+00:00"
-  },
-  {
    "titulo": "Watch: Carnifex Drops Video For \"The Process Of Pain\" Featuring Chaney Crabb of Entheos",
    "link": "https://metalinjection.net/new-music/watch-carnifex-drops-video-for-the-process-of-pain-featuring-chaney-crabb-of-entheos",
    "fonte": "Metal Injection",
@@ -18079,12 +18099,6 @@
    "link": "https://metalinjection.net/new-music/hatebreeds-fatal-paradox-is-out-now-grab-an-exclusive-vinyl-from-metal-injection",
    "fonte": "Metal Injection",
    "data": "2026-11-06T16:47:26+00:00"
-  },
-  {
-   "titulo": "Mike Batt pays tribute to the Womble who was too busy for TV, and Led Zeppelin",
-   "link": "https://www.loudersound.com/bands-artists/mike-batt-wombles-clem-cattini-tribute",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-06T16:00:00+00:00"
   },
   {
    "titulo": "Watch: WWE's Rhea Ripley Join Motionless in White On Stage",
@@ -18133,18 +18147,6 @@
    "link": "https://metalinjection.net/new-music/burn-eternal-announces-self-titled-debut-pre-order-exclusive-vinyl-variant-from-metal-injection",
    "fonte": "Metal Injection",
    "data": "2026-11-05T17:00:26+00:00"
-  },
-  {
-   "titulo": "Watch: We Came As Romans Drops New Video For \"Dead Silent\" Featuring Make Them Suffer",
-   "link": "https://metalinjection.net/new-music/watch-we-came-as-romans-drops-new-video-for-dead-silent-featuring-make-them-suffer",
-   "fonte": "Metal Injection",
-   "data": "2026-11-05T16:24:37+00:00"
-  },
-  {
-   "titulo": "Ozzfest Announces 2027 Return to California",
-   "link": "https://metalinjection.net/tour-dates/festivals/ozzfest-announces-2027-return-to-california",
-   "fonte": "Metal Injection",
-   "data": "2026-11-05T15:13:12+00:00"
   },
   {
    "titulo": "Track Premiere: The New Yorkers (pre-Megadeth) – “I Only Cry For You”",
