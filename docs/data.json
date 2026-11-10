@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-10T01:34:55+00:00",
+ "atualizado": "2026-11-10T07:43:22+00:00",
  "fontes": {
   "excluidas": [
    "Richard Dawkins"
@@ -50,7 +50,7 @@
    },
    {
     "nome": "Decibel",
-    "ok": false,
+    "ok": true,
     "artigos": 10
    },
    {
@@ -71,9 +71,7 @@
   ],
   "spotify_espera_ate": null
  },
- "avisos": [
-  "Feeds sem resposta nesta atualização: Decibel."
- ],
+ "avisos": [],
  "bandas": [
   {
    "id": "urne",
@@ -17303,6 +17301,66 @@
  ],
  "noticias": [
   {
+   "titulo": "Fifty years after forming, Northern Ireland's finest The Undertones are in the mood to celebrate",
+   "link": "https://www.loudersound.com/bands-artists/undertones-tour-interview",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-10T07:05:00+00:00"
+  },
+  {
+   "titulo": "Joe Bonamassa reveals how Rory Gallagher rocked his world",
+   "link": "https://www.loudersound.com/bands-artists/joe-bonamassa-on-rory-gallagher",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-10T05:55:00+00:00"
+  },
+  {
+   "titulo": "NIGHTMARE OMEN Feat. THE CROWN Vocalist JOHAN LINDSTRAND Reveals “Moonlight Funeral” Lyric Video",
+   "link": "https://bravewords.com/news/nightmare-omen-feat-the-crown-vocalist-johan-lindstrand-reveals-moonlight-funeral-lyric-video/",
+   "fonte": "BraveWords",
+   "data": "2026-11-10T05:14:59+00:00"
+  },
+  {
+   "titulo": "Villagers Of Ioannina City fill arenas in Greece: Now they're ready for the rest of the world",
+   "link": "https://www.loudersound.com/bands-artists/villagers-of-ioannina-city-venceremos-interview",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-10T04:55:00+00:00"
+  },
+  {
+   "titulo": "STONE SOUR – Audio Secrecy 15th Anniversary Edition Due Later This Month",
+   "link": "https://bravewords.com/news/stone-sour-audio-secrecy-15th-anniversary-edition-due-later-this-month/",
+   "fonte": "BraveWords",
+   "data": "2026-11-10T04:33:44+00:00"
+  },
+  {
+   "titulo": "TESLA’s DAVE RUDE Shares New Video, “I Don’t Play Guitar Quite The Way I Used To”",
+   "link": "https://bravewords.com/news/teslas-dave-rude-shares-new-video-i-dont-play-guitar-quite-the-way-i-used-to/",
+   "fonte": "BraveWords",
+   "data": "2026-11-10T03:53:26+00:00"
+  },
+  {
+   "titulo": "ANTHRAX Guitarist SCOTT IAN Remembers The First Time He Heard AC/DC’s Powerage Album In New BON SCOTT Estate Video Interview – “It Blew My Mind”",
+   "link": "https://bravewords.com/news/anthrax-guitarist-scott-ian-remembers-the-first-time-he-heard-ac-dcs-powerage-album-in-new-bon-scott-estate-video-interview-it-blew-my-mind/",
+   "fonte": "BraveWords",
+   "data": "2026-11-10T03:31:07+00:00"
+  },
+  {
+   "titulo": "BUCKCHERRY Has The Most-Played Rock Song Of The 21st Century",
+   "link": "https://bravewords.com/news/buckcherry-has-the-most-played-rock-song-of-the-21st-century/",
+   "fonte": "BraveWords",
+   "data": "2026-11-10T03:06:48+00:00"
+  },
+  {
+   "titulo": "NEVERMORE Confirms First Canadian Concert In Nearly 17 Years",
+   "link": "https://bravewords.com/news/nevermore-confirms-first-canadian-concert-in-nearly-17-years/",
+   "fonte": "BraveWords",
+   "data": "2026-11-10T02:25:24+00:00"
+  },
+  {
+   "titulo": "OPETH Forced To Cancel Bogota Concert As MIKAEL ÅKERFELDT Falls Ill",
+   "link": "https://bravewords.com/news/opeth-forced-to-cancel-bogota-concert-as-mikael-akerfeldt-falls-ill/",
+   "fonte": "BraveWords",
+   "data": "2026-11-10T02:00:08+00:00"
+  },
+  {
    "titulo": "RAIDING THE ROCK VAULT Featuring TODD KERNS, JIZZY PEARL, ROWAN ROBERTSON And More To Stream 14th Anniversary Show Live",
    "link": "https://bravewords.com/news/raiding-the-rock-vault-featuring-todd-kerns-jizzy-pearl-rowan-robertson-and-more-to-stream-14th-anniversary-show-live/",
    "fonte": "BraveWords",
@@ -17361,6 +17419,12 @@
    "link": "https://www.loudersound.com/bands-artists/fall-out-boy-announce-twilight-of-the-punks-world-tour",
    "fonte": "Metal Hammer",
    "data": "2026-11-09T20:04:52+00:00"
+  },
+  {
+   "titulo": "Full Album Stream: Malhavoc –The Masquerade’s Death",
+   "link": "https://www.decibelmagazine.com/2026/11/09/full-album-stream-malhavoc-the-masquerades-death/",
+   "fonte": "Decibel",
+   "data": "2026-11-09T20:00:40+00:00"
   },
   {
    "titulo": "TWISTED SISTER’s DEE SNIDER On Releasing The “Leader Of The Pack” Single After The Success Of Stay Hungry – “There Have Been Some Missteps And Unfortunately This Is One Of Them”",
@@ -17699,12 +17763,6 @@
    "data": "2026-11-09T09:26:27+00:00"
   },
   {
-   "titulo": "TRIVIUM Frontman MATT HEAFY Shares Playthrough Video Of “Kirisute Gomen”",
-   "link": "https://bravewords.com/news/trivium-frontman-matt-heafy-shares-playthrough-video-of-kirisute-gomen/",
-   "fonte": "BraveWords",
-   "data": "2026-11-09T09:14:04+00:00"
-  },
-  {
    "titulo": "Muse to headline BST Hyde Park and Roundhay Festival in Leeds",
    "link": "https://www.loudersound.com/bands-artists/music-festivals/muse-bst-hyde-park-roundhay-festival",
    "fonte": "Metal Hammer",
@@ -17717,28 +17775,10 @@
    "data": "2026-11-09T05:58:36+00:00"
   },
   {
-   "titulo": "SCORDALUS Presents “Call Me Psycho” Music Video",
-   "link": "https://bravewords.com/news/scordalus-presents-call-me-psycho-music-video/",
-   "fonte": "BraveWords",
-   "data": "2026-11-09T04:46:52+00:00"
-  },
-  {
-   "titulo": "DEE SNIDER And RIKI RACHTMAN Present Episode Two Of “The Ball”",
-   "link": "https://bravewords.com/news/dee-snider-and-riki-rachtman-present-episode-two-of-the-ball/",
-   "fonte": "BraveWords",
-   "data": "2026-11-09T03:57:26+00:00"
-  },
-  {
    "titulo": "Album Of The Week Club review: Slayer set a land speed record on Reign In Blood",
    "link": "https://www.loudersound.com/music/albums/slayer-reign-in-blood",
    "fonte": "Metal Hammer",
    "data": "2026-11-09T03:18:01+00:00"
-  },
-  {
-   "titulo": "DIRTY HONEY Releases Performance Video For “American Lies” From Upcoming Album, Catch My Butterfly",
-   "link": "https://bravewords.com/news/dirty-honey-releases-performance-video-for-american-lies-from-upcoming-album-catch-my-butterfly/",
-   "fonte": "BraveWords",
-   "data": "2026-11-09T02:15:20+00:00"
   },
   {
    "titulo": "Classic Rock Tracks Of The Week: November 9, 2027",
@@ -17759,12 +17799,6 @@
    "data": "2026-11-08T19:41:18+00:00"
   },
   {
-   "titulo": "FREDDIE SALEM Says MOTÖRHEAD’s Ace Of Spades Album Cover Was Influenced By THE OUTLAWS – “They Loved Guns And The Whole Genre Of Southern Rock”",
-   "link": "https://bravewords.com/news/freddie-salem-says-motorheads-ace-of-spades-album-cover-was-influenced-by-the-outlaws-they-loved-guns-and-the-whole-genre-of-southern-rock/",
-   "fonte": "BraveWords",
-   "data": "2026-11-08T18:33:42+00:00"
-  },
-  {
    "titulo": "The Tool Trivia Quiz: How Much Do You Know?",
    "link": "https://www.loudersound.com/culture/quiz/tool-trivia-quiz",
    "fonte": "Metal Hammer",
@@ -17775,12 +17809,6 @@
    "link": "https://blabbermouth.net/news/nickelbacks-mike-kroeger-to-get-too-emotionally-involved-in-politics-is-a-real-fools-errand-theres-no-benefit-to-it",
    "fonte": "Blabbermouth",
    "data": "2026-11-08T17:36:05+00:00"
-  },
-  {
-   "titulo": "A Look Back At The Rise Of GHOST – “BLUE ÖYSTER CULT And MERCYFUL FATE Smashed Together With An ABBA Chorus” (Video)",
-   "link": "https://bravewords.com/news/a-look-back-a-the-rise-of-ghost-blue-oyster-cult-and-mercyful-fate-smashed-together-with-an-abba-chorus-video/",
-   "fonte": "BraveWords",
-   "data": "2026-11-08T17:15:54+00:00"
   },
   {
    "titulo": "Mayhem vocalist believes he has Joey Jordison's final recording",
@@ -17805,12 +17833,6 @@
    "link": "https://metalinjection.net/editorials/meet-the-connecticut-slipknot-that-got-there-first",
    "fonte": "Metal Injection",
    "data": "2026-11-08T16:24:13+00:00"
-  },
-  {
-   "titulo": "Watch: SEPULTURA Performs Final-Ever Show In Brazil",
-   "link": "https://bravewords.com/news/watch-sepultura-performs-final-ever-show-in-brazil/",
-   "fonte": "BraveWords",
-   "data": "2026-11-08T16:12:28+00:00"
   },
   {
    "titulo": "Vote Durst: Limp Bizkit's Fred Durst Announces a Campaign for… Something",
@@ -18053,24 +18075,6 @@
    "data": "2026-11-07T10:00:00+00:00"
   },
   {
-   "titulo": "How Aerosmith’s Dream On invented the power ballad",
-   "link": "https://www.loudersound.com/music/tracks-singles/aerosmith-dream-on-story-behind-the-song",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-07T05:00:00+00:00"
-  },
-  {
-   "titulo": "Why Type O Negative turned down “a lot of money” to reunite for a Peter Steele tribute show: “there’s a lot of guys running around singing with a deep voice pretending they’re Peter”",
-   "link": "https://www.loudersound.com/news/why-type-o-negative-turn-down-peter-steele-tribute-reunion-shows-2026",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-07T04:00:00+00:00"
-  },
-  {
-   "titulo": "“I told him, ‘If the guitar’s out of tune, you can’t tune it”: Steven Wilson’s bid to avoid “vanilla prog”",
-   "link": "https://www.loudersound.com/music/albums/steven-wilson-requiem-village-rules",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-07T01:05:03+00:00"
-  },
-  {
    "titulo": "Burn Eternal, Carnifex, We Came As Romans & More Added To Metal Injection's Top Tracks of the Week",
    "link": "https://metalinjection.net/playlist/top-tracks-of-the-week-playlist/burn-eternal-carnifex-we-came-as-romans-more-added-to-metal-injections-top-tracks-of-the-week",
    "fonte": "Metal Injection",
@@ -18195,12 +18199,6 @@
    "link": "https://www.decibelmagazine.com/2026/11/02/track-premiere-hirax-vigilante/",
    "fonte": "Decibel",
    "data": "2026-11-02T20:00:19+00:00"
-  },
-  {
-   "titulo": "Track Premiere: Eternal Armageddon – ‘Constellations of the Night’",
-   "link": "https://www.decibelmagazine.com/2026/11/02/track-premiere-eternal-armageddon-constellations-of-the-night/",
-   "fonte": "Decibel",
-   "data": "2026-11-02T17:00:05+00:00"
   }
  ]
 }
