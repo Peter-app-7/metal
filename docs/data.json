@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-13T07:50:41+00:00",
+ "atualizado": "2026-11-13T13:42:46+00:00",
  "fontes": {
   "excluidas": [
    "Richard Dawkins"
@@ -55,7 +55,7 @@
    },
    {
     "nome": "BraveWords",
-    "ok": true,
+    "ok": false,
     "artigos": 30
    },
    {
@@ -71,7 +71,9 @@
   ],
   "spotify_espera_ate": null
  },
- "avisos": [],
+ "avisos": [
+  "Feeds sem resposta nesta atualização: BraveWords."
+ ],
  "bandas": [
   {
    "id": "urne",
@@ -17301,6 +17303,108 @@
  ],
  "noticias": [
   {
+   "titulo": "DORO Shares 'I Believe In Love' Single/Video From Upcoming 'Wild At Heart' Special Release",
+   "link": "https://blabbermouth.net/news/doro-shares-i-believe-in-love-single-video-from-upcoming-wild-at-heart-special-release",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-13T13:17:48+00:00"
+  },
+  {
+   "titulo": "KITTIE Celebrates 25 Years Of 'Oracle' With Release Of 'Oracle XXV' Featuring Two Newly Re-Recorded Tracks",
+   "link": "https://blabbermouth.net/news/kittie-celebrates-25-years-of-oracle-with-release-of-oracle-xxv-featuring-two-newly-re-recorded-tracks",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-13T12:57:25+00:00"
+  },
+  {
+   "titulo": "AVATAR Releases Festive Single 'Naughty List' Featuring ZAKK WYLDE",
+   "link": "https://blabbermouth.net/news/avatar-releases-festive-single-naughty-list-featuring-zakk-wylde",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-13T12:42:12+00:00"
+  },
+  {
+   "titulo": "\"We could have a double album!' Slipknot's Clown gives an update on their new music",
+   "link": "https://www.loudersound.com/bands-artists/weve-written-so-many-songs-we-could-have-a-double-album-slipknots-clown-gives-an-update-on-their-new-music",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-13T11:50:22+00:00"
+  },
+  {
+   "titulo": "Deftones - Announce 2027 North American Touring Plan",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64574",
+   "fonte": "Metal Storm",
+   "data": "2026-11-13T11:01:38+00:00"
+  },
+  {
+   "titulo": "Wolves At The Gate - Present 'Firewall' Track And Video",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64573",
+   "fonte": "Metal Storm",
+   "data": "2026-11-13T11:00:04+00:00"
+  },
+  {
+   "titulo": "Nicko McBrain might've retired from Iron Maiden, but his story isn't over",
+   "link": "https://www.loudersound.com/bands-artists/interviews/bruce-picked-up-the-guitar-and-ended-up-bashing-himself-in-the-head-with-it-bleeding-everywhere-rod-said-can-you-do-that-more-iron-maiden-legend-nicko-mcbrain-looks-back-on-40-years-in-one-of-heavy-metals-greatest-bands",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-13T11:00:00+00:00"
+  },
+  {
+   "titulo": "Horndal - Fourth Long Player On The Way",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64572",
+   "fonte": "Metal Storm",
+   "data": "2026-11-13T10:30:26+00:00"
+  },
+  {
+   "titulo": "Wolfheart - Streaming New Single And Video",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64571",
+   "fonte": "Metal Storm",
+   "data": "2026-11-13T10:29:52+00:00"
+  },
+  {
+   "titulo": "King 810 - Drop New Single",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64570",
+   "fonte": "Metal Storm",
+   "data": "2026-11-13T10:14:50+00:00"
+  },
+  {
+   "titulo": "Peter Gabriel wonders if Genesis took themselves too seriously",
+   "link": "https://www.loudersound.com/bands-artists/peter-gabriel-genesis-too-serious",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-13T10:00:00+00:00"
+  },
+  {
+   "titulo": "From Metallica to Linkin Park, the 13 greatest sets in Download festival history",
+   "link": "https://www.loudersound.com/bands-artists/music-festivals/from-bring-me-the-horizon-stepping-up-to-linkin-parks-triumphant-return-these-are-the-13-best-download-festival-sets-ever",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-13T09:32:45+00:00"
+  },
+  {
+   "titulo": "W.A.S.P. - Original Drummer Dead At 69",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64551",
+   "fonte": "Metal Storm",
+   "data": "2026-11-13T08:42:01+00:00"
+  },
+  {
+   "titulo": "Opal In Sky - Confirm US Headlining Tour",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64569",
+   "fonte": "Metal Storm",
+   "data": "2026-11-13T08:37:44+00:00"
+  },
+  {
+   "titulo": "Horresque - 'Sound Of Katyn' Track Premieres",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64568",
+   "fonte": "Metal Storm",
+   "data": "2026-11-13T08:31:23+00:00"
+  },
+  {
+   "titulo": "Lucifuge - Announce Album Release",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64567",
+   "fonte": "Metal Storm",
+   "data": "2026-11-13T08:24:15+00:00"
+  },
+  {
+   "titulo": "Nuclear Assault - Split Up",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64565",
+   "fonte": "Metal Storm",
+   "data": "2026-11-13T07:39:38+00:00"
+  },
+  {
    "titulo": "Slade's Dave Hill on the early days, being the reason Kiss got together, and his debut solo album",
    "link": "https://www.loudersound.com/bands-artists/interviews/there-was-some-bloke-named-bruce-springsteen-who-wanted-to-meet-us-we-told-him-to-clear-off-slade-guitarist-dave-hill-on-the-bands-early-days-being-the-reason-kiss-got-together-and-his-debut-solo-album",
    "fonte": "Metal Hammer",
@@ -17745,30 +17849,6 @@
    "data": "2026-11-12T11:42:29+00:00"
   },
   {
-   "titulo": "Vorlust - New Track Streaming",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64556",
-   "fonte": "Metal Storm",
-   "data": "2026-11-12T11:37:50+00:00"
-  },
-  {
-   "titulo": "Nominon - Ink Deal With Soulseller Records",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64555",
-   "fonte": "Metal Storm",
-   "data": "2026-11-12T11:37:37+00:00"
-  },
-  {
-   "titulo": "Brother Against Brother - Debut 'Primal War In Heaven' Song",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64554",
-   "fonte": "Metal Storm",
-   "data": "2026-11-12T11:16:43+00:00"
-  },
-  {
-   "titulo": "Umbra Conscientia - Releasing Third Long Player Next Month",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64553",
-   "fonte": "Metal Storm",
-   "data": "2026-11-12T11:09:40+00:00"
-  },
-  {
    "titulo": "Watch Lorna Shore’s Will Ramos flex his clean vocals as he guests on new Bullet For My Valentine single I Don’t Trust Tomorrow",
    "link": "https://www.loudersound.com/news/bullet-for-my-valentine-tap-lorna-shore-will-ramos-new-single-i-dont-trust-tomorrow-2026",
    "fonte": "Metal Hammer",
@@ -17785,12 +17865,6 @@
    "link": "https://bravewords.com/news/watch-cage-fight-perform-exuvia-live-at-londons-monolith-studios/",
    "fonte": "BraveWords",
    "data": "2026-11-12T09:44:45+00:00"
-  },
-  {
-   "titulo": "TesseracT - Unveil New Single",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64552",
-   "fonte": "Metal Storm",
-   "data": "2026-11-12T09:43:17+00:00"
   },
   {
    "titulo": "SHINEDOWN Featured In Career-Spanning Interview With Producer / Songwriter RICK BEATO – “The Band I Went Platinum With” (Video)",
@@ -17889,18 +17963,6 @@
    "data": "2026-11-11T19:41:18+00:00"
   },
   {
-   "titulo": "ICED EARTH Unveils 'Night Of The Stormrider' 35th-Anniversary Remixed And Remastered Edition",
-   "link": "https://blabbermouth.net/news/iced-earth-unveils-night-of-the-stormrider-35th-anniversary-remixed-and-remastered-edition",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-11T19:15:14+00:00"
-  },
-  {
-   "titulo": "GODSMACK's SULLY ERNA Rips Bands Who Rely Heavily On Backing Tracks During Live Performances: 'Don't Go Up There And Pretend You're A Rock Musician'",
-   "link": "https://blabbermouth.net/news/godsmacks-sully-erna-rips-bands-who-rely-heavily-on-backing-tracks-during-live-performances-dont-go-up-there-and-pretend-youre-a-rock-musician",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-11T18:36:26+00:00"
-  },
-  {
    "titulo": "No Warning Signs to Flatspot Records, New Music Imminent",
    "link": "https://metalinjection.net/news/no-warning-signs-to-flatspot-records-new-music-imminent",
    "fonte": "Metal Injection",
@@ -17925,12 +17987,6 @@
    "data": "2026-11-11T17:58:59+00:00"
   },
   {
-   "titulo": "PRONG's TOMMY VICTOR On Playing With GLENN DANZIG And AL JOURGENSEN: 'I Definitely Prefer Working For GLENN 100% More'",
-   "link": "https://blabbermouth.net/news/prongs-tommy-victor-on-playing-with-glenn-danzig-and-al-jourgensen-i-definitely-prefer-working-for-glenn-100-more",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-11T17:54:55+00:00"
-  },
-  {
    "titulo": "Watch: Infected Rain Drops One-Take Play-Through of \"Bloom\"",
    "link": "https://metalinjection.net/new-music/watch-infected-rain-drops-one-take-play-through-of-bloom",
    "fonte": "Metal Injection",
@@ -17943,24 +17999,6 @@
    "data": "2026-11-11T17:11:56+00:00"
   },
   {
-   "titulo": "Neurosis - Announce European Tour In Summer 2027",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64547",
-   "fonte": "Metal Storm",
-   "data": "2026-11-11T17:10:35+00:00"
-  },
-  {
-   "titulo": "Lord Vicar - Launch New Track",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64550",
-   "fonte": "Metal Storm",
-   "data": "2026-11-11T17:10:31+00:00"
-  },
-  {
-   "titulo": "Benediction - Introduce Vocalist Kam Lee As Permanent Member",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64549",
-   "fonte": "Metal Storm",
-   "data": "2026-11-11T16:53:45+00:00"
-  },
-  {
    "titulo": "12 classic rock and metal songs that wouldn’t exist without The Lord Of The Rings",
    "link": "https://www.loudersound.com/features/rock-metal-songs-wouldnt-exist-without-the-lord-of-the-rings",
    "fonte": "Metal Hammer",
@@ -17971,12 +18009,6 @@
    "link": "https://metalinjection.net/tour-dates/trey-spruance-rejoins-upcoming-faith-no-more-touring-lineup",
    "fonte": "Metal Injection",
    "data": "2026-11-11T16:41:25+00:00"
-  },
-  {
-   "titulo": "Suidakra - Disclose First Details Of Next Full Length",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64548",
-   "fonte": "Metal Storm",
-   "data": "2026-11-11T16:34:31+00:00"
   },
   {
    "titulo": "“I need 200 mules…”: Watch the cult ELP sketch that Carl Palmer just added to his UK tour",
@@ -18001,12 +18033,6 @@
    "link": "https://www.loudersound.com/news/black-sabbath-bill-ward-new-solo-album-nearly-ready-15-20-guest-stars-2026",
    "fonte": "Metal Hammer",
    "data": "2026-11-11T12:52:12+00:00"
-  },
-  {
-   "titulo": "Clutch - Premiere 'Beware The Fever' Song",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64546",
-   "fonte": "Metal Storm",
-   "data": "2026-11-11T11:31:40+00:00"
   },
   {
    "titulo": "Heart's Ann Wilson on why sister Nancy doesn't appear in her In My Voice film",
@@ -18039,34 +18065,10 @@
    "data": "2026-11-11T01:05:00+00:00"
   },
   {
-   "titulo": "Clutch announce Give The People What They Want tour dates",
-   "link": "https://www.loudersound.com/bands-artists/clutch-announce-give-the-people-what-they-want-tour",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-11T00:00:00+00:00"
-  },
-  {
-   "titulo": "It's easy to troll U2, but Carnaval De Luz: shows they're still digging deep 16 albums in",
-   "link": "https://www.loudersound.com/bands-artists/u2-carnaval-de-luz-review",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-10T23:00:00+00:00"
-  },
-  {
-   "titulo": "Jimi Hendrix to be celebrated with official US dollar coin",
-   "link": "https://www.loudersound.com/culture/merchandise/jimi-hendrix-dollar",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-10T22:08:55+00:00"
-  },
-  {
    "titulo": "Aftershock Festival Announces 2027 Dates",
    "link": "https://metalinjection.net/tour-dates/festivals/aftershock-festival-announces-2027-dates",
    "fonte": "Metal Injection",
    "data": "2026-11-10T20:07:33+00:00"
-  },
-  {
-   "titulo": "Evanescence's Amy Lee on navigating loss, and celebrating the lives of loved ones who have passed",
-   "link": "https://www.loudersound.com/bands-artists/evanescence-amy-lee-on-navigating-loss-and-the-importance-of-celebrating-the-lives-of-loved-ones-who-have-passed",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-10T20:04:50+00:00"
   },
   {
    "titulo": "Full Album Stream: Sarcosuchus – “De-Extinction”",
