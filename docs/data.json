@@ -1,30 +1,17 @@
 {
- "atualizado": "2026-11-14T07:35:47+00:00",
+ "atualizado": "2026-11-14T13:23:57+00:00",
  "fontes": {
   "excluidas": [
    "Richard Dawkins"
   ],
   "agenda": {
-   "estado": "ok",
-   "linhas": 79,
-   "futuras": 68,
+   "estado": "indisponivel",
+   "linhas": 0,
+   "futuras": 0,
    "rejeitadas": [],
-   "quase": [
-    {
-     "agenda": "Ashes In The Ocean",
-     "banda": "The Ocean"
-    },
-    {
-     "agenda": "Hate Disposal",
-     "banda": "Hate"
-    },
-    {
-     "agenda": "Viseu Death Fest",
-     "banda": "Death"
-    }
-   ],
-   "atualizada": "2026-11-06",
-   "minhas": 6
+   "quase": [],
+   "atualizada": null,
+   "erro": "nenhuma linha lida: o formato da página pode ter mudado"
   },
   "bandas": "spotify",
   "feeds": [
@@ -65,13 +52,16 @@
    },
    {
     "nome": "The Black Planet",
-    "ok": true,
-    "artigos": 10
+    "ok": false,
+    "artigos": 9
    }
   ],
   "spotify_espera_ate": null
  },
- "avisos": [],
+ "avisos": [
+  "Agenda do Caminhos Metálicos indisponível (nenhuma linha lida: o formato da página pode ter mudado). Ficaram os concertos guardados.",
+  "Feeds sem resposta nesta atualização: The Black Planet."
+ ],
  "bandas": [
   {
    "id": "urne",
@@ -17301,6 +17291,120 @@
  ],
  "noticias": [
   {
+   "titulo": "Watch BLEED FROM WITHIN’s Entire Bloodstock 2026 Show; Pro-Shot Video",
+   "link": "https://bravewords.com/news/watch-bleed-from-withins-entire-bloodstock-2026-show-pro-shot-video/",
+   "fonte": "BraveWords",
+   "data": "2026-11-14T13:16:54+00:00"
+  },
+  {
+   "titulo": "Crystal Head Vodka Presents Today In Metal History 🤘 November 14th, 2026 🤘 AT THE GATES, QUIET RIOT, HELIX, BON JOVI, SAXON",
+   "link": "https://bravewords.com/today-in-metal/crystal-head-vodka-presents-today-in-metal-history-%f0%9f%a4%98-november-14th-2026-%f0%9f%a4%98-at-the-gates-quiet-riot-helix-bon-jovi-saxon/",
+   "fonte": "BraveWords",
+   "data": "2026-11-14T12:41:10+00:00"
+  },
+  {
+   "titulo": "WOLFHEART Release New “Ravenstone” Single / Video; Limited Edition 7″ Vinyl Available",
+   "link": "https://bravewords.com/news/wolfheart-release-new-ravenstone-single-video-limited-edition-7-vinyl-available/",
+   "fonte": "BraveWords",
+   "data": "2026-11-14T12:39:25+00:00"
+  },
+  {
+   "titulo": "Former METAL CHURCH Bassist Duke Erickson To Join Band At Tonight’s Washington Show",
+   "link": "https://bravewords.com/80s-metal/former-metal-church-bassist-duke-erickson-to-join-band-at-tonights-washington-show/",
+   "fonte": "BraveWords",
+   "data": "2026-11-14T12:36:09+00:00"
+  },
+  {
+   "titulo": "THE WARNING Takes Home First LATIN GRAMMY Award As 'Ego' Wins 'Best Rock Song'",
+   "link": "https://blabbermouth.net/news/the-warning-takes-home-first-latin-grammy-award-as-ego-wins-best-rock-song",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-14T12:33:21+00:00"
+  },
+  {
+   "titulo": "A Look Back At The Rise And Fall Of HIM – “Gothic Rock That Bridged The Gap Between Underground Metal And Mainstream Pop”",
+   "link": "https://bravewords.com/news/a-look-back-at-the-rise-and-fall-of-him-gothic-rock-that-bridged-the-gap-between-underground-metal-and-mainstream-pop/",
+   "fonte": "BraveWords",
+   "data": "2026-11-14T11:16:23+00:00"
+  },
+  {
+   "titulo": "THE HAUNTED Guitarist OLA ENGLUND Shares “Demon(etized)” Live Performance From The Neverending Story Solo Album Release Party",
+   "link": "https://bravewords.com/news/the-haunted-guitarist-ola-englund-shares-demonetized-live-performance-from-the-neverending-story-solo-album-release-party/",
+   "fonte": "BraveWords",
+   "data": "2026-11-14T10:46:56+00:00"
+  },
+  {
+   "titulo": "Blood Monolith - To Tour West Coast With Sulfuric Cautery",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64579",
+   "fonte": "Metal Storm",
+   "data": "2026-11-14T10:33:19+00:00"
+  },
+  {
+   "titulo": "AD INFINITUM Vocalist MELISSA BONNY Shares Official Video For New Solo Single “Afterdark”",
+   "link": "https://bravewords.com/news/ad-infinitum-vocalist-melissa-bonny-shares-official-video-for-new-solo-single-afterdark/",
+   "fonte": "BraveWords",
+   "data": "2026-11-14T10:23:26+00:00"
+  },
+  {
+   "titulo": "God Forsaken - Unveil 'Slaved' Single",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64575",
+   "fonte": "Metal Storm",
+   "data": "2026-11-14T10:07:08+00:00"
+  },
+  {
+   "titulo": "Kenny Hickey on the long-speculated Type O Negative reunion",
+   "link": "https://www.loudersound.com/bands-artists/kenny-hickey-type-o-negative-tribute-silvertomb",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-14T10:00:00+00:00"
+  },
+  {
+   "titulo": "Rick Wakeman and sons Oliver and Adam in the prog dynasty’s first family interview",
+   "link": "https://www.loudersound.com/bands-artists/rick-wakeman-sons-adam-oliver-interview",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-14T10:00:00+00:00"
+  },
+  {
+   "titulo": "King Gizzard & The Lizard Wizard - Detail Next Full Length Instalment",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64578",
+   "fonte": "Metal Storm",
+   "data": "2026-11-14T09:59:15+00:00"
+  },
+  {
+   "titulo": "KITTIE Share Official Visualizer For Oracle XXV Version Of “What I Always Wanted”",
+   "link": "https://bravewords.com/news/kittie-share-official-visualizer-for-oracle-xxv-version-of-what-i-always-wanted/",
+   "fonte": "BraveWords",
+   "data": "2026-11-14T09:59:01+00:00"
+  },
+  {
+   "titulo": "Voodus - Ink Deal With Darkness Shall Rise Productions",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64577",
+   "fonte": "Metal Storm",
+   "data": "2026-11-14T09:53:33+00:00"
+  },
+  {
+   "titulo": "THE WARNING Take Home First Ever Latin Grammy Award As “Ego” Wins “Best Rock Song”",
+   "link": "https://bravewords.com/news/the-warning-take-home-first-ever-latin-grammy-award-as-ego-wins-best-rock-song/",
+   "fonte": "BraveWords",
+   "data": "2026-11-14T09:42:29+00:00"
+  },
+  {
+   "titulo": "Finland’s TO/DIE/FOR SignWith Scarlet Records; New Album To Be Released In Spring 2027",
+   "link": "https://bravewords.com/news/finlands-to-die-for-signwith-scarlet-records-new-album-to-be-released-in-spring-2027/",
+   "fonte": "BraveWords",
+   "data": "2026-11-14T09:06:54+00:00"
+  },
+  {
+   "titulo": "How To Get MESHUGGAH’s Sound in Your Mix",
+   "link": "https://bravewords.com/partners/how-to-get-meshuggahs-sound-in-your-mix/",
+   "fonte": "BraveWords",
+   "data": "2026-11-14T08:00:50+00:00"
+  },
+  {
+   "titulo": "Fastest Payout Casinos USA (Under 1 Hour) -5 Instant Withdrawal Casino Sites Ranked",
+   "link": "https://bravewords.com/partners/fastest-payout-casinos-usa-under-1-hour-5-instant-withdrawal-casino-sites-ranked/",
+   "fonte": "BraveWords",
+   "data": "2026-11-14T07:00:57+00:00"
+  },
+  {
    "titulo": "FEAR FACTORY – DINO CAZARES Shares “Detonizer” Guitar Playthrough Video",
    "link": "https://bravewords.com/news/fear-factory-dino-cazares-shares-detonizer-guitar-playthrough-video/",
    "fonte": "BraveWords",
@@ -17529,12 +17633,6 @@
    "data": "2026-11-13T15:28:42+00:00"
   },
   {
-   "titulo": "THE ROGUE DIVIDE Featuring Former HAREM SCAREM, GYPSY ROSE, CARL DIXON BAND Members Release Debut Single And Video “Broken Wing”",
-   "link": "https://bravewords.com/news/the-rogue-divide-featuring-former-harem-scarem-gypsy-rose-carl-dixon-band-members-release-debut-single-and-video-broken-wing/",
-   "fonte": "BraveWords",
-   "data": "2026-11-13T15:21:34+00:00"
-  },
-  {
    "titulo": "Avatar Drop New Christmas Single “Naughty List” Featuring Zakk Wylde",
    "link": "https://metalinjection.net/new-music/avatar-drop-new-christmas-single-naughty-list-featuring-zakk-wylde",
    "fonte": "Metal Injection",
@@ -17559,12 +17657,6 @@
    "data": "2026-11-13T14:32:57+00:00"
   },
   {
-   "titulo": "Best Instant Withdrawal Casinos Canada – Top 5 Fastest Payout Canadian Sites Listed (Under 1 Hour)",
-   "link": "https://bravewords.com/partners/best-instant-withdrawal-casinos-canada-top-5-fastest-payout-canadian-sites-listed-under-1-hour/",
-   "fonte": "BraveWords",
-   "data": "2026-11-13T14:30:20+00:00"
-  },
-  {
    "titulo": "Bruce Springsteen reveals how Stephen Spielberg ruined a raunchy Jersey Shore tradition",
    "link": "https://www.loudersound.com/bands-artists/steven-spielberg-ed-that-up-he-ed-it-up-good-bruce-springsteen-reveals-how-the-legendary-hollywood-director-ruined-a-raunchy-jersey-shore-tradition-with-his-blockbuster-jaws",
    "fonte": "Metal Hammer",
@@ -17581,12 +17673,6 @@
    "link": "https://blabbermouth.net/news/molly-hatchet-shares-lyric-video-for-jacksonvillain-from-upcoming-lost-horizon-album",
    "fonte": "Blabbermouth",
    "data": "2026-11-13T13:56:35+00:00"
-  },
-  {
-   "titulo": "Crystal Head Vodka Presents Today In Metal History 🤘 November 13th, 2026 🤘 ALDO NOVA, AC/DC, KIM MITCHELL, SOUNDGARDEN",
-   "link": "https://bravewords.com/today-in-metal/crystal-head-vodka-presents-today-in-metal-history-%f0%9f%a4%98-november-13th-2026-%f0%9f%a4%98-aldo-nova-ac-dc-kim-mitchell-soundgarden/",
-   "fonte": "BraveWords",
-   "data": "2026-11-13T13:44:46+00:00"
   },
   {
    "titulo": "KING 810 Shares Music Video For 'Simulacra Simulating' From Upcoming Album 'La Grande Mort Or Silence Of God'",
@@ -17625,12 +17711,6 @@
    "data": "2026-11-13T11:01:38+00:00"
   },
   {
-   "titulo": "Fast Payout Casinos USA 2026 | Best Instant Withdrawal Casinos for US Players",
-   "link": "https://bravewords.com/partners/fast-payout-casinos-usa-2026-best-instant-withdrawal-casinos-for-us-players/",
-   "fonte": "BraveWords",
-   "data": "2026-11-13T11:00:40+00:00"
-  },
-  {
    "titulo": "Wolves At The Gate - Present 'Firewall' Track And Video",
    "link": "https://metalstorm.net/events/news_comments.php?news_id=64573",
    "fonte": "Metal Storm",
@@ -17661,40 +17741,16 @@
    "data": "2026-11-13T10:14:50+00:00"
   },
   {
-   "titulo": "Watch SLIPKNOT Frontman COREY TAYLOR Perform PRINCE, ELTON JOHN, FOO FIGHTERS Classics And More Live In Las Vegas; Fan-Filmed Video",
-   "link": "https://bravewords.com/news/watch-slipknot-frontman-corey-taylor-perform-prince-elton-john-foo-fighters-classics-and-more-live-in-las-vegas-fan-filmed-video/",
-   "fonte": "BraveWords",
-   "data": "2026-11-13T10:00:41+00:00"
-  },
-  {
    "titulo": "Peter Gabriel wonders if Genesis took themselves too seriously",
    "link": "https://www.loudersound.com/bands-artists/peter-gabriel-genesis-too-serious",
    "fonte": "Metal Hammer",
    "data": "2026-11-13T10:00:00+00:00"
   },
   {
-   "titulo": "BIF NAKED On 20th Anniversary Of Superbeautifulmonster Album – “I Still, To This Day, Could Not Be Prouder Of The Music”",
-   "link": "https://bravewords.com/news/bif-naked-on-20th-anniversary-of-superbeautifulmonster-album-i-still-to-this-day-could-not-be-prouder-of-the-music/",
-   "fonte": "BraveWords",
-   "data": "2026-11-13T09:36:41+00:00"
-  },
-  {
    "titulo": "From Metallica to Linkin Park, the 13 greatest sets in Download festival history",
    "link": "https://www.loudersound.com/bands-artists/music-festivals/from-bring-me-the-horizon-stepping-up-to-linkin-parks-triumphant-return-these-are-the-13-best-download-festival-sets-ever",
    "fonte": "Metal Hammer",
    "data": "2026-11-13T09:32:45+00:00"
-  },
-  {
-   "titulo": "DORO Releases New Single / Lyric Video “I Believe In Love”",
-   "link": "https://bravewords.com/news/doro-releases-new-single-lyric-video-i-believe-in-love/",
-   "fonte": "BraveWords",
-   "data": "2026-11-13T09:13:35+00:00"
-  },
-  {
-   "titulo": "WOLFGANG VAN HALEN – “Nowadays, Just Listening To VAN HALEN Stuff Is Really Difficult For Me” (Video)",
-   "link": "https://bravewords.com/news/wolfgang-van-halen-nowadays-just-listening-to-van-halen-stuff-is-really-diffucult-for-me-video/",
-   "fonte": "BraveWords",
-   "data": "2026-11-13T09:08:32+00:00"
   },
   {
    "titulo": "W.A.S.P. - Original Drummer Dead At 69",
@@ -17721,12 +17777,6 @@
    "data": "2026-11-13T08:24:15+00:00"
   },
   {
-   "titulo": "Best Online Casino Real Money Sites in 2026: Top Picks for Deposits, Bonuses & Payouts",
-   "link": "https://bravewords.com/partners/best-online-casino-real-money-sites-in-2026-top-picks-for-deposits-bonuses-payouts/",
-   "fonte": "BraveWords",
-   "data": "2026-11-13T08:00:48+00:00"
-  },
-  {
    "titulo": "Nuclear Assault - Split Up",
    "link": "https://metalstorm.net/events/news_comments.php?news_id=64565",
    "fonte": "Metal Storm",
@@ -17739,28 +17789,10 @@
    "data": "2026-11-13T05:55:00+00:00"
   },
   {
-   "titulo": "New SKID ROW Singer JUSTIN SARGENT – “Slave To The Grind Hit Me Like A Ton Of Bricks”",
-   "link": "https://bravewords.com/news/new-skid-row-singer-justin-sargent-slave-to-the-grind-hit-me-like-a-ton-of-bricks/",
-   "fonte": "BraveWords",
-   "data": "2026-11-13T03:21:08+00:00"
-  },
-  {
-   "titulo": "THE DEAD DAISIES Aiming For February 2027 Release Of First Album With New Singer KELLY HANSEN",
-   "link": "https://bravewords.com/news/the-dead-daisies-aiming-for-february-2027-release-of-first-album-with-new-singer-kelly-hansen/",
-   "fonte": "BraveWords",
-   "data": "2026-11-13T02:44:31+00:00"
-  },
-  {
    "titulo": "The 50th anniversary edition of Frank Zappa's Zoot Allures is much more than mere barrel scrapings",
    "link": "https://www.loudersound.com/music/albums/frank-zappa-zoot-allures-50th-anniversary-edition",
    "fonte": "Metal Hammer",
    "data": "2026-11-13T02:20:57+00:00"
-  },
-  {
-   "titulo": "MURDERDOLLS Confirm Lineup For 2027 Reunion",
-   "link": "https://bravewords.com/news/murderdolls-confirm-lineup-for-2027-reunion/",
-   "fonte": "BraveWords",
-   "data": "2026-11-13T02:11:26+00:00"
   },
   {
    "titulo": "Watch Heart's Ann Wilson sing a Neil Young deep cut, listen to Ann Wilson talk about Neil Young's Harvest",
@@ -17865,34 +17897,10 @@
    "data": "2026-11-12T18:00:00+00:00"
   },
   {
-   "titulo": "Entrails - Post New Song",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64563",
-   "fonte": "Metal Storm",
-   "data": "2026-11-12T17:29:06+00:00"
-  },
-  {
-   "titulo": "Revocation - Touring Europe Next Spring",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64561",
-   "fonte": "Metal Storm",
-   "data": "2026-11-12T17:25:23+00:00"
-  },
-  {
    "titulo": "New SKID ROW Vocalist JUSTIN SARGENT: 'The Song I'm Most Excited To Sing Is 'I Remember You''",
    "link": "https://blabbermouth.net/news/new-skid-row-vocalist-justin-sargent-the-song-im-most-excited-to-sing-is-i-remember-you",
    "fonte": "Blabbermouth",
    "data": "2026-11-12T17:19:32+00:00"
-  },
-  {
-   "titulo": "Grymheart - Unveil 'From Hell Into The Dark' Single",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64560",
-   "fonte": "Metal Storm",
-   "data": "2026-11-12T17:16:05+00:00"
-  },
-  {
-   "titulo": "Throat - To Release 4-Track EP",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64559",
-   "fonte": "Metal Storm",
-   "data": "2026-11-12T17:07:28+00:00"
   },
   {
    "titulo": "Video Premiere: Sapraemia – “7th Entity”",
@@ -17917,12 +17925,6 @@
    "link": "https://blabbermouth.net/news/nevermore-solitude-aeturnus-agalloch-others-confirmed-for-2027-decibel-magazine-metal-beer-fest-philly",
    "fonte": "Blabbermouth",
    "data": "2026-11-12T16:46:47+00:00"
-  },
-  {
-   "titulo": "ALEXISONFIRE Announces New Album 'Bleed It', Shares Lead Single 'Push The River'",
-   "link": "https://blabbermouth.net/news/alexisonfire-announces-new-album-bleed-it-shares-lead-single-push-the-river",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-12T16:08:53+00:00"
   },
   {
    "titulo": "SPOILER: Here Are Decibel’s Top 40 Albums of 2026",
@@ -18103,18 +18105,6 @@
    "link": "https://www.loudersound.com/news/black-sabbath-bill-ward-new-solo-album-nearly-ready-15-20-guest-stars-2026",
    "fonte": "Metal Hammer",
    "data": "2026-11-11T12:52:12+00:00"
-  },
-  {
-   "titulo": "Heart's Ann Wilson on why sister Nancy doesn't appear in her In My Voice film",
-   "link": "https://www.loudersound.com/bands-artists/ann-wilson-why-sister-nancy-doesnt-appear-in-her-film",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-11T10:05:00+00:00"
-  },
-  {
-   "titulo": "Liam Gallagher explains why Oasis won't attend their induction into the Rock And Roll Hall of Fame",
-   "link": "https://www.loudersound.com/bands-artists/liam-gallagher-on-why-oasis-wont-attend-their-induction-into-the-rock-and-roll-hall-of-fame",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-11T09:00:00+00:00"
   },
   {
    "titulo": "Aftershock Festival Announces 2027 Dates",
