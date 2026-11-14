@@ -1,17 +1,30 @@
 {
- "atualizado": "2026-11-14T13:23:57+00:00",
+ "atualizado": "2026-11-14T19:17:22+00:00",
  "fontes": {
   "excluidas": [
    "Richard Dawkins"
   ],
   "agenda": {
-   "estado": "indisponivel",
-   "linhas": 0,
-   "futuras": 0,
+   "estado": "ok",
+   "linhas": 79,
+   "futuras": 68,
    "rejeitadas": [],
-   "quase": [],
-   "atualizada": null,
-   "erro": "nenhuma linha lida: o formato da página pode ter mudado"
+   "quase": [
+    {
+     "agenda": "Ashes In The Ocean",
+     "banda": "The Ocean"
+    },
+    {
+     "agenda": "Hate Disposal",
+     "banda": "Hate"
+    },
+    {
+     "agenda": "Viseu Death Fest",
+     "banda": "Death"
+    }
+   ],
+   "atualizada": "2026-11-06",
+   "minhas": 6
   },
   "bandas": "spotify",
   "feeds": [
@@ -52,16 +65,13 @@
    },
    {
     "nome": "The Black Planet",
-    "ok": false,
-    "artigos": 9
+    "ok": true,
+    "artigos": 10
    }
   ],
   "spotify_espera_ate": null
  },
- "avisos": [
-  "Agenda do Caminhos Metálicos indisponível (nenhuma linha lida: o formato da página pode ter mudado). Ficaram os concertos guardados.",
-  "Feeds sem resposta nesta atualização: The Black Planet."
- ],
+ "avisos": [],
  "bandas": [
   {
    "id": "urne",
@@ -17291,10 +17301,142 @@
  ],
  "noticias": [
   {
+   "titulo": "PAUL STANLEY On Upcoming KISS Avatar Show: 'The Idea Was Never To Replicate A Concert'",
+   "link": "https://blabbermouth.net/news/paul-stanley-on-upcoming-kiss-avatar-show-the-idea-was-never-to-replicate-a-concert",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-14T19:03:10+00:00"
+  },
+  {
+   "titulo": "Stuck on the Tarmac With No Way Out, Passengers Got a Surprise Hoobastank and The Used Set",
+   "link": "https://metalinjection.net/editorials/heavy-takes/hoobastank-the-used-grounded-plane-performance",
+   "fonte": "Metal Injection",
+   "data": "2026-11-14T18:40:59+00:00"
+  },
+  {
+   "titulo": "Watch: DRAGONFORCE Kicks Off 'Inhuman Rampage' 20th-Anniversary North American Tour In San Diego",
+   "link": "https://blabbermouth.net/news/watch-dragonforce-kicks-off-inhuman-rampage-20th-anniversary-north-american-tour-in-san-diego",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-14T18:29:18+00:00"
+  },
+  {
+   "titulo": "MOTÖRHEAD – Sculptor Behind LEMMY Statues Receives Honorary University Of Staffordshire Degree",
+   "link": "https://bravewords.com/news/motorhead-sculptor-behind-lemmy-statues-receives-honorary-university-of-staffordshire-degree/",
+   "fonte": "BraveWords",
+   "data": "2026-11-14T18:06:05+00:00"
+  },
+  {
+   "titulo": "Evanescence quiz: How much do you really know?",
+   "link": "https://www.loudersound.com/culture/quiz/evanescence-quiz",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-14T18:00:00+00:00"
+  },
+  {
+   "titulo": "BraveWords Ranks The Albums – EDGUY",
+   "link": "https://bravewords.com/power-metal/bravewords-ranks-the-albums-edguy/",
+   "fonte": "BraveWords",
+   "data": "2026-11-14T17:30:29+00:00"
+  },
+  {
+   "titulo": "METAL CHURCH To Be Joined By Former Bassist DUKE ERICKSON On Stage In Bremerton, Washington",
+   "link": "https://blabbermouth.net/news/metal-church-to-be-joined-by-former-bassist-duke-erickson-on-stage-in-bremerton-washington",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-14T17:00:07+00:00"
+  },
+  {
+   "titulo": "How Obituary’s 'Cause of Death' Cover Was Originally Meant for Sepultura",
+   "link": "https://metalinjection.net/editorials/obituary-cause-of-death-cover-sepultura-beneath-the-remains",
+   "fonte": "Metal Injection",
+   "data": "2026-11-14T16:51:04+00:00"
+  },
+  {
+   "titulo": "Watch Slayer's 'Reign In Blood' 40th Anniversary Celebration In Los Angeles",
+   "link": "https://metalinjection.net/news/watch-slayers-reign-in-blood-40th-anniversary-celebration-in-los-angeles",
+   "fonte": "Metal Injection",
+   "data": "2026-11-14T16:31:29+00:00"
+  },
+  {
+   "titulo": "Besta and Nihility bring Portuguese Extreme Metal to Maus Hábitos",
+   "link": "https://www.theblackplanet.org/besta-nihility-maus-habitos/",
+   "fonte": "The Black Planet",
+   "data": "2026-11-14T16:30:17+00:00"
+  },
+  {
+   "titulo": "JACK BLACK: RONNIE JAMES DIO Is 'Still The Reigning Champion, Greatest Heavy Metal Vocalist Of All Time'",
+   "link": "https://blabbermouth.net/news/jack-black-ronnie-james-dio-is-still-the-reigning-champion-greatest-heavy-metal-vocalist-of-all-time",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-14T16:30:06+00:00"
+  },
+  {
+   "titulo": "Watch SLAYER Celebrate Reign In Blood 40th Anniversary With First Of Two Sold-Out Shows In Los Angeles",
+   "link": "https://bravewords.com/news/watch-slayer-celebrate-reign-in-blood-40th-anniversary-with-first-of-two-sold-out-shows-in-los-angeles/",
+   "fonte": "BraveWords",
+   "data": "2026-11-14T16:09:26+00:00"
+  },
+  {
+   "titulo": "How Faith No More trolled a generation of metal fans with Easy",
+   "link": "https://www.loudersound.com/music/tracks-singles/faith-no-more-easy-story-behind-cover-version",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-14T16:00:00+00:00"
+  },
+  {
+   "titulo": "JACK BLACK On RONNIE JAMES DIO – “Beautiful Voice, Beautiful Spirit, Beautiful Man”",
+   "link": "https://bravewords.com/heavy-metal/jack-black-on-ronnie-james-dio-beautiful-voice-beautiful-spirit-beautiful-man/",
+   "fonte": "BraveWords",
+   "data": "2026-11-14T15:56:10+00:00"
+  },
+  {
+   "titulo": "GURRIERS at M.Ou.Co – No one asked to be saved",
+   "link": "https://www.theblackplanet.org/gurriers-mouco/",
+   "fonte": "The Black Planet",
+   "data": "2026-11-14T15:48:37+00:00"
+  },
+  {
+   "titulo": "DAVE MUSTAINE On MEGADETH's 'Retirement Tour': 'We're Gonna Play As Long As We Can'",
+   "link": "https://blabbermouth.net/news/dave-mustaine-on-megadeths-retirement-tour-were-gonna-play-as-long-as-we-can",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-14T15:39:15+00:00"
+  },
+  {
+   "titulo": "Rhea Ripley Joins Motionless In White Onstage, Celine Dion Rocks Out at Metallica + More Top Stories of the Week",
+   "link": "https://metalinjection.net/injection-reflection/rhea-ripley-joins-motionless-in-white-onstage-celine-dion-rocks-out-at-metallica-more-top-stories-of-the-week",
+   "fonte": "Metal Injection",
+   "data": "2026-11-14T14:40:03+00:00"
+  },
+  {
+   "titulo": "JAMES MICHAEL 'Would Absolutely Revisit' SIXX: A.M. Again: 'I Would Be Open To That'",
+   "link": "https://blabbermouth.net/news/james-michael-would-absolutely-revisit-sixx-a-m-again-i-would-be-open-to-that",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-14T14:33:50+00:00"
+  },
+  {
+   "titulo": "Listen: Vocal Powerhouse JEFF SCOTT SOTO Is The Featured Interview On This Week’s Metalshop",
+   "link": "https://bravewords.com/news/listen-vocal-powerhouse-jeff-scott-soto-is-the-featured-interview-on-this-weeks-metalshop/",
+   "fonte": "BraveWords",
+   "data": "2026-11-14T14:00:44+00:00"
+  },
+  {
+   "titulo": "MEGADETH Gives Advice Every Aspiring Musician Needs To Hear (Video)",
+   "link": "https://bravewords.com/news/megadeth-gives-advice-every-aspiring-musician-needs-to-hear-video/",
+   "fonte": "BraveWords",
+   "data": "2026-11-14T13:47:19+00:00"
+  },
+  {
+   "titulo": "See SLAYER's Fiery 'Reign In Blood' 40th-Anniversary Celebration At Forum In Los Angeles",
+   "link": "https://blabbermouth.net/news/see-slayers-fiery-reign-in-blood-40th-anniversary-celebration-at-forum-in-los-angeles",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-14T13:42:59+00:00"
+  },
+  {
    "titulo": "Watch BLEED FROM WITHIN’s Entire Bloodstock 2026 Show; Pro-Shot Video",
    "link": "https://bravewords.com/news/watch-bleed-from-withins-entire-bloodstock-2026-show-pro-shot-video/",
    "fonte": "BraveWords",
    "data": "2026-11-14T13:16:54+00:00"
+  },
+  {
+   "titulo": "Watch: KISS Plays Acoustic Set On Opening Day Of 2026 'KISS Kruise: Land-Locked In Vegas'",
+   "link": "https://blabbermouth.net/news/watch-kiss-plays-acoustic-set-on-opening-day-of-2026-kiss-kruise-land-locked-in-vegas",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-14T13:08:38+00:00"
   },
   {
    "titulo": "Crystal Head Vodka Presents Today In Metal History 🤘 November 14th, 2026 🤘 AT THE GATES, QUIET RIOT, HELIX, BON JOVI, SAXON",
@@ -17349,6 +17491,12 @@
    "link": "https://metalstorm.net/events/news_comments.php?news_id=64575",
    "fonte": "Metal Storm",
    "data": "2026-11-14T10:07:08+00:00"
+  },
+  {
+   "titulo": "Top 10 Online Casinos for Real Money USA – Latest Ranking & Ratings",
+   "link": "https://bravewords.com/partners/top-10-online-casinos-for-real-money-usa-latest-ranking-ratings/",
+   "fonte": "BraveWords",
+   "data": "2026-11-14T10:00:29+00:00"
   },
   {
    "titulo": "Kenny Hickey on the long-speculated Type O Negative reunion",
@@ -17543,12 +17691,6 @@
    "data": "2026-11-13T17:40:55+00:00"
   },
   {
-   "titulo": "TONY IOMMI And ROBERT PLANT Have Talked About Working Together “A Couple Of Times… But He’s Into A Certain Flavor Of Music,” Says BLACK SABBATH Guitar Hero",
-   "link": "https://bravewords.com/news/tony-iommi-and-robert-plant-have-talked-about-working-together-a-couple-of-times-but-hes-into-a-certain-flavor-of-music-says-black-sabbath-guitar-hero/",
-   "fonte": "BraveWords",
-   "data": "2026-11-13T17:32:28+00:00"
-  },
-  {
    "titulo": "Bullet For My Valentine - Release New Track Feat. Will Ramos",
    "link": "https://metalstorm.net/events/news_comments.php?news_id=64576",
    "fonte": "Metal Storm",
@@ -17561,21 +17703,9 @@
    "data": "2026-11-13T17:01:02+00:00"
   },
   {
-   "titulo": "Top 20 Online Casinos for Real Money USA This Week – Ranked & Reviewed by Experts",
-   "link": "https://bravewords.com/partners/top-20-online-casinos-for-real-money-usa-this-week-ranked-reviewed-by-experts/",
-   "fonte": "BraveWords",
-   "data": "2026-11-13T17:00:29+00:00"
-  },
-  {
    "titulo": "Five For Friday: November 13, 2026",
    "link": "https://www.decibelmagazine.com/2026/11/13/five-for-friday-november-13-2026/",
    "fonte": "Decibel",
-   "data": "2026-11-13T17:00:12+00:00"
-  },
-  {
-   "titulo": "NICKO MCBRAIN Looks Back On Four Decades With IRON MAIDEN – “The First Rock In Rio In 1985 Was Off The Charts… We Were Special Guests To QUEEN”",
-   "link": "https://bravewords.com/news/nicko-mcbrain-looks-back-on-four-decades-with-iron-maiden-the-first-rock-in-rio-in-1985-was-off-the-charts-we-were-special-guests-to-queen/",
-   "fonte": "BraveWords",
    "data": "2026-11-13T17:00:12+00:00"
   },
   {
@@ -17585,22 +17715,10 @@
    "data": "2026-11-13T16:44:25+00:00"
   },
   {
-   "titulo": "EAGLES Legend JOE WALSH Announces VetsAid 2027 Featuring Special Guests PAUL McCARTNEY And RINGO STARR",
-   "link": "https://bravewords.com/news/eagles-legend-joe-walsh-announces-vetsaid-2027-featuring-special-guests-paul-mccartney-and-ringo-starr/",
-   "fonte": "BraveWords",
-   "data": "2026-11-13T16:36:46+00:00"
-  },
-  {
    "titulo": "MURDERDOLLS Got The 'Blessing' Of JOEY JORDISON's Sisters To Reunite For 2027 'Memorial Tribute' Shows",
    "link": "https://blabbermouth.net/news/murderdolls-got-the-blessing-of-joey-jordisons-sisters-to-reunite-for-2027-memorial-tribute-shows",
    "fonte": "Blabbermouth",
    "data": "2026-11-13T16:23:12+00:00"
-  },
-  {
-   "titulo": "EXTREME To Release Paris Rising Live Album + DVD In February; “Get The Funk Out” Single And Video Out Now",
-   "link": "https://bravewords.com/news/extreme-to-release-paris-rising-live-album-dvd-in-february-get-the-funk-out-single-and-video-out-now/",
-   "fonte": "BraveWords",
-   "data": "2026-11-13T16:15:31+00:00"
   },
   {
    "titulo": "TO/DIE/FOR Signs With SCARLET RECORDS; New Album Due In Spring 2027",
@@ -17613,18 +17731,6 @@
    "link": "https://www.loudersound.com/bands-artists/i-wasnt-planning-to-tour-it-but-everyone-is-asking-me-now-with-storm-corrosion-no-man-and-porcupine-tree-all-at-work-does-steven-wilson-even-have-time-to-put-requiem-for-a-village-on-stage",
    "fonte": "Metal Hammer",
    "data": "2026-11-13T16:00:00+00:00"
-  },
-  {
-   "titulo": "SUICIDAL TENDENCIES’ MIKE MUIR Announces New CYCO MIKO Collection Feat. FRED DURST, THUNDERCAT And TIM ARMSTRONG; First Single Streaming",
-   "link": "https://bravewords.com/news/suicidal-tendencies-mike-muir-announces-new-cyco-miko-collection-feat-fred-durst-thundercat-and-tim-armstrong-first-single-streaming/",
-   "fonte": "BraveWords",
-   "data": "2026-11-13T15:54:31+00:00"
-  },
-  {
-   "titulo": "MOLLY HATCHET Launch Lyric Video For New Single “JacksonVillain”",
-   "link": "https://bravewords.com/news/molly-hatchet-launch-lyric-video-for-new-single-jacksonvillain/",
-   "fonte": "BraveWords",
-   "data": "2026-11-13T15:36:34+00:00"
   },
   {
    "titulo": "MIKE MUIR Announces CYCO MIKO's 'My Personal Revolution', A Career-Spanning Collection Of New And Unreleased Music",
@@ -17843,46 +17949,10 @@
    "data": "2026-11-12T20:49:55+00:00"
   },
   {
-   "titulo": "Reunited Original Lineup Of BULLETBOYS Releases First New Single 'Monstar'",
-   "link": "https://blabbermouth.net/news/reunited-original-lineup-of-bulletboys-releases-first-new-single-monstar",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-12T20:21:33+00:00"
-  },
-  {
-   "titulo": "Watch: FEAR FACTORY Performs New Single 'Detonizer' Live In Nashville",
-   "link": "https://blabbermouth.net/news/watch-fear-factory-performs-new-single-detonizer-live-in-nashville",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-12T20:00:18+00:00"
-  },
-  {
-   "titulo": "TONY IOMMI On Possible Collaboration With ROBERT PLANT: 'We've Talked About It A Couple Of Times'",
-   "link": "https://blabbermouth.net/news/tony-iommi-on-possible-collaboration-with-robert-plant-weve-talked-about-it-a-couple-of-times",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-12T19:27:18+00:00"
-  },
-  {
-   "titulo": "DEICIDE Drummer STEVE ASHEIM Releases New Classical Album And Soundtrack To 1926 'Faust' Silent Movie Classic",
-   "link": "https://blabbermouth.net/news/deicide-drummer-steve-asheim-releases-new-classical-album-and-soundtrack-to-1926-faust-silent-movie-classic",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-12T18:59:40+00:00"
-  },
-  {
    "titulo": "Poison Ruïn and Jardim de Cinzas at Woodstock 69",
    "link": "https://www.theblackplanet.org/poison-ruin-woodstock-69/",
    "fonte": "The Black Planet",
    "data": "2026-11-12T18:50:03+00:00"
-  },
-  {
-   "titulo": "QUICKSAND Announces 'Apple Music Sessions', Live Two-Song Release Recorded On 'The Zane Lowe Show'",
-   "link": "https://blabbermouth.net/news/quicksand-announces-apple-music-sessions-live-two-song-release-recorded-on-the-zane-lowe-show",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-12T18:40:39+00:00"
-  },
-  {
-   "titulo": "QUEENS OF THE STONE AGE Share Music Video For 'From The Cliff' From 'Perfecth' Album",
-   "link": "https://blabbermouth.net/news/queens-of-the-stone-age-share-music-video-for-from-the-cliff-from-perfecth-album",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-12T18:26:01+00:00"
   },
   {
    "titulo": "Watch: Queens Of The Stone Age Drops NSFW New Video for \"From The Cliff\"",
@@ -17895,12 +17965,6 @@
    "link": "https://www.loudersound.com/bands-artists/interviews/maynard-james-keenan-metal-hammer-interview-2026",
    "fonte": "Metal Hammer",
    "data": "2026-11-12T18:00:00+00:00"
-  },
-  {
-   "titulo": "New SKID ROW Vocalist JUSTIN SARGENT: 'The Song I'm Most Excited To Sing Is 'I Remember You''",
-   "link": "https://blabbermouth.net/news/new-skid-row-vocalist-justin-sargent-the-song-im-most-excited-to-sing-is-i-remember-you",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-12T17:19:32+00:00"
   },
   {
    "titulo": "Video Premiere: Sapraemia – “7th Entity”",
@@ -17919,12 +17983,6 @@
    "link": "https://metalinjection.net/tour-dates/festivals/goteborg-brinner-announces-judas-priest-and-in-flames-headlining-2027-festival",
    "fonte": "Metal Injection",
    "data": "2026-11-12T16:51:58+00:00"
-  },
-  {
-   "titulo": "NEVERMORE, SOLITUDE AETURNUS, AGALLOCH, Others Confirmed For 2027 'Decibel Magazine Metal & Beer Fest: Philly'",
-   "link": "https://blabbermouth.net/news/nevermore-solitude-aeturnus-agalloch-others-confirmed-for-2027-decibel-magazine-metal-beer-fest-philly",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-12T16:46:47+00:00"
   },
   {
    "titulo": "SPOILER: Here Are Decibel’s Top 40 Albums of 2026",
@@ -18083,12 +18141,6 @@
    "data": "2026-11-11T16:41:25+00:00"
   },
   {
-   "titulo": "“I need 200 mules…”: Watch the cult ELP sketch that Carl Palmer just added to his UK tour",
-   "link": "https://www.loudersound.com/bands-artists/carl-palmer-elp-big-train-prog",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-11T16:00:00+00:00"
-  },
-  {
    "titulo": "Shocker! No Heavy Bands Are Playing Coachella 2027",
    "link": "https://metalinjection.net/editorials/heavy-takes/coachella-2027-metal-bands",
    "fonte": "Metal Injection",
@@ -18101,40 +18153,10 @@
    "data": "2026-11-11T15:05:59+00:00"
   },
   {
-   "titulo": "Black Sabbath drummer Bill Ward nearly finished with next solo album, which has “at least 15 to 20” guest stars",
-   "link": "https://www.loudersound.com/news/black-sabbath-bill-ward-new-solo-album-nearly-ready-15-20-guest-stars-2026",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-11T12:52:12+00:00"
-  },
-  {
-   "titulo": "Aftershock Festival Announces 2027 Dates",
-   "link": "https://metalinjection.net/tour-dates/festivals/aftershock-festival-announces-2027-dates",
-   "fonte": "Metal Injection",
-   "data": "2026-11-10T20:07:33+00:00"
-  },
-  {
    "titulo": "Full Album Stream: Sarcosuchus – “De-Extinction”",
    "link": "https://www.decibelmagazine.com/2026/11/10/full-album-stream-sarcosuchus-de-extinction/",
    "fonte": "Decibel",
    "data": "2026-11-10T20:00:42+00:00"
-  },
-  {
-   "titulo": "Boundaries Announce North American Tour For 2027",
-   "link": "https://metalinjection.net/tour-dates/boundaries-announce-north-american-tour-for-2027",
-   "fonte": "Metal Injection",
-   "data": "2026-11-10T19:51:17+00:00"
-  },
-  {
-   "titulo": "Watch: Silent Planet Announces New Album 'INFINITE SLEEP,' Drops New Video For \"fangs!!\" Featuring Thornhill",
-   "link": "https://metalinjection.net/new-music/watch-silent-planet-announces-new-album-infinite-sleep-drops-new-video-for-fangs-featuring-thornhill",
-   "fonte": "Metal Injection",
-   "data": "2026-11-10T19:08:16+00:00"
-  },
-  {
-   "titulo": "Clutch Drops New Single, Announces Tour With Corrosion of Conformity, Agnostic Front, Chuck Ragan",
-   "link": "https://metalinjection.net/news/clutch-drops-new-single-announces-tour-with-corrosion-of-conformity-agnostic-front-chuck-ragan",
-   "fonte": "Metal Injection",
-   "data": "2026-11-10T18:52:18+00:00"
   },
   {
    "titulo": "Linda Martini postpone Porto concert to January 2027",
@@ -18177,18 +18199,6 @@
    "link": "https://www.theblackplanet.org/tierra-santa-in-portugal/",
    "fonte": "The Black Planet",
    "data": "2026-11-07T18:21:06+00:00"
-  },
-  {
-   "titulo": "London Metal Fest 2027 announces Katatonia and Psychonaut among others",
-   "link": "https://www.theblackplanet.org/london-metal-fest-2027/",
-   "fonte": "The Black Planet",
-   "data": "2026-11-07T17:26:21+00:00"
-  },
-  {
-   "titulo": "Darkness Over Cumbria 2027 completes festival lineup",
-   "link": "https://www.theblackplanet.org/darkness-over-cumbria-2027/",
-   "fonte": "The Black Planet",
-   "data": "2026-11-07T16:52:17+00:00"
   }
  ]
 }
