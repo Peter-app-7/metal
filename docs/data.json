@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-15T01:41:32+00:00",
+ "atualizado": "2026-11-15T07:37:58+00:00",
  "fontes": {
   "excluidas": [
    "Richard Dawkins"
@@ -65,15 +65,13 @@
    },
    {
     "nome": "The Black Planet",
-    "ok": false,
-    "artigos": 9
+    "ok": true,
+    "artigos": 10
    }
   ],
   "spotify_espera_ate": null
  },
- "avisos": [
-  "Feeds sem resposta nesta atualização: The Black Planet."
- ],
+ "avisos": [],
  "bandas": [
   {
    "id": "redemptus",
@@ -17315,6 +17313,24 @@
  ],
  "noticias": [
   {
+   "titulo": "“You haven't heard the last of me. I can promise you that”: Phil Collins gets emotional at Rock Hall induction",
+   "link": "https://www.loudersound.com/bands-artists/phil-collins-rock-roll-hall-fame-induction-2026",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-15T06:00:00+00:00"
+  },
+  {
+   "titulo": "How Phil Manzanera reconnected with David Gilmour, leading to Pink Floyd’s final album",
+   "link": "https://www.loudersound.com/bands-artists/phil-manzanera-davif-gilmour-pink-floyd",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-15T05:00:00+00:00"
+  },
+  {
+   "titulo": "The other members of U2 would love to trade places with The Edge",
+   "link": "https://www.loudersound.com/bands-artists/id-like-to-live-in-your-head-for-a-while-i-think-i-could-learn-a-lot-of-stuff-the-other-members-of-u2-would-love-to-trade-places-with-the-edge",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-15T04:00:00+00:00"
+  },
+  {
    "titulo": "TIAMAT's JOHAN EDLUND Suffers Brain Hemorrhage; Belgrade, Serbia Concert Canceled",
    "link": "https://blabbermouth.net/news/tiamats-johan-edlund-suffers-brain-hemorrhage-belgrade-serbia-concert-canceled",
    "fonte": "Blabbermouth",
@@ -18077,28 +18093,10 @@
    "data": "2026-11-12T04:05:00+00:00"
   },
   {
-   "titulo": "Jimmy Page says he doesn't want to tour again but he's still playing guitar",
-   "link": "https://www.loudersound.com/bands-artists/jimmy-page-doesnt-want-to-tour-again-but-still-plays-guitar",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-11T23:46:08+00:00"
-  },
-  {
    "titulo": "Listen: Make Them Suffer Drops Crushing New Single \"Black Sheep\"",
    "link": "https://metalinjection.net/new-music/listen-make-them-suffer-drops-crushing-new-single-black-sheep",
    "fonte": "Metal Injection",
    "data": "2026-11-11T21:13:57+00:00"
-  },
-  {
-   "titulo": "Melissa Auf Der Maur announces first solo live shows in 15 years, book signing appearances in Europe",
-   "link": "https://www.loudersound.com/bands-artists/melissa-auf-der-maur-announces-first-solo-live-shows-in-15-years-book-signing-appearances-in-europe",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-11T21:00:00+00:00"
-  },
-  {
-   "titulo": "Rush add five more dates to Las Vegas Sphere residency due to \"incredible demand\"",
-   "link": "https://www.loudersound.com/bands-artists/rush-las-vegas-sphere",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-11T20:53:16+00:00"
   },
   {
    "titulo": "Listen: Quicksand Release Live ‘Apple Music Sessions’",
