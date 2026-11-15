@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-14T19:17:22+00:00",
+ "atualizado": "2026-11-15T01:41:32+00:00",
  "fontes": {
   "excluidas": [
    "Richard Dawkins"
@@ -7,7 +7,7 @@
   "agenda": {
    "estado": "ok",
    "linhas": 79,
-   "futuras": 68,
+   "futuras": 61,
    "rejeitadas": [],
    "quase": [
     {
@@ -65,14 +65,56 @@
    },
    {
     "nome": "The Black Planet",
-    "ok": true,
-    "artigos": 10
+    "ok": false,
+    "artigos": 9
    }
   ],
   "spotify_espera_ate": null
  },
- "avisos": [],
+ "avisos": [
+  "Feeds sem resposta nesta atualização: The Black Planet."
+ ],
  "bandas": [
+  {
+   "id": "redemptus",
+   "nome": "Redemptus",
+   "categoria": "Outros",
+   "spotify": "https://open.spotify.com/artist/38oIfK4fqymeWjwk6UKbXy",
+   "lancamentos": [
+    {
+     "id": "bb14af0b-74c6-4c6b-960b-383964c1c748",
+     "titulo": "Blackhearted",
+     "tipo": "Álbum",
+     "data": "2021-09-07",
+     "capa": "https://coverartarchive.org/release-group/bb14af0b-74c6-4c6b-960b-383964c1c748/front-250",
+     "spotify": "https://open.spotify.com/search/Redemptus%20Blackhearted"
+    },
+    {
+     "id": "429111c7-7c2e-4803-90da-96e68bdf274f",
+     "titulo": "Every Red Heart Fades to Black",
+     "tipo": "Álbum",
+     "data": "2017-11-17",
+     "capa": "https://coverartarchive.org/release-group/429111c7-7c2e-4803-90da-96e68bdf274f/front-250",
+     "spotify": "https://open.spotify.com/search/Redemptus%20Every%20Red%20Heart%20Fades%20to%20Black"
+    },
+    {
+     "id": "a97f376e-b0fe-4df3-a06a-7c7397ef2a25",
+     "titulo": "Atlântico Split",
+     "tipo": "EP",
+     "data": "2017-10-07",
+     "capa": "https://coverartarchive.org/release-group/a97f376e-b0fe-4df3-a06a-7c7397ef2a25/front-250",
+     "spotify": "https://open.spotify.com/search/Redemptus%20Atl%C3%A2ntico%20Split"
+    },
+    {
+     "id": "1ee6c9de-f7f4-46ce-8026-77b8d33291c6",
+     "titulo": "We All Die The Same",
+     "tipo": "Álbum",
+     "data": "2015-02-07",
+     "capa": "https://coverartarchive.org/release-group/1ee6c9de-f7f4-46ce-8026-77b8d33291c6/front-250",
+     "spotify": "https://open.spotify.com/search/Redemptus%20We%20All%20Die%20The%20Same"
+    }
+   ]
+  },
   {
    "id": "urne",
    "nome": "URNE",
@@ -16716,20 +16758,6 @@
  ],
  "festivais": [
   {
-   "id": "fest-2026-11-14-uv almost fest iv",
-   "nome": "UV Almost Fest IV",
-   "data_inicio": "2026-11-14",
-   "data_fim": "2026-11-14",
-   "local": "GD Corveirense",
-   "cidade": "Grijó",
-   "link": "https://www.caminhosmetalicos.com/agenda/",
-   "bandas": [],
-   "tem_minhas": false,
-   "fontes": [
-    "Caminhos Metálicos"
-   ]
-  },
-  {
    "id": "fest-2026-11-27-rockfest pm26",
    "nome": "Rockfest PM26",
    "data_inicio": "2026-11-27",
@@ -17283,28 +17311,74 @@
    "fontes": [
     "Caminhos Metálicos"
    ]
-  },
-  {
-   "id": "fest-2026-11-14-uv almost fest iv",
-   "nome": "UV Almost Fest IV",
-   "data_inicio": "2026-11-14",
-   "data_fim": "2026-11-14",
-   "local": "GD Corveirense",
-   "cidade": "Grijó",
-   "link": "https://www.caminhosmetalicos.com/agenda/",
-   "bandas": [],
-   "tem_minhas": false,
-   "fontes": [
-    "Caminhos Metálicos"
-   ]
   }
  ],
  "noticias": [
+  {
+   "titulo": "TIAMAT's JOHAN EDLUND Suffers Brain Hemorrhage; Belgrade, Serbia Concert Canceled",
+   "link": "https://blabbermouth.net/news/tiamats-johan-edlund-suffers-brain-hemorrhage-belgrade-serbia-concert-canceled",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-14T23:12:36+00:00"
+  },
+  {
+   "titulo": "Rush’s Geddy Lee shoots down claims of ‘woke agenda’",
+   "link": "https://www.loudersound.com/bands-artists/rushs-geddy-lee-shoots-down-claims-of-woke-agenda",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-14T23:00:00+00:00"
+  },
+  {
+   "titulo": "MARK OSEGUEDA Says Next DEATH ANGEL Album Probably Won't Arrive Before Early 2028",
+   "link": "https://blabbermouth.net/news/mark-osegueda-says-next-death-angel-album-probably-wont-arrive-before-early-2028",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-14T22:29:35+00:00"
+  },
+  {
+   "titulo": "Red Moon Architect - Reveal 'The New Dawn' Track",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64562",
+   "fonte": "Metal Storm",
+   "data": "2026-11-14T21:23:18+00:00"
+  },
+  {
+   "titulo": "Iron Altar - Third Studio Album On The Way",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64581",
+   "fonte": "Metal Storm",
+   "data": "2026-11-14T21:18:32+00:00"
+  },
+  {
+   "titulo": "Avrigus - New Material In The Making",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64564",
+   "fonte": "Metal Storm",
+   "data": "2026-11-14T21:01:38+00:00"
+  },
+  {
+   "titulo": "Beards, buzzards and rehab: inside ZZ Top’s wild six-year reinvention",
+   "link": "https://www.loudersound.com/bands-artists/zz-top-in-the-late-70s",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-14T21:00:00+00:00"
+  },
+  {
+   "titulo": "WEDNESDAY 13 On MURDERDOLLS Reunion: 'This Is About As Right As I Can Get It'",
+   "link": "https://blabbermouth.net/news/wednesday-13-on-murderdolls-reunion-this-is-about-as-right-as-i-can-get-it",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-14T20:51:30+00:00"
+  },
+  {
+   "titulo": "SIMPLE PLAN, HOOBASTANK And THE USED Perform On Southwest Airlines Flight From Los Angeles To Orlando For 'Vans Warped Tour'",
+   "link": "https://blabbermouth.net/news/simple-plan-hoobastank-and-the-used-perform-on-southwest-airlines-flight-from-los-angeles-to-orlando-for-vans-warped-tour",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-14T19:22:10+00:00"
+  },
   {
    "titulo": "PAUL STANLEY On Upcoming KISS Avatar Show: 'The Idea Was Never To Replicate A Concert'",
    "link": "https://blabbermouth.net/news/paul-stanley-on-upcoming-kiss-avatar-show-the-idea-was-never-to-replicate-a-concert",
    "fonte": "Blabbermouth",
    "data": "2026-11-14T19:03:10+00:00"
+  },
+  {
+   "titulo": "Atlas - Premiere New Song",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64580",
+   "fonte": "Metal Storm",
+   "data": "2026-11-14T18:54:27+00:00"
   },
   {
    "titulo": "Stuck on the Tarmac With No Way Out, Passengers Got a Surprise Hoobastank and The Used Set",
@@ -17395,6 +17469,12 @@
    "link": "https://blabbermouth.net/news/dave-mustaine-on-megadeths-retirement-tour-were-gonna-play-as-long-as-we-can",
    "fonte": "Blabbermouth",
    "data": "2026-11-14T15:39:15+00:00"
+  },
+  {
+   "titulo": "NICKO MCBRAIN Says “There’s No Talk At All” About Doing A New IRON MAIDEN Album – “But I Would Dearly Like To Go In And Do A Couple Of Songs If And When They Start To Do One”",
+   "link": "https://bravewords.com/news/nicko-mcbrain-says-theres-no-talk-at-all-about-doing-a-new-iron-maiden-album-but-i-would-dearly-like-to-go-in-and-do-a-couple-of-songs-if-and-when-they-start-to-do-one/",
+   "fonte": "BraveWords",
+   "data": "2026-11-14T15:00:22+00:00"
   },
   {
    "titulo": "Rhea Ripley Joins Motionless In White Onstage, Celine Dion Rocks Out at Metallica + More Top Stories of the Week",
@@ -17499,14 +17579,14 @@
    "data": "2026-11-14T10:00:29+00:00"
   },
   {
-   "titulo": "Kenny Hickey on the long-speculated Type O Negative reunion",
-   "link": "https://www.loudersound.com/bands-artists/kenny-hickey-type-o-negative-tribute-silvertomb",
+   "titulo": "Rick Wakeman and sons Oliver and Adam in the prog dynasty’s first family interview",
+   "link": "https://www.loudersound.com/bands-artists/rick-wakeman-sons-adam-oliver-interview",
    "fonte": "Metal Hammer",
    "data": "2026-11-14T10:00:00+00:00"
   },
   {
-   "titulo": "Rick Wakeman and sons Oliver and Adam in the prog dynasty’s first family interview",
-   "link": "https://www.loudersound.com/bands-artists/rick-wakeman-sons-adam-oliver-interview",
+   "titulo": "Kenny Hickey on the long-speculated Type O Negative reunion",
+   "link": "https://www.loudersound.com/bands-artists/kenny-hickey-type-o-negative-tribute-silvertomb",
    "fonte": "Metal Hammer",
    "data": "2026-11-14T10:00:00+00:00"
   },
@@ -17667,12 +17747,6 @@
    "data": "2026-11-13T18:19:54+00:00"
   },
   {
-   "titulo": "Report: GUNS N’ ROSES And BTS Concerts Projected To Generate 32.9M USD In Economic Impact For Jakarta",
-   "link": "https://bravewords.com/news/report-guns-n-roses-and-bts-concerts-projected-to-generate-32-9m-usd-in-economic-impact-for-jakarta/",
-   "fonte": "BraveWords",
-   "data": "2026-11-13T17:56:50+00:00"
-  },
-  {
    "titulo": "Official THE CRAMPS Merchandise Available Via Killer Collaboration Drop From KREEPSVILLE",
    "link": "https://blabbermouth.net/news/official-the-cramps-merchandise-available-via-killer-collaboration-drop-from-kreepsville",
    "fonte": "Blabbermouth",
@@ -17799,12 +17873,6 @@
    "data": "2026-11-13T12:57:25+00:00"
   },
   {
-   "titulo": "AVATAR Releases Festive Single 'Naughty List' Featuring ZAKK WYLDE",
-   "link": "https://blabbermouth.net/news/avatar-releases-festive-single-naughty-list-featuring-zakk-wylde",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-13T12:42:12+00:00"
-  },
-  {
    "titulo": "\"We could have a double album!' Slipknot's Clown gives an update on their new music",
    "link": "https://www.loudersound.com/bands-artists/weve-written-so-many-songs-we-could-have-a-double-album-slipknots-clown-gives-an-update-on-their-new-music",
    "fonte": "Metal Hammer",
@@ -17865,30 +17933,6 @@
    "data": "2026-11-13T08:42:01+00:00"
   },
   {
-   "titulo": "Opal In Sky - Confirm US Headlining Tour",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64569",
-   "fonte": "Metal Storm",
-   "data": "2026-11-13T08:37:44+00:00"
-  },
-  {
-   "titulo": "Horresque - 'Sound Of Katyn' Track Premieres",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64568",
-   "fonte": "Metal Storm",
-   "data": "2026-11-13T08:31:23+00:00"
-  },
-  {
-   "titulo": "Lucifuge - Announce Album Release",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64567",
-   "fonte": "Metal Storm",
-   "data": "2026-11-13T08:24:15+00:00"
-  },
-  {
-   "titulo": "Nuclear Assault - Split Up",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64565",
-   "fonte": "Metal Storm",
-   "data": "2026-11-13T07:39:38+00:00"
-  },
-  {
    "titulo": "Slade's Dave Hill on the early days, being the reason Kiss got together, and his debut solo album",
    "link": "https://www.loudersound.com/bands-artists/interviews/there-was-some-bloke-named-bruce-springsteen-who-wanted-to-meet-us-we-told-him-to-clear-off-slade-guitarist-dave-hill-on-the-bands-early-days-being-the-reason-kiss-got-together-and-his-debut-solo-album",
    "fonte": "Metal Hammer",
@@ -17917,24 +17961,6 @@
    "link": "https://www.loudersound.com/bands-artists/deftones-announce-2027-north-american-tour-with-knocked-loose-and-julie",
    "fonte": "Metal Hammer",
    "data": "2026-11-12T23:04:15+00:00"
-  },
-  {
-   "titulo": "MURDERDOLLS Confirm 2027 Reunion Lineup",
-   "link": "https://blabbermouth.net/news/murderdolls-confirm-2027-reunion-lineup",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-12T22:21:56+00:00"
-  },
-  {
-   "titulo": "BLINK-182, BRING ME THE HORIZON And EVANESCENCE To Headline 2027 Edition Of U.K.'s DOWNLOAD Festival",
-   "link": "https://blabbermouth.net/news/blink-182-bring-me-the-horizon-and-evanescence-to-headline-2027-edition-of-u-k-s-download-festival",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-12T22:02:39+00:00"
-  },
-  {
-   "titulo": "Does DAVE MUSTAINE Like Any Death Metal Bands? 'I Like Bands That Have A Singer', He Says",
-   "link": "https://blabbermouth.net/news/does-dave-mustaine-like-any-death-metal-bands-i-like-bands-that-have-a-singer-he-says",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-12T21:50:19+00:00"
   },
   {
    "titulo": "Blink-182, Bring Me The Horizon and Evanescence to headline Download 2027",
@@ -18099,12 +18125,6 @@
    "data": "2026-11-11T18:26:42+00:00"
   },
   {
-   "titulo": "How 'peasant metal' band Netherwilds became a viral sensation",
-   "link": "https://www.loudersound.com/bands-artists/interviews/meet-netherwilds-the-peasant-metal-band-calling-for-revolution",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-11T18:00:00+00:00"
-  },
-  {
    "titulo": "Blast Worship: Woundflower",
    "link": "https://www.decibelmagazine.com/2026/11/11/blast-worship-woundflower/",
    "fonte": "Decibel",
@@ -18127,12 +18147,6 @@
    "link": "https://www.theblackplanet.org/palegazer-woodstock-69/",
    "fonte": "The Black Planet",
    "data": "2026-11-11T17:11:56+00:00"
-  },
-  {
-   "titulo": "12 classic rock and metal songs that wouldn’t exist without The Lord Of The Rings",
-   "link": "https://www.loudersound.com/features/rock-metal-songs-wouldnt-exist-without-the-lord-of-the-rings",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-11T16:51:15+00:00"
   },
   {
    "titulo": "Trey Spruance Rejoins Upcoming Faith No More Touring Lineup",
