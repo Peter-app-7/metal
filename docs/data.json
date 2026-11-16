@@ -1,30 +1,17 @@
 {
- "atualizado": "2026-11-15T19:18:50+00:00",
+ "atualizado": "2026-11-16T01:58:04+00:00",
  "fontes": {
   "excluidas": [
    "Richard Dawkins"
   ],
   "agenda": {
-   "estado": "ok",
-   "linhas": 79,
-   "futuras": 61,
+   "estado": "indisponivel",
+   "linhas": 0,
+   "futuras": 0,
    "rejeitadas": [],
-   "quase": [
-    {
-     "agenda": "Ashes In The Ocean",
-     "banda": "The Ocean"
-    },
-    {
-     "agenda": "Hate Disposal",
-     "banda": "Hate"
-    },
-    {
-     "agenda": "Viseu Death Fest",
-     "banda": "Death"
-    }
-   ],
-   "atualizada": "2026-11-06",
-   "minhas": 6
+   "quase": [],
+   "atualizada": null,
+   "erro": "www.caminhosmetalicos.com não respondeu (URLError)"
   },
   "bandas": "spotify",
   "feeds": [
@@ -71,7 +58,9 @@
   ],
   "spotify_espera_ate": null
  },
- "avisos": [],
+ "avisos": [
+  "Agenda do Caminhos Metálicos indisponível (www.caminhosmetalicos.com não respondeu (URLError)). Ficaram os concertos guardados."
+ ],
  "bandas": [
   {
    "id": "redemptus",
@@ -16574,34 +16563,6 @@
  ],
  "concertos": [
   {
-   "id": "cm-2026-11-15-lisboa-amon amarth",
-   "data": "2026-11-15",
-   "bandas": [
-    {
-     "nome": "Amon Amarth",
-     "minha": false
-    },
-    {
-     "nome": "Orbit Culture",
-     "minha": true
-    },
-    {
-     "nome": "Soilwork",
-     "minha": false
-    }
-   ],
-   "categorias": [
-    "Death"
-   ],
-   "sala": "Sala Tejo",
-   "cidade": "Lisboa",
-   "evento": "",
-   "fontes": [
-    "Caminhos Metálicos"
-   ],
-   "link": "https://www.caminhosmetalicos.com/agenda/"
-  },
-  {
    "id": "cm-2026-12-04-porto-chaosaddiction",
    "data": "2026-12-04",
    "bandas": [
@@ -17313,7 +17274,43 @@
  ],
  "noticias": [
   {
-   "titulo": "“Behave Like Human F***ing Beings”: Tom Araya Stops Slayer Show to Tear Into LA Crowd",
+   "titulo": "TIAMAT Frontman JOHAN EDLUND Suffers Brain Hemorrhage; Concert In Serbia Cancelled",
+   "link": "https://bravewords.com/news/tiamat-frontman-johan-edlund-suffers-brain-hemorrhage-concert-in-serbia-cancelled/",
+   "fonte": "BraveWords",
+   "data": "2026-11-16T01:41:56+00:00"
+  },
+  {
+   "titulo": "Watch John Fogerty sing Creedence Clearwater Revival in the back of Zach Bryan's Ford Bronco",
+   "link": "https://www.loudersound.com/bands-artists/john-fogerty-creedence-clearwater-revival-zach-bryan-ford-bronco",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-16T00:34:48+00:00"
+  },
+  {
+   "titulo": "AVATAR's JOHN ALFREDSSON Praises LARS ULRICH's Drumming: 'He Will Blow You Away. He's So Good.'",
+   "link": "https://blabbermouth.net/news/avatars-john-alfredsson-praises-lars-ulrichs-drumming-he-will-blow-you-away-hes-so-good",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-16T00:24:17+00:00"
+  },
+  {
+   "titulo": "Journey drummer Dean Castronovo leaves tour to concentrate on \"personal health matters\"",
+   "link": "https://www.loudersound.com/music-industry/award-shows/journey-drummer-dean-castronovo-leaves-tour",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-15T21:55:26+00:00"
+  },
+  {
+   "titulo": "KISS's ERIC SINGER Rips Drummers Who Charge For Advice And Information: 'That's Not How It Works'",
+   "link": "https://blabbermouth.net/news/kisss-eric-singer-rips-drummers-who-charge-for-advice-and-information-thats-not-how-it-works",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-15T20:01:31+00:00"
+  },
+  {
+   "titulo": "PAPA ROACH Is 'About Halfway Done' With Twelfth Studio Album: 'We're Taking Our Time With This One', Says JACOBY SHADDIX",
+   "link": "https://blabbermouth.net/news/papa-roach-is-about-halfway-done-with-twelfth-studio-album-were-taking-our-time-with-this-one-says-jacoby-shaddix",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-15T18:51:46+00:00"
+  },
+  {
+   "titulo": "“Behave Like Human F***ing Beings”: Tom Araya Tears Into LA Crowd After Slayer Show Halted",
    "link": "https://metalinjection.net/news/slayer-tom-araya-stops-show-fans-tear-out-seats",
    "fonte": "Metal Injection",
    "data": "2026-11-15T18:27:26+00:00"
@@ -17817,12 +17814,6 @@
    "data": "2026-11-14T10:07:08+00:00"
   },
   {
-   "titulo": "Top 10 Online Casinos for Real Money USA – Latest Ranking & Ratings",
-   "link": "https://bravewords.com/partners/top-10-online-casinos-for-real-money-usa-latest-ranking-ratings/",
-   "fonte": "BraveWords",
-   "data": "2026-11-14T10:00:29+00:00"
-  },
-  {
    "titulo": "Rick Wakeman and sons Oliver and Adam in the prog dynasty’s first family interview",
    "link": "https://www.loudersound.com/bands-artists/rick-wakeman-sons-adam-oliver-interview",
    "fonte": "Metal Hammer",
@@ -17937,28 +17928,10 @@
    "data": "2026-11-13T16:44:25+00:00"
   },
   {
-   "titulo": "MURDERDOLLS Got The 'Blessing' Of JOEY JORDISON's Sisters To Reunite For 2027 'Memorial Tribute' Shows",
-   "link": "https://blabbermouth.net/news/murderdolls-got-the-blessing-of-joey-jordisons-sisters-to-reunite-for-2027-memorial-tribute-shows",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-13T16:23:12+00:00"
-  },
-  {
-   "titulo": "TO/DIE/FOR Signs With SCARLET RECORDS; New Album Due In Spring 2027",
-   "link": "https://blabbermouth.net/news/to-die-for-signs-with-scarlet-records-new-album-due-in-spring-2027",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-13T16:05:00+00:00"
-  },
-  {
    "titulo": "Storm Corrosion, No-man and Porcupine Tree are all at work. Does Steven Wilson have time to tour Requiem For A Village?",
    "link": "https://www.loudersound.com/bands-artists/i-wasnt-planning-to-tour-it-but-everyone-is-asking-me-now-with-storm-corrosion-no-man-and-porcupine-tree-all-at-work-does-steven-wilson-even-have-time-to-put-requiem-for-a-village-on-stage",
    "fonte": "Metal Hammer",
    "data": "2026-11-13T16:00:00+00:00"
-  },
-  {
-   "titulo": "MIKE MUIR Announces CYCO MIKO's 'My Personal Revolution', A Career-Spanning Collection Of New And Unreleased Music",
-   "link": "https://blabbermouth.net/news/mike-muir-announces-cyco-mikos-my-personal-revolution-a-career-spanning-collection-of-new-and-unreleased-music",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-13T15:28:42+00:00"
   },
   {
    "titulo": "Avatar Drop New Christmas Single “Naughty List” Featuring Zakk Wylde",
@@ -18063,22 +18036,10 @@
    "data": "2026-11-12T18:24:33+00:00"
   },
   {
-   "titulo": "Maynard James Keenan looks back on his career",
-   "link": "https://www.loudersound.com/bands-artists/interviews/maynard-james-keenan-metal-hammer-interview-2026",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-12T18:00:00+00:00"
-  },
-  {
    "titulo": "Video Premiere: Sapraemia – “7th Entity”",
    "link": "https://www.decibelmagazine.com/2026/11/12/video-premiere-sapraemia-7th-entity/",
    "fonte": "Decibel",
    "data": "2026-11-12T17:00:46+00:00"
-  },
-  {
-   "titulo": "“It was like opera. The only thing missing was stabbing each other. That happened later”: Focus ex Jan Akkerman won’t go back",
-   "link": "https://www.loudersound.com/bands-artists/jan-akkerman-focus",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-12T17:00:00+00:00"
   },
   {
    "titulo": "Göteborg Brinner Announces Judas Priest and In Flames Headlining 2027 Festival",
