@@ -1,17 +1,30 @@
 {
- "atualizado": "2026-11-16T01:58:04+00:00",
+ "atualizado": "2026-11-16T09:18:57+00:00",
  "fontes": {
   "excluidas": [
    "Richard Dawkins"
   ],
   "agenda": {
-   "estado": "indisponivel",
-   "linhas": 0,
-   "futuras": 0,
+   "estado": "ok",
+   "linhas": 79,
+   "futuras": 60,
    "rejeitadas": [],
-   "quase": [],
-   "atualizada": null,
-   "erro": "www.caminhosmetalicos.com não respondeu (URLError)"
+   "quase": [
+    {
+     "agenda": "Ashes In The Ocean",
+     "banda": "The Ocean"
+    },
+    {
+     "agenda": "Hate Disposal",
+     "banda": "Hate"
+    },
+    {
+     "agenda": "Viseu Death Fest",
+     "banda": "Death"
+    }
+   ],
+   "atualizada": "2026-11-06",
+   "minhas": 5
   },
   "bandas": "spotify",
   "feeds": [
@@ -58,9 +71,7 @@
   ],
   "spotify_espera_ate": null
  },
- "avisos": [
-  "Agenda do Caminhos Metálicos indisponível (www.caminhosmetalicos.com não respondeu (URLError)). Ficaram os concertos guardados."
- ],
+ "avisos": [],
  "bandas": [
   {
    "id": "redemptus",
@@ -17274,6 +17285,66 @@
  ],
  "noticias": [
   {
+   "titulo": "Watch Entire KISS Kruise: Land-Locked In Vegas 2026 ACE FREHLEY All Star Tribute Show; Fan-Filmed Video",
+   "link": "https://bravewords.com/news/watch-entire-kiss-kruise-land-locked-in-vegas-2026-ace-frehley-all-star-tribute-show-fan-filmed-video/",
+   "fonte": "BraveWords",
+   "data": "2026-11-16T09:03:42+00:00"
+  },
+  {
+   "titulo": "Meet Pieces Of Molly, the high-voltage Kiwi quartet with global ambitions",
+   "link": "https://www.loudersound.com/bands-artists/meet-pieces-of-molly-the-high-voltage-kiwi-quartet-with-global-ambitions",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-16T07:20:04+00:00"
+  },
+  {
+   "titulo": "\"The heavier it gets, the more you think someone else did this better.\" Five songwriters usher in confusion on debut Moby Grape album",
+   "link": "https://www.loudersound.com/music/albums/moby-grape-moby-grape",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-16T06:55:24+00:00"
+  },
+  {
+   "titulo": "KISS To Release 'Conquers Japan 1977' Live Box Set In 2027",
+   "link": "https://blabbermouth.net/news/kiss-to-release-conquers-japan-1977-live-box-set-in-2027",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-16T06:41:06+00:00"
+  },
+  {
+   "titulo": "SOREN ANDERSEN Presents Sunday Session – Making A Record With MIKE TRAMP In New York",
+   "link": "https://bravewords.com/news/soren-andersen-presents-sunday-session-making-a-record-with-mike-tramp-in-new-york/",
+   "fonte": "BraveWords",
+   "data": "2026-11-16T05:04:47+00:00"
+  },
+  {
+   "titulo": "Watch Mike Portnoy discover son doesn’t recall Dream Theater split – though he was there when it began",
+   "link": "https://www.loudersound.com/bands-artists/son-i-straight-up-do-not-remember-dad-really-watch-mike-portnoy-discover-max-doesnt-recall-the-dream-theater-split-even-though-he-was-there-when-it-began",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-16T05:00:00+00:00"
+  },
+  {
+   "titulo": "STARKILL Unveils Video For Title Track Of New Album, Hanging Up My Halo",
+   "link": "https://bravewords.com/news/starkill-unveils-video-for-title-track-of-new-album-hanging-up-my-halo/",
+   "fonte": "BraveWords",
+   "data": "2026-11-16T04:15:01+00:00"
+  },
+  {
+   "titulo": "Classic Rock Tracks Of The Week: November 16, 2027",
+   "link": "https://www.loudersound.com/music/tracks-singles/classic-rock-tracks-of-the-week-november-16-2027",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-16T03:37:17+00:00"
+  },
+  {
+   "titulo": "ENTRAILS – New Album, Memorial Garden, Due In January 2027; First Single “Apocalyptic Trauma” Streaming Now",
+   "link": "https://bravewords.com/news/entrails-new-album-memorial-garden-due-in-january-2027-first-single-apocalyptic-trauma-streaming-now/",
+   "fonte": "BraveWords",
+   "data": "2026-11-16T03:00:46+00:00"
+  },
+  {
+   "titulo": "PHIL COLLINS Talks Rock Hall Induction – “There’s Not Been A Design In Anything I’ve Done”",
+   "link": "https://bravewords.com/news/phil-collins-talks-rock-hall-induction-theres-not-been-a-design-in-anything-ive-done/",
+   "fonte": "BraveWords",
+   "data": "2026-11-16T02:14:38+00:00"
+  },
+  {
    "titulo": "TIAMAT Frontman JOHAN EDLUND Suffers Brain Hemorrhage; Concert In Serbia Cancelled",
    "link": "https://bravewords.com/news/tiamat-frontman-johan-edlund-suffers-brain-hemorrhage-concert-in-serbia-cancelled/",
    "fonte": "BraveWords",
@@ -17412,7 +17483,7 @@
    "data": "2026-11-15T13:26:56+00:00"
   },
   {
-   "titulo": "Slayer’s Tom Araya threatens to pull show as fans trash venue:",
+   "titulo": "Slayer’s Tom Araya threatens to pull show as fans trash venue",
    "link": "https://www.loudersound.com/bands-artists/slayer-tom-araya-threatens-to-leave-if-fans-trash-venue",
    "fonte": "Metal Hammer",
    "data": "2026-11-15T13:03:51+00:00"
@@ -17766,46 +17837,16 @@
    "data": "2026-11-14T12:41:10+00:00"
   },
   {
-   "titulo": "WOLFHEART Release New “Ravenstone” Single / Video; Limited Edition 7″ Vinyl Available",
-   "link": "https://bravewords.com/news/wolfheart-release-new-ravenstone-single-video-limited-edition-7-vinyl-available/",
-   "fonte": "BraveWords",
-   "data": "2026-11-14T12:39:25+00:00"
-  },
-  {
-   "titulo": "Former METAL CHURCH Bassist Duke Erickson To Join Band At Tonight’s Washington Show",
-   "link": "https://bravewords.com/80s-metal/former-metal-church-bassist-duke-erickson-to-join-band-at-tonights-washington-show/",
-   "fonte": "BraveWords",
-   "data": "2026-11-14T12:36:09+00:00"
-  },
-  {
    "titulo": "THE WARNING Takes Home First LATIN GRAMMY Award As 'Ego' Wins 'Best Rock Song'",
    "link": "https://blabbermouth.net/news/the-warning-takes-home-first-latin-grammy-award-as-ego-wins-best-rock-song",
    "fonte": "Blabbermouth",
    "data": "2026-11-14T12:33:21+00:00"
   },
   {
-   "titulo": "A Look Back At The Rise And Fall Of HIM – “Gothic Rock That Bridged The Gap Between Underground Metal And Mainstream Pop”",
-   "link": "https://bravewords.com/news/a-look-back-at-the-rise-and-fall-of-him-gothic-rock-that-bridged-the-gap-between-underground-metal-and-mainstream-pop/",
-   "fonte": "BraveWords",
-   "data": "2026-11-14T11:16:23+00:00"
-  },
-  {
-   "titulo": "THE HAUNTED Guitarist OLA ENGLUND Shares “Demon(etized)” Live Performance From The Neverending Story Solo Album Release Party",
-   "link": "https://bravewords.com/news/the-haunted-guitarist-ola-englund-shares-demonetized-live-performance-from-the-neverending-story-solo-album-release-party/",
-   "fonte": "BraveWords",
-   "data": "2026-11-14T10:46:56+00:00"
-  },
-  {
    "titulo": "Blood Monolith - To Tour West Coast With Sulfuric Cautery",
    "link": "https://metalstorm.net/events/news_comments.php?news_id=64579",
    "fonte": "Metal Storm",
    "data": "2026-11-14T10:33:19+00:00"
-  },
-  {
-   "titulo": "AD INFINITUM Vocalist MELISSA BONNY Shares Official Video For New Solo Single “Afterdark”",
-   "link": "https://bravewords.com/news/ad-infinitum-vocalist-melissa-bonny-shares-official-video-for-new-solo-single-afterdark/",
-   "fonte": "BraveWords",
-   "data": "2026-11-14T10:23:26+00:00"
   },
   {
    "titulo": "God Forsaken - Unveil 'Slaved' Single",
@@ -17922,12 +17963,6 @@
    "data": "2026-11-13T17:00:12+00:00"
   },
   {
-   "titulo": "KENNY ARONOFF's Painted TAMA Starclassic 'LA Studio Kit' Draws $200,000 Winning Bid For 'Genius Recovery' Foundation",
-   "link": "https://blabbermouth.net/news/kenny-aronoffs-painted-tama-starclassic-la-studio-kit-draws-200000-winning-bid-for-genius-recovery-foundation",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-13T16:44:25+00:00"
-  },
-  {
    "titulo": "Storm Corrosion, No-man and Porcupine Tree are all at work. Does Steven Wilson have time to tour Requiem For A Village?",
    "link": "https://www.loudersound.com/bands-artists/i-wasnt-planning-to-tour-it-but-everyone-is-asking-me-now-with-storm-corrosion-no-man-and-porcupine-tree-all-at-work-does-steven-wilson-even-have-time-to-put-requiem-for-a-village-on-stage",
    "fonte": "Metal Hammer",
@@ -17992,30 +18027,6 @@
    "link": "https://www.loudersound.com/music/albums/frank-zappa-zoot-allures-50th-anniversary-edition",
    "fonte": "Metal Hammer",
    "data": "2026-11-13T02:20:57+00:00"
-  },
-  {
-   "titulo": "Watch Heart's Ann Wilson sing a Neil Young deep cut, listen to Ann Wilson talk about Neil Young's Harvest",
-   "link": "https://www.loudersound.com/bands-artists/ann-wilson-neil-young-walk-with-me",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-13T00:45:45+00:00"
-  },
-  {
-   "titulo": "Talking Heads' Fear Of Music remains an evergreen post-punk landmark",
-   "link": "https://www.loudersound.com/music/albums/talking-heads-fear-of-music-super-deluxe-edition",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-12T23:05:00+00:00"
-  },
-  {
-   "titulo": "Deftones announce 2027 North American tour with Knocked Loose and Julie",
-   "link": "https://www.loudersound.com/bands-artists/deftones-announce-2027-north-american-tour-with-knocked-loose-and-julie",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-12T23:04:15+00:00"
-  },
-  {
-   "titulo": "Blink-182, Bring Me The Horizon and Evanescence to headline Download 2027",
-   "link": "https://www.loudersound.com/news/download-festival-confirms-2027-lineup-blink-182-bring-me-the-horizon-evanescence",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-12T21:00:30+00:00"
   },
   {
    "titulo": "Flatspot Records Announces Coffee Table Book, ‘Intent to Distribute,’ Trapped Under Ice Release Show",
