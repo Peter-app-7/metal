@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-17T01:47:36+00:00",
+ "atualizado": "2026-11-17T07:52:35+00:00",
  "fontes": {
   "excluidas": [
    "Richard Dawkins"
@@ -50,12 +50,12 @@
    },
    {
     "nome": "Decibel",
-    "ok": false,
+    "ok": true,
     "artigos": 10
    },
    {
     "nome": "BraveWords",
-    "ok": true,
+    "ok": false,
     "artigos": 30
    },
    {
@@ -72,7 +72,7 @@
   "spotify_espera_ate": null
  },
  "avisos": [
-  "Feeds sem resposta nesta atualização: Decibel."
+  "Feeds sem resposta nesta atualização: BraveWords."
  ],
  "bandas": [
   {
@@ -17295,6 +17295,24 @@
  ],
  "noticias": [
   {
+   "titulo": "Former DANZIG Guitarist JOHN CHRIST Dead At 61",
+   "link": "https://blabbermouth.net/news/former-danzig-guitarist-john-christ-dead-at-61",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-17T06:29:02+00:00"
+  },
+  {
+   "titulo": "Dolly Parton: Her Life In 10 Songs",
+   "link": "https://www.loudersound.com/bands-artists/dolly-parton-her-life-in-10-songs",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-17T04:05:00+00:00"
+  },
+  {
+   "titulo": "Uriah Heep announce 2027 North American tour",
+   "link": "https://www.loudersound.com/bands-artists/uriah-heep-anounce-2027-north-american-tour",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-17T01:52:41+00:00"
+  },
+  {
    "titulo": "TED NUGENT's 'Gonzo Life' Book Brings Together 532 Pages Of Photographs, Stories And Memorabilia",
    "link": "https://blabbermouth.net/news/ted-nugents-gonzo-life-book-brings-together-532-pages-of-photographs-stories-and-memorabilia",
    "fonte": "Blabbermouth",
@@ -17323,6 +17341,12 @@
    "link": "https://bravewords.com/news/canadas-denimachine-release-new-single-edgelord-official-audio-streaming/",
    "fonte": "BraveWords",
    "data": "2026-11-16T20:02:34+00:00"
+  },
+  {
+   "titulo": "Full EP Stream: Dothe –Dothe",
+   "link": "https://www.decibelmagazine.com/2026/11/16/full-ep-stream-dothe-dothe/",
+   "fonte": "Decibel",
+   "data": "2026-11-16T20:00:41+00:00"
   },
   {
    "titulo": "Megadeth - Announce Massive North American Tour With Anthrax & Kerry King",
@@ -17955,12 +17979,6 @@
    "data": "2026-11-14T18:00:00+00:00"
   },
   {
-   "titulo": "METAL CHURCH To Be Joined By Former Bassist DUKE ERICKSON On Stage In Bremerton, Washington",
-   "link": "https://blabbermouth.net/news/metal-church-to-be-joined-by-former-bassist-duke-erickson-on-stage-in-bremerton-washington",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-14T17:00:07+00:00"
-  },
-  {
    "titulo": "How Obituary’s 'Cause of Death' Cover Was Originally Meant for Sepultura",
    "link": "https://metalinjection.net/editorials/obituary-cause-of-death-cover-sepultura-beneath-the-remains",
    "fonte": "Metal Injection",
@@ -18051,12 +18069,6 @@
    "data": "2026-11-13T17:00:12+00:00"
   },
   {
-   "titulo": "Storm Corrosion, No-man and Porcupine Tree are all at work. Does Steven Wilson have time to tour Requiem For A Village?",
-   "link": "https://www.loudersound.com/bands-artists/i-wasnt-planning-to-tour-it-but-everyone-is-asking-me-now-with-storm-corrosion-no-man-and-porcupine-tree-all-at-work-does-steven-wilson-even-have-time-to-put-requiem-for-a-village-on-stage",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-13T16:00:00+00:00"
-  },
-  {
    "titulo": "Avatar Drop New Christmas Single “Naughty List” Featuring Zakk Wylde",
    "link": "https://metalinjection.net/new-music/avatar-drop-new-christmas-single-naughty-list-featuring-zakk-wylde",
    "fonte": "Metal Injection",
@@ -18073,12 +18085,6 @@
    "link": "https://metalinjection.net/upcoming-releases/heavy-new-releases/the-weekly-injection-new-releases-from-gwar-joe-bob-briggs-silvertomb-and-more-out-this-week-11-13",
    "fonte": "Metal Injection",
    "data": "2026-11-13T14:32:57+00:00"
-  },
-  {
-   "titulo": "Bruce Springsteen reveals how Stephen Spielberg ruined a raunchy Jersey Shore tradition",
-   "link": "https://www.loudersound.com/bands-artists/steven-spielberg-ed-that-up-he-ed-it-up-good-bruce-springsteen-reveals-how-the-legendary-hollywood-director-ruined-a-raunchy-jersey-shore-tradition-with-his-blockbuster-jaws",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-13T14:25:58+00:00"
   },
   {
    "titulo": "Flatspot Records Announces Coffee Table Book, ‘Intent to Distribute,’ Trapped Under Ice Release Show",
@@ -18175,12 +18181,6 @@
    "link": "https://www.theblackplanet.org/linda-martini-postpone-porto-concert/",
    "fonte": "The Black Planet",
    "data": "2026-11-10T18:35:50+00:00"
-  },
-  {
-   "titulo": "Video Premiere: MOTHS – “Path of Existence”",
-   "link": "https://www.decibelmagazine.com/2026/11/10/video-premiere-moths-path-of-existence/",
-   "fonte": "Decibel",
-   "data": "2026-11-10T17:00:45+00:00"
   },
   {
    "titulo": "DISGRUNTLED DAD REVIEWS With DAVE MUSTCOMPLAIN: CARNIFEX – MORE THAN MISERY",
