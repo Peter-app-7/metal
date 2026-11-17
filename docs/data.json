@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-16T19:30:21+00:00",
+ "atualizado": "2026-11-17T01:47:36+00:00",
  "fontes": {
   "excluidas": [
    "Richard Dawkins"
@@ -50,7 +50,7 @@
    },
    {
     "nome": "Decibel",
-    "ok": true,
+    "ok": false,
     "artigos": 10
    },
    {
@@ -71,7 +71,9 @@
   ],
   "spotify_espera_ate": null
  },
- "avisos": [],
+ "avisos": [
+  "Feeds sem resposta nesta atualização: Decibel."
+ ],
  "bandas": [
   {
    "id": "redemptus",
@@ -6245,6 +6247,14 @@
      "spotify": "https://open.spotify.com/album/4ibJ0sQzbHeWfcPpS6gXbQ"
     },
     {
+     "id": "30823c8f-a7ac-4fe5-a266-9fc6fe6ab153",
+     "titulo": "Where Fear and Weapons Meet Bonus LP",
+     "tipo": "EP",
+     "data": "2023-10-22",
+     "capa": "https://coverartarchive.org/release-group/30823c8f-a7ac-4fe5-a266-9fc6fe6ab153/front-250",
+     "spotify": "https://open.spotify.com/search/1914%20Where%20Fear%20and%20Weapons%20Meet%20Bonus%20LP"
+    },
+    {
      "id": "6e813cfe-ee56-480a-9278-dc357e0ea7da",
      "titulo": "Where Fear and Weapons Meet",
      "tipo": "Álbum",
@@ -9555,11 +9565,11 @@
     },
     {
      "id": "4fcc5ec2-d177-396b-b810-9439031b3c3a",
-     "titulo": "Hormoaning",
+     "titulo": "Hormoaning: Exclusive Australian '92 Tour EP",
      "tipo": "EP",
      "data": "1992-01-27",
      "capa": "https://coverartarchive.org/release-group/4fcc5ec2-d177-396b-b810-9439031b3c3a/front-250",
-     "spotify": "https://open.spotify.com/search/Nirvana%20Hormoaning"
+     "spotify": "https://open.spotify.com/search/Nirvana%20Hormoaning%3A%20Exclusive%20Australian%20%2792%20Tour%20EP"
     },
     {
      "id": "1025b898-950f-3e67-b2aa-bdbcd730d9a1",
@@ -17285,10 +17295,82 @@
  ],
  "noticias": [
   {
+   "titulo": "TED NUGENT's 'Gonzo Life' Book Brings Together 532 Pages Of Photographs, Stories And Memorabilia",
+   "link": "https://blabbermouth.net/news/ted-nugents-gonzo-life-book-brings-together-532-pages-of-photographs-stories-and-memorabilia",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-16T21:30:24+00:00"
+  },
+  {
+   "titulo": "Megadeth announce mammoth North American tour with Anthrax and Kerry King",
+   "link": "https://www.loudersound.com/bands-artists/megadeth-announce-north-american-tour-anthrax-kerry-king",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-16T21:28:27+00:00"
+  },
+  {
+   "titulo": "DAVE MUSTAINE And His Family Release Trailer For Reality Show Focusing On 'House Of Mustaine' Wine Brand",
+   "link": "https://blabbermouth.net/news/dave-mustaine-and-his-family-release-trailer-for-reality-show-focusing-on-house-of-mustaine-wine-brand",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-16T20:45:11+00:00"
+  },
+  {
+   "titulo": "REVIEW: XENTRIX’s Allied With The Enemy – “The Resurrection Is For Real”",
+   "link": "https://bravewords.com/album-reviews/review-xentrixs-allied-with-the-enemy-the-resurrection-is-for-real/",
+   "fonte": "BraveWords",
+   "data": "2026-11-16T20:05:24+00:00"
+  },
+  {
+   "titulo": "Canada’s DENIMACHINE Release New Single “Edgelord”; Official Audio Streaming",
+   "link": "https://bravewords.com/news/canadas-denimachine-release-new-single-edgelord-official-audio-streaming/",
+   "fonte": "BraveWords",
+   "data": "2026-11-16T20:02:34+00:00"
+  },
+  {
+   "titulo": "Megadeth - Announce Massive North American Tour With Anthrax & Kerry King",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64603",
+   "fonte": "Metal Storm",
+   "data": "2026-11-16T20:00:00+00:00"
+  },
+  {
+   "titulo": "ZEBRA Is '30 To 40% Into' Making Of Documentary; Official Book In The Works As Well",
+   "link": "https://blabbermouth.net/news/zebra-is-30-to-40-into-making-of-documentary-official-book-in-the-works-as-well",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-16T19:51:53+00:00"
+  },
+  {
+   "titulo": "Necronautical - 'Shadow Work' And Video Track Unveiled",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64602",
+   "fonte": "Metal Storm",
+   "data": "2026-11-16T19:50:37+00:00"
+  },
+  {
+   "titulo": "CHRIS CONNELLY Presents “Doo Wop My Future” Single And Lyric Video From New Album Doo Wop In The Dark: A Portrait Of Lou Reed",
+   "link": "https://bravewords.com/news/chris-connelly-presents-doo-wop-my-future-single-and-lyric-video-from-new-album-doo-wop-in-the-dark-a-portrait-of-lou-reed/",
+   "fonte": "BraveWords",
+   "data": "2026-11-16T19:41:15+00:00"
+  },
+  {
+   "titulo": "The 69 Eyes - To Release New Acoustic Album",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64601",
+   "fonte": "Metal Storm",
+   "data": "2026-11-16T19:33:47+00:00"
+  },
+  {
    "titulo": "GUS G. Reveals What Convinced Him To Join KING DIAMOND’s Band – “He Wanted To Create Something New With Me, To Include Me In The Creation Of New Music”; Video",
    "link": "https://bravewords.com/news/gus-g-reveals-what-convinced-him-to-join-king-diamonds-band-he-wanted-to-create-something-new-with-me-to-include-me-in-the-creation-of-new-music-video/",
    "fonte": "BraveWords",
    "data": "2026-11-16T19:24:55+00:00"
+  },
+  {
+   "titulo": "BRUCE DICKINSON To Release New Solo Single 'One Life, Many Bodies' On Wednesday",
+   "link": "https://blabbermouth.net/news/bruce-dickinson-to-release-new-solo-single-one-life-many-bodies-on-wednesday",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-16T19:20:38+00:00"
+  },
+  {
+   "titulo": "Manes - Deliver New Single",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64600",
+   "fonte": "Metal Storm",
+   "data": "2026-11-16T19:08:50+00:00"
   },
   {
    "titulo": "CARMINE APPICE Says He Is Working On New Audiobook Called 'Every Beat Tells A Story'",
@@ -17301,6 +17383,12 @@
    "link": "https://bravewords.com/kommander/a-brand-new-tales-of-rock-operation-sonic-shield/",
    "fonte": "BraveWords",
    "data": "2026-11-16T19:00:10+00:00"
+  },
+  {
+   "titulo": "Underøath - European Tour Dates Confirmed",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64599",
+   "fonte": "Metal Storm",
+   "data": "2026-11-16T18:58:49+00:00"
   },
   {
    "titulo": "Bleed From Within Is Sponsoring Their Local Football Club",
@@ -17735,12 +17823,6 @@
    "data": "2026-11-15T15:02:44+00:00"
   },
   {
-   "titulo": "Watch Members OF METALLICA, MÖTLEY CRÜE Pay Tribute To IRON MAIDEN At Rock & Roll Hall Of Fame Ceremony",
-   "link": "https://bravewords.com/news/watch-members-of-metallica-motley-crue-pay-tribute-to-iron-maiden-at-rock-roll-hall-of-fame-ceremony/",
-   "fonte": "BraveWords",
-   "data": "2026-11-15T13:34:36+00:00"
-  },
-  {
    "titulo": "Watch: KISS, FOZZY, NIGHT RANGER, KEEL And FASTER PUSSYCAT Members Pay Tribute To ACE FREHLEY At 2026 'KISS Kruise: Land-Locked In Vegas'",
    "link": "https://blabbermouth.net/news/watch-kiss-fozzy-night-ranger-keel-and-faster-pussycat-members-pay-tribute-to-ace-frehley-at-2026-kiss-kruise-land-locked-in-vegas",
    "fonte": "Blabbermouth",
@@ -17757,18 +17839,6 @@
    "link": "https://blabbermouth.net/news/members-of-metallica-rage-against-the-machine-and-motley-crue-pay-tribute-to-iron-maiden-at-2026-rock-and-roll-hall-of-fame-induction-ceremony",
    "fonte": "Blabbermouth",
    "data": "2026-11-15T12:49:12+00:00"
-  },
-  {
-   "titulo": "ROBERT FRIPP & TOYAH Take On A BLACK SABBATH Classic For Sunday Lunch (Video)",
-   "link": "https://bravewords.com/news/robert-fripp-toyah-take-on-a-black-sabbath-classic-for-sunday-lunch-video/",
-   "fonte": "BraveWords",
-   "data": "2026-11-15T12:47:08+00:00"
-  },
-  {
-   "titulo": "BLUE MEDUSA Featuring ALISSA WHITE-GLUZ Confirmed For Germany’s Rock Am Ring And Rock Im Park Festivals In June 2027",
-   "link": "https://bravewords.com/news/blue-medusa-featuring-alissa-white-gluz-confirmed-for-germanys-rock-am-ring-and-rock-im-park-festivals-in-june-2027/",
-   "fonte": "BraveWords",
-   "data": "2026-11-15T11:30:35+00:00"
   },
   {
    "titulo": "Watch the Red Hot Chilli Peppers honour Rick Rubin by dressing up as Rick Rubin at the Rock And Roll Hall Of Fame ceremony",
@@ -17801,28 +17871,10 @@
    "data": "2026-11-15T09:29:54+00:00"
   },
   {
-   "titulo": "SolNegre - Deliver New Single",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64583",
-   "fonte": "Metal Storm",
-   "data": "2026-11-15T09:18:26+00:00"
-  },
-  {
    "titulo": "The wild supergroup who paid tribute to Iron Maiden at the Rock And Roll Hall Of Fame",
    "link": "https://www.loudersound.com/bands-artists/iron-maiden-are-inducted-into-the-rock-and-roll-hall-of-fame-and-a-wild-supergroup-paid-tribute-to-them",
    "fonte": "Metal Hammer",
    "data": "2026-11-15T09:09:40+00:00"
-  },
-  {
-   "titulo": "Cavalera - Shows In Latin America Confirmed",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64582",
-   "fonte": "Metal Storm",
-   "data": "2026-11-15T09:05:50+00:00"
-  },
-  {
-   "titulo": "Transport League - Former Drummer Died",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64558",
-   "fonte": "Metal Storm",
-   "data": "2026-11-15T08:45:23+00:00"
   },
   {
    "titulo": "“You haven't heard the last of me. I can promise you that”: Phil Collins gets emotional at Rock Hall induction",
@@ -17859,18 +17911,6 @@
    "link": "https://blabbermouth.net/news/mark-osegueda-says-next-death-angel-album-probably-wont-arrive-before-early-2028",
    "fonte": "Blabbermouth",
    "data": "2026-11-14T22:29:35+00:00"
-  },
-  {
-   "titulo": "Red Moon Architect - Reveal 'The New Dawn' Track",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64562",
-   "fonte": "Metal Storm",
-   "data": "2026-11-14T21:23:18+00:00"
-  },
-  {
-   "titulo": "Iron Altar - Third Studio Album On The Way",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64581",
-   "fonte": "Metal Storm",
-   "data": "2026-11-14T21:18:32+00:00"
   },
   {
    "titulo": "Beards, buzzards and rehab: inside ZZ Top’s wild six-year reinvention",
@@ -17939,12 +17979,6 @@
    "data": "2026-11-14T16:30:17+00:00"
   },
   {
-   "titulo": "JACK BLACK: RONNIE JAMES DIO Is 'Still The Reigning Champion, Greatest Heavy Metal Vocalist Of All Time'",
-   "link": "https://blabbermouth.net/news/jack-black-ronnie-james-dio-is-still-the-reigning-champion-greatest-heavy-metal-vocalist-of-all-time",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-14T16:30:06+00:00"
-  },
-  {
    "titulo": "How Faith No More trolled a generation of metal fans with Easy",
    "link": "https://www.loudersound.com/music/tracks-singles/faith-no-more-easy-story-behind-cover-version",
    "fonte": "Metal Hammer",
@@ -17957,28 +17991,10 @@
    "data": "2026-11-14T15:48:37+00:00"
   },
   {
-   "titulo": "DAVE MUSTAINE On MEGADETH's 'Retirement Tour': 'We're Gonna Play As Long As We Can'",
-   "link": "https://blabbermouth.net/news/dave-mustaine-on-megadeths-retirement-tour-were-gonna-play-as-long-as-we-can",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-14T15:39:15+00:00"
-  },
-  {
    "titulo": "Rhea Ripley Joins Motionless In White Onstage, Celine Dion Rocks Out at Metallica + More Top Stories of the Week",
    "link": "https://metalinjection.net/injection-reflection/rhea-ripley-joins-motionless-in-white-onstage-celine-dion-rocks-out-at-metallica-more-top-stories-of-the-week",
    "fonte": "Metal Injection",
    "data": "2026-11-14T14:40:03+00:00"
-  },
-  {
-   "titulo": "JAMES MICHAEL 'Would Absolutely Revisit' SIXX: A.M. Again: 'I Would Be Open To That'",
-   "link": "https://blabbermouth.net/news/james-michael-would-absolutely-revisit-sixx-a-m-again-i-would-be-open-to-that",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-14T14:33:50+00:00"
-  },
-  {
-   "titulo": "See SLAYER's Fiery 'Reign In Blood' 40th-Anniversary Celebration At Forum In Los Angeles",
-   "link": "https://blabbermouth.net/news/see-slayers-fiery-reign-in-blood-40th-anniversary-celebration-at-forum-in-los-angeles",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-14T13:42:59+00:00"
   },
   {
    "titulo": "Rick Wakeman and sons Oliver and Adam in the prog dynasty’s first family interview",
@@ -18063,12 +18079,6 @@
    "link": "https://www.loudersound.com/bands-artists/steven-spielberg-ed-that-up-he-ed-it-up-good-bruce-springsteen-reveals-how-the-legendary-hollywood-director-ruined-a-raunchy-jersey-shore-tradition-with-his-blockbuster-jaws",
    "fonte": "Metal Hammer",
    "data": "2026-11-13T14:25:58+00:00"
-  },
-  {
-   "titulo": "\"We could have a double album!' Slipknot's Clown gives an update on their new music",
-   "link": "https://www.loudersound.com/bands-artists/weve-written-so-many-songs-we-could-have-a-double-album-slipknots-clown-gives-an-update-on-their-new-music",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-13T11:50:22+00:00"
   },
   {
    "titulo": "Flatspot Records Announces Coffee Table Book, ‘Intent to Distribute,’ Trapped Under Ice Release Show",
@@ -18179,10 +18189,10 @@
    "data": "2026-11-10T15:00:00+00:00"
   },
   {
-   "titulo": "Bilha D’Aço 2027 confirms Discharge",
-   "link": "https://www.theblackplanet.org/bilha-daco-2027/",
+   "titulo": "Moonspell revisit three decades of songs at the second night of Invicta Halloween",
+   "link": "https://www.theblackplanet.org/moonspell-revisit-three-decades-of-songs-at-the-second-night-of-invicta-halloween/",
    "fonte": "The Black Planet",
-   "data": "2026-11-09T16:55:21+00:00"
+   "data": "2026-11-10T01:33:46+00:00"
   }
  ]
 }
