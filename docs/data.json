@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-17T19:36:26+00:00",
+ "atualizado": "2026-11-18T01:54:01+00:00",
  "fontes": {
   "excluidas": [
    "Richard Dawkins"
@@ -7,7 +7,7 @@
   "agenda": {
    "estado": "ok",
    "linhas": 79,
-   "futuras": 60,
+   "futuras": 59,
    "rejeitadas": [],
    "quase": [
     {
@@ -55,7 +55,7 @@
    },
    {
     "nome": "BraveWords",
-    "ok": true,
+    "ok": false,
     "artigos": 30
    },
    {
@@ -71,7 +71,9 @@
   ],
   "spotify_espera_ate": null
  },
- "avisos": [],
+ "avisos": [
+  "Feeds sem resposta nesta atualização: BraveWords."
+ ],
  "bandas": [
   {
    "id": "redemptus",
@@ -17293,10 +17295,106 @@
  ],
  "noticias": [
   {
+   "titulo": "Jack Black names the greatest heavy metal vocalist of all time: \"He's still the reigning champion\"",
+   "link": "https://www.loudersound.com/bands-artists/jack-black-names-the-greatest-heavy-metal-vocalist-of-all-time",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-18T01:00:00+00:00"
+  },
+  {
+   "titulo": "The Rolling Stones have produced the spookiest lava lamp you'll ever see",
+   "link": "https://www.loudersound.com/culture/merchandise/the-rolling-stones-paint-it-black-lava-lamp",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-18T00:01:00+00:00"
+  },
+  {
+   "titulo": "AVATAR Announces May/June 2027 North American Headlining Shows Around METALLICA Support Dates",
+   "link": "https://blabbermouth.net/news/avatar-announces-may-june-2027-north-american-headlining-shows-around-metallica-support-dates",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-17T22:41:27+00:00"
+  },
+  {
+   "titulo": "Fugazi's Ian MacKaye reveals the life lesson he learned meeting fellow punk legend Jello Biafra for the first time",
+   "link": "https://www.loudersound.com/bands-artists/fugazi-ian-mackaye-recalls-first-meeting-with-jello-biafra",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-17T22:00:00+00:00"
+  },
+  {
+   "titulo": "STEVE HACKETT Announces New Solo Album 'Through A Sea Of Flames'",
+   "link": "https://blabbermouth.net/news/steve-hackett-announces-new-solo-album-through-a-sea-of-flames",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-17T21:40:26+00:00"
+  },
+  {
+   "titulo": "Queen finally give their Christmas classic the makeover it always deserved",
+   "link": "https://www.loudersound.com/music/tracks-singles/queen-finally-give-their-christmas-classic-the-makeover-it-always-deserved",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-17T21:28:48+00:00"
+  },
+  {
+   "titulo": "AMANDA SOMERVILLE Launches GoFundMe Campaign To Help Her Receive Treatment For Inoperable Cancerous Brain Tumor",
+   "link": "https://blabbermouth.net/news/amanda-somerville-launches-gofundme-campaign-to-help-her-receive-treatment-for-inoperable-cancerous-brain-tumor",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-17T21:05:36+00:00"
+  },
+  {
+   "titulo": "Kerry King - Second Album Set For February Release",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64618",
+   "fonte": "Metal Storm",
+   "data": "2026-11-17T20:50:03+00:00"
+  },
+  {
+   "titulo": "TÝR Announces March/April 2027 North American Tour With DYNAZTY, DOMINUM And EDGE OF PARADISE",
+   "link": "https://blabbermouth.net/news/tyr-announces-march-april-2027-north-american-tour-with-dynazty-dominum-and-edge-of-paradise",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-17T20:48:00+00:00"
+  },
+  {
+   "titulo": "Freedom Of Fear - Reveal New Song",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64617",
+   "fonte": "Metal Storm",
+   "data": "2026-11-17T20:31:47+00:00"
+  },
+  {
+   "titulo": "Faith No More - Confirm South American Shows With Alice In Chains And Mastodon",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64616",
+   "fonte": "Metal Storm",
+   "data": "2026-11-17T20:23:22+00:00"
+  },
+  {
+   "titulo": "Avatar Announce 2027 Headlining Tour With Barbarians of California, Gates to Hell",
+   "link": "https://metalinjection.net/tour-dates/avatar-2027-tour-metallica-barbarians-of-california",
+   "fonte": "Metal Injection",
+   "data": "2026-11-17T20:11:12+00:00"
+  },
+  {
+   "titulo": "Full EP Stream: Overture – “The Final Straw”",
+   "link": "https://www.decibelmagazine.com/2026/11/17/full-ep-stream-overture-the-final-straw/",
+   "fonte": "Decibel",
+   "data": "2026-11-17T20:00:55+00:00"
+  },
+  {
+   "titulo": "Bond goes nu metal? 11 rock bands who’d make a killer theme song for Robert Pattinson’s 007 debut",
+   "link": "https://www.loudersound.com/features/rock-bands-could-make-next-james-bond-theme-tune-pulp-radiohead-evanescence-deftones-ulver",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-17T20:00:00+00:00"
+  },
+  {
+   "titulo": "Watch: JOSH HOMME And Friends Unite For One-Night-Only Benefit Concert At Los Angeles's Wiltern",
+   "link": "https://blabbermouth.net/news/watch-josh-homme-and-friends-unite-for-one-night-only-benefit-concert-at-los-angeless-wiltern",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-17T19:53:56+00:00"
+  },
+  {
    "titulo": "HALESTORM Signs Exclusive Worldwide Management Deal With 10th Street Entertainment",
    "link": "https://bravewords.com/news/halestorm-signs-exclusive-worldwide-management-deal-with-10th-street-entertainment/",
    "fonte": "BraveWords",
    "data": "2026-11-17T19:33:22+00:00"
+  },
+  {
+   "titulo": "Watch: DEE SNIDER Inducts His Wife, Costume Designer SUZETTE GUILOT-SNIDER, Into 'Long Island Music And Entertainment Hall Of Fame'",
+   "link": "https://blabbermouth.net/news/watch-dee-snider-inducts-his-wife-costume-designer-suzette-guilot-snider-into-long-island-music-and-entertainment-hall-of-fame",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-17T19:29:45+00:00"
   },
   {
    "titulo": "STEVE HACKETT To Release Through A Sea Of Flames Album In February",
@@ -17809,34 +17907,16 @@
    "data": "2026-11-16T20:00:41+00:00"
   },
   {
-   "titulo": "Megadeth - Announce Massive North American Tour With Anthrax & Kerry King",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64603",
-   "fonte": "Metal Storm",
-   "data": "2026-11-16T20:00:00+00:00"
-  },
-  {
    "titulo": "ZEBRA Is '30 To 40% Into' Making Of Documentary; Official Book In The Works As Well",
    "link": "https://blabbermouth.net/news/zebra-is-30-to-40-into-making-of-documentary-official-book-in-the-works-as-well",
    "fonte": "Blabbermouth",
    "data": "2026-11-16T19:51:53+00:00"
   },
   {
-   "titulo": "Necronautical - 'Shadow Work' Track And Video Unveiled",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64602",
-   "fonte": "Metal Storm",
-   "data": "2026-11-16T19:50:37+00:00"
-  },
-  {
    "titulo": "CHRIS CONNELLY Presents “Doo Wop My Future” Single And Lyric Video From New Album Doo Wop In The Dark: A Portrait Of Lou Reed",
    "link": "https://bravewords.com/news/chris-connelly-presents-doo-wop-my-future-single-and-lyric-video-from-new-album-doo-wop-in-the-dark-a-portrait-of-lou-reed/",
    "fonte": "BraveWords",
    "data": "2026-11-16T19:41:15+00:00"
-  },
-  {
-   "titulo": "The 69 Eyes - To Release New Acoustic Album",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64601",
-   "fonte": "Metal Storm",
-   "data": "2026-11-16T19:33:47+00:00"
   },
   {
    "titulo": "GUS G. Reveals What Convinced Him To Join KING DIAMOND’s Band – “He Wanted To Create Something New With Me, To Include Me In The Creation Of New Music”; Video",
@@ -17917,22 +17997,10 @@
    "data": "2026-11-16T15:31:20+00:00"
   },
   {
-   "titulo": "MEGADETH, ANTHRAX, MASTODON And KNOCKED LOOSE Among 2027 GRAMMY AWARDS 'Best Metal Performance' Nominees",
-   "link": "https://blabbermouth.net/news/megadeth-anthrax-mastodon-and-knocked-loose-among-2027-grammy-awards-best-metal-performance-nominees",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-16T14:55:37+00:00"
-  },
-  {
    "titulo": "See DRAGONFORCE's Entire Performance In Anaheim During 'Inhuman Rampage' 20th-Anniversary Tour",
    "link": "https://blabbermouth.net/news/see-dragonforces-entire-performance-in-anaheim-during-inhuman-rampage-20th-anniversary-tour",
    "fonte": "Blabbermouth",
    "data": "2026-11-16T14:36:50+00:00"
-  },
-  {
-   "titulo": "Watch: TWISTED SISTER, Featuring SEBASTIAN BACH, Performs In Bristol, Virginia",
-   "link": "https://blabbermouth.net/news/watch-twisted-sister-featuring-sebastian-bach-performs-in-bristol-virginia",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-16T14:13:12+00:00"
   },
   {
    "titulo": "2027 Grammy nominations announced - see the full list of rock and metal names here",
@@ -17941,22 +18009,10 @@
    "data": "2026-11-16T13:56:43+00:00"
   },
   {
-   "titulo": "UNDEROATH Announces Spring 2027 European Tour With SAOSIN And I PROMISED THE WORLD",
-   "link": "https://blabbermouth.net/news/underoath-announces-spring-2027-european-tour-with-saosin-and-i-promised-the-world",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-16T13:45:46+00:00"
-  },
-  {
    "titulo": "2027 Grammys: The Full List of Rock, Metal and Alternative Nominees",
    "link": "https://metalinjection.net/news/2027-grammy-nominees-rock-metal-alternative",
    "fonte": "Metal Injection",
    "data": "2026-11-16T13:34:33+00:00"
-  },
-  {
-   "titulo": "Watch: KISS Joined By Ex-Guitarist BRUCE KULICK For 'Domino' Performance at 2026 'KISS Kruise: Land-Locked In Vegas'",
-   "link": "https://blabbermouth.net/news/watch-kiss-joined-by-ex-guitarist-bruce-kulick-for-domino-performance-at-2026-kiss-kruise-land-locked-in-vegas",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-16T13:01:16+00:00"
   },
   {
    "titulo": "Order your exclusive Trivium Crown In The Grave bundle featuring the album on yellow vinyl",
@@ -17995,12 +18051,6 @@
    "data": "2026-11-16T06:55:24+00:00"
   },
   {
-   "titulo": "KISS To Release 'Conquers Japan 1977' Live Box Set In 2027",
-   "link": "https://blabbermouth.net/news/kiss-to-release-conquers-japan-1977-live-box-set-in-2027",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-16T06:41:06+00:00"
-  },
-  {
    "titulo": "Watch Mike Portnoy discover son doesn’t recall Dream Theater split – though he was there when it began",
    "link": "https://www.loudersound.com/bands-artists/son-i-straight-up-do-not-remember-dad-really-watch-mike-portnoy-discover-max-doesnt-recall-the-dream-theater-split-even-though-he-was-there-when-it-began",
    "fonte": "Metal Hammer",
@@ -18017,12 +18067,6 @@
    "link": "https://www.loudersound.com/bands-artists/john-fogerty-creedence-clearwater-revival-zach-bryan-ford-bronco",
    "fonte": "Metal Hammer",
    "data": "2026-11-16T00:34:48+00:00"
-  },
-  {
-   "titulo": "AVATAR's JOHN ALFREDSSON Praises LARS ULRICH's Drumming: 'He Will Blow You Away. He's So Good.'",
-   "link": "https://blabbermouth.net/news/avatars-john-alfredsson-praises-lars-ulrichs-drumming-he-will-blow-you-away-hes-so-good",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-16T00:24:17+00:00"
   },
   {
    "titulo": "Journey drummer Dean Castronovo leaves tour to concentrate on \"personal health matters\"",
@@ -18043,22 +18087,10 @@
    "data": "2026-11-15T18:00:00+00:00"
   },
   {
-   "titulo": "Floor Jansen says Nightwish helped her past a nervous breakdown",
-   "link": "https://www.loudersound.com/bands-artists/interviews/floor-jansen-nightwish-nervous-breakdown",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-15T17:00:00+00:00"
-  },
-  {
    "titulo": "How Michael Jackson Accidentally Gave Black Metal Its Name",
    "link": "https://metalinjection.net/editorials/venom-cronos-black-metal-name-origin-michael-jackson",
    "fonte": "Metal Injection",
    "data": "2026-11-15T16:27:21+00:00"
-  },
-  {
-   "titulo": "Wednesday 13 on reuniting Murderdolls without Joey Jordison",
-   "link": "https://www.loudersound.com/bands-artists/theres-nothing-more-that-i-would-love-than-to-have-that-guy-here-with-us-wednesday-13-on-reuniting-murderdolls-without-joey-jordison",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-15T16:00:00+00:00"
   },
   {
    "titulo": "10 Industrial Metal Albums That Aged Incredibly Well",
@@ -18071,24 +18103,6 @@
    "link": "https://metalinjection.net/news/members-of-metallica-st-vincent-jack-black-more-pay-tribute-to-iron-maiden-at-rock-roll-hall-of-fame",
    "fonte": "Metal Injection",
    "data": "2026-11-15T15:13:03+00:00"
-  },
-  {
-   "titulo": "Slayer’s Tom Araya threatens to pull show as fans trash venue",
-   "link": "https://www.loudersound.com/bands-artists/slayer-tom-araya-threatens-to-leave-if-fans-trash-venue",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-15T13:03:51+00:00"
-  },
-  {
-   "titulo": "Watch the Red Hot Chilli Peppers honour Rick Rubin by dressing up as Rick Rubin at the Rock And Roll Hall Of Fame ceremony",
-   "link": "https://www.loudersound.com/bands-artists/live-performances/watch-the-red-hot-chilli-peppers-honour-rick-rubin-by-dressing-up-as-rick-rubin-at-the-rock-and-roll-hall-of-fame-ceremony",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-15T11:02:16+00:00"
-  },
-  {
-   "titulo": "The wild supergroup who paid tribute to Iron Maiden at the Rock And Roll Hall Of Fame",
-   "link": "https://www.loudersound.com/bands-artists/iron-maiden-are-inducted-into-the-rock-and-roll-hall-of-fame-and-a-wild-supergroup-paid-tribute-to-them",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-15T09:09:40+00:00"
   },
   {
    "titulo": "Stuck on the Tarmac With No Way Out, Passengers Got a Surprise Hoobastank and The Used Set",
@@ -18169,12 +18183,6 @@
    "data": "2026-11-13T15:00:06+00:00"
   },
   {
-   "titulo": "The Weekly Injection: New Releases from Gwar & Joe Bob Briggs, Silvertomb, and More Out This Week – 11/13",
-   "link": "https://metalinjection.net/upcoming-releases/heavy-new-releases/the-weekly-injection-new-releases-from-gwar-joe-bob-briggs-silvertomb-and-more-out-this-week-11-13",
-   "fonte": "Metal Injection",
-   "data": "2026-11-13T14:32:57+00:00"
-  },
-  {
    "titulo": "Video Premiere: Sapraemia – “7th Entity”",
    "link": "https://www.decibelmagazine.com/2026/11/12/video-premiere-sapraemia-7th-entity/",
    "fonte": "Decibel",
@@ -18185,12 +18193,6 @@
    "link": "https://www.decibelmagazine.com/2026/11/12/spoiler-here-are-decibels-top-40-albums-of-2026/",
    "fonte": "Decibel",
    "data": "2026-11-12T16:00:34+00:00"
-  },
-  {
-   "titulo": "Full Album Stream: Let’s Have The Conversation About Lockslip’s Favourite Albums",
-   "link": "https://www.decibelmagazine.com/2026/11/12/full-album-stream-lets-have-the-conversation-about-lockslips-favourite-albums/",
-   "fonte": "Decibel",
-   "data": "2026-11-12T14:30:05+00:00"
   }
  ]
 }
