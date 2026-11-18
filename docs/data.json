@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-18T07:51:12+00:00",
+ "atualizado": "2026-11-18T13:47:01+00:00",
  "fontes": {
   "excluidas": [
    "Richard Dawkins"
@@ -55,7 +55,7 @@
    },
    {
     "nome": "BraveWords",
-    "ok": false,
+    "ok": true,
     "artigos": 30
    },
    {
@@ -71,9 +71,7 @@
   ],
   "spotify_espera_ate": null
  },
- "avisos": [
-  "Feeds sem resposta nesta atualização: BraveWords."
- ],
+ "avisos": [],
  "bandas": [
   {
    "id": "redemptus",
@@ -17295,6 +17293,102 @@
  ],
  "noticias": [
   {
+   "titulo": "FLOOR JANSEN Reflects On Joining NIGHTWISH On Tour In 2012 – “If They Would Have Called Me A Month Earlier, I Don’t Think I Could Have Done It”",
+   "link": "https://bravewords.com/news/floor-jansen-reflects-on-joining-nightwish-on-tour-in-2012-if-they-would-have-called-me-a-month-earlier-i-dont-think-i-could-have-done-it/",
+   "fonte": "BraveWords",
+   "data": "2026-11-18T13:03:53+00:00"
+  },
+  {
+   "titulo": "JAY BENTLEY: No New BAD RELIGION Album Until Late 2027 At The Earliest",
+   "link": "https://blabbermouth.net/news/jay-bentley-no-new-bad-religion-album-until-late-2027-at-the-earliest",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-18T12:47:46+00:00"
+  },
+  {
+   "titulo": "Tanith - Third Full Length Due In February",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64624",
+   "fonte": "Metal Storm",
+   "data": "2026-11-18T12:13:13+00:00"
+  },
+  {
+   "titulo": "12 awesome metal songs I need to hear on the Grand Theft Auto VI soundtrack",
+   "link": "https://www.loudersound.com/culture/gaming/12-awesome-metal-songs-i-need-to-hear-on-the-grand-theft-auto-vi-soundtrack",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-18T12:00:00+00:00"
+  },
+  {
+   "titulo": "Echo & The Bunnymen's Ian McCulloch: The soundtrack of my life",
+   "link": "https://www.loudersound.com/bands-artists/interviews/ian-mcculloch-soundtrack-of-my-life",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-18T11:05:00+00:00"
+  },
+  {
+   "titulo": "Dying Fetus - Announce US Tour With Cryptopsy And Gorgasm",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64623",
+   "fonte": "Metal Storm",
+   "data": "2026-11-18T10:01:02+00:00"
+  },
+  {
+   "titulo": "ENTROPY’s 1992 Debut Album Ashen Existence Available On Vinyl For The First Time",
+   "link": "https://bravewords.com/news/entropys-1992-debut-album-ashen-existence-available-on-vinyl-for-the-first-time/",
+   "fonte": "BraveWords",
+   "data": "2026-11-18T10:00:49+00:00"
+  },
+  {
+   "titulo": "Blink-182 and Pierce The Veil to headline When We Were Young 2027",
+   "link": "https://www.loudersound.com/bands-artists/blink-182-pierce-the-veil-announced-as-headliners-for-when-we-were-young-2027",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-18T10:00:00+00:00"
+  },
+  {
+   "titulo": "Serious Black - Drop New Single",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64622",
+   "fonte": "Metal Storm",
+   "data": "2026-11-18T09:47:34+00:00"
+  },
+  {
+   "titulo": "Slomosa - East Coast Tour Dates Confirmed",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64621",
+   "fonte": "Metal Storm",
+   "data": "2026-11-18T09:44:22+00:00"
+  },
+  {
+   "titulo": "Heljarmadr - Sign With Darkness Shall Rise Productions",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64620",
+   "fonte": "Metal Storm",
+   "data": "2026-11-18T09:37:35+00:00"
+  },
+  {
+   "titulo": "Massive Attack, Angine De Poitrine, Kraftwerk, Primal Scream and Dinosaur Jr among the artists announced for Glastonbury 2027, with Sam Fender, Harry Styles and Billie Eilish headlining",
+   "link": "https://www.loudersound.com/news/glastonbury-2027-artists-confirmed",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-18T09:37:17+00:00"
+  },
+  {
+   "titulo": "Grief Ritual - 'Systematic Enslavement' Track Unleashed",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64619",
+   "fonte": "Metal Storm",
+   "data": "2026-11-18T09:31:48+00:00"
+  },
+  {
+   "titulo": "A Look At The Reign Of SLIPKNOT – “Defined By A Brutal Mix Of Platinum-Selling Success And Internal Politics” (Video)",
+   "link": "https://bravewords.com/news/a-look-at-the-reign-of-slipknot-defined-by-a-brutal-mix-of-platinum-selling-success-and-internal-politics-video/",
+   "fonte": "BraveWords",
+   "data": "2026-11-18T09:28:47+00:00"
+  },
+  {
+   "titulo": "The Bo Diddley albums you should definitely listen to... and one to avoid",
+   "link": "https://www.loudersound.com/music/albums/bo-diddley-best-albums",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-18T09:23:57+00:00"
+  },
+  {
+   "titulo": "ZZ TOP – Gibson Launches Two New Recreations Of BILLY GIBBONS’ 1959 “Pearly Gates” Les Paul Standard (Video)",
+   "link": "https://bravewords.com/news/zz-top-gibson-launches-two-new-recreations-of-billy-gibbons-1959-pearly-gates-les-paul-standard-video/",
+   "fonte": "BraveWords",
+   "data": "2026-11-18T09:02:35+00:00"
+  },
+  {
    "titulo": "AVATAR Announces May/June 2027 North American Headlining Shows Around METALLICA Support Dates",
    "link": "https://blabbermouth.net/news/avatar-announces-may-june-2027-north-american-headlining-shows-around-metallica-support-dates",
    "fonte": "Blabbermouth",
@@ -17325,6 +17419,18 @@
    "data": "2026-11-18T00:01:00+00:00"
   },
   {
+   "titulo": "AMANDA SOMERVILLE Provides Update On Brain Tumor Treatment – “I Have Decided To Move Entire Family To The U.S.”",
+   "link": "https://bravewords.com/heavy-metal/amanda-somerville-provides-update-on-brain-tumor-treatment-i-have-decided-to-move-entire-family-to-the-u-s/",
+   "fonte": "BraveWords",
+   "data": "2026-11-17T23:07:33+00:00"
+  },
+  {
+   "titulo": "DEE SNIDER And RIKI RACHTMAN Present Episode Four Of “The Ball”",
+   "link": "https://bravewords.com/news/dee-snider-and-riki-rachtman-present-episode-four-of-the-ball/",
+   "fonte": "BraveWords",
+   "data": "2026-11-17T22:11:28+00:00"
+  },
+  {
    "titulo": "Fugazi's Ian MacKaye reveals the life lesson he learned meeting fellow punk legend Jello Biafra for the first time",
    "link": "https://www.loudersound.com/bands-artists/fugazi-ian-mackaye-recalls-first-meeting-with-jello-biafra",
    "fonte": "Metal Hammer",
@@ -17337,10 +17443,22 @@
    "data": "2026-11-17T21:40:26+00:00"
   },
   {
+   "titulo": "KORE ROZZIK Unveils Explosive, Pro-Wrestling-Fueled Music Video For “Rock Hell”",
+   "link": "https://bravewords.com/news/kore-rozzik-unveils-explosive-pro-wrestling-fueled-music-video-for-rock-hell/",
+   "fonte": "BraveWords",
+   "data": "2026-11-17T21:35:53+00:00"
+  },
+  {
    "titulo": "Queen finally give their Christmas classic the makeover it always deserved",
    "link": "https://www.loudersound.com/music/tracks-singles/queen-finally-give-their-christmas-classic-the-makeover-it-always-deserved",
    "fonte": "Metal Hammer",
    "data": "2026-11-17T21:28:48+00:00"
+  },
+  {
+   "titulo": "TANITH Feat. SATAN Guitarist To Release Worldview In February; First Single Streaming",
+   "link": "https://bravewords.com/heavy-metal/tanith-feat-satan-guitarist-to-release-worldview-in-february-first-single-streaming/",
+   "fonte": "BraveWords",
+   "data": "2026-11-17T21:09:33+00:00"
   },
   {
    "titulo": "AMANDA SOMERVILLE Launches GoFundMe Campaign To Help Her Receive Treatment For Inoperable Cancerous Brain Tumor",
@@ -17395,6 +17513,12 @@
    "link": "https://blabbermouth.net/news/watch-josh-homme-and-friends-unite-for-one-night-only-benefit-concert-at-los-angeless-wiltern",
    "fonte": "Blabbermouth",
    "data": "2026-11-17T19:53:56+00:00"
+  },
+  {
+   "titulo": "AVATAR Announce Headline Tour Around METALLICA Support Dates Throughout North America In 2027",
+   "link": "https://bravewords.com/news/avatar-announce-headline-tour-around-metallica-support-dates-throughout-north-america-in-2027/",
+   "fonte": "BraveWords",
+   "data": "2026-11-17T19:50:29+00:00"
   },
   {
    "titulo": "HALESTORM Signs Exclusive Worldwide Management Deal With 10th Street Entertainment",
@@ -17613,12 +17737,6 @@
    "data": "2026-11-17T16:00:00+00:00"
   },
   {
-   "titulo": "Rush's Geddy Lee addresses the rise of antisemitism: \"It’s a dark time for people with my background\"",
-   "link": "https://www.loudersound.com/bands-artists/rush-geddy-lee-on-the-rise-of-antisemitism",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-17T16:00:00+00:00"
-  },
-  {
    "titulo": "'L'Amour: The Rock Capitol Of Brooklyn' Documentary About New York City's Legendary Rock Venue Coming In 2028",
    "link": "https://blabbermouth.net/news/lamour-the-rock-capitol-of-brooklyn-documentary-about-new-york-citys-legendary-rock-venue-coming-in-2028",
    "fonte": "Blabbermouth",
@@ -17775,28 +17893,10 @@
    "data": "2026-11-17T10:39:44+00:00"
   },
   {
-   "titulo": "Firn - Announce LP Release, Details Revealed",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64609",
-   "fonte": "Metal Storm",
-   "data": "2026-11-17T10:38:14+00:00"
-  },
-  {
-   "titulo": "Judas Priest - European 2027 Summer Shows Confirmed",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64608",
-   "fonte": "Metal Storm",
-   "data": "2026-11-17T10:29:28+00:00"
-  },
-  {
    "titulo": "Watch DRAGONFORCE’s Entire Inhuman Rampage 20th Anniversary Show In Anaheim; 4K Fan-Filmed Video",
    "link": "https://bravewords.com/news/watch-dragonforces-entire-inhuman-rampage-20th-anniversary-show-in-anaheim-4k-fan-filmed-video/",
    "fonte": "BraveWords",
    "data": "2026-11-17T10:06:14+00:00"
-  },
-  {
-   "titulo": "Sonum - New Track Streaming Online",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64607",
-   "fonte": "Metal Storm",
-   "data": "2026-11-17T09:56:06+00:00"
   },
   {
    "titulo": "SERIOUS BLACK Releases New Single / Video “Little Bird Fly”",
@@ -17817,24 +17917,6 @@
    "data": "2026-11-17T09:34:26+00:00"
   },
   {
-   "titulo": "Danzig - Original Guitarist Dead At 61",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64604",
-   "fonte": "Metal Storm",
-   "data": "2026-11-17T09:00:12+00:00"
-  },
-  {
-   "titulo": "Ecnephias - Eighth Studio Record On The Way",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64606",
-   "fonte": "Metal Storm",
-   "data": "2026-11-17T08:58:48+00:00"
-  },
-  {
-   "titulo": "Gormoth - Share New Song",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64605",
-   "fonte": "Metal Storm",
-   "data": "2026-11-17T08:54:16+00:00"
-  },
-  {
    "titulo": "The Darkness, The Cult, Skindred, Eagles of Death Metal and more confirmed for Rock N Roll Circus",
    "link": "https://www.loudersound.com/bands-artists/music-festivals/the-darkness-the-cult-skindred-eagles-of-death-metal-rock-n-roll-circus",
    "fonte": "Metal Hammer",
@@ -17851,30 +17933,6 @@
    "link": "https://www.loudersound.com/bands-artists/dolly-parton-her-life-in-10-songs",
    "fonte": "Metal Hammer",
    "data": "2026-11-17T04:05:00+00:00"
-  },
-  {
-   "titulo": "Former DANZIG Guitarist JOHN CHRIST Dead At 61",
-   "link": "https://bravewords.com/news/former-danzig-guitarist-john-christ-dead-at-61/",
-   "fonte": "BraveWords",
-   "data": "2026-11-17T03:59:14+00:00"
-  },
-  {
-   "titulo": "CANDY Featuring GILBY CLARKE Re-Record Whatever Happened To Fun",
-   "link": "https://bravewords.com/news/candy-featuring-gilby-clarke-re-record-whatever-happened-to-fun/",
-   "fonte": "BraveWords",
-   "data": "2026-11-17T03:21:17+00:00"
-  },
-  {
-   "titulo": "DAVE MUSTAINE And Family Reveal Trailer For Reality Show About House Of Mustaine Wine",
-   "link": "https://bravewords.com/news/dave-mustaine-and-family-reveal-trailer-for-reality-show-about-house-of-mustaine-wine/",
-   "fonte": "BraveWords",
-   "data": "2026-11-17T02:49:46+00:00"
-  },
-  {
-   "titulo": "BRUCE DICKINSON – New Solo Single / Video “One Life, Many Bodies” Due Wednesday",
-   "link": "https://bravewords.com/news/bruce-dickinson-new-solo-single-video-one-life-many-bodies-due-wednesday/",
-   "fonte": "BraveWords",
-   "data": "2026-11-17T01:57:55+00:00"
   },
   {
    "titulo": "Uriah Heep announce 2027 North American tour",
@@ -17901,18 +17959,6 @@
    "data": "2026-11-16T20:45:11+00:00"
   },
   {
-   "titulo": "REVIEW: XENTRIX’s Allied With The Enemy – “The Resurrection Is For Real”",
-   "link": "https://bravewords.com/album-reviews/review-xentrixs-allied-with-the-enemy-the-resurrection-is-for-real/",
-   "fonte": "BraveWords",
-   "data": "2026-11-16T20:05:24+00:00"
-  },
-  {
-   "titulo": "Canada’s DENIMACHINE Release New Single “Edgelord”; Official Audio Streaming",
-   "link": "https://bravewords.com/news/canadas-denimachine-release-new-single-edgelord-official-audio-streaming/",
-   "fonte": "BraveWords",
-   "data": "2026-11-16T20:02:34+00:00"
-  },
-  {
    "titulo": "Full EP Stream: Dothe –Dothe",
    "link": "https://www.decibelmagazine.com/2026/11/16/full-ep-stream-dothe-dothe/",
    "fonte": "Decibel",
@@ -17925,18 +17971,6 @@
    "data": "2026-11-16T19:51:53+00:00"
   },
   {
-   "titulo": "CHRIS CONNELLY Presents “Doo Wop My Future” Single And Lyric Video From New Album Doo Wop In The Dark: A Portrait Of Lou Reed",
-   "link": "https://bravewords.com/news/chris-connelly-presents-doo-wop-my-future-single-and-lyric-video-from-new-album-doo-wop-in-the-dark-a-portrait-of-lou-reed/",
-   "fonte": "BraveWords",
-   "data": "2026-11-16T19:41:15+00:00"
-  },
-  {
-   "titulo": "GUS G. Reveals What Convinced Him To Join KING DIAMOND’s Band – “He Wanted To Create Something New With Me, To Include Me In The Creation Of New Music”; Video",
-   "link": "https://bravewords.com/news/gus-g-reveals-what-convinced-him-to-join-king-diamonds-band-he-wanted-to-create-something-new-with-me-to-include-me-in-the-creation-of-new-music-video/",
-   "fonte": "BraveWords",
-   "data": "2026-11-16T19:24:55+00:00"
-  },
-  {
    "titulo": "BRUCE DICKINSON To Release New Solo Single 'One Life, Many Bodies' On Wednesday",
    "link": "https://blabbermouth.net/news/bruce-dickinson-to-release-new-solo-single-one-life-many-bodies-on-wednesday",
    "fonte": "Blabbermouth",
@@ -17947,12 +17981,6 @@
    "link": "https://blabbermouth.net/news/carmine-appice-says-he-is-working-on-new-audiobook-called-every-beat-tells-a-story",
    "fonte": "Blabbermouth",
    "data": "2026-11-16T19:02:07+00:00"
-  },
-  {
-   "titulo": "A brand-new Tales of Rock: Operation Sonic Shield!",
-   "link": "https://bravewords.com/kommander/a-brand-new-tales-of-rock-operation-sonic-shield/",
-   "fonte": "BraveWords",
-   "data": "2026-11-16T19:00:10+00:00"
   },
   {
    "titulo": "Bleed From Within Is Sponsoring Their Local Football Club",
@@ -18009,12 +18037,6 @@
    "data": "2026-11-16T15:31:20+00:00"
   },
   {
-   "titulo": "See DRAGONFORCE's Entire Performance In Anaheim During 'Inhuman Rampage' 20th-Anniversary Tour",
-   "link": "https://blabbermouth.net/news/see-dragonforces-entire-performance-in-anaheim-during-inhuman-rampage-20th-anniversary-tour",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-16T14:36:50+00:00"
-  },
-  {
    "titulo": "2027 Grammy nominations announced - see the full list of rock and metal names here",
    "link": "https://www.loudersound.com/music-industry/award-shows/2027-grammy-nominations-rock-metal",
    "fonte": "Metal Hammer",
@@ -18055,30 +18077,6 @@
    "link": "https://www.loudersound.com/bands-artists/meet-pieces-of-molly-the-high-voltage-kiwi-quartet-with-global-ambitions",
    "fonte": "Metal Hammer",
    "data": "2026-11-16T07:20:04+00:00"
-  },
-  {
-   "titulo": "\"The heavier it gets, the more you think someone else did this better.\" Five songwriters usher in confusion on debut Moby Grape album",
-   "link": "https://www.loudersound.com/music/albums/moby-grape-moby-grape",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-16T06:55:24+00:00"
-  },
-  {
-   "titulo": "Watch Mike Portnoy discover son doesn’t recall Dream Theater split – though he was there when it began",
-   "link": "https://www.loudersound.com/bands-artists/son-i-straight-up-do-not-remember-dad-really-watch-mike-portnoy-discover-max-doesnt-recall-the-dream-theater-split-even-though-he-was-there-when-it-began",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-16T05:00:00+00:00"
-  },
-  {
-   "titulo": "Classic Rock Tracks Of The Week: November 16, 2027",
-   "link": "https://www.loudersound.com/music/tracks-singles/classic-rock-tracks-of-the-week-november-16-2027",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-16T03:37:17+00:00"
-  },
-  {
-   "titulo": "Watch John Fogerty sing Creedence Clearwater Revival in the back of Zach Bryan's Ford Bronco",
-   "link": "https://www.loudersound.com/bands-artists/john-fogerty-creedence-clearwater-revival-zach-bryan-ford-bronco",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-16T00:34:48+00:00"
   },
   {
    "titulo": "“Behave Like Human F***ing Beings”: Tom Araya Tears Into LA Crowd After Slayer Show Halted",
