@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-18T19:30:26+00:00",
+ "atualizado": "2026-11-19T01:48:21+00:00",
  "fontes": {
   "excluidas": [
    "Richard Dawkins"
@@ -7,7 +7,7 @@
   "agenda": {
    "estado": "ok",
    "linhas": 79,
-   "futuras": 59,
+   "futuras": 58,
    "rejeitadas": [],
    "quase": [
     {
@@ -17293,10 +17293,106 @@
  ],
  "noticias": [
   {
+   "titulo": "Black Sabbath, Metallica, Anthrax, Tool, System Of A Down and more feature on GTA VI soundtrack",
+   "link": "https://www.loudersound.com/culture/gaming/grand-theft-auto-vi-soundtrack",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-19T01:03:43+00:00"
+  },
+  {
+   "titulo": "Watch tennis legend John McEnroe join Queens of the Stone Age frontman Josh Homme and Red Hot Chili Peppers drummer Chad Smith onstage in Los Angeles for a raucous cover of David Bowie's glam rock classic Suffragette City",
+   "link": "https://www.loudersound.com/bands-artists/watch-john-mcenroe-join-queens-of-the-stone-age-frontman-josh-homme-cover-david-bowie",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-19T00:00:00+00:00"
+  },
+  {
+   "titulo": "Instant noodles and cassette tapes: A short history of Bon Jovi and advertising",
+   "link": "https://www.loudersound.com/music/albums/bon-jovi-advertising",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-18T23:02:08+00:00"
+  },
+  {
+   "titulo": "MICHAEL ANTHONY Confirms PATTY SMYTH Was Once 'Considered' For VAN HALEN Singer Position",
+   "link": "https://blabbermouth.net/news/michael-anthony-confirms-patty-smyth-was-once-considered-for-van-halen-singer-position",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-18T21:56:51+00:00"
+  },
+  {
+   "titulo": "JEFF PLATE To Miss Beginning Of TRANS-SIBERIAN ORCHESTRA Tour",
+   "link": "https://bravewords.com/hard-rock/jeff-plate-to-miss-beginning-of-trans-siberian-orchestra-tour/",
+   "fonte": "BraveWords",
+   "data": "2026-11-18T21:56:21+00:00"
+  },
+  {
+   "titulo": "REVIEW: WOLF’s HOUR OF THE WOLF – “Strong Effort, All The Way Through”",
+   "link": "https://bravewords.com/album-reviews/review-wolfs-hour-of-the-wolf-strong-effort-all-the-way-through/",
+   "fonte": "BraveWords",
+   "data": "2026-11-18T21:33:01+00:00"
+  },
+  {
+   "titulo": "Guilt Trip Drops 10th Anniversary Version of Self-Titled Single",
+   "link": "https://metalinjection.net/news/guilt-trip-drops-10th-anniversary-version-of-self-titled-single",
+   "fonte": "Metal Injection",
+   "data": "2026-11-18T21:09:47+00:00"
+  },
+  {
+   "titulo": "Blast Worship: Genestealer",
+   "link": "https://www.decibelmagazine.com/2026/11/18/blast-worship-genestealer-3/",
+   "fonte": "Decibel",
+   "data": "2026-11-18T21:00:43+00:00"
+  },
+  {
+   "titulo": "IN THIS MOMENT's MARIA BRINK Wants To Get Her 'Artsy-Fartsy Side' Out With Her Upcoming Debut Solo Project",
+   "link": "https://blabbermouth.net/news/in-this-moments-maria-brink-wants-to-get-her-artsy-fartsy-side-out-with-her-upcoming-debut-solo-project",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-18T20:14:30+00:00"
+  },
+  {
+   "titulo": "Týr - Will Embark On Tour Over North America",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64630",
+   "fonte": "Metal Storm",
+   "data": "2026-11-18T20:06:15+00:00"
+  },
+  {
+   "titulo": "Full Album Stream: Mark Solotroff –A Diagnosis of Distance",
+   "link": "https://www.decibelmagazine.com/2026/11/18/full-album-stream-mark-solotroff-a-diagnosis-of-distance/",
+   "fonte": "Decibel",
+   "data": "2026-11-18T20:00:08+00:00"
+  },
+  {
+   "titulo": "DAVID BOWIE’s Low Gets 50th Anniversary Half-Speed Mastered And Picture Disc Editions",
+   "link": "https://bravewords.com/news/david-bowies-low-gets-50th-anniversary-half-speed-mastered-and-picture-disc-editions/",
+   "fonte": "BraveWords",
+   "data": "2026-11-18T19:55:27+00:00"
+  },
+  {
+   "titulo": "Bruce Dickinson - Announces New Solo Album 'PsychoGod,' Drops First Single",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64629",
+   "fonte": "Metal Storm",
+   "data": "2026-11-18T19:43:31+00:00"
+  },
+  {
+   "titulo": "MIKE WENGREN On DISTURBED's Upcoming Album: 'There's Some Motherf***ers On This Record'",
+   "link": "https://blabbermouth.net/news/mike-wengren-on-disturbeds-upcoming-album-theres-some-motherfers-on-this-record",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-18T19:31:05+00:00"
+  },
+  {
    "titulo": "Watch: NEVERMORE Performs “Inside Four Walls” At Bloodstock Open Air 2026",
    "link": "https://bravewords.com/news/watch-nevermore-performs-inside-four-walls-at-bloodstock-open-air-2026/",
    "fonte": "BraveWords",
    "data": "2026-11-18T19:14:41+00:00"
+  },
+  {
+   "titulo": "Sevendust Announces 30th Anniversary Tour For Self-Titled Debut Album",
+   "link": "https://metalinjection.net/tour-dates/sevendust-announces-30th-anniversary-tour-for-self-titled-debut-album",
+   "fonte": "Metal Injection",
+   "data": "2026-11-18T18:57:06+00:00"
+  },
+  {
+   "titulo": "THE OFFSPRING's DEXTER HOLLAND To Be Inducted Into ORANGE COUNTY HALL OF FAME",
+   "link": "https://blabbermouth.net/news/the-offsprings-dexter-holland-to-be-inducted-into-orange-county-hall-of-fame",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-18T18:55:18+00:00"
   },
   {
    "titulo": "DEF LEPPARD Share New Video “Love Bites” (Live At Don Valley Stadium, 1993)",
@@ -17309,6 +17405,12 @@
    "link": "https://blabbermouth.net/reviews/crown-in-the-grave",
    "fonte": "Blabbermouth",
    "data": "2026-11-18T18:45:07+00:00"
+  },
+  {
+   "titulo": "Within Temptation - Debut New Song And Video Feat. S10",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64628",
+   "fonte": "Metal Storm",
+   "data": "2026-11-18T18:34:17+00:00"
   },
   {
    "titulo": "Knives announce Five-Date Iberian Tour, including Lisbon and Porto",
@@ -17534,7 +17636,7 @@
   },
   {
    "titulo": "5 Best Sites to Buy Twitch Viewers (Value-Focused Picks)",
-   "link": "https://bravewords.com/partners/https-bravewords-com-buy-twitch-viewers/",
+   "link": "https://bravewords.com/partners/5-best-sites-to-buy-twitch-viewers-value-focused-picks/",
    "fonte": "BraveWords",
    "data": "2026-11-18T14:08:24+00:00"
   },
@@ -17809,12 +17911,6 @@
    "data": "2026-11-17T18:53:32+00:00"
   },
   {
-   "titulo": "EUROPE Capture The Magic, Melancholy And Hope Of The Festive Season With “This Time Of Year” Video",
-   "link": "https://bravewords.com/news/europe-capture-the-magic-melancholy-and-hope-of-the-festive-season-with-this-time-of-year-video/",
-   "fonte": "BraveWords",
-   "data": "2026-11-17T18:51:03+00:00"
-  },
-  {
    "titulo": "Listen: Narrow Head Releases Crushing New Song \"Wheel,\" Announces 2027 Tour",
    "link": "https://metalinjection.net/new-music/listen-narrow-head-releases-crushing-new-song-wheel-announces-2027-tour",
    "fonte": "Metal Injection",
@@ -17827,12 +17923,6 @@
    "data": "2026-11-17T18:38:51+00:00"
   },
   {
-   "titulo": "ZEBRA’s RANDY JACKSON Talks Audition To Replace ACE FREHLEY, Writing With PAUL STANLEY And More; Video",
-   "link": "https://bravewords.com/news/zebras-randy-jackson-talks-audition-to-replace-ace-frehley-writing-with-paul-stanley-and-more-video/",
-   "fonte": "BraveWords",
-   "data": "2026-11-17T18:31:20+00:00"
-  },
-  {
    "titulo": "BLINK-182 And PIERCE THE VEIL To Headline 2027 'When We Were Young' Festival In Las Vegas",
    "link": "https://blabbermouth.net/news/blink-182-and-pierce-the-veil-to-headline-2027-when-we-were-young-festival-in-las-vegas",
    "fonte": "Blabbermouth",
@@ -17843,12 +17933,6 @@
    "link": "https://www.theblackplanet.org/uuhai-portugal-lisbon-2027/",
    "fonte": "The Black Planet",
    "data": "2026-11-17T18:14:55+00:00"
-  },
-  {
-   "titulo": "METALLICA – “Check Out What’s Happening In Las Vegas”; Downtime Activities, Upcoming Events And A Look Back At “Life Burns Faster”",
-   "link": "https://bravewords.com/news/metallica-check-out-whats-happening-in-las-vegas-downtime-activities-upcoming-events-and-a-look-back-at-life-burns-faster/",
-   "fonte": "BraveWords",
-   "data": "2026-11-17T18:14:21+00:00"
   },
   {
    "titulo": "DYING FETUS Announces Winter 2027 North American Tour With CRYPTOPSY And GORGASM",
@@ -17881,18 +17965,6 @@
    "data": "2026-11-17T17:25:20+00:00"
   },
   {
-   "titulo": "Vanishing Point - Unveil 'Eremition' Single & Lyric Video",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64615",
-   "fonte": "Metal Storm",
-   "data": "2026-11-17T17:08:31+00:00"
-  },
-  {
-   "titulo": "Serenity - Detail Upcoming Full Length Effort",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64614",
-   "fonte": "Metal Storm",
-   "data": "2026-11-17T17:08:18+00:00"
-  },
-  {
    "titulo": "Video Premiere: Between Rivers – “Silicon Paradise”",
    "link": "https://www.decibelmagazine.com/2026/11/17/video-premiere-between-rivers-silicon-paradise/",
    "fonte": "Decibel",
@@ -17915,12 +17987,6 @@
    "link": "https://metalinjection.net/tour-dates/faith-no-more-alice-in-chains-mastodon-tour",
    "fonte": "Metal Injection",
    "data": "2026-11-17T16:57:16+00:00"
-  },
-  {
-   "titulo": "Nordjevel - Unleash New Track",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64613",
-   "fonte": "Metal Storm",
-   "data": "2026-11-17T16:49:10+00:00"
   },
   {
    "titulo": "Graceless",
@@ -17977,28 +18043,10 @@
    "data": "2026-11-17T14:46:47+00:00"
   },
   {
-   "titulo": "THE DEAD DAISIES, Featuring KELLY HANSEN, Announce Spring 2027 U.S. Tour With BULLETBOYS",
-   "link": "https://blabbermouth.net/news/the-dead-daisies-featuring-kelly-hansen-announce-spring-2027-u-s-tour-with-bulletboys",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-17T14:43:08+00:00"
-  },
-  {
    "titulo": "“I Make It My Own”: Quiet Riot Vocalist John Torra on the Road From Digital Audition to Frontman",
    "link": "https://www.decibelmagazine.com/2026/11/17/i-make-it-my-own-quiet-riot-vocalist-john-torra-on-the-road-from-digital-audition-to-frontman/",
    "fonte": "Decibel",
    "data": "2026-11-17T14:30:07+00:00"
-  },
-  {
-   "titulo": "KERRY KING Announces 'The End Of All Gods' Album, Shares 'My War' Single",
-   "link": "https://blabbermouth.net/news/kerry-king-announces-the-end-of-all-gods-album-shares-my-war-single",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-17T14:22:11+00:00"
-  },
-  {
-   "titulo": "JEFF AMENT Hopes Drummer ABE LABORIEL JR. Will Continue Playing With PEARL JAM: 'It Was So Fun To Play With Him'",
-   "link": "https://blabbermouth.net/news/jeff-ament-hopes-drummer-abe-laboriel-jr-will-continue-playing-with-pearl-jam-it-was-so-fun-to-play-with-him",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-17T14:01:17+00:00"
   },
   {
    "titulo": "Watch the trailer for L'Amour: The Rock Capital of Brooklyn",
@@ -18017,12 +18065,6 @@
    "link": "https://www.loudersound.com/news/chelsea-wolfe-soothed-by-grindcore-2026",
    "fonte": "Metal Hammer",
    "data": "2026-11-17T13:58:08+00:00"
-  },
-  {
-   "titulo": "CRAIG LOCICERO Feels That Now Is The Right Time For FORBIDDEN",
-   "link": "https://blabbermouth.net/features/craig-locicero-feels-that-now-is-the-right-time-for-forbidden",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-17T13:19:32+00:00"
   },
   {
    "titulo": "“I said, ‘Turn off my guitar.’ I wish I’d done it more often”: Steve Howe is amazed how well Yes’ Siberian Khatru turned out",
@@ -18061,18 +18103,6 @@
    "data": "2026-11-17T04:05:00+00:00"
   },
   {
-   "titulo": "Uriah Heep announce 2027 North American tour",
-   "link": "https://www.loudersound.com/bands-artists/uriah-heep-anounce-2027-north-american-tour",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-17T01:52:41+00:00"
-  },
-  {
-   "titulo": "Megadeth announce mammoth North American tour with Anthrax and Kerry King",
-   "link": "https://www.loudersound.com/bands-artists/megadeth-announce-north-american-tour-anthrax-kerry-king",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-16T21:28:27+00:00"
-  },
-  {
    "titulo": "Full EP Stream: Dothe –Dothe",
    "link": "https://www.decibelmagazine.com/2026/11/16/full-ep-stream-dothe-dothe/",
    "fonte": "Decibel",
@@ -18089,18 +18119,6 @@
    "link": "https://www.theblackplanet.org/el-altar-del-holocausto-porto/",
    "fonte": "The Black Planet",
    "data": "2026-11-16T18:54:10+00:00"
-  },
-  {
-   "titulo": "Interview: Herman Li Looks Back on 20 Years of DragonForce’s Inhuman Rampage",
-   "link": "https://www.decibelmagazine.com/2026/11/16/interview-herman-li-looks-back-on-20-years-of-dragonforces-inhuman-rampage/",
-   "fonte": "Decibel",
-   "data": "2026-11-16T17:00:27+00:00"
-  },
-  {
-   "titulo": "Bleed From Within are sponsoring their local football club Clyde F.C.'s new kit",
-   "link": "https://www.loudersound.com/music-industry/an-opportunity-to-bring-the-scottish-community-together-in-a-unique-way-scottish-league-two-football-club-clyde-f-c-have-found-some-heavy-new-sponsors-local-metal-heroes-bleed-from-within",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-16T16:00:00+00:00"
   },
   {
    "titulo": "Megadeth Announces 2027 North American Tour With Anthrax and Kerry King",
@@ -18173,24 +18191,6 @@
    "link": "https://metalinjection.net/injection-reflection/rhea-ripley-joins-motionless-in-white-onstage-celine-dion-rocks-out-at-metallica-more-top-stories-of-the-week",
    "fonte": "Metal Injection",
    "data": "2026-11-14T14:40:03+00:00"
-  },
-  {
-   "titulo": "Coheed and Cambria’s Claudio Sanchez Teases Debut Solo Material",
-   "link": "https://metalinjection.net/news/coheed-and-cambrias-claudio-sanchez-teases-debut-solo-material",
-   "fonte": "Metal Injection",
-   "data": "2026-11-13T20:52:42+00:00"
-  },
-  {
-   "titulo": "Silvertomb, Fear Factory, Bullet for My Valentine & More Added to Metal Injection's Tracks of the Week",
-   "link": "https://metalinjection.net/playlist/top-tracks-of-the-week-playlist/silvertomb-fear-factor-bullet-for-my-valentine-more-added-to-metal-injections-tracks-of-the-week",
-   "fonte": "Metal Injection",
-   "data": "2026-11-13T20:06:33+00:00"
-  },
-  {
-   "titulo": "Five For Friday: November 13, 2026",
-   "link": "https://www.decibelmagazine.com/2026/11/13/five-for-friday-november-13-2026/",
-   "fonte": "Decibel",
-   "data": "2026-11-13T17:00:12+00:00"
   }
  ]
 }
