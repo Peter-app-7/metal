@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-19T01:48:21+00:00",
+ "atualizado": "2026-11-19T07:53:10+00:00",
  "fontes": {
   "excluidas": [
    "Richard Dawkins"
@@ -55,7 +55,7 @@
    },
    {
     "nome": "BraveWords",
-    "ok": true,
+    "ok": false,
     "artigos": 30
    },
    {
@@ -71,7 +71,9 @@
   ],
   "spotify_espera_ate": null
  },
- "avisos": [],
+ "avisos": [
+  "Feeds sem resposta nesta atualização: BraveWords."
+ ],
  "bandas": [
   {
    "id": "redemptus",
@@ -17293,6 +17295,30 @@
  ],
  "noticias": [
   {
+   "titulo": "Hollywood legend Ben Stiller has an unlikely true confession about Foreigner",
+   "link": "https://www.loudersound.com/bands-artists/ben-stiller-foreigner",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-19T06:09:49+00:00"
+  },
+  {
+   "titulo": "Joe Strummer's two-year rampage with The 101'ers documented on evocative box set",
+   "link": "https://www.loudersound.com/music/albums/joe-strummer-003-the-101ers-years-1974-1976",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-19T05:55:00+00:00"
+  },
+  {
+   "titulo": "John Corabi isn't looking back on his old bands, but he's not entirely done with the past",
+   "link": "https://www.loudersound.com/bands-artists/john-corabi-new-day-tour-interview",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-19T05:55:00+00:00"
+  },
+  {
+   "titulo": "U2 share memories of working with Dolly Parton on the last song she ever recorded",
+   "link": "https://www.loudersound.com/bands-artists/u2-on-working-with-dolly-parton-on-torn-the-last-song-she-ever-recorded",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-19T04:00:00+00:00"
+  },
+  {
    "titulo": "Black Sabbath, Metallica, Anthrax, Tool, System Of A Down and more feature on GTA VI soundtrack",
    "link": "https://www.loudersound.com/culture/gaming/grand-theft-auto-vi-soundtrack",
    "fonte": "Metal Hammer",
@@ -17491,14 +17517,14 @@
    "data": "2026-11-18T17:00:26+00:00"
   },
   {
-   "titulo": "How Grand Theft Auto: Vice City helped make 80s metal cool again",
-   "link": "https://www.loudersound.com/culture/gaming/gta-vice-city-glam-metal-love-fist",
+   "titulo": "Dress like Phil Collins at Live Aid or on Miami Vice via charity auction",
+   "link": "https://www.loudersound.com/bands-artists/phil-collins-king-s-trust-auction-live-aid-miami-vice",
    "fonte": "Metal Hammer",
    "data": "2026-11-18T17:00:00+00:00"
   },
   {
-   "titulo": "Dress like Phil Collins at Live Aid or on Miami Vice via charity auction",
-   "link": "https://www.loudersound.com/bands-artists/phil-collins-king-s-trust-auction-live-aid-miami-vice",
+   "titulo": "How Grand Theft Auto: Vice City helped make 80s metal cool again",
+   "link": "https://www.loudersound.com/culture/gaming/gta-vice-city-glam-metal-love-fist",
    "fonte": "Metal Hammer",
    "data": "2026-11-18T17:00:00+00:00"
   },
@@ -18077,30 +18103,6 @@
    "link": "https://www.loudersound.com/news/john-christ-danzig-samhain-dies-2026",
    "fonte": "Metal Hammer",
    "data": "2026-11-17T11:23:57+00:00"
-  },
-  {
-   "titulo": "Limp Bizkit, Slash feat. Myles Kennedy and more added to 2027 Wacken Open Air lineup; Killswitch Engage to play seminal album Alive Or Just Breathing in full",
-   "link": "https://www.loudersound.com/news/limp-bizkit-killswitch-engage-slash-myles-kennedy-added-wacken-open-air-lineup-2027",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-17T10:50:55+00:00"
-  },
-  {
-   "titulo": "Paramore’s Hayley Williams is curating and headlining Outbreak Fest 2027, with Failure, Drain and many more joining her on the lineup",
-   "link": "https://www.loudersound.com/news/paramore-hayley-williams-curating-headlining-outbreak-festival-2027",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-17T09:47:08+00:00"
-  },
-  {
-   "titulo": "The Darkness, The Cult, Skindred, Eagles of Death Metal and more confirmed for Rock N Roll Circus",
-   "link": "https://www.loudersound.com/bands-artists/music-festivals/the-darkness-the-cult-skindred-eagles-of-death-metal-rock-n-roll-circus",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-17T08:05:00+00:00"
-  },
-  {
-   "titulo": "Dolly Parton: Her Life In 10 Songs",
-   "link": "https://www.loudersound.com/bands-artists/dolly-parton-her-life-in-10-songs",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-17T04:05:00+00:00"
   },
   {
    "titulo": "Full EP Stream: Dothe –Dothe",
