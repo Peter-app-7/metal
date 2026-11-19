@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-19T07:53:10+00:00",
+ "atualizado": "2026-11-19T13:51:17+00:00",
  "fontes": {
   "excluidas": [
    "Richard Dawkins"
@@ -55,7 +55,7 @@
    },
    {
     "nome": "BraveWords",
-    "ok": false,
+    "ok": true,
     "artigos": 30
    },
    {
@@ -71,9 +71,7 @@
   ],
   "spotify_espera_ate": null
  },
- "avisos": [
-  "Feeds sem resposta nesta atualização: BraveWords."
- ],
+ "avisos": [],
  "bandas": [
   {
    "id": "redemptus",
@@ -17295,20 +17293,86 @@
  ],
  "noticias": [
   {
+   "titulo": "Crystal Head Vodka Presents Today In Metal History 🤘 November 19th, 2026 🤘 QUIET RIOT, LED ZEPPELIN, RUSH, MATT SORUM, EXODUS",
+   "link": "https://bravewords.com/today-in-metal/crystal-head-vodka-presents-today-in-metal-history-%f0%9f%a4%98-november-19th-2026-%f0%9f%a4%98-quiet-riot-led-zeppelin-rush-matt-sorum-exodus/",
+   "fonte": "BraveWords",
+   "data": "2026-11-19T13:18:07+00:00"
+  },
+  {
+   "titulo": "SAVATAGE And TRANS-SIBERIAN ORCHESTRA Drummer JEFF PLATE Says His Chronic Nosebleeds Have 'Returned With A Vengeance'",
+   "link": "https://blabbermouth.net/news/savatage-and-trans-siberian-orchestra-drummer-jeff-plate-says-his-chronic-nosebleeds-have-returned-with-a-vengeance",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-19T12:38:53+00:00"
+  },
+  {
+   "titulo": "ANIKA NILLES Talks About Her Formative Years, Reveals How Playing With JEFF BECK Led Her To RUSH (Video)",
+   "link": "https://bravewords.com/news/anika-nilles-talks-about-her-formative-years-reveals-how-playing-with-jeff-beck-led-her-to-rush-video/",
+   "fonte": "BraveWords",
+   "data": "2026-11-19T11:48:53+00:00"
+  },
+  {
+   "titulo": "Ignite with Two Portuguese shows to present Still Wide Awake",
+   "link": "https://www.theblackplanet.org/ignite-portugal/",
+   "fonte": "The Black Planet",
+   "data": "2026-11-19T11:48:37+00:00"
+  },
+  {
+   "titulo": "Judas Priest’s Rob Halford explains why Iron Maiden deserved Rock And Roll Hall Of Fame induction: “when they hit the stage, they were like the boss!”",
+   "link": "https://www.loudersound.com/news/judas-priest-rob-halford-why-iron-maiden-changed-the-game-2026",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-19T11:36:48+00:00"
+  },
+  {
+   "titulo": "COLIN PETERIK Shares Official Video For New “Sunshine” Single; New Album To Be Released In 2027",
+   "link": "https://bravewords.com/news/colin-peterik-shares-official-video-for-new-sunshine-single-new-album-to-be-released-in-2027/",
+   "fonte": "BraveWords",
+   "data": "2026-11-19T11:21:31+00:00"
+  },
+  {
+   "titulo": "Swallow The Sun and Crown Lands teaming up for a single was not what you had on your 2026 bingo card!",
+   "link": "https://www.loudersound.com/music/tracks-singles/swallow-the-sun-and-crown-lands-teaming-up-for-a-single-was-not-what-you-had-on-your-2026-bingo-card",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-19T11:11:46+00:00"
+  },
+  {
+   "titulo": "NIGHTWISH Drummer KAI HAHTO Interviews Retired IRON MAIDEN Drummer NICK McBRAIN For Finland’s Radio Rock (Video)",
+   "link": "https://bravewords.com/news/nightwish-drummer-kai-hahto-interviews-retired-iron-maiden-drummer-nick-mcbrain-for-finlands-radio-rock-video/",
+   "fonte": "BraveWords",
+   "data": "2026-11-19T10:00:17+00:00"
+  },
+  {
+   "titulo": "Brian Eno is learning to love his archive of 13,000 unreleased recordings",
+   "link": "https://www.loudersound.com/bands-artists/brian-eno-archive-13-000-unreleased-recordings",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-19T10:00:00+00:00"
+  },
+  {
+   "titulo": "SEVEN KINGDOMS Release New Single / Video “Dissonance”",
+   "link": "https://bravewords.com/heavy-metal/seven-kingdoms-release-new-single-video-dissonance/",
+   "fonte": "BraveWords",
+   "data": "2026-11-19T09:54:39+00:00"
+  },
+  {
+   "titulo": "COHEED AND CAMBRIA Frontman CLAUDIO SANCHEZ Shares Debut Solo Single / Video “Burnout”; Three Live Shows Announced For January 2027",
+   "link": "https://bravewords.com/news/coheed-and-cambria-frontman-claudio-sanchez-shares-debut-solo-single-video-burnout-three-live-shows-announced-for-january-2027/",
+   "fonte": "BraveWords",
+   "data": "2026-11-19T09:12:59+00:00"
+  },
+  {
    "titulo": "Hollywood legend Ben Stiller has an unlikely true confession about Foreigner",
    "link": "https://www.loudersound.com/bands-artists/ben-stiller-foreigner",
    "fonte": "Metal Hammer",
    "data": "2026-11-19T06:09:49+00:00"
   },
   {
-   "titulo": "Joe Strummer's two-year rampage with The 101'ers documented on evocative box set",
-   "link": "https://www.loudersound.com/music/albums/joe-strummer-003-the-101ers-years-1974-1976",
+   "titulo": "John Corabi isn't looking back on his old bands, but he's not entirely done with the past",
+   "link": "https://www.loudersound.com/bands-artists/john-corabi-new-day-tour-interview",
    "fonte": "Metal Hammer",
    "data": "2026-11-19T05:55:00+00:00"
   },
   {
-   "titulo": "John Corabi isn't looking back on his old bands, but he's not entirely done with the past",
-   "link": "https://www.loudersound.com/bands-artists/john-corabi-new-day-tour-interview",
+   "titulo": "Joe Strummer's two-year rampage with The 101'ers documented on evocative box set",
+   "link": "https://www.loudersound.com/music/albums/joe-strummer-003-the-101ers-years-1974-1976",
    "fonte": "Metal Hammer",
    "data": "2026-11-19T05:55:00+00:00"
   },
@@ -17817,12 +17881,6 @@
    "data": "2026-11-17T23:07:33+00:00"
   },
   {
-   "titulo": "DEE SNIDER And RIKI RACHTMAN Present Episode Four Of “The Ball”",
-   "link": "https://bravewords.com/news/dee-snider-and-riki-rachtman-present-episode-four-of-the-ball/",
-   "fonte": "BraveWords",
-   "data": "2026-11-17T22:11:28+00:00"
-  },
-  {
    "titulo": "Fugazi's Ian MacKaye reveals the life lesson he learned meeting fellow punk legend Jello Biafra for the first time",
    "link": "https://www.loudersound.com/bands-artists/fugazi-ian-mackaye-recalls-first-meeting-with-jello-biafra",
    "fonte": "Metal Hammer",
@@ -17835,22 +17893,10 @@
    "data": "2026-11-17T21:40:26+00:00"
   },
   {
-   "titulo": "KORE ROZZIK Unveils Explosive, Pro-Wrestling-Fueled Music Video For “Rock Hell”",
-   "link": "https://bravewords.com/news/kore-rozzik-unveils-explosive-pro-wrestling-fueled-music-video-for-rock-hell/",
-   "fonte": "BraveWords",
-   "data": "2026-11-17T21:35:53+00:00"
-  },
-  {
    "titulo": "Queen finally give their Christmas classic the makeover it always deserved",
    "link": "https://www.loudersound.com/music/tracks-singles/queen-finally-give-their-christmas-classic-the-makeover-it-always-deserved",
    "fonte": "Metal Hammer",
    "data": "2026-11-17T21:28:48+00:00"
-  },
-  {
-   "titulo": "TANITH Feat. SATAN Guitarist To Release Worldview In February; First Single Streaming",
-   "link": "https://bravewords.com/heavy-metal/tanith-feat-satan-guitarist-to-release-worldview-in-february-first-single-streaming/",
-   "fonte": "BraveWords",
-   "data": "2026-11-17T21:09:33+00:00"
   },
   {
    "titulo": "AMANDA SOMERVILLE Launches GoFundMe Campaign To Help Her Receive Treatment For Inoperable Cancerous Brain Tumor",
@@ -17907,28 +17953,10 @@
    "data": "2026-11-17T19:53:56+00:00"
   },
   {
-   "titulo": "AVATAR Announce Headline Tour Around METALLICA Support Dates Throughout North America In 2027",
-   "link": "https://bravewords.com/news/avatar-announce-headline-tour-around-metallica-support-dates-throughout-north-america-in-2027/",
-   "fonte": "BraveWords",
-   "data": "2026-11-17T19:50:29+00:00"
-  },
-  {
-   "titulo": "HALESTORM Signs Exclusive Worldwide Management Deal With 10th Street Entertainment",
-   "link": "https://bravewords.com/news/halestorm-signs-exclusive-worldwide-management-deal-with-10th-street-entertainment/",
-   "fonte": "BraveWords",
-   "data": "2026-11-17T19:33:22+00:00"
-  },
-  {
    "titulo": "Watch: DEE SNIDER Inducts His Wife, Costume Designer SUZETTE GUILOT-SNIDER, Into 'Long Island Music And Entertainment Hall Of Fame'",
    "link": "https://blabbermouth.net/news/watch-dee-snider-inducts-his-wife-costume-designer-suzette-guilot-snider-into-long-island-music-and-entertainment-hall-of-fame",
    "fonte": "Blabbermouth",
    "data": "2026-11-17T19:29:45+00:00"
-  },
-  {
-   "titulo": "STEVE HACKETT To Release Through A Sea Of Flames Album In February",
-   "link": "https://bravewords.com/news/steve-hackett-to-release-through-a-sea-of-flames-album-in-february/",
-   "fonte": "BraveWords",
-   "data": "2026-11-17T19:21:12+00:00"
   },
   {
    "titulo": "Besatt return to Portugal for Extrema Luciferia Glorificatio",
@@ -18045,12 +18073,6 @@
    "data": "2026-11-17T16:00:00+00:00"
   },
   {
-   "titulo": "'L'Amour: The Rock Capitol Of Brooklyn' Documentary About New York City's Legendary Rock Venue Coming In 2028",
-   "link": "https://blabbermouth.net/news/lamour-the-rock-capitol-of-brooklyn-documentary-about-new-york-citys-legendary-rock-venue-coming-in-2028",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-17T15:53:42+00:00"
-  },
-  {
    "titulo": "Post Punk Strikes Back Again 2026: Full Festival Preview",
    "link": "https://www.theblackplanet.org/post-punk-strikes-back-again-2026-preview/",
    "fonte": "The Black Planet",
@@ -18087,24 +18109,6 @@
    "data": "2026-11-17T13:59:07+00:00"
   },
   {
-   "titulo": "Chelsea Wolfe says that she plays grindcore to help with her migraines: “It’s soothing to my brain”",
-   "link": "https://www.loudersound.com/news/chelsea-wolfe-soothed-by-grindcore-2026",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-17T13:58:08+00:00"
-  },
-  {
-   "titulo": "“I said, ‘Turn off my guitar.’ I wish I’d done it more often”: Steve Howe is amazed how well Yes’ Siberian Khatru turned out",
-   "link": "https://www.loudersound.com/music/tracks-singles/steve-howe-yes-siberian-khatru",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-17T13:00:00+00:00"
-  },
-  {
-   "titulo": "Danzig and Samhain guitarist John Christ dead at 61",
-   "link": "https://www.loudersound.com/news/john-christ-danzig-samhain-dies-2026",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-17T11:23:57+00:00"
-  },
-  {
    "titulo": "Full EP Stream: Dothe –Dothe",
    "link": "https://www.decibelmagazine.com/2026/11/16/full-ep-stream-dothe-dothe/",
    "fonte": "Decibel",
@@ -18139,12 +18143,6 @@
    "link": "https://metalinjection.net/news/2027-grammy-nominees-rock-metal-alternative",
    "fonte": "Metal Injection",
    "data": "2026-11-16T13:34:33+00:00"
-  },
-  {
-   "titulo": "Underoath announce Lisbon concert with Saosin in 2027",
-   "link": "https://www.theblackplanet.org/underoath-lisbon-portugal-2027/",
-   "fonte": "The Black Planet",
-   "data": "2026-11-16T11:30:00+00:00"
   },
   {
    "titulo": "“Behave Like Human F***ing Beings”: Tom Araya Tears Into LA Crowd After Slayer Show Halted",
