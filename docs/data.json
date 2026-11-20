@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-19T19:36:28+00:00",
+ "atualizado": "2026-11-20T01:42:58+00:00",
  "fontes": {
   "excluidas": [
    "Richard Dawkins"
@@ -7,7 +7,7 @@
   "agenda": {
    "estado": "ok",
    "linhas": 79,
-   "futuras": 58,
+   "futuras": 57,
    "rejeitadas": [],
    "quase": [
     {
@@ -50,7 +50,7 @@
    },
    {
     "nome": "Decibel",
-    "ok": true,
+    "ok": false,
     "artigos": 10
    },
    {
@@ -72,8 +72,7 @@
   "spotify_espera_ate": null
  },
  "avisos": [
-  "MusicBrainz falhou em 2 bandas; ficaram os dados anteriores.",
-  "Feeds sem resposta nesta atualização: BraveWords."
+  "Feeds sem resposta nesta atualização: Decibel, BraveWords."
  ],
  "bandas": [
   {
@@ -17296,6 +17295,90 @@
  ],
  "noticias": [
   {
+   "titulo": "Carlos Santana adds North American dates to Planet of Free Will Global Tour",
+   "link": "https://www.loudersound.com/bands-artists/concerts-shows/carlos-santana-north-american-dates-planet-of-free-will-global-tour",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-20T00:46:50+00:00"
+  },
+  {
+   "titulo": "Previously unseen footage of Led Zeppelin rocking Madison Square Garden in 1977 emerges online",
+   "link": "https://www.loudersound.com/bands-artists/previously-unseen-footage-of-led-zeppelin-rocking-madison-square-garden-in-1977-emerges-online",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-19T23:00:00+00:00"
+  },
+  {
+   "titulo": "Watch: Rammstein Debut New Live Video for “Du Hast” From Their Concert Film",
+   "link": "https://metalinjection.net/news/watch-rammstein-debut-new-live-video-for-du-hast-from-their-concert-film",
+   "fonte": "Metal Injection",
+   "data": "2026-11-19T21:30:07+00:00"
+  },
+  {
+   "titulo": "Bleeding Through Guitarist John Arnold Has Suffered A Heart Attack, In Hospital",
+   "link": "https://metalinjection.net/news/bleeding-through-guitarist-john-arnold-has-suffered-a-heart-attack-in-hospital",
+   "fonte": "Metal Injection",
+   "data": "2026-11-19T21:12:36+00:00"
+  },
+  {
+   "titulo": "ROBERT TRUJILLO Says It Was 'Amazing' Paying Tribute To IRON MAIDEN At 2026 ROCK AND ROLL HALL OF FAME Induction Ceremony",
+   "link": "https://blabbermouth.net/news/robert-trujillo-says-it-was-amazing-paying-tribute-to-iron-maiden-at-2026-rock-and-roll-hall-of-fame-induction-ceremony",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-19T21:03:35+00:00"
+  },
+  {
+   "titulo": "How U2 dismantled everything they held sacred and saved their career with the fearless, futuristic Achtung Baby",
+   "link": "https://www.loudersound.com/bands-artists/how-u2-dismantled-everything-they-held-sacred-and-saved-their-career-with-achtung-baby",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-19T21:00:00+00:00"
+  },
+  {
+   "titulo": "Gorgatron - Deliver New Single",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64643",
+   "fonte": "Metal Storm",
+   "data": "2026-11-19T20:42:13+00:00"
+  },
+  {
+   "titulo": "Witch Club Satan - Touring Europe In Spring 2027",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64642",
+   "fonte": "Metal Storm",
+   "data": "2026-11-19T20:34:16+00:00"
+  },
+  {
+   "titulo": "Extinction A.D. - Unveil 'Peasant Dreams' Track",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64641",
+   "fonte": "Metal Storm",
+   "data": "2026-11-19T20:28:56+00:00"
+  },
+  {
+   "titulo": "Skagos - To Release 'Stricken' Album Next Month",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64640",
+   "fonte": "Metal Storm",
+   "data": "2026-11-19T20:21:12+00:00"
+  },
+  {
+   "titulo": "POPHOUSE CEO Says KISS Biopic Has Secured Funding, Hopes To Start Production In 2027",
+   "link": "https://blabbermouth.net/news/pophouse-ceo-says-kiss-biopic-has-secured-funding-hopes-to-start-production-in-2027",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-19T20:16:59+00:00"
+  },
+  {
+   "titulo": "Celestial Sanctuary - Share New Song",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64639",
+   "fonte": "Metal Storm",
+   "data": "2026-11-19T19:58:52+00:00"
+  },
+  {
+   "titulo": "ANTHRAX Shares Music Video For 'NYC 93' From 'Cursum Perficio' Album",
+   "link": "https://blabbermouth.net/news/anthrax-shares-music-video-for-nyc-93-from-cursum-perficio-album",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-19T19:33:46+00:00"
+  },
+  {
+   "titulo": "METALLICA Producer GREG FIDELMAN On LARS ULRICH's Drumming Style: 'He's Playing The Song On The Drums As Opposed To Playing The Drums On The Song'",
+   "link": "https://blabbermouth.net/news/metallica-producer-greg-fidelman-on-lars-ulrichs-drumming-style-hes-playing-the-song-on-the-drums-as-opposed-to-playing-the-drums-on-the-song",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-19T19:09:47+00:00"
+  },
+  {
    "titulo": "Watch: Anthrax Releases Nostalgic Live Video For \"NYC 93\"",
    "link": "https://metalinjection.net/news/watch-anthrax-releases-nostalgic-live-video-for-nyc-93",
    "fonte": "Metal Injection",
@@ -17530,14 +17613,14 @@
    "data": "2026-11-19T06:09:49+00:00"
   },
   {
-   "titulo": "Joe Strummer's two-year rampage with The 101'ers documented on evocative box set",
-   "link": "https://www.loudersound.com/music/albums/joe-strummer-003-the-101ers-years-1974-1976",
+   "titulo": "John Corabi isn't looking back on his old bands, but he's not entirely done with the past",
+   "link": "https://www.loudersound.com/bands-artists/john-corabi-new-day-tour-interview",
    "fonte": "Metal Hammer",
    "data": "2026-11-19T05:55:00+00:00"
   },
   {
-   "titulo": "John Corabi isn't looking back on his old bands, but he's not entirely done with the past",
-   "link": "https://www.loudersound.com/bands-artists/john-corabi-new-day-tour-interview",
+   "titulo": "Joe Strummer's two-year rampage with The 101'ers documented on evocative box set",
+   "link": "https://www.loudersound.com/music/albums/joe-strummer-003-the-101ers-years-1974-1976",
    "fonte": "Metal Hammer",
    "data": "2026-11-19T05:55:00+00:00"
   },
@@ -17662,12 +17745,6 @@
    "data": "2026-11-18T18:45:07+00:00"
   },
   {
-   "titulo": "Within Temptation - Debut New Song And Video Feat. S10",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64628",
-   "fonte": "Metal Storm",
-   "data": "2026-11-18T18:34:17+00:00"
-  },
-  {
    "titulo": "Knives announce Five-Date Iberian Tour, including Lisbon and Porto",
    "link": "https://www.theblackplanet.org/knives-iberian-tour/",
    "fonte": "The Black Planet",
@@ -17746,14 +17823,14 @@
    "data": "2026-11-18T17:00:26+00:00"
   },
   {
-   "titulo": "How Grand Theft Auto: Vice City helped make 80s metal cool again",
-   "link": "https://www.loudersound.com/culture/gaming/gta-vice-city-glam-metal-love-fist",
+   "titulo": "Dress like Phil Collins at Live Aid or on Miami Vice via charity auction",
+   "link": "https://www.loudersound.com/bands-artists/phil-collins-king-s-trust-auction-live-aid-miami-vice",
    "fonte": "Metal Hammer",
    "data": "2026-11-18T17:00:00+00:00"
   },
   {
-   "titulo": "Dress like Phil Collins at Live Aid or on Miami Vice via charity auction",
-   "link": "https://www.loudersound.com/bands-artists/phil-collins-king-s-trust-auction-live-aid-miami-vice",
+   "titulo": "How Grand Theft Auto: Vice City helped make 80s metal cool again",
+   "link": "https://www.loudersound.com/culture/gaming/gta-vice-city-glam-metal-love-fist",
    "fonte": "Metal Hammer",
    "data": "2026-11-18T17:00:00+00:00"
   },
@@ -17776,34 +17853,16 @@
    "data": "2026-11-18T16:49:15+00:00"
   },
   {
-   "titulo": "Seven Kingdoms - New Track Unveiled",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64627",
-   "fonte": "Metal Storm",
-   "data": "2026-11-18T16:46:15+00:00"
-  },
-  {
    "titulo": "P.O.D. Encourages Listeners To Be The Light On Scorching New Single 'Vampires & Parasites'",
    "link": "https://blabbermouth.net/news/p-o-d-encourages-listeners-to-be-the-light-on-scorching-new-single-vampires-parasites",
    "fonte": "Blabbermouth",
    "data": "2026-11-18T16:42:54+00:00"
   },
   {
-   "titulo": "Vulkan - Join Forces With Reigning Phoenix Music",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64626",
-   "fonte": "Metal Storm",
-   "data": "2026-11-18T16:40:06+00:00"
-  },
-  {
    "titulo": "CANDICE NIGHT, DOUG ALDRICH And Others Perform FLEETWOOD MAC’s “The Chain”; Music Video",
    "link": "https://bravewords.com/news/candice-night-doug-aldrich-and-others-perform-fleetwood-macs-the-chain-music-video/",
    "fonte": "BraveWords",
    "data": "2026-11-18T16:35:19+00:00"
-  },
-  {
-   "titulo": "Bury Tomorrow - Present 'Assimilate' Song",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64625",
-   "fonte": "Metal Storm",
-   "data": "2026-11-18T16:30:43+00:00"
   },
   {
    "titulo": "DERYCK WHIBLEY Reimagines SUM 41's Signature Songs On 'Diamonds Of The Night: Vol. 1' Solo Album",
@@ -17926,12 +17985,6 @@
    "data": "2026-11-18T12:49:51+00:00"
   },
   {
-   "titulo": "Tanith - Third Full Length Due In February",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64624",
-   "fonte": "Metal Storm",
-   "data": "2026-11-18T12:13:13+00:00"
-  },
-  {
    "titulo": "12 awesome metal songs I need to hear on the Grand Theft Auto VI soundtrack",
    "link": "https://www.loudersound.com/culture/gaming/12-awesome-metal-songs-i-need-to-hear-on-the-grand-theft-auto-vi-soundtrack",
    "fonte": "Metal Hammer",
@@ -17980,12 +18033,6 @@
    "data": "2026-11-18T09:02:35+00:00"
   },
   {
-   "titulo": "AVATAR Announces May/June 2027 North American Headlining Shows Around METALLICA Support Dates",
-   "link": "https://blabbermouth.net/news/avatar-announces-may-june-2027-north-american-headlining-shows-around-metallica-support-dates",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-18T06:31:40+00:00"
-  },
-  {
    "titulo": "Kerry King announces details of new album, The End of All Gods",
    "link": "https://www.loudersound.com/bands-artists/kerry-king-album-2027",
    "fonte": "Metal Hammer",
@@ -18016,36 +18063,6 @@
    "data": "2026-11-17T23:07:33+00:00"
   },
   {
-   "titulo": "Fugazi's Ian MacKaye reveals the life lesson he learned meeting fellow punk legend Jello Biafra for the first time",
-   "link": "https://www.loudersound.com/bands-artists/fugazi-ian-mackaye-recalls-first-meeting-with-jello-biafra",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-17T22:00:00+00:00"
-  },
-  {
-   "titulo": "STEVE HACKETT Announces New Solo Album 'Through A Sea Of Flames'",
-   "link": "https://blabbermouth.net/news/steve-hackett-announces-new-solo-album-through-a-sea-of-flames",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-17T21:40:26+00:00"
-  },
-  {
-   "titulo": "Queen finally give their Christmas classic the makeover it always deserved",
-   "link": "https://www.loudersound.com/music/tracks-singles/queen-finally-give-their-christmas-classic-the-makeover-it-always-deserved",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-17T21:28:48+00:00"
-  },
-  {
-   "titulo": "AMANDA SOMERVILLE Launches GoFundMe Campaign To Help Her Receive Treatment For Inoperable Cancerous Brain Tumor",
-   "link": "https://blabbermouth.net/news/amanda-somerville-launches-gofundme-campaign-to-help-her-receive-treatment-for-inoperable-cancerous-brain-tumor",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-17T21:05:36+00:00"
-  },
-  {
-   "titulo": "TÝR Announces March/April 2027 North American Tour With DYNAZTY, DOMINUM And EDGE OF PARADISE",
-   "link": "https://blabbermouth.net/news/tyr-announces-march-april-2027-north-american-tour-with-dynazty-dominum-and-edge-of-paradise",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-17T20:48:00+00:00"
-  },
-  {
    "titulo": "Avatar Announce 2027 Headlining Tour With Barbarians of California, Gates to Hell",
    "link": "https://metalinjection.net/tour-dates/avatar-2027-tour-metallica-barbarians-of-california",
    "fonte": "Metal Injection",
@@ -18056,12 +18073,6 @@
    "link": "https://www.decibelmagazine.com/2026/11/17/full-ep-stream-overture-the-final-straw/",
    "fonte": "Decibel",
    "data": "2026-11-17T20:00:55+00:00"
-  },
-  {
-   "titulo": "Bond goes nu metal? 11 rock bands who’d make a killer theme song for Robert Pattinson’s 007 debut",
-   "link": "https://www.loudersound.com/features/rock-bands-could-make-next-james-bond-theme-tune-pulp-radiohead-evanescence-deftones-ulver",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-17T20:00:00+00:00"
   },
   {
    "titulo": "Besatt return to Portugal for Extrema Luciferia Glorificatio",
@@ -18182,18 +18193,6 @@
    "link": "https://metalinjection.net/news/slayer-tom-araya-stops-show-fans-tear-out-seats",
    "fonte": "Metal Injection",
    "data": "2026-11-15T18:27:26+00:00"
-  },
-  {
-   "titulo": "How Michael Jackson Accidentally Gave Black Metal Its Name",
-   "link": "https://metalinjection.net/editorials/venom-cronos-black-metal-name-origin-michael-jackson",
-   "fonte": "Metal Injection",
-   "data": "2026-11-15T16:27:21+00:00"
-  },
-  {
-   "titulo": "10 Industrial Metal Albums That Aged Incredibly Well",
-   "link": "https://metalinjection.net/lists/10-industrial-metal-albums-that-aged-incredibly-well",
-   "fonte": "Metal Injection",
-   "data": "2026-11-15T15:46:21+00:00"
   }
  ]
 }
