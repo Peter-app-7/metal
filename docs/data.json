@@ -1,30 +1,17 @@
 {
- "atualizado": "2026-11-20T01:42:58+00:00",
+ "atualizado": "2026-11-20T07:51:11+00:00",
  "fontes": {
   "excluidas": [
    "Richard Dawkins"
   ],
   "agenda": {
-   "estado": "ok",
-   "linhas": 79,
-   "futuras": 57,
+   "estado": "indisponivel",
+   "linhas": 0,
+   "futuras": 0,
    "rejeitadas": [],
-   "quase": [
-    {
-     "agenda": "Ashes In The Ocean",
-     "banda": "The Ocean"
-    },
-    {
-     "agenda": "Hate Disposal",
-     "banda": "Hate"
-    },
-    {
-     "agenda": "Viseu Death Fest",
-     "banda": "Death"
-    }
-   ],
-   "atualizada": "2026-11-06",
-   "minhas": 5
+   "quase": [],
+   "atualizada": null,
+   "erro": "nenhuma linha lida: o formato da página pode ter mudado"
   },
   "bandas": "spotify",
   "feeds": [
@@ -50,7 +37,7 @@
    },
    {
     "nome": "Decibel",
-    "ok": false,
+    "ok": true,
     "artigos": 10
    },
    {
@@ -65,14 +52,15 @@
    },
    {
     "nome": "The Black Planet",
-    "ok": true,
+    "ok": false,
     "artigos": 10
    }
   ],
   "spotify_espera_ate": null
  },
  "avisos": [
-  "Feeds sem resposta nesta atualização: Decibel, BraveWords."
+  "Agenda do Caminhos Metálicos indisponível (nenhuma linha lida: o formato da página pode ter mudado). Ficaram os concertos guardados.",
+  "Feeds sem resposta nesta atualização: BraveWords, The Black Planet."
  ],
  "bandas": [
   {
@@ -17295,6 +17283,24 @@
  ],
  "noticias": [
   {
+   "titulo": "Prog's gift-packed, ultimate review of the year issue, is on sale now!",
+   "link": "https://www.loudersound.com/music-industry/magazines/progs-gift-packed-ultimate-review-of-the-year-issue-is-on-sale-now",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-20T07:00:00+00:00"
+  },
+  {
+   "titulo": "Arthur Brown reveals how close he came to forming a band with Jimi Hendrix",
+   "link": "https://www.loudersound.com/bands-artists/arthur-brown-almost-formed-a-band-with-jimi-hendrix",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-20T05:55:00+00:00"
+  },
+  {
+   "titulo": "The Beatles launch In My Life video starring Adolescence actor Owen Cooper",
+   "link": "https://www.loudersound.com/music/tracks-singles/the-beatles-video-in-my-life-owen-cooper",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-20T01:59:18+00:00"
+  },
+  {
    "titulo": "Carlos Santana adds North American dates to Planet of Free Will Global Tour",
    "link": "https://www.loudersound.com/bands-artists/concerts-shows/carlos-santana-north-american-dates-planet-of-free-will-global-tour",
    "fonte": "Metal Hammer",
@@ -17359,6 +17365,12 @@
    "link": "https://blabbermouth.net/news/pophouse-ceo-says-kiss-biopic-has-secured-funding-hopes-to-start-production-in-2027",
    "fonte": "Blabbermouth",
    "data": "2026-11-19T20:16:59+00:00"
+  },
+  {
+   "titulo": "Blood of the Earth: Beneath a Sky That Breaks — A Track-by-Track Conversation with J Costa",
+   "link": "https://www.decibelmagazine.com/2026/11/19/blood-of-the-earth-beneath-a-sky-that-breaks-a-track-by-track-conversation-with-j-costa/",
+   "fonte": "Decibel",
+   "data": "2026-11-19T20:00:50+00:00"
   },
   {
    "titulo": "Celestial Sanctuary - Share New Song",
@@ -18039,24 +18051,6 @@
    "data": "2026-11-18T04:00:00+00:00"
   },
   {
-   "titulo": "Julien Baker announces This World Or The Next, their first new album in six years",
-   "link": "https://www.loudersound.com/bands-artists/julien-baker-announces-this-world-or-the-next-their-first-new-album-in-six-years",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-18T02:00:00+00:00"
-  },
-  {
-   "titulo": "Jack Black names the greatest heavy metal vocalist of all time: \"He's still the reigning champion\"",
-   "link": "https://www.loudersound.com/bands-artists/jack-black-names-the-greatest-heavy-metal-vocalist-of-all-time",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-18T01:00:00+00:00"
-  },
-  {
-   "titulo": "The Rolling Stones have produced the spookiest lava lamp you'll ever see",
-   "link": "https://www.loudersound.com/culture/merchandise/the-rolling-stones-paint-it-black-lava-lamp",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-18T00:01:00+00:00"
-  },
-  {
    "titulo": "AMANDA SOMERVILLE Provides Update On Brain Tumor Treatment – “I Have Decided To Move Entire Family To The U.S.”",
    "link": "https://bravewords.com/heavy-metal/amanda-somerville-provides-update-on-brain-tumor-treatment-i-have-decided-to-move-entire-family-to-the-u-s/",
    "fonte": "BraveWords",
@@ -18109,12 +18103,6 @@
    "link": "https://www.theblackplanet.org/the-pineapple-thief-portugal-2027/",
    "fonte": "The Black Planet",
    "data": "2026-11-17T17:25:20+00:00"
-  },
-  {
-   "titulo": "Video Premiere: Between Rivers – “Silicon Paradise”",
-   "link": "https://www.decibelmagazine.com/2026/11/17/video-premiere-between-rivers-silicon-paradise/",
-   "fonte": "Decibel",
-   "data": "2026-11-17T17:00:48+00:00"
   },
   {
    "titulo": "We Are Very Jealous of Faith No More's South America Shows",
