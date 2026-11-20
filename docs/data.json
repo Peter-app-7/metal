@@ -1,17 +1,30 @@
 {
- "atualizado": "2026-11-20T07:51:11+00:00",
+ "atualizado": "2026-11-20T13:47:58+00:00",
  "fontes": {
   "excluidas": [
    "Richard Dawkins"
   ],
   "agenda": {
-   "estado": "indisponivel",
-   "linhas": 0,
-   "futuras": 0,
+   "estado": "ok",
+   "linhas": 79,
+   "futuras": 57,
    "rejeitadas": [],
-   "quase": [],
-   "atualizada": null,
-   "erro": "nenhuma linha lida: o formato da página pode ter mudado"
+   "quase": [
+    {
+     "agenda": "Ashes In The Ocean",
+     "banda": "The Ocean"
+    },
+    {
+     "agenda": "Hate Disposal",
+     "banda": "Hate"
+    },
+    {
+     "agenda": "Viseu Death Fest",
+     "banda": "Death"
+    }
+   ],
+   "atualizada": "2026-11-06",
+   "minhas": 5
   },
   "bandas": "spotify",
   "feeds": [
@@ -52,15 +65,14 @@
    },
    {
     "nome": "The Black Planet",
-    "ok": false,
+    "ok": true,
     "artigos": 10
    }
   ],
   "spotify_espera_ate": null
  },
  "avisos": [
-  "Agenda do Caminhos Metálicos indisponível (nenhuma linha lida: o formato da página pode ter mudado). Ficaram os concertos guardados.",
-  "Feeds sem resposta nesta atualização: BraveWords, The Black Planet."
+  "Feeds sem resposta nesta atualização: BraveWords."
  ],
  "bandas": [
   {
@@ -17283,6 +17295,60 @@
  ],
  "noticias": [
   {
+   "titulo": "Watch: METALLICA's ROBERT TRUJILLO Joins SUICIDAL TENDENCIES On Stage At Mohegan Sun Arena In Connecticut",
+   "link": "https://blabbermouth.net/news/watch-metallicas-robert-trujillo-joins-suicidal-tendencies-on-stage-at-mohegan-sun-arena-in-connecticut",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-20T13:12:24+00:00"
+  },
+  {
+   "titulo": "Get Up to 75% OFF During Decibel’s FLASH FRIDAY SALE! TODAY ONLY!",
+   "link": "https://www.decibelmagazine.com/2026/11/20/get-up-to-75-off-during-decibels-flash-friday-sale-today-only-3/",
+   "fonte": "Decibel",
+   "data": "2026-11-20T13:00:33+00:00"
+  },
+  {
+   "titulo": "TRIVIUM Shares Music Video For 'The Terror' From 'Crown In The Grave' Album",
+   "link": "https://blabbermouth.net/news/trivium-shares-music-video-for-the-terror-from-crown-in-the-grave-album",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-20T12:51:05+00:00"
+  },
+  {
+   "titulo": "Marshall headphones and speakers just landed a massive up to 40% price cut for Black Friday - including their best A.N.C AirPods rivals for less that £100",
+   "link": "https://www.loudersound.com/tech/speakers-amps/marshall-black-friday-sale",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-20T12:40:22+00:00"
+  },
+  {
+   "titulo": "MÖTLEY CRÜE Donates More Than $240,000 To ASAP! (After School Arts Program)",
+   "link": "https://blabbermouth.net/news/motley-crue-donates-more-than-240000-to-asap-after-school-arts-program",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-20T12:19:37+00:00"
+  },
+  {
+   "titulo": "Thrash metal ragers Power Trip release new track, Mutual Death Warrant, only through Grand Theft Auto VI",
+   "link": "https://www.loudersound.com/music/tracks-singles/power-trip-new-track-mutual-death-warrant-grand-theft-auto-vi",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-20T12:00:00+00:00"
+  },
+  {
+   "titulo": "Bleeding Through - Guitarist John Arnold Suffers Heart Attack",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64644",
+   "fonte": "Metal Storm",
+   "data": "2026-11-20T11:10:42+00:00"
+  },
+  {
+   "titulo": "Peter Gabriel still optimistic about his Lamb Lies Down On Broadway movie concept",
+   "link": "https://www.loudersound.com/bands-artists/oeter-gabriel-lamb-lies-down-broadway-movie-brain-show",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-20T11:00:00+00:00"
+  },
+  {
+   "titulo": "Sleep Token: order the new Metal Hammer issue with a limited-edition cover – and receive 10% off select Sleep Token merch on the Louder store",
+   "link": "https://www.loudersound.com/news/metal-hammer-issue-420-sleep-token-10th-anniversary-cover-2026",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-20T10:00:00+00:00"
+  },
+  {
    "titulo": "Prog's gift-packed, ultimate review of the year issue, is on sale now!",
    "link": "https://www.loudersound.com/music-industry/magazines/progs-gift-packed-ultimate-review-of-the-year-issue-is-on-sale-now",
    "fonte": "Metal Hammer",
@@ -17715,12 +17781,6 @@
    "data": "2026-11-18T19:55:27+00:00"
   },
   {
-   "titulo": "Bruce Dickinson - Announces New Solo Album 'PsychoGod,' Drops First Single",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64629",
-   "fonte": "Metal Storm",
-   "data": "2026-11-18T19:43:31+00:00"
-  },
-  {
    "titulo": "MIKE WENGREN On DISTURBED's Upcoming Album: 'There's Some Motherf***ers On This Record'",
    "link": "https://blabbermouth.net/news/mike-wengren-on-disturbeds-upcoming-album-theres-some-motherfers-on-this-record",
    "fonte": "Blabbermouth",
@@ -17967,34 +18027,16 @@
    "data": "2026-11-18T14:08:24+00:00"
   },
   {
-   "titulo": "STRYPER's MICHAEL SWEET On Perils Of Artificial Intelligence's Rapid Growth: 'I Hope It's Not Going To Be As Tragic As I Think It Could Be'",
-   "link": "https://blabbermouth.net/news/strypers-michael-sweet-on-perils-of-artificial-intelligences-rapid-growth-i-hope-its-not-going-to-be-as-tragic-as-i-think-it-could-be",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-18T13:56:40+00:00"
-  },
-  {
    "titulo": "Crystal Head Vodka Presents Today In Metal History 🤘 November 18th, 2026 🤘 AC/DC, METALLICA, RUDY SARZO, SCORPIONS, DIMMU BORGIR, IN FLAMES",
    "link": "https://bravewords.com/today-in-metal/today-in-metal-history-%f0%9f%a4%98-november-18th-2026-%f0%9f%a4%98-ac-dc-metallica-rudy-sarzo-scorpions-dimmu-borgir-in-flames/",
    "fonte": "BraveWords",
    "data": "2026-11-18T13:48:29+00:00"
   },
   {
-   "titulo": "Ex-SLIPKNOT Drummer JAY WEINBERG Is Not Interested In Using A.I. To Create Music: 'I Can't Relate To Why Anybody Would Want To Shortchange The Artistic Experience'",
-   "link": "https://blabbermouth.net/news/ex-slipknot-drummer-jay-weinberg-is-not-interested-in-using-a-i-to-create-music-i-cant-relate-to-why-anybody-would-want-to-shortchange-the-artistic-experience",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-18T13:17:26+00:00"
-  },
-  {
    "titulo": "FLOOR JANSEN Reflects On Joining NIGHTWISH On Tour In 2012 – “If They Would Have Called Me A Month Earlier, I Don’t Think I Could Have Done It”",
    "link": "https://bravewords.com/news/floor-jansen-reflects-on-joining-nightwish-on-tour-in-2012-if-they-would-have-called-me-a-month-earlier-i-dont-think-i-could-have-done-it/",
    "fonte": "BraveWords",
    "data": "2026-11-18T13:03:53+00:00"
-  },
-  {
-   "titulo": "JAY BENTLEY: No New BAD RELIGION Album Until Late 2027 At The Earliest",
-   "link": "https://blabbermouth.net/news/jay-bentley-no-new-bad-religion-album-until-late-2027-at-the-earliest",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-18T12:49:51+00:00"
   },
   {
    "titulo": "12 awesome metal songs I need to hear on the Grand Theft Auto VI soundtrack",
@@ -18015,40 +18057,16 @@
    "data": "2026-11-18T10:00:49+00:00"
   },
   {
-   "titulo": "Blink-182 and Pierce The Veil to headline When We Were Young 2027",
-   "link": "https://www.loudersound.com/bands-artists/blink-182-pierce-the-veil-announced-as-headliners-for-when-we-were-young-2027",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-18T10:00:00+00:00"
-  },
-  {
-   "titulo": "Massive Attack, Angine De Poitrine, Kraftwerk, Primal Scream and Dinosaur Jr among the artists announced for Glastonbury 2027, with Sam Fender, Harry Styles and Billie Eilish headlining",
-   "link": "https://www.loudersound.com/news/glastonbury-2027-artists-confirmed",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-18T09:37:17+00:00"
-  },
-  {
    "titulo": "A Look At The Reign Of SLIPKNOT – “Defined By A Brutal Mix Of Platinum-Selling Success And Internal Politics” (Video)",
    "link": "https://bravewords.com/news/a-look-at-the-reign-of-slipknot-defined-by-a-brutal-mix-of-platinum-selling-success-and-internal-politics-video/",
    "fonte": "BraveWords",
    "data": "2026-11-18T09:28:47+00:00"
   },
   {
-   "titulo": "The Bo Diddley albums you should definitely listen to... and one to avoid",
-   "link": "https://www.loudersound.com/music/albums/bo-diddley-best-albums",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-18T09:23:57+00:00"
-  },
-  {
    "titulo": "ZZ TOP – Gibson Launches Two New Recreations Of BILLY GIBBONS’ 1959 “Pearly Gates” Les Paul Standard (Video)",
    "link": "https://bravewords.com/news/zz-top-gibson-launches-two-new-recreations-of-billy-gibbons-1959-pearly-gates-les-paul-standard-video/",
    "fonte": "BraveWords",
    "data": "2026-11-18T09:02:35+00:00"
-  },
-  {
-   "titulo": "Kerry King announces details of new album, The End of All Gods",
-   "link": "https://www.loudersound.com/bands-artists/kerry-king-album-2027",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-18T04:00:00+00:00"
   },
   {
    "titulo": "AMANDA SOMERVILLE Provides Update On Brain Tumor Treatment – “I Have Decided To Move Entire Family To The U.S.”",
@@ -18061,12 +18079,6 @@
    "link": "https://metalinjection.net/tour-dates/avatar-2027-tour-metallica-barbarians-of-california",
    "fonte": "Metal Injection",
    "data": "2026-11-17T20:11:12+00:00"
-  },
-  {
-   "titulo": "Full EP Stream: Overture – “The Final Straw”",
-   "link": "https://www.decibelmagazine.com/2026/11/17/full-ep-stream-overture-the-final-straw/",
-   "fonte": "Decibel",
-   "data": "2026-11-17T20:00:55+00:00"
   },
   {
    "titulo": "Besatt return to Portugal for Extrema Luciferia Glorificatio",
