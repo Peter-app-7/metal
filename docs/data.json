@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-20T19:37:54+00:00",
+ "atualizado": "2026-11-21T01:49:15+00:00",
  "fontes": {
   "excluidas": [
    "Richard Dawkins"
@@ -7,7 +7,7 @@
   "agenda": {
    "estado": "ok",
    "linhas": 122,
-   "futuras": 122,
+   "futuras": 120,
    "rejeitadas": [],
    "quase": [
     {
@@ -9623,7 +9623,7 @@
      "id": "f1afec0b-26dd-3db5-9aa1-c91229a74a24",
      "titulo": "Bleach",
      "tipo": "Álbum",
-     "data": "1989-08-08",
+     "data": "1989-06-15",
      "capa": "https://coverartarchive.org/release-group/f1afec0b-26dd-3db5-9aa1-c91229a74a24/front-250",
      "spotify": "https://open.spotify.com/search/Nirvana%20Bleach"
     }
@@ -17953,6 +17953,48 @@
  ],
  "noticias": [
   {
+   "titulo": "Bleeding Through guitarist John Arnold suffers heart attack: \"Life is precious\"",
+   "link": "https://www.loudersound.com/bands-artists/bleeding-through-guitarist-heart-attack",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-21T01:00:00+00:00"
+  },
+  {
+   "titulo": "R.E.M. are perfectly happy in the knowledge that they will never, ever reform",
+   "link": "https://www.loudersound.com/bands-artists/r-e-m-bassist-mike-mills-is-perfectly-happy-knowing-that-the-band-will-never-reform",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-20T23:00:00+00:00"
+  },
+  {
+   "titulo": "Bruce Dickinson says new song recounts Bible story detailing God’s cruelty: \"“That is a total psychopath\"",
+   "link": "https://www.loudersound.com/bands-artists/bruce-dickinson-religion-psychogod",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-20T22:00:00+00:00"
+  },
+  {
+   "titulo": "Lorna Shore's Will Ramos Shaves His Head",
+   "link": "https://metalinjection.net/news/lorna-shore-will-ramos-shaves-head",
+   "fonte": "Metal Injection",
+   "data": "2026-11-20T21:07:23+00:00"
+  },
+  {
+   "titulo": "Bruce Springsteen's record-breaking 1988 East Berlin show to be immortalised in new documentary",
+   "link": "https://www.loudersound.com/bands-artists/bruce-springsteen-record-breaking-east-berlin-show-to-be-immortalised-in-new-documentary",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-20T21:00:00+00:00"
+  },
+  {
+   "titulo": "Photos: Trivium, In Flames, Fit For An Autopsy, and Frozen Soul",
+   "link": "https://metalinjection.net/news/photos-trivium-in-flames-fit-for-an-autopsy-and-frozen-soul",
+   "fonte": "Metal Injection",
+   "data": "2026-11-20T19:25:04+00:00"
+  },
+  {
+   "titulo": "Gates to Hell Unleash “Rotting Heart,” First Single With New Vocalist JP Kaine",
+   "link": "https://metalinjection.net/new-music/gates-to-hell-jp-kaine-new-song",
+   "fonte": "Metal Injection",
+   "data": "2026-11-20T19:11:50+00:00"
+  },
+  {
    "titulo": "Eagle Syndrome, an I Prevail Exit, and Scatterbrain: Brian Burkheiser Is Still Here",
    "link": "https://metalinjection.net/interviews/brian-burkheiser-scatterbrain-life-after-i-prevail-interview",
    "fonte": "Metal Injection",
@@ -18475,14 +18517,14 @@
    "data": "2026-11-19T06:09:49+00:00"
   },
   {
-   "titulo": "Joe Strummer's two-year rampage with The 101'ers documented on evocative box set",
-   "link": "https://www.loudersound.com/music/albums/joe-strummer-003-the-101ers-years-1974-1976",
+   "titulo": "John Corabi isn't looking back on his old bands, but he's not entirely done with the past",
+   "link": "https://www.loudersound.com/bands-artists/john-corabi-new-day-tour-interview",
    "fonte": "Metal Hammer",
    "data": "2026-11-19T05:55:00+00:00"
   },
   {
-   "titulo": "John Corabi isn't looking back on his old bands, but he's not entirely done with the past",
-   "link": "https://www.loudersound.com/bands-artists/john-corabi-new-day-tour-interview",
+   "titulo": "Joe Strummer's two-year rampage with The 101'ers documented on evocative box set",
+   "link": "https://www.loudersound.com/music/albums/joe-strummer-003-the-101ers-years-1974-1976",
    "fonte": "Metal Hammer",
    "data": "2026-11-19T05:55:00+00:00"
   },
@@ -18497,18 +18539,6 @@
    "link": "https://www.loudersound.com/culture/gaming/grand-theft-auto-vi-soundtrack",
    "fonte": "Metal Hammer",
    "data": "2026-11-19T01:03:43+00:00"
-  },
-  {
-   "titulo": "Watch tennis legend John McEnroe join Queens of the Stone Age frontman Josh Homme and Red Hot Chili Peppers drummer Chad Smith onstage in Los Angeles for a raucous cover of David Bowie's glam rock classic Suffragette City",
-   "link": "https://www.loudersound.com/bands-artists/watch-john-mcenroe-join-queens-of-the-stone-age-frontman-josh-homme-cover-david-bowie",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-19T00:00:00+00:00"
-  },
-  {
-   "titulo": "Instant noodles and cassette tapes: A short history of Bon Jovi and advertising",
-   "link": "https://www.loudersound.com/music/albums/bon-jovi-advertising",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-18T23:02:08+00:00"
   },
   {
    "titulo": "MICHAEL ANTHONY Confirms PATTY SMYTH Was Once 'Considered' For VAN HALEN Singer Position",
@@ -18653,18 +18683,6 @@
    "link": "https://bravewords.com/news/the-pretty-things-celebrated-with-pretty-rare-12cd-book-edition-video-trailer/",
    "fonte": "BraveWords",
    "data": "2026-11-18T17:14:22+00:00"
-  },
-  {
-   "titulo": "How Grand Theft Auto: Vice City helped make 80s metal cool again",
-   "link": "https://www.loudersound.com/culture/gaming/gta-vice-city-glam-metal-love-fist",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-18T17:00:00+00:00"
-  },
-  {
-   "titulo": "Dress like Phil Collins at Live Aid or on Miami Vice via charity auction",
-   "link": "https://www.loudersound.com/bands-artists/phil-collins-king-s-trust-auction-live-aid-miami-vice",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-18T17:00:00+00:00"
   },
   {
    "titulo": "Watch: TWISTED SISTER Costume Designer SUZETTE GUILOT-SNIDER Inducted Into The Long Island Music And Entertainment Hall Of Fame; Video",
@@ -18827,24 +18845,6 @@
    "link": "https://www.theblackplanet.org/post-punk-strikes-back-again-2026-preview/",
    "fonte": "The Black Planet",
    "data": "2026-11-17T15:43:50+00:00"
-  },
-  {
-   "titulo": "John Christ, Former Danzig and Samhain Guitarist, Dead at 61",
-   "link": "https://metalinjection.net/news/john-christ-former-danzig-and-samhain-guitarist-dead-at-61",
-   "fonte": "Metal Injection",
-   "data": "2026-11-17T15:33:44+00:00"
-  },
-  {
-   "titulo": "Watch: Mastodon Drops \"Your Ghost Again\" Performance Video Following Grammy Nomination",
-   "link": "https://metalinjection.net/news/watch-mastodon-drops-your-ghost-again-performance-video-following-grammy-nomination",
-   "fonte": "Metal Injection",
-   "data": "2026-11-17T14:46:47+00:00"
-  },
-  {
-   "titulo": "Kerry King Drops \"My War\" Video From 'The End of All Gods,' Pre-Order Exclusive Vinyl From Metal Injection",
-   "link": "https://metalinjection.net/news/slug-kerry-king-my-war-video-end-of-all-gods-vinyl",
-   "fonte": "Metal Injection",
-   "data": "2026-11-17T13:59:07+00:00"
   },
   {
    "titulo": "El Altar del Holocausto: Instrumental journeys through faith, loss and rebirth",
