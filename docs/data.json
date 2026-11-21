@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-21T07:45:34+00:00",
+ "atualizado": "2026-11-21T13:34:31+00:00",
  "fontes": {
   "excluidas": [
    "Richard Dawkins"
@@ -63,7 +63,7 @@
    },
    {
     "nome": "BraveWords",
-    "ok": false,
+    "ok": true,
     "artigos": 30
    },
    {
@@ -79,9 +79,7 @@
   ],
   "spotify_espera_ate": null
  },
- "avisos": [
-  "Feeds sem resposta nesta atualização: BraveWords."
- ],
+ "avisos": [],
  "bandas": [
   {
    "id": "redemptus",
@@ -10700,6 +10698,14 @@
    "spotify": "https://open.spotify.com/artist/1wXoI3Ajpv4WwQ3LmcrSBw",
    "lancamentos": [
     {
+     "id": "f675adf4-f03b-4698-9a15-12c399a431ac",
+     "titulo": "Shallow",
+     "tipo": "EP",
+     "data": "2026-10-28",
+     "capa": "https://i.scdn.co/image/ab67616d00001e029e3ac5ec5f092e27a0301392",
+     "spotify": "https://open.spotify.com/album/6yyKcoCOtp9U4vtwaFLTqA"
+    },
+    {
      "id": "a49dab85-50c6-4316-8239-767af81d9bda",
      "titulo": "Loss",
      "tipo": "Álbum",
@@ -17953,6 +17959,120 @@
  ],
  "noticias": [
   {
+   "titulo": "Watch CHAD SMITH’s Drum Playthrough Of CHICKENFOOT’s “Soap On A Rope”",
+   "link": "https://bravewords.com/hard-rock/watch-chad-smiths-drum-playthrough-of-chickenfoots-soap-on-a-rope/",
+   "fonte": "BraveWords",
+   "data": "2026-11-21T13:15:30+00:00"
+  },
+  {
+   "titulo": "BOKASSA Shares Catchy New Single 'One Day My Head Is Gonna Win' From Upcoming Fifth Album 'Anomalies'",
+   "link": "https://blabbermouth.net/news/bokassa-shares-catchy-new-single-one-day-my-head-is-gonna-win-from-upcoming-fifth-album-anomalies",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-21T12:56:45+00:00"
+  },
+  {
+   "titulo": "Watch FIT FOR AN AUTOPSY Perform “The Sea Of Tragic Beasts” At Bloodstock 2026; Pro-Shot Video",
+   "link": "https://bravewords.com/news/watch-fit-for-an-autopsy-perform-the-sea-of-tragic-beasts-at-bloodstock-2026-pro-shot-video/",
+   "fonte": "BraveWords",
+   "data": "2026-11-21T12:54:55+00:00"
+  },
+  {
+   "titulo": "OH, SLEEPER Announces 'Back To The Wild' Album, Shares 'Frontline Livin'' Single",
+   "link": "https://blabbermouth.net/news/oh-sleeper-announces-back-to-the-wild-album-shares-frontline-livin-single",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-21T12:42:41+00:00"
+  },
+  {
+   "titulo": "Today In Metal History 🤘 November 21st, 2026 🤘 KISS, QUEEN, RUSH, AEROSMITH, FLOTSAM AND JETSAM, BOSTON",
+   "link": "https://bravewords.com/today-in-metal/today-in-metal-history-%f0%9f%a4%98-november-21st-2026-%f0%9f%a4%98-kiss-queen-rush-aerosmith-flotsam-and-jetsam-boston/",
+   "fonte": "BraveWords",
+   "data": "2026-11-21T12:41:45+00:00"
+  },
+  {
+   "titulo": "ATREYU Releases German-Language Version Of 'Ghost In Me' From New Album 'The End Is Not The End'",
+   "link": "https://blabbermouth.net/news/atreyu-releases-german-language-version-of-ghost-in-me-from-new-album-the-end-is-not-the-end",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-21T12:27:58+00:00"
+  },
+  {
+   "titulo": "DOWN Shares Animated Music Video For 'They Walk The Night' From 'Volume V' Album",
+   "link": "https://blabbermouth.net/news/down-shares-animated-music-video-for-they-walk-the-night-from-volume-v-album",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-21T12:12:39+00:00"
+  },
+  {
+   "titulo": "THE HAUNTED Guitarist OLA ENGLUND Shares “Please Respong / Song Of The Dead” Live Performance From The Neverending Story Solo Album Release Party",
+   "link": "https://bravewords.com/news/the-haunted-guitarist-ola-englund-shares-please-respong-song-of-the-dead-live-performance-from-the-neverending-story-solo-album-release-party/",
+   "fonte": "BraveWords",
+   "data": "2026-11-21T11:27:24+00:00"
+  },
+  {
+   "titulo": "BRASS AGAINST Featuring Vocalist MORGAN JAMES Share Performance Of LED ZEPPELIN Classic “Whole Lotta Love” (Video)",
+   "link": "https://bravewords.com/news/brass-against-featuring-vocalist-morgan-james-share-performance-of-led-zeppelin-classic-whole-lotta-love-video/",
+   "fonte": "BraveWords",
+   "data": "2026-11-21T11:18:55+00:00"
+  },
+  {
+   "titulo": "Phil Collins refused to do one thing during his long Live Aid day: “Get someone else”",
+   "link": "https://www.loudersound.com/bands-artists/phil-collins-live-aid",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-21T11:00:00+00:00"
+  },
+  {
+   "titulo": "CONCEPTION Gearing Up To Record Seventh Album, Announce 2027 Conception Camp",
+   "link": "https://bravewords.com/news/conception-gearing-up-to-record-seventh-album-announce-2027-conception-camp/",
+   "fonte": "BraveWords",
+   "data": "2026-11-21T10:12:57+00:00"
+  },
+  {
+   "titulo": "Metal Hammer's Tracks Of The Week: November 20 2026",
+   "link": "https://www.loudersound.com/music/tracks-singles/metal-hammer-tracks-of-the-week-november-20-2026-bruce-dickinson-kerry-king-within-temptation",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-21T10:00:00+00:00"
+  },
+  {
+   "titulo": "SCORPIONS Shares Wacken Open Air 2006 Live Performance Of “Love ‘Em Or Leave ‘Em”; Pro-Shot Video",
+   "link": "https://bravewords.com/news/scorpions-shares-wacken-open-air-2006-live-performance-of-love-em-or-leave-em-pro-shot-video/",
+   "fonte": "BraveWords",
+   "data": "2026-11-21T09:34:18+00:00"
+  },
+  {
+   "titulo": "ATREYU Release German Version Of “Ghost In Me” As A “Thank You” To Their German Fans",
+   "link": "https://bravewords.com/news/atreyu-release-german-version-of-ghost-in-me-as-a-thank-you-to-their-german-fans/",
+   "fonte": "BraveWords",
+   "data": "2026-11-21T09:09:50+00:00"
+  },
+  {
+   "titulo": "Arkona - Upcoming European Tour Postponed",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64651",
+   "fonte": "Metal Storm",
+   "data": "2026-11-21T08:17:18+00:00"
+  },
+  {
+   "titulo": "Pyre Forge - Debut 'Morrigan' Song",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64645",
+   "fonte": "Metal Storm",
+   "data": "2026-11-21T08:11:45+00:00"
+  },
+  {
+   "titulo": "Stahlsarg - Sign With Apocalyptic Witchcraft, Announce New Album & EP Reissue",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64652",
+   "fonte": "Metal Storm",
+   "data": "2026-11-21T08:02:34+00:00"
+  },
+  {
+   "titulo": "Skid Row - 2027 US Shows Confirmed",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64649",
+   "fonte": "Metal Storm",
+   "data": "2026-11-21T07:52:59+00:00"
+  },
+  {
+   "titulo": "Abyssic - Releasing New Opus Next Year",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64647",
+   "fonte": "Metal Storm",
+   "data": "2026-11-21T07:46:12+00:00"
+  },
+  {
    "titulo": "Ex-Van Halen bassist Michael Anthony reveals the female singer who was asked to replace David Lee Roth:",
    "link": "https://www.loudersound.com/bands-artists/van-halen-david-lee-roth-replacement-patty-smyth",
    "fonte": "Metal Hammer",
@@ -17971,10 +18091,22 @@
    "data": "2026-11-20T23:00:00+00:00"
   },
   {
-   "titulo": "Bruce Dickinson says new song recounts Bible story detailing God’s cruelty: \"“That is a total psychopath\"",
+   "titulo": "KISS’ PAUL STANLEY – “TOMMY And ERIC Have Been So Dedicated And Loyal To Everything This Band Ever Was”",
+   "link": "https://bravewords.com/hard-rock/kiss-paul-stanley-tommy-and-eric-have-been-so-dedicated-and-loyal-to-everything-this-band-ever-was/",
+   "fonte": "BraveWords",
+   "data": "2026-11-20T22:23:47+00:00"
+  },
+  {
+   "titulo": "Bruce Dickinson says new song recounts Bible story detailing God’s cruelty: \"That is a total psychopath\"",
    "link": "https://www.loudersound.com/bands-artists/bruce-dickinson-religion-psychogod",
    "fonte": "Metal Hammer",
    "data": "2026-11-20T22:00:00+00:00"
+  },
+  {
+   "titulo": "Crown In The Grave – TRIVIUM And IN FLAMES At Place Bell",
+   "link": "https://bravewords.com/concert-reviews/crown-in-the-grave-trivium-and-in-flames-at-place-bell/",
+   "fonte": "BraveWords",
+   "data": "2026-11-20T21:16:52+00:00"
   },
   {
    "titulo": "Lorna Shore's Will Ramos Shaves His Head",
@@ -17989,6 +18121,18 @@
    "data": "2026-11-20T21:00:00+00:00"
   },
   {
+   "titulo": "Watch: THIN LIZZY Performs “Dancing In The Moonlight” On British TV Show “Marc” In 1977",
+   "link": "https://bravewords.com/news/watch-thin-lizzy-performs-dancing-in-the-moonlight-on-british-tv-show-marc-in-1977/",
+   "fonte": "BraveWords",
+   "data": "2026-11-20T19:54:57+00:00"
+  },
+  {
+   "titulo": "STRATOVARIUS Share “Speed Of Light” Live Video From Drummer JÖRG MICHAEL’s Farewell Tour",
+   "link": "https://bravewords.com/news/stratovarius-share-speed-of-light-live-video-from-drummer-jorg-michaels-farewell-tour/",
+   "fonte": "BraveWords",
+   "data": "2026-11-20T19:35:09+00:00"
+  },
+  {
    "titulo": "Photos: Trivium, In Flames, Fit For An Autopsy, and Frozen Soul",
    "link": "https://metalinjection.net/news/photos-trivium-in-flames-fit-for-an-autopsy-and-frozen-soul",
    "fonte": "Metal Injection",
@@ -18001,10 +18145,34 @@
    "data": "2026-11-20T19:11:50+00:00"
   },
   {
+   "titulo": "PHIL ANSELMO On DOWN’s Heartfelt Salute To OZZY OSBOURNE – “Without BLACK SABBATH, There Would Be No Down… Without Ozzy, I’d Be A Completely Different Singer And Songwriter”",
+   "link": "https://bravewords.com/news/phil-anselmo-on-downs-heartfelt-salute-to-ozzy-osbourne-without-black-sabbath-there-would-be-no-down-without-ozzy-id-be-a-completely-different-singer-and-songwriter/",
+   "fonte": "BraveWords",
+   "data": "2026-11-20T19:08:23+00:00"
+  },
+  {
+   "titulo": "U.D.O. Release New Single And Music Video “The Sky Is The Limit”",
+   "link": "https://bravewords.com/news/u-d-o-release-new-single-and-music-video-the-sky-is-the-limit/",
+   "fonte": "BraveWords",
+   "data": "2026-11-20T18:49:23+00:00"
+  },
+  {
    "titulo": "Eagle Syndrome, an I Prevail Exit, and Scatterbrain: Brian Burkheiser Is Still Here",
    "link": "https://metalinjection.net/interviews/brian-burkheiser-scatterbrain-life-after-i-prevail-interview",
    "fonte": "Metal Injection",
    "data": "2026-11-20T18:21:02+00:00"
+  },
+  {
+   "titulo": "“And Then He Fell In The Bath” – NICKO McBRAIN Says GARY MOORE Wanted Him… But IRON MAIDEN Got There First",
+   "link": "https://bravewords.com/news/and-then-he-fell-in-the-bath-nicko-mcbrain-says-gary-moore-wanted-him-but-iron-maiden-got-there-first/",
+   "fonte": "BraveWords",
+   "data": "2026-11-20T18:05:37+00:00"
+  },
+  {
+   "titulo": "PHIL COLLINS Talks Friendship With ERIC CLAPTON – “He’s The Best Guitarist I’ve Ever Played With”; Audio",
+   "link": "https://bravewords.com/news/phil-collins-talks-friendship-with-eric-clapton-hes-the-best-guitarist-ive-ever-played-with-audio/",
+   "fonte": "BraveWords",
+   "data": "2026-11-20T18:03:24+00:00"
   },
   {
    "titulo": "The Story Behind Ice Nine Kills A Very Vicious Christmas",
@@ -18017,6 +18185,12 @@
    "link": "https://blabbermouth.net/news/firewind-announces-firepower-usa-tour-2027-featuring-co-headliner-powerglove",
    "fonte": "Blabbermouth",
    "data": "2026-11-20T17:51:50+00:00"
+  },
+  {
+   "titulo": "FIREWIND Announce US “Firepower USA Tour 2027” Featuring Co-Headliner POWERGLOVE",
+   "link": "https://bravewords.com/news/firewind-announces-us-firepower-usa-tour-2027-featuring-co-headliner-powerglove/",
+   "fonte": "BraveWords",
+   "data": "2026-11-20T17:39:14+00:00"
   },
   {
    "titulo": "U.D.O. Releases Music Video For 'The Sky Is The Limit' Single From Upcoming 'Voodoo Ranger' Album",
@@ -18049,10 +18223,28 @@
    "data": "2026-11-20T17:00:00+00:00"
   },
   {
+   "titulo": "DOWN Premier “They Walk The Night” Animated Video; Volume V Album Out Now + Record Release Show Tonight",
+   "link": "https://bravewords.com/news/down-premier-they-walk-the-night-animated-video-volume-v-album-out-now-record-release-show-tonight/",
+   "fonte": "BraveWords",
+   "data": "2026-11-20T16:42:30+00:00"
+  },
+  {
+   "titulo": "THUNDERMOTHER Release New Single And Video “Time Is Never Wasted (When You’re Wasted All The Time)”",
+   "link": "https://bravewords.com/news/thundermother-release-new-single-and-video-time-is-never-wasted-when-youre-wasted-all-the-time/",
+   "fonte": "BraveWords",
+   "data": "2026-11-20T16:27:11+00:00"
+  },
+  {
    "titulo": "FLOTSAM AND JETSAM's ERIC 'A.K.' KNUTSON Says JASON NEWSTED Is 'Still The Same Guy' He Was 40 Years Ago: 'The Only Difference With Him Now Is He's Got A Lot More Money'",
    "link": "https://blabbermouth.net/news/flotsam-and-jetsams-eric-a-k-knutson-says-jason-newsted-is-still-the-same-guy-he-was-40-years-ago-the-only-difference-with-him-now-is-hes-got-a-lot-more-money",
    "fonte": "Blabbermouth",
    "data": "2026-11-20T16:16:18+00:00"
+  },
+  {
+   "titulo": "DUFF McKAGAN And Gibson Launch Global Search For His Long-Lost First Bass; Duff Reveals The Story Behind The Bass That Shaped His Sound In New Video Interview",
+   "link": "https://bravewords.com/news/duff-mckagan-and-gibson-launch-global-search-for-his-long-lost-first-bass-duff-reveals-the-story-behind-the-bass-that-shaped-his-sound-in-new-video-interview/",
+   "fonte": "BraveWords",
+   "data": "2026-11-20T16:15:40+00:00"
   },
   {
    "titulo": "Suicide Silence's 'Graceless' Out Now, Exclusive Vinyl Now Shipping From Metal Injection",
@@ -18067,10 +18259,22 @@
    "data": "2026-11-20T16:00:00+00:00"
   },
   {
+   "titulo": "BOB SEGER – Celebrate The 50th Anniversary Of Night Moves With Limited Edition Vinylphyle And Record Store Day Exclusive Vinyl Editions",
+   "link": "https://bravewords.com/news/bob-seger-celebrate-the-50th-anniversary-of-night-moves-with-limited-edition-vinylphyle-and-record-store-day-exclusive-vinyl-editions/",
+   "fonte": "BraveWords",
+   "data": "2026-11-20T15:46:02+00:00"
+  },
+  {
    "titulo": "COREY TAYLOR Is 'Really Excited' About Newly Released STONE SOUR Song 'Full Of Empty'",
    "link": "https://blabbermouth.net/news/corey-taylor-is-really-excited-about-newly-released-stone-sour-song-full-of-empty",
    "fonte": "Blabbermouth",
    "data": "2026-11-20T15:37:09+00:00"
+  },
+  {
+   "titulo": "TRIVIUM Debut “The Terror” Music Video; Crown In The Grave Album Out Now",
+   "link": "https://bravewords.com/news/trivium-debut-the-terror-music-video-crown-in-the-grave-album-out-now/",
+   "fonte": "BraveWords",
+   "data": "2026-11-20T15:23:00+00:00"
   },
   {
    "titulo": "Swallow The Sun - Streaming New Lyric Video",
@@ -18127,6 +18331,12 @@
    "data": "2026-11-20T14:00:16+00:00"
   },
   {
+   "titulo": "Rock Kommander Update 1.28.0: Mikkey Dee Season, New Outfits & Events",
+   "link": "https://bravewords.com/kommander/rock-kommander-update-1-28-0-mikkey-dee-season-new-outfits-events/",
+   "fonte": "BraveWords",
+   "data": "2026-11-20T14:00:14+00:00"
+  },
+  {
    "titulo": "FOO FIGHTERS' DAVE GROHL: 'The People In My Band Are Genuinely My Closest And Best Friends'",
    "link": "https://blabbermouth.net/news/foo-fighters-dave-grohl-the-people-in-my-band-are-genuinely-my-closest-and-best-friends",
    "fonte": "Blabbermouth",
@@ -18151,10 +18361,28 @@
    "data": "2026-11-20T12:51:05+00:00"
   },
   {
+   "titulo": "TWISTED SISTER Guitarist JAY JAY FRENCH On Performing Live With SEBASTIAN BACH – “It’s Not The Material So Much As It’s The Chemistry” (Video)",
+   "link": "https://bravewords.com/news/twisted-sister-guitarist-jay-jay-french-on-performing-live-with-sebastian-bach-its-not-the-material-so-much-as-its-the-chemistry-video/",
+   "fonte": "BraveWords",
+   "data": "2026-11-20T12:41:16+00:00"
+  },
+  {
    "titulo": "Marshall headphones and speakers just landed a massive up to 40% price cut for Black Friday - including their best A.N.C AirPods rivals for less that £100",
    "link": "https://www.loudersound.com/tech/speakers-amps/marshall-black-friday-sale",
    "fonte": "Metal Hammer",
    "data": "2026-11-20T12:40:22+00:00"
+  },
+  {
+   "titulo": "tAKiDA Release New Single / Lyric Video “So Far Away”",
+   "link": "https://bravewords.com/news/takida-release-new-single-lyric-video-so-far-away/",
+   "fonte": "BraveWords",
+   "data": "2026-11-20T12:39:30+00:00"
+  },
+  {
+   "titulo": "MAJESTICA Frontman TOMMY JOHANSSON Shares Metal Cover Of ALPHAVILLE Hit “Big In Japan” (Video)",
+   "link": "https://bravewords.com/news/majestica-frontman-tommy-johansson-shares-metal-cover-of-alphaville-hit-big-in-japan-video/",
+   "fonte": "BraveWords",
+   "data": "2026-11-20T12:30:53+00:00"
   },
   {
    "titulo": "MÖTLEY CRÜE Donates More Than $240,000 To ASAP! (After School Arts Program)",
@@ -18169,6 +18397,12 @@
    "data": "2026-11-20T12:00:00+00:00"
   },
   {
+   "titulo": "Today In Metal History 🤘 November 20th, 2026 🤘 JOE WALSH, ALICE COOPER, CINDERELLA, SEBASTIAN BACH, AEROSMITH",
+   "link": "https://bravewords.com/today-in-metal/today-in-metal-history-%f0%9f%a4%98-november-20th-2026-%f0%9f%a4%98-joe-walsh-alice-cooper-cinderella-sebastian-bach-aerosmith/",
+   "fonte": "BraveWords",
+   "data": "2026-11-20T11:53:59+00:00"
+  },
+  {
    "titulo": "Bleeding Through - Guitarist John Arnold Suffers Heart Attack",
    "link": "https://metalstorm.net/events/news_comments.php?news_id=64644",
    "fonte": "Metal Storm",
@@ -18179,6 +18413,12 @@
    "link": "https://www.loudersound.com/bands-artists/oeter-gabriel-lamb-lies-down-broadway-movie-brain-show",
    "fonte": "Metal Hammer",
    "data": "2026-11-20T11:00:00+00:00"
+  },
+  {
+   "titulo": "ELECTRIC CALLBOY Vocalist KEVIN RATAJCZAK Reveals His Top 5 Favourite Albums (Video)",
+   "link": "https://bravewords.com/news/electric-callboy-vocalist-kevin-ratajczak-reveals-his-top-5-favourite-albums-video/",
+   "fonte": "BraveWords",
+   "data": "2026-11-20T10:14:22+00:00"
   },
   {
    "titulo": "Sleep Token: order the new Metal Hammer issue with a limited-edition cover – and receive 10% off select Sleep Token merch on the Louder store",
@@ -18197,6 +18437,18 @@
    "link": "https://www.loudersound.com/bands-artists/arthur-brown-almost-formed-a-band-with-jimi-hendrix",
    "fonte": "Metal Hammer",
    "data": "2026-11-20T05:55:00+00:00"
+  },
+  {
+   "titulo": "BRAINSTORM Unveils New, Dream-Born Single / Video “Neon Stream” From Upcoming Studio Album, Nightfall",
+   "link": "https://bravewords.com/news/brainstorm-unveils-new-dream-born-single-video-neon-stream-from-upcoming-studio-album-nightfall/",
+   "fonte": "BraveWords",
+   "data": "2026-11-20T05:09:18+00:00"
+  },
+  {
+   "titulo": "Watch: Behind The Board: METALLICA’s 72 Seasons",
+   "link": "https://bravewords.com/news/watch-behind-the-board-metallicas-72-seasons/",
+   "fonte": "BraveWords",
+   "data": "2026-11-20T04:11:15+00:00"
   },
   {
    "titulo": "The Beatles launch In My Life video starring Adolescence actor Owen Cooper",
@@ -18355,24 +18607,6 @@
    "data": "2026-11-19T16:16:40+00:00"
   },
   {
-   "titulo": "League Of Distortion - Announce & Detail Third Long Player",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64636",
-   "fonte": "Metal Storm",
-   "data": "2026-11-19T16:06:35+00:00"
-  },
-  {
-   "titulo": "Brainstorm - Launch New Track",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64635",
-   "fonte": "Metal Storm",
-   "data": "2026-11-19T15:56:34+00:00"
-  },
-  {
-   "titulo": "Thornhill - Confirm Extensive Australian Tour",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64634",
-   "fonte": "Metal Storm",
-   "data": "2026-11-19T15:43:19+00:00"
-  },
-  {
    "titulo": "ANIKA NILLES On Touring With RUSH: 'This Gig Was Really Tough In Preparation On All Levels'",
    "link": "https://blabbermouth.net/news/anika-nilles-on-touring-with-rush-this-gig-was-really-tough-in-preparation-on-all-levels",
    "fonte": "Blabbermouth",
@@ -18385,22 +18619,10 @@
    "data": "2026-11-19T15:04:05+00:00"
   },
   {
-   "titulo": "Noctiferia - 'Decoronation' Song Revealed",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64633",
-   "fonte": "Metal Storm",
-   "data": "2026-11-19T15:01:45+00:00"
-  },
-  {
    "titulo": "Petition urging Wembley Stadium to drop Marilyn Manson from Slipknot concert reaches 20,000 signatures",
    "link": "https://www.loudersound.com/news/marilyn-manson-petition-drop-from-slipknot-wembley-concert-launched-2026",
    "fonte": "Metal Hammer",
    "data": "2026-11-19T15:00:00+00:00"
-  },
-  {
-   "titulo": "Chaosbay - To Release New Double Full Length",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64632",
-   "fonte": "Metal Storm",
-   "data": "2026-11-19T14:54:35+00:00"
   },
   {
    "titulo": "Power Trip's New Single, \"Mutual Death Warrant,\" Can Only Be Heard in 'Grand Theft Auto VI'",
@@ -18445,12 +18667,6 @@
    "data": "2026-11-19T13:20:45+00:00"
   },
   {
-   "titulo": "Crystal Head Vodka Presents Today In Metal History 🤘 November 19th, 2026 🤘 QUIET RIOT, LED ZEPPELIN, RUSH, MATT SORUM, EXODUS",
-   "link": "https://bravewords.com/today-in-metal/crystal-head-vodka-presents-today-in-metal-history-%f0%9f%a4%98-november-19th-2026-%f0%9f%a4%98-quiet-riot-led-zeppelin-rush-matt-sorum-exodus/",
-   "fonte": "BraveWords",
-   "data": "2026-11-19T13:18:07+00:00"
-  },
-  {
    "titulo": "JUDAS PRIEST's ROB HALFORD Praises IRON MAIDEN: 'What They Offer Is Something Truly Spectacular, Unusual And Different'",
    "link": "https://blabbermouth.net/news/judas-priests-halford-praises-iron-maiden-what-they-offer-is-something-truly-spectacular-unusual-and-different",
    "fonte": "Blabbermouth",
@@ -18461,12 +18677,6 @@
    "link": "https://blabbermouth.net/news/savatage-and-trans-siberian-orchestra-drummer-jeff-plate-says-his-chronic-nosebleeds-have-returned-with-a-vengeance",
    "fonte": "Blabbermouth",
    "data": "2026-11-19T12:38:53+00:00"
-  },
-  {
-   "titulo": "ANIKA NILLES Talks About Her Formative Years, Reveals How Playing With JEFF BECK Led Her To RUSH (Video)",
-   "link": "https://bravewords.com/news/anika-nilles-talks-about-her-formative-years-reveals-how-playing-with-jeff-beck-led-her-to-rush-video/",
-   "fonte": "BraveWords",
-   "data": "2026-11-19T11:48:53+00:00"
   },
   {
    "titulo": "Ignite with Two Portuguese shows to present Still Wide Awake",
@@ -18481,40 +18691,16 @@
    "data": "2026-11-19T11:36:48+00:00"
   },
   {
-   "titulo": "COLIN PETERIK Shares Official Video For New “Sunshine” Single; New Album To Be Released In 2027",
-   "link": "https://bravewords.com/news/colin-peterik-shares-official-video-for-new-sunshine-single-new-album-to-be-released-in-2027/",
-   "fonte": "BraveWords",
-   "data": "2026-11-19T11:21:31+00:00"
-  },
-  {
    "titulo": "Swallow The Sun and Crown Lands teaming up for a single was not what you had on your 2026 bingo card!",
    "link": "https://www.loudersound.com/music/tracks-singles/swallow-the-sun-and-crown-lands-teaming-up-for-a-single-was-not-what-you-had-on-your-2026-bingo-card",
    "fonte": "Metal Hammer",
    "data": "2026-11-19T11:11:46+00:00"
   },
   {
-   "titulo": "NIGHTWISH Drummer KAI HAHTO Interviews Retired IRON MAIDEN Drummer NICK McBRAIN For Finland’s Radio Rock (Video)",
-   "link": "https://bravewords.com/news/nightwish-drummer-kai-hahto-interviews-retired-iron-maiden-drummer-nick-mcbrain-for-finlands-radio-rock-video/",
-   "fonte": "BraveWords",
-   "data": "2026-11-19T10:00:17+00:00"
-  },
-  {
    "titulo": "Brian Eno is learning to love his archive of 13,000 unreleased recordings",
    "link": "https://www.loudersound.com/bands-artists/brian-eno-archive-13-000-unreleased-recordings",
    "fonte": "Metal Hammer",
    "data": "2026-11-19T10:00:00+00:00"
-  },
-  {
-   "titulo": "SEVEN KINGDOMS Release New Single / Video “Dissonance”",
-   "link": "https://bravewords.com/heavy-metal/seven-kingdoms-release-new-single-video-dissonance/",
-   "fonte": "BraveWords",
-   "data": "2026-11-19T09:54:39+00:00"
-  },
-  {
-   "titulo": "COHEED AND CAMBRIA Frontman CLAUDIO SANCHEZ Shares Debut Solo Single / Video “Burnout”; Three Live Shows Announced For January 2027",
-   "link": "https://bravewords.com/news/coheed-and-cambria-frontman-claudio-sanchez-shares-debut-solo-single-video-burnout-three-live-shows-announced-for-january-2027/",
-   "fonte": "BraveWords",
-   "data": "2026-11-19T09:12:59+00:00"
   },
   {
    "titulo": "Hollywood legend Ben Stiller has an unlikely true confession about Foreigner",
@@ -18529,34 +18715,10 @@
    "data": "2026-11-19T05:55:00+00:00"
   },
   {
-   "titulo": "Joe Strummer's two-year rampage with The 101'ers documented on evocative box set",
-   "link": "https://www.loudersound.com/music/albums/joe-strummer-003-the-101ers-years-1974-1976",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-19T05:55:00+00:00"
-  },
-  {
-   "titulo": "U2 share memories of working with Dolly Parton on the last song she ever recorded",
-   "link": "https://www.loudersound.com/bands-artists/u2-on-working-with-dolly-parton-on-torn-the-last-song-she-ever-recorded",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-19T04:00:00+00:00"
-  },
-  {
    "titulo": "MICHAEL ANTHONY Confirms PATTY SMYTH Was Once 'Considered' For VAN HALEN Singer Position",
    "link": "https://blabbermouth.net/news/michael-anthony-confirms-patty-smyth-was-once-considered-for-van-halen-singer-position",
    "fonte": "Blabbermouth",
    "data": "2026-11-18T21:56:51+00:00"
-  },
-  {
-   "titulo": "JEFF PLATE To Miss Beginning Of TRANS-SIBERIAN ORCHESTRA Tour",
-   "link": "https://bravewords.com/hard-rock/jeff-plate-to-miss-beginning-of-trans-siberian-orchestra-tour/",
-   "fonte": "BraveWords",
-   "data": "2026-11-18T21:56:21+00:00"
-  },
-  {
-   "titulo": "REVIEW: WOLF’s HOUR OF THE WOLF – “Strong Effort, All The Way Through”",
-   "link": "https://bravewords.com/album-reviews/review-wolfs-hour-of-the-wolf-strong-effort-all-the-way-through/",
-   "fonte": "BraveWords",
-   "data": "2026-11-18T21:33:01+00:00"
   },
   {
    "titulo": "Guilt Trip Drops 10th Anniversary Version of Self-Titled Single",
@@ -18583,46 +18745,10 @@
    "data": "2026-11-18T20:00:08+00:00"
   },
   {
-   "titulo": "DAVID BOWIE’s Low Gets 50th Anniversary Half-Speed Mastered And Picture Disc Editions",
-   "link": "https://bravewords.com/news/david-bowies-low-gets-50th-anniversary-half-speed-mastered-and-picture-disc-editions/",
-   "fonte": "BraveWords",
-   "data": "2026-11-18T19:55:27+00:00"
-  },
-  {
-   "titulo": "MIKE WENGREN On DISTURBED's Upcoming Album: 'There's Some Motherf***ers On This Record'",
-   "link": "https://blabbermouth.net/news/mike-wengren-on-disturbeds-upcoming-album-theres-some-motherfers-on-this-record",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-18T19:31:05+00:00"
-  },
-  {
-   "titulo": "Watch: NEVERMORE Performs “Inside Four Walls” At Bloodstock Open Air 2026",
-   "link": "https://bravewords.com/news/watch-nevermore-performs-inside-four-walls-at-bloodstock-open-air-2026/",
-   "fonte": "BraveWords",
-   "data": "2026-11-18T19:14:41+00:00"
-  },
-  {
    "titulo": "Sevendust Announces 30th Anniversary Tour For Self-Titled Debut Album",
    "link": "https://metalinjection.net/tour-dates/sevendust-announces-30th-anniversary-tour-for-self-titled-debut-album",
    "fonte": "Metal Injection",
    "data": "2026-11-18T18:57:06+00:00"
-  },
-  {
-   "titulo": "THE OFFSPRING's DEXTER HOLLAND To Be Inducted Into ORANGE COUNTY HALL OF FAME",
-   "link": "https://blabbermouth.net/news/the-offsprings-dexter-holland-to-be-inducted-into-orange-county-hall-of-fame",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-18T18:55:18+00:00"
-  },
-  {
-   "titulo": "DEF LEPPARD Share New Video “Love Bites” (Live At Don Valley Stadium, 1993)",
-   "link": "https://bravewords.com/news/def-leppard-share-new-video-love-bites-live-at-don-valley-stadium-1993/",
-   "fonte": "BraveWords",
-   "data": "2026-11-18T18:49:11+00:00"
-  },
-  {
-   "titulo": "Crown In The Grave",
-   "link": "https://blabbermouth.net/reviews/crown-in-the-grave",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-18T18:45:07+00:00"
   },
   {
    "titulo": "Knives announce Five-Date Iberian Tour, including Lisbon and Porto",
@@ -18631,34 +18757,10 @@
    "data": "2026-11-18T18:29:52+00:00"
   },
   {
-   "titulo": "Does SICK OF IT ALL Have A Future Without LOU KOLLER? That's Something You 'Have To Just See What Happens', Says CRAIG SETARI",
-   "link": "https://blabbermouth.net/news/does-sick-of-it-all-have-a-future-without-lou-koller-thats-something-you-have-to-just-see-what-happens-says-craig-setari",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-18T18:29:32+00:00"
-  },
-  {
-   "titulo": "KISS’ GENE SIMMONS And PAUL STANLEY Talk New “End Of The Road” Documentary – “This Was Really A Commitment By Us To Make Sure That People Felt Validated And Justified In Their Love For Us”",
-   "link": "https://bravewords.com/news/kiss-gene-simmons-and-paul-stanley-talk-new-end-of-the-road-documentary-this-was-really-a-commitment-by-us-to-make-sure-that-people-felt-validated-and-justified-in-their-love-for-us/",
-   "fonte": "BraveWords",
-   "data": "2026-11-18T18:17:31+00:00"
-  },
-  {
-   "titulo": "PIG DESTROYER x INFERNAL SPIRITS Announce “Heart And Crossbones” Whiskey Collaboration Celebrating 25 Years Of Prowler In The Yard Album",
-   "link": "https://bravewords.com/news/pig-destroyer-x-infernal-spirits-announce-heart-and-crossbones-whiskey-collaboration-celebrating-25-years-of-prowler-in-the-yard-album/",
-   "fonte": "BraveWords",
-   "data": "2026-11-18T17:59:16+00:00"
-  },
-  {
    "titulo": "Within Temptation Team Up With S10 for New Single “Through Fire & Ashes,” Announce Spring 2027 Album",
    "link": "https://metalinjection.net/new-music/within-temptation-through-fire-and-ashes-s10-new-album-2027",
    "fonte": "Metal Injection",
    "data": "2026-11-18T17:53:31+00:00"
-  },
-  {
-   "titulo": "METALLICA Launch Fourth Annual Scavenger Hunt",
-   "link": "https://bravewords.com/news/metallica-launch-fourth-annual-scavenger-hunt/",
-   "fonte": "BraveWords",
-   "data": "2026-11-18T17:41:55+00:00"
   },
   {
    "titulo": "Touché Amoré Drops First Standalone Single in Two Years, “(I Can’t Get Out Of) My Own Way”",
@@ -18673,112 +18775,16 @@
    "data": "2026-11-18T17:30:49+00:00"
   },
   {
-   "titulo": "WITHIN TEMPTATION Release New Single “Through Fire & Ashes”; Music Video",
-   "link": "https://bravewords.com/news/within-temptation-release-new-single-through-fire-music-video/",
-   "fonte": "BraveWords",
-   "data": "2026-11-18T17:26:54+00:00"
-  },
-  {
-   "titulo": "THE PRETTY THINGS Celebrated With Pretty Rare 12CD Book Edition; Video Trailer",
-   "link": "https://bravewords.com/news/the-pretty-things-celebrated-with-pretty-rare-12cd-book-edition-video-trailer/",
-   "fonte": "BraveWords",
-   "data": "2026-11-18T17:14:22+00:00"
-  },
-  {
-   "titulo": "Watch: TWISTED SISTER Costume Designer SUZETTE GUILOT-SNIDER Inducted Into The Long Island Music And Entertainment Hall Of Fame; Video",
-   "link": "https://bravewords.com/news/watch-twisted-sister-costume-designer-suzette-guilot-snider-inducted-into-the-long-island-music-and-entertainment-hall-of-fame-video/",
-   "fonte": "BraveWords",
-   "data": "2026-11-18T16:49:15+00:00"
-  },
-  {
-   "titulo": "CANDICE NIGHT, DOUG ALDRICH And Others Perform FLEETWOOD MAC’s “The Chain”; Music Video",
-   "link": "https://bravewords.com/news/candice-night-doug-aldrich-and-others-perform-fleetwood-macs-the-chain-music-video/",
-   "fonte": "BraveWords",
-   "data": "2026-11-18T16:35:19+00:00"
-  },
-  {
-   "titulo": "SEVENDUST To Celebrate 30th Anniversary Of Debut Album With US Tour; SOIL And DRIFT MOTHERSHIP To Support",
-   "link": "https://bravewords.com/news/sevendust-to-celebrate-30th-anniversary-of-debut-album-with-us-tour-soil-and-drift-mothership-to-support/",
-   "fonte": "BraveWords",
-   "data": "2026-11-18T16:16:00+00:00"
-  },
-  {
-   "titulo": "LEAGUE OF DISTORTION To Release New Studio Album In February; “Animal” Single And Music Video Out Now",
-   "link": "https://bravewords.com/news/league-of-distortion-to-release-new-studio-album-in-february-animal-single-and-music-video-out-now/",
-   "fonte": "BraveWords",
-   "data": "2026-11-18T16:01:27+00:00"
-  },
-  {
    "titulo": "Bruce Dickinson Announces New Solo Album 'PsychoGod,' Drops First Single “Speaking in Tongues”",
    "link": "https://metalinjection.net/new-music/bruce-dickinson-announces-new-solo-album-psychogod-drops-first-single-speaking-in-tongues",
    "fonte": "Metal Injection",
    "data": "2026-11-18T15:54:52+00:00"
   },
   {
-   "titulo": "DEEP PURPLE Announce New Dates For Postponed European Shows",
-   "link": "https://bravewords.com/news/deep-purple-announce-new-dates-for-postponed-european-shows/",
-   "fonte": "BraveWords",
-   "data": "2026-11-18T15:44:44+00:00"
-  },
-  {
    "titulo": "Listen: Coheed and Cambria's Claudio Sanchez Releases Debut Solo Single \"Burnout\"",
    "link": "https://metalinjection.net/new-music/coheed-and-cambria-claudio-sanchez-debut-solo-single-burnout",
    "fonte": "Metal Injection",
    "data": "2026-11-18T15:30:57+00:00"
-  },
-  {
-   "titulo": "BRUCE DICKINSON Reveals PsychoGod Album Details; “Speaking In Tongues” Music Video Streaming",
-   "link": "https://bravewords.com/news/bruce-dickinson-reveals-psychogod-album-details-speaking-in-tongues-music-video-streaming/",
-   "fonte": "BraveWords",
-   "data": "2026-11-18T15:27:50+00:00"
-  },
-  {
-   "titulo": "Exclusive: UNKL SHAM Premieres “Less Than Human” Music Video",
-   "link": "https://bravewords.com/heavy-metal/exclusive-unkl-sham-premieres-less-than-human-music-video/",
-   "fonte": "BraveWords",
-   "data": "2026-11-18T15:00:42+00:00"
-  },
-  {
-   "titulo": "5 Best Sites to Buy Twitch Viewers (Value-Focused Picks)",
-   "link": "https://bravewords.com/partners/5-best-sites-to-buy-twitch-viewers-value-focused-picks/",
-   "fonte": "BraveWords",
-   "data": "2026-11-18T14:08:24+00:00"
-  },
-  {
-   "titulo": "Crystal Head Vodka Presents Today In Metal History 🤘 November 18th, 2026 🤘 AC/DC, METALLICA, RUDY SARZO, SCORPIONS, DIMMU BORGIR, IN FLAMES",
-   "link": "https://bravewords.com/today-in-metal/today-in-metal-history-%f0%9f%a4%98-november-18th-2026-%f0%9f%a4%98-ac-dc-metallica-rudy-sarzo-scorpions-dimmu-borgir-in-flames/",
-   "fonte": "BraveWords",
-   "data": "2026-11-18T13:48:29+00:00"
-  },
-  {
-   "titulo": "FLOOR JANSEN Reflects On Joining NIGHTWISH On Tour In 2012 – “If They Would Have Called Me A Month Earlier, I Don’t Think I Could Have Done It”",
-   "link": "https://bravewords.com/news/floor-jansen-reflects-on-joining-nightwish-on-tour-in-2012-if-they-would-have-called-me-a-month-earlier-i-dont-think-i-could-have-done-it/",
-   "fonte": "BraveWords",
-   "data": "2026-11-18T13:03:53+00:00"
-  },
-  {
-   "titulo": "ENTROPY’s 1992 Debut Album Ashen Existence Available On Vinyl For The First Time",
-   "link": "https://bravewords.com/news/entropys-1992-debut-album-ashen-existence-available-on-vinyl-for-the-first-time/",
-   "fonte": "BraveWords",
-   "data": "2026-11-18T10:00:49+00:00"
-  },
-  {
-   "titulo": "A Look At The Reign Of SLIPKNOT – “Defined By A Brutal Mix Of Platinum-Selling Success And Internal Politics” (Video)",
-   "link": "https://bravewords.com/news/a-look-at-the-reign-of-slipknot-defined-by-a-brutal-mix-of-platinum-selling-success-and-internal-politics-video/",
-   "fonte": "BraveWords",
-   "data": "2026-11-18T09:28:47+00:00"
-  },
-  {
-   "titulo": "ZZ TOP – Gibson Launches Two New Recreations Of BILLY GIBBONS’ 1959 “Pearly Gates” Les Paul Standard (Video)",
-   "link": "https://bravewords.com/news/zz-top-gibson-launches-two-new-recreations-of-billy-gibbons-1959-pearly-gates-les-paul-standard-video/",
-   "fonte": "BraveWords",
-   "data": "2026-11-18T09:02:35+00:00"
-  },
-  {
-   "titulo": "AMANDA SOMERVILLE Provides Update On Brain Tumor Treatment – “I Have Decided To Move Entire Family To The U.S.”",
-   "link": "https://bravewords.com/heavy-metal/amanda-somerville-provides-update-on-brain-tumor-treatment-i-have-decided-to-move-entire-family-to-the-u-s/",
-   "fonte": "BraveWords",
-   "data": "2026-11-17T23:07:33+00:00"
   },
   {
    "titulo": "Avatar Announce 2027 Headlining Tour With Barbarians of California, Gates to Hell",
