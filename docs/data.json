@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-24T01:49:41+00:00",
+ "atualizado": "2026-11-24T07:55:27+00:00",
  "fontes": {
   "excluidas": [
    "Richard Dawkins"
@@ -63,7 +63,7 @@
    },
    {
     "nome": "BraveWords",
-    "ok": true,
+    "ok": false,
     "artigos": 30
    },
    {
@@ -79,7 +79,9 @@
   ],
   "spotify_espera_ate": null
  },
- "avisos": [],
+ "avisos": [
+  "Feeds sem resposta nesta atualização: BraveWords."
+ ],
  "bandas": [
   {
    "id": "redemptus",
@@ -17959,10 +17961,22 @@
  ],
  "noticias": [
   {
+   "titulo": "Why Robert Fripp and wife Toyah live four miles apart",
+   "link": "https://www.loudersound.com/bands-artists/robert-fripp-toyah-living-apart",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-24T05:00:00+00:00"
+  },
+  {
+   "titulo": "Chris Campbell, longtime bassist with Bob Seger and the Silver Bullet Band, dead at 78. \"He was one of the best ever\"",
+   "link": "https://www.loudersound.com/bands-artists/chris-campbell-bassist-silver-bullet-band-dead-at-78",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-24T03:27:57+00:00"
+  },
+  {
    "titulo": "PeelingFlesh",
    "link": "https://blabbermouth.net/reviews/peelingflesh",
    "fonte": "Blabbermouth",
-   "data": "2026-11-24T01:43:16+00:00"
+   "data": "2026-11-24T01:45:53+00:00"
   },
   {
    "titulo": "GEDDY LEE Talks RUSH’s Fifty Something Tour – “I Never Believed We Would Return To The Stage”",
@@ -18671,18 +18685,6 @@
    "link": "https://www.loudersound.com/music/tracks-singles/metal-hammer-tracks-of-the-week-november-20-2026-bruce-dickinson-kerry-king-within-temptation",
    "fonte": "Metal Hammer",
    "data": "2026-11-21T10:00:00+00:00"
-  },
-  {
-   "titulo": "Ex-Van Halen bassist Michael Anthony reveals the female singer who was asked to replace David Lee Roth",
-   "link": "https://www.loudersound.com/bands-artists/van-halen-david-lee-roth-replacement-patty-smyth",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-21T04:00:00+00:00"
-  },
-  {
-   "titulo": "Bleeding Through guitarist John Arnold suffers heart attack: \"Life is precious\"",
-   "link": "https://www.loudersound.com/bands-artists/bleeding-through-guitarist-heart-attack",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-21T01:00:00+00:00"
   },
   {
    "titulo": "Lorna Shore's Will Ramos Shaves His Head",
