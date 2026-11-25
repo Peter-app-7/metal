@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-25T13:54:16+00:00",
+ "atualizado": "2026-11-25T19:31:48+00:00",
  "fontes": {
   "excluidas": [
    "Richard Dawkins"
@@ -58,12 +58,12 @@
    },
    {
     "nome": "Decibel",
-    "ok": false,
+    "ok": true,
     "artigos": 10
    },
    {
     "nome": "BraveWords",
-    "ok": true,
+    "ok": false,
     "artigos": 30
    },
    {
@@ -80,7 +80,7 @@
   "spotify_espera_ate": null
  },
  "avisos": [
-  "Feeds sem resposta nesta atualização: Decibel."
+  "Feeds sem resposta nesta atualização: BraveWords."
  ],
  "bandas": [
   {
@@ -4424,6 +4424,14 @@
    "spotify": "https://open.spotify.com/artist/6bYFkBNvayh3nGqxcPp7Sv",
    "lancamentos": [
     {
+     "id": "c6462ec4-5bd3-45a8-bb9c-6d33d48f88df",
+     "titulo": "Neverland II",
+     "tipo": "Álbum",
+     "data": "2026-12-31",
+     "capa": "https://coverartarchive.org/release-group/c6462ec4-5bd3-45a8-bb9c-6d33d48f88df/front-250",
+     "spotify": "https://open.spotify.com/search/Ulver%20Neverland%20II"
+    },
+    {
      "id": "16a5c4e6-6ac8-4432-9e0f-0d8efcad3ea2",
      "titulo": "Neverland",
      "tipo": "Álbum",
@@ -4494,14 +4502,6 @@
      "data": "2013-08-01",
      "capa": "https://coverartarchive.org/release-group/2f8ef68b-31c9-4a51-9325-bebdd3ee969c/front-250",
      "spotify": "https://open.spotify.com/search/Ulver%20Messe%20I.X%E2%80%93VI.X"
-    },
-    {
-     "id": "e8f534e3-865a-4200-b9a3-1e7faf833acd",
-     "titulo": "Roadburn EP",
-     "tipo": "EP",
-     "data": "2012-04-12",
-     "capa": "https://coverartarchive.org/release-group/e8f534e3-865a-4200-b9a3-1e7faf833acd/front-250",
-     "spotify": "https://open.spotify.com/search/Ulver%20Roadburn%20EP"
     }
    ]
   },
@@ -17969,10 +17969,142 @@
  ],
  "noticias": [
   {
+   "titulo": "PARKWAY DRIVE's WINSTON MCCALL: 'We're By Far The Biggest Thing To Come Out Of' Australia In Terms Of Heavy Music",
+   "link": "https://blabbermouth.net/news/parkway-drives-winston-mccall-were-by-far-the-biggest-thing-to-come-out-of-australia-in-terms-of-heavy-music",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-25T18:41:14+00:00"
+  },
+  {
+   "titulo": "Heilung bring ELDGEITHFARDHA to Lisbon on November 2027",
+   "link": "https://www.theblackplanet.org/heilung-lisbon-2027/",
+   "fonte": "The Black Planet",
+   "data": "2026-11-25T18:22:33+00:00"
+  },
+  {
+   "titulo": "Evil Invaders - Post New Track",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64702",
+   "fonte": "Metal Storm",
+   "data": "2026-11-25T18:10:21+00:00"
+  },
+  {
+   "titulo": "See MY DYING BRIDE's Entire Concert In Santiago, Chile During November 2026 Latin American Tour",
+   "link": "https://blabbermouth.net/news/see-my-dying-brides-entire-concert-in-santiago-chile-during-november-2026-latin-american-tour",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-25T18:02:12+00:00"
+  },
+  {
+   "titulo": "The Black Dahlia Murder - Guitarist Brandon Ellis Returns To The Ranks",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64701",
+   "fonte": "Metal Storm",
+   "data": "2026-11-25T18:01:09+00:00"
+  },
+  {
+   "titulo": "Norse shamans Heilung announce biggest tour of their lives for 2027",
+   "link": "https://www.loudersound.com/news/heilung-announce-2027-european-uk-tour",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-25T18:00:00+00:00"
+  },
+  {
+   "titulo": "CARCASS Announces March 2027 European Tour With ROTTEN SOUND And BAT",
+   "link": "https://blabbermouth.net/news/carcass-announces-march-2027-european-tour-with-rotten-sound-and-bat",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-25T17:49:09+00:00"
+  },
+  {
+   "titulo": "ROBERT TRUJILLO Says METALLICA 'Will Start Working On New Material At Some Point Pretty Soon'",
+   "link": "https://blabbermouth.net/news/robert-trujillo-says-metallica-will-start-working-on-new-material-at-some-point-pretty-soon",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-25T17:23:33+00:00"
+  },
+  {
+   "titulo": "Phil Collins filmed for a Beatles movie, but it took him 30 years to prove it",
+   "link": "https://www.loudersound.com/bands-artists/phil-collins-beatles-hard-day-s-night",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-25T17:00:00+00:00"
+  },
+  {
+   "titulo": "Osyron",
+   "link": "https://blabbermouth.net/reviews/osyron",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-25T16:50:17+00:00"
+  },
+  {
+   "titulo": "Ex-RAINBOW Singer RONNIE ROMERO Says He 'Never' Gets Nervous: 'For Me, It's The Best Moment When I Go On Stage'",
+   "link": "https://blabbermouth.net/news/ex-rainbow-singer-ronnie-romero-says-he-never-gets-nervous-for-me-its-the-best-moment-when-i-go-on-stage",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-25T16:32:16+00:00"
+  },
+  {
+   "titulo": "Samael reveal standalone single “Europa”",
+   "link": "https://www.theblackplanet.org/samael-reveal-standalone-single-europa/",
+   "fonte": "The Black Planet",
+   "data": "2026-11-25T16:26:21+00:00"
+  },
+  {
+   "titulo": "Ak’chamel bring ritualistic psychedelia to Porto in March 2027",
+   "link": "https://www.theblackplanet.org/akchamel-porto-2027/",
+   "fonte": "The Black Planet",
+   "data": "2026-11-25T16:19:56+00:00"
+  },
+  {
+   "titulo": "Get the latest Metal Hammer with a Hatebreed cover and Europe-exclusive red vinyl copy of new album Fatal Paradox",
+   "link": "https://www.loudersound.com/news/metal-hammer-420-issue-hatebreed-bundle-red-vinyl-2026",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-25T16:00:00+00:00"
+  },
+  {
+   "titulo": "ANTHRAX Announces March/April 2027 European Tour With KERRY KING And SACRED REICH",
+   "link": "https://blabbermouth.net/news/anthrax-announces-march-april-2027-european-tour-with-kerry-king-and-sacred-reich",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-25T15:52:50+00:00"
+  },
+  {
+   "titulo": "HATEBREED's JAMEY JASTA 'Would Love To Re-Record' Band's Debut Album, 'Satisfaction Is The Death Of Desire'",
+   "link": "https://blabbermouth.net/news/hatebreeds-jamey-jasta-would-love-to-re-record-bands-debut-album-satisfaction-is-the-death-of-desire",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-25T15:22:23+00:00"
+  },
+  {
+   "titulo": "Photos: Saosin, Silent Planet & Like Moths to Flames in Denver, Colorado",
+   "link": "https://metalinjection.net/photos/photos-saosin-silent-planet-like-moths-to-flames-in-denver-colorado",
+   "fonte": "Metal Injection",
+   "data": "2026-11-25T15:16:37+00:00"
+  },
+  {
+   "titulo": "Anthrax to thrash across Europe with Slayer’s Kerry King and Sacred Reich, including their largest-ever UK show at London’s Wembley Arena",
+   "link": "https://www.loudersound.com/news/anthrax-announce-european-tour-largest-uk-headline-show-ever-2026",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-25T15:00:00+00:00"
+  },
+  {
+   "titulo": "Album Premiere: Erosion – Heinous Depredations",
+   "link": "https://www.decibelmagazine.com/2026/11/25/album-premiere-erosion-heinous-depredations/",
+   "fonte": "Decibel",
+   "data": "2026-11-25T14:30:15+00:00"
+  },
+  {
+   "titulo": "KATON W. DE PENA Explains His Abrupt Exit From NEFARIOUS: 'It Just Wasn't Gonna Work The Way It Was'",
+   "link": "https://blabbermouth.net/news/katon-w-de-pena-explains-his-abrupt-exit-from-nefarious-it-just-wasnt-gonna-work-the-way-it-was",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-25T14:20:56+00:00"
+  },
+  {
+   "titulo": "The Black Dahlia Murder Welcomes Back Guitarist Brandon Ellis",
+   "link": "https://metalinjection.net/news/the-black-dahlia-murder-welcomes-back-guitarist-brandon-ellis",
+   "fonte": "Metal Injection",
+   "data": "2026-11-25T14:16:24+00:00"
+  },
+  {
    "titulo": "PAUL DI’ANNO – “When IRON MAIDEN Came Out With This New Wave Of British Heavy Metal We Must Have Been A Threat To DEEP PURPLE, LED ZEPPELIN And Everything”",
    "link": "https://bravewords.com/news/paul-dianno-when-iron-maiden-came-out-with-this-new-wave-of-british-heavy-metal-we-must-have-been-a-threat-to-deep-purple-led-zeppelin-and-everything/",
    "fonte": "BraveWords",
    "data": "2026-11-25T13:45:15+00:00"
+  },
+  {
+   "titulo": "SAMAEL Releases New Standalone Single 'Europa'",
+   "link": "https://blabbermouth.net/news/samael-releases-new-standalone-single-europa",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-25T13:33:28+00:00"
   },
   {
    "titulo": "Today In Metal History 🤘 November 25th, 2026 🤘 SLAYER, MARILLION, CRYPTOPSY, LAMB OF GOD, VENOM, ERIC CLAPTON, WITCHERY",
@@ -18005,7 +18137,7 @@
    "data": "2026-11-25T11:31:35+00:00"
   },
   {
-   "titulo": "Samael - Debut 'Europa' Single",
+   "titulo": "Samael - Debut 'Europa' Single And Video",
    "link": "https://metalstorm.net/events/news_comments.php?news_id=64700",
    "fonte": "Metal Storm",
    "data": "2026-11-25T11:11:50+00:00"
@@ -18443,12 +18575,6 @@
    "data": "2026-11-24T15:00:00+00:00"
   },
   {
-   "titulo": "Mgła - Entire New Album Streaming Online",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64687",
-   "fonte": "Metal Storm",
-   "data": "2026-11-24T14:53:41+00:00"
-  },
-  {
    "titulo": "CHIODOS Releases New Single 'A Particular Proclivity For Pain'",
    "link": "https://blabbermouth.net/news/chiodos-releases-new-single-a-particular-proclivity-for-pain",
    "fonte": "Blabbermouth",
@@ -18501,12 +18627,6 @@
    "link": "https://blabbermouth.net/news/slipknot-announces-collaboration-with-dr-martens",
    "fonte": "Blabbermouth",
    "data": "2026-11-24T13:08:22+00:00"
-  },
-  {
-   "titulo": "Paradise Lost - Announce 40th Anniversary Tour 'The Final Ascension'",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64686",
-   "fonte": "Metal Storm",
-   "data": "2026-11-24T12:41:24+00:00"
   },
   {
    "titulo": "SEX PISTOLS And FRANK CARTER To End Collaboration After 'Final' Run Of Shows In December 2026",
@@ -18599,28 +18719,10 @@
    "data": "2026-11-24T01:05:00+00:00"
   },
   {
-   "titulo": "Singer RYAN MCCOMBS Exits DROWNING POOL Once Again, Plans To Focus On SOIL",
-   "link": "https://blabbermouth.net/news/singer-ryan-mccombs-exits-drowning-pool-once-again-plans-to-focus-on-soil",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-24T00:27:19+00:00"
-  },
-  {
    "titulo": "Mark Knopfler looks back on Dire Straits' humble origins and the making of a classic debut",
    "link": "https://www.loudersound.com/bands-artists/interviews/mark-knopfler-dire-straits-humble-origins-classic-debut",
    "fonte": "Metal Hammer",
    "data": "2026-11-23T23:50:39+00:00"
-  },
-  {
-   "titulo": "Watch: ANTHRAX's JOEY BELLADONNA Joins KANSAS For 'Carry On Wayward Son' Performance In Waterloo, New York",
-   "link": "https://blabbermouth.net/news/watch-anthraxs-joey-belladonna-joins-kansas-for-carry-on-wayward-son-performance-in-waterloo-new-york",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-23T22:36:48+00:00"
-  },
-  {
-   "titulo": "BLACK SABBATH's TONY IOMMI On Upcoming 'Born Again' Remix: 'Some People Will Like It, Some People Won't'",
-   "link": "https://blabbermouth.net/news/black-sabbaths-tony-iommi-on-upcoming-born-again-remix-some-people-will-like-it-some-people-wont",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-23T22:15:40+00:00"
   },
   {
    "titulo": "Geddy Lee Responds to \"Woke Agenda\" Critics of Anika Nilles: \"We Chose Anika Because She's Brilliant\"",
@@ -18635,14 +18737,8 @@
    "data": "2026-11-23T21:29:00+00:00"
   },
   {
-   "titulo": "GRAVE's 'Reunion Chapter' Featuring 1991 Lineup Has 'Come To An End' But The Band Is 'Far From Over'",
-   "link": "https://blabbermouth.net/news/graves-reunion-chapter-featuring-1991-lineup-has-come-to-an-end-but-the-band-is-far-from-over",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-23T20:27:10+00:00"
-  },
-  {
    "titulo": "Photos: Arch Enemy, The Black Dahlia Murder, Crypta, Septicflesh & Thrown Into Exile in Oregon",
-   "link": "https://metalinjection.net/news/photos-arch-enemy-the-black-dahlia-murder-crypta-septicflesh-thrown-into-exile-in-oregon",
+   "link": "https://metalinjection.net/photos/photos-arch-enemy-the-black-dahlia-murder-crypta-septicflesh-thrown-into-exile-in-oregon",
    "fonte": "Metal Injection",
    "data": "2026-11-23T20:20:43+00:00"
   },
@@ -18653,28 +18749,10 @@
    "data": "2026-11-23T20:00:42+00:00"
   },
   {
-   "titulo": "YNGWIE MALMSTEEN On Why He Doesn't Collaborate With Other Musicians: 'When I've Tried These Things, My Art Was Diluted, Not Enhanced'",
-   "link": "https://blabbermouth.net/news/yngwie-malmsteen-on-why-he-doesnt-collaborate-with-other-musicians-when-ive-tried-these-things-my-art-was-diluted-not-enhanced",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-23T19:52:33+00:00"
-  },
-  {
    "titulo": "Paradise Lost Makes Cryptic Instagram Post",
    "link": "https://metalinjection.net/news/paradise-lost-makes-cryptic-instagram-post",
    "fonte": "Metal Injection",
    "data": "2026-11-23T19:12:21+00:00"
-  },
-  {
-   "titulo": "QUICKSAND Announces Spring 2027 European Tour",
-   "link": "https://blabbermouth.net/news/quicksand-announces-spring-2027-european-tour",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-23T19:04:57+00:00"
-  },
-  {
-   "titulo": "EVANESCENCE's AMY LEE: 'I Feel Like Social Media Can Be So Incredibly Isolating'",
-   "link": "https://blabbermouth.net/news/evanescences-amy-lee-i-feel-like-social-media-can-be-so-incredibly-isolating",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-23T18:44:33+00:00"
   },
   {
    "titulo": "The Plot In You Adds The Devil Wears Prada and 156/Silence to Headlining Tour",
@@ -18687,12 +18765,6 @@
    "link": "https://www.loudersound.com/bands-artists/limp-bizkit-new-album-update",
    "fonte": "Metal Hammer",
    "data": "2026-11-23T18:00:00+00:00"
-  },
-  {
-   "titulo": "GUNS N' ROSES' DUFF MCKAGAN On Financial Realities Of Touring: 'We Have A Lot Of People That Work For Us, And We're Creating Great Wages For Them'",
-   "link": "https://blabbermouth.net/news/guns-n-roses-duff-mckagan-on-financial-realities-of-touring-we-have-a-lot-of-people-that-work-for-us-and-were-creating-great-wages-for-them",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-23T17:46:31+00:00"
   },
   {
    "titulo": "Metallica Gives $200K to Fight Hunger and Domestic Violence in Las Vegas",
@@ -18713,22 +18785,10 @@
    "data": "2026-11-23T16:37:35+00:00"
   },
   {
-   "titulo": "JOE SATRIANI And STEVE VAI Announce First-Ever 'SatchVai Guitar Camp' In Windsor, U.K.",
-   "link": "https://blabbermouth.net/news/joe-satriani-and-steve-vai-announce-first-ever-satchvai-guitar-camp-in-windsor-u-k",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-23T16:28:41+00:00"
-  },
-  {
    "titulo": "Hear Power Trip's 'GTA VI' Soundtrack Single \"Mutual Death Warrant\"",
    "link": "https://metalinjection.net/new-music/power-trip-mutual-death-warrant-gta-6-streaming",
    "fonte": "Metal Injection",
    "data": "2026-11-23T16:16:47+00:00"
-  },
-  {
-   "titulo": "KISS Manager DOC MCGHEE On Whether The Band Will Ever Put The Makeup Back On: 'Nothing's Written In Stone'",
-   "link": "https://blabbermouth.net/news/kiss-manager-doc-mcghee-on-whether-the-band-will-ever-put-the-makeup-back-on-nothings-written-in-stone",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-23T16:13:57+00:00"
   },
   {
    "titulo": "Guitar hero Sophie Lloyd says that AI fakes are ripping off and profiting from her online videos",
@@ -18759,30 +18819,6 @@
    "link": "https://www.theblackplanet.org/bauhaus-love-and-rockets-post-punk-legend-david-j-celebrates-rca-clubs-13th-anniversary/",
    "fonte": "The Black Planet",
    "data": "2026-11-23T09:37:58+00:00"
-  },
-  {
-   "titulo": "Symphony X establish prog metal base camp on The Divine Wings Of Tragedy.",
-   "link": "https://www.loudersound.com/music/albums/symphony-x-the-divine-wings-of-tragedy",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-23T08:37:46+00:00"
-  },
-  {
-   "titulo": "The theft and recovery of Roger Dean’s artwork for Yes classic Fragile",
-   "link": "https://www.loudersound.com/bands-artists/roger-dean-yes-stolen-fragile-artwork-returned",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-23T05:00:00+00:00"
-  },
-  {
-   "titulo": "Classic Rock Tracks Of The Week: November 23, 2026",
-   "link": "https://www.loudersound.com/music/tracks-singles/classic-rock-tracks-of-the-week-november-23-2027",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-23T04:55:00+00:00"
-  },
-  {
-   "titulo": "Sheryl Crow on the importance of being more like Dolly Parton",
-   "link": "https://www.loudersound.com/bands-artists/interviews/sheryl-crow-the-importance-of-being-more-like-dolly-parton",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-23T01:05:00+00:00"
   },
   {
    "titulo": "Billy Strings and Phish's Trey Anastasio Cover Metallica's \"Master of Puppets\"",
@@ -18831,42 +18867,6 @@
    "link": "https://metalinjection.net/playlist/top-tracks-of-the-week-playlist/trivium-suicide-silence-kerry-king-more-added-to-metal-injections-tracks-of-the-week",
    "fonte": "Metal Injection",
    "data": "2026-11-20T20:51:13+00:00"
-  },
-  {
-   "titulo": "Photos: Trivium, In Flames, Fit For An Autopsy, and Frozen Soul",
-   "link": "https://metalinjection.net/news/photos-trivium-in-flames-fit-for-an-autopsy-and-frozen-soul",
-   "fonte": "Metal Injection",
-   "data": "2026-11-20T19:25:04+00:00"
-  },
-  {
-   "titulo": "Gates to Hell Unleash “Rotting Heart,” First Single With New Vocalist JP Kaine",
-   "link": "https://metalinjection.net/new-music/gates-to-hell-jp-kaine-new-song",
-   "fonte": "Metal Injection",
-   "data": "2026-11-20T19:11:50+00:00"
-  },
-  {
-   "titulo": "Five For Friday: November 20, 2027",
-   "link": "https://www.decibelmagazine.com/2026/11/20/five-for-friday-november-20-2027/",
-   "fonte": "Decibel",
-   "data": "2026-11-20T17:00:54+00:00"
-  },
-  {
-   "titulo": "Video Premiere: Gorgatron – “Turmoil”",
-   "link": "https://www.decibelmagazine.com/2026/11/20/video-premiere-gorgatron-turmoil/",
-   "fonte": "Decibel",
-   "data": "2026-11-20T14:30:15+00:00"
-  },
-  {
-   "titulo": "Ignite with Two Portuguese shows to present Still Wide Awake",
-   "link": "https://www.theblackplanet.org/ignite-portugal/",
-   "fonte": "The Black Planet",
-   "data": "2026-11-19T11:48:37+00:00"
-  },
-  {
-   "titulo": "Knives announce Five-Date Iberian Tour, including Lisbon and Porto",
-   "link": "https://www.theblackplanet.org/knives-iberian-tour/",
-   "fonte": "The Black Planet",
-   "data": "2026-11-18T18:29:52+00:00"
   }
  ]
 }
