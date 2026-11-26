@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-26T01:57:06+00:00",
+ "atualizado": "2026-11-26T07:58:00+00:00",
  "fontes": {
   "excluidas": [
    "Richard Dawkins"
@@ -9556,6 +9556,14 @@
      "spotify": "https://open.spotify.com/search/Nirvana%20The%20Nirvana%20EP"
     },
     {
+     "id": "f69f7e50-82a7-4da4-9bc7-1342feaeb5fb",
+     "titulo": "Trust No One",
+     "tipo": "Álbum",
+     "data": "2002",
+     "capa": "https://coverartarchive.org/release-group/f69f7e50-82a7-4da4-9bc7-1342feaeb5fb/front-250",
+     "spotify": "https://open.spotify.com/search/Nirvana%20Trust%20No%20One"
+    },
+    {
      "id": "2a0981fb-9593-3019-864b-ce934d97a16e",
      "titulo": "In Utero",
      "tipo": "Álbum",
@@ -9618,14 +9626,6 @@
      "data": "1989-12",
      "capa": "https://coverartarchive.org/release-group/f4704ade-d0d8-3015-a9f9-a4972df288fc/front-250",
      "spotify": "https://open.spotify.com/search/Nirvana%20Blew"
-    },
-    {
-     "id": "f1afec0b-26dd-3db5-9aa1-c91229a74a24",
-     "titulo": "Bleach",
-     "tipo": "Álbum",
-     "data": "1989-06-15",
-     "capa": "https://coverartarchive.org/release-group/f1afec0b-26dd-3db5-9aa1-c91229a74a24/front-250",
-     "spotify": "https://open.spotify.com/search/Nirvana%20Bleach"
     }
    ]
   },
@@ -17969,6 +17969,18 @@
  ],
  "noticias": [
   {
+   "titulo": "Girlschool, Raven and Alcatrazz have 150 years of touring between them and the fun never stops",
+   "link": "https://www.loudersound.com/bands-artists/concerts-shows/girlschool-raven-alcatrazz-tour",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-26T07:05:00+00:00"
+  },
+  {
+   "titulo": "Journey's new drummer is the frontman in a Bob Seger tribute band",
+   "link": "https://www.loudersound.com/bands-artists/journeys-new-drummer-is-the-frontman-in-a-bob-seger-tribute-band",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-26T04:05:00+00:00"
+  },
+  {
    "titulo": "Queen's Brian May shared a touching tribute to Freddie Mercury on the 35th anniversary of his friend's death",
    "link": "https://www.loudersound.com/bands-artists/queen-brian-may-tribute-to-freddie-mercury-on-the-35th-anniversary-of-the-singers-death",
    "fonte": "Metal Hammer",
@@ -18767,12 +18779,6 @@
    "data": "2026-11-24T09:05:00+00:00"
   },
   {
-   "titulo": "Why Robert Fripp and wife Toyah live four miles apart",
-   "link": "https://www.loudersound.com/bands-artists/robert-fripp-toyah-living-apart",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-24T05:00:00+00:00"
-  },
-  {
    "titulo": "CANDY Featuring GILBY CLARKE Announce In-Store Performance At Licorice Pizza",
    "link": "https://bravewords.com/news/candy-featuring-gilby-clarke-announce-in-store-performance-at-licorice-pizza/",
    "fonte": "BraveWords",
@@ -18783,12 +18789,6 @@
    "link": "https://bravewords.com/news/burning-hammer-streams-mimic-feat-jeff-loomis-debut-album-due-in-february-2027/",
    "fonte": "BraveWords",
    "data": "2026-11-24T03:58:44+00:00"
-  },
-  {
-   "titulo": "Chris Campbell, longtime bassist with Bob Seger and the Silver Bullet Band, dead at 78",
-   "link": "https://www.loudersound.com/bands-artists/chris-campbell-bassist-silver-bullet-band-dead-at-78",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-24T03:27:57+00:00"
   },
   {
    "titulo": "Geddy Lee Responds to \"Woke Agenda\" Critics of Anika Nilles: \"We Chose Anika Because She's Brilliant\"",
