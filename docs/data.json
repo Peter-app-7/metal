@@ -1,38 +1,17 @@
 {
- "atualizado": "2026-11-27T02:07:04+00:00",
+ "atualizado": "2026-11-27T07:57:35+00:00",
  "fontes": {
   "excluidas": [
    "Richard Dawkins"
   ],
   "agenda": {
-   "estado": "ok",
-   "linhas": 124,
-   "futuras": 123,
+   "estado": "indisponivel",
+   "linhas": 0,
+   "futuras": 0,
    "rejeitadas": [],
-   "quase": [
-    {
-     "agenda": "Hate Disposal",
-     "banda": "Hate"
-    },
-    {
-     "agenda": "Martyrium",
-     "banda": "Marthyrium"
-    },
-    {
-     "agenda": "Massacre Metal Fest",
-     "banda": "Massacre"
-    },
-    {
-     "agenda": "Monsters Of Death",
-     "banda": "Death"
-    },
-    {
-     "agenda": "Sadistic Overkill",
-     "banda": "Overkill"
-    }
-   ],
-   "atualizada": "2026-11-26",
-   "minhas": 9
+   "quase": [],
+   "atualizada": null,
+   "erro": "nenhuma linha lida: o formato da página pode ter mudado"
   },
   "bandas": "spotify",
   "feeds": [
@@ -63,7 +42,7 @@
    },
    {
     "nome": "BraveWords",
-    "ok": false,
+    "ok": true,
     "artigos": 30
    },
    {
@@ -80,7 +59,8 @@
   "spotify_espera_ate": null
  },
  "avisos": [
-  "Feeds sem resposta nesta atualização: BraveWords, The Black Planet."
+  "Agenda do Caminhos Metálicos indisponível (nenhuma linha lida: o formato da página pode ter mudado). Ficaram os concertos guardados.",
+  "Feeds sem resposta nesta atualização: The Black Planet."
  ],
  "bandas": [
   {
@@ -17997,10 +17977,64 @@
  ],
  "noticias": [
   {
+   "titulo": "Rarities is a half-brilliant set of early material from Ritchie Blackmore's Rainbow",
+   "link": "https://www.loudersound.com/music/albums/ritchie-blackmores-rainbow-rarities",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-27T05:55:00+00:00"
+  },
+  {
+   "titulo": "Rush's Geddy Lee: Why I love Led Zeppelin IV",
+   "link": "https://www.loudersound.com/bands-artists/interviews/rush-geddy-lee-why-i-love-led-zeppelin-iv",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-27T05:25:32+00:00"
+  },
+  {
+   "titulo": "Get the latest Metal Hammer with a Polyphia cover and CD of new album Be Not Afraid in an exclusive sleeve",
+   "link": "https://www.loudersound.com/news/get-metal-hammer-issue-420-polyphia-cover-be-not-afraid-cd-exclusive-sleeve-2026",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-27T04:00:00+00:00"
+  },
+  {
+   "titulo": "FASTER PUSSYCAT And GILBY CLARKE Team Up For Australian Tour In 2027",
+   "link": "https://bravewords.com/news/faster-pussycat-and-gilby-clarke-team-up-for-australian-tour-in-2027/",
+   "fonte": "BraveWords",
+   "data": "2026-11-27T03:50:18+00:00"
+  },
+  {
+   "titulo": "GWAR Frontman BLÖTHAR THE BERSERKER Guests On Beardo And Weirdo – “Being Funny And Being Good Musically Are Things That Can’t Co-Exist”",
+   "link": "https://bravewords.com/news/gwar-frontman-blothar-the-berserker-guests-on-beardo-and-weirdo-being-funny-and-being-good-musically-are-things-that-cant-co-exist/",
+   "fonte": "BraveWords",
+   "data": "2026-11-27T03:21:59+00:00"
+  },
+  {
+   "titulo": "FRANK BELLO From ANTHRAX, JAMES LOMENZO Of MEGADETH Interview Part One – “There’s Pre-KISS And Post-KISS”",
+   "link": "https://bravewords.com/news/frank-bello-from-anthrax-james-lomenzo-of-megadeth-interview-part-one-theres-pre-kiss-and-post-kiss/",
+   "fonte": "BraveWords",
+   "data": "2026-11-27T02:42:22+00:00"
+  },
+  {
+   "titulo": "JUNKYARD – “Things May Seem Quiet, It’s Quite The Opposite”",
+   "link": "https://bravewords.com/news/junkyard-things-may-seem-quiet-its-quite-the-opposite/",
+   "fonte": "BraveWords",
+   "data": "2026-11-27T01:59:33+00:00"
+  },
+  {
+   "titulo": "DEE SNIDER And RIKI RACHTMAN Present Episode Five Of “The Ball” – Heavy Metal Thanksgiving And St. Lemmy",
+   "link": "https://bravewords.com/news/dee-snider-and-riki-rachtman-present-episode-five-of-the-ball-heavy-metal-thanksgiving-and-st-lemmy/",
+   "fonte": "BraveWords",
+   "data": "2026-11-27T01:36:11+00:00"
+  },
+  {
    "titulo": "Still spreading the disease: The chaotic story of Anthrax",
    "link": "https://www.loudersound.com/bands-artists/anthrax-scott-ian-cursum-perficio-interview",
    "fonte": "Metal Hammer",
    "data": "2026-11-27T00:37:56+00:00"
+  },
+  {
+   "titulo": "70000 Tons Of Metal 2027 – All Details Revealed For Artist Escorted Shore Excursions And More Exclusive Onboard Events",
+   "link": "https://bravewords.com/news/70000-tons-of-metal-2027-all-details-revealed-for-artist-escorted-shore-excursions-and-more-exclusive-onboard-events/",
+   "fonte": "BraveWords",
+   "data": "2026-11-26T23:35:56+00:00"
   },
   {
    "titulo": "Molly Hatchet's Lost Horizons: Recorded at London's Abbey Road, but all-American to the core",
@@ -18033,10 +18067,28 @@
    "data": "2026-11-26T20:33:20+00:00"
   },
   {
+   "titulo": "Former LAMB OF GOD Drummer Chris Adler Announces INSIDIAS",
+   "link": "https://bravewords.com/news/former-lamb-of-god-drummer-chris-adler-announces-insidias/",
+   "fonte": "BraveWords",
+   "data": "2026-11-26T20:24:26+00:00"
+  },
+  {
+   "titulo": "Watch: ALICE COOPER Opens Up About Addiction, Faith And Learning To Leave His Infamous Alter Ego Onstage; Video",
+   "link": "https://bravewords.com/news/watch-alice-cooper-opens-up-about-addiction-faith-and-learning-to-leave-his-infamous-alter-ego-onstage-video/",
+   "fonte": "BraveWords",
+   "data": "2026-11-26T19:58:24+00:00"
+  },
+  {
    "titulo": "GEORGE LYNCH Says He Was Recently Involved In Recording Sessions Based On Songs That Were Created Using A.I.",
    "link": "https://blabbermouth.net/news/george-lynch-says-he-was-recently-involved-in-recording-sessions-based-on-songs-that-were-created-using-a-i",
    "fonte": "Blabbermouth",
    "data": "2026-11-26T19:51:50+00:00"
+  },
+  {
+   "titulo": "JUDAS PRIEST, GOJIRA, MÖTLEY CRÜE, SLASH, EUROPE Among 300+ Bands Confirmed For Hellfest 2027",
+   "link": "https://bravewords.com/news/judas-priest-gojira-motley-crue-slash-europe-among-300-bands-confirmed-for-hellfest-2027/",
+   "fonte": "BraveWords",
+   "data": "2026-11-26T19:48:31+00:00"
   },
   {
    "titulo": "BRUCE DICKINSON On IRON MAIDEN’s Rock & Roll Hall Of Fame Induction – “I’d Rather Get A Film Award Than A Music Award”; Video",
@@ -18055,12 +18107,6 @@
    "link": "https://blabbermouth.net/news/gene-hoglan-i-am-o-g-thrash-metal-i-was-there-from-the-very-very-inception-of-it",
    "fonte": "Blabbermouth",
    "data": "2026-11-26T18:55:05+00:00"
-  },
-  {
-   "titulo": "70000 Tons Of Metal 2027 – All Details Revealed For Artist Escorted Shore Excursions And More Exclusive Onboard Events",
-   "link": "https://bravewords.com/news/70000-tons-of-metal-2027-all-details-revealed-for-artist-escorted-shore-excursions-and-more-exclusive-onboard-events/",
-   "fonte": "BraveWords",
-   "data": "2026-11-26T18:35:56+00:00"
   },
   {
    "titulo": "La Grande Mort Or Silence Of God",
@@ -18135,12 +18181,6 @@
    "data": "2026-11-26T16:42:03+00:00"
   },
   {
-   "titulo": "Wacken Metal Battle Canada Returns For 2027; Band Submissions Open",
-   "link": "https://bravewords.com/news/wacken-metal-battle-canada-returns-for-2027-band-submissions-open/",
-   "fonte": "BraveWords",
-   "data": "2026-11-26T16:36:43+00:00"
-  },
-  {
    "titulo": "JUDAS PRIEST’s ROB HALFORD Partners With Signed Fine Art Company For Signed Museum-Standard, Limited Edition Photographic Fine Art Prints",
    "link": "https://bravewords.com/news/judas-priests-rob-halford-partners-with-signed-fine-art-company-for-signed-museum-standard-limited-edition-photographic-fine-art-prints/",
    "fonte": "BraveWords",
@@ -18205,6 +18245,12 @@
    "link": "https://blabbermouth.net/news/iron-maidens-bruce-dickinson-on-finally-being-inducted-into-rock-and-roll-hall-of-fame-there-are-other-awards-id-rather-have",
    "fonte": "Blabbermouth",
    "data": "2026-11-26T14:08:00+00:00"
+  },
+  {
+   "titulo": "Wacken Metal Battle Canada Returns For 2027; Band Submissions Open",
+   "link": "https://bravewords.com/news/wacken-metal-battle-canada-returns-for-2027-band-submissions-open/",
+   "fonte": "BraveWords",
+   "data": "2026-11-26T14:00:43+00:00"
   },
   {
    "titulo": "JOHN 5: Record Companies Supporting Rock And Roll And New Music Have 'Gone Away'",
@@ -18453,12 +18499,6 @@
    "data": "2026-11-25T18:41:14+00:00"
   },
   {
-   "titulo": "BEAUTIFUL LOSER’s “Bob Seger” Joins JOURNEY As Touring Drummer",
-   "link": "https://bravewords.com/news/beautiful-losers-bob-seger-joins-journey-as-touring-drummer/",
-   "fonte": "BraveWords",
-   "data": "2026-11-25T18:27:34+00:00"
-  },
-  {
    "titulo": "Heilung bring ELDGEITHFARDHA to Lisbon on November 2027",
    "link": "https://www.theblackplanet.org/heilung-lisbon-2027/",
    "fonte": "The Black Planet",
@@ -18469,12 +18509,6 @@
    "link": "https://metalstorm.net/events/news_comments.php?news_id=64702",
    "fonte": "Metal Storm",
    "data": "2026-11-25T18:10:21+00:00"
-  },
-  {
-   "titulo": "OZZY OSBOURNE – Birmingham’s Villa Park Is Going Big To Celebrate What Would Have Been The Late BLACK SABBATH Legend’s 78th Birthday",
-   "link": "https://bravewords.com/news/ozzy-osbourne-birminghams-villa-park-is-going-big-to-celebrate-what-would-have-been-the-late-black-sabbath-legends-78th-birthday/",
-   "fonte": "BraveWords",
-   "data": "2026-11-25T18:02:52+00:00"
   },
   {
    "titulo": "See MY DYING BRIDE's Entire Concert In Santiago, Chile During November 2026 Latin American Tour",
@@ -18507,40 +18541,16 @@
    "data": "2026-11-25T17:40:36+00:00"
   },
   {
-   "titulo": "SEX PISTOLS’ Upcoming UK Dates Will Be Their Last With Frontman FRANK CARTER – “It’s Been A Glorious Ride,” Says STEVE JONES",
-   "link": "https://bravewords.com/news/sex-pistols-upcoming-uk-dates-will-be-their-last-with-frontman-frank-carter-its-been-a-glorious-ride-says-steve-jones/",
-   "fonte": "BraveWords",
-   "data": "2026-11-25T17:37:39+00:00"
-  },
-  {
    "titulo": "ROBERT TRUJILLO Says METALLICA 'Will Start Working On New Material At Some Point Pretty Soon'",
    "link": "https://blabbermouth.net/news/robert-trujillo-says-metallica-will-start-working-on-new-material-at-some-point-pretty-soon",
    "fonte": "Blabbermouth",
    "data": "2026-11-25T17:23:33+00:00"
   },
   {
-   "titulo": "SATYRICON, DIMMU BORGIR, MAYHEM, ENSLAVED Among Acts Confirmed For 15th Anniversary Edition Of Norway’s Beyond The Gates Festival",
-   "link": "https://bravewords.com/news/satyricon-dimmu-borgir-mayhem-enslaved-among-acts-confirmed-for-15th-anniversary-edition-of-norways-beyond-the-gates-festival/",
-   "fonte": "BraveWords",
-   "data": "2026-11-25T17:20:17+00:00"
-  },
-  {
-   "titulo": "EVIL INVADERS Unleashes Horror-Inspired Single “Bloodstains”; Performance Video Streaming",
-   "link": "https://bravewords.com/news/evil-invaders-unleashes-horror-inspired-single-bloodstains-performance-video-streaming/",
-   "fonte": "BraveWords",
-   "data": "2026-11-25T17:03:24+00:00"
-  },
-  {
    "titulo": "Phil Collins filmed for a Beatles movie, but it took him 30 years to prove it",
    "link": "https://www.loudersound.com/bands-artists/phil-collins-beatles-hard-day-s-night",
    "fonte": "Metal Hammer",
    "data": "2026-11-25T17:00:00+00:00"
-  },
-  {
-   "titulo": "ROBERT TRUJILLO Talks New METALLICA Music – “We Should Probably Start Getting On That Trajectory Pretty Soon… It Feels Right”; Video",
-   "link": "https://bravewords.com/news/robert-trujillo-talks-new-metallica-music-we-should-probably-start-getting-on-that-trajectory-pretty-soon-it-feels-right-video/",
-   "fonte": "BraveWords",
-   "data": "2026-11-25T16:53:43+00:00"
   },
   {
    "titulo": "Osyron",
@@ -18561,22 +18571,10 @@
    "data": "2026-11-25T16:26:21+00:00"
   },
   {
-   "titulo": "University Music Expert Says Birmingham’s Relationship With OZZY OSBOURNE Is “Stronger Than Ever” Despite Not Hosting Ozzfest 2027",
-   "link": "https://bravewords.com/news/university-music-expert-says-birminghams-relationship-with-ozzy-osbourne-is-stronger-than-ever-despite-not-hosting-ozzfest-2027/",
-   "fonte": "BraveWords",
-   "data": "2026-11-25T16:25:00+00:00"
-  },
-  {
    "titulo": "Ak’chamel bring ritualistic psychedelia to Porto in March 2027",
    "link": "https://www.theblackplanet.org/akchamel-porto-2027/",
    "fonte": "The Black Planet",
    "data": "2026-11-25T16:19:56+00:00"
-  },
-  {
-   "titulo": "MIKE TRAMP + Members Of ENUFF Z’NUFF, VIXEN, L.A. GUNS, WHITE LION Confirmed For Friday’s Rock Against ALK Benefit Concert In Support Of Cancer Patients & Families",
-   "link": "https://bravewords.com/news/mike-tramp-members-of-enuff-znuff-vixen-l-a-guns-white-lion-confirmed-for-fridays-rock-against-alk-benefit-concert-in-support-of-cancer-patients-families/",
-   "fonte": "BraveWords",
-   "data": "2026-11-25T16:04:46+00:00"
   },
   {
    "titulo": "Get the latest Metal Hammer with a Hatebreed cover and Europe-exclusive red vinyl copy of new album Fatal Paradox",
@@ -18693,28 +18691,10 @@
    "data": "2026-11-25T10:09:54+00:00"
   },
   {
-   "titulo": "Glam-prog star Bobbie Dazzle is back with more tales of innocence and whimsy",
-   "link": "https://www.loudersound.com/bands-artists/glam-prog-star-bobbie-dazzle-is-back-with-more-tales-of-innocence-and-whimsy-you-can-imagine-elves-skipping-through-a-forest-playing-the-flute-and-i-find-elves-very-sexy",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-25T10:05:00+00:00"
-  },
-  {
    "titulo": "BleedSkin - Streaming 'Parasite' Track",
    "link": "https://metalstorm.net/events/news_comments.php?news_id=64695",
    "fonte": "Metal Storm",
    "data": "2026-11-25T09:47:06+00:00"
-  },
-  {
-   "titulo": "Kansas announce first European tour in more than a decade",
-   "link": "https://www.loudersound.com/bands-artists/kansas-announce-first-european-tour-in-more-than-a-decade",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-25T07:05:00+00:00"
-  },
-  {
-   "titulo": "How Fairport Convention’s folk rock was influenced by The Who: “They were smashing instruments. The shops were running out”",
-   "link": "https://www.loudersound.com/bands-artists/richard-thompson-fairport-convenion-the-who",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-25T05:00:00+00:00"
   },
   {
    "titulo": "YOB – Clearing the Path to Ascend",
