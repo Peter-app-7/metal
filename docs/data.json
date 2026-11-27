@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-26T19:35:45+00:00",
+ "atualizado": "2026-11-27T02:07:04+00:00",
  "fontes": {
   "excluidas": [
    "Richard Dawkins"
@@ -7,7 +7,7 @@
   "agenda": {
    "estado": "ok",
    "linhas": 124,
-   "futuras": 124,
+   "futuras": 123,
    "rejeitadas": [],
    "quase": [
     {
@@ -58,12 +58,12 @@
    },
    {
     "nome": "Decibel",
-    "ok": false,
+    "ok": true,
     "artigos": 10
    },
    {
     "nome": "BraveWords",
-    "ok": true,
+    "ok": false,
     "artigos": 30
    },
    {
@@ -73,14 +73,14 @@
    },
    {
     "nome": "The Black Planet",
-    "ok": true,
+    "ok": false,
     "artigos": 10
    }
   ],
   "spotify_espera_ate": null
  },
  "avisos": [
-  "Feeds sem resposta nesta atualização: Decibel."
+  "Feeds sem resposta nesta atualização: BraveWords, The Black Planet."
  ],
  "bandas": [
   {
@@ -17997,6 +17997,48 @@
  ],
  "noticias": [
   {
+   "titulo": "Still spreading the disease: The chaotic story of Anthrax",
+   "link": "https://www.loudersound.com/bands-artists/anthrax-scott-ian-cursum-perficio-interview",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-27T00:37:56+00:00"
+  },
+  {
+   "titulo": "Molly Hatchet's Lost Horizons: Recorded at London's Abbey Road, but all-American to the core",
+   "link": "https://www.loudersound.com/music/albums/molly-hatchet-lost-horizon",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-26T23:05:00+00:00"
+  },
+  {
+   "titulo": "Why Jeff Wayne’s War Of The Worlds has endured: “The synths sound like machines with soul”",
+   "link": "https://www.loudersound.com/music/albums/jeff-wayne-war-of-the-worlds-tom-hodges",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-26T22:00:00+00:00"
+  },
+  {
+   "titulo": "Nevermind paying full price: Save 25% on Nirvana and Rolling Stones watches and dial up your style with Nixon's huge Black Friday sale",
+   "link": "https://www.loudersound.com/culture/merchandise/nixon-watches-black-friday-sale",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-26T21:24:20+00:00"
+  },
+  {
+   "titulo": "Watch U2 hold a NFL stadium spellbound with an emotional tribute to Dolly Parton, giving a live debut to the last song she ever recorded",
+   "link": "https://www.loudersound.com/bands-artists/watch-u2-hold-a-nfl-stadium-spellbound-with-emotional-tribute-to-dolly-parton",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-26T21:00:00+00:00"
+  },
+  {
+   "titulo": "ANTHRAX Bassist FRANK BELLO's Advice To Young Musicians: It's All About 'Drive And Persistence'",
+   "link": "https://blabbermouth.net/news/anthrax-bassist-frank-bellos-advice-to-young-musicians-its-all-about-drive-and-persistence",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-26T20:33:20+00:00"
+  },
+  {
+   "titulo": "GEORGE LYNCH Says He Was Recently Involved In Recording Sessions Based On Songs That Were Created Using A.I.",
+   "link": "https://blabbermouth.net/news/george-lynch-says-he-was-recently-involved-in-recording-sessions-based-on-songs-that-were-created-using-a-i",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-26T19:51:50+00:00"
+  },
+  {
    "titulo": "BRUCE DICKINSON On IRON MAIDEN’s Rock & Roll Hall Of Fame Induction – “I’d Rather Get A Film Award Than A Music Award”; Video",
    "link": "https://bravewords.com/news/bruce-dickinson-on-iron-maidens-rock-video/",
    "fonte": "BraveWords",
@@ -18007,6 +18049,12 @@
    "link": "https://www.loudersound.com/music/albums/peter-gabriel-o-i",
    "fonte": "Metal Hammer",
    "data": "2026-11-26T19:05:00+00:00"
+  },
+  {
+   "titulo": "GENE HOGLAN: 'I Am O.G. Thrash Metal. I Was There From The Very, Very Inception Of It.'",
+   "link": "https://blabbermouth.net/news/gene-hoglan-i-am-o-g-thrash-metal-i-was-there-from-the-very-very-inception-of-it",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-26T18:55:05+00:00"
   },
   {
    "titulo": "70000 Tons Of Metal 2027 – All Details Revealed For Artist Escorted Shore Excursions And More Exclusive Onboard Events",
@@ -18055,6 +18103,12 @@
    "link": "https://bravewords.com/news/iron-maiden-commemorate-murwalls-eddfest-mural-with-limited-edition-prints-video/",
    "fonte": "BraveWords",
    "data": "2026-11-26T17:23:56+00:00"
+  },
+  {
+   "titulo": "Track-by-Track: Osyron on Their Self-Titled Album",
+   "link": "https://www.decibelmagazine.com/2026/11/26/track-by-track-osyron-on-their-self-titled-album/",
+   "fonte": "Decibel",
+   "data": "2026-11-26T17:00:23+00:00"
   },
   {
    "titulo": "Metallica are gearing up to begin follow-up to 72 Seasons",
@@ -18139,6 +18193,12 @@
    "link": "https://bravewords.com/today-in-metal/today-in-metal-history-%f0%9f%a4%98-november-26th-2026-%f0%9f%a4%98-tina-turner-iron-maiden-black-sabbath-hypocrisy-yes-the-kinks/",
    "fonte": "BraveWords",
    "data": "2026-11-26T14:45:02+00:00"
+  },
+  {
+   "titulo": "Full Album Stream: Arms’ I Wish You Were Down Here With Me",
+   "link": "https://www.decibelmagazine.com/2026/11/26/full-album-stream-arms-i-wish-you-were-down-here-with-me/",
+   "fonte": "Decibel",
+   "data": "2026-11-26T14:30:07+00:00"
   },
   {
    "titulo": "IRON MAIDEN's BRUCE DICKINSON On Finally Being Inducted Into ROCK AND ROLL HALL OF FAME: 'There Are Other Awards I'd Rather Have'",
@@ -18657,34 +18717,16 @@
    "data": "2026-11-25T05:00:00+00:00"
   },
   {
-   "titulo": "Bryan Adams launches all-star Christmas album with cover of Slade's Merry Xmas Everybody",
-   "link": "https://www.loudersound.com/music/albums/bryan-adams-launches-all-star-christmas-album-slade-merry-xmas-everybody",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-25T04:55:00+00:00"
-  },
-  {
    "titulo": "YOB – Clearing the Path to Ascend",
    "link": "https://www.decibelmagazine.com/2026/11/24/yob-clearing-the-path-to-ascend/",
    "fonte": "Decibel",
    "data": "2026-11-25T02:51:32+00:00"
   },
   {
-   "titulo": "Pearl Jam issue statement condemning ICE arrests in Seattle",
-   "link": "https://www.loudersound.com/bands-artists/pearl-jam-slam-ice-arrests-in-seattle",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-24T22:49:59+00:00"
-  },
-  {
    "titulo": "MIKKEY DEE's Advice To Young Musicians: 'Stay The F*** Away From A.I.'",
    "link": "https://blabbermouth.net/news/mikkey-dees-advice-to-young-musicians-stay-the-f-away-from-a-i",
    "fonte": "Blabbermouth",
    "data": "2026-11-24T22:09:27+00:00"
-  },
-  {
-   "titulo": "U2 announce North American leg of The Greatest Show On Earth world tour",
-   "link": "https://www.loudersound.com/bands-artists/u2-north-american-leg-greatest-show-on-earth-world-tour",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-24T21:14:43+00:00"
   },
   {
    "titulo": "How Is There No Florida Death Metal on the 'Grand Theft Auto VI' Soundtrack?",
@@ -18711,24 +18753,6 @@
    "data": "2026-11-24T20:00:01+00:00"
   },
   {
-   "titulo": "JAY WEINBERG Is 'Grateful' For His 10-Year Run With SLIPKNOT",
-   "link": "https://blabbermouth.net/news/jay-weinberg-is-grateful-for-his-10-year-run-with-slipknot",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-24T19:55:08+00:00"
-  },
-  {
-   "titulo": "DAVE LOMBARDO On Filling In For METALLICA's LARS ULRICH At 2004 DOWNLOAD Festival: 'That Was Surreal, To Say The Least'",
-   "link": "https://blabbermouth.net/news/dave-lombardo-on-filling-in-for-metallicas-lars-ulrich-at-2004-download-festival-that-was-surreal-to-say-the-least",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-24T19:09:32+00:00"
-  },
-  {
-   "titulo": "Mastodon announce UK and European dates for their Poisonous Weapons world tour",
-   "link": "https://www.loudersound.com/bands-artists/mastodon-announce-uk-and-european-dates-for-their-poisonous-weapons-tour",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-24T19:00:00+00:00"
-  },
-  {
    "titulo": "Photos: Russian Circles and Primitive Man in Colorado",
    "link": "https://metalinjection.net/photos/photos-russian-circles-and-primitive-man-in-colorado",
    "fonte": "Metal Injection",
@@ -18741,22 +18765,10 @@
    "data": "2026-11-24T18:49:33+00:00"
   },
   {
-   "titulo": "New FOO FIGHTERS Episode Of 'Fandemonium' Out Now",
-   "link": "https://blabbermouth.net/news/new-foo-fighters-episode-of-fandemonium-out-now",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-24T18:30:19+00:00"
-  },
-  {
    "titulo": "Evening Bleakness in the West: Wayfarer Breaks Down 'Riders of the Setting Sun' Track by Track",
    "link": "https://metalinjection.net/interviews/wayfarer-riders-of-the-setting-sun-track-by-track",
    "fonte": "Metal Injection",
    "data": "2026-11-24T18:13:51+00:00"
-  },
-  {
-   "titulo": "Why Liza Minnelli made a surprise appearance on the most recent rock album to top the US charts",
-   "link": "https://www.loudersound.com/bands-artists/why-cabaret-legend-liza-minnelli-made-a-surprise-appearance-on-the-most-recent-rock-album-to-top-the-us-charts",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-24T18:00:00+00:00"
   },
   {
    "titulo": "Interview: Decemburger V Ready to Feed Denver for the Holiday Season",
@@ -18859,18 +18871,6 @@
    "link": "https://metalinjection.net/news/metallica-gives-200k-to-fight-hunger-and-domestic-violence-in-las-vegas",
    "fonte": "Metal Injection",
    "data": "2026-11-23T17:39:53+00:00"
-  },
-  {
-   "titulo": "Interview: Mental Cruelty Singer Discusses New Album, Echoes of a Forlorn Land",
-   "link": "https://www.decibelmagazine.com/2026/11/23/interview-mental-cruelty-singer-discusses-new-album-echoes-of-a-forlorn-land/",
-   "fonte": "Decibel",
-   "data": "2026-11-23T17:00:22+00:00"
-  },
-  {
-   "titulo": "OXYGEN DESTROYER to Release Exclusive New Song, “Relentless Desire for Nuclear Radiation,” via the Decibel Flexi Series!",
-   "link": "https://www.decibelmagazine.com/2026/11/23/oxygen-destroyer-to-release-exclusive-new-song-relentless-desire-for-nuclear-radiation-via-the-decibel-flexi-series/",
-   "fonte": "Decibel",
-   "data": "2026-11-23T16:37:35+00:00"
   },
   {
    "titulo": "Hear Power Trip's 'GTA VI' Soundtrack Single \"Mutual Death Warrant\"",
