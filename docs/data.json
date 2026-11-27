@@ -1,17 +1,38 @@
 {
- "atualizado": "2026-11-27T07:57:35+00:00",
+ "atualizado": "2026-11-27T13:53:52+00:00",
  "fontes": {
   "excluidas": [
    "Richard Dawkins"
   ],
   "agenda": {
-   "estado": "indisponivel",
-   "linhas": 0,
-   "futuras": 0,
+   "estado": "ok",
+   "linhas": 124,
+   "futuras": 123,
    "rejeitadas": [],
-   "quase": [],
-   "atualizada": null,
-   "erro": "nenhuma linha lida: o formato da página pode ter mudado"
+   "quase": [
+    {
+     "agenda": "Hate Disposal",
+     "banda": "Hate"
+    },
+    {
+     "agenda": "Martyrium",
+     "banda": "Marthyrium"
+    },
+    {
+     "agenda": "Massacre Metal Fest",
+     "banda": "Massacre"
+    },
+    {
+     "agenda": "Monsters Of Death",
+     "banda": "Death"
+    },
+    {
+     "agenda": "Sadistic Overkill",
+     "banda": "Overkill"
+    }
+   ],
+   "atualizada": "2026-11-26",
+   "minhas": 9
   },
   "bandas": "spotify",
   "feeds": [
@@ -42,7 +63,7 @@
    },
    {
     "nome": "BraveWords",
-    "ok": true,
+    "ok": false,
     "artigos": 30
    },
    {
@@ -52,15 +73,14 @@
    },
    {
     "nome": "The Black Planet",
-    "ok": false,
+    "ok": true,
     "artigos": 10
    }
   ],
   "spotify_espera_ate": null
  },
  "avisos": [
-  "Agenda do Caminhos Metálicos indisponível (nenhuma linha lida: o formato da página pode ter mudado). Ficaram os concertos guardados.",
-  "Feeds sem resposta nesta atualização: The Black Planet."
+  "Feeds sem resposta nesta atualização: BraveWords."
  ],
  "bandas": [
   {
@@ -17977,6 +17997,72 @@
  ],
  "noticias": [
   {
+   "titulo": "W.A.S.P. Drummer AQUILES PRIESTER Teams Up With SLAUGHTER SISTERS' ISA NIELSEN And LÍVIA LEE For SARCÓFAGO Tribute",
+   "link": "https://blabbermouth.net/news/w-a-s-p-drummer-aquiles-priester-teams-up-with-slaughter-sisters-isa-nielsen-and-livia-lee-for-sarcofago-tribute",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-27T13:11:47+00:00"
+  },
+  {
+   "titulo": "Thank Satan It’s Decibel’s BLACKEST FRIDAY Sale! Get 20% of Subscriptions Today!",
+   "link": "https://www.decibelmagazine.com/2026/11/27/thank-satan-its-decibels-blackest-friday-sale-get-20-of-subscriptions-today/",
+   "fonte": "Decibel",
+   "data": "2026-11-27T13:00:23+00:00"
+  },
+  {
+   "titulo": "Sun After Dark - Sophomore LP On The Way",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64715",
+   "fonte": "Metal Storm",
+   "data": "2026-11-27T12:53:39+00:00"
+  },
+  {
+   "titulo": "Pyogenesis - New Song Launched, Feat. Fernando Ribeiro",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64714",
+   "fonte": "Metal Storm",
+   "data": "2026-11-27T12:53:33+00:00"
+  },
+  {
+   "titulo": "Ex-NIGHTWISH Singer FLOOR JANSEN Releases New Solo Single 'Reversed Polarity' From Upcoming 'Hytress' Album",
+   "link": "https://blabbermouth.net/news/ex-nightwish-singer-floor-jansen-releases-new-solo-single-reversed-polarity-from-upcoming-hytress-album",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-27T12:50:20+00:00"
+  },
+  {
+   "titulo": "WITHIN TEMPTATION Announces 'Through Fire & Ashes - The 2027 Tour'",
+   "link": "https://blabbermouth.net/news/within-temptation-announces-through-fire-ashes-the-2027-tour",
+   "fonte": "Blabbermouth",
+   "data": "2026-11-27T12:22:25+00:00"
+  },
+  {
+   "titulo": "Wake - Touring Europe Next Spring",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64713",
+   "fonte": "Metal Storm",
+   "data": "2026-11-27T11:46:55+00:00"
+  },
+  {
+   "titulo": "Extermination Dismemberment - Unleash 'Death Itself' Track",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64712",
+   "fonte": "Metal Storm",
+   "data": "2026-11-27T11:38:27+00:00"
+  },
+  {
+   "titulo": "Within Temptation announce massive Europe, UK and Latin America dates",
+   "link": "https://www.loudersound.com/bands-artists/concerts-shows/within-temptation-announce-massive-europe-uk-and-latin-america-dates-including-londons-wembley-arena-we-cant-wait-to-light-it-up-again",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-27T10:39:10+00:00"
+  },
+  {
+   "titulo": "Record Store Day Black Friday 2026: The 85 best releases you can possibly buy",
+   "link": "https://www.loudersound.com/music/albums/record-store-day-black-friday-2026-85-best-releases",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-27T10:05:00+00:00"
+  },
+  {
+   "titulo": "Oakenthrone - Debut Album Streaming In Full",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64711",
+   "fonte": "Metal Storm",
+   "data": "2026-11-27T07:50:56+00:00"
+  },
+  {
    "titulo": "Rarities is a half-brilliant set of early material from Ritchie Blackmore's Rainbow",
    "link": "https://www.loudersound.com/music/albums/ritchie-blackmores-rainbow-rarities",
    "fonte": "Metal Hammer",
@@ -18541,12 +18627,6 @@
    "data": "2026-11-25T17:40:36+00:00"
   },
   {
-   "titulo": "ROBERT TRUJILLO Says METALLICA 'Will Start Working On New Material At Some Point Pretty Soon'",
-   "link": "https://blabbermouth.net/news/robert-trujillo-says-metallica-will-start-working-on-new-material-at-some-point-pretty-soon",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-25T17:23:33+00:00"
-  },
-  {
    "titulo": "Phil Collins filmed for a Beatles movie, but it took him 30 years to prove it",
    "link": "https://www.loudersound.com/bands-artists/phil-collins-beatles-hard-day-s-night",
    "fonte": "Metal Hammer",
@@ -18643,40 +18723,10 @@
    "data": "2026-11-25T12:52:32+00:00"
   },
   {
-   "titulo": "I’ve hunted down 4 Black Friday stocking fillers every vinyl lover will thank you for",
-   "link": "https://www.loudersound.com/tech/record-players-turntables/ive-hunted-down-4-black-friday-stocking-fillers-every-vinyl-lover-will-thank-you-for",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-25T12:36:11+00:00"
-  },
-  {
-   "titulo": "Ozzy Osbourne’s final show nearly featured a “very, very big band” reuniting after 10 years, Anthrax’s Scott Ian claims",
-   "link": "https://www.loudersound.com/news/ozzy-osbourne-black-sabbath-back-to-the-beginning-nearly-featured-big-band-reuniting-anthrax-scott-ian-2026",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-25T12:00:00+00:00"
-  },
-  {
    "titulo": "Samael - Debut 'Europa' Single And Video",
    "link": "https://metalstorm.net/events/news_comments.php?news_id=64700",
    "fonte": "Metal Storm",
    "data": "2026-11-25T11:11:50+00:00"
-  },
-  {
-   "titulo": "Arch Enemy - Will Embark On Extensive Latin American Tour",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64699",
-   "fonte": "Metal Storm",
-   "data": "2026-11-25T11:10:33+00:00"
-  },
-  {
-   "titulo": "Crom - New Studio Album Announced",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64698",
-   "fonte": "Metal Storm",
-   "data": "2026-11-25T10:24:22+00:00"
-  },
-  {
-   "titulo": "Håndgemeng - Present New Song",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64697",
-   "fonte": "Metal Storm",
-   "data": "2026-11-25T10:21:27+00:00"
   },
   {
    "titulo": "Karnivool announce first-ever Portuguese concert for September 2027",
@@ -18685,40 +18735,16 @@
    "data": "2026-11-25T10:14:21+00:00"
   },
   {
-   "titulo": "Tardigrada - Ink Deal With Debemur Morti Productions",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64696",
-   "fonte": "Metal Storm",
-   "data": "2026-11-25T10:09:54+00:00"
-  },
-  {
-   "titulo": "BleedSkin - Streaming 'Parasite' Track",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64695",
-   "fonte": "Metal Storm",
-   "data": "2026-11-25T09:47:06+00:00"
-  },
-  {
    "titulo": "YOB – Clearing the Path to Ascend",
    "link": "https://www.decibelmagazine.com/2026/11/24/yob-clearing-the-path-to-ascend/",
    "fonte": "Decibel",
    "data": "2026-11-25T02:51:32+00:00"
   },
   {
-   "titulo": "MIKKEY DEE's Advice To Young Musicians: 'Stay The F*** Away From A.I.'",
-   "link": "https://blabbermouth.net/news/mikkey-dees-advice-to-young-musicians-stay-the-f-away-from-a-i",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-24T22:09:27+00:00"
-  },
-  {
    "titulo": "How Is There No Florida Death Metal on the 'Grand Theft Auto VI' Soundtrack?",
    "link": "https://metalinjection.net/editorials/heavy-takes/gta-6-florida-death-metal",
    "fonte": "Metal Injection",
    "data": "2026-11-24T20:39:37+00:00"
-  },
-  {
-   "titulo": "BRUCE DICKINSON On Voicing His Political Views: 'There's No Point In Lecturing People, 'Cause They Make Up Their Own Minds'",
-   "link": "https://blabbermouth.net/news/bruce-dickinson-on-voicing-his-political-views-theres-no-point-in-lecturing-people-cause-they-make-up-their-own-minds",
-   "fonte": "Blabbermouth",
-   "data": "2026-11-24T20:31:03+00:00"
   },
   {
    "titulo": "Mgła Surprise Releases New Album ‘Traitors to the Human Cause’",
@@ -18827,12 +18853,6 @@
    "link": "https://metalinjection.net/photos/photos-arch-enemy-the-black-dahlia-murder-crypta-septicflesh-thrown-into-exile-in-oregon",
    "fonte": "Metal Injection",
    "data": "2026-11-23T20:20:43+00:00"
-  },
-  {
-   "titulo": "Track Premiere: Burning Hammer – “Mimic” (ft. Jeff Loomis of Nevermore)",
-   "link": "https://www.decibelmagazine.com/2026/11/23/track-premiere-burning-hammer-mimic-ft-jeff-loomis-of-nevermore/",
-   "fonte": "Decibel",
-   "data": "2026-11-23T20:00:42+00:00"
   },
   {
    "titulo": "Paradise Lost Makes Cryptic Instagram Post",
