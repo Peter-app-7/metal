@@ -1,17 +1,38 @@
 {
- "atualizado": "2026-11-28T01:52:27+00:00",
+ "atualizado": "2026-11-28T07:47:17+00:00",
  "fontes": {
   "excluidas": [
    "Richard Dawkins"
   ],
   "agenda": {
-   "estado": "indisponivel",
-   "linhas": 0,
-   "futuras": 0,
+   "estado": "ok",
+   "linhas": 124,
+   "futuras": 121,
    "rejeitadas": [],
-   "quase": [],
-   "atualizada": null,
-   "erro": "www.caminhosmetalicos.com não respondeu (URLError)"
+   "quase": [
+    {
+     "agenda": "Hate Disposal",
+     "banda": "Hate"
+    },
+    {
+     "agenda": "Martyrium",
+     "banda": "Marthyrium"
+    },
+    {
+     "agenda": "Massacre Metal Fest",
+     "banda": "Massacre"
+    },
+    {
+     "agenda": "Monsters Of Death",
+     "banda": "Death"
+    },
+    {
+     "agenda": "Sadistic Overkill",
+     "banda": "Overkill"
+    }
+   ],
+   "atualizada": "2026-11-26",
+   "minhas": 9
   },
   "bandas": "spotify",
   "feeds": [
@@ -58,9 +79,7 @@
   ],
   "spotify_espera_ate": null
  },
- "avisos": [
-  "Agenda do Caminhos Metálicos indisponível (www.caminhosmetalicos.com não respondeu (URLError)). Ficaram os concertos guardados."
- ],
+ "avisos": [],
  "bandas": [
   {
    "id": "redemptus",
@@ -17976,10 +17995,34 @@
  ],
  "noticias": [
   {
+   "titulo": "Watch The Pineapple Thief’s Bruce Soord get emotional over his own lyrics",
+   "link": "https://www.loudersound.com/bands-artists/bruce-soord-pineapple-thief-emotional-lyrics",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-28T05:24:08+00:00"
+  },
+  {
    "titulo": "Today In Metal History 🤘 November 28th, 2026 🤘 SATYRICON, AC/DC, METALLICA, SOUNDGARDEN, DARKTHRONE, VENOM, STEVE SMYTH",
    "link": "https://bravewords.com/today-in-metal/today-in-metal-history-%f0%9f%a4%98-november-28th-2026-%f0%9f%a4%98-satyricon-ac-dc-metallica-soundgarden-darkthrone-venom-steve-smyth/",
    "fonte": "BraveWords",
-   "data": "2026-11-27T21:30:45+00:00"
+   "data": "2026-11-28T04:33:45+00:00"
+  },
+  {
+   "titulo": "FANGSLINGER Collaborates With WE THREE KINGS On “Judas Take Me Home”",
+   "link": "https://bravewords.com/news/fangslinger-collaborates-with-we-three-kings-on-judas-take-me-home/",
+   "fonte": "BraveWords",
+   "data": "2026-11-28T04:32:08+00:00"
+  },
+  {
+   "titulo": "Dimmu Borgir on criticism and how satanic black metal should be",
+   "link": "https://www.loudersound.com/bands-artists/hate-always-comes-from-people-that-have-done-less-than-you-dimmu-borgir-on-criticism-and-how-satanic-black-metal-should-be",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-28T04:00:00+00:00"
+  },
+  {
+   "titulo": "QUIET RIOT Announce Major 2027 Festival Appearances Including Sweden Rock, Bangers Open Air, Welcome To Rockville And More",
+   "link": "https://bravewords.com/news/quiet-riot-announce-major-2027-festival-appearances-including-sweden-rock-bangers-open-air-welcome-to-rockville-and-more/",
+   "fonte": "BraveWords",
+   "data": "2026-11-28T03:44:08+00:00"
   },
   {
    "titulo": "DIMMU BORGIR's SILENOZ Says Black Metal 'Has To Be Atmospheric' But 'Doesn't Have To Necessarily Be Satanic'",
@@ -18402,12 +18445,6 @@
    "data": "2026-11-26T19:48:31+00:00"
   },
   {
-   "titulo": "BRUCE DICKINSON On IRON MAIDEN’s Rock & Roll Hall Of Fame Induction – “I’d Rather Get A Film Award Than A Music Award”; Video",
-   "link": "https://bravewords.com/news/bruce-dickinson-on-iron-maidens-rock-video/",
-   "fonte": "BraveWords",
-   "data": "2026-11-26T19:21:23+00:00"
-  },
-  {
    "titulo": "Peter Gabriel performs a modern musical miracle on the graceful o\\i",
    "link": "https://www.loudersound.com/music/albums/peter-gabriel-o-i",
    "fonte": "Metal Hammer",
@@ -18436,12 +18473,6 @@
    "link": "https://blabbermouth.net/news/more-than-300-bands-announced-for-2027-edition-of-frances-hellfest",
    "fonte": "Blabbermouth",
    "data": "2026-11-26T18:01:26+00:00"
-  },
-  {
-   "titulo": "AMON AMARTH, ARCH ENEMY Among Latest Acts Confirmed For France’s Heavy Week-End 2027; Single-Day And VIP Tickets On Sale Now",
-   "link": "https://bravewords.com/news/amon-amarth-arch-enemy-among-latest-acts-confirmed-for-frances-heavy-week-end-2027-single-day-and-vip-tickets-on-sale-now/",
-   "fonte": "BraveWords",
-   "data": "2026-11-26T18:00:25+00:00"
   },
   {
    "titulo": "Evanescence, Judas Priest, Parkway Drive, Faith No More, Blink-182, Gojira, Turnstile announced on seriously stacked Hellfest 2027 bill",
@@ -18654,12 +18685,6 @@
    "data": "2026-11-25T19:55:11+00:00"
   },
   {
-   "titulo": "King Crimson drummer and co-founder Michael Giles dead at 84",
-   "link": "https://www.loudersound.com/bands-artists/biographies/king-crimson-drummer-and-co-founder-michael-giles-dead-at-84",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-25T19:52:28+00:00"
-  },
-  {
    "titulo": "Reliqa - Sophomore Full Length Coming Out In February",
    "link": "https://metalstorm.net/events/news_comments.php?news_id=64703",
    "fonte": "Metal Storm",
@@ -18682,12 +18707,6 @@
    "link": "https://www.theblackplanet.org/heilung-lisbon-2027/",
    "fonte": "The Black Planet",
    "data": "2026-11-25T18:22:33+00:00"
-  },
-  {
-   "titulo": "Norse shamans Heilung announce biggest tour of their lives for 2027",
-   "link": "https://www.loudersound.com/news/heilung-announce-2027-european-uk-tour",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-25T18:00:00+00:00"
   },
   {
    "titulo": "\"Why Can't We Try?\": Nita Strauss on Motherhood, Max and Her Third Album",
