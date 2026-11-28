@@ -1,38 +1,17 @@
 {
- "atualizado": "2026-11-28T07:47:17+00:00",
+ "atualizado": "2026-11-28T13:35:45+00:00",
  "fontes": {
   "excluidas": [
    "Richard Dawkins"
   ],
   "agenda": {
-   "estado": "ok",
-   "linhas": 124,
-   "futuras": 121,
+   "estado": "indisponivel",
+   "linhas": 0,
+   "futuras": 0,
    "rejeitadas": [],
-   "quase": [
-    {
-     "agenda": "Hate Disposal",
-     "banda": "Hate"
-    },
-    {
-     "agenda": "Martyrium",
-     "banda": "Marthyrium"
-    },
-    {
-     "agenda": "Massacre Metal Fest",
-     "banda": "Massacre"
-    },
-    {
-     "agenda": "Monsters Of Death",
-     "banda": "Death"
-    },
-    {
-     "agenda": "Sadistic Overkill",
-     "banda": "Overkill"
-    }
-   ],
-   "atualizada": "2026-11-26",
-   "minhas": 9
+   "quase": [],
+   "atualizada": null,
+   "erro": "nenhuma linha lida: o formato da página pode ter mudado"
   },
   "bandas": "spotify",
   "feeds": [
@@ -73,13 +52,16 @@
    },
    {
     "nome": "The Black Planet",
-    "ok": true,
+    "ok": false,
     "artigos": 10
    }
   ],
   "spotify_espera_ate": null
  },
- "avisos": [],
+ "avisos": [
+  "Agenda do Caminhos Metálicos indisponível (nenhuma linha lida: o formato da página pode ter mudado). Ficaram os concertos guardados.",
+  "Feeds sem resposta nesta atualização: The Black Planet."
+ ],
  "bandas": [
   {
    "id": "redemptus",
@@ -17995,6 +17977,144 @@
  ],
  "noticias": [
   {
+   "titulo": "BIFF BABY’S ALLSTARS Featuring STEVE VAI, JOHN PETRUCCI, STEVE MORSE, JOE BONAMASSA And More Release New Album – “There’s Something Wonderfully Liberating About Stepping Outside Of Our Normal Musical Dining Cuisine”",
+   "link": "https://bravewords.com/news/biff-babys-allstars-featuring-steve-vai-john-petrucci-steve-morse-joe-bonamassa-and-more-release-new-album-theres-something-wonderfully-liberating-about-stepping-outside-of-our-norma/",
+   "fonte": "BraveWords",
+   "data": "2026-11-28T13:28:54+00:00"
+  },
+  {
+   "titulo": "Chris Garza Quits Suicide Silence: \"The Book Closes With a Sad Ending\"",
+   "link": "https://metalinjection.net/news/chris-garza-quits-suicide-silence",
+   "fonte": "Metal Injection",
+   "data": "2026-11-28T13:18:10+00:00"
+  },
+  {
+   "titulo": "Winterfylleth - To Tour Europe With Saor",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64732",
+   "fonte": "Metal Storm",
+   "data": "2026-11-28T12:26:33+00:00"
+  },
+  {
+   "titulo": "Carnal Savagery - Debut 'Her Rotten Flesh' Music Video",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64731",
+   "fonte": "Metal Storm",
+   "data": "2026-11-28T12:20:39+00:00"
+  },
+  {
+   "titulo": "Theotoxin - Announce Fifth Long Player",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64730",
+   "fonte": "Metal Storm",
+   "data": "2026-11-28T12:15:25+00:00"
+  },
+  {
+   "titulo": "Alterium - Sign With Fireflash Records",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64729",
+   "fonte": "Metal Storm",
+   "data": "2026-11-28T12:15:10+00:00"
+  },
+  {
+   "titulo": "Draconicon - Drop 'Follow The Rule' Single",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64728",
+   "fonte": "Metal Storm",
+   "data": "2026-11-28T11:58:25+00:00"
+  },
+  {
+   "titulo": "ILLUMISHADE Release New Single / Video “The Monsters That Scream The Loudest” Featuring AD INFINITUM Vocalist MELISSA BONNY",
+   "link": "https://bravewords.com/news/illumishade-release-new-single-video-the-monsters-that-scream-the-loudest-featuring-ad-infinitum-vocalist-melissa-bonny/",
+   "fonte": "BraveWords",
+   "data": "2026-11-28T11:19:02+00:00"
+  },
+  {
+   "titulo": "KAROL G / TOP QUEENS Drummer GIULLIANA MERELLO Hears MOTÖRHEAD For The First Time Without Drum Tracks; Teaches Herself To Play “Ace Of Spades” (Video)",
+   "link": "https://bravewords.com/news/karol-g-top-queens-drummer-giulliana-merello-hears-motorhead-for-the-first-time-without-drum-tracks-teaches-herself-to-play-ace-of-spades-video/",
+   "fonte": "BraveWords",
+   "data": "2026-11-28T11:00:42+00:00"
+  },
+  {
+   "titulo": "Vote for the best metal album of 2026",
+   "link": "https://www.loudersound.com/music/albums/vote-for-the-best-metal-album-of-2026",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-28T11:00:00+00:00"
+  },
+  {
+   "titulo": "YNGWIE MALMSTEEN Talks Guitar Mastery – “I Never Practiced, Ever, From Day One When I Picked Up A Guitar; I Was Performing In My Mind” (Video)",
+   "link": "https://bravewords.com/news/yngwie-malmsteen-talks-guitar-mastery-i-never-practiced-ever-from-day-one-when-i-picked-up-a-guitar-i-was-performing-in-my-mind-video/",
+   "fonte": "BraveWords",
+   "data": "2026-11-28T10:14:17+00:00"
+  },
+  {
+   "titulo": "Metal Hammer's tracks of the week: November 27 2026",
+   "link": "https://www.loudersound.com/music/tracks-singles/metal-hammer-tracks-of-the-week-november-27-2026",
+   "fonte": "Metal Hammer",
+   "data": "2026-11-28T10:00:00+00:00"
+  },
+  {
+   "titulo": "PETER GABRIEL Featured In Career-Spanning Interview With Producer / Songwriter RICK BEATO (Video)",
+   "link": "https://bravewords.com/classic-rock/peter-gabriel-featured-in-career-spanning-interview-with-producer-songwriter-rick-beato-video/",
+   "fonte": "BraveWords",
+   "data": "2026-11-28T09:56:45+00:00"
+  },
+  {
+   "titulo": "Mono - Touring Europe Early Next Year",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64727",
+   "fonte": "Metal Storm",
+   "data": "2026-11-28T09:48:20+00:00"
+  },
+  {
+   "titulo": "Illumishade - Present New Song, Feat. Melissa Bonny",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64726",
+   "fonte": "Metal Storm",
+   "data": "2026-11-28T09:41:18+00:00"
+  },
+  {
+   "titulo": "Watch SEPULTURA Perform “Kairos” Live At Bloodstock 2026; Pro-Shot Video",
+   "link": "https://bravewords.com/news/watch-sepultura-perform-kairos-live-at-bloodstock-2026-pro-shot-video/",
+   "fonte": "BraveWords",
+   "data": "2026-11-28T09:35:05+00:00"
+  },
+  {
+   "titulo": "Vorga - Detail Upcoming Full Length Offering",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64725",
+   "fonte": "Metal Storm",
+   "data": "2026-11-28T09:28:04+00:00"
+  },
+  {
+   "titulo": "Bullet-Proof - Unveil 'Scorpion' Track",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64724",
+   "fonte": "Metal Storm",
+   "data": "2026-11-28T09:06:15+00:00"
+  },
+  {
+   "titulo": "Karnivool - Announce European Headlining Tour",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64723",
+   "fonte": "Metal Storm",
+   "data": "2026-11-28T07:15:06+00:00"
+  },
+  {
+   "titulo": "Suidakra - Premiere Video For 'Dawnbringer' Single",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64722",
+   "fonte": "Metal Storm",
+   "data": "2026-11-28T07:11:00+00:00"
+  },
+  {
+   "titulo": "Funeral - Introduce New Vocalist",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64721",
+   "fonte": "Metal Storm",
+   "data": "2026-11-28T07:06:00+00:00"
+  },
+  {
+   "titulo": "Voidspere - Releasing Debut Album In Early 2027",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64720",
+   "fonte": "Metal Storm",
+   "data": "2026-11-28T06:58:10+00:00"
+  },
+  {
+   "titulo": "Folkheim - Post New Track",
+   "link": "https://metalstorm.net/events/news_comments.php?news_id=64719",
+   "fonte": "Metal Storm",
+   "data": "2026-11-28T06:55:30+00:00"
+  },
+  {
    "titulo": "Watch The Pineapple Thief’s Bruce Soord get emotional over his own lyrics",
    "link": "https://www.loudersound.com/bands-artists/bruce-soord-pineapple-thief-emotional-lyrics",
    "fonte": "Metal Hammer",
@@ -18169,7 +18289,7 @@
    "data": "2026-11-27T16:03:03+00:00"
   },
   {
-   "titulo": "How Neal Morse And The Resonance realised the meaning of a Pink Floyd lyric",
+   "titulo": "How the meaning of a Pink Floyd lyric inspired Neal Morse And The Resonance's new album River Of Light",
    "link": "https://www.loudersound.com/music/albums/neal-morse-resonance-river-of-light",
    "fonte": "Metal Hammer",
    "data": "2026-11-27T16:00:00+00:00"
@@ -18241,34 +18361,10 @@
    "data": "2026-11-27T13:11:47+00:00"
   },
   {
-   "titulo": "Drift Into Black - 'Storm Of The Demon' Single Debuts",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64717",
-   "fonte": "Metal Storm",
-   "data": "2026-11-27T13:06:14+00:00"
-  },
-  {
    "titulo": "Thank Satan It’s Decibel’s BLACKEST FRIDAY Sale! Get 20% of Subscriptions Today!",
    "link": "https://www.decibelmagazine.com/2026/11/27/thank-satan-its-decibels-blackest-friday-sale-get-20-of-subscriptions-today/",
    "fonte": "Decibel",
    "data": "2026-11-27T13:00:23+00:00"
-  },
-  {
-   "titulo": "Maim - Join Forces With Darkness Shall Rise Productions",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64716",
-   "fonte": "Metal Storm",
-   "data": "2026-11-27T12:56:12+00:00"
-  },
-  {
-   "titulo": "Sun After Dark - Sophomore LP On The Way",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64715",
-   "fonte": "Metal Storm",
-   "data": "2026-11-27T12:53:39+00:00"
-  },
-  {
-   "titulo": "Pyogenesis - New Song Launched, Feat. Fernando Ribeiro",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64714",
-   "fonte": "Metal Storm",
-   "data": "2026-11-27T12:53:33+00:00"
   },
   {
    "titulo": "Ex-NIGHTWISH Singer FLOOR JANSEN Releases New Solo Single 'Reversed Polarity' From Upcoming 'Hytress' Album",
@@ -18281,18 +18377,6 @@
    "link": "https://blabbermouth.net/news/within-temptation-announces-through-fire-ashes-the-2027-tour",
    "fonte": "Blabbermouth",
    "data": "2026-11-27T12:22:25+00:00"
-  },
-  {
-   "titulo": "Wake - Touring Europe Next Spring",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64713",
-   "fonte": "Metal Storm",
-   "data": "2026-11-27T11:46:55+00:00"
-  },
-  {
-   "titulo": "Extermination Dismemberment - Unleash 'Death Itself' Track",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64712",
-   "fonte": "Metal Storm",
-   "data": "2026-11-27T11:38:27+00:00"
   },
   {
    "titulo": "CARCASS Announce Europa Rigor Mortis Tour – Part III For March 2027; ROTTEN SOUND And BAT Confirmed As Support",
@@ -18323,12 +18407,6 @@
    "link": "https://bravewords.com/news/sylosis-share-official-live-video-for-the-new-flesh/",
    "fonte": "BraveWords",
    "data": "2026-11-27T09:20:12+00:00"
-  },
-  {
-   "titulo": "Oakenthrone - Debut Album Streaming In Full",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64711",
-   "fonte": "Metal Storm",
-   "data": "2026-11-27T07:50:56+00:00"
   },
   {
    "titulo": "Rarities is a half-brilliant set of early material from Ritchie Blackmore's Rainbow",
@@ -18367,28 +18445,10 @@
    "data": "2026-11-27T02:42:22+00:00"
   },
   {
-   "titulo": "JUNKYARD – “Things May Seem Quiet, It’s Quite The Opposite”",
-   "link": "https://bravewords.com/news/junkyard-things-may-seem-quiet-its-quite-the-opposite/",
-   "fonte": "BraveWords",
-   "data": "2026-11-27T01:59:33+00:00"
-  },
-  {
-   "titulo": "DEE SNIDER And RIKI RACHTMAN Present Episode Five Of “The Ball” – Heavy Metal Thanksgiving And St. Lemmy",
-   "link": "https://bravewords.com/news/dee-snider-and-riki-rachtman-present-episode-five-of-the-ball-heavy-metal-thanksgiving-and-st-lemmy/",
-   "fonte": "BraveWords",
-   "data": "2026-11-27T01:36:11+00:00"
-  },
-  {
    "titulo": "Still spreading the disease: The chaotic story of Anthrax",
    "link": "https://www.loudersound.com/bands-artists/anthrax-scott-ian-cursum-perficio-interview",
    "fonte": "Metal Hammer",
    "data": "2026-11-27T00:37:56+00:00"
-  },
-  {
-   "titulo": "70000 Tons Of Metal 2027 – All Details Revealed For Artist Escorted Shore Excursions And More Exclusive Onboard Events",
-   "link": "https://bravewords.com/news/70000-tons-of-metal-2027-all-details-revealed-for-artist-escorted-shore-excursions-and-more-exclusive-onboard-events/",
-   "fonte": "BraveWords",
-   "data": "2026-11-26T23:35:56+00:00"
   },
   {
    "titulo": "Molly Hatchet's Lost Horizons: Recorded at London's Abbey Road, but all-American to the core",
@@ -18421,28 +18481,10 @@
    "data": "2026-11-26T20:33:20+00:00"
   },
   {
-   "titulo": "Former LAMB OF GOD Drummer Chris Adler Announces INSIDIAS",
-   "link": "https://bravewords.com/news/former-lamb-of-god-drummer-chris-adler-announces-insidias/",
-   "fonte": "BraveWords",
-   "data": "2026-11-26T20:24:26+00:00"
-  },
-  {
-   "titulo": "Watch: ALICE COOPER Opens Up About Addiction, Faith And Learning To Leave His Infamous Alter Ego Onstage; Video",
-   "link": "https://bravewords.com/news/watch-alice-cooper-opens-up-about-addiction-faith-and-learning-to-leave-his-infamous-alter-ego-onstage-video/",
-   "fonte": "BraveWords",
-   "data": "2026-11-26T19:58:24+00:00"
-  },
-  {
    "titulo": "GEORGE LYNCH Says He Was Recently Involved In Recording Sessions Based On Songs That Were Created Using A.I.",
    "link": "https://blabbermouth.net/news/george-lynch-says-he-was-recently-involved-in-recording-sessions-based-on-songs-that-were-created-using-a-i",
    "fonte": "Blabbermouth",
    "data": "2026-11-26T19:51:50+00:00"
-  },
-  {
-   "titulo": "JUDAS PRIEST, GOJIRA, MÖTLEY CRÜE, SLASH, EUROPE Among 300+ Bands Confirmed For Hellfest 2027",
-   "link": "https://bravewords.com/news/judas-priest-gojira-motley-crue-slash-europe-among-300-bands-confirmed-for-hellfest-2027/",
-   "fonte": "BraveWords",
-   "data": "2026-11-26T19:48:31+00:00"
   },
   {
    "titulo": "Peter Gabriel performs a modern musical miracle on the graceful o\\i",
@@ -18509,12 +18551,6 @@
    "link": "https://blabbermouth.net/news/alice-cooper-the-one-on-one-relationship-with-jesus-christ-is-very-important-to-me",
    "fonte": "Blabbermouth",
    "data": "2026-11-26T16:20:05+00:00"
-  },
-  {
-   "titulo": "King Crimson - Founding Drummer Passed Away",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64709",
-   "fonte": "Metal Storm",
-   "data": "2026-11-26T16:07:52+00:00"
   },
   {
    "titulo": "MUDVAYNE And HELLYEAH Vocalist CHAD GRAY On His Cover Of CHRISTINA AGUILERA's 'Beautiful': 'I Think I Gave It Some Teeth'",
@@ -18637,58 +18673,10 @@
    "data": "2026-11-25T21:02:09+00:00"
   },
   {
-   "titulo": "Two of the most influential bands from the '90s post-hardcore scene announce UK shows for 2027",
-   "link": "https://www.loudersound.com/bands-artists/two-of-the-most-influential-bands-from-the-90s-post-hardcore-scene-announce-uk-shows-for-2027",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-25T21:00:00+00:00"
-  },
-  {
-   "titulo": "Bob Seger pays tribute to late Silver Bullet Band bassist Chris Campbell",
-   "link": "https://www.loudersound.com/bands-artists/bob-seger-pays-tribute-to-late-silver-bullet-band-bassist-chris-campbell",
-   "fonte": "Metal Hammer",
-   "data": "2026-11-25T20:52:57+00:00"
-  },
-  {
-   "titulo": "Anthrax - Confirm European Headline Tour",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64708",
-   "fonte": "Metal Storm",
-   "data": "2026-11-25T20:33:21+00:00"
-  },
-  {
-   "titulo": "Overthrow (UK) - Deliver New Single",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64707",
-   "fonte": "Metal Storm",
-   "data": "2026-11-25T20:27:46+00:00"
-  },
-  {
-   "titulo": "Ulver - To Release 'Neverland II' Record Next Month",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64706",
-   "fonte": "Metal Storm",
-   "data": "2026-11-25T20:13:11+00:00"
-  },
-  {
-   "titulo": "Sacral Rage - 'Neo Ender' Song Premieres",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64705",
-   "fonte": "Metal Storm",
-   "data": "2026-11-25T20:02:38+00:00"
-  },
-  {
    "titulo": "Video Premiere: Drift Into Black – “Storm of the Demon”",
    "link": "https://www.decibelmagazine.com/2026/11/25/video-premiere-drift-into-black-storm-of-the-demon/",
    "fonte": "Decibel",
    "data": "2026-11-25T20:00:00+00:00"
-  },
-  {
-   "titulo": "Carcass - Announce European 2027 Spring Tour",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64704",
-   "fonte": "Metal Storm",
-   "data": "2026-11-25T19:55:11+00:00"
-  },
-  {
-   "titulo": "Reliqa - Sophomore Full Length Coming Out In February",
-   "link": "https://metalstorm.net/events/news_comments.php?news_id=64703",
-   "fonte": "Metal Storm",
-   "data": "2026-11-25T19:45:57+00:00"
   },
   {
    "titulo": "Paula Teles releases “Mátria”",
@@ -18887,12 +18875,6 @@
    "link": "https://metalinjection.net/news/metallica-gives-200k-to-fight-hunger-and-domestic-violence-in-las-vegas",
    "fonte": "Metal Injection",
    "data": "2026-11-23T17:39:53+00:00"
-  },
-  {
-   "titulo": "Hear Power Trip's 'GTA VI' Soundtrack Single \"Mutual Death Warrant\"",
-   "link": "https://metalinjection.net/new-music/power-trip-mutual-death-warrant-gta-6-streaming",
-   "fonte": "Metal Injection",
-   "data": "2026-11-23T16:16:47+00:00"
   }
  ]
 }
